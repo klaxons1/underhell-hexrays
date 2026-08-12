@@ -1,0 +1,102 @@
+// Pistol Dual Beretta
+
+WeaponData
+{
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"	"DEAGLE"
+	"viewmodel"			"models/weapons/v_pist_elite.mdl"
+	"playermodel"		"models/weapons/w_pist_elite.mdl"
+	"anim_prefix"		"pistol"
+	"bucket"			"1"
+	"bucket_position"	"6"
+
+	"clip_size"			"9"
+	"primary_ammo"		"357"
+	"secondary_ammo"	"None"
+
+	"weight"			"2"
+	"item_flags"		"0"
+	"BuiltRightHanded" "0" 
+	"AllowFlipping" "1"  
+
+	// Recoil and Viewpunch data
+
+	"PunchPitch"  "-3, -2"
+	"PunchYaw"    "-1, 1"
+	
+	"SnapPitch"   "-0.3, 0.2"
+	"SnapYaw"   "-0.2, 0.3"
+
+	"CrouchRecoilMult" "0.25" // lower values means less recoil
+	"CrouchAccuracyMult" "0.5" // lower values means more accurate
+	
+	"RunAccuracyMult" "1.5"
+
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+
+		"reload"		"Weapon_Pistol.Reload"
+		"reload_npc"		"Weapon_Pistol.NPC_Reload"
+		"empty"			"Weapon_Pistol.Empty"
+		"single_shot"		"Weapon_ELITE.Single"
+		"single_shot_npc"	"Weapon_Beretta.Npc.Single"
+	}
+
+	// Ironsight setting.
+ 	ExpOffset
+   	{
+		"x"   "-2"
+		"y"   "-2.87"
+		"z"   "0.17"
+
+		"xori"   "-1" 
+		"yori"   "0" 
+		"zori"   "0"
+		
+		"accuracy" "0.5"
+  	 }
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"weapon"
+		{
+			"file"		"sprites/hud/weapons/Duals"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		"weapon_s"
+		{
+			"file"		"sprites/hud/weapons/Duals"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		"ammo"
+		{
+				"font"		"WeaponIcons"
+				"character"	"p"
+		}
+		"crosshair"
+		{
+				"font"		"Crosshairs"
+				"character"	"Q"
+		}
+		"autoaim"
+		{
+				"file"		"sprites/crosshairs"
+				"x"			"0"
+				"y"			"48"
+				"width"		"24"
+				"height"	"24"
+		}
+	}
+
+}
+
+

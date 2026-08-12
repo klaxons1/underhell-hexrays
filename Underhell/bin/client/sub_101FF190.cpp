@@ -1,0 +1,72 @@
+char **sub_101FF190()
+{
+  if ( (dword_1046587C & 1) == 0 )
+  {
+    dword_1046587C |= 1u;
+    dword_103F2F40 = 3;
+    dword_103F2F58 = 3;
+    dword_103F2F70 = 3;
+    dword_103F2F88 = 3;
+    dword_103F2FA0 = 3;
+    dword_103F2FD0 = 10;
+    dword_103F2FE8 = 10;
+    dword_103F2F44 = 4;
+    dword_103F2F48 = 4;
+    dword_103F2F4C = 0;
+    dword_103F2F50 = (int)"operator end fadein";
+    dword_103F2F54 = (int)"0";
+    dword_103F2F5C = 8;
+    dword_103F2F60 = 4;
+    dword_103F2F64 = 0;
+    dword_103F2F68 = (int)"operator start fadeout";
+    dword_103F2F6C = (int)"0";
+    dword_103F2F74 = 12;
+    dword_103F2F78 = 4;
+    dword_103F2F7C = 0;
+    dword_103F2F80 = (int)"operator end fadeout";
+    dword_103F2F84 = (int)"0";
+    dword_103F2F8C = 16;
+    dword_103F2F90 = 4;
+    dword_103F2F94 = 0;
+    dword_103F2F98 = (int)"operator fade oscillate";
+    dword_103F2F9C = (int)"0";
+    dword_103F2FA4 = 20;
+    dword_103F2FA8 = 4;
+    dword_103F2FAC = 0;
+    dword_103F2FB0 = (int)"control point number";
+    dword_103F2FB4 = (int)"0";
+    dword_103F2FB8 = 2;
+    dword_103F2FBC = 68;
+    dword_103F2FC0 = 4;
+    dword_103F2FC4 = 0;
+    dword_103F2FC8 = (int)"plane point";
+    dword_103F2FCC = (int)"0 0 0";
+    dword_103F2FD4 = 44;
+    dword_103F2FD8 = 12;
+    dword_103F2FDC = 0;
+    dword_103F2FE0 = (int)"plane normal";
+    dword_103F2FE4 = (int)"0 0 1";
+    dword_103F2FEC = 56;
+    dword_103F2FF0 = 12;
+    dword_103F2FF4 = 0;
+    dword_103F2FF8 = (int)"global origin";
+    dword_103F2FFC = (int)"0";
+    dword_103F3000 = 4;
+    dword_103F3004 = 72;
+    dword_103F3008 = 1;
+    dword_103F300C = 0;
+    dword_103F3010 = (int)"global normal";
+    dword_103F3014 = (int)"0";
+    dword_103F3018 = 4;
+    dword_103F301C = 73;
+    dword_103F3020 = 1;
+    dword_103F3024 = 0;
+    dword_103F3028 = 0;
+    dword_103F302C = 0;
+    dword_103F3030 = 0;
+    dword_103F3034 = 0;
+    dword_103F3038 = 0;
+    dword_103F303C = 0;
+  }
+  return off_103F2F38;
+}

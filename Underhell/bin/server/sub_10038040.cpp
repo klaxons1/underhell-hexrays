@@ -1,0 +1,9 @@
+int (*__thiscall sub_10038040(_DWORD *this))(void)
+{
+  int (*result)(void); // eax
+
+  result = (int (*)(void))this[2];
+  if ( result )
+    return (int (*)(void))result();
+  return result;
+}

@@ -1,0 +1,35 @@
+int __stdcall sub_10142A00(char a1)
+{
+  int result; // eax
+  unsigned int i; // edi
+  int *v3; // esi
+  int v4; // edx
+
+  result = (*(int (__thiscall **)(int))(*(_DWORD *)dword_1041315C + 188))(dword_1041315C);
+  if ( result >= 90 )
+  {
+    for ( i = 0; i < 15; ++i )
+    {
+      result = (*(int (__thiscall **)(int, char *, const char *, int, _DWORD))(*(_DWORD *)dword_1047C96C + 280))(
+                 dword_1047C96C,
+                 off_103E7E9C[i],
+                 "ClientEffect textures",
+                 1,
+                 0);
+      v3 = (int *)result;
+      if ( result )
+      {
+        result = (*(int (__thiscall **)(int))(*(_DWORD *)result + 168))(result);
+        if ( !(_BYTE)result )
+        {
+          v4 = *v3;
+          if ( a1 )
+            result = (*(int (__fastcall **)(int *))(v4 + 48))(v3);
+          else
+            result = (*(int (__fastcall **)(int *))(v4 + 52))(v3);
+        }
+      }
+    }
+  }
+  return result;
+}

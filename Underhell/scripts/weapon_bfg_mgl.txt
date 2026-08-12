@@ -1,0 +1,89 @@
+// Shotgun XM1014
+
+WeaponData
+{
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"	"MGL"
+	"viewmodel"				"models/weapons/v_mgl_pg.mdl"
+	"playermodel"			"models/weapons/w_mgl_pg.mdl"
+	"anim_prefix"			"shotgun"
+	"bucket"				"5"
+	"bucket_position"		"2"
+
+	"clip_size"				"6"
+	"primary_ammo"			"SMG1_Grenade"
+	"secondary_ammo"		"None"
+
+	"default_clip"			"450"
+	"default_clip2"			"-1"
+
+	"weight"				"4"
+	"item_flags"			"0"
+
+	// Ironsight setting.
+ 	ExpOffset
+   	{
+		"x"   "-2"
+		"y"   "-3.86"
+		"z"   "0.2"
+
+		"xori"   "-3" 
+		"yori"   "0" 
+		"zori"   "0"
+		"accuracy" "0.5"
+  	 }
+
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+
+		"empty"				"Weapon_Shotgun.Empty"
+		"special"			"Weapon_MGL.Load"
+		"single_shot"		        "Weapon_MGL.Single"
+                "special1"                      "Weapon_MGL.Forward"
+                "special2"                      "Weapon_MGL.Back"
+		// NPC WEAPON SOUNDS
+		"reload_npc"		"Weapon_Shotgun.NPC_Reload"
+		"single_shot_npc"	"Weapon_MGL.NPC.Single"
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"weapon"
+		{
+			"file"		"sprites/hud/weapons/MGL"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		"weapon_s"
+		{
+			"file"		"sprites/hud/weapons/MGL"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		"ammo"
+		{
+				"font"		"WeaponIcons"
+				"character"	"t"
+		}
+		"crosshair"
+		{
+				"font"		"Crosshairs"
+				"character"	"Q"
+		}
+		"autoaim"
+		{
+				"file"		"sprites/crosshairs"
+				"x"			"0"
+				"y"			"48"
+				"width"		"24"
+				"height"	"24"
+		}
+	}
+}

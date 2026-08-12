@@ -1,0 +1,7 @@
+void *__thiscall sub_10057E10(void *this, char a2)
+{
+  sub_100B0D90();
+  if ( (a2 & 1) != 0 )
+    sub_10034930((int)this);
+  return this;
+}

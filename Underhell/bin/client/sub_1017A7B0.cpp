@@ -1,0 +1,26 @@
+int __thiscall sub_1017A7B0(
+        _DWORD *this,
+        int a2,
+        int a3,
+        float a4,
+        float a5,
+        float a6,
+        float a7,
+        float a8,
+        int a9,
+        char a10)
+{
+  if ( a10 )
+    this[94] |= a9;
+  else
+    this[94] |= a9 | 2;
+  return (*(int (__thiscall **)(_DWORD *, int, int, _DWORD, _DWORD, _DWORD, _DWORD, _DWORD))(this[65] + 16))(
+           this + 65,
+           a2,
+           a3,
+           LODWORD(a4),
+           LODWORD(a5),
+           LODWORD(a6),
+           LODWORD(a7),
+           LODWORD(a8));
+}

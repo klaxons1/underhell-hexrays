@@ -1,0 +1,7 @@
+_DWORD *__thiscall sub_101AAE50(_DWORD *this, char a2)
+{
+  *this = &CHLModeManager::`vftable';
+  if ( (a2 & 1) != 0 )
+    sub_10034930((int)this);
+  return this;
+}

@@ -1,0 +1,5 @@
+int sub_102C6010()
+{
+  sub_10229240(byte_1044E228, (int)"sk_npc_dmg_357", "0", 0x2000);
+  return atexit(sub_102CE180);
+}

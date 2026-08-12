@@ -1,0 +1,72 @@
+char **sub_10207130()
+{
+  if ( (dword_1046596C & 1) == 0 )
+  {
+    dword_1046596C |= 1u;
+    dword_103F4D0C = (int)"0";
+    dword_103F4D24 = (int)"0";
+    dword_103F4D3C = (int)"0";
+    dword_103F4D54 = (int)"0";
+    dword_103F4D6C = (int)"0";
+    dword_103F4D84 = (int)"0";
+    dword_103F4DB4 = (int)"1";
+    dword_103F4DCC = (int)"1";
+    dword_103F4CF8 = 3;
+    dword_103F4CFC = 4;
+    dword_103F4D00 = 4;
+    dword_103F4D04 = 0;
+    dword_103F4D08 = (int)"operator end fadein";
+    dword_103F4D10 = 3;
+    dword_103F4D14 = 8;
+    dword_103F4D18 = 4;
+    dword_103F4D1C = 0;
+    dword_103F4D20 = (int)"operator start fadeout";
+    dword_103F4D28 = 3;
+    dword_103F4D2C = 12;
+    dword_103F4D30 = 4;
+    dword_103F4D34 = 0;
+    dword_103F4D38 = (int)"operator end fadeout";
+    dword_103F4D40 = 3;
+    dword_103F4D44 = 16;
+    dword_103F4D48 = 4;
+    dword_103F4D4C = 0;
+    dword_103F4D50 = (int)"operator fade oscillate";
+    dword_103F4D58 = 3;
+    dword_103F4D5C = 20;
+    dword_103F4D60 = 4;
+    dword_103F4D64 = 0;
+    dword_103F4D68 = (int)"rotation_speed_constant";
+    dword_103F4D70 = 3;
+    dword_103F4D74 = 52;
+    dword_103F4D78 = 4;
+    dword_103F4D7C = 0;
+    dword_103F4D80 = (int)"rotation_speed_random_min";
+    dword_103F4D88 = 3;
+    dword_103F4D8C = 44;
+    dword_103F4D90 = 4;
+    dword_103F4D94 = 0;
+    dword_103F4D98 = (int)"rotation_speed_random_max";
+    dword_103F4D9C = (int)"360";
+    dword_103F4DA0 = 3;
+    dword_103F4DA4 = 48;
+    dword_103F4DA8 = 4;
+    dword_103F4DAC = 0;
+    dword_103F4DB0 = (int)"rotation_speed_random_exponent";
+    dword_103F4DB8 = 3;
+    dword_103F4DBC = 68;
+    dword_103F4DC0 = 4;
+    dword_103F4DC4 = 0;
+    dword_103F4DC8 = (int)"randomly_flip_direction";
+    dword_103F4DD0 = 4;
+    dword_103F4DD4 = 72;
+    dword_103F4DD8 = 1;
+    dword_103F4DDC = 0;
+    dword_103F4DE0 = 0;
+    dword_103F4DE4 = 0;
+    dword_103F4DE8 = 0;
+    dword_103F4DEC = 0;
+    dword_103F4DF0 = 0;
+    dword_103F4DF4 = 0;
+  }
+  return off_103F4CF0;
+}

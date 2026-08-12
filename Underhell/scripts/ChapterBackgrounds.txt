@@ -1,0 +1,5 @@
+"chapters"
+{
+	1	"background001"
+	2	"background002"
+}

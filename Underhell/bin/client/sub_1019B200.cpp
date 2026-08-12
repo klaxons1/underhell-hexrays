@@ -1,0 +1,46 @@
+int __thiscall sub_1019B200(int this)
+{
+  sub_10024A10((_DWORD *)this);
+  *(_DWORD *)this = &C_Strider::`vftable';
+  *(_DWORD *)(this + 4) = &C_Strider::`vftable';
+  *(_DWORD *)(this + 8) = &C_Strider::`vftable';
+  *(_DWORD *)(this + 12) = &C_Strider::`vftable';
+  sub_10179270((_DWORD *)(this + 3384));
+  *(_DWORD *)(this + 3384) = &C_StriderFX::`vftable';
+  *(_DWORD *)(this + 3388) = &C_StriderFX::`vftable';
+  *(_DWORD *)(this + 3428) = 0;
+  *(_BYTE *)(this + 3404) = 0;
+  *(_DWORD *)(this + 3552) = &CInterpolatedVarArrayBase<Vector,0>::`vftable';
+  *(_DWORD *)(this + 3560) = 0;
+  *(_DWORD *)(this + 3564) = 0;
+  *(_DWORD *)(this + 3568) = 0x100000;
+  sub_10038BE0((unsigned __int16 *)(this + 3560), 4);
+  *(float *)(this + 3588) = 0.0;
+  *(float *)(this + 3576) = 0.0;
+  *(_DWORD *)(this + 3592) = "C_Strider::m_iv_vecHitPos";
+  *(_DWORD *)(this + 3556) = 0;
+  *(_WORD *)(this + 3580) = 1;
+  *(_DWORD *)(this + 3572) = 0;
+  *(_DWORD *)(this + 3584) = 0;
+  *(_DWORD *)(this + 3552) = &CInterpolatedVar<Vector>::`vftable';
+  sub_1010EC10((unsigned __int8 *)(this + 3552), 1);
+  *(_DWORD *)(this + 3596) = &CInterpolatedVarArrayBase<Vector,1>::`vftable';
+  *(_DWORD *)(this + 3604) = 0;
+  *(_DWORD *)(this + 3608) = 0;
+  *(_DWORD *)(this + 3612) = 0x100000;
+  sub_10027660((unsigned __int16 *)(this + 3604), 4);
+  *(float *)(this + 3632) = 0.0;
+  *(float *)(this + 3620) = 0.0;
+  *(_DWORD *)(this + 3636) = "C_Strider::m_iv_vecIKTarget";
+  *(_DWORD *)(this + 3600) = 0;
+  *(_WORD *)(this + 3624) = 1;
+  *(_DWORD *)(this + 3616) = 0;
+  *(_DWORD *)(this + 3628) = 0;
+  *(_DWORD *)(this + 3596) = &CInterpolatedVarArray<Vector,6>::`vftable';
+  sub_1010EC10((unsigned __int8 *)(this + 3596), 6);
+  sub_1003CF30((int *)this, this + 3468, (int *)(this + 3552), 1, 0);
+  memset((void *)(this + 3480), 0, 0x48u);
+  sub_1003CF30((int *)this, this + 3480, (int *)(this + 3596), 1, 0);
+  *(float *)(this + 3664) = 0.0;
+  return this;
+}

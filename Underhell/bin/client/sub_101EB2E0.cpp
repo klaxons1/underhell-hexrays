@@ -1,0 +1,35 @@
+int __thiscall sub_101EB2E0(int this, unsigned __int16 a2)
+{
+  unsigned __int16 v3; // bx
+  int v4; // ebp
+  __int16 *v5; // eax
+  int result; // eax
+
+  v3 = sub_101EAC70((_DWORD *)this, a2)[1];
+  v4 = 12 * a2;
+  *(_WORD *)(*(_DWORD *)(this + 4) + v4 + 2) = *sub_101EAC70((_DWORD *)this, v3);
+  if ( *sub_101EAC70((_DWORD *)this, v3) != -1 )
+    *(_WORD *)(*(_DWORD *)(this + 4) + 12 * (unsigned __int16)*sub_101EAC70((_DWORD *)this, v3) + 4) = a2;
+  if ( v3 != 0xFFFF )
+    *(_WORD *)(*(_DWORD *)(this + 4) + 12 * v3 + 4) = sub_101EAC70((_DWORD *)this, a2)[2];
+  if ( a2 == *(_WORD *)(this + 16) )
+  {
+    *(_WORD *)(this + 16) = v3;
+  }
+  else
+  {
+    v5 = sub_101EAC70((_DWORD *)this, a2);
+    if ( *sub_101EAC70((_DWORD *)this, v5[2]) == a2 )
+      *(_WORD *)(*(_DWORD *)(this + 4) + 12 * (unsigned __int16)sub_101EAC70((_DWORD *)this, a2)[2]) = v3;
+    else
+      *(_WORD *)(*(_DWORD *)(this + 4) + 12 * (unsigned __int16)sub_101EAC70((_DWORD *)this, a2)[2] + 2) = v3;
+  }
+  result = v3;
+  *(_WORD *)(*(_DWORD *)(this + 4) + 12 * v3) = a2;
+  if ( a2 != 0xFFFF )
+  {
+    result = *(_DWORD *)(this + 4);
+    *(_WORD *)(result + v4 + 4) = v3;
+  }
+  return result;
+}

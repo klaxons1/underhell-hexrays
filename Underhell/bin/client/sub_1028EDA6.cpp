@@ -1,0 +1,6 @@
+std::exception *__thiscall sub_1028EDA6(std::exception *this, char *a2)
+{
+  std::exception::exception(this, &a2);
+  *(_DWORD *)this = &std::bad_cast::`vftable';
+  return this;
+}

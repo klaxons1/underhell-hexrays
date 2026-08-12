@@ -1,0 +1,42 @@
+void *__thiscall sub_10101C70(void *this, int a2)
+{
+  *(_DWORD *)this = *(_DWORD *)a2;
+  *((_DWORD *)this + 1) = *(_DWORD *)(a2 + 4);
+  *((_DWORD *)this + 2) = *(_DWORD *)(a2 + 8);
+  *((float *)this + 3) = *(float *)(a2 + 12);
+  *((float *)this + 4) = *(float *)(a2 + 16);
+  *((float *)this + 5) = *(float *)(a2 + 20);
+  *((_DWORD *)this + 6) = *(_DWORD *)(a2 + 24);
+  *((_DWORD *)this + 7) = *(_DWORD *)(a2 + 28);
+  *((_DWORD *)this + 8) = *(_DWORD *)(a2 + 32);
+  *((_DWORD *)this + 9) = *(_DWORD *)(a2 + 36);
+  *((float *)this + 10) = *(float *)(a2 + 40);
+  *((float *)this + 11) = *(float *)(a2 + 44);
+  *((float *)this + 12) = *(float *)(a2 + 48);
+  *((_DWORD *)this + 13) = *(_DWORD *)(a2 + 52);
+  *((_DWORD *)this + 14) = *(_DWORD *)(a2 + 56);
+  *((_DWORD *)this + 15) = *(_DWORD *)(a2 + 60);
+  *((_DWORD *)this + 16) = *(_DWORD *)(a2 + 64);
+  *((float *)this + 17) = *(float *)(a2 + 68);
+  *((float *)this + 18) = *(float *)(a2 + 72);
+  *((float *)this + 19) = *(float *)(a2 + 76);
+  *((float *)this + 20) = *(float *)(a2 + 80);
+  *((float *)this + 21) = *(float *)(a2 + 84);
+  *((float *)this + 22) = *(float *)(a2 + 88);
+  *((float *)this + 23) = *(float *)(a2 + 92);
+  *((float *)this + 24) = *(float *)(a2 + 96);
+  *((float *)this + 25) = *(float *)(a2 + 100);
+  *((float *)this + 26) = *(float *)(a2 + 104);
+  *((_DWORD *)this + 27) = *(_DWORD *)(a2 + 108);
+  *((_DWORD *)this + 28) = *(_DWORD *)(a2 + 112);
+  *((_DWORD *)this + 29) = *(_DWORD *)(a2 + 116);
+  *((_DWORD *)this + 30) = *(_DWORD *)(a2 + 120);
+  *((_BYTE *)this + 124) = *(_BYTE *)(a2 + 124);
+  sub_10100FC0((float *)this + 32, (float *)(a2 + 128));
+  sub_10101040((_BYTE *)this + 200, a2 + 200);
+  *((_DWORD *)this + 81) = *(_DWORD *)(a2 + 324);
+  *((_DWORD *)this + 82) = *(_DWORD *)(a2 + 328);
+  *((_DWORD *)this + 83) = *(_DWORD *)(a2 + 332);
+  *((_DWORD *)this + 84) = *(_DWORD *)(a2 + 336);
+  return this;
+}

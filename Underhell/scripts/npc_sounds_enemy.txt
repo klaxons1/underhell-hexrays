@@ -1,0 +1,6347 @@
+//****************PROLOGUE******************
+
+"Prologue.Enemy.Perp.Attack.1"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_90dB"
+   "wave"          "vo\Enemy\Prologue\Enemy.Perp.Attack.1.wav"
+}
+"Prologue.Enemy.Perp.Attack.2"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_90dB"
+   "wave"          "vo\Enemy\Prologue\Enemy.Perp.Attack.2.wav"
+}
+
+"Prologue.Enemy.Perp.Surrender.1"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Prologue\Enemy.Perp.Surrender.1.wav"
+}
+
+"Prologue.Enemy.Perp.Threat.1"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Prologue\Enemy.Perp.Threat.1.wav"
+}
+
+"Prologue.Enemy.Perp.Threat.2"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Prologue\Enemy.Perp.Threat.2.wav"
+}
+
+"Prologue.Enemy.Danko.Raid.1"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NONE"
+   "wave"          "vo\Enemy\Prologue\Enemy.Danko.Raid.1.wav"
+}
+
+"Prologue.Enemy.Argue.1"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Prologue\Enemy.Soldiers.Argue.1.wav"
+}
+"Prologue.Enemy.Argue.2"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Prologue\Enemy.Soldiers.Argue.2.wav"
+}
+"Prologue.Enemy.Argue.3"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Prologue\Enemy.Soldiers.Argue.3.wav"
+}
+"Prologue.Enemy.Argue.4"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Prologue\Enemy.Soldiers.Argue.4.wav"
+}
+"Prologue.Enemy.Commander.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Royce\Enemy.Commander.1.wav"
+}
+"Prologue.Enemy.Commander.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Royce\Enemy.Commander.2.wav"
+}
+"Prologue.Enemy.ARC.Command1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NONE"
+   "wave"          "vo\Enemy\Chapter1\Enemy.ARC.Command1.wav"
+}
+"Prologue.Enemy.ARC.Command2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NONE"
+   "wave"          "vo\Enemy\Chapter1\Enemy.ARC.Command2.wav"
+}
+"Prologue.Enemy.Pilot1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NONE"
+   "wave"          "vo\Enemy\Chapter1\Enemy.Pilot1.wav"
+}
+"Prologue.Enemy.Pilot2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NONE"
+   "wave"          "vo\Enemy\Chapter1\Enemy.Pilot2.wav"
+}
+"Prologue.Enemy.Pilot3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NONE"
+   "wave"          "vo\Enemy\Chapter1\Enemy.Pilot3.wav"
+}
+"Prologue.Enemy.Pilot4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NONE"
+   "wave"          "vo\Enemy\Chapter1\Enemy.Pilot4.wav"
+}
+"Prologue.Enemy.Copter.GUARD1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NONE"
+   "wave"          "vo\Enemy\Chapter1\Enemy.Copter.GUARD1.wav"
+}
+"Prologue.Enemy.Copter.GUARD2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NONE"
+   "wave"          "vo\Enemy\Chapter1\Enemy.Copter.GUARD2.wav"
+}
+"Prologue.Enemy.Copter.GUARD3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NONE"
+   "wave"          "vo\Enemy\Chapter1\Enemy.Copter.GUARD3.wav"
+}
+"Prologue.Enemy.Copter.GUARD4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NONE"
+   "wave"          "vo\Enemy\Chapter1\Enemy.Copter.GUARD4.wav"
+}
+"Prologue.Enemy.Copter.GUARD5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NONE"
+   "wave"          "vo\Enemy\Chapter1\Enemy.Copter.GUARD5.wav"
+}
+
+"Prologue.Ending1.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NONE"
+   "wave"          "vo\Enemy\Prologue\PrologueEnding1.1.wav"
+}
+"Prologue.Ending1.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NONE"
+   "wave"          "vo\Enemy\Prologue\PrologueEnding1.2.wav"
+}
+"Prologue.Ending1.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NONE"
+   "wave"          "vo\Enemy\Prologue\PrologueEnding1.3.wav"
+}
+
+"Prologue.Ending2.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NONE"
+   "wave"          "vo\Enemy\Prologue\PrologueEnding2.1.wav"
+}
+"Prologue.Ending2.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NONE"
+   "wave"          "vo\Enemy\Prologue\PrologueEnding2.2.wav"
+}
+
+//****************CHAPTER 1******************
+
+//**********Ito************
+
+"Chapter1.Ito.RaitoUnveiling.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Ito\Ito.RaitoUnveiling.1.wav"
+}
+"Chapter1.Ito.RaitoUnveiling.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Ito\Ito.RaitoUnveiling.2.wav"
+}
+"Chapter1.Ito.RaitoUnveiling.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Ito\Ito.RaitoUnveiling.3.wav"
+}
+"Chapter1.Ito.RaitoUnveiling.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Ito\Ito.RaitoUnveiling.4.wav"
+}
+
+"Chapter1.Ito.DejaVu.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Ito\Ito.DejaVu.1.wav"
+}
+"Chapter1.Ito.DejaVu.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Ito\Ito.DejaVu.2.wav"
+}
+"Chapter1.Ito.DejaVu.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Ito\Ito.DejaVu.3.wav"
+}
+"Chapter1.Ito.DejaVu.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Ito\Ito.DejaVu.4.wav"
+}
+"Chapter1.Ito.DejaVu.5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Ito\Ito.DejaVu.5.wav"
+}
+"Chapter1.Ito.DejaVu.6"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Ito\Ito.DejaVu.6.wav"
+}
+"Chapter1.Ito.DejaVu.7"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Ito\Ito.DejaVu.7.wav"
+}
+"Chapter1.Ito.DejaVu.8"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Ito\Ito.DejaVu.8.wav"
+}
+"Chapter1.Ito.DejaVu.9"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Ito\Ito.DejaVu.9.wav"
+}
+"Chapter1.Ito.DejaVu.10"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Ito\Ito.DejaVu.10.wav"
+}
+"Chapter1.Ito.DejaVu.11"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Ito\Ito.DejaVu.11.wav"
+}
+"Chapter1.Ito.DejaVu.12"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Ito\Ito.DejaVu.12.wav"
+}
+"Chapter1.Ito.DejaVu.13"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Ito\Ito.DejaVu.13.wav"
+}
+"Chapter1.Ito.DejaVu.14"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Ito\Ito.DejaVu.14.wav"
+}
+"Chapter1.Ito.DejaVu.15"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Ito\Ito.DejaVu.15.wav"
+}
+"Chapter1.Ito.DejaVu.16"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Ito\Ito.DejaVu.16.wav"
+}
+"Chapter1.Ito.DejaVu.17"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Ito\Ito.DejaVu.17.wav"
+}
+"Chapter1.Ito.DejaVu.18"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Ito\Ito.DejaVu.18.wav"
+}
+
+"Chapter1.Ito.TheFall.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Ito\Ito.TheFall.1.wav"
+}
+
+
+//**********Marcus************
+
+"Chapter1.Marcus.Monitors.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Marcus\Marcus.Monitors.1.wav"
+}
+"Chapter1.Marcus.Monitors.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Marcus\Marcus.Monitors.2.wav"
+}
+"Chapter1.Marcus.Monitors.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Marcus\Marcus.Monitors.3.wav"
+}
+"Chapter1.Marcus.Monitors.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Marcus\Marcus.Monitors.4.wav"
+}
+"Chapter1.Marcus.Monitors.5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Marcus\Marcus.Monitors.5.wav"
+}
+"Chapter1.Marcus.Monitors.6"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Marcus\Marcus.Monitors.6.wav"
+}
+"Chapter1.Marcus.Monitors.7"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Marcus\Marcus.Monitors.7.wav"
+}
+
+"Chapter1.Marcus.Spotted.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Marcus\Marcus.Spotted.1.wav"
+}
+"Chapter1.Marcus.Spotted.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Marcus\Marcus.Spotted.2.wav"
+}
+"Chapter1.Marcus.Spotted.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Marcus\Marcus.Spotted.3.wav"
+}
+"Chapter1.Marcus.Spotted.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Marcus\Marcus.Spotted.4.wav"
+}
+
+"Chapter1.Marcus.CountDown.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Marcus\Marcus.CountDown.1.wav"
+}
+"Chapter1.Marcus.CountDown.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Marcus\Marcus.CountDown.2.wav"
+}
+"Chapter1.Marcus.CountDown.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Marcus\Marcus.CountDown.3.wav"
+}
+"Chapter1.Marcus.CountDown.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Marcus\Marcus.CountDown.4.wav"
+}
+"Chapter1.Marcus.CountDown.5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Marcus\Marcus.CountDown.5.wav"
+}
+"Chapter1.Marcus.CountDown.6"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Marcus\Marcus.CountDown.6.wav"
+}
+"Chapter1.Marcus.CountDown.7"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Marcus\Marcus.CountDown.7.wav"
+}
+"Chapter1.Marcus.CountDown.8"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Marcus\Marcus.CountDown.8.wav"
+}
+"Chapter1.Marcus.CountDown.9"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Marcus\Marcus.CountDown.9.wav"
+}
+"Chapter1.Marcus.CountDown.10"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Marcus\Marcus.CountDown.10.wav"
+}
+"Chapter1.Marcus.CountDown.TimeUp"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Marcus\Marcus.CountDown.TimeUp.wav"
+}
+
+"Chapter1.Marcus.Prisoner.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Marcus\Marcus.Prisoner.1.wav"
+}
+"Chapter1.Marcus.Prisoner.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Marcus\Marcus.Prisoner.2.wav"
+}
+"Chapter1.Marcus.Prisoner.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Marcus\Marcus.Prisoner.3.wav"
+}
+
+"Chapter1.Marcus.BattleStart.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_90dB"
+   "wave"          "vo\Enemy\Chapter1\Marcus\Marcus.BattleStart.1.wav"
+}
+"Chapter1.Marcus.BattleStart.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_90dB"
+   "wave"          "vo\Enemy\Chapter1\Marcus\Marcus.BattleStart.2.wav"
+}
+"Chapter1.Marcus.BattleStart.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_90dB"
+   "wave"          "vo\Enemy\Chapter1\Marcus\Marcus.BattleStart.3.wav"
+}
+"Chapter1.Marcus.BattleStart.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_90dB"
+   "wave"          "vo\Enemy\Chapter1\Marcus\Marcus.BattleStart.4.wav"
+}
+"Chapter1.Marcus.BattleStart.5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_90dB"
+   "wave"          "vo\Enemy\Chapter1\Marcus\Marcus.BattleStart.5.wav"
+}
+
+"Chapter1.Marcus.Taunt.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_90dB"
+   "wave"          "vo\Enemy\Chapter1\Marcus\Marcus.Taunt.1.wav"
+}
+"Chapter1.Marcus.Taunt.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_90dB"
+   "wave"          "vo\Enemy\Chapter1\Marcus\Marcus.Taunt.2.wav"
+}
+"Chapter1.Marcus.Taunt.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_90dB"
+   "wave"          "vo\Enemy\Chapter1\Marcus\Marcus.Taunt.3.wav"
+}
+"Chapter1.Marcus.Taunt.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_90dB"
+   "wave"          "vo\Enemy\Chapter1\Marcus\Marcus.Taunt.4.wav"
+}
+"Chapter1.Marcus.Taunt.5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_90dB"
+   "wave"          "vo\Enemy\Chapter1\Marcus\Marcus.Taunt.5.wav"
+}
+"Chapter1.Marcus.Taunt.6"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_90dB"
+   "wave"          "vo\Enemy\Chapter1\Marcus\Marcus.Taunt.6.wav"
+}
+"Chapter1.Marcus.Taunt.7"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_90dB"
+   "wave"          "vo\Enemy\Chapter1\Marcus\Marcus.Taunt.7.wav"
+}
+"Chapter1.Marcus.Taunt.8"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_90dB"
+   "wave"          "vo\Enemy\Chapter1\Marcus\Marcus.Taunt.8.wav"
+}
+"Chapter1.Marcus.Taunt.9"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_90dB"
+   "wave"          "vo\Enemy\Chapter1\Marcus\Marcus.Taunt.9.wav"
+}
+
+//**********Victor************
+
+"Chapter1.Victor.Kitchen.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Victor.Kitchen.1.wav"
+}
+"Chapter1.Victor.Kitchen.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Victor.Kitchen.2.wav"
+}
+"Chapter1.Victor.Kitchen.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Victor.Kitchen.3.wav"
+}
+"Chapter1.Victor.Kitchen.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Victor.Kitchen.4.wav"
+}
+"Chapter1.Victor.Kitchen.5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Victor.Kitchen.5.wav"
+}
+"Chapter1.Victor.Kitchen.6"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Victor.Kitchen.6.wav"
+}
+"Chapter1.Victor.Kitchen.7"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Victor.Kitchen.7.wav"
+}
+"Chapter1.Victor.Kitchen.8"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Victor.Kitchen.8.wav"
+}
+"Chapter1.Victor.Kitchen.9"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Victor.Kitchen.9.wav"
+}
+
+//**********Angelo************
+
+"Chapter1.Angelo.Voice.Random"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+  	"soundlevel"		"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"	"vo\Enemy\Chapter1\Angelo\Angelo.Voice.1.wav"
+		"wave"	"vo\Enemy\Chapter1\Angelo\Angelo.Voice.2.wav"
+		"wave"	"vo\Enemy\Chapter1\Angelo\Angelo.Voice.3.wav"
+		"wave"	"vo\Enemy\Chapter1\Angelo\Angelo.Voice.4.wav"
+		"wave"	"vo\Enemy\Chapter1\Angelo\Angelo.Voice.5.wav"
+		"wave"	"vo\Enemy\Chapter1\Angelo\Angelo.Voice.6.wav"
+		"wave"	"vo\Enemy\Chapter1\Angelo\Angelo.Voice.7.wav"
+		"wave"	"vo\Enemy\Chapter1\Angelo\Angelo.Voice.8.wav"
+		"wave"	"vo\Enemy\Chapter1\Angelo\Angelo.Voice.9.wav"
+	}
+}
+
+"Chapter1.Angelo.Scream.Random"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+  	"soundlevel"		"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"	"vo\Enemy\Chapter1\Angelo\Angelo.Scream.1.wav"
+		"wave"	"vo\Enemy\Chapter1\Angelo\Angelo.Scream.2.wav"
+		"wave"	"vo\Enemy\Chapter1\Angelo\Angelo.Scream.3.wav"
+		"wave"	"vo\Enemy\Chapter1\Angelo\Angelo.Scream.4.wav"
+		"wave"	"vo\Enemy\Chapter1\Angelo\Angelo.Scream.5.wav"
+		"wave"	"vo\Enemy\Chapter1\Angelo\Angelo.Scream.6.wav"
+
+	}
+}
+
+"Chapter1.Angelo.Tape.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Angelo\Angelo.Tape.1.wav"
+}
+"Chapter1.Angelo.Tape.1.Caption.1"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+  	 "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample2.wav"
+}
+"Chapter1.Angelo.Tape.1.Caption.2"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.1.Caption.3"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.1.Caption.4"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.1.Caption.5"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.1.Caption.6"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.1.Caption.7"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.1.Caption.8"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.1.Caption.9"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.1.Caption.10"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.1.Caption.11"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.1.Caption.12"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.1.Caption.13"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.1.Caption.14"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.1.Caption.15"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.1.Caption.16"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.1.Caption.17"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.1.Caption.18"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.1.Caption.19"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.1.Caption.20"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.1.Caption.21"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.1.Caption.22"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.1.Caption.23"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.1.Caption.24"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.1.Caption.25"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+
+"Chapter1.Angelo.Tape.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Angelo\Angelo.Tape.2.wav"
+}
+"Chapter1.Angelo.Tape.2.Caption.1"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.2.Caption.2"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.2.Caption.3"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.2.Caption.4"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.2.Caption.5"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.2.Caption.6"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.2.Caption.7"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.2.Caption.8"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.2.Caption.9"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.2.Caption.10"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.2.Caption.11"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.2.Caption.12"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.2.Caption.13"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.2.Caption.14"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.2.Caption.15"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.2.Caption.16"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.2.Caption.17"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.2.Caption.18"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.2.Caption.19"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.2.Caption.20"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.2.Caption.21"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.2.Caption.22"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.2.Caption.23"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.2.Caption.24"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.2.Caption.25"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.2.Caption.26"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.2.Caption.27"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.2.Caption.28"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.2.Caption.29"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.2.Caption.30"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.2.Caption.31"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.2.Caption.32"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.2.Caption.33"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.2.Caption.34"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.2.Caption.35"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.2.Caption.36"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.2.Caption.37"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+
+"Chapter1.Angelo.Tape.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Angelo\Angelo.Tape.3.wav"
+}
+"Chapter1.Angelo.Tape.3.Caption.1"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.3.Caption.2"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.3.Caption.3"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.3.Caption.4"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.3.Caption.5"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.3.Caption.6"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.3.Caption.7"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.3.Caption.8"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.3.Caption.9"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.3.Caption.10"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.3.Caption.11"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.3.Caption.12"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.3.Caption.13"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.3.Caption.14"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.3.Caption.15"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.3.Caption.16"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.3.Caption.17"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.3.Caption.18"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.3.Caption.19"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.3.Caption.20"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.3.Caption.21"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.3.Caption.22"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.3.Caption.23"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.3.Caption.24"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.3.Caption.25"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.3.Caption.26"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.3.Caption.27"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.3.Caption.28"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.3.Caption.29"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.3.Caption.30"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.3.Caption.31"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.3.Caption.32"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.3.Caption.33"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.3.Caption.34"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.3.Caption.35"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.3.Caption.36"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.3.Caption.37"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.3.Caption.38"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.3.Caption.39"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.3.Caption.39"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+
+"Chapter1.Angelo.Tape.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Angelo\Angelo.Tape.4.wav"
+}
+"Chapter1.Angelo.Tape.4.Caption.1"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.4.Caption.2"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.4.Caption.3"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.4.Caption.4"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.4.Caption.5"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.4.Caption.6"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.4.Caption.7"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.4.Caption.8"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.4.Caption.9"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.4.Caption.10"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.4.Caption.11"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.4.Caption.12"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.4.Caption.13"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.4.Caption.14"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.4.Caption.15"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.4.Caption.16"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.4.Caption.17"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.4.Caption.18"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.4.Caption.19"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.4.Caption.20"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.4.Caption.21"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.4.Caption.22"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.4.Caption.23"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.4.Caption.24"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.4.Caption.25"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.4.Caption.26"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.4.Caption.27"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.4.Caption.28"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.4.Caption.29"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.4.Caption.30"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.4.Caption.31"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.4.Caption.32"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.4.Caption.33"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.4.Caption.34"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.4.Caption.35"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+
+"Chapter1.Angelo.Tape.5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Angelo\Angelo.Tape.5.wav"
+}
+"Chapter1.Angelo.Tape.5.Caption.1"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.5.Caption.2"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.5.Caption.3"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.5.Caption.4"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.5.Caption.5"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.5.Caption.6"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.5.Caption.7"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.5.Caption.8"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.5.Caption.9"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.5.Caption.10"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.5.Caption.11"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.5.Caption.12"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.5.Caption.13"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.5.Caption.14"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.5.Caption.15"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.5.Caption.16"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.5.Caption.17"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.5.Caption.18"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.5.Caption.19"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.5.Caption.20"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.5.Caption.21"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.5.Caption.22"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.5.Caption.23"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.5.Caption.24"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.5.Caption.25"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.5.Caption.26"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.5.Caption.27"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.5.Caption.28"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.5.Caption.29"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.5.Caption.30"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+
+"Chapter1.Angelo.Tape.6"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Angelo\Angelo.Tape.6.wav"
+}
+"Chapter1.Angelo.Tape.6.Caption.1"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.6.Caption.2"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.6.Caption.3"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.6.Caption.4"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.6.Caption.5"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.6.Caption.6"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.6.Caption.7"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.6.Caption.8"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.6.Caption.9"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.6.Caption.10"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.6.Caption.11"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.6.Caption.12"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.6.Caption.13"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.6.Caption.14"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.6.Caption.15"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.6.Caption.16"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.6.Caption.17"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.6.Caption.18"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.6.Caption.19"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.6.Caption.20"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.6.Caption.21"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.6.Caption.22"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.6.Caption.23"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.6.Caption.24"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.6.Caption.25"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.6.Caption.26"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.Angelo.Tape.6.Caption.27"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+
+
+//**********Misc************
+
+
+"Chapter1.GuardEscort02.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NONE"
+   "wave"          "vo\Enemy\Chapter1\GuardEscort02.1.wav"
+}
+"Chapter1.GuardEscort02.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_90dB"
+   "wave"          "vo\Enemy\Chapter1\GuardEscort02.2.wav"
+}
+"Chapter1.GuardEscort02.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_90dB"
+   "wave"          "vo\Enemy\Chapter1\GuardEscort02.3.wav"
+}
+"Chapter1.GuardEscort02.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_90dB"
+   "wave"          "vo\Enemy\Chapter1\GuardEscort02.4.wav"
+}
+"Chapter1.GuardEscort02.5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_90dB"
+   "wave"          "vo\Enemy\Chapter1\GuardEscort02.5.wav"
+}
+"Chapter1.GuardEscort02.6"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_90dB"
+   "wave"          "vo\Enemy\Chapter1\GuardEscort02.6.wav"
+}
+"Chapter1.GuardEscort02.7"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_90dB"
+   "wave"          "vo\Enemy\Chapter1\GuardEscort02.7.wav"
+}
+"Chapter1.GuardEscort02.8"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_90dB"
+   "wave"          "vo\Enemy\Chapter1\GuardEscort02.8.wav"
+}
+"Chapter1.GuardEscort02.9"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_90dB"
+   "wave"          "vo\Enemy\Chapter1\GuardEscort02.9.wav"
+}
+"Chapter1.GuardEscort02.10"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_90dB"
+   "wave"          "vo\Enemy\Chapter1\GuardEscort02.10.wav"
+}
+"Chapter1.GuardEscort02.11"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_90dB"
+   "wave"          "vo\Enemy\Chapter1\GuardEscort02.11.wav"
+}
+"Chapter1.GuardEscort02.12"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_90dB"
+   "wave"          "vo\Enemy\Chapter1\GuardEscort02.12.wav"
+}
+"Chapter1.GuardEscort02.13"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_90dB"
+   "wave"          "vo\Enemy\Chapter1\GuardEscort02.13.wav"
+}
+"Chapter1.GuardEscort02.14"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_90dB"
+   "wave"          "vo\Enemy\Chapter1\GuardEscort02.14.wav"
+}
+"Chapter1.GuardEscort02.15"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_90dB"
+   "wave"          "vo\Enemy\Chapter1\GuardEscort02.15.wav"
+}
+"Chapter1.GuardEscort02.16"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_90dB"
+   "wave"          "vo\Enemy\Chapter1\GuardEscort02.16.wav"
+}
+"Chapter1.GuardEscort02.17"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_90dB"
+   "wave"          "vo\Enemy\Chapter1\GuardEscort02.17.wav"
+}
+"Chapter1.GuardEscort02.18"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_90dB"
+   "wave"          "vo\Enemy\Chapter1\GuardEscort02.18.wav"
+}
+"Chapter1.GuardEscort02.19"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_90dB"
+   "wave"          "vo\Enemy\Chapter1\GuardEscort02.19.wav"
+}
+"Chapter1.GuardEscort02.20"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_90dB"
+   "wave"          "vo\Enemy\Chapter1\GuardEscort02.20.wav"
+}"Chapter1.GuardEscort02.21"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_90dB"
+   "wave"          "vo\Enemy\Chapter1\GuardEscort02.21.wav"
+}
+"Chapter1.GuardEscort02.22"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_90dB"
+   "wave"          "vo\Enemy\Chapter1\GuardEscort02.22.wav"
+}
+"Chapter1.GuardEscort02.23"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_90dB"
+   "wave"          "vo\Enemy\Chapter1\GuardEscort02.23.wav"
+}
+"Chapter1.GuardEscort02.24"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_90dB"
+   "wave"          "vo\Enemy\Chapter1\GuardEscort02.24.wav"
+}
+"Chapter1.GuardControl1.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\GuardControl1.1.wav"
+}
+"Chapter1.GuardControl1.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\GuardControl1.2.wav"
+}
+"Chapter1.GuardControl1.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\GuardControl1.3.wav"
+}
+"Chapter1.GuardControl.Cantina.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\GuardControlCantina.1.wav"
+}
+"Chapter1.GuardControl.Cantina.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\GuardControlCantina.2.wav"
+}
+"Chapter1.GuardControl.Cantina.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\GuardControlCantina.3.wav"
+}
+"Chapter1.GuardControl.Cantina.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\GuardControlCantina.4.wav"
+}
+"Chapter1.GuardControl.Showers.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\GuardControl.Showers.1.wav"
+}
+"Chapter1.GuardControl.Showers.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\GuardControl.Showers.2.wav"
+}
+"Chapter1.GuardControl.Showers.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\GuardControl.Showers.3.wav"
+}
+"Chapter1.GuardControl.Showers.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\GuardControl.Showers.4.wav"
+}
+"Chapter1.GuardEscortInmates.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\GuardEscortInmates.1.wav"
+}
+"Chapter1.GuardEscortInmates.1.Open"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\GuardEscortInmates.1.Open.wav"
+}
+"Chapter1.GuardEscortInmates.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\GuardEscortInmates.2.wav"
+}
+"Chapter1.GuardEscortInmates.2.Open"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\GuardEscortInmates.2.Open.wav"
+}
+
+
+"Chapter1.Guard.OpeningCells"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Guard.OpeningCells.1.wav"
+}
+"Chapter1.Guard.ClosingCells"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Guard.ClosingCells.1.wav"
+}
+"Chapter1.Guard.LightsOut"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Guard.LightsOut.1.wav"
+}
+
+"Chapter1.GuardEscort03.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NONE"
+   "wave"          "vo\Enemy\Chapter1\GuardEscort03.1.wav"
+}
+"Chapter1.GuardEscort03.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\GuardEscort03.2.wav"
+}
+"Chapter1.GuardEscort03.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\GuardEscort03.3.wav"
+}
+"Chapter1.GuardEscort03.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\GuardEscort03.4.wav"
+}
+"Chapter1.GuardEscort03.5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\GuardEscort03.5.wav"
+}
+"Chapter1.GuardEscort03.6"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\GuardEscort03.6.wav"
+}
+"Chapter1.GuardEscort03.7"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\GuardEscort03.7.wav"
+}
+"Chapter1.GuardEscort03.8"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\GuardEscort03.8.wav"
+}
+"Chapter1.GuardEscort03.9"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\GuardEscort03.9.wav"
+}
+"Chapter1.Guard.Control.HSB.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Guard.Control.HSB.1.wav"
+}
+"Chapter1.Guard.Control.HSB.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Guard.Control.HSB.2.wav"
+}
+"Chapter1.Guard.Control.HSB.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Guard.Control.HSB.3.wav"
+}
+"Chapter1.Guard.Control.HSB.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Guard.Control.HSB.4.wav"
+}
+"Chapter1.Guard.Control.HSB.5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Guard.Control.HSB.5.wav"
+}
+
+"Chapter1.Guard.Lockers1.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Guard.Lockers1.1.wav"
+}
+"Chapter1.Guard.Lockers1.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Guard.Lockers1.2.wav"
+}
+"Chapter1.Guard.Lockers1.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Guard.Lockers1.3.wav"
+}
+
+"Chapter1.Guard.Lockers2.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Guard.Lockers2.1.wav"
+}
+"Chapter1.Guard.Lockers2.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Guard.Lockers2.2.wav"
+}
+"Chapter1.Guard.Lockers2.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Guard.Lockers2.3.wav"
+}
+"Chapter1.Guard.Lockers2.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Guard.Lockers2.4.wav"
+}
+
+
+"Chapter1.Guard1.Cell.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Guard1.Cell.1.wav"
+}
+"Chapter1.Guard1.Cell.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Guard1.Cell.2.wav"
+}
+"Chapter1.Guard1.Cell.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Guard1.Cell.3.wav"
+}
+"Chapter1.Guard1.Cell.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Guard1.Cell.4.wav"
+}
+"Chapter1.Guard1.Cell.5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Guard1.Cell.5.wav"
+}
+"Chapter1.Guard1.Cell.6"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Guard1.Cell.6.wav"
+}
+"Chapter1.Guard1.Cell.7"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Guard1.Cell.7.wav"
+}
+"Chapter1.Guard1.Cell.8"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Guard1.Cell.8.wav"
+}
+
+"Chapter1.Guard2.Cell.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Guard2.Cell.1.wav"
+}
+"Chapter1.Guard2.Cell.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Guard2.Cell.2.wav"
+}
+"Chapter1.Guard2.Cell.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Guard2.Cell.3.wav"
+}
+"Chapter1.Guard2.Cell.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Guard2.Cell.4.wav"
+}
+"Chapter1.Guard2.Cell.5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Guard2.Cell.5.wav"
+}
+
+"Chapter1.Guard.HSB.Door"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Guard.HSB.Door.wav"
+}
+
+"Chapter1.Warden.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Warden.1.wav"
+}
+"Chapter1.Warden.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Warden.2.wav"
+}
+"Chapter1.Warden.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Warden.3.wav"
+}
+"Chapter1.Warden.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Warden.4.wav"
+}
+"Chapter1.Warden.5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Warden.5.wav"
+}
+"Chapter1.Warden.6"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Warden.6.wav"
+}
+
+"Chapter1.Guard.Alex.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Guard.Alex.1.wav"
+}
+"Chapter1.Guard.Alex.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Guard.Alex.2.wav"
+}
+
+"Chapter1.Guard.Alex.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Guard.Alex.3.wav"
+}
+
+
+"Chapter1.Inmates.Tyronne.Convo1.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Inmates.Tyronne.Convo1.1.wav"
+}
+"Chapter1.Inmates.Tyronne.Convo1.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Inmates.Tyronne.Convo1.2.wav"
+}
+
+"Chapter1.Inmates.Tyronne.ShowerFight.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Inmates.Tyronne.ShowerFight.1.wav"
+}
+"Chapter1.Inmates.Tyronne.ShowerFight.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Inmates.Tyronne.ShowerFight.2.wav"
+}
+"Chapter1.Inmates.Tyronne.ShowerFight.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Inmates.Tyronne.ShowerFight.3.wav"
+}
+"Chapter1.Inmates.Tyronne.ShowerFight.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Inmates.Tyronne.ShowerFight.4.wav"
+}
+"Chapter1.Inmates.Tyronne.ShowerFight.Attack.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Inmates.Tyronne.ShowerFight.Attack.1.wav"
+}
+"Chapter1.Inmates.Tyronne.ShowerFight.Attack.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Inmates.Tyronne.ShowerFight.Attack.2.wav"
+}
+"Chapter1.Inmates.Tyronne.ShowerFight.Attack.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Inmates.Tyronne.ShowerFight.Attack.3.wav"
+}
+"Chapter1.Inmates.Tyronne.ShowerFight.Attack.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Inmates.Tyronne.ShowerFight.Attack.4.wav"
+}
+"Chapter1.Inmates.Tyronne.ShowerFight.Attack.5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Inmates.Tyronne.ShowerFight.Attack.5.wav"
+}
+"Chapter1.Inmates.Tyronne.ShowerFight.Attack.6"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Inmates.Tyronne.ShowerFight.Attack.6.wav"
+}
+"Chapter1.Inmates.Tyronne.ShowerFight.Attack.7"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Inmates.Tyronne.ShowerFight.Attack.7.wav"
+}
+"Chapter1.Inmates.Tyronne.ShowerFight.Attack.8"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Inmates.Tyronne.ShowerFight.Attack.8.wav"
+}
+
+"Chapter1.Inmates.Tyronne.ShowerFight.Lose.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Inmates.Tyronne.ShowerFight.Lose.1.wav"
+}
+"Chapter1.Inmates.Tyronne.ShowerFight.Lose.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Inmates.Tyronne.ShowerFight.Lose.2.wav"
+}
+
+"Chapter1.Inmates.Tyronne.ShowerFight.Pain.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Inmates.Tyronne.ShowerFight.Pain.1.wav"
+}
+"Chapter1.Inmates.Tyronne.ShowerFight.Pain.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Inmates.Tyronne.ShowerFight.Pain.2.wav"
+}
+"Chapter1.Inmates.Tyronne.ShowerFight.Pain.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Inmates.Tyronne.ShowerFight.Pain.3.wav"
+}
+
+"Chapter1.Inmates.Tyronne.ShowerFight.Pipe"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Inmates.Tyronne.ShowerFight.Pipe.wav"
+}
+
+"Chapter1.Tyronne.BrotherFightP1.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Tyronne.BrotherFightP1.1.wav"
+}
+"Chapter1.Tyronne.BrotherFightP1.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Tyronne.BrotherFightP1.2.wav"
+}
+"Chapter1.Tyronne.BrotherFightP1.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Tyronne.BrotherFightP1.3.wav"
+}
+"Chapter1.Tyronne.BrotherFightP1.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Tyronne.BrotherFightP1.4.wav"
+}
+
+"Chapter1.Guard.ShowerFight.Lose.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Guard.ShowerFight.Lose.1.wav"
+}
+"Chapter1.Guard.ShowerFight.Lose.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Guard.ShowerFight.Lose.2.wav"
+}
+
+"Chapter1.Guard.ShowerFight.Win.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Guard.ShowerFight.Win.1.wav"
+}
+"Chapter1.Guard.ShowerFight.Win.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Guard.ShowerFight.Win.2.wav"
+}
+"Chapter1.Guard.ShowerFight.Win.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Guard.ShowerFight.Win.3.wav"
+}
+"Chapter1.Guard.ShowerFight.Win.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Guard.ShowerFight.Win.4.wav"
+}
+
+"Chapter1.Guard.Convo1.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Guard.Convo1.1.wav"
+}
+"Chapter1.Guard.Convo1.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Guard.Convo1.2.wav"
+}
+"Chapter1.Guard.Convo1.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Guard.Convo1.3.wav"
+}
+
+"Chapter1.Guard01.Convo1.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Guard01.Convo1.1.wav"
+}
+"Chapter1.Guard01.Convo1.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Guard01.Convo1.2.wav"
+}
+"Chapter1.Guard01.Convo1.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Guard01.Convo1.3.wav"
+}
+"Chapter1.Guard01.Convo1.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Guard01.Convo1.4.wav"
+}
+"Chapter1.Guard01.Convo1.5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Guard01.Convo1.5.wav"
+}
+"Chapter1.Guard01.Convo1.6"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Guard01.Convo1.6.wav"
+}
+
+"Chapter1.Guard02.Convo1.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Guard02.Convo1.1.wav"
+}
+"Chapter1.Guard02.Convo1.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Guard02.Convo1.2.wav"
+}
+"Chapter1.Guard02.Convo1.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Guard02.Convo1.3.wav"
+}
+"Chapter1.Guard02.Convo1.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Guard02.Convo1.4.wav"
+}
+"Chapter1.Guard02.Convo1.5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Guard02.Convo1.5.wav"
+}
+
+
+"Chapter1.Guard01.Convo2.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Guard01.Convo2.1.wav"
+}
+"Chapter1.Guard01.Convo2.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Guard01.Convo2.2.wav"
+}
+"Chapter1.Guard01.Convo2.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Guard01.Convo2.3.wav"
+}
+"Chapter1.Guard01.Convo2.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Guard01.Convo2.4.wav"
+}
+"Chapter1.Guard01.Convo2.5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Guard01.Convo2.5.wav"
+}
+"Chapter1.Guard01.Convo2.6"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Guard01.Convo2.6.wav"
+}
+
+"Chapter1.Guard02.Convo2.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Guard02.Convo2.1.wav"
+}
+"Chapter1.Guard02.Convo2.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Guard02.Convo2.2.wav"
+}
+"Chapter1.Guard02.Convo2.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Guard02.Convo2.3.wav"
+}
+"Chapter1.Guard02.Convo2.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Guard02.Convo2.4.wav"
+}
+"Chapter1.Guard02.Convo2.5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Guard02.Convo2.5.wav"
+}
+"Chapter1.Guard02.Convo2.6"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Guard02.Convo2.6.wav"
+}
+
+"Chapter1.Guard01.Convo3.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Guard01.Convo3.1.wav"
+}
+"Chapter1.Guard01.Convo3.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Guard01.Convo3.2.wav"
+}
+"Chapter1.Guard01.Convo3.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Guard01.Convo3.3.wav"
+}
+"Chapter1.Guard01.Convo3.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Guard01.Convo3.4.wav"
+}
+"Chapter1.Guard01.Convo3.5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Guard01.Convo3.5.wav"
+}
+
+"Chapter1.Guard02.Convo3.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Guard02.Convo3.1.wav"
+}
+"Chapter1.Guard02.Convo3.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Guard02.Convo3.2.wav"
+}
+"Chapter1.Guard02.Convo3.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Guard02.Convo3.3.wav"
+}
+"Chapter1.Guard02.Convo3.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Guard02.Convo3.4.wav"
+}
+"Chapter1.Guard02.Convo3.5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Guard02.Convo3.5.wav"
+}
+
+"Chapter1.Guard01.Convo3a.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Guard01.Convo3a.1.wav"
+}
+"Chapter1.Guard01.Convo3a.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Guard01.Convo3a.2.wav"
+}
+
+"Chapter1.Guard02.Convo3a.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Guard02.Convo3a.1.wav"
+}
+
+"Chapter1.Guard01.Convo4.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Guard01.Convo4.1.wav"
+}
+"Chapter1.Guard01.Convo4.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Guard01.Convo4.2.wav"
+}
+"Chapter1.Guard01.Convo4.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Guard01.Convo4.3.wav"
+}
+"Chapter1.Guard01.Convo4.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Guard01.Convo4.4.wav"
+}
+"Chapter1.Guard01.Convo4.5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Guard01.Convo4.5.wav"
+}
+"Chapter1.Guard01.Convo4.6"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Guard01.Convo4.6.wav"
+}
+
+"Chapter1.Guard02.Convo4.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Guard02.Convo4.1.wav"
+}
+"Chapter1.Guard02.Convo4.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Guard02.Convo4.2.wav"
+}
+"Chapter1.Guard02.Convo4.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Guard02.Convo4.3.wav"
+}
+"Chapter1.Guard02.Convo4.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Guard02.Convo4.4.wav"
+}
+"Chapter1.Guard02.Convo4.5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Guard02.Convo4.5.wav"
+}
+"Chapter1.Guard02.Convo4.6"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Guard02.Convo4.6.wav"
+}
+
+"Chapter1.GuardHassle.Threaten.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\GuardHassle.Threaten.1.wav"
+}
+"Chapter1.GuardHassle.Threaten.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\GuardHassle.Threaten.2.wav"
+}
+"Chapter1.GuardHassle.Threaten.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\GuardHassle.Threaten.3.wav"
+}
+
+"Chapter1.GuardHassle.Attack.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\GuardHassle.Attack.1.wav"
+}
+"Chapter1.GuardHassle.Attack.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\GuardHassle.Attack.2.wav"
+}
+
+"Chapter1.GuardHassle.Chase.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\GuardHassle.Chase.1.wav"
+}
+"Chapter1.GuardHassle.Chase.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\GuardHassle.Chase.2.wav"
+}
+"Chapter1.GuardHassle.Chase.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\GuardHassle.Chase.3.wav"
+}
+
+"Chapter1.GuardHassle.Success.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\GuardHassle.Success.1.wav"
+}
+"Chapter1.GuardHassle.Success.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\GuardHassle.Success.2.wav"
+}
+
+"Chapter1.Inmate.Cypher.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Inmate.Cypher.1.wav"
+}
+"Chapter1.Inmate.Cypher.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Inmate.Cypher.2.wav"
+}
+
+"Chapter1.Inmate.Reception.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Inmate.Reception.1.wav"
+}
+"Chapter1.Inmate.Reception.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Inmate.Reception.2.wav"
+}
+"Chapter1.Inmate.Reception.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Inmate.Reception.3.wav"
+}
+
+"Chapter1.Inmate.Lockers1.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Inmate.Lockers1.1.wav"
+}
+"Chapter1.Inmate.Lockers1.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Inmate.Lockers1.2.wav"
+}
+
+"Chapter1.Inmate.Lockers2.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Inmate.Lockers2.1.wav"
+}
+"Chapter1.Inmate.Lockers2.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Inmate.Lockers2.2.wav"
+}
+"Chapter1.Inmate.Lockers2.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Inmate.Lockers2.3.wav"
+}
+
+
+"Chapter1.Convo1.Inmate1.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo1.Inmate1.1.wav"
+}
+"Chapter1.Convo1.Inmate1.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo1.Inmate1.2.wav"
+}
+"Chapter1.Convo1.Inmate1.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo1.Inmate1.3.wav"
+}
+"Chapter1.Convo1.Inmate2.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo1.Inmate2.1.wav"
+}
+"Chapter1.Convo1.Inmate2.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo1.Inmate2.2.wav"
+}
+"Chapter1.Convo1.Inmate2.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo1.Inmate2.3.wav"
+}
+
+"Chapter1.Convo2.Inmate1.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo2.Inmate1.1.wav"
+}
+"Chapter1.Convo2.Inmate1.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo2.Inmate1.2.wav"
+}
+"Chapter1.Convo2.Inmate1.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo2.Inmate1.3.wav"
+}
+"Chapter1.Convo2.Inmate2.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo2.Inmate2.1.wav"
+}
+"Chapter1.Convo2.Inmate2.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo2.Inmate2.2.wav"
+}
+"Chapter1.Convo2.Inmate2.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo2.Inmate2.3.wav"
+}
+
+"Chapter1.Convo3.Inmate1.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo3.Inmate1.1.wav"
+}
+"Chapter1.Convo3.Inmate1.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo3.Inmate1.2.wav"
+}
+"Chapter1.Convo3.Inmate1.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo3.Inmate1.3.wav"
+}
+"Chapter1.Convo3.Inmate1.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo3.Inmate1.4.wav"
+}
+"Chapter1.Convo3.Inmate1.5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo3.Inmate1.5.wav"
+}
+"Chapter1.Convo3.Inmate2.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo3.Inmate2.1.wav"
+}
+"Chapter1.Convo3.Inmate2.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo3.Inmate2.2.wav"
+}
+"Chapter1.Convo3.Inmate2.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo3.Inmate2.3.wav"
+}
+"Chapter1.Convo3.Inmate2.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo3.Inmate2.4.wav"
+}
+
+
+"Chapter1.Convo4.Inmate1.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo4.Inmate1.1.wav"
+}
+"Chapter1.Convo4.Inmate1.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo4.Inmate1.2.wav"
+}
+"Chapter1.Convo4.Inmate1.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo4.Inmate1.3.wav"
+}
+"Chapter1.Convo4.Inmate1.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo4.Inmate1.4.wav"
+}
+"Chapter1.Convo4.Inmate1.5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo4.Inmate1.5.wav"
+}
+"Chapter1.Convo4.Inmate2.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo4.Inmate2.1.wav"
+}
+"Chapter1.Convo4.Inmate2.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo4.Inmate2.2.wav"
+}
+"Chapter1.Convo4.Inmate2.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo4.Inmate2.3.wav"
+}
+"Chapter1.Convo4.Inmate2.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo4.Inmate2.4.wav"
+}
+
+"Chapter1.Convo5.Inmate1.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo5.Inmate1.1.wav"
+}
+"Chapter1.Convo5.Inmate1.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo5.Inmate1.2.wav"
+}
+"Chapter1.Convo5.Inmate1.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo5.Inmate1.3.wav"
+}
+"Chapter1.Convo5.Inmate1.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo5.Inmate1.4.wav"
+}
+"Chapter1.Convo5.Inmate1.5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo5.Inmate1.5.wav"
+}
+
+"Chapter1.Convo5.Inmate2.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo5.Inmate2.1.wav"
+}
+"Chapter1.Convo5.Inmate2.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo5.Inmate2.2.wav"
+}
+"Chapter1.Convo5.Inmate2.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo5.Inmate2.3.wav"
+}
+"Chapter1.Convo5.Inmate2.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo5.Inmate2.4.wav"
+}
+
+"Chapter1.Convo6.Inmate1.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo6.Inmate1.1.wav"
+}
+"Chapter1.Convo6.Inmate1.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo6.Inmate1.2.wav"
+}
+"Chapter1.Convo6.Inmate1.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo6.Inmate1.3.wav"
+}
+"Chapter1.Convo6.Inmate1.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo6.Inmate1.4.wav"
+}
+"Chapter1.Convo6.Inmate1.5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo6.Inmate1.5.wav"
+}
+"Chapter1.Convo6.Inmate1.6"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo6.Inmate1.6.wav"
+}
+"Chapter1.Convo6.Inmate1.7"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo6.Inmate1.7.wav"
+}
+"Chapter1.Convo6.Inmate1.8"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo6.Inmate1.8.wav"
+}
+
+"Chapter1.Convo6.Inmate2.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo6.Inmate2.1.wav"
+}
+"Chapter1.Convo6.Inmate2.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo6.Inmate2.2.wav"
+}
+"Chapter1.Convo6.Inmate2.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo6.Inmate2.3.wav"
+}
+"Chapter1.Convo6.Inmate2.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo6.Inmate2.4.wav"
+}
+"Chapter1.Convo6.Inmate2.5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo6.Inmate2.5.wav"
+}
+"Chapter1.Convo6.Inmate2.6"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo6.Inmate2.6.wav"
+}
+"Chapter1.Convo6.Inmate2.7"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo6.Inmate2.7.wav"
+}
+
+"Chapter1.Convo7.Inmate1.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo7.Inmate1.1.wav"
+}
+"Chapter1.Convo7.Inmate1.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo7.Inmate1.2.wav"
+}
+"Chapter1.Convo7.Inmate1.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo7.Inmate1.3.wav"
+}
+"Chapter1.Convo7.Inmate1.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo7.Inmate1.4.wav"
+}
+"Chapter1.Convo7.Inmate1.5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo7.Inmate1.5.wav"
+}
+"Chapter1.Convo7.Inmate1.6"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo7.Inmate1.6.wav"
+}
+"Chapter1.Convo7.Inmate1.7"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo7.Inmate1.7.wav"
+}
+"Chapter1.Convo7.Inmate1.8"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo7.Inmate1.8.wav"
+}
+"Chapter1.Convo7.Inmate1.9"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo7.Inmate1.9.wav"
+}
+"Chapter1.Convo7.Inmate1.10"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo7.Inmate1.10.wav"
+}
+"Chapter1.Convo7.Inmate1.11"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo7.Inmate1.11.wav"
+}
+
+"Chapter1.Convo7.Inmate2.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo7.Inmate2.1.wav"
+}
+"Chapter1.Convo7.Inmate2.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo7.Inmate2.2.wav"
+}
+"Chapter1.Convo7.Inmate2.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo7.Inmate2.3.wav"
+}
+"Chapter1.Convo7.Inmate2.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo7.Inmate2.4.wav"
+}
+"Chapter1.Convo7.Inmate2.5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo7.Inmate2.5.wav"
+}
+"Chapter1.Convo7.Inmate2.6"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo7.Inmate2.6.wav"
+}
+
+"Chapter1.Convo7.Inmate3.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo7.Inmate3.1.wav"
+}
+"Chapter1.Convo7.Inmate3.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo7.Inmate3.2.wav"
+}
+"Chapter1.Convo7.Inmate3.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo7.Inmate3.3.wav"
+}
+"Chapter1.Convo7.Inmate3.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo7.Inmate3.4.wav"
+}
+"Chapter1.Convo7.Inmate3.5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo7.Inmate3.5.wav"
+}
+"Chapter1.Convo7.Inmate3.6"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo7.Inmate3.6.wav"
+}
+"Chapter1.Convo7.Inmate3.7"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo7.Inmate3.7.wav"
+}
+"Chapter1.Convo7.Inmate3.8"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Enemy\Chapter1\Convo7.Inmate3.8.wav"
+}
+
+"Chapter1.Inmate.BrotherFight.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Inmate.BrotherFight.1.wav"
+}
+"Chapter1.Inmate.BrotherFight.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Inmate.BrotherFight.2.wav"
+}
+"Chapter1.Inmate.BrotherFight.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Inmate.BrotherFight.3.wav"
+}
+"Chapter1.Inmate.BrotherFight.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Inmate.BrotherFight.4.wav"
+}
+
+"Chapter1.ShowerCadaver.Guard.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\ShowerCadaver.Guard.1.wav"
+}
+"Chapter1.ShowerCadaver.Guard.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\ShowerCadaver.Guard.2.wav"
+}
+"Chapter1.ShowerCadaver.Guard.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\ShowerCadaver.Guard.3.wav"
+}
+"Chapter1.ShowerCadaver.Guard.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\ShowerCadaver.Guard.4.wav"
+}
+
+"Chapter1.ShowerCadaver.Inmate.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\ShowerCadaver.Inmate.1.wav"
+}
+"Chapter1.ShowerCadaver.Inmate.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\ShowerCadaver.Inmate.2.wav"
+}
+"Chapter1.ShowerCadaver.Inmate.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\ShowerCadaver.Inmate.3.wav"
+}
+"Chapter1.ShowerCadaver.Inmate.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\ShowerCadaver.Inmate.4.wav"
+}
+
+"Chapter1.Inmate.High.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Inmate.High.1.wav"
+}
+"Chapter1.Inmate.High.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Inmate.High.2.wav"
+}
+"Chapter1.Inmate.High.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Inmate.High.3.wav"
+}
+
+"Chapter1.Inmate.High.Song.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Inmate.High.Song.1.wav"
+}
+"Chapter1.Inmate.High.Song.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Inmate.High.Song.2.wav"
+}
+"Chapter1.Inmate.High.Song.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Inmate.High.Song.3.wav"
+}
+"Chapter1.Inmate.High.Song.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Inmate.High.Song.4.wav"
+}
+
+"Chapter1.Soldier1.Residential.1.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier1.Residential.1.1.wav"
+}
+"Chapter1.Soldier1.Residential.1.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier1.Residential.1.2.wav"
+}
+"Chapter1.Soldier1.Residential.1.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier1.Residential.1.3.wav"
+}
+"Chapter1.Soldier1.Residential.2.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier1.Residential.2.1.wav"
+}
+"Chapter1.Soldier1.Residential.2.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier1.Residential.2.2.wav"
+}
+"Chapter1.Soldier1.Residential.2.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier1.Residential.2.3.wav"
+}
+"Chapter1.Soldier1.Residential.2.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier1.Residential.2.4.wav"
+}
+
+"Chapter1.Soldier2.Residential.1.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier2.Residential.1.1.wav"
+}
+"Chapter1.Soldier2.Residential.1.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier2.Residential.1.2.wav"
+}
+"Chapter1.Soldier2.Residential.1.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier2.Residential.1.3.wav"
+}
+"Chapter1.Soldier2.Residential.2.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier2.Residential.2.1.wav"
+}
+"Chapter1.Soldier2.Residential.2.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier2.Residential.2.2.wav"
+}
+"Chapter1.Soldier2.Residential.2.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier2.Residential.2.3.wav"
+}
+
+"Chapter1.Soldier.FirstEncounter1.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier.FirstEncounter1.1.wav"
+}
+"Chapter1.Soldier.FirstEncounter1.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier.FirstEncounter1.2.wav"
+}
+"Chapter1.Soldier.FirstEncounter1.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier.FirstEncounter1.3.wav"
+}
+
+"Chapter1.Soldier.FirstEncounter2.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier.FirstEncounter2.1.wav"
+}
+"Chapter1.Soldier.FirstEncounter2.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier.FirstEncounter2.2.wav"
+}
+"Chapter1.Soldier.FirstEncounter2.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier.FirstEncounter2.3.wav"
+}
+
+"Chapter1.Soldier1.SneakConvo1.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier1.SneakConvo1.1.wav"
+}
+"Chapter1.Soldier1.SneakConvo1.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier1.SneakConvo1.2.wav"
+}
+"Chapter1.Soldier1.SneakConvo2.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier1.SneakConvo2.1.wav"
+}
+"Chapter1.Soldier1.SneakConvo2.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier1.SneakConvo2.2.wav"
+}
+"Chapter1.Soldier1.SneakConvo2.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier1.SneakConvo2.3.wav"
+}
+"Chapter1.Soldier1.SneakConvo2.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier1.SneakConvo2.4.wav"
+}
+"Chapter1.Soldier1.SneakConvo3.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier1.SneakConvo3.1.wav"
+}
+"Chapter1.Soldier1.SneakConvo3.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier1.SneakConvo3.2.wav"
+}
+"Chapter1.Soldier1.SneakConvo3.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier1.SneakConvo3.3.wav"
+}
+"Chapter1.Soldier1.SneakConvo3.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier1.SneakConvo3.4.wav"
+}
+"Chapter1.Soldier1.SneakConvo3.5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier1.SneakConvo3.5.wav"
+}
+"Chapter1.Soldier1.SneakConvo4.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier1.SneakConvo4.1.wav"
+}
+"Chapter1.Soldier1.SneakConvo4.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier1.SneakConvo4.2.wav"
+}
+
+"Chapter1.Soldier2.SneakConvo1.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier2.SneakConvo1.1.wav"
+}
+"Chapter1.Soldier2.SneakConvo2.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier2.SneakConvo2.1.wav"
+}
+"Chapter1.Soldier2.SneakConvo2.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier2.SneakConvo2.2.wav"
+}
+"Chapter1.Soldier2.SneakConvo2.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier2.SneakConvo2.3.wav"
+}
+"Chapter1.Soldier2.SneakConvo3.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier2.SneakConvo3.1.wav"
+}
+"Chapter1.Soldier2.SneakConvo3.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier2.SneakConvo3.2.wav"
+}
+"Chapter1.Soldier2.SneakConvo3.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier2.SneakConvo3.3.wav"
+}
+"Chapter1.Soldier2.SneakConvo3.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier2.SneakConvo3.4.wav"
+}
+"Chapter1.Soldier2.SneakConvo4.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier2.SneakConvo4.1.wav"
+}
+
+"Chapter1.Soldier1.StrangePower1.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier1.StrangePower1.1.wav"
+}
+"Chapter1.Soldier1.StrangePower1.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier1.StrangePower1.2.wav"
+}
+
+"Chapter1.Soldier2.StrangePower1.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier2.StrangePower1.1.wav"
+}
+"Chapter1.Soldier2.StrangePower1.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier2.StrangePower1.2.wav"
+}
+
+"Chapter1.Soldier1.GasConvo1.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier1.GasConvo1.1.wav"
+}
+"Chapter1.Soldier1.GasConvo1.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier1.GasConvo1.2.wav"
+}
+"Chapter1.Soldier2.GasConvo1.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier2.GasConvo1.1.wav"
+}
+"Chapter1.Soldier2.GasConvo1.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier2.GasConvo1.2.wav"
+}
+
+"Chapter1.Soldier1.GasConvo2.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier1.GasConvo2.1.wav"
+}
+"Chapter1.Soldier1.GasConvo2.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier1.GasConvo2.2.wav"
+}
+"Chapter1.Soldier1.GasConvo2.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier1.GasConvo2.3.wav"
+}
+"Chapter1.Soldier1.GasConvo2.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier1.GasConvo2.4.wav"
+}
+
+"Chapter1.Soldier2.GasConvo2.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier2.GasConvo2.1.wav"
+}
+"Chapter1.Soldier2.GasConvo2.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier2.GasConvo2.2.wav"
+}
+"Chapter1.Soldier2.GasConvo2.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier2.GasConvo2.3.wav"
+}
+
+"Chapter1.Soldier1.Marcus1.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier1.Marcus1.1.wav"
+}
+"Chapter1.Soldier1.Marcus1.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier1.Marcus1.2.wav"
+}
+"Chapter1.Soldier1.Marcus1.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier1.Marcus1.3.wav"
+}
+
+"Chapter1.Soldier2.Marcus1.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier2.Marcus1.1.wav"
+}
+"Chapter1.Soldier2.Marcus1.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier2.Marcus1.2.wav"
+}
+
+"Chapter1.Soldier1.Marcus2.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier1.Marcus2.1.wav"
+}
+"Chapter1.Soldier1.Marcus2.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier1.Marcus2.2.wav"
+}
+"Chapter1.Soldier1.Marcus2.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier1.Marcus2.3.wav"
+}
+
+"Chapter1.Soldier2.Marcus2.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier2.Marcus2.1.wav"
+}
+"Chapter1.Soldier2.Marcus2.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier2.Marcus2.2.wav"
+}
+
+"Chapter1.Soldier.LL.Arrest.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier.LL.Arrest.1.wav"
+}
+"Chapter1.Soldier.LL.Arrest.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier.LL.Arrest.2.wav"
+}
+"Chapter1.Soldier.LL.Arrest.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier.LL.Arrest.3.wav"
+}
+"Chapter1.Soldier.LL.Arrest.Surrender.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier.LL.Arrest.Surrender.1.wav"
+}
+"Chapter1.Soldier.LL.Arrest.Surrender.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier.LL.Arrest.Surrender.2.wav"
+}
+"Chapter1.Soldier.LL.Arrest.Attack.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier.LL.Arrest.Attack.1.wav"
+}
+"Chapter1.Soldier.LL.Arrest.Attack.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier.LL.Arrest.Attack.2.wav"
+}
+"Chapter1.Soldier.LL.Arrest.Attack.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier.LL.Arrest.Attack.3.wav"
+}
+
+"Chapter1.Soldier.LL.YesSir.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier.LL.YesSir.1.wav"
+}
+"Chapter1.Soldier.LL.YesSir.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier.LL.YesSir.2.wav"
+}
+
+"Chapter1.Soldier1.LL.Convo1.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier1.LL.Convo1.1.wav"
+}
+"Chapter1.Soldier1.LL.Convo1.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier1.LL.Convo1.2.wav"
+}
+"Chapter1.Soldier1.LL.Convo2.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier1.LL.Convo2.1.wav"
+}
+"Chapter1.Soldier1.LL.Convo2.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier1.LL.Convo2.2.wav"
+}
+"Chapter1.Soldier1.LL.Convo2.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier1.LL.Convo2.3.wav"
+}
+"Chapter1.Soldier1.LL.Convo3.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier1.LL.Convo3.1.wav"
+}
+"Chapter1.Soldier1.LL.Convo3.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier1.LL.Convo3.2.wav"
+}
+"Chapter1.Soldier1.LL.Convo3.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier1.LL.Convo3.3.wav"
+}
+"Chapter1.Soldier1.LL.Convo4.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier1.LL.Convo4.1.wav"
+}
+"Chapter1.Soldier1.LL.Convo4.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier1.LL.Convo4.2.wav"
+}
+"Chapter1.Soldier1.LL.Convo4.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier1.LL.Convo4.3.wav"
+}
+
+"Chapter1.Soldier1.LL.Elevator.Check.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier1.LL.Elevator.Check.1.wav"
+}
+"Chapter1.Soldier1.LL.Elevator.Check.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier1.LL.Elevator.Check.2.wav"
+}
+
+"Chapter1.Soldier1.LL.Elevator.Clear1.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier1.LL.Elevator.Clear1.1.wav"
+}
+"Chapter1.Soldier1.LL.Elevator.Clear1.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier1.LL.Elevator.Clear1.2.wav"
+}
+"Chapter1.Soldier1.LL.Elevator.Clear2.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier1.LL.Elevator.Clear2.1.wav"
+}
+"Chapter1.Soldier1.LL.Elevator.Clear2.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier1.LL.Elevator.Clear2.2.wav"
+}
+
+"Chapter1.Soldier1.LL.Elevator.GetReady.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier1.LL.Elevator.GetReady.1.wav"
+}
+"Chapter1.Soldier1.LL.Elevator.GetReady.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier1.LL.Elevator.GetReady.2.wav"
+}
+"Chapter1.Soldier1.LL.Elevator.GetReady.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier1.LL.Elevator.GetReady.3.wav"
+}
+"Chapter1.Soldier1.LL.Elevator.GetReady.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier1.LL.Elevator.GetReady.4.wav"
+}
+
+"Chapter1.Soldier2.LL.Convo1.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier2.LL.Convo1.1.wav"
+}
+"Chapter1.Soldier2.LL.Convo1.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier2.LL.Convo1.2.wav"
+}
+"Chapter1.Soldier2.LL.Convo2.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier2.LL.Convo2.1.wav"
+}
+"Chapter1.Soldier2.LL.Convo2.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier2.LL.Convo2.2.wav"
+}
+"Chapter1.Soldier2.LL.Convo2.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier2.LL.Convo2.3.wav"
+}
+"Chapter1.Soldier2.LL.Convo3.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier2.LL.Convo3.1.wav"
+}
+"Chapter1.Soldier2.LL.Convo3.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier2.LL.Convo3.2.wav"
+}
+"Chapter1.Soldier2.LL.Convo3.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier2.LL.Convo3.3.wav"
+}
+"Chapter1.Soldier2.LL.Convo4.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier2.LL.Convo4.1.wav"
+}
+"Chapter1.Soldier2.LL.Convo4.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier2.LL.Convo4.2.wav"
+}
+"Chapter1.Soldier2.LL.Convo4.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier2.LL.Convo4.3.wav"
+}
+
+"Chapter1.Soldier2.LL.Elevator.Clear1.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier2.LL.Elevator.Clear1.1.wav"
+}
+"Chapter1.Soldier2.LL.Elevator.Clear1.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier2.LL.Elevator.Clear1.2.wav"
+}
+"Chapter1.Soldier2.LL.Elevator.Clear2.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier2.LL.Elevator.Clear2.1.wav"
+}
+"Chapter1.Soldier2.LL.Elevator.Clear2.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier2.LL.Elevator.Clear2.2.wav"
+}
+
+
+
+
+"Chapter1.Soldier.DejaVu.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier.DejaVu.1.wav"
+}
+"Chapter1.Soldier.DejaVu.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldier.DejaVu.2.wav"
+}
+
+
+"Chapter1.Guards.ArrivalSneak1.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Guards.ArrivalSneak1.1.wav"
+}
+"Chapter1.Guards.ArrivalSneak1.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Guards.ArrivalSneak1.2.wav"
+}
+"Chapter1.Guards.ArrivalSneak1.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Guards.ArrivalSneak1.3.wav"
+}
+"Chapter1.Guards.ArrivalSneak1.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Guards.ArrivalSneak1.4.wav"
+}
+"Chapter1.Guards.ArrivalSneak1.5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Guards.ArrivalSneak1.5.wav"
+}
+"Chapter1.Guards.ArrivalSneak1.6"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Guards.ArrivalSneak1.6.wav"
+}
+"Chapter1.Guards.ArrivalSneak1.7"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Guards.ArrivalSneak1.7.wav"
+}
+
+"Chapter1.Guards.ArrivalSneak2.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Guards.ArrivalSneak2.1.wav"
+}
+"Chapter1.Guards.ArrivalSneak2.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Guards.ArrivalSneak2.2.wav"
+}
+"Chapter1.Guards.ArrivalSneak2.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Guards.ArrivalSneak2.3.wav"
+}
+"Chapter1.Guards.ArrivalSneak2.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Guards.ArrivalSneak2.4.wav"
+}
+"Chapter1.Guards.ArrivalSneak2.5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Guards.ArrivalSneak2.5.wav"
+}
+"Chapter1.Guards.ArrivalSneak2.6"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Guards.ArrivalSneak2.6.wav"
+}
+
+
+"Chapter1.Soldiers.Express.Checkpoint1.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldiers.Express.Checkpoint1.1.wav"
+}
+"Chapter1.Soldiers.Express.Checkpoint1.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldiers.Express.Checkpoint1.2.wav"
+}
+"Chapter1.Soldiers.Express.Checkpoint1.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldiers.Express.Checkpoint1.3.wav"
+}
+"Chapter1.Soldiers.Express.Checkpoint1.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldiers.Express.Checkpoint1.4.wav"
+}
+"Chapter1.Soldiers.Express.Checkpoint1.5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldiers.Express.Checkpoint1.5.wav"
+}
+"Chapter1.Soldiers.Express.Checkpoint1.6"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldiers.Express.Checkpoint1.6.wav"
+}
+"Chapter1.Soldiers.Express.Checkpoint1.7"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldiers.Express.Checkpoint1.7.wav"
+}
+
+"Chapter1.Soldiers.Express.Exchange.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_90dB"
+   "wave"          "vo\Enemy\Chapter1\Soldiers.Express.Exchange.1.wav"
+}
+"Chapter1.Soldiers.Express.Exchange.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_90dB"
+   "wave"          "vo\Enemy\Chapter1\Soldiers.Express.Exchange.2.wav"
+}
+"Chapter1.Soldiers.Express.Exchange.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_90dB"
+   "wave"          "vo\Enemy\Chapter1\Soldiers.Express.Exchange.3.wav"
+}
+"Chapter1.Soldiers.Express.Exchange.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_90dB"
+   "wave"          "vo\Enemy\Chapter1\Soldiers.Express.Exchange.4.wav"
+}
+"Chapter1.Soldiers.Express.Exchange.5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_90dB"
+   "wave"          "vo\Enemy\Chapter1\Soldiers.Express.Exchange.5.wav"
+}
+"Chapter1.Soldiers.Express.Exchange.6"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_90dB"
+   "wave"          "vo\Enemy\Chapter1\Soldiers.Express.Exchange.6.wav"
+}
+"Chapter1.Soldiers.Express.Exchange.7"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_90dB"
+   "wave"          "vo\Enemy\Chapter1\Soldiers.Express.Exchange.7.wav"
+}
+"Chapter1.Soldiers.Express.Exchange.8"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_90dB"
+   "wave"          "vo\Enemy\Chapter1\Soldiers.Express.Exchange.8.wav"
+}
+
+"Chapter1.Soldiers.Express.Checkpoint2.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldiers.Express.Checkpoint2.1.wav"
+}
+"Chapter1.Soldiers.Express.Checkpoint2.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldiers.Express.Checkpoint2.2.wav"
+}
+"Chapter1.Soldiers.Express.Checkpoint2.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldiers.Express.Checkpoint2.3.wav"
+}
+"Chapter1.Soldiers.Express.Checkpoint2.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldiers.Express.Checkpoint2.4.wav"
+}
+"Chapter1.Soldiers.Express.Checkpoint2.5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter1\Soldiers.Express.Checkpoint2.5.wav"
+}
+"Chapter1.Igor.Sunhit"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NONE"
+   "wave"          "vo\Enemy\Chapter1\Igor.Sunhit.wav"
+}
+"Chapter1.Igor.Dying"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NONE"
+   "wave"          "vo\Enemy\Chapter1\Igor.Dying.wav"
+}
+
+"Chapter1.Sniper.TargetAcquired"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NONE"
+   "wave"          "vo\Enemy\Chapter1\Sniper.TargetAcquired.wav"
+}
+"Chapter1.Sniper.TakeShot"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NONE"
+   "wave"          "vo\Enemy\Chapter1\Sniper.TakeShot.wav"
+}
+
+//****************CHAPTER 2******************
+//**********Royce************
+
+"Chapter2.Royce.FindHim"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter2\Royce\Royce.FindHim.wav"
+}
+"Chapter2.Royce.GetHim"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter2\Royce\Royce.GetHim.wav"
+}
+
+//**********Misc************
+
+
+"Chapter2.Soldier.Station.Find.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter2\Soldier.Station.Find.1.wav"
+}
+"Chapter2.Soldier.Station.Find.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter2\Soldier.Station.Find.2.wav"
+}
+"Chapter2.Soldier.Station.Find.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter2\Soldier.Station.Find.3.wav"
+}
+"Chapter2.Soldier.Station.Go.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Enemy\Chapter2\Soldier.Station.Go.1.wav"
+}
+
+"Chapter1.Ending1.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NONE"
+   "wave"          "vo\Enemy\Chapter1\Chapter1Ending1.1.wav"
+}
+"Chapter1.Ending1.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NONE"
+   "wave"          "vo\Enemy\Chapter1\Chapter1Ending1.2.wav"
+}
+"Chapter1.Ending1.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NONE"
+   "wave"          "vo\Enemy\Chapter1\Chapter1Ending1.3.wav"
+}
+"Chapter1.Ending1.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NONE"
+   "wave"          "vo\Enemy\Chapter1\Chapter1Ending1.4.wav"
+}
+"Chapter1.Ending1.5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NONE"
+   "wave"          "vo\Enemy\Chapter1\Chapter1Ending1.5.wav"
+}

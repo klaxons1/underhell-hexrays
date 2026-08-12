@@ -1,0 +1,67 @@
+int sub_10450300()
+{
+  int result; // eax
+
+  result = 0;
+  dword_10691CA8[0] = 0;
+  dword_10691CAC = 0;
+  dword_10691CB0[0] = 0;
+  dword_10691CB4 = 0;
+  dword_10691CB8[0] = 0;
+  dword_10691CBC = 0;
+  dword_10691CC8 = 0;
+  dword_10691CCC = 0;
+  dword_10691CD0 = 0;
+  dword_10691CD4 = 0;
+  dword_10691CD8 = 0;
+  dword_10691CDC = 0;
+  dword_10691CE8 = 0;
+  dword_10691CEC = 0;
+  dword_10691CF0 = 0;
+  dword_10691CF4 = 0;
+  dword_10691CF8 = 0;
+  dword_10691CFC = 0;
+  dword_10691D08 = 0;
+  dword_10691D0C = 0;
+  dword_10691D10 = 0;
+  dword_10691D14 = 0;
+  dword_10691D18 = 0;
+  dword_10691D1C = 0;
+  dword_10691D28 = 0;
+  dword_10691D2C = 0;
+  dword_10691D30 = 0;
+  dword_10691D34 = 0;
+  dword_10691D38 = 0;
+  dword_10691D3C = 0;
+  dword_10691D48 = 0;
+  dword_10691D4C = 0;
+  dword_10691D50 = 0;
+  dword_10691D54 = 0;
+  dword_10691D58 = 0;
+  dword_10691D5C = 0;
+  dword_10691D68 = 0;
+  dword_10691D6C = 0;
+  dword_10691D70 = 0;
+  dword_10691D74 = 0;
+  dword_10691D78 = 0;
+  dword_10691D7C = 0;
+  dword_10691D88 = 0;
+  dword_10691D8C = 0;
+  dword_10691D90 = 0;
+  dword_10691D94 = 0;
+  dword_10691D98 = 0;
+  dword_10691D9C = 0;
+  dword_10691DA8 = 0;
+  dword_10691DAC = 0;
+  dword_10691DB0 = 0;
+  dword_10691DB4 = 0;
+  dword_10691DB8 = 0;
+  dword_10691DBC = 0;
+  dword_10691DC8 = 0;
+  dword_10691DCC = 0;
+  dword_10691DD0 = 0;
+  dword_10691DD4 = 0;
+  dword_10691DD8 = 0;
+  dword_10691DDC = 0;
+  return result;
+}

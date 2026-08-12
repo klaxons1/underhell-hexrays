@@ -1,0 +1,1684 @@
+//***Prologue***
+
+"Prologue.Hospital.Hostage.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Prologue\Prologue.Hospital.Hostage.1.wav"
+}
+"Prologue.Hospital.Hostage.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Prologue\Prologue.Hospital.Hostage.2.wav"
+}
+
+"Prologue.Hos.DoorPostOpen"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Prologue\Prologue.Hos.DoorPostOpen.wav"
+}
+
+"Prologue.Hos.DoorPreOpen"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Prologue\Prologue.Hos.DoorPreOpen.wav"
+}
+
+"Prologue.Hos.Escort1.1"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Prologue\Prologue.Hos.Escort1.1.wav"
+}
+"Prologue.Hos.Escort1.2"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Prologue\Prologue.Hos.Escort1.2.wav"
+}
+"Prologue.Hos.Escort2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Prologue\Prologue.Hos.Escort2.wav"
+}
+
+"Prologue.Hos.Escort3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Prologue\Prologue.Hos.Escort3.wav"
+}
+
+"Prologue.Fem.Hos.Overhere"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Prologue\Prologue.Fem.Hos.Overhere.wav"
+}
+
+"Prologue.Fem.Hos.ThankYou"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Prologue\Prologue.Fem.Hos.ThankYou.wav"
+}
+
+"Prologue.Reporter.TvNews"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Prologue\Prologue.Reporter.TvNews.wav"
+}
+
+
+//***Chapter 1***
+
+"Chapter1.Nurse.ShowerCadaver.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Nurse.ShowerCadaver.1.wav"
+}
+"Chapter1.Nurse.ShowerCadaver.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Nurse.ShowerCadaver.2.wav"
+}
+
+"Chapter1.Nurse.HealPlayer.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Nurse.HealPlayer.1.wav"
+}
+
+
+"Chapter1.Survivor.Alan.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Alan.1.wav"
+}
+"Chapter1.Survivor.Alan.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Alan.2.wav"
+}
+"Chapter1.Survivor.Alan.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Alan.3.wav"
+}
+"Chapter1.Survivor.Alan.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Alan.4.wav"
+}
+"Chapter1.Survivor.Alan.5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Alan.5.wav"
+}
+"Chapter1.Survivor.Alan.6"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Alan.6.wav"
+}
+
+"Chapter1.Survivor.Bob.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Bob.1.wav"
+}
+"Chapter1.Survivor.Bob.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Bob.2.wav"
+}
+"Chapter1.Survivor.Bob.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Bob.3.wav"
+}
+"Chapter1.Survivor.Bob.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Bob.4.wav"
+}
+"Chapter1.Survivor.Bob.5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Bob.5.wav"
+}
+"Chapter1.Survivor.Bob.6"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Bob.6.wav"
+}
+"Chapter1.Survivor.Bob.7"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Bob.7.wav"
+}
+
+"Chapter1.Survivor.Daniel.Escort.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Daniel.Escort.1.wav"
+}
+"Chapter1.Survivor.Daniel.Escort.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Daniel.Escort.2.wav"
+}
+"Chapter1.Survivor.Daniel.Escort.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Daniel.Escort.3.wav"
+}
+"Chapter1.Survivor.Daniel.Escort.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Daniel.Escort.4.wav"
+}
+"Chapter1.Survivor.Daniel.Escort.5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Daniel.Escort.5.wav"
+}
+"Chapter1.Survivor.Daniel.Escort.6"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Daniel.Escort.6.wav"
+}
+"Chapter1.Survivor.Daniel.Escort.7"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Daniel.Escort.7.wav"
+}
+"Chapter1.Survivor.Daniel.Escort.8"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Daniel.Escort.8.wav"
+}
+
+"Chapter1.Survivor.Daniel.Rescued.1a"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Daniel.Rescued.1a.wav"
+}
+"Chapter1.Survivor.Daniel.Rescued.1b"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Daniel.Rescued.1b.wav"
+}
+"Chapter1.Survivor.Daniel.Rescued.2a"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Daniel.Rescued.2a.wav"
+}
+"Chapter1.Survivor.Daniel.Rescued.3a"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Daniel.Rescued.3a.wav"
+}
+
+"Chapter1.Survivor.Daniel.SafeRoom1.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Daniel.SafeRoom1.1.wav"
+}
+"Chapter1.Survivor.Daniel.SafeRoom1.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Daniel.SafeRoom1.2.wav"
+}
+"Chapter1.Survivor.Daniel.SafeRoom1.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Daniel.SafeRoom1.3.wav"
+}
+"Chapter1.Survivor.Daniel.SafeRoom1.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Daniel.SafeRoom1.4.wav"
+}
+"Chapter1.Survivor.Daniel.SafeRoom1.5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Daniel.SafeRoom1.5.wav"
+}
+"Chapter1.Survivor.Daniel.SafeRoom1.6"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Daniel.SafeRoom1.6.wav"
+}
+"Chapter1.Survivor.Daniel.SafeRoom2.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Daniel.SafeRoom2.1.wav"
+}
+"Chapter1.Survivor.Daniel.SafeRoom2.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Daniel.SafeRoom2.2.wav"
+}
+"Chapter1.Survivor.Daniel.SafeRoom2.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Daniel.SafeRoom2.3.wav"
+}
+"Chapter1.Survivor.Daniel.SafeRoom2.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Daniel.SafeRoom2.4.wav"
+}
+"Chapter1.Survivor.Daniel.SafeRoom2.5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Daniel.SafeRoom2.5.wav"
+}
+
+"Chapter1.Survivor.Joseph.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Joseph.1.wav"
+}
+"Chapter1.Survivor.Joseph.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Joseph.2.wav"
+}
+"Chapter1.Survivor.Joseph.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Joseph.3.wav"
+}
+"Chapter1.Survivor.Joseph.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Joseph.4.wav"
+}
+"Chapter1.Survivor.Joseph.5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Joseph.5.wav"
+}
+"Chapter1.Survivor.Joseph.6"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Joseph.6.wav"
+}
+"Chapter1.Survivor.Joseph.7"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Joseph.7.wav"
+}
+"Chapter1.Survivor.Joseph.8"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Joseph.8.wav"
+}
+
+"Chapter1.Survivor.Evan.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Evan.1.wav"
+}
+"Chapter1.Survivor.Evan.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Evan.2.wav"
+}
+"Chapter1.Survivor.Evan.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Evan.3.wav"
+}
+"Chapter1.Survivor.Evan.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Evan.4.wav"
+}
+"Chapter1.Survivor.Evan.5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Evan.5.wav"
+}
+"Chapter1.Survivor.Evan.6"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Evan.6.wav"
+}
+
+"Chapter1.Survivor.Martin.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Martin.1.wav"
+}
+"Chapter1.Survivor.Martin.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Martin.2.wav"
+}
+"Chapter1.Survivor.Martin.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Martin.3.wav"
+}
+"Chapter1.Survivor.Martin.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Martin.4.wav"
+}
+"Chapter1.Survivor.Martin.5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Martin.5.wav"
+}
+"Chapter1.Survivor.Martin.6"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Martin.6.wav"
+}
+"Chapter1.Survivor.Martin.7"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Martin.7.wav"
+}
+"Chapter1.Survivor.Martin.8"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Martin.8.wav"
+}
+
+"Chapter1.Survivor.Lloyd.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Lloyd.1.wav"
+}
+"Chapter1.Survivor.Lloyd.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Lloyd.2.wav"
+}
+"Chapter1.Survivor.Lloyd.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Lloyd.3.wav"
+}
+"Chapter1.Survivor.Lloyd.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Lloyd.4.wav"
+}
+"Chapter1.Survivor.Lloyd.5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Lloyd.5.wav"
+}
+"Chapter1.Survivor.Lloyd.6"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Lloyd.6.wav"
+}
+"Chapter1.Survivor.Lloyd.7"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Lloyd.7.wav"
+}
+"Chapter1.Survivor.Lloyd.8"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Lloyd.8.wav"
+}
+"Chapter1.Survivor.Lloyd.9"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Lloyd.9.wav"
+}
+"Chapter1.Survivor.Lloyd.10"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Lloyd.10.wav"
+}
+"Chapter1.Survivor.Lloyd.11"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Lloyd.11.wav"
+}
+"Chapter1.Survivor.Lloyd.12"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Lloyd.12.wav"
+}
+"Chapter1.Survivor.Lloyd.13"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Lloyd.13.wav"
+}
+"Chapter1.Survivor.Lloyd.14"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Lloyd.14.wav"
+}
+"Chapter1.Survivor.Lloyd.15"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Lloyd.15.wav"
+}
+"Chapter1.Survivor.Lloyd.16"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Lloyd.16.wav"
+}
+
+"Chapter1.Survivor.Sasha.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Sasha.1.wav"
+}
+"Chapter1.Survivor.Sasha.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Sasha.2.wav"
+}
+"Chapter1.Survivor.Sasha.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Sasha.3.wav"
+}
+"Chapter1.Survivor.Sasha.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Sasha.4.wav"
+}
+"Chapter1.Survivor.Sasha.5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Sasha.5.wav"
+}
+"Chapter1.Survivor.Sasha.6"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Sasha.6.wav"
+}
+"Chapter1.Survivor.Sasha.7"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Sasha.7.wav"
+}
+"Chapter1.Survivor.Sasha.8"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Sasha.8.wav"
+}
+"Chapter1.Survivor.Sasha.9"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Sasha.9.wav"
+}
+"Chapter1.Survivor.Sasha.10"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Sasha.10.wav"
+}
+"Chapter1.Survivor.Sasha.11"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Sasha.11.wav"
+}
+"Chapter1.Survivor.Sasha.12"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Sasha.12.wav"
+}
+"Chapter1.Survivor.Sasha.13"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Sasha.13.wav"
+}
+"Chapter1.Survivor.Sasha.14"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Sasha.14.wav"
+}
+"Chapter1.Survivor.Sasha.15"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Sasha.15.wav"
+}
+"Chapter1.Survivor.Sasha.16"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Sasha.16.wav"
+}
+"Chapter1.Survivor.Sasha.17"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Sasha.17.wav"
+}
+"Chapter1.Survivor.Sasha.18"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Sasha.18.wav"
+}
+"Chapter1.Survivor.Sasha.19"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Sasha.19.wav"
+}
+
+"Chapter1.Survivor.Roger.CyberCafe.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Roger.CyberCafe.1.wav"
+}
+"Chapter1.Survivor.Roger.CyberCafe.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Roger.CyberCafe.2.wav"
+}
+"Chapter1.Survivor.Roger.CyberCafe.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Roger.CyberCafe.3.wav"
+}
+"Chapter1.Survivor.Roger.CyberCafe.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Roger.CyberCafe.4.wav"
+}
+"Chapter1.Survivor.Roger.CyberCafe.5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Roger.CyberCafe.5.wav"
+}
+"Chapter1.Survivor.Roger.CyberCafe.6"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Roger.CyberCafe.6.wav"
+}
+"Chapter1.Survivor.Roger.CyberCafe.7"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Roger.CyberCafe.7.wav"
+}
+"Chapter1.Survivor.Roger.CyberCafe.8"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Roger.CyberCafe.8.wav"
+}
+"Chapter1.Survivor.Roger.CyberCafe.9"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Roger.CyberCafe.9.wav"
+}
+"Chapter1.Survivor.Roger.CyberCafe.10"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Roger.CyberCafe.10.wav"
+}
+"Chapter1.Survivor.Roger.CyberCafe.11"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Roger.CyberCafe.11.wav"
+}
+"Chapter1.Survivor.Roger.CyberCafe.12"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Roger.CyberCafe.12.wav"
+}
+"Chapter1.Survivor.Roger.CyberCafe.13"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Roger.CyberCafe.13.wav"
+}
+"Chapter1.Survivor.Roger.CyberCafe.14"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Roger.CyberCafe.14.wav"
+}
+"Chapter1.Survivor.Roger.CyberCafe.15"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Roger.CyberCafe.15.wav"
+}
+"Chapter1.Survivor.Roger.CyberCafe.16"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Roger.CyberCafe.16.wav"
+}
+
+"Chapter1.Survivor.Roger.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Roger.1.wav"
+}
+"Chapter1.Survivor.Roger.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Roger.2.wav"
+}
+"Chapter1.Survivor.Roger.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Roger.3.wav"
+}
+"Chapter1.Survivor.Roger.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Roger.4.wav"
+}
+"Chapter1.Survivor.Roger.5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Roger.5.wav"
+}
+"Chapter1.Survivor.Roger.6"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Roger.6.wav"
+}
+"Chapter1.Survivor.Roger.7"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Roger.7.wav"
+}
+"Chapter1.Survivor.Roger.8"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Roger.8.wav"
+}
+"Chapter1.Survivor.Roger.Escort.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Roger.Escort.1.wav"
+}
+"Chapter1.Survivor.Roger.Escort.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Roger.Escort.2.wav"
+}
+"Chapter1.Survivor.Roger.Escort.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Roger.Escort.3.wav"
+}
+"Chapter1.Survivor.Roger.Escort.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Roger.Escort.4.wav"
+}
+"Chapter1.Survivor.Roger.Escort.5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Roger.Escort.5.wav"
+}
+"Chapter1.Survivor.Roger.Escort.6"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Roger.Escort.6.wav"
+}
+"Chapter1.Survivor.Roger.Escort.7"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Roger.Escort.7.wav"
+}
+"Chapter1.Survivor.Roger.Escort.8"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Roger.Escort.8.wav"
+}
+"Chapter1.Survivor.Roger.Escort.9"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Roger.Escort.9.wav"
+}
+
+"Chapter1.Survivor.Roger.Reinforcements.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Roger.Reinforcements.1.wav"
+}
+"Chapter1.Survivor.Roger.Reinforcements.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Roger.Reinforcements.2.wav"
+}
+"Chapter1.Survivor.Roger.Reinforcements.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Roger.Reinforcements.3.wav"
+}
+"Chapter1.Survivor.Roger.Reinforcements.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Roger.Reinforcements.4.wav"
+}
+"Chapter1.Survivor.Roger.Reinforcements.5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Roger.Reinforcements.5.wav"
+}
+"Chapter1.Survivor.Roger.Rescued.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Roger.Rescued.1.wav"
+}
+"Chapter1.Survivor.Roger.Rescued.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Roger.Rescued.2.wav"
+}
+"Chapter1.Survivor.Roger.Rescued.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Roger.Rescued.3.wav"
+}
+"Chapter1.Survivor.Roger.Rescued.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Roger.Rescued.4.wav"
+}
+"Chapter1.Survivor.Roger.SafeRoom.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Roger.SafeRoom.1.wav"
+}
+"Chapter1.Survivor.Roger.SafeRoom.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Roger.SafeRoom.2.wav"
+}
+"Chapter1.Survivor.Roger.SafeRoom.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Roger.SafeRoom.3.wav"
+}
+
+"Chapter1.Survivor.William.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.William.1.wav"
+}
+"Chapter1.Survivor.William.Chambers.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.William.Chambers.1.wav"
+}
+"Chapter1.Survivor.William.Clear.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.William.Clear.1.wav"
+}
+"Chapter1.Survivor.William.Rescued.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.William.Rescued.1.wav"
+}
+"Chapter1.Survivor.William.Use.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.William.Use.1.wav"
+}
+"Chapter1.Survivor.William.Use.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.William.Use.2.wav"
+}
+"Chapter1.Survivor.William.Use.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.William.Use.3.wav"
+}
+
+
+"Chapter1.Survivor.Donovan.Chambers.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Donovan.Chambers.1.wav"
+}
+"Chapter1.Survivor.Donovan.Clear.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Donovan.Clear.1.wav"
+}
+"Chapter1.Survivor.Donovan.Clear.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Donovan.Clear.2.wav"
+}
+"Chapter1.Survivor.Donovan.Clear.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Donovan.Clear.3.wav"
+}
+"Chapter1.Survivor.Donovan.Clear.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Donovan.Clear.4.wav"
+}
+"Chapter1.Survivor.Donovan.Clear.5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Donovan.Clear.5.wav"
+}
+"Chapter1.Survivor.Donovan.Clear.6"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Donovan.Clear.6.wav"
+}
+"Chapter1.Survivor.Donovan.NotClear.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Donovan.NotClear.1.wav"
+}
+"Chapter1.Survivor.Donovan.NotClear.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Donovan.NotClear.2.wav"
+}
+"Chapter1.Survivor.Donovan.NotClear.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Donovan.NotClear.3.wav"
+}
+"Chapter1.Survivor.Donovan.NotClear.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Donovan.NotClear.4.wav"
+}
+"Chapter1.Survivor.Donovan.Prisoner.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Donovan.Prisoner.1.wav"
+}
+"Chapter1.Survivor.Donovan.Rescued.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Donovan.Rescued.1.wav"
+}
+"Chapter1.Survivor.Donovan.Use.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Donovan.Use.1.wav"
+}
+"Chapter1.Survivor.Donovan.Use.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Donovan.Use.2.wav"
+}
+"Chapter1.Survivor.Donovan.Use.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Donovan.Use.3.wav"
+}
+
+"Chapter1.Survivor.Reema.Prisoner.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Reema.Prisoner.1.wav"
+}
+"Chapter1.Survivor.Reema.Prisoner.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Reema.Prisoner.2.wav"
+}
+"Chapter1.Survivor.Reema.Chambers.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Reema.Chambers.1.wav"
+}
+"Chapter1.Survivor.Reema.Rescued.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Reema.Rescued.1.wav"
+}
+"Chapter1.Survivor.Reema.Use.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Reema.Use.1.wav"
+}
+"Chapter1.Survivor.Reema.Use.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Reema.Use.2.wav"
+}
+"Chapter1.Survivor.Reema.Use.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Reema.Use.3.wav"
+}
+
+"Chapter1.Speakers.Quarantine.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Speakers.Quarantine.1.wav"
+}
+"Chapter1.Speakers.Quarantine.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Speakers.Quarantine.2.wav"
+}
+"Chapter1.Speakers.Quarantine.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Speakers.Quarantine.3.wav"
+}
+"Chapter1.Speakers.Quarantine.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Speakers.Quarantine.4.wav"
+}
+"Chapter1.Speakers.Quarantine.25"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Speakers.Quarantine.25.wav"
+}
+"Chapter1.Speakers.Quarantine.50"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Speakers.Quarantine.50.wav"
+}
+"Chapter1.Speakers.Quarantine.75"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Speakers.Quarantine.75.wav"
+}
+"Chapter1.Speakers.Quarantine.100"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Speakers.Quarantine.100.wav"
+}
+
+"Chapter1.Speakers.CoreElevator.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_120dB"
+   "wave"          "vo\Survivors\Chapter1\Speaker.CoreElevator.1.wav"
+}
+"Chapter1.Speakers.CoreElevator.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_120dB"
+   "wave"          "vo\Survivors\Chapter1\Speaker.CoreElevator.2.wav"
+}
+"Chapter1.Speakers.CoreElevator.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_120dB"
+   "wave"          "vo\Survivors\Chapter1\Speaker.CoreElevator.3.wav"
+}
+"Chapter1.Speakers.CoreElevator.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_120dB"
+   "wave"          "vo\Survivors\Chapter1\Speaker.CoreElevator.4.wav"
+}
+"Chapter1.Speakers.CoreElevator.5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_120dB"
+   "wave"          "vo\Survivors\Chapter1\Speaker.CoreElevator.5.wav"
+}
+"Chapter1.Speakers.CoreElevator.6"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_120dB"
+   "wave"          "vo\Survivors\Chapter1\Speaker.CoreElevator.6.wav"
+}
+
+"Chapter1.News.Host.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\News.Host.1.wav"
+}
+"Chapter1.News.Host.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\News.Host.2.wav"
+}
+"Chapter1.News.Host.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\News.Host.3.wav"
+}
+"Chapter1.News.Host.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\News.Host.4.wav"
+}
+"Chapter1.News.Host.5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\News.Host.5.wav"
+}
+
+"Chapter1.Survivor.Dayna.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Dayna.1.wav"
+}
+"Chapter1.Survivor.Dayna.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Dayna.2.wav"
+}
+"Chapter1.Survivor.Dayna.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Dayna.3.wav"
+}
+"Chapter1.Survivor.Dayna.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Dayna.4.wav"
+}
+"Chapter1.Survivor.Dayna.5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Survivors\Chapter1\Survivor.Dayna.5.wav"
+}

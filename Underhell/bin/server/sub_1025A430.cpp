@@ -1,0 +1,101 @@
+int *sub_1025A430()
+{
+  if ( (dword_106C7B68 & 1) == 0 )
+  {
+    dword_106C7B68 |= 1u;
+    dword_106C7B4C = (int)"CTriggerProximity";
+    dword_106C7B54 = 0;
+    dword_106C7B58 = 0;
+    dword_106C7B5C = 0;
+    dword_106C7B60 = 0;
+    dword_106C7B64 = 0;
+    dword_106C7B50 = 17;
+    atexit(sub_10474820);
+  }
+  dword_10651678 = (int)&dword_1065151C;
+  if ( (dword_106C7B68 & 2) == 0 )
+  {
+    dword_106C7B68 |= 2u;
+    dword_106C7A18 = (int)sub_100390B0((char **)&dword_106C7B4C, "MeasureThink");
+    flt_106C7A78 = 0.0;
+    flt_106C7AAC = 0.0;
+    flt_106C7AE0 = 0.0;
+    dword_106C7A34 = 0;
+    flt_106C7B14 = 0.0;
+    dword_106C7A38 = 0;
+    dword_106C7A3C = 0;
+    dword_106C7A40 = 0;
+    dword_106C7A44 = 0;
+    word_106C7A8C = 1;
+    dword_106C7AB0 = 1;
+    dword_106C7A1C = 0;
+    dword_106C7A20 = 0;
+    dword_106C7A24 = 2097153;
+    dword_106C7A28 = 0;
+    dword_106C7A2C = 0;
+    dword_106C7A30 = (int)sub_10256A00;
+    dword_106C7A48 = 2;
+    dword_106C7A4C = (int)"m_iszMeasureTarget";
+    dword_106C7A50 = 1096;
+    dword_106C7A54 = 0;
+    dword_106C7A58 = 393217;
+    dword_106C7A5C = (int)"measuretarget";
+    dword_106C7A60 = 0;
+    dword_106C7A64 = 0;
+    dword_106C7A68 = 0;
+    dword_106C7A6C = 4;
+    dword_106C7A70 = 0;
+    dword_106C7A74 = 0;
+    dword_106C7A7C = 13;
+    dword_106C7A80 = (int)"m_hMeasureTarget";
+    dword_106C7A84 = 1092;
+    dword_106C7A88 = 0;
+    word_106C7A8E = 2;
+    dword_106C7A90 = 0;
+    dword_106C7A94 = 0;
+    dword_106C7A98 = 0;
+    dword_106C7A9C = 0;
+    dword_106C7AA0 = 4;
+    dword_106C7AA4 = 0;
+    dword_106C7AA8 = 0;
+    dword_106C7AB4 = (int)"m_fRadius";
+    dword_106C7AB8 = 1100;
+    dword_106C7ABC = 0;
+    dword_106C7AC0 = 393217;
+    dword_106C7AC4 = (int)"radius";
+    dword_106C7AC8 = 0;
+    dword_106C7ACC = 0;
+    dword_106C7AD0 = 0;
+    dword_106C7AD4 = 4;
+    dword_106C7AD8 = 0;
+    dword_106C7ADC = 0;
+    dword_106C7AE4 = 5;
+    dword_106C7AE8 = (int)"m_nTouchers";
+    dword_106C7AEC = 1104;
+    dword_106C7AF0 = 0;
+    dword_106C7AF4 = 131073;
+    dword_106C7AF8 = 0;
+    dword_106C7AFC = 0;
+    dword_106C7B00 = 0;
+    dword_106C7B04 = 0;
+    dword_106C7B08 = 4;
+    dword_106C7B0C = 0;
+    dword_106C7B10 = 0;
+    dword_106C7B18 = 11;
+    dword_106C7B1C = (int)"m_NearestEntityDistance";
+    dword_106C7B20 = 1108;
+    dword_106C7B24 = 0;
+    dword_106C7B28 = 1441793;
+    dword_106C7B2C = (int)"NearestEntityDistance";
+    dword_106C7B30 = (int)off_10614A2C;
+    dword_106C7B34 = 0;
+    dword_106C7B38 = 0;
+    dword_106C7B3C = 0;
+    dword_106C7B40 = 0;
+    dword_106C7B44 = 0;
+    dword_106C7B48 = 0;
+  }
+  dword_10651670 = 6;
+  dword_1065166C = (int)&unk_106C7A14;
+  return &dword_1065166C;
+}

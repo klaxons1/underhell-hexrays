@@ -1,0 +1,1571 @@
+//**************************HERMIT**************************
+
+"Chapter1.Hermit.Checkpoint.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Checkpoint.1.wav"
+}
+"Chapter1.Hermit.Checkpoint.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Checkpoint.2.wav"
+}
+"Chapter1.Hermit.Checkpoint.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Checkpoint.3.wav"
+}
+"Chapter1.Hermit.Checkpoint.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Checkpoint.4.wav"
+}
+"Chapter1.Hermit.Checkpoint.5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Checkpoint.5.wav"
+}
+
+"Chapter1.Hermit.Prison.Keys"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Prison.Keys.wav"
+}
+
+"Chapter1.Hermit.Prison.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Prison.1.wav"
+}
+"Chapter1.Hermit.Prison.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Prison.2.wav"
+}
+"Chapter1.Hermit.Prison.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Prison.3.wav"
+}
+"Chapter1.Hermit.Prison.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Prison.4.wav"
+}
+"Chapter1.Hermit.Prison.5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Prison.5.wav"
+}
+"Chapter1.Hermit.Prison.6a"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Prison.6a.wav"
+}
+"Chapter1.Hermit.Prison.6b"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Prison.6b.wav"
+}
+"Chapter1.Hermit.Prison.7a"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Prison.7a.wav"
+}
+"Chapter1.Hermit.Prison.7b"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Prison.7b.wav"
+}
+"Chapter1.Hermit.Prison.8a"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Prison.8a.wav"
+}
+"Chapter1.Hermit.Prison.8b"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Prison.8b.wav"
+}
+"Chapter1.Hermit.Prison.9"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Prison.9.wav"
+}
+"Chapter1.Hermit.Prison.10a"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Prison.10a.wav"
+}
+"Chapter1.Hermit.Prison.10b"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Prison.10b.wav"
+}
+"Chapter1.Hermit.Prison.11"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Prison.11.wav"
+}
+"Chapter1.Hermit.Prison.12a"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Prison.12a.wav"
+}
+"Chapter1.Hermit.Prison.12b"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Prison.12b.wav"
+}
+"Chapter1.Hermit.Prison.13"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Prison.13.wav"
+}
+"Chapter1.Hermit.Prison.14a"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Prison.14a.wav"
+}
+"Chapter1.Hermit.Prison.14b"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Prison.14b.wav"
+}
+"Chapter1.Hermit.Prison.14c"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Prison.14c.wav"
+}
+"Chapter1.Hermit.Prison.15a"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Prison.15a.wav"
+}
+"Chapter1.Hermit.Prison.15b"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Prison.15b.wav"
+}
+"Chapter1.Hermit.Prison.16"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Prison.16.wav"
+}
+"Chapter1.Hermit.Prison.17a"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Prison.17a.wav"
+}
+"Chapter1.Hermit.Prison.17b"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Prison.17b.wav"
+}
+"Chapter1.Hermit.Prison.18"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Prison.18.wav"
+}
+"Chapter1.Hermit.Prison.19"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Prison.19.wav"
+}
+"Chapter1.Hermit.Prison.20a"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Prison.20a.wav"
+}
+"Chapter1.Hermit.Prison.20b"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Prison.20b.wav"
+}
+"Chapter1.Hermit.HSB.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.HSB.1.wav"
+}
+"Chapter1.Hermit.HSB.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.HSB.2.wav"
+}
+"Chapter1.Hermit.HSB.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.HSB.3.wav"
+}
+"Chapter1.Hermit.HSB.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.HSB.4.wav"
+}
+"Chapter1.Hermit.HSB.5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.HSB.5.wav"
+}
+"Chapter1.Hermit.HSB.6"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.HSB.6.wav"
+}
+
+"Chapter1.Hermit.5Cards.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.5Cards.1.wav"
+}
+"Chapter1.Hermit.5Cards.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.5Cards.2.wav"
+}
+"Chapter1.Hermit.5Cards.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.5Cards.3.wav"
+}
+"Chapter1.Hermit.5Cards.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.5Cards.4.wav"
+}
+"Chapter1.Hermit.5Cards.5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.5Cards.5.wav"
+}
+"Chapter1.Hermit.5Cards.6"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.5Cards.6.wav"
+}
+"Chapter1.Hermit.5Cards.7"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.5Cards.7.wav"
+}
+"Chapter1.Hermit.5Cards.8"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.5Cards.8.wav"
+}
+"Chapter1.Hermit.5Cards.9"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.5Cards.9.wav"
+}
+
+"Chapter1.Hermit.Maintenance.1a"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Maintenance.1a.wav"
+}
+"Chapter1.Hermit.Maintenance.1b"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Maintenance.1b.wav"
+}
+"Chapter1.Hermit.Maintenance.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Maintenance.2.wav"
+}
+"Chapter1.Hermit.Maintenance.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Maintenance.3.wav"
+}
+"Chapter1.Hermit.Maintenance.4a"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Maintenance.4a.wav"
+}
+"Chapter1.Hermit.Maintenance.4b"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Maintenance.4b.wav"
+}
+"Chapter1.Hermit.Maintenance.5a"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Maintenance.5a.wav"
+}
+"Chapter1.Hermit.Maintenance.5b"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Maintenance.5b.wav"
+}
+"Chapter1.Hermit.Maintenance.6"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Maintenance.6.wav"
+}
+"Chapter1.Hermit.Maintenance.7"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Maintenance.7.wav"
+}
+"Chapter1.Hermit.Maintenance.8"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Maintenance.8.wav"
+}
+"Chapter1.Hermit.Maintenance.9"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Maintenance.9.wav"
+}
+"Chapter1.Hermit.Maintenance.10"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Maintenance.10.wav"
+}
+
+"Chapter1.Hermit.6Cards.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.6Cards.1.wav"
+}
+"Chapter1.Hermit.6Cards.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.6Cards.2.wav"
+}
+"Chapter1.Hermit.6Cards.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.6Cards.3.wav"
+}
+"Chapter1.Hermit.6Cards.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.6Cards.4.wav"
+}
+"Chapter1.Hermit.6Cards.5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.6Cards.5.wav"
+}
+"Chapter1.Hermit.6Cards.6"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.6Cards.6.wav"
+}
+"Chapter1.Hermit.6Cards.7a"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.6Cards.7a.wav"
+}
+"Chapter1.Hermit.6Cards.7b"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.6Cards.7b.wav"
+}
+"Chapter1.Hermit.6Cards.8"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.6Cards.8.wav"
+}
+
+"Chapter1.Hermit.ChocolateBars"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.ChocolateBars.wav"
+}
+
+"Chapter1.Hermit.Closet"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Closet.wav"
+}
+
+"Chapter1.Hermit.Level1.1a"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Level1.1a.wav"
+}
+"Chapter1.Hermit.Level1.1b"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Level1.1b.wav"
+}
+"Chapter1.Hermit.Level1.2a"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Level1.2a.wav"
+}
+"Chapter1.Hermit.Level1.2b"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Level1.2b.wav"
+}
+"Chapter1.Hermit.Level1.3a"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Level1.3a.wav"
+}
+"Chapter1.Hermit.Level1.3b"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Level1.3b.wav"
+}
+"Chapter1.Hermit.Level1.4a"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Level1.4a.wav"
+}
+"Chapter1.Hermit.Level1.4b"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Level1.4b.wav"
+}
+"Chapter1.Hermit.Level1.5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Level1.5.wav"
+}
+"Chapter1.Hermit.Level1.6a"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Level1.6a.wav"
+}
+"Chapter1.Hermit.Level1.6b"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Level1.6b.wav"
+}
+"Chapter1.Hermit.Level1.7a"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Level1.7a.wav"
+}
+"Chapter1.Hermit.Level1.7b"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Level1.7b.wav"
+}
+"Chapter1.Hermit.Level1.8a"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Level1.8a.wav"
+}
+"Chapter1.Hermit.Level1.8b"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Level1.8b.wav"
+}
+"Chapter1.Hermit.Level1.9"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Level1.9.wav"
+}
+"Chapter1.Hermit.Level1.9a"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Level1.9a.wav"
+}
+"Chapter1.Hermit.Level1.10a"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Level1.10a.wav"
+}
+"Chapter1.Hermit.Level1.10b"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Level1.10b.wav"
+}
+"Chapter1.Hermit.Level1.11a"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Level1.11a.wav"
+}
+"Chapter1.Hermit.Level1.11b"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Level1.11b.wav"
+}
+"Chapter1.Hermit.Level1.12"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Level1.12.wav"
+}
+"Chapter1.Hermit.Level1.13a"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Level1.13a.wav"
+}
+"Chapter1.Hermit.Level1.13b"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Level1.13b.wav"
+}
+"Chapter1.Hermit.Level1.14"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Level1.14.wav"
+}
+"Chapter1.Hermit.Level1.15a"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Level1.15a.wav"
+}
+"Chapter1.Hermit.Level1.15b"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Level1.15b.wav"
+}
+
+"Chapter1.Hermit.10Cards.1a"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.10Cards.1a.wav"
+}
+"Chapter1.Hermit.10Cards.1b"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.10Cards.1b.wav"
+}
+"Chapter1.Hermit.10Cards.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.10Cards.2.wav"
+}
+"Chapter1.Hermit.10Cards.3a"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.10Cards.3a.wav"
+}
+"Chapter1.Hermit.10Cards.3b"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.10Cards.3b.wav"
+}
+"Chapter1.Hermit.10Cards.4a"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.10Cards.4a.wav"
+}
+"Chapter1.Hermit.10Cards.4b"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.10Cards.4b.wav"
+}
+
+"Chapter1.Hermit.Level2.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Level2.1.wav"
+}
+"Chapter1.Hermit.Level2.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Level2.2.wav"
+}
+"Chapter1.Hermit.Level2.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Level2.3.wav"
+}
+"Chapter1.Hermit.Level2.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Level2.4.wav"
+}
+"Chapter1.Hermit.Level2.5a"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Level2.5a.wav"
+}
+"Chapter1.Hermit.Level2.5b"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Level2.5b.wav"
+}
+"Chapter1.Hermit.Level2.6a"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Level2.6a.wav"
+}
+"Chapter1.Hermit.Level2.6b"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Level2.6b.wav"
+}
+"Chapter1.Hermit.Level2.6c"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Level2.6c.wav"
+}
+"Chapter1.Hermit.Level2.7a"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Level2.7a.wav"
+}
+"Chapter1.Hermit.Level2.7b"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Level2.7b.wav"
+}
+"Chapter1.Hermit.Level2.8a"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Level2.8a.wav"
+}
+"Chapter1.Hermit.Level2.8b"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Level2.8b.wav"
+}
+"Chapter1.Hermit.Level2.8c"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Level2.8c.wav"
+}
+"Chapter1.Hermit.Level2.9a"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Level2.9a.wav"
+}
+"Chapter1.Hermit.Level2.9b"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Level2.9b.wav"
+}
+"Chapter1.Hermit.Level2.10a"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Level2.10a.wav"
+}
+"Chapter1.Hermit.Level2.10b"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Level2.10b.wav"
+}
+"Chapter1.Hermit.Level2.11"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Level2.11.wav"
+}
+"Chapter1.Hermit.Level2.12"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Level2.12.wav"
+}
+"Chapter1.Hermit.Level2.13a"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Level2.13a.wav"
+}
+"Chapter1.Hermit.Level2.13b"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Level2.13b.wav"
+}
+"Chapter1.Hermit.Level2.14"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Level2.14.wav"
+}
+"Chapter1.Hermit.Level2.15"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Level2.15.wav"
+}
+"Chapter1.Hermit.Level2.16"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Level2.16.wav"
+}
+"Chapter1.Hermit.Level2.17a"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Level2.17a.wav"
+}
+"Chapter1.Hermit.Level2.17b"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Level2.17b.wav"
+}
+"Chapter1.Hermit.Level2.18"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Level2.18.wav"
+}
+"Chapter1.Hermit.Level2.19"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Level2.19.wav"
+}
+"Chapter1.Hermit.Level2.20"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Level2.20.wav"
+}
+"Chapter1.Hermit.Level2.21"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Level2.21.wav"
+}
+"Chapter1.Hermit.Level2.22"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Level2.22.wav"
+}
+"Chapter1.Hermit.Level2.23"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Level2.23.wav"
+}
+"Chapter1.Hermit.Level2.24"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Level2.24.wav"
+}
+"Chapter1.Hermit.Level2.25"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Level2.25.wav"
+}
+
+"Chapter1.Hermit.NorthWing.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.NorthWing.1.wav"
+}
+"Chapter1.Hermit.NorthWing.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.NorthWing.2.wav"
+}
+"Chapter1.Hermit.NorthWing.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.NorthWing.3.wav"
+}
+"Chapter1.Hermit.NorthWing.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.NorthWing.4.wav"
+}
+"Chapter1.Hermit.NorthWing.5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.NorthWing.5.wav"
+}
+"Chapter1.Hermit.NorthWing.6"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.NorthWing.6.wav"
+}
+"Chapter1.Hermit.NorthWing.7"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.NorthWing.7.wav"
+}
+"Chapter1.Hermit.NorthWing.8"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.NorthWing.8.wav"
+}
+"Chapter1.Hermit.NorthWing.9"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.NorthWing.9.wav"
+}
+"Chapter1.Hermit.NorthWing.10"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.NorthWing.10.wav"
+}
+"Chapter1.Hermit.NorthWing.11"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.NorthWing.11.wav"
+}
+"Chapter1.Hermit.NorthWing.12"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.NorthWing.12.wav"
+}
+"Chapter1.Hermit.NorthWing.13"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.NorthWing.13.wav"
+}
+
+"Chapter1.Hermit.Bye.Simple.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Bye.Simple.1.wav"
+}
+"Chapter1.Hermit.Bye.Simple.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Bye.Simple.2.wav"
+}
+"Chapter1.Hermit.Bye.Simple.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Bye.Simple.3.wav"
+}
+"Chapter1.Hermit.Bye.Simple.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Bye.Simple.4.wav"
+}
+"Chapter1.Hermit.Bye.Simple.5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Bye.Simple.5.wav"
+}
+"Chapter1.Hermit.Bye.Simple.6"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Bye.Simple.6.wav"
+}
+"Chapter1.Hermit.Bye.Simple.7"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Bye.Simple.7.wav"
+}
+"Chapter1.Hermit.Bye.Simple.8"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Bye.Simple.8.wav"
+}
+"Chapter1.Hermit.Bye.Simple.9"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Bye.Simple.9.wav"
+}
+"Chapter1.Hermit.Bye.Simple.10"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Bye.Simple.10.wav"
+}
+
+"Chapter1.Hermit.Bye.Interrupt.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Bye.Interrupt.1.wav"
+}
+"Chapter1.Hermit.Bye.Interrupt.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Bye.Interrupt.2.wav"
+}
+"Chapter1.Hermit.Bye.Interrupt.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Bye.Interrupt.3.wav"
+}
+"Chapter1.Hermit.Bye.Interrupt.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Bye.Interrupt.4.wav"
+}
+"Chapter1.Hermit.Bye.Interrupt.5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Bye.Interrupt.5.wav"
+}
+"Chapter1.Hermit.Bye.Interrupt.6"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Bye.Interrupt.6.wav"
+}
+"Chapter1.Hermit.Bye.Interrupt.7"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Bye.Interrupt.7.wav"
+}
+"Chapter1.Hermit.Bye.Interrupt.8"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Bye.Interrupt.8.wav"
+}
+"Chapter1.Hermit.Bye.Interrupt.9"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Bye.Interrupt.9.wav"
+}
+"Chapter1.Hermit.Bye.Interrupt.10"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.Bye.Interrupt.10.wav"
+}
+
+"Chapter1.Hermit.DamnRats"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Hermit\Hermit.DamnRats.wav"
+}
+
+//**************************HERMIT SONG**************************
+
+"Chapter1.Hermit.Song.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\captions\sample.wav"
+}
+"Chapter1.Hermit.Song.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\captions\sample.wav"
+}
+"Chapter1.Hermit.Song.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\captions\sample.wav"
+}
+"Chapter1.Hermit.Song.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\captions\sample.wav"
+}
+"Chapter1.Hermit.Song.5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\captions\sample.wav"
+}
+"Chapter1.Hermit.Song.6"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\captions\sample.wav"
+}
+"Chapter1.Hermit.Song.7"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\captions\sample.wav"
+}
+"Chapter1.Hermit.Song.8"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\captions\sample.wav"
+}
+"Chapter1.Hermit.Song.9"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\captions\sample.wav"
+}
+"Chapter1.Hermit.Song.10"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\captions\sample.wav"
+}
+"Chapter1.Hermit.Song.11"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\captions\sample.wav"
+}
+"Chapter1.Hermit.Song.12"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\captions\sample.wav"
+}
+"Chapter1.Hermit.Song.13"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\captions\sample.wav"
+}
+"Chapter1.Hermit.Song.14"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\captions\sample.wav"
+}
+"Chapter1.Hermit.Song.15"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\captions\sample.wav"
+}
+"Chapter1.Hermit.Song.16"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\captions\sample2.wav"
+}

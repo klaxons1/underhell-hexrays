@@ -1,0 +1,100 @@
+int *sub_1031FA50()
+{
+  if ( (dword_106E5050 & 1) == 0 )
+  {
+    dword_106E5050 |= 1u;
+    dword_106E5034 = (int)"CHelicopterChunk";
+    dword_106E503C = 0;
+    dword_106E5040 = 0;
+    dword_106E5044 = 0;
+    dword_106E5048 = 0;
+    dword_106E504C = 0;
+    dword_106E5038 = 16;
+    atexit(sub_10477B70);
+  }
+  dword_1066C990 = (int)&dword_1060D0FC;
+  if ( (dword_106E5050 & 2) == 0 )
+  {
+    dword_106E5050 |= 2u;
+    dword_106E4F00 = (int)sub_100390B0((char **)&dword_106E5034, "FallThink");
+    flt_106E4F60 = 0.0;
+    flt_106E4F94 = 0.0;
+    dword_106E4F1C = 0;
+    flt_106E4FC8 = 0.0;
+    dword_106E4F20 = 0;
+    dword_106E4F24 = 0;
+    dword_106E4F28 = 0;
+    dword_106E4F2C = 0;
+    dword_106E4F04 = 0;
+    dword_106E4F08 = 0;
+    dword_106E4F0C = 2097153;
+    dword_106E4F10 = 0;
+    dword_106E4F14 = 0;
+    dword_106E4F18 = (int)sub_10313EB0;
+    dword_106E4F30 = 6;
+    dword_106E4F34 = (int)"m_bLanded";
+    dword_106E4F38 = 1136;
+    dword_106E4F3C = 0;
+    dword_106E4F40 = 131073;
+    dword_106E4F44 = 0;
+    dword_106E4F48 = 0;
+    dword_106E4F4C = 0;
+    dword_106E4F50 = 0;
+    dword_106E4F54 = 1;
+    dword_106E4F58 = 0;
+    dword_106E4F5C = 0;
+    dword_106E4F64 = 13;
+    dword_106E4F68 = (int)"m_hMaster";
+    dword_106E4F6C = 1124;
+    dword_106E4F70 = 0;
+    dword_106E4F74 = 131073;
+    dword_106E4F78 = 0;
+    dword_106E4F7C = 0;
+    dword_106E4F80 = 0;
+    dword_106E4F84 = 0;
+    dword_106E4F88 = 4;
+    dword_106E4F8C = 0;
+    dword_106E4F90 = 0;
+    dword_106E4F98 = 5;
+    dword_106E4F9C = (int)"m_nChunkID";
+    dword_106E4FA0 = 1120;
+    dword_106E4FA4 = 0;
+    dword_106E4FA8 = 131073;
+    dword_106E4FAC = 0;
+    dword_106E4FB0 = 0;
+    dword_106E4FB4 = 0;
+    dword_106E4FB8 = 0;
+    dword_106E4FBC = 4;
+    dword_106E4FC0 = 0;
+    dword_106E4FC4 = 0;
+    dword_106E4FCC = 11;
+    dword_106E4FD0 = (int)"m_pTailConstraint";
+    dword_106E4FD4 = 1128;
+    dword_106E4FD8 = 0;
+    dword_106E4FDC = 131073;
+    dword_106E4FE0 = 0;
+    dword_106E4FE4 = (int)sub_101D3250(5);
+    dword_106E4FE8 = 0;
+    dword_106E4FEC = 0;
+    dword_106E4FF0 = 0;
+    dword_106E4FF4 = 0;
+    dword_106E4FF8 = 0;
+    dword_106E4FFC = 0;
+    dword_106E5000 = 11;
+    dword_106E5004 = (int)"m_pCockpitConstraint";
+    dword_106E5008 = 1132;
+    dword_106E500C = 0;
+    dword_106E5010 = 131073;
+    dword_106E5014 = 0;
+    dword_106E5018 = (int)sub_101D3250(5);
+    dword_106E501C = 0;
+    dword_106E5020 = 0;
+    dword_106E5024 = 0;
+    dword_106E5028 = 0;
+    dword_106E502C = 0;
+    dword_106E5030 = 0;
+  }
+  dword_1066C988 = 6;
+  dword_1066C984 = (int)&unk_106E4EFC;
+  return &dword_1066C984;
+}

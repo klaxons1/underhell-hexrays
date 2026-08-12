@@ -1,0 +1,312 @@
+//***PROLOGUE***
+
+"Prologue.Tom.Memory.1"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Tom\Prologue\Prologue.Tom.Memory.1.wav"
+}
+"Prologue.Tom.Memory.2"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Tom\Prologue\Prologue.Tom.Memory.2.wav"
+}
+"Prologue.Tom.Memory.3"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Tom\Prologue\Prologue.Tom.Memory.3.wav"
+}
+"Prologue.Tom.Memory.4"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Tom\Prologue\Prologue.Tom.Memory.4.wav"
+}
+"Prologue.Tom.Memory.5"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Tom\Prologue\Prologue.Tom.Memory.5.wav"
+}
+"Prologue.Tom.Memory.6"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Tom\Prologue\Prologue.Tom.Memory.6.wav"
+}
+"Prologue.Tom.Memory.7"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Tom\Prologue\Prologue.Tom.Memory.7.wav"
+}
+
+//***CHAPTER 1***
+
+"Chapter1.Tom.ProjectedMemory.1"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Tom\Chapter1\Chapter1.Tom.ProjectedMemory.1.wav"
+}
+"Chapter1.Tom.ProjectedMemory.2"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Tom\Chapter1\Chapter1.Tom.ProjectedMemory.2.wav"
+}
+"Chapter1.Tom.ProjectedMemory.3"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Tom\Chapter1\Chapter1.Tom.ProjectedMemory.3.wav"
+}
+"Chapter1.Tom.ProjectedMemory.4"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Tom\Chapter1\Chapter1.Tom.ProjectedMemory.4.wav"
+}
+"Chapter1.Tom.ProjectedMemory.5"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Tom\Chapter1\Chapter1.Tom.ProjectedMemory.5.wav"
+}
+"Chapter1.Tom.ProjectedMemory.6"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Tom\Chapter1\Chapter1.Tom.ProjectedMemory.6.wav"
+}
+"Chapter1.Tom.ProjectedMemory.7"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Tom\Chapter1\Chapter1.Tom.ProjectedMemory.7.wav"
+}
+"Chapter1.Tom.ProjectedMemory.8"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Tom\Chapter1\Chapter1.Tom.ProjectedMemory.8.wav"
+}
+"Chapter1.Tom.ProjectedMemory.9"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Tom\Chapter1\Chapter1.Tom.ProjectedMemory.9.wav"
+}
+"Chapter1.Tom.ProjectedMemory.10"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Tom\Chapter1\Chapter1.Tom.ProjectedMemory.10.wav"
+}
+"Chapter1.Tom.ProjectedMemory.11"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Tom\Chapter1\Chapter1.Tom.ProjectedMemory.11.wav"
+}
+"Chapter1.Tom.ProjectedMemory.12"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Tom\Chapter1\Chapter1.Tom.ProjectedMemory.12.wav"
+}
+
+
+"Chapter1.Tom.Memory.1"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Tom\Chapter1\Chapter1.Tom.Memory.1.wav"
+}
+"Chapter1.Tom.Memory.2"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Tom\Chapter1\Chapter1.Tom.Memory.2.wav"
+}
+"Chapter1.Tom.Memory.3"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Tom\Chapter1\Chapter1.Tom.Memory.3.wav"
+}
+"Chapter1.Tom.Memory.4"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Tom\Chapter1\Chapter1.Tom.Memory.4.wav"
+}
+"Chapter1.Tom.Memory.5"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Tom\Chapter1\Chapter1.Tom.Memory.5.wav"
+}
+"Chapter1.Tom.Memory.6"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Tom\Chapter1\Chapter1.Tom.Memory.6.wav"
+}
+"Chapter1.Tom.Memory.7"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Tom\Chapter1\Chapter1.Tom.Memory.7.wav"
+}
+"Chapter1.Tom.Memory.8"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Tom\Chapter1\Chapter1.Tom.Memory.8.wav"
+}
+"Chapter1.Tom.Memory.9"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Tom\Chapter1\Chapter1.Tom.Memory.9.wav"
+}
+"Chapter1.Tom.Memory.10"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Tom\Chapter1\Chapter1.Tom.Memory.10.wav"
+}
+"Chapter1.Tom.Memory.11"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Tom\Chapter1\Chapter1.Tom.Memory.11.wav"
+}
+
+"Chapter1.Tom.Journal.1"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Tom\Chapter1\Chapter1.Tom.Journal.1.wav"
+}
+"Chapter1.Tom.Journal.2"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Tom\Chapter1\Chapter1.Tom.Journal.2.wav"
+}
+"Chapter1.Tom.Journal.3"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Tom\Chapter1\Chapter1.Tom.Journal.3.wav"
+}
+"Chapter1.Tom.Journal.4"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Tom\Chapter1\Chapter1.Tom.Journal.4.wav"
+}
+"Chapter1.Tom.Journal.5"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Tom\Chapter1\Chapter1.Tom.Journal.5.wav"
+}
+"Chapter1.Tom.Journal.6"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Tom\Chapter1\Chapter1.Tom.Journal.6.wav"
+}
+"Chapter1.Tom.Journal.7"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Tom\Chapter1\Chapter1.Tom.Journal.7.wav"
+}
+"Chapter1.Tom.Journal.8"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Tom\Chapter1\Chapter1.Tom.Journal.8.wav"
+}

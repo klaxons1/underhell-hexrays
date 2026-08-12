@@ -1,0 +1,74 @@
+//***CHAPTER 1***
+
+"Chapter1.Mia.Memory.1"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Mia\Chapter1\Chapter1.Mia.Memory.1.wav"
+}
+"Chapter1.Mia.Memory.2"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Mia\Chapter1\Chapter1.Mia.Memory.2.wav"
+}
+"Chapter1.Mia.Memory.3"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Mia\Chapter1\Chapter1.Mia.Memory.3.wav"
+}
+"Chapter1.Mia.Memory.4"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Mia\Chapter1\Chapter1.Mia.Memory.4.wav"
+}
+"Chapter1.Mia.Memory.5"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Mia\Chapter1\Chapter1.Mia.Memory.5.wav"
+}
+"Chapter1.Mia.Memory.6"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Mia\Chapter1\Chapter1.Mia.Memory.6.wav"
+}
+"Chapter1.Mia.Memory.7"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Mia\Chapter1\Chapter1.Mia.Memory.7.wav"
+}
+"Chapter1.Mia.Memory.8"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Mia\Chapter1\Chapter1.Mia.Memory.8.wav"
+}
+"Chapter1.Mia.Memory.9"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Mia\Chapter1\Chapter1.Mia.Memory.9.wav"
+}

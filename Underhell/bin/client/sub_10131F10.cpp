@@ -1,0 +1,4 @@
+int __cdecl sub_10131F10(int a1, int a2)
+{
+  return (*(int (__thiscall **)(int, int, int))(*(_DWORD *)dword_1047CA68 + 28))(dword_1047CA68, a1, a2);
+}

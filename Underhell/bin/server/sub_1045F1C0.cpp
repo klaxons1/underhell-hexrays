@@ -1,0 +1,12 @@
+void sub_1045F1C0()
+{
+  flt_1064ED84 = flt_106F1CA8;
+  flt_1064ED88 = flt_106F1CAC;
+  flt_1064ED8C = flt_106F1CB0;
+  flt_1064ED98 = flt_106F1CB0;
+  flt_1064EDA4 = flt_106F1CB0;
+  flt_1064ED90 = flt_106F1CA8;
+  flt_1064ED9C = flt_106F1CA8;
+  flt_1064ED94 = flt_106F1CAC;
+  flt_1064EDA0 = flt_106F1CAC;
+}

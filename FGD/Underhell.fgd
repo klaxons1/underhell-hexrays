@@ -1,0 +1,239 @@
+// This FGD was made by Kidnation - http://steamcommunity.com/id/kidnation_source/
+
+
+
+
+@include "underhell_base.fgd"
+@include "underhell_halflife2.fgd"
+
+//========================
+//======= WEAPONS ========
+//========================
+
+
+// Underhell Melee Weapons
+@PointClass base(Weapon) studio("models/weapons/w_wrench_pg.mdl") = weapon_melee_wrench : "A Wrench" []
+@PointClass base(Weapon) studio("models/weapons/w_baton_pg.mdl") = weapon_melee_baton : "A Nightstick" []
+@PointClass base(Weapon) studio("models/weapons/w_axe_pg.mdl") = weapon_melee_axe : "A Axe" []
+@PointClass base(Weapon) studio("models/weapons/w_pipe_pg.mdl") = weapon_melee_pipe : "A Pipe" []
+@PointClass base(Weapon) studio("models/weapons/w_phcleaver.mdl") = weapon_cleaver : "Igor's Butchery Cleaver" []
+
+// Underhell Pistols
+@PointClass base(Weapon) studio("models/weapons/w_pist_glock17_pg.mdl") = weapon_pistol_glock : "Glock-17 Pistol" []
+@PointClass base(Weapon) studio("models/weapons/w_pist_beretta_pg.mdl") = weapon_pistol_beretta : "Beretta Pistol" []
+@PointClass base(Weapon) studio("models/weapons/w_pist_python_pg.mdl") = weapon_pistol_python : "Python Pistol" []
+@PointClass base(Weapon) studio("models/weapons/w_pist_elite.mdl") = weapon_pistol_dualberetta : "Dual Berettas" []
+@PointClass base(Weapon) studio("models/weapons/w_pist_socom_pg.mdl") = weapon_pistol_socom : "Socom Pistol" []
+
+// Underhell Shotguns
+@PointClass base(Weapon) studio("models/weapons/w_shot_m3_pg.mdl") = weapon_shotgun_m3 : "M3 Shotgun" []
+@PointClass base(Weapon) studio("models/weapons/w_shot_m5_pg.mdl") = weapon_shotgun_m5 : "M5 Shotgun" []
+@PointClass base(Weapon) studio("models/weapons/w_shot_spas_pg.mdl") = weapon_shotgun_spas12 : "SPAS 12 Shotgun" []
+@PointClass base(Weapon) studio("models/weapons/w_shot_xm1014_pg.mdl") = weapon_shotgun_xm1014 : "XM 1014 Shotgun" []
+
+// Underhell SMGs
+@PointClass base(Weapon) studio("models/weapons/w_smg_mp5_pg.mdl") = weapon_smg_mp5 : "MP5 SMG" []
+@PointClass base(Weapon) studio("models/weapons/w_smg_mp5_eod_pg.mdl") = weapon_smg_mp5_eod : "MP5 SMG With Grenade Launcher" []
+@PointClass base(Weapon) studio("models/weapons/w_smg_mp7_pg.mdl") = weapon_smg_mp7 : "MP7 SMG" []
+
+// Underhell Rifles
+@PointClass base(Weapon) studio("models/weapons/w_scout_pg.mdl") = weapon_rifle_sniper : "Sniper Rifle" []
+@PointClass base(Weapon) studio("models/weapons/w_g36k_pg.mdl") = weapon_rifle_g36k : "G36K Assault Rifle" []
+
+// Underhell Misc Weapons
+@PointClass base(Weapon) studio("models/weapons/w_minigun_pg.mdl") = weapon_bfg_minigun : "A Freaking Mini-Gun" []
+@PointClass base(Weapon) studio("models/weapons/w_mgl_pg.mdl") = weapon_bfg_mgl : "A Grenade Launcher" []
+
+//========================
+//======= ITEMS ==========
+//========================
+
+// Underhell Food
+@PointClass base(Item) studio("models/pg_props/pg_food/pg_apple.mdl")= item_apple : "Apple" []
+@PointClass base(Item) studio("models/props_junk/bananna.mdl")= item_banana : "Banana" []
+@PointClass base(Item) studio("models/props_junk/bananna_bunch.mdl")= item_bananabunch : "Bananas" []
+@PointClass base(Item) studio("models/pg_props/pg_food/pg_burrito_pack.mdl")= item_burrito : "Burrito" []
+@PointClass base(Item) studio("models/pg_props/pg_food/pg_choco_bar.mdl")= item_chocobar : "Chocolate Bar" []
+@PointClass base(Item) studio("models/props_junk/orange.mdl")= item_orange : "Orange" []
+@PointClass base(Item) studio("models/pg_props/pg_food/pg_sandwich.mdl")= item_sandwich : "Sandwich" []
+@PointClass base(Item) studio("models/props_junk/popcan01a.mdl")= item_uhsoda : "Soda" []
+
+// Underhell Ammo
+@PointClass base(Item) studio("models/pg_props/pg_weapons/pg_pistol_ammo.mdl")= item_box_pistol_ammo : "Boxed Pistol Ammo" []
+@PointClass base(Item) studio("models/pg_props/pg_weapons/pg_rifle_ammo.mdl")= item_box_rifle_ammo : "Boxed Rifle Ammo" []
+@PointClass base(Item) studio("models/pg_props/pg_weapons/pg_357_ammo.mdl")= item_box_357_ammo : "Boxed 357 Ammo" []
+@PointClass base(Item) studio("models/items/buckshot.mdl")= item_ammo_buckshot : "Shotgun Ammo" []
+@PointClass base(Item) studio("models/pg_props/pg_weapons/pg_smg_ammo.mdl")= item_box_smg1_ammo : "Boxed SMG Ammo" []
+
+// Underhell Player Gear
+@PointClass base(Item) studio("models/pg_props/pg_obj/pg_glow_stick_pack.mdl")= item_glowstick : "Glow Stick" []
+@PointClass base(Item) studio("models/pg_props/pg_obj/pg_flare_pack.mdl")= item_flarepack : "Flare Pack" []
+@PointClass base(Item) studio("models/pg_props/pg_obj/pg_battery_pack.mdl")= item_battery_pack : "Battery Pack" []
+@PointClass base(Item) studio("models/items/nightvision.mdl")= item_nightvision : "Night Vision" []
+@PointClass base(Item) studio("models/pg_props/pg_obj/pg_flashlight.mdl")= item_flashlight : "Flash Light" []
+@PointClass base(Item) studio("models/items/gasmask.mdl")= item_gasmask : "Gas Mask" []
+@PointClass base(Item) studio("models/items/helmet.mdl")= item_helmet_prison : "Prison Helmet" []
+@PointClass base(Item) studio("models/items/helmet_visor.mdl")= item_helmet_guard : "Guard Helmet" []
+@PointClass base(Item) studio("models/items/pmc_helmet.mdl")= item_helmet_pmc : "PMC Helmet" []
+@PointClass base(Item) studio("models/items/worker_helmet.mdl")= item_helmet_worker : "Worker Helmet" []
+@PointClass base(Item) studio("models/items/fmradio.mdl")= item_fmradio : "FM Radio" []
+@PointClass base(Item) studio("models/items/fmradio.mdl")= item_radiocracker : "Radio Cracker" []
+@PointClass base(Item) studio("models/items/kevlar.mdl")= item_armor : "Kelvar Armor" []
+@PointClass base(Item) studio("models/items/kevlar.mdl")= item_heavyarmor : "Heavy Kevlar Armor" []
+
+// Underhell Health Items
+@PointClass base(Item) studio("models/pg_props/pg_obj/pg_bandage.mdl")= item_bandages : "Bandages" []
+
+// Infected Zombie
+@NPCClass base(BaseNPC) studio("models/infected/infected_inmate.mdl") = npc_infected : "Infected Zombie"
+[
+	SpeedModifier(string) : "Speed Modifier" : "" : "Modify how fast this npc_infected can run, can be values between 0-1, leave blank for default random behavior"
+	
+	inmate(choices) : "Disable Being Inmate" : 1 : "Disable this infected from being a inmate zombie?" =
+	[
+		0 : "Yes"
+		1 : "No"
+	]
+	guard(choices) : "Disable Being Guard" : 1 : "Disable this infected from being a guard zombie?" =
+	[
+		0 : "Yes"
+		1 : "No"
+	]
+	worker(choices) : "Disable Being Worker" : 1 : "Disable this infected from being a worker zombie?" =
+	[
+		0 : "Yes"
+		1 : "No"
+	]
+	rural(choices) : "Disable Being Rural" : 1 : "Disable this infected from being a rural zombie?" =
+	[
+		0 : "Yes"
+		1 : "No"
+	]
+	doctor(choices) : "Disable Being Doctor" : 1 : "Disable this infected from being a doctor zombie?" =
+	[
+		0 : "Yes"
+		1 : "No"
+	]
+	uniform(choices) : "Disable Being Uniform" : 1 : "Disable this infected from being a uniform zombie? meaning military or police" =
+	[
+		0 : "Yes"
+		1 : "No"
+	]
+	office(choices) : "Disable Being Office" : 1 : "Disable this infected from being a office zombie?" =
+	[
+		0 : "Yes"
+		1 : "No"
+	]
+	urban(choices) : "Disable Being Urban" : 1 : "Disable this infected from being a urban zombie?" =
+	[
+		0 : "Yes"
+		1 : "No"
+	]
+
+	additionalequipment(choices) : "Weapons" : "Nothing" : "If you type in the box weapon_melee_pipe,weapon_melee_baton,weapon_melee_wrench then it will pick between those weapons to give the NPC, NOTE THIS NPC CAN RANDOMLY HAVE LIMP LOSS SO IT MAY NOT SPAWN WITH THE SPECIFIED WEAPON!" =
+	[
+		"weapon_melee_baton" : "Night Stick"
+		"weapon_melee_axe" : "Axe"
+		"weapon_melee_pipe" : "Pipe"
+		"weapon_melee_wrench" : "Wrench"
+		"weapon_melee_pipe,weapon_melee_wrench,weapon_melee_axe,weapon_melee_baton" : "Random Melee Weapon"
+		"" : "Nothing"
+	]
+]
+// Ace
+@NPCClass base(BaseCombine) studio("") = npc_ace : "Ace"
+[
+	model(studio) : "Model" : "models/combine_soldier_assassin.mdl" : "If you want to force the npc_ace to use this specified model"
+
+	numgrenades(choices) : "Number Of Grenades" : "3" : "How many grenades does this NPC have?" =
+	[
+		"0" : "None"
+		"1" : "1"
+		"2" : "2"
+		"3" : "3"
+		"4" : "4"
+		"5" : "5"
+		"999999" : "Unlimited"
+	]
+
+	additionalequipment(choices) : "Weapons" : "weapon_rifle_g36k" : "If you type in the box weapon_smg_mp5,weapon_rifle_g36k,weapon_shotgun_m5 then it will pick between those weapons to give the NPC." =
+	[
+		"weapon_smg_mp5" : "MP5"
+		"weapon_smg_mp5_eod" : "MP5 EOD"
+		"weapon_smg_mp7" : "MP7"
+		"weapon_shotgun_m3" : "M3"
+		"weapon_shotgun_m5" : "M5"
+		"weapon_shotgun_spas12" : "Spas 12"
+		"weapon_shotgun_xm1014" : "XM 1014"
+		"weapon_rifle_g36k" : "G36K"
+		"weapon_bfg_mgl" : "MGL Grenade Launcher"
+		"weapon_smg_mp5,weapon_smg_mp5_eod,weapon_smg_mp7" : "Random SMG"
+		"weapon_shotgun_m3,weapon_shotgun_m5,weapon_shotgun_spas12,weapon_shotgun_xm1014" : "Random Shotgun"
+		"0" : "Nothing"
+	]
+
+	input CloakNow(void) : "Makes the NPC cloak."
+	input UnCloakNow(void) : "Makes the NPC uncloak."
+	input DisableCloak(void) : "Disables the NPC's cloak."
+	input EnableCloak(void) : "Enables the NPC's cloak."
+]
+
+@PointClass base(Item) iconsprite("editor/kidnation/item_random.vmt") = item_random : "Item Random"
+[
+	disableshadows(choices) : "Disable Shadows" : "Yes" : "Disable shadows on this entity?" =
+	[
+		"0" : "No"
+		"1" : "Yes"
+	]
+	respawn(choices) : "Can Respawn" : "No" : "Can this item_random respawn it's random contents? you can use a logic_timer for a respawn time." =
+	[
+		"0" : "No"
+		"1" : "Yes"
+	]
+	nothing(integer) : "Chance Of Being Nothing" : 5 : "From 1% to 100%, specify the chance of this item_random of spawning nothing."
+	input Respawn(void) : "Makes the item_random respawn."
+]
+	
+@NPCClass base(BaseNPC) studio("") = npc_butcher : "Butcher"
+[
+
+	additionalequipment(choices) : "Weapons" : "weapon_cleaver" : "Weapon_cleaver is usually the best weapon for this NPC." =
+	[
+		"weapon_cleaver" : "Cleaver"
+		"weapon_melee_baton" : "Night Stick"
+		"weapon_melee_axe" : "Axe"
+		"weapon_melee_pipe" : "Pipe"
+		"weapon_melee_wrench" : "Wrench"
+		"weapon_cleaver,weapon_melee_pipe,weapon_melee_wrench,weapon_melee_axe,weapon_melee_baton" : "Random Melee Weapon"
+		"" : "Nothing"
+	]
+	model(studio) : "Model" : "models/butcher.mdl" : "If you want to force the npc_butcher to use this specified model, and not the default one."
+
+	input EnableCharge(void) : "Enable's the butcher charge."
+	input DisableCharge(void) : "Disable's the butcher charge."
+	input SetCowerOn(void) : "Enables the NPC's cower?"
+	input SetCowerOff(void) : "Disables the NPC's cower?"
+	input ChargeEntity(string) : "Charge at specified entity."
+]
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,9 @@
+_DWORD *__thiscall sub_100CE6F0(_DWORD *this, char a2)
+{
+  sub_1011A810(this + 17);
+  *this = &CLCDItem::`vftable';
+  sub_1011A810(this + 9);
+  if ( (a2 & 1) != 0 )
+    sub_10034930((int)this);
+  return this;
+}

@@ -1,0 +1,400 @@
+//*********************************************************
+// Underhell Item sounds
+
+"Player.Pills"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"1"
+	"soundlevel"  "SNDLVL_none"
+
+	"wave"	"items/Pills.wav"
+
+}
+"GlowStick.Crack"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"1"
+	"soundlevel"  "SNDLVL_NORM"
+
+	"wave"	"items/Glowstick.Crack.wav"
+}
+"Syringe.Inject"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"1"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"wave"	"items/Syringe.wav"
+}
+"Cards.Shuffle"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"1"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"rndwave"
+	{
+	"wave"	"items/Cards.Shuffle.1.wav"
+	"wave"	"items/Cards.Shuffle.2.wav"
+	"wave"	"items/Cards.Shuffle.3.wav"
+	"wave"	"items/Cards.Shuffle.4.wav"
+	}
+}
+
+"HL2Player.PickupItems"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"1"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"rndwave"
+	{
+	"wave"	"items/items_pickup1.wav"
+	"wave"	"items/items_pickup2.wav"
+	"wave"	"items/items_pickup3.wav"
+	"wave"	"items/items_pickup4.wav"
+	"wave"	"items/items_pickup5.wav"
+	"wave"	"items/items_pickup6.wav"
+
+	}
+}
+
+"HL2Player.PickupBandages"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.8"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"wave"	"items/Bandages_Pickup.wav"
+}
+
+"HL2Player.PickupArmor"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.8"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"wave"	"items/armor_pickup.wav"
+}
+
+"HL2Player.PickupPistolAmmo"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.8"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"wave"	"items/PistolAmmo_pickup.wav"
+}
+
+"HL2Player.PickupPistolAmmoBox"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.8"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"wave"	"items/PistolAmmoBox_pickup.wav"
+}
+
+"HL2Player.Pickup357Ammo"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.8"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"wave"	"items/357Ammo_pickup.wav"
+}
+
+"HL2Player.Pickup357AmmoBox"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.8"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"wave"	"items/357AmmoBox_pickup.wav"
+}
+
+"HL2Player.PickupSMGAmmo"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.8"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"wave"	"items/SMGAmmo_pickup.wav"
+}
+
+"HL2Player.PickupSMGAmmoBox"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.8"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"wave"	"items/SMGAmmoBox_pickup.wav"
+}
+
+"HL2Player.PickupBuckshotAmmo"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.8"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"wave"	"items/BuckShotAmmo_pickup.wav"
+}
+
+"HL2Player.PickupBuckShotAmmoBox"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.8"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"wave"	"items/BuckShotAmmoBox_pickup.wav"
+}
+
+"HL2Player.PickupRifleAmmo"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.8"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"wave"	"items/RifleAmmo_pickup.wav"
+}
+
+"HL2Player.PickupRifleAmmoBox"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.8"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"wave"	"items/RifleAmmoBox_pickup.wav"
+}
+
+
+
+
+//*********************************************************
+// HL2 Item sounds
+
+"ItemBattery.Touch"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"1"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"wave"	"items/battery_pickup.wav"
+}
+
+"HealthKit.Touch"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"1"
+	"soundlevel"  "SNDLVL_none"
+
+	"wave"	"items/smallmedkit1.wav"
+}
+
+
+
+"HealthVial.Touch"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"1"
+	"soundlevel"  "SNDLVL_none"
+
+	"wave"	"items/Medspray.wav"
+}
+"WallHealth.Deny"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.7"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"wave"	"items/medshotno1.wav"
+}
+
+"WallHealth.Start"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.7"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"wave"	"items/medshot4.wav"
+}
+
+"WallHealth.LoopingContinueCharge"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.7"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"wave"	"items/medcharge4.wav"
+}
+
+"WallHealth.Recharge"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.7"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"wave"	"items/medshot4.wav"
+}
+
+"SuitRecharge.Deny"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.75"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"wave"	"items/suitchargeno1.wav"
+}
+
+"SuitRecharge.Start"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.75"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"wave"	"items/suitchargeok1.wav"
+}
+
+"SuitRecharge.ChargingLoop"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.75"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"wave"	"items/suitcharge1.wav"
+}
+
+"AmmoCrate.Open"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.45"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"wave"	"items/ammocrate_open.wav"
+}
+
+"AmmoCrate.Close"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.45"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"wave"	"items/ammocrate_close.wav"
+}
+
+"ExtinguisherCharger.Use"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"			"items/medshot4.wav"
+}
+
+
+"SprayCan.Paint"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"wave"	"player/sprayer.wav"
+}
+
+"Flare.Touch"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"			"weapons/flaregun/impact.wav"
+}
+
+"Item.Materialize"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"1"
+	"soundlevel"  "SNDLVL_75dB"
+	"pitch"	"150"
+
+	"wave"	"items/suitchargeok1.wav"
+}
+
+"Doll.Squeak"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	".5"
+	"soundlevel"  "SNDLVL_75dB"
+	"pitch"	"PITCH_NORM"
+
+	"wave"	"ambient/creatures/teddy.wav"
+}
+// **********************************
+// OBSOLETE: player viewpoint missile
+
+"Missile.Accelerate"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"			"weapons/rpg/rocket1.wav"
+}
+
+"Missile.Ignite"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_90dB"
+
+	"wave"			"weapons/rpg/rocket1.wav"
+}
+
+"Missile.ShotDown"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_90dB"
+
+	"wave"			"weapons/rpg/shotdown.wav"	
+}
+
+// **************************
+// OBSOLETE: portable thumper
+
+"PortableThumper.ThumpSound"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"			"ambient/machines/thumper_dust.wav"
+}
+
+"Combine_Console.Detach"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"VOL_NORM"
+	"pitch"			"95, 105"
+
+	"soundlevel"	"SNDLVL_105dB"
+
+	"rndwave"
+	{
+		"wave"	"physics/metal/metal_box_break1.wav"
+		"wave"	"physics/metal/metal_box_break2.wav"
+	}
+}
+

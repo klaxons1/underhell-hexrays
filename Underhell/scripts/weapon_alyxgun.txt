@@ -1,0 +1,149 @@
+WeaponData
+{
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"			"#UH_Glock"
+	"viewmodel"			"models/weapons/v_pist_glock18_pg.mdl"
+	"playermodel"			"models/weapons/w_pist_glock18_pg.mdl"
+	"anim_prefix"			"pistol"
+	"bucket"			"1"
+	"bucket_position"		"11"
+
+	"clip_size"			"18"
+	"clip2_size"			"-1"
+
+	"default_clip"			"18"
+	"default_clip2"			"-1"
+
+	"primary_ammo"			"Pistol"
+	"secondary_ammo"		"None"
+
+	"weight"			"3"
+	"item_flags"			"0"
+
+	"BuiltRightHanded"		"0"
+	"AllowFlipping"			"0"
+
+
+
+	// SMOD Ironsight setting.
+	IronSight
+	{
+		"right"		"-5.5"
+		"up"		"4.12"
+		"forward"	"-10"
+		"fov"		"-5"
+	}
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		"reload"		"Weapon_Pistol.Reload"
+		"reload_npc"		"Weapon_Pistol.NPC_Reload"
+		"empty"			"Weapon_Pistol.Empty"
+		"single_shot"		"Weapon_Glock.Single"
+		"single_shot_npc"	"Weapon_Glock.NPC_Single"
+		"special3"		"Weapon_Glock.Single"
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"weapon"
+		{
+				"font"		"WeaponIcons"
+				"character"	"d"
+		}
+		"weapon_s"
+		{	
+				"font"		"WeaponIconsSelected"
+				"character"	"d"
+		}
+		"ammo"
+		{
+				"font"		"WeaponIcons"
+				"character"	"p"
+		}
+		"ammo2"
+		{
+				"font"		"WeaponIcons"
+				"character"	"t"
+		}
+		"crosshair"
+		{
+				"font"		"Crosshairs"
+				"character"	"Q"
+		}
+		"autoaim"
+		{
+				"file"		"sprites/crosshairs"
+				"x"			"0"
+				"y"			"48"
+				"width"		"24"
+				"height"	"24"
+		}
+	}
+	
+	"WeaponSpec"
+	{
+		//	0 : single
+		//	1 : automatic
+		//	2 : shotgun
+		//	3 : autoshotgun
+		"WeaponType"	"0"
+		"FireRate"	"0.05"
+		"UnderWater"	"1"
+		
+	
+//		"Scope" {
+//			"Type"		"4"
+//			"Switch"	"1"
+//			"ZoomFact"	"3.0"
+//			"CrosshairOff"	"0"
+//			"AccBonus"	"0.7"
+//			"FireRate"	"0.13"
+//		}
+
+		"Burst" {
+			"FireCount"	"3"
+			"Delay"		"0.5"
+		}
+		
+		"Options" {
+			"ReloadSound"	"1"
+			"LastFireSound"	"1"
+			"TurnoffScope"	"1"
+			"TurnoffIron"	"0"
+		}
+		
+		"Recoil" {
+			"PunchPitch"	"-1.0 -1.0"
+			"PunchYaw"	"-0.1 0.1"
+			"EnableSnap"	"0"
+			"SnapPitch"	"-0.0 0.0"
+			"SnapYaw"	"-0.0 0.0"
+			"Crouch"	"0.0"
+			"Amp"		"1.1"
+			"PunchLimit"	"1.0"
+		}
+		
+		"Spread" {
+			"Default"	"0.5"
+			"MaxSpread"	"6.0"
+			"Run"		"100.0"
+			"RunSpeed"	"100"
+			"Crouch"	"0.5"
+			"Fire"		"3.0"
+		}
+		
+		"Bullet" {
+			"AmmoType"	"Pistol"
+			"Damage"	"20"
+			"ShotCount"	"1"
+			"Tracer"	"1"
+			"Force"		"0"
+		}
+	}
+	
+}
+
+

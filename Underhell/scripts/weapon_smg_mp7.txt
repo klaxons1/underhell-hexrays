@@ -1,0 +1,98 @@
+// SMG MP7
+
+WeaponData
+{
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"	"#UH_MP7"
+	"viewmodel"				"models/weapons/v_smg_mp7_pg.mdl"
+	"playermodel"			"models/weapons/w_smg_mp7_pg.mdl"
+	"anim_prefix"			"smg2"
+	"bucket"				"2"
+	"bucket_position"		"3"
+
+	"clip_size"				"40"
+	"clip2_size"			"-1"
+
+	"default_clip"			"40"
+	"default_clip2"			"-1"
+
+	"primary_ammo"			"SMG1"
+
+	"weight"				"3"
+	"item_flags"			"0"
+
+	// Recoil and Viewpunch data
+
+	"SnapPitch"   "-0.35, -0.15"
+	"SnapYaw"   "-0.25, 0.25"
+
+	"CrouchRecoilMult" "0.25" // lower values means less recoil
+	"CrouchAccuracyMult" "0.5" // lower values means more accurate
+	
+	"RunAccuracyMult" "1.5"
+
+	// Ironsight setting.
+ 	ExpOffset
+   	{
+		"x"   "-2.4"
+		"y"   "-2.42"
+		"z"   "0.7"
+
+		"xori"   "-0.0"
+		"yori"   "0" 
+		"zori"   "0"
+		"accuracy" "0.5"
+  	 }
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		"reload"			"Weapon_SMG1.Reload"
+		"reload_npc"		"Weapon_SMG1.NPC_Reload"
+		"empty"				"Weapon_SMG1.Empty"
+		"single_shot"		"Weapon_mp7.Single"
+		"single_shot_npc"	"Weapon_mp7.Single-Npc"
+		"double_shot"		"Weapon_mp7.Single"
+		"burst"				"Weapon_mp7.Single"
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"weapon"
+		{
+			"file"		"sprites/hud/weapons/MP7"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		"weapon_s"
+		{
+			"file"		"sprites/hud/weapons/MP7"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		"ammo"
+		{
+				"font"		"WeaponIcons"
+				"character"	"p"
+		}
+		"crosshair"
+		{
+				"font"		"Crosshairs"
+				"character"	"Q"
+		}
+		"autoaim"
+		{
+				"file"		"sprites/crosshairs"
+				"x"			"0"
+				"y"			"48"
+				"width"		"24"
+				"height"	"24"
+		}
+	}
+	
+}

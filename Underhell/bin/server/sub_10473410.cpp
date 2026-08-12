@@ -1,0 +1,14 @@
+void __cdecl sub_10473410()
+{
+  int v0; // eax
+
+  v0 = unk_106BBBF4;
+  *(_DWORD *)byte_106BBBD0 = &ConVar::`vftable';
+  *(_DWORD *)&byte_106BBBD0[24] = &ConVar::`vftable';
+  if ( v0 )
+  {
+    sub_10184660(v0);
+    unk_106BBBF4 = 0;
+  }
+  *(_DWORD *)byte_106BBBD0 = &ConCommandBase::`vftable';
+}

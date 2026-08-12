@@ -1,0 +1,72 @@
+char **sub_10208960()
+{
+  if ( (dword_1046598C & 1) == 0 )
+  {
+    dword_1046598C |= 1u;
+    dword_103F5594 = (int)"0";
+    dword_103F55AC = (int)"0";
+    dword_103F55C4 = (int)"0";
+    dword_103F55DC = (int)"0";
+    dword_103F5624 = (int)"0";
+    dword_103F563C = (int)"0";
+    dword_103F5580 = 3;
+    dword_103F5584 = 4;
+    dword_103F5588 = 4;
+    dword_103F558C = 0;
+    dword_103F5590 = (int)"operator end fadein";
+    dword_103F5598 = 3;
+    dword_103F559C = 8;
+    dword_103F55A0 = 4;
+    dword_103F55A4 = 0;
+    dword_103F55A8 = (int)"operator start fadeout";
+    dword_103F55B0 = 3;
+    dword_103F55B4 = 12;
+    dword_103F55B8 = 4;
+    dword_103F55BC = 0;
+    dword_103F55C0 = (int)"operator end fadeout";
+    dword_103F55C8 = 3;
+    dword_103F55CC = 16;
+    dword_103F55D0 = 4;
+    dword_103F55D4 = 0;
+    dword_103F55D8 = (int)"operator fade oscillate";
+    dword_103F55E0 = 3;
+    dword_103F55E4 = 20;
+    dword_103F55E8 = 4;
+    dword_103F55EC = 0;
+    dword_103F55F0 = (int)"minimum speed";
+    dword_103F55F4 = (int)"1";
+    dword_103F55F8 = 3;
+    dword_103F55FC = 44;
+    dword_103F5600 = 4;
+    dword_103F5604 = 0;
+    dword_103F5608 = (int)"maximum speed";
+    dword_103F560C = (int)"1";
+    dword_103F5610 = 3;
+    dword_103F5614 = 48;
+    dword_103F5618 = 4;
+    dword_103F561C = 0;
+    dword_103F5620 = (int)"end spread";
+    dword_103F5628 = 3;
+    dword_103F562C = 52;
+    dword_103F5630 = 4;
+    dword_103F5634 = 0;
+    dword_103F5638 = (int)"start offset";
+    dword_103F5640 = 3;
+    dword_103F5644 = 56;
+    dword_103F5648 = 4;
+    dword_103F564C = 0;
+    dword_103F5650 = (int)"end control point";
+    dword_103F5654 = (int)"1";
+    dword_103F5658 = 2;
+    dword_103F565C = 60;
+    dword_103F5660 = 4;
+    dword_103F5664 = 0;
+    dword_103F5668 = 0;
+    dword_103F566C = 0;
+    dword_103F5670 = 0;
+    dword_103F5674 = 0;
+    dword_103F5678 = 0;
+    dword_103F567C = 0;
+  }
+  return off_103F5578;
+}

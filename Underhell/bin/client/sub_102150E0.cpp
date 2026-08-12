@@ -1,0 +1,78 @@
+char **sub_102150E0()
+{
+  if ( (dword_10465B84 & 1) == 0 )
+  {
+    dword_10465B84 |= 1u;
+    dword_103F8C7C = (int)"0";
+    dword_103F8C94 = (int)"0";
+    dword_103F8CAC = (int)"0";
+    dword_103F8CC4 = (int)"0";
+    dword_103F8CDC = (int)"0";
+    dword_103F8D3C = (int)"0";
+    dword_103F8C68 = 3;
+    dword_103F8C6C = 4;
+    dword_103F8C70 = 4;
+    dword_103F8C74 = 0;
+    dword_103F8C78 = (int)"operator end fadein";
+    dword_103F8C80 = 3;
+    dword_103F8C84 = 8;
+    dword_103F8C88 = 4;
+    dword_103F8C8C = 0;
+    dword_103F8C90 = (int)"operator start fadeout";
+    dword_103F8C98 = 3;
+    dword_103F8C9C = 12;
+    dword_103F8CA0 = 4;
+    dword_103F8CA4 = 0;
+    dword_103F8CA8 = (int)"operator end fadeout";
+    dword_103F8CB0 = 3;
+    dword_103F8CB4 = 16;
+    dword_103F8CB8 = 4;
+    dword_103F8CBC = 0;
+    dword_103F8CC0 = (int)"operator fade oscillate";
+    dword_103F8CC8 = 3;
+    dword_103F8CCC = 20;
+    dword_103F8CD0 = 4;
+    dword_103F8CD4 = 0;
+    dword_103F8CD8 = (int)"start_time";
+    dword_103F8CE0 = 3;
+    dword_103F8CE4 = 44;
+    dword_103F8CE8 = 4;
+    dword_103F8CEC = 0;
+    dword_103F8CF0 = (int)"end_time";
+    dword_103F8CF4 = (int)"1";
+    dword_103F8CF8 = 3;
+    dword_103F8CFC = 48;
+    dword_103F8D00 = 4;
+    dword_103F8D04 = 0;
+    dword_103F8D08 = (int)"radius_start_scale";
+    dword_103F8D0C = (int)"1";
+    dword_103F8D10 = 3;
+    dword_103F8D14 = 52;
+    dword_103F8D18 = 4;
+    dword_103F8D1C = 0;
+    dword_103F8D20 = (int)"radius_end_scale";
+    dword_103F8D24 = (int)"1";
+    dword_103F8D28 = 3;
+    dword_103F8D2C = 56;
+    dword_103F8D30 = 4;
+    dword_103F8D34 = 0;
+    dword_103F8D38 = (int)"ease_in_and_out";
+    dword_103F8D40 = 4;
+    dword_103F8D44 = 60;
+    dword_103F8D48 = 1;
+    dword_103F8D4C = 0;
+    dword_103F8D50 = (int)"scale_bias";
+    dword_103F8D54 = (int)"0.5";
+    dword_103F8D58 = 3;
+    dword_103F8D5C = 64;
+    dword_103F8D60 = 4;
+    dword_103F8D64 = 0;
+    dword_103F8D68 = 0;
+    dword_103F8D6C = 0;
+    dword_103F8D70 = 0;
+    dword_103F8D74 = 0;
+    dword_103F8D78 = 0;
+    dword_103F8D7C = 0;
+  }
+  return off_103F8C60;
+}

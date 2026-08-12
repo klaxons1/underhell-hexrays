@@ -1,0 +1,1714 @@
+//***NH2 SWATS - TUTORIAL***
+
+"Tutorial.NH2SWAT.1_Cellar1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\nh2swat\1_cellar1.wav"
+}
+"Tutorial.NH2SWAT.1_Cellar3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\nh2swat\1_cellar3.wav"
+}
+"Tutorial.NH2SWAT.1_Cellar5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\nh2swat\1_cellar5.wav"
+}
+"Tutorial.NH2SWAT.1_Cellar7"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\nh2swat\1_cellar7.wav"
+}
+
+"Tutorial.NH2SWAT.1_die1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\nh2swat\1_die1.wav"
+}
+"Tutorial.NH2SWAT.1_die3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\nh2swat\1_die3.wav"
+}
+"Tutorial.NH2SWAT.1_die5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\nh2swat\1_die5.wav"
+}
+"Tutorial.NH2SWAT.1_die10"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\nh2swat\1_die10.wav"
+}
+
+"Tutorial.NH2SWAT.1_door4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\nh2swat\1_door4.wav"
+}
+"Tutorial.NH2SWAT.1_door6"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\nh2swat\1_door6.wav"
+}
+"Tutorial.NH2SWAT.1_door8"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\nh2swat\1_door8.wav"
+}
+
+"Tutorial.NH2SWAT.1_konami2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\nh2swat\1_konami2.wav"
+}
+"Tutorial.NH2SWAT.1_konami4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\nh2swat\1_konami4.wav"
+}
+"Tutorial.NH2SWAT.1_konami6"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\nh2swat\1_konami6.wav"
+}
+
+"Tutorial.NH2SWAT.1_nightmare2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\nh2swat\1_nightmare2.wav"
+}
+"Tutorial.NH2SWAT.1_nightmare4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\nh2swat\1_nightmare4.wav"
+}
+"Tutorial.NH2SWAT.1_nightmare6"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\nh2swat\1_nightmare6.wav"
+}
+"Tutorial.NH2SWAT.1_nightmare8"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\nh2swat\1_nightmare8.wav"
+}
+"Tutorial.NH2SWAT.1_nightmare11"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\nh2swat\1_nightmare11.wav"
+}
+"Tutorial.NH2SWAT.1_nightmare15"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\nh2swat\1_nightmare15.wav"
+}
+"Tutorial.NH2SWAT.1_nightmare18"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\nh2swat\1_nightmare18.wav"
+}
+
+"Tutorial.NH2SWAT.1_scary1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\nh2swat\1_scary1.wav"
+}
+"Tutorial.NH2SWAT.1_scary4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\nh2swat\1_scary4.wav"
+}
+"Tutorial.NH2SWAT.1_scary5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\nh2swat\1_scary5.wav"
+}
+"Tutorial.NH2SWAT.1_scary7"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\nh2swat\1_scary7.wav"
+}
+"Tutorial.NH2SWAT.1_scary10"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\nh2swat\1_scary10.wav"
+}
+"Tutorial.NH2SWAT.1_scary12"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\nh2swat\1_scary12.wav"
+}
+"Tutorial.NH2SWAT.1_scary16"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\nh2swat\1_scary16.wav"
+}
+"Tutorial.NH2SWAT.1_scary19"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\nh2swat\1_scary19.wav"
+}
+
+"Tutorial.NH2SWAT.2_cellar2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\nh2swat\2_cellar2.wav"
+}
+"Tutorial.NH2SWAT.2_cellar4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\nh2swat\2_cellar4.wav"
+}
+
+"Tutorial.NH2SWAT.2_core2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\nh2swat\2_core2.wav"
+}
+"Tutorial.NH2SWAT.2_core4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\nh2swat\2_core4.wav"
+}
+
+"Tutorial.NH2SWAT.2_die7"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\nh2swat\2_die7.wav"
+}
+"Tutorial.NH2SWAT.2_die9"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\nh2swat\2_die9.wav"
+}
+"Tutorial.NH2SWAT.2_die11"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\nh2swat\2_die11.wav"
+}
+
+"Tutorial.NH2SWAT.2_door1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\nh2swat\2_door1.wav"
+}
+"Tutorial.NH2SWAT.2_door2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\nh2swat\2_door2.wav"
+}
+"Tutorial.NH2SWAT.2_door3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\nh2swat\2_door3.wav"
+}
+"Tutorial.NH2SWAT.2_door5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\nh2swat\2_door5.wav"
+}
+"Tutorial.NH2SWAT.2_door7"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\nh2swat\2_door7.wav"
+}
+
+"Tutorial.NH2SWAT.2_nightmare1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\nh2swat\2_nightmare1.wav"
+}
+"Tutorial.NH2SWAT.2_nightmare3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\nh2swat\2_nightmare3.wav"
+}
+"Tutorial.NH2SWAT.2_nightmare10"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\nh2swat\2_nightmare10.wav"
+}
+"Tutorial.NH2SWAT.2_nightmare13"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\nh2swat\2_nightmare13.wav"
+}
+"Tutorial.NH2SWAT.2_nightmare16"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\nh2swat\2_nightmare16.wav"
+}
+
+"Tutorial.NH2SWAT.2_scary2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\nh2swat\2_scary2.wav"
+}
+"Tutorial.NH2SWAT.2_scary8"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\nh2swat\2_scary8.wav"
+}
+"Tutorial.NH2SWAT.2_scary11"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\nh2swat\2_scary11.wav"
+}
+"Tutorial.NH2SWAT.2_scary13"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\nh2swat\2_scary13.wav"
+}
+"Tutorial.NH2SWAT.2_scary15"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\nh2swat\2_scary15.wav"
+}
+"Tutorial.NH2SWAT.2_scary17"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\nh2swat\2_scary17.wav"
+}
+"Tutorial.NH2SWAT.2_scary21"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\nh2swat\2_scary21.wav"
+}
+
+"Tutorial.NH2SWAT.3_cellar6"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\nh2swat\3_cellar6.wav"
+}
+
+"Tutorial.NH2SWAT.3_core1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\nh2swat\3_core1.wav"
+}
+"Tutorial.NH2SWAT.3_core3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\nh2swat\3_core3.wav"
+}
+
+"Tutorial.NH2SWAT.3_die2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\nh2swat\3_die2.wav"
+}
+"Tutorial.NH2SWAT.3_die4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\nh2swat\3_die4.wav"
+}
+"Tutorial.NH2SWAT.3_die6"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\nh2swat\3_die6.wav"
+}
+"Tutorial.NH2SWAT.3_die8"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\nh2swat\3_die8.wav"
+}
+
+"Tutorial.NH2SWAT.3_konami1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\nh2swat\3_konami1.wav"
+}
+"Tutorial.NH2SWAT.3_konami3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\nh2swat\3_konami3.wav"
+}
+"Tutorial.NH2SWAT.3_konami5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\nh2swat\3_konami5.wav"
+}
+
+"Tutorial.NH2SWAT.3_nightmare5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\nh2swat\3_nightmare5.wav"
+}
+"Tutorial.NH2SWAT.3_nightmare7"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\nh2swat\3_nightmare7.wav"
+}
+"Tutorial.NH2SWAT.3_nightmare9"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\nh2swat\3_nightmare9.wav"
+}
+"Tutorial.NH2SWAT.3_nightmare12"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\nh2swat\3_nightmare12.wav"
+}
+"Tutorial.NH2SWAT.3_nightmare14"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\nh2swat\3_nightmare14.wav"
+}
+"Tutorial.NH2SWAT.3_nightmare17"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\nh2swat\3_nightmare17.wav"
+}
+
+"Tutorial.NH2SWAT.3_scary3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\nh2swat\3_scary3.wav"
+}
+"Tutorial.NH2SWAT.3_scary6"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\nh2swat\3_scary6.wav"
+}
+"Tutorial.NH2SWAT.3_scary9"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\nh2swat\3_scary9.wav"
+}
+"Tutorial.NH2SWAT.3_scary14"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\nh2swat\3_scary14.wav"
+}
+"Tutorial.NH2SWAT.3_scary18"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\nh2swat\3_scary18.wav"
+}
+"Tutorial.NH2SWAT.3_scary20"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\nh2swat\3_scary20.wav"
+}
+
+
+
+//***UNDERHELL PROLOGUE***
+
+"Prologue.Cop.App.Bathroom.In"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.Cop.App.Bathroom.In.wav"
+}
+
+"Prologue.Cop.App.Bathroom.Out"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.Cop.App.Bathroom.Out.wav"
+}
+
+"Prologue.Cop.App.Conv"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.Cop.App.Conv.wav"
+}
+"Prologue.Cit.App.Conv"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.Cit.App.Conv.wav"
+}
+"Prologue.Cit.App.Conv.End"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.Cit.App.Conv.End.wav"
+}
+
+
+"Prologue.Cop.App.Direction"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.Cop.App.Direction.wav"
+}
+
+"Prologue.Cop.Appartment.1"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.Cop.Appartment.1.wav"
+}
+"Prologue.Cop.Appartment.2"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.Cop.Appartment.2.wav"
+}
+"Prologue.Cop.Appartment.3"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.Cop.Appartment.3.wav"
+}
+"Prologue.Cop.Appartment.Arrest.1"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.Cop.Appartment.Arrest.1.wav"
+}
+"Prologue.Cop.Appartment.Arrest.2"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.Cop.Appartment.Arrest.2.wav"
+}
+"Prologue.Cop.Appartment.Call.1"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.Cop.Appartment.Call.1.wav"
+}
+"Prologue.Cop.Appartment.Call.2"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.Cop.Appartment.Call.2.wav"
+}
+"Prologue.Cop.Appartment.Failure.1"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.Cop.Appartment.Failure.1.wav"
+}
+"Prologue.Cop.Appartment.Failure.2"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.Cop.Appartment.Failure.2.wav"
+}
+"Prologue.Cop.Appartment.Success.1"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.Cop.Appartment.Success.1.wav"
+}
+"Prologue.Cop.Appartment.Success.2"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.Cop.Appartment.Success.2.wav"
+}
+
+
+"Prologue.Cop.Grab.Shotgun"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.Cop.Grab.Shotgun.wav"
+}
+
+"Prologue.Cop.Leader.Parkinglot"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NONE"
+   "wave"          "vo\Police\Prologue.Cop.Leader.ParkingLot.wav"
+}
+"Prologue.Cop.Leader.Briefing.1"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.Cop.Leader.Briefing.1.wav"
+}
+
+"Prologue.Cop.Leader.Briefing.2"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.Cop.Leader.Briefing.2.wav"
+}
+"Prologue.Cop.Leader.HangInThere"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NONE"
+   "wave"          "vo\Police\Prologue.Cop.Leader.HangInThere.wav"
+}
+"Prologue.Cop.Storm.OverHere"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.Cop.Storm.OverHere.wav"
+}
+"Prologue.Cop.Storm.Parking.1"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.Cop.Storm.Parking.1.wav"
+}
+
+"Prologue.Cop.Storm.Parking.2"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.Cop.Storm.Parking.2.wav"
+}
+"Prologue.Cop.Street.Direction1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.Cop.Street.Direction1.wav"
+}
+
+"Prologue.RadioChatter1.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.RadioChatter1.1.wav"
+}
+"Prologue.RadioChatter1.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.RadioChatter1.2.wav"
+}
+"Prologue.RadioChatter1.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.RadioChatter1.3.wav"
+}
+"Prologue.RadioChatter1.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.RadioChatter1.4.wav"
+}
+"Prologue.RadioChatter1.5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.RadioChatter1.5.wav"
+}
+"Prologue.RadioChatter2.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.RadioChatter2.1.wav"
+}
+"Prologue.RadioChatter2.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.RadioChatter2.2.wav"
+}
+"Prologue.RadioChatter2.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.RadioChatter2.3.wav"
+}
+"Prologue.RadioChatter2.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.RadioChatter2.4.wav"
+}
+"Prologue.RadioChatter3.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.RadioChatter3.1.wav"
+}
+"Prologue.RadioChatter4.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.RadioChatter4.1.wav"
+}
+"Prologue.RadioChatter4.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.RadioChatter4.2.wav"
+}
+"Prologue.RadioChatter4.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.RadioChatter4.3.wav"
+}
+"Prologue.RadioChatter4.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.RadioChatter4.4.wav"
+}
+"Prologue.RadioChatter4.5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.RadioChatter4.5.wav"
+}
+"Prologue.RadioChatter4.6"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.RadioChatter4.6.wav"
+}
+"Prologue.RadioChatter4.7"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.RadioChatter4.7.wav"
+}
+"Prologue.RadioChatter4.8"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.RadioChatter4.8.wav"
+}
+"Prologue.RadioChatter4.9"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.RadioChatter4.9.wav"
+}
+"Prologue.RadioChatter5.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.RadioChatter5.1.wav"
+}
+"Prologue.RadioChatter5.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.RadioChatter5.2.wav"
+}
+"Prologue.RadioChatter5.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.RadioChatter5.3.wav"
+}
+"Prologue.RadioChatter5.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.RadioChatter5.4.wav"
+}
+"Prologue.RadioChatter6.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.RadioChatter6.1.wav"
+}
+"Prologue.RadioChatter6.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.RadioChatter6.2.wav"
+}
+"Prologue.RadioChatter6.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.RadioChatter6.3.wav"
+}
+"Prologue.RadioChatter6.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.RadioChatter6.4.wav"
+}
+"Prologue.RadioChatter6.5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.RadioChatter6.5.wav"
+}
+"Prologue.RadioChatter6.6"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.RadioChatter6.6.wav"
+}
+"Prologue.RadioChatter7.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.RadioChatter7.1.wav"
+}
+"Prologue.RadioChatter7.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.RadioChatter7.2.wav"
+}
+"Prologue.RadioChatter7.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.RadioChatter7.3.wav"
+}
+"Prologue.RadioChatter7.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.RadioChatter7.4.wav"
+}
+"Prologue.RadioChatter7.5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.RadioChatter7.5.wav"
+}
+"Prologue.RadioChatter7.6"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.RadioChatter7.6.wav"
+}
+"Prologue.RadioChatter8.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.RadioChatter8.1.wav"
+}
+"Prologue.RadioChatter8.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.RadioChatter8.2.wav"
+}
+"Prologue.RadioChatter8.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.RadioChatter8.3.wav"
+}
+"Prologue.RadioChatter8.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.RadioChatter8.4.wav"
+}
+
+"Prologue.RadioChatterSniping.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.RadioChatterSniping.1.wav"
+}
+"Prologue.RadioChatterSniping.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.RadioChatterSniping.2.wav"
+}
+"Prologue.RadioChatterSniping.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.RadioChatterSniping.3.wav"
+}
+"Prologue.RadioChatterSniping.Lost1.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.RadioChatterSniping.Lost1.1.wav"
+}
+"Prologue.RadioChatterSniping.Lost1.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.RadioChatterSniping.Lost1.2.wav"
+}
+"Prologue.RadioChatterSniping.Lost1.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.RadioChatterSniping.Lost1.3.wav"
+}
+"Prologue.RadioChatterSniping.Lost1.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.RadioChatterSniping.Lost1.4.wav"
+}
+"Prologue.RadioChatterSniping.Lost1.5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.RadioChatterSniping.Lost1.5.wav"
+}
+"Prologue.RadioChatterSniping.Lost1.6"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.RadioChatterSniping.Lost1.6.wav"
+}
+"Prologue.RadioChatterSniping.Lost1.7"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.RadioChatterSniping.Lost1.7.wav"
+}
+"Prologue.RadioChatterSniping.Lost2.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.RadioChatterSniping.Lost2.1.wav"
+}
+"Prologue.RadioChatterSniping.Lost2.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.RadioChatterSniping.Lost2.2.wav"
+}
+"Prologue.RadioChatterSniping.Lost2.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.RadioChatterSniping.Lost2.3.wav"
+}
+"Prologue.RadioChatterSniping.Lost2.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.RadioChatterSniping.Lost2.4.wav"
+}
+"Prologue.RadioChatterSniping.Lost2.5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.RadioChatterSniping.Lost2.5.wav"
+}
+"Prologue.RadioChatterSniping.Lost2.6"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.RadioChatterSniping.Lost2.6.wav"
+}
+"Prologue.RadioChatterSniping.Lost2.7"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.RadioChatterSniping.Lost2.7.wav"
+}
+"Prologue.RadioChatterSniping.Lost2.8"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.RadioChatterSniping.Lost2.8.wav"
+}
+"Prologue.RadioChatterSniping.Lost2.9"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.RadioChatterSniping.Lost2.9.wav"
+}
+"Prologue.RadioChatterSniping.Lost2.10"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.RadioChatterSniping.Lost2.10.wav"
+}
+
+"Prologue.RadioChatterSniping.Won1.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.RadioChatterSniping.Won1.1.wav"
+}
+"Prologue.RadioChatterSniping.Won1.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.RadioChatterSniping.Won1.2.wav"
+}
+"Prologue.RadioChatterSniping.Won1.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.RadioChatterSniping.Won1.3.wav"
+}
+"Prologue.RadioChatterSniping.Won1.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.RadioChatterSniping.Won1.4.wav"
+}
+"Prologue.RadioChatterSniping.Won1.5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.RadioChatterSniping.Won1.5.wav"
+}
+"Prologue.RadioChatterSniping.Won1.6"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.RadioChatterSniping.Won1.6.wav"
+}
+"Prologue.RadioChatterSniping.Won1.7"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.RadioChatterSniping.Won1.7.wav"
+}
+"Prologue.RadioChatterSniping.Won1.8"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.RadioChatterSniping.Won1.8.wav"
+}
+"Prologue.RadioChatterSniping.Won1.9"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.RadioChatterSniping.Won1.9.wav"
+}
+"Prologue.RadioChatterSniping.Won1.10"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.RadioChatterSniping.Won1.10.wav"
+}
+"Prologue.RadioChatterSniping.Won2.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.RadioChatterSniping.Won2.1.wav"
+}
+"Prologue.RadioChatterSniping.Won2.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.RadioChatterSniping.Won2.2.wav"
+}
+"Prologue.RadioChatterSniping.Won2.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.RadioChatterSniping.Won2.3.wav"
+}
+"Prologue.RadioChatterSniping.Won2.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.RadioChatterSniping.Won2.4.wav"
+}
+"Prologue.RadioChatterSniping.Won2.5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.RadioChatterSniping.Won2.5.wav"
+}
+"Prologue.RadioChatterSniping.Won2.6"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.RadioChatterSniping.Won2.6.wav"
+}
+"Prologue.RadioChatterSniping.Won2.7"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.RadioChatterSniping.Won2.7.wav"
+}
+
+"Prologue.Swat.LeadWay"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.Swat.LeadWay.wav"
+}
+
+"Prologue.Swat.Breach.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NONE"
+   "wave"          "vo\Police\Prologue.Swat.Breach.1.wav"
+}
+"Prologue.Swat.Breach.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NONE"
+   "wave"          "vo\Police\Prologue.Swat.Breach.2.wav"
+}
+"Prologue.Swat.Breach.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NONE"
+   "wave"          "vo\Police\Prologue.Swat.Breach.3.wav"
+}
+
+"Prologue.Swat.Floor1.Clear"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NONE"
+   "wave"          "vo\Police\Prologue.Swat.Floor1.Clear.wav"
+}
+"Prologue.Swat.Floor2.Clear"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NONE"
+   "wave"          "vo\Police\Prologue.Swat.Floor2.Clear.wav"
+}
+"Prologue.Swat.Floor3.Clear"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NONE"
+   "wave"          "vo\Police\Prologue.Swat.Floor3.Clear.wav"
+}
+
+"Prologue.Swat.Hospital.Rest.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.Swat.Hospital.Rest.1.wav"
+}
+"Prologue.Swat.Hospital.Rest.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.Swat.Hospital.Rest.2.wav"
+}
+"Prologue.Swat.Hospital.Rest.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.Swat.Hospital.Rest.3.wav"
+}
+"Prologue.Swat.Hospital.Rest.4"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.Swat.Hospital.Rest.4.wav"
+}
+"Prologue.Swat.Hospital.Rest.5"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.Swat.Hospital.Rest.5.wav"
+}
+"Prologue.Swat.Hospital.Rest.6"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.Swat.Hospital.Rest.6.wav"
+}
+
+"Prologue.Swat.Elevator.1"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.Swat.Elevator.1.wav"
+}
+"Prologue.Swat.Elevator.2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.Swat.Elevator.2.wav"
+}
+"Prologue.Swat.Elevator.3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.Swat.Elevator.3.wav"
+}
+
+
+"Prologue.Swat.GoodLuck"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.Swat.GoodLuck.wav"
+}
+
+"Prologue.Swat.Greet"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.Swat.Greet.wav"
+}
+"Prologue.Swat.Hint"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.Swat.Hint.wav"
+}
+"Prologue.Swat.Mall.Clear"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NONE"
+   "wave"          "vo\Police\Prologue.Swat.Mall.Clear.wav"
+}
+
+
+"Prologue.Swat.Greet.Parking.1"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.Swat.Greet.Parking.1.wav"
+}
+
+"Prologue.Swat.Greet.Parking.2"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.Swat.Greet.Parking.2.wav"
+}
+"Prologue.Swat.Parking.Deeper"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.Swat.Parking.Deeper.wav"
+}
+
+"Prologue.Swat.Radio.SOS.1"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Police\Prologue.Swat.Radio.SOS.1.wav"
+}
+
+"Prologue.Swat.Radio.SOS.2"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Police\Prologue.Swat.Radio.SOS.2.wav"
+}
+"Prologue.Swat.Enter"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_NONE"
+   "wave"          "vo\Police\Prologue.Swat.Enter.wav"
+}
+"Prologue.Swat.Enter2"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.Swat.Enter2.wav"
+}
+"Prologue.Swat.Enter3"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.Swat.Enter3.wav"
+}
+"Prologue.Cop.Accuse"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.Cop.Accuse.wav"
+}
+"Prologue.Cop.Accuse.Memory"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.Cop.Accuse.Memory.wav"
+}
+"Prologue.Cop.Accuse.Resist"
+{
+   "channel"     	"CHAN_VOICE"
+   "volume"      	"VOL_NORM"
+   "pitch"      	"PITCH_NORM"
+   "soundlevel"		"SNDLVL_TALKING"
+   "wave"          "vo\Police\Prologue.Cop.Accuse.Resist.wav"
+}

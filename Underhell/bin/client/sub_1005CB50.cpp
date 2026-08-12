@@ -1,0 +1,174 @@
+int sub_1005CB50()
+{
+  int v1[15]; // [esp-40h] [ebp-84h] BYREF
+  int v2[15]; // [esp+8h] [ebp-3Ch] BYREF
+
+  if ( (dword_1040D5A8 & 1) == 0 )
+  {
+    dword_1040D5A8 |= 1u;
+    sub_1009AED0(&unk_1040D3C8, "should_never_see_this", 0, 4, 0, 0);
+    qmemcpy(v1, (const void *)sub_1009AED0(v2, "m_iPing[0]", 1268, 4, 0, 0), sizeof(v1));
+    sub_1009AF50(
+      (int)&unk_1040D404,
+      (char)"m_iPing",
+      1268,
+      4,
+      18,
+      v1[0],
+      v1[1],
+      v1[2],
+      v1[3],
+      v1[4],
+      v1[5],
+      v1[6],
+      v1[7],
+      v1[8],
+      v1[9],
+      v1[10],
+      v1[11],
+      v1[12],
+      v1[13],
+      v1[14],
+      (int)sub_1009AE70);
+    qmemcpy(v1, (const void *)sub_1009AED0(v2, "m_iScore[0]", 1340, 4, 0, 0), sizeof(v1));
+    sub_1009AF50(
+      (int)&unk_1040D440,
+      (char)"m_iScore",
+      1340,
+      4,
+      18,
+      v1[0],
+      v1[1],
+      v1[2],
+      v1[3],
+      v1[4],
+      v1[5],
+      v1[6],
+      v1[7],
+      v1[8],
+      v1[9],
+      v1[10],
+      v1[11],
+      v1[12],
+      v1[13],
+      v1[14],
+      (int)sub_1009AE70);
+    qmemcpy(v1, (const void *)sub_1009AED0(v2, "m_iDeaths[0]", 1412, 4, 0, 0), sizeof(v1));
+    sub_1009AF50(
+      (int)&unk_1040D47C,
+      (char)"m_iDeaths",
+      1412,
+      4,
+      18,
+      v1[0],
+      v1[1],
+      v1[2],
+      v1[3],
+      v1[4],
+      v1[5],
+      v1[6],
+      v1[7],
+      v1[8],
+      v1[9],
+      v1[10],
+      v1[11],
+      v1[12],
+      v1[13],
+      v1[14],
+      (int)sub_1009AE70);
+    qmemcpy(v1, (const void *)sub_1009AED0(v2, "m_bConnected[0]", 1484, 1, 0, 0), sizeof(v1));
+    sub_1009AF50(
+      (int)&unk_1040D4B8,
+      (char)"m_bConnected",
+      1484,
+      1,
+      18,
+      v1[0],
+      v1[1],
+      v1[2],
+      v1[3],
+      v1[4],
+      v1[5],
+      v1[6],
+      v1[7],
+      v1[8],
+      v1[9],
+      v1[10],
+      v1[11],
+      v1[12],
+      v1[13],
+      v1[14],
+      (int)sub_1009AE70);
+    qmemcpy(v1, (const void *)sub_1009AED0(v2, "m_iTeam[0]", 1504, 4, 0, 0), sizeof(v1));
+    sub_1009AF50(
+      (int)&unk_1040D4F4,
+      (char)"m_iTeam",
+      1504,
+      4,
+      18,
+      v1[0],
+      v1[1],
+      v1[2],
+      v1[3],
+      v1[4],
+      v1[5],
+      v1[6],
+      v1[7],
+      v1[8],
+      v1[9],
+      v1[10],
+      v1[11],
+      v1[12],
+      v1[13],
+      v1[14],
+      (int)sub_1009AE70);
+    qmemcpy(v1, (const void *)sub_1009AED0(v2, "m_bAlive[0]", 1576, 1, 0, 0), sizeof(v1));
+    sub_1009AF50(
+      (int)&unk_1040D530,
+      (char)"m_bAlive",
+      1576,
+      1,
+      18,
+      v1[0],
+      v1[1],
+      v1[2],
+      v1[3],
+      v1[4],
+      v1[5],
+      v1[6],
+      v1[7],
+      v1[8],
+      v1[9],
+      v1[10],
+      v1[11],
+      v1[12],
+      v1[13],
+      v1[14],
+      (int)sub_1009AE70);
+    qmemcpy(v1, (const void *)sub_1009AED0(v2, "m_iHealth[0]", 1596, 4, 0, 0), sizeof(v1));
+    sub_1009AF50(
+      (int)&unk_1040D56C,
+      (char)"m_iHealth",
+      1596,
+      4,
+      18,
+      v1[0],
+      v1[1],
+      v1[2],
+      v1[3],
+      v1[4],
+      v1[5],
+      v1[6],
+      v1[7],
+      v1[8],
+      v1[9],
+      v1[10],
+      v1[11],
+      v1[12],
+      v1[13],
+      v1[14],
+      (int)sub_1009AE70);
+  }
+  sub_1009AC10(&unk_1040D404, 7, "DT_PlayerResource");
+  return 1;
+}

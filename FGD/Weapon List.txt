@@ -1,0 +1,33 @@
+// Melee - WARNING: Melee weapons may not work with item_randoms
+weapon_melee_baton
+weapon_melee_pipe
+weapon_melee_axe
+weapon_melee_wrench
+
+// Pistol
+weapon_pistol_glock
+weapon_pistol_beretta
+weapon_pistol_socom
+weapon_pistol_python
+weapon_pistol_dualberetta
+
+// SMG
+weapon_smg_mp5
+weapon_smg_mp5_eod
+weapon_smg_mp7
+
+// Shotgun
+weapon_shotgun_m3
+weapon_shotgun_m5
+weapon_shotgun_spas12
+weapon_shotgun_xm1014
+
+// Rifles
+weapon_rifle_sniper
+weapon_rifle_g36k
+
+// Misc
+weapon_bfg_mgl
+weapon_bfg_minigun
+weapon_rpg
+weapon_crossbow

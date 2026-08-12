@@ -1,0 +1,41 @@
+int __thiscall sub_1017DAD0(int this)
+{
+  sub_100E33C0((char *)this, 1);
+  *(_DWORD *)this = &CMultiSource::`vftable';
+  *(_DWORD *)(this + 800) = -1;
+  *(_DWORD *)(this + 804) = -1;
+  *(_DWORD *)(this + 808) = -1;
+  *(_DWORD *)(this + 812) = -1;
+  *(_DWORD *)(this + 816) = -1;
+  *(_DWORD *)(this + 820) = -1;
+  *(_DWORD *)(this + 824) = -1;
+  *(_DWORD *)(this + 828) = -1;
+  *(_DWORD *)(this + 832) = -1;
+  *(_DWORD *)(this + 836) = -1;
+  *(_DWORD *)(this + 840) = -1;
+  *(_DWORD *)(this + 844) = -1;
+  *(_DWORD *)(this + 848) = -1;
+  *(_DWORD *)(this + 852) = -1;
+  *(_DWORD *)(this + 856) = -1;
+  *(_DWORD *)(this + 860) = -1;
+  *(_DWORD *)(this + 864) = -1;
+  *(_DWORD *)(this + 868) = -1;
+  *(_DWORD *)(this + 872) = -1;
+  *(_DWORD *)(this + 876) = -1;
+  *(_DWORD *)(this + 880) = -1;
+  *(_DWORD *)(this + 884) = -1;
+  *(_DWORD *)(this + 888) = -1;
+  *(_DWORD *)(this + 892) = -1;
+  *(_DWORD *)(this + 896) = -1;
+  *(_DWORD *)(this + 900) = -1;
+  *(_DWORD *)(this + 904) = -1;
+  *(_DWORD *)(this + 908) = -1;
+  *(_DWORD *)(this + 912) = -1;
+  *(_DWORD *)(this + 916) = -1;
+  *(_DWORD *)(this + 920) = -1;
+  *(_DWORD *)(this + 924) = -1;
+  *(_DWORD *)(this + 1068) = -1;
+  *(_DWORD *)(this + 1056) = 0;
+  *(_DWORD *)(this + 1072) = 5;
+  return this;
+}

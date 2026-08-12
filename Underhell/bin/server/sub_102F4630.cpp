@@ -1,0 +1,7 @@
+const char *__stdcall sub_102F4630(int a1)
+{
+  int v1; // eax
+
+  v1 = sub_1007DB30(dword_106E291C, a1);
+  return sub_1007DA40(v1);
+}

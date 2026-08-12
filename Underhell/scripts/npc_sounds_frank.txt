@@ -1,0 +1,1270 @@
+//***TUTORIAL***
+
+"Prologue.Frank.Tutorial.1"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Frank.Tutorial.1.wav"
+}
+"Prologue.Frank.Tutorial.2"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Frank.Tutorial.2.wav"
+}
+"Prologue.Frank.Tutorial.3"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Frank.Tutorial.3.wav"
+}
+"Prologue.Frank.Tutorial.4"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Frank.Tutorial.4.wav"
+}
+"Prologue.Frank.Tutorial.5"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Frank.Tutorial.5.wav"
+}
+"Prologue.Frank.Tutorial.6"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Frank.Tutorial.6.wav"
+}
+"Prologue.Frank.Tutorial.7"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Frank.Tutorial.7.wav"
+}
+"Prologue.Frank.Tutorial.8"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Frank.Tutorial.8.wav"
+}
+"Prologue.Frank.Tutorial.9"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Frank.Tutorial.9.wav"
+}
+"Prologue.Frank.Tutorial.10"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Frank.Tutorial.10.wav"
+}
+"Prologue.Frank.Tutorial.11"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Frank.Tutorial.11.wav"
+}
+"Prologue.Frank.Tutorial.12"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Frank.Tutorial.12.wav"
+}
+"Prologue.Frank.Tutorial.13"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Frank.Tutorial.13.wav"
+}
+"Prologue.Frank.Tutorial.14"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Frank.Tutorial.14.wav"
+}
+"Prologue.Frank.Tutorial.15"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Frank.Tutorial.15.wav"
+}
+"Prologue.Frank.Tutorial.16"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Frank.Tutorial.16.wav"
+}
+"Prologue.Frank.Tutorial.17"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Frank.Tutorial.17.wav"
+}
+"Prologue.Frank.Tutorial.18"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Frank.Tutorial.18.wav"
+}
+"Prologue.Frank.Tutorial.19"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Frank.Tutorial.19.wav"
+}
+"Prologue.Frank.Tutorial.20"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Frank.Tutorial.20.wav"
+}
+"Prologue.Frank.Tutorial.20.5"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Frank.Tutorial.20.5.wav"
+}
+"Prologue.Frank.Tutorial.21"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Frank.Tutorial.21.wav"
+}
+"Prologue.Frank.Tutorial.22"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Frank.Tutorial.22.wav"
+}
+"Prologue.Frank.Tutorial.23"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Frank.Tutorial.23.wav"
+}
+"Prologue.Frank.Tutorial.24"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Frank.Tutorial.24.wav"
+}
+"Prologue.Frank.Tutorial.25"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Frank.Tutorial.25.wav"
+}
+"Prologue.Frank.Tutorial.26"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Frank.Tutorial.26.wav"
+}
+"Prologue.Frank.Tutorial.27"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Frank.Tutorial.27.wav"
+}
+"Prologue.Frank.Tutorial.28"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Frank.Tutorial.28.wav"
+}
+"Prologue.Frank.Tutorial.29"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Frank.Tutorial.29.wav"
+}
+"Prologue.Frank.Tutorial.30"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Frank.Tutorial.30.wav"
+}
+"Prologue.Frank.Tutorial.31"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Frank.Tutorial.31.wav"
+}
+"Prologue.Frank.Tutorial.32"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Frank.Tutorial.32.wav"
+}
+"Prologue.Frank.Tutorial.33"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Frank.Tutorial.33.wav"
+}
+"Prologue.Frank.Tutorial.34"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Frank.Tutorial.34.wav"
+}
+"Prologue.Frank.Tutorial.35"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Frank.Tutorial.35.wav"
+}
+"Prologue.Frank.Tutorial.35.5"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Frank.Tutorial.35.5.wav"
+}
+"Prologue.Frank.Tutorial.36"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Frank.Tutorial.36.wav"
+}
+"Prologue.Frank.Tutorial.37"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Frank.Tutorial.37.wav"
+}
+"Prologue.Frank.Tutorial.38"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Frank.Tutorial.38.wav"
+}
+"Prologue.Frank.Tutorial.39"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Frank.Tutorial.39.wav"
+}
+"Prologue.Frank.Tutorial.40"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Frank.Tutorial.40.wav"
+}
+"Prologue.Frank.Tutorial.41"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Frank.Tutorial.41.wav"
+}
+"Prologue.Frank.Tutorial.42"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Frank.Tutorial.42.wav"
+}
+"Prologue.Frank.Tutorial.43"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Frank.Tutorial.43.wav"
+}
+"Prologue.Frank.Tutorial.PickupMP5"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Frank.Tutorial.PickupMP5.wav"
+}
+
+"Prologue.Frank.Tutorial.SecondRound.1"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Frank.Tutorial.SecondRound.1.wav"
+}
+"Prologue.Frank.Tutorial.SecondRound.2"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Frank.Tutorial.SecondRound.2.wav"
+}
+"Prologue.Frank.Tutorial.SecondRound.3"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Frank.Tutorial.SecondRound.3.wav"
+}
+
+"Prologue.Frank.Tutorial.Glass.1"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Frank.Tutorial.Glass.1.wav"
+}
+"Prologue.Frank.Tutorial.Glass.2"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Frank.Tutorial.Glass.2.wav"
+}
+"Prologue.Frank.Tutorial.Glass.3"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Frank.Tutorial.Glass.3.wav"
+}
+"Prologue.Frank.Tutorial.Glass.4"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Frank.Tutorial.Glass.4.wav"
+}
+
+"Prologue.Frank.Tutorial.Lines"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Frank.Tutorial.Lines.wav"
+}
+
+//***TUTORIAL MIKE***
+
+"Prologue.Mike.Tutorial.1"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Mike.Tutorial.1.wav"
+}
+"Prologue.Mike.Tutorial.2"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Mike.Tutorial.2.wav"
+}
+"Prologue.Mike.Tutorial.3"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Mike.Tutorial.3.wav"
+}
+"Prologue.Mike.Tutorial.4"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Mike.Tutorial.4.wav"
+}
+"Prologue.Mike.Tutorial.End.1"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Mike.Tutorial.End.1.wav"
+}
+"Prologue.Mike.Tutorial.End.2"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Mike.Tutorial.End.2.wav"
+}
+"Prologue.Mike.Tutorial.KickDoor.1"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Mike.Tutorial.KickDoor.1.wav"
+}
+"Prologue.Mike.Tutorial.KickDoor.2"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Mike.Tutorial.KickDoor.2.wav"
+}
+"Prologue.Mike.Tutorial.Score.1"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Mike.Tutorial.Score.1.wav"
+}
+"Prologue.Mike.Tutorial.Score.2"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Mike.Tutorial.Score.2.wav"
+}
+"Prologue.Mike.Tutorial.Score.3"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Mike.Tutorial.Score.3.wav"
+}
+"Prologue.Mike.Tutorial.Score.4"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Mike.Tutorial.Score.4.wav"
+}
+"Prologue.Mike.Tutorial.Score.5"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Mike.Tutorial.Score.5.wav"
+}
+"Prologue.Mike.Tutorial.Spot.1"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Mike.Tutorial.Spot.1.wav"
+}
+"Prologue.Mike.Tutorial.Spot.2"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Mike.Tutorial.Spot.2.wav"
+}
+"Prologue.Mike.Tutorial.Spot.3"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Mike.Tutorial.Spot.3.wav"
+}
+"Prologue.Mike.Tutorial.Spot.4"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Mike.Tutorial.Spot.4.wav"
+}
+"Prologue.Mike.Tutorial.Spot.5"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Mike.Tutorial.Spot.5.wav"
+}
+"Prologue.Mike.Tutorial.Spot.6"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Mike.Tutorial.Spot.6.wav"
+}
+"Prologue.Mike.Tutorial.Spot.7"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Mike.Tutorial.Spot.7.wav"
+}
+"Prologue.Mike.Tutorial.Start.1"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Mike.Tutorial.Start.1.wav"
+}
+"Prologue.Mike.Tutorial.Start.2"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Mike.Tutorial.Start.2.wav"
+}
+"Prologue.Mike.Tutorial.Start.3"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Mike.Tutorial.Start.3.wav"
+}
+"Prologue.Mike.Tutorial.Start.4"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Mike.Tutorial.Start.4.wav"
+}
+"Prologue.Mike.Tutorial.Start.5"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Mike.Tutorial.Start.5.wav"
+}
+"Prologue.Mike.Tutorial.Start.6"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Mike.Tutorial.Start.6.wav"
+}
+
+"Prologue.Mike.Tutorial.TacSim.Replay"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Mike.Tutorial.TacSim.Replay.wav"
+}
+
+//***TUTORIAL HOSTAGE***
+
+"Prologue.Hostage.Tutorial.1"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Tutorial.Hostage.1.wav"
+}
+"Prologue.Hostage.Tutorial.2"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Tutorial.Hostage.2.wav"
+}
+"Prologue.Hostage.Tutorial.3"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Tutorial.Hostage.3.wav"
+}
+"Prologue.Hostage.Tutorial.4"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Tutorial.Hostage.4.wav"
+}
+"Prologue.Hostage.Tutorial.5"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NONE"
+   "wave"          "vo\Frank\Tutorial\Tutorial.Hostage.5.wav"
+}
+"Prologue.Hostage.Tutorial.6"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\Frank\Tutorial\Tutorial.Hostage.6.wav"
+}
+
+
+//***PROLOGUE***
+
+"Prologue.Frank.Intro"
+{
+   "channel"       "CHAN_VOICE"
+	"volume"		"0.400000"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Frank\Prologue\Prologue.Frank.Intro.wav"
+}
+
+
+"Prologue.Frank.Message"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"		"SNDLVL_NORM"
+   "wave"          "vo\PhoneCalls\Prologue\Prologue.Frank.Message.wav"
+}
+
+
+"Prologue.Frank.Alley"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Frank\Prologue\Prologue.Frank.Alley.wav"
+}
+
+
+"Prologue.Frank.Bomb"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Frank\Prologue\Prologue.Frank.Bomb.wav"
+}
+
+
+"Prologue.Frank.Briefing"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Frank\Prologue\Prologue.Frank.Briefing.wav"
+}
+"Prologue.Frank.Briefing.1"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\captions\sample2.wav"
+}
+"Prologue.Frank.Briefing.2"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\captions\sample2.wav"
+}
+"Prologue.Frank.Briefing.3"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\captions\sample2.wav"
+}
+"Prologue.Frank.Briefing.4"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\captions\sample2.wav"
+}
+"Prologue.Frank.Chopperdown"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Frank\Prologue\Prologue.Frank.Chopperdown.wav"
+}
+
+"Prologue.Frank.Civilians.1"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Frank\Prologue\Prologue.Frank.Civilians.1.wav"
+}
+"Prologue.Frank.Civilians.2"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Frank\Prologue\Prologue.Frank.Civilians.2.wav"
+}
+"Prologue.Frank.CoverHer"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Frank\Prologue\Prologue.Frank.CoverHer.wav"
+}
+
+"Prologue.Frank.Covering"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Frank\Prologue\Prologue.Frank.Covering.wav"
+}
+
+"Prologue.Frank.Elevator.1"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Frank\Prologue\Prologue.Frank.Elevator.1.wav"
+}
+"Prologue.Frank.Elevator.2"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Frank\Prologue\Prologue.Frank.Elevator.2.wav"
+}
+"Prologue.Frank.Elevator.3"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Frank\Prologue\Prologue.Frank.Elevator.3.wav"
+}
+"Prologue.Frank.End1"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Frank\Prologue\Prologue.Frank.End1.wav"
+}
+
+"Prologue.Frank.End2"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Frank\Prologue\Prologue.Frank.End2.wav"
+}
+
+"Prologue.Frank.End3"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Frank\Prologue\Prologue.Frank.End3.wav"
+}
+
+"Prologue.Frank.End4"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Frank\Prologue\Prologue.Frank.End4.wav"
+}
+"Prologue.Frank.EnemyChopper"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Frank\Prologue\Prologue.Frank.EnemyChopper.wav"
+}
+
+"Prologue.Frank.Gatling.1"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Frank\Prologue\Prologue.Frank.Gatling.1.wav"
+}
+"Prologue.Frank.Gatling.2"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Frank\Prologue\Prologue.Frank.Gatling.2.wav"
+}
+"Prologue.Frank.Gatling.3"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Frank\Prologue\Prologue.Frank.Gatling.3.wav"
+}
+"Prologue.Frank.Homeland.1"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Frank\Prologue\Prologue.Frank.Homeland.1.wav"
+}
+"Prologue.Frank.Homeland.2"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Frank\Prologue\Prologue.Frank.Homeland.2.wav"
+}
+"Prologue.Frank.Homeland.3"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Frank\Prologue\Prologue.Frank.Homeland.3.wav"
+}
+
+
+"Prologue.Frank.Left1"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Frank\Prologue\Prologue.Frank.Left1.wav"
+}
+
+"Prologue.Frank.Left2"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Frank\Prologue\Prologue.Frank.Left2.wav"
+}
+
+"Prologue.Frank.Left3"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Frank\Prologue\Prologue.Frank.Left3.wav"
+}
+
+"Prologue.Frank.Movein"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Frank\Prologue\Prologue.Frank.Movein.wav"
+}
+
+"Prologue.Frank.Ontheway"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Frank\Prologue\Prologue.Frank.Ontheway.wav"
+}
+
+
+"Prologue.Frank.PostCovering.1"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Frank\Prologue\Prologue.Frank.PostCovering.1.wav"
+}
+"Prologue.Frank.PostCovering.2"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Frank\Prologue\Prologue.Frank.PostCovering.2.wav"
+}
+"Prologue.Frank.PostCovering.3"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Frank\Prologue\Prologue.Frank.PostCovering.3.wav"
+}
+
+
+"Prologue.Frank.Refuel"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Frank\Prologue\Prologue.Frank.Refuel.wav"
+}
+
+"Prologue.Frank.Refueled"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Frank\Prologue\Prologue.Frank.Refueled.wav"
+}
+
+"Prologue.Frank.Right1"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Frank\Prologue\Prologue.Frank.Right1.wav"
+}
+
+"Prologue.Frank.Right2"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Frank\Prologue\Prologue.Frank.Right2.wav"
+}
+
+"Prologue.Frank.Right3"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Frank\Prologue\Prologue.Frank.Right3.wav"
+}
+
+
+"Prologue.Frank.Sewers.1"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Frank\Prologue\Prologue.Frank.Sewers.1.wav"
+}
+"Prologue.Frank.Sewers.2"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Frank\Prologue\Prologue.Frank.Sewers.2.wav"
+}
+"Prologue.Frank.Sewers.3"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Frank\Prologue\Prologue.Frank.Sewers.3.wav"
+}
+"Prologue.Frank.Sewers.4"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Frank\Prologue\Prologue.Frank.Sewers.4.wav"
+}
+"Prologue.Frank.Sewers.5"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Frank\Prologue\Prologue.Frank.Sewers.5.wav"
+}
+
+
+"Prologue.Frank.Storm.Minute"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Frank\Prologue\Prologue.Frank.Storm.Minute.wav"
+}
+
+
+"Prologue.Frank.Trackheli.1"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Frank\Prologue\Prologue.Frank.Trackheli.1.wav"
+}
+"Prologue.Frank.Trackheli.2"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Frank\Prologue\Prologue.Frank.Trackheli.2.wav"
+}
+"Prologue.Frank.Trackheli.3"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Frank\Prologue\Prologue.Frank.Trackheli.3.wav"
+}
+"Prologue.Frank.Turn1"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Frank\Prologue\Prologue.Frank.Turn1.wav"
+}
+
+"Prologue.Frank.Turn2"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Frank\Prologue\Prologue.Frank.Turn2.wav"
+}
+
+"Prologue.Frank.Turn3"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Frank\Prologue\Prologue.Frank.Turn3.wav"
+}
+
+"Prologue.Frank.Windows.1"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Frank\Prologue\Prologue.Frank.Windows.1.wav"
+}
+"Prologue.Frank.Windows.2"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Frank\Prologue\Prologue.Frank.Windows.2.wav"
+}
+"Prologue.Frank.NeverLoseHope"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Frank\Prologue\Prologue.Frank.NeverLoseHope.wav"
+}
+"Prologue.Frank.Solo"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Frank\Prologue\Prologue.Frank.Solo.wav"
+}
+"Prologue.Frank.Worse"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Frank\Prologue\Prologue.Frank.Worse.wav"
+}
+"Prologue.Frank.Memory.1"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Frank\Prologue\Prologue.Frank.Memory.1.wav"
+}
+"Prologue.Frank.Memory.2"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Frank\Prologue\Prologue.Frank.Memory.2.wav"
+}
+"Prologue.Frank.Memory.3"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Frank\Prologue\Prologue.Frank.Memory.3.wav"
+}
+"Prologue.Frank.Memory.4"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Frank\Prologue\Prologue.Frank.Memory.4.wav"
+}
+"Prologue.Frank.Memory.5"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Frank\Prologue\Prologue.Frank.Memory.5.wav"
+}
+"Prologue.Frank.Memory.6"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Frank\Prologue\Prologue.Frank.Memory.6.wav"
+}
+"Prologue.Frank.Memory.7"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Frank\Prologue\Prologue.Frank.Memory.7.wav"
+}

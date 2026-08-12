@@ -1,0 +1,333 @@
+// Decal definitions, format is 
+//   decalname weight
+//   where weight is used to randomly selected a decal to apply from within the group
+
+// This is just an entry to map material types to "impact.xxx"
+"TranslationData"
+{
+	"-"			""  // don't decal this surface
+
+	"C"			"Impact.Concrete"
+	"M"			"Impact.Metal"
+	"W"			"Impact.Wood"
+	"Y"			"Impact.Glass"
+	"F"			"Impact.Flesh"
+	"B"			"Impact.BloodyFlesh"
+	"H"			"Impact.AlienFlesh"
+	"A"			"Impact.Antlion"
+
+// These might be translated in the future
+	//CHAR_TEX_DIRT		'D'
+	//CHAR_TEX_VENT		'V'
+	//CHAR_TEX_GRATE		'G'
+	//CHAR_TEX_TILE		'T'
+	//CHAR_TEX_SLOSH		'S'
+	//CHAR_TEX_COMPUTER	'P'
+	//CHAR_TEX_CLIP		'I'
+	//CHAR_TEX_ANTLION	'A'
+	//CHAR_TEX_FOLIAGE	'O'
+}
+
+"Impact.Concrete"
+{
+	"decals/concrete/shot1" "1"
+	"decals/concrete/shot2" "1"
+	"decals/concrete/shot3" "1"
+	"decals/concrete/shot4" "1"
+	"decals/concrete/shot5" "1"
+	"decals/concrete/holes32_01" "1"
+	"decals/concrete/holes32_02" "1"
+	"decals/concrete/holes32_03" "1"
+	"decals/concrete/holes32_06" "1"
+	"decals/concrete/holes64_01" "1"
+	"decals/concrete/holes64_02" "1"
+	"decals/concrete/holes64_03" "1"
+	"decals/concrete/holes64_04" "1"
+	"decals/concrete/holes128_01" "1"
+	"decals/concrete/holes128_02" "1"
+	"decals/concrete/holes128_03" "1"
+	"decals/concrete/holes128_04" "1"
+	"decals/concrete/holes128_05" "1"
+	"decals/concrete/holes128_06" "1"
+	"decals/concrete/holes128_07" "1"
+	"decals/concrete/holes128_08" "1"
+
+}
+
+"Impact.Metal"
+{
+	"decals/metal/shot1" "1"
+	"decals/metal/shot2" "1"
+	"decals/metal/shot3" "1"
+	"decals/metal/shot4" "1"
+	"decals/metal/shot5" "1"
+}
+
+"Impact.Wood"
+{
+	"decals/wood/shot1" "1"
+	"decals/wood/shot2" "1"
+	"decals/wood/shot3" "1"
+	"decals/wood/shot4" "1"
+	"decals/wood/shot5" "1"
+}
+
+"Impact.Glass"
+{
+	"decals/glass/shot1" "1"
+	"decals/glass/shot2" "1"
+	"decals/glass/shot3" "1"
+	"decals/glass/shot4" "1"
+	"decals/glass/shot5" "1"
+}
+
+
+"Impact.Flesh"
+{
+	"decals/flesh/blood1" "3"
+	"decals/flesh/blood2" "3"
+	"decals/flesh/blood3" "3"
+	"decals/flesh/blood4" "3"
+	"decals/flesh/blood5" "3"
+	"decals/flesh/blood1_2" "3"
+	"decals/flesh/blood2_2" "3"
+	"decals/flesh/blood3_2" "3"
+	"decals/flesh/blood4_2" "3"
+	"decals/flesh/blood5_2" "3"
+	"decals/blood7" "1"
+}
+
+"Impact.BloodyFlesh"
+{
+	"decals/bloodyflesh/blood1" "1"
+	"decals/bloodyflesh/blood2" "1"
+	"decals/bloodyflesh/blood3" "1"
+	"decals/bloodyflesh/blood4" "1"
+	"decals/bloodyflesh/blood5" "1"
+}
+
+"Impact.AlienFlesh"
+{
+	"decals/alienflesh/shot1" "1"
+	"decals/alienflesh/shot2" "1"
+	"decals/alienflesh/shot3" "1"
+	"decals/alienflesh/shot4" "1"
+	"decals/alienflesh/shot5" "1"
+}
+
+"Impact.Antlion"
+{
+	"decals/antlion/shot1" "1"
+	"decals/antlion/shot2" "1"
+	"decals/antlion/shot3" "1"
+	"decals/antlion/shot4" "1"
+	"decals/antlion/shot5" "1"
+}
+
+"Scorch"
+{
+	"decals/scorch1" "1"
+	"decals/scorch2" "1"
+}
+
+"Blood"
+{
+	"decals/blood_hit1" "30"
+	"decals/blood_hit2" "30"
+	"decals/blood_hit3" "30"
+	"decals/blood_hit4" "30"
+	"decals/blood_hit5" "30"
+	"decals/blood_hit6" "30"
+	"decals/blood_hit7" "30"
+	"decals/blood_hit8" "30"
+	"decals/Blood1" 	"5"
+	"decals/Blood2" 	"5"
+	"decals/Blood3" 	"5"
+	"decals/Blood4" 	"5"
+	"decals/Blood5" 	"5"
+	"decals/Blood6" 	"5"
+	"decals/Blood8" 	"5"
+	"decals/Blood9" 	"1"
+	"decals/Blood10" 	"1"
+	"decals/Blood11" 	"1"
+	"decals/Blood12" 	"1"
+}
+
+"Blood_Drop"
+{
+	"decals/blood_drop1" "1"
+	"decals/blood_drop2" "1"
+	"decals/blood_drop3" "1"
+	"decals/blood_drop4" "1"
+	"decals/blood_drop5" "1"
+	"decals/blood_drop6" "1"
+	"decals/blood_drop7" "1"
+	"decals/blood_drop8" "1"
+}
+
+"Blood_Trace"
+{
+	"decals/BloodTrace1" "1"
+	"decals/BloodTrace2" "1"
+	"decals/BloodTrace3" "1"
+	"decals/BloodTrace4" "1"
+	"decals/BloodTrace5" "1"
+}
+
+"YellowBlood"
+{
+	"decals/yblood1" "1"
+	"decals/yblood2" "1"
+	"decals/yblood3" "1"
+	"decals/yblood4" "1"
+	"decals/yblood5" "1"
+	"decals/yblood6" "1"
+}
+
+"AceBlood"
+{
+	"decals/Aceblood1" "1"
+	"decals/Aceblood2" "1"
+	"decals/Aceblood3" "1"
+	"decals/Aceblood4" "1"
+	"decals/Aceblood5" "1"
+	"decals/Aceblood6" "1"
+}
+
+"GlassBreak"
+{
+	"decals/break1" "1"
+	"decals/break2" "1"
+	"decals/break3" "1"
+}
+
+"BigShot"
+{
+	"decals/bigshot1" "1"
+	"decals/bigshot2" "1"
+	"decals/bigshot3" "1"
+	"decals/bigshot4" "1"
+	"decals/bigshot5" "1"
+}
+
+"BulletProof"
+{
+	"decals/bproof1" "1"
+}
+
+"SmallScorch"
+{
+	"decals/smscorch1" "1"
+	"decals/smscorch2" "1"
+	"decals/smscorch3" "1"
+}
+
+"FadingScorch"
+{
+	"decals/scorchfade" "1"
+}
+
+"BeerSplash"
+{
+	"decals/beersplash" "1"
+}
+
+"ManhackCut"
+{
+	"decals/manhackcut" "1"
+	"decals/manhackcut2" "1"
+	"decals/manhackcut3" "1"
+}
+
+"RedGlowFade"
+{	
+	"decals/redglowfade" "1"
+}
+
+"CombineBallFade"
+{	
+	"decals/combineballfade" "1"
+}
+
+"CombineBallFade2"
+{	
+	"decals/combineballfade2" "1"
+}
+
+"CombineBallFade3"
+{	
+	"decals/combineballfade3" "1"
+}
+
+"PlasmaGlowFade"
+{	
+	 "decals/plasmaglowfade" "1"
+}
+
+"Splash"
+{ 
+	"decals/decalsplash" "1"
+}
+
+"ExplosiveGunshot"
+{
+	"decals/concrete/shot1" "1"
+}
+
+"Fire"
+{
+	"sprites/fire_floor" "1"
+}
+
+"Antion.Unburrow"
+{
+	"decals/unburrow" "1"
+}
+
+"Extinguish"
+{
+	"decals/extinguish1" "1"
+	"decals/extinguish2" "1"
+}
+
+"Splash.Large"
+{
+	"decals/splash1" "1"
+	"decals/splash2" "1"
+	"decals/splash3" "1"
+}
+
+"Splash.Small"
+{
+	"decals/splash1" "1"
+	"decals/splash1" "1"
+	"decals/splash1" "1"
+}
+
+"Rollermine.Crater"
+{
+	"decals/rollermine_crater" "1"
+}
+
+"BirdPoop"
+{
+	"decals/decal_birdpoop001" "1"
+	"decals/decal_birdpoop002" "1"
+	"decals/decal_birdpoop003" "1"
+	"decals/decal_birdpoop004" "1"
+}
+
+"PaintSplatBlue"
+{
+	"decals/decal_paintsplatterblue001" "1"
+}
+
+"PaintSplatGreen"
+{
+	"decals/decal_paintsplattergreen001" "1"
+}
+
+"PaintSplatPink"
+{
+	"decals/decal_paintsplatterpink001" "1"
+}

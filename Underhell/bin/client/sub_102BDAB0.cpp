@@ -1,0 +1,45 @@
+int sub_102BDAB0()
+{
+  sub_10233590(&dword_103E7CCC, 0, 0, 1);
+  dword_103E7CD0 = 0;
+  dword_103E7CD4 = 0;
+  dword_103E7CD8 = (int)"dev/blurfilterx";
+  dword_103E7CDC = (int)"_rt_SmallFB1";
+  dword_103E7CE0 = (int)"_rt_SmallFB0";
+  dword_103E7CE4 = 1;
+  dword_103E7CE8 = 1;
+  dword_103E7CEC = 1;
+  dword_103E7CF0 = 1;
+  sub_10233590(&dword_103E7CF4, 0, 0, 1);
+  dword_103E7CF8 = 0;
+  dword_103E7CFC = 0;
+  dword_103E7D00 = (int)"dev/blurfiltery";
+  dword_103E7D04 = (int)"_rt_SmallFB0";
+  dword_103E7D08 = (int)"_rt_SmallFB1";
+  dword_103E7D0C = 1;
+  dword_103E7D10 = 1;
+  dword_103E7D14 = 1;
+  dword_103E7D18 = 1;
+  sub_10233590(&dword_103E7D1C, 0, 0, 1);
+  dword_103E7D20 = 0;
+  dword_103E7D24 = 0;
+  dword_103E7D28 = (int)"dev/floattoscreen_combine";
+  dword_103E7D2C = 0;
+  dword_103E7D30 = (int)"_rt_FullFrameFB";
+  dword_103E7D34 = 1;
+  dword_103E7D38 = 1;
+  dword_103E7D3C = 1;
+  dword_103E7D40 = 1;
+  sub_10233590(&dword_103E7D44, 0, 0, 1);
+  dword_103E7D48 = 0;
+  dword_103E7D4C = 0;
+  dword_103E7D50 = 0;
+  dword_103E7D54 = 0;
+  dword_103E7D58 = 0;
+  dword_103E7D5C = 0;
+  dword_103E7D60 = 0;
+  dword_103E7D64 = 0;
+  dword_103E7D68 = 0;
+  sub_10233590(&dword_103E7D6C, 0, 0, 1);
+  return atexit(sub_102CC2D0);
+}

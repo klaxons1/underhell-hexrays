@@ -1,0 +1,95 @@
+// MINIGUN
+
+WeaponData
+{
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"	"RPK-74"
+	"viewmodel"				"models/weapons/v_minigun_pg.mdl"
+	"playermodel"			"models/weapons/w_minigun_pg.mdl"
+	"anim_prefix"			"smg2"
+	"bucket"				"5"
+	"bucket_position"		"3"
+
+	"clip_size"			"45"
+	"clip2_size"			"-1"
+
+	"default_clip"			"500"
+	"default_clip2"			"-1"
+
+	"primary_ammo"			"smg1"
+
+	"weight"				"4"
+	"item_flags"			"0"
+
+	// Recoil and Viewpunch data
+
+	"SnapPitch"   "-0.35, -0.15"
+	"SnapYaw"   "-0.25, 0.25"
+
+	"CrouchRecoilMult" "0.25" // lower values means less recoil
+	"CrouchAccuracyMult" "0.5" // lower values means more accurate
+	
+	"RunAccuracyMult" "1.5"
+
+	// Ironsight setting.
+ 	ExpOffset
+   	{
+		"x"   "-1.6"
+		"y"   "-2.7"
+		"z"   "0.9"
+
+		"xori"   "0" 
+		"yori"   "0" 
+		"zori"   "0"
+		"accuracy" "2"
+  	 }
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		"reload_npc"			"Weapon_Minigun.Boxout"
+		"empty"				"Weapon_SMG1.Empty"
+		"single_shot"			"Weapon_Minigun.Single"
+		"single_shot_npc"		"Weapon_Minigun.Single.Npc"
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"weapon"
+		{
+			"file"		"sprites/hud/weapons/Minigun"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		"weapon_s"
+		{
+			"file"		"sprites/hud/weapons/Minigun"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		"ammo"
+		{
+				"font"		"WeaponIcons"
+				"character"	"r"
+		}
+		"crosshair"
+		{
+				"font"		"Crosshairs"
+				"character"	"Q"
+		}
+		"autoaim"
+		{
+				"file"		"sprites/crosshairs"
+				"x"			"0"
+				"y"			"48"
+				"width"		"24"
+				"height"	"24"
+		}
+	}
+	
+}

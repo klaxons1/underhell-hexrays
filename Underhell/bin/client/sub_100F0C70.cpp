@@ -1,0 +1,4 @@
+double __stdcall sub_100F0C70(int a1)
+{
+  return sin(*(float *)(a1 + 44) / *(float *)(a1 + 40) * 3.141592653589793) * (double)*(unsigned __int8 *)(a1 + 53);
+}

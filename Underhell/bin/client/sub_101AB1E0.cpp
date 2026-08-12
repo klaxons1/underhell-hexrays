@@ -1,0 +1,205 @@
+_DWORD *__cdecl sub_101AB1E0()
+{
+  if ( (dword_1044D460 & 1) == 0 )
+  {
+    dword_1044D460 |= 1u;
+    sub_10008210(dword_1044CDD8);
+    atexit(sub_102CE240);
+  }
+  if ( !byte_1044CDD0 )
+  {
+    byte_1044CDD0 = 1;
+    sub_10008070(dword_1044CDD8, "AR2", 2, 4, "sk_plr_dmg_ar2", "sk_npc_dmg_ar2", "sk_max_ar2", 667.97302, 0, 4, 8);
+    sub_10008070(
+      dword_1044CDD8,
+      "AlyxGun",
+      2,
+      1,
+      "sk_plr_dmg_alyxgun",
+      "sk_npc_dmg_alyxgun",
+      "sk_max_alyxgun",
+      667.97302,
+      0,
+      4,
+      8);
+    sub_10008070(
+      dword_1044CDD8,
+      "Pistol",
+      2,
+      4,
+      "sk_plr_dmg_pistol",
+      "sk_npc_dmg_pistol",
+      "sk_max_pistol",
+      667.97302,
+      0,
+      4,
+      8);
+    sub_10008070(dword_1044CDD8, "SMG1", 2, 4, "sk_plr_dmg_smg1", "sk_npc_dmg_smg1", "sk_max_smg1", 667.97302, 0, 4, 8);
+    sub_10008070(dword_1044CDD8, "357", 2, 4, "sk_plr_dmg_357", "sk_npc_dmg_357", "sk_max_357", 10905.682, 0, 4, 8);
+    sub_10008070(
+      dword_1044CDD8,
+      "XBowBolt",
+      2,
+      1,
+      "sk_plr_dmg_crossbow",
+      "sk_npc_dmg_crossbow",
+      "sk_max_crossbow",
+      17449.09,
+      0,
+      4,
+      8);
+    sub_10008070(
+      dword_1044CDD8,
+      "Buckshot",
+      536870914,
+      1,
+      "sk_plr_dmg_buckshot",
+      "sk_npc_dmg_buckshot",
+      "sk_max_buckshot",
+      1308.6818,
+      0,
+      4,
+      8);
+    sub_10008070(
+      dword_1044CDD8,
+      "RPG_Round",
+      8,
+      0,
+      "sk_plr_dmg_rpg_round",
+      "sk_npc_dmg_rpg_round",
+      "sk_max_rpg_round",
+      0.0,
+      0,
+      4,
+      8);
+    sub_10008070(
+      dword_1044CDD8,
+      "SMG1_Grenade",
+      8,
+      0,
+      "sk_plr_dmg_smg1_grenade",
+      "sk_npc_dmg_smg1_grenade",
+      "sk_max_smg1_grenade",
+      0.0,
+      0,
+      4,
+      8);
+    sub_10008070(
+      dword_1044CDD8,
+      "SniperRound",
+      1073741826,
+      0,
+      "sk_plr_dmg_sniper_round",
+      "sk_npc_dmg_sniper_round",
+      "sk_max_sniper_round",
+      10633.039,
+      0,
+      4,
+      8);
+    sub_10008070(
+      dword_1044CDD8,
+      "SniperPenetratedRound",
+      1073741826,
+      0,
+      "sk_dmg_sniper_penetrate_plr",
+      "sk_dmg_sniper_penetrate_npc",
+      "sk_max_sniper_round",
+      2453.7783,
+      0,
+      4,
+      8);
+    sub_10008070(
+      dword_1044CDD8,
+      "Grenade",
+      8,
+      0,
+      "sk_plr_dmg_grenade",
+      "sk_npc_dmg_grenade",
+      "sk_max_grenade",
+      0.0,
+      0,
+      4,
+      8);
+    sub_100081A0(dword_1044CDD8, "Thumper", 512, 0, 10, 10, 2, 0.0, 0, 4, 8);
+    sub_100081A0(dword_1044CDD8, "Gravity", 128, 0, 0, 0, 8, 0.0, 0, 4, 8);
+    sub_100081A0(dword_1044CDD8, "Battery", 128, 0, 0, 0, 0, 0.0, 0, 4, 8);
+    sub_10008070(
+      dword_1044CDD8,
+      "GaussEnergy",
+      256,
+      0,
+      "sk_jeep_gauss_damage",
+      "sk_jeep_gauss_damage",
+      "sk_max_gauss_round",
+      14177.386,
+      0,
+      4,
+      8);
+    sub_10008070(
+      dword_1044CDD8,
+      "CombineCannon",
+      2,
+      1,
+      "sk_npc_dmg_gunship_to_plr",
+      "sk_npc_dmg_gunship",
+      0,
+      13500.0,
+      0,
+      4,
+      8);
+    sub_10008070(
+      dword_1044CDD8,
+      "AirboatGun",
+      0x2000000,
+      1,
+      "sk_plr_dmg_airboat",
+      "sk_npc_dmg_airboat",
+      0,
+      16.358522,
+      0,
+      4,
+      8);
+    sub_100081A0(dword_1044CDD8, "StriderMinigun", 2, 1, 5, 5, 15, 9000.0, 1, 4, 8);
+    sub_100081A0(dword_1044CDD8, "StriderMinigunDirect", 2, 1, 2, 2, 15, 9000.0, 1, 4, 8);
+    sub_10008070(
+      dword_1044CDD8,
+      "HelicopterGun",
+      2,
+      4,
+      "sk_npc_dmg_helicopter_to_plr",
+      "sk_npc_dmg_helicopter",
+      "sk_max_smg1",
+      1335.946,
+      3,
+      4,
+      8);
+    sub_10008070(dword_1044CDD8, "AR2AltFire", 0x4000000, 0, 0, 0, "sk_max_ar2_altfire", 0.0, 0, 4, 8);
+    sub_10008070(
+      dword_1044CDD8,
+      "Grenade",
+      8,
+      0,
+      "sk_plr_dmg_grenade",
+      "sk_npc_dmg_grenade",
+      "sk_max_grenade",
+      0.0,
+      0,
+      4,
+      8);
+    sub_10008070(
+      dword_1044CDD8,
+      "Hopwire",
+      64,
+      0,
+      "sk_plr_dmg_grenade",
+      "sk_npc_dmg_grenade",
+      "sk_max_hopwire",
+      0.0,
+      0,
+      4,
+      8);
+    sub_100081A0(dword_1044CDD8, "CombineHeavyCannon", 2, 1, 40, 40, 0, 90000.0, 1, 4, 8);
+    sub_100081A0(dword_1044CDD8, "ammo_proto1", 2, 1, 0, 0, 10, 0.0, 0, 4, 8);
+  }
+  return dword_1044CDD8;
+}

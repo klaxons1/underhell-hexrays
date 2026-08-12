@@ -1,0 +1,100 @@
+// Pistol GLOCK 17
+
+WeaponData
+{
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"			"#UH_Glock"
+	"viewmodel"			"models/weapons/v_pist_glock17_pg.mdl"
+	"playermodel"		"models/weapons/w_pist_glock17_pg.mdl"
+	"anim_prefix"		"pistol"
+	"bucket"			"1"
+	"bucket_position"	"1"
+
+	"clip_size"			"17"
+	"primary_ammo"		"Pistol"
+	"secondary_ammo"	"None"
+
+	"weight"			"2"
+	"item_flags"		"0"
+	"OneHanded"			"1"
+
+	// Recoil and Viewpunch data
+
+	"PunchPitch"  "-1, -0.75"
+	"PunchYaw"    "-0.6, 0.6"
+
+	
+	"SnapPitch"   "-0.5, 0.2"
+	"SnapYaw"   "-0.1, 0.1"
+	"CrouchRecoilMult" "0.25" // lower values means less recoil
+	"CrouchAccuracyMult" "0.5" // lower values means more accurate
+	
+	"RunAccuracyMult" "1.5"
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+
+		"reload"		"Weapon_Pistol.Reload"
+		"reload_npc"		"Weapon_Pistol.NPC_Reload"
+		"empty"			"Weapon_Pistol.Empty"
+		"single_shot"		"Weapon_Glock.Single"
+		"single_shot_npc"	"Weapon_Glock.Npc.Single"
+	}
+
+	// Ironsight setting.
+ 	ExpOffset
+   	{
+		"x"   "2.5"
+		"y"   "-2.14"
+		"z"   "0.6"
+
+		"xori"   "-0"
+		"yori"   "0" 
+		"zori"   "0"
+		
+		"accuracy" "0.8"
+  	 }
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"weapon"
+		{
+			"file"		"sprites/hud/weapons/Glock"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		"weapon_s"
+		{
+			"file"		"sprites/hud/weapons/Glock"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		"ammo"
+		{
+				"font"		"WeaponIcons"
+				"character"	"p"
+		}
+		"crosshair"
+		{
+				"font"		"Crosshairs"
+				"character"	"Q"
+		}
+		"autoaim"
+		{
+				"file"		"sprites/crosshairs"
+				"x"			"0"
+				"y"			"48"
+				"width"		"24"
+				"height"	"24"
+		}
+	}
+
+}
+
+

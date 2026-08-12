@@ -1,0 +1,60 @@
+_DWORD *__thiscall sub_100FEE50(_DWORD *this, int a2)
+{
+  _DWORD *result; // eax
+
+  result = this;
+  *this = *(_DWORD *)a2;
+  this[1] = *(_DWORD *)(a2 + 4);
+  this[2] = *(_DWORD *)(a2 + 8);
+  this[3] = *(_DWORD *)(a2 + 12);
+  this[4] = *(_DWORD *)(a2 + 16);
+  this[5] = *(_DWORD *)(a2 + 20);
+  this[6] = *(_DWORD *)(a2 + 24);
+  this[7] = *(_DWORD *)(a2 + 28);
+  *((float *)this + 8) = *(float *)(a2 + 32);
+  *((float *)this + 9) = *(float *)(a2 + 36);
+  *((float *)this + 10) = *(float *)(a2 + 40);
+  *((float *)this + 11) = *(float *)(a2 + 44);
+  *((float *)this + 12) = *(float *)(a2 + 48);
+  *((float *)this + 13) = *(float *)(a2 + 52);
+  this[14] = *(_DWORD *)(a2 + 56);
+  this[15] = *(_DWORD *)(a2 + 60);
+  this[16] = *(_DWORD *)(a2 + 64);
+  this[17] = *(_DWORD *)(a2 + 68);
+  this[18] = *(_DWORD *)(a2 + 72);
+  this[19] = *(_DWORD *)(a2 + 76);
+  this[20] = *(_DWORD *)(a2 + 80);
+  *((float *)this + 21) = *(float *)(a2 + 84);
+  *((float *)this + 22) = *(float *)(a2 + 88);
+  *((float *)this + 23) = *(float *)(a2 + 92);
+  *((float *)this + 24) = *(float *)(a2 + 96);
+  this[25] = *(_DWORD *)(a2 + 100);
+  *((float *)this + 26) = *(float *)(a2 + 104);
+  *((float *)this + 27) = *(float *)(a2 + 108);
+  this[28] = *(_DWORD *)(a2 + 112);
+  this[29] = *(_DWORD *)(a2 + 116);
+  this[30] = *(_DWORD *)(a2 + 120);
+  *((float *)this + 31) = *(float *)(a2 + 124);
+  *((float *)this + 32) = *(float *)(a2 + 128);
+  *((float *)this + 33) = *(float *)(a2 + 132);
+  this[34] = *(_DWORD *)(a2 + 136);
+  this[35] = *(_DWORD *)(a2 + 140);
+  this[36] = *(_DWORD *)(a2 + 144);
+  this[37] = *(_DWORD *)(a2 + 148);
+  this[38] = *(_DWORD *)(a2 + 152);
+  this[39] = *(_DWORD *)(a2 + 156);
+  this[40] = *(_DWORD *)(a2 + 160);
+  this[41] = *(_DWORD *)(a2 + 164);
+  this[42] = *(_DWORD *)(a2 + 168);
+  this[43] = *(_DWORD *)(a2 + 172);
+  this[44] = *(_DWORD *)(a2 + 176);
+  this[45] = *(_DWORD *)(a2 + 180);
+  this[46] = *(_DWORD *)(a2 + 184);
+  this[47] = *(_DWORD *)(a2 + 188);
+  this[48] = *(_DWORD *)(a2 + 192);
+  this[49] = *(_DWORD *)(a2 + 196);
+  this[50] = *(_DWORD *)(a2 + 200);
+  this[51] = *(_DWORD *)(a2 + 204);
+  this[52] = *(_DWORD *)(a2 + 208);
+  return result;
+}

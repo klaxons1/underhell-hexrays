@@ -1,0 +1,12 @@
+int __thiscall sub_10093F90(_DWORD *this, int a2)
+{
+  int i; // esi
+  int v4; // ecx
+
+  for ( i = 0; i < this[910]; ++i )
+  {
+    v4 = *(_DWORD *)(this[907] + 4 * i);
+    (*(void (__thiscall **)(int, int))(*(_DWORD *)v4 + 80))(v4, a2);
+  }
+  return sub_10035690((int)this, a2, (int)this, a2);
+}

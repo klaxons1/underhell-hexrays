@@ -1,0 +1,3944 @@
+//
+//
+// NOTE:  AUTOMATICALLY GENERATED FILE, ANY HAND EDITED COMMENTS WILL BE LOST!!!
+// NOTE:  AUTOMATICALLY GENERATED FILE, ANY HAND EDITED COMMENTS WILL BE LOST!!!
+// NOTE:  AUTOMATICALLY GENERATED FILE, ANY HAND EDITED COMMENTS WILL BE LOST!!!
+//
+// VOL_NORM		1.0f
+//
+//-----------------------------------------------------------------------------
+// common attenuation values
+//-----------------------------------------------------------------------------
+//
+// DON'T USE THESE - USE SNDLVL_ INSTEAD!!!
+//	ATTN_NONE		0.0f	
+//	ATTN_NORM		0.8f
+//	ATTN_IDLE		2.0f
+//	ATTN_STATIC		1.25f 
+//	ATTN_RICOCHET	1.5f
+//	ATTN_GUNFIRE	0.27f
+//
+//	SNDLVL_NONE		= 0,
+//	SNDLVL_25dB		= 25,
+//	SNDLVL_30dB		= 30,
+//	SNDLVL_35dB		= 35,
+//	SNDLVL_40dB		= 40,
+//	SNDLVL_45dB		= 45,
+//	SNDLVL_50dB		= 50,	= 3.9
+//	SNDLVL_55dB		= 55,	= 3.0
+//	SNDLVL_IDLE		= 60,	= 2.0
+//	SNDLVL_TALKING		= 60,	= 2.0
+//	SNDLVL_60dB		= 60,	= 2.0
+//	SNDLVL_65dB		= 65,	= 1.5
+//	SNDLVL_STATIC		= 66,	= 1.25
+//	SNDLVL_70dB		= 70,	= 1.0
+//	SNDLVL_NORM		= 75,
+//	SNDLVL_75dB		= 75,	= 0.8
+//	SNDLVL_80dB		= 80,	= 0.7
+//	SNDLVL_85dB		= 85,	= 0.6
+//	SNDLVL_90dB		= 90,	= 0.5
+//	SNDLVL_95dB		= 95,
+//	SNDLVL_100dB	= 100,	= 0.4
+//	SNDLVL_105dB	= 105,
+//	SNDLVL_120dB	= 120,
+//	SNDLVL_130dB	= 130,
+//	SNDLVL_GUNFIRE	= 140, = 0.27
+//	SNDLVL_140dB	= 140,	= 0.2
+//	SNDLVL_150dB	= 150,	= 0.2
+//
+
+//==============================================Menu============================
+
+"Underhell.Prologue.Menu.Music.1"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#ui/gamestartup1.mp3"
+
+
+}
+"Underhell.Prologue.Menu.Music.2"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#ui/gamestartup2.mp3"
+
+
+}
+
+"Underhell.Chapter1.Menu.Music.1"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#ui/gamestartup3.mp3"
+
+
+}
+
+
+//==============================================Piano===========================
+
+
+"Underhell.House.Piano.Her"	
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+   "soundlevel"		"SNDLVL_90dB"
+
+		"rndwave"
+		{
+
+		"wave"			"music/Piano/Piano.Her.1.mp3"
+		"wave"			"music/Piano/Piano.Her.2.mp3"
+
+
+		}
+
+}
+
+"Underhell.House.Piano.Messup"		
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"  "SNDLVL_NORM"
+
+		"rndwave"
+		{
+
+		"wave"			"music/Piano/Piano.Messup.1.wav"
+		"wave"			"music/Piano/Piano.Messup.2.wav"
+		"wave"			"music/Piano/Piano.Messup.3.wav"
+		"wave"			"music/Piano/Piano.Messup.4.wav"
+		"wave"			"music/Piano/Piano.Messup.5.wav"
+		"wave"			"music/Piano/Piano.Messup.6.wav"
+		"wave"			"music/Piano/Piano.Messup.7.wav"
+		"wave"			"music/Piano/Piano.Messup.8.wav"
+
+
+		}
+
+}
+
+"Underhell.House.Piano.LidHit"		
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"  "SNDLVL_NORM"
+
+
+		"wave"			"music/Piano/Piano.LidHit.mp3"
+
+
+
+}
+
+
+//==============================================MusicBox===========================
+
+
+"Underhell.House.MusicBox.Wrong"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"  "SNDLVL_NORM"
+
+		"wave"			"music/MusicBoxes/MusicBoxWrong.mp3"
+
+
+}
+
+"Underhell.House.MusicBox.Correct"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"  "SNDLVL_NORM"
+
+		"wave"			"music/MusicBoxes/MusicBoxCorrect.mp3"
+
+
+}
+
+
+//==============================================TENSE===========================
+
+
+"Underhell.Tense.House.Attic"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Tense/House_Attic.mp3"
+
+
+}
+"Underhell.Tense.WhatThe"			
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"0.5"
+	"pitch"			"100"
+
+
+	"soundlevel"	"0"
+
+		"wave"		"*#music/Tense/WhatThe.mp3"
+
+
+}
+
+//============================Action==========================
+
+//*******PROLOGUE*********
+
+"Underhell.Tutorial.GhostTown.Loop"
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Prologue/Tutorial.GhostTown.Loop.wav"
+
+
+}
+"Underhell.Tutorial.GhostTown.Outro"
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Prologue/Tutorial.GhostTown.Outro.mp3"
+
+
+}
+"Underhell.Tutorial.Frank"
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Prologue/Tutorial.Frank.mp3"
+
+
+}
+
+
+
+"Underhell.Sniper.Intro"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Prologue/Sniper_Intro.wav"
+
+
+}
+"Underhell.Sniper.Cover.Loop"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Prologue/Sniper_Cover_Loop.wav"
+
+
+}
+"Underhell.Sniper.Outro.Loop"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Prologue/Sniper_Outro_Loop.wav"
+
+
+}
+"Underhell.HospitalLoop1"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Prologue/HospitalLoop1.wav"
+
+
+}
+"Underhell.HospitalLoop2"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Prologue/HospitalLoop2.wav"
+
+
+}
+"Underhell.HospitalLoop2.2"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Prologue/HospitalLoop2.2.wav"
+
+
+}
+"Underhell.HospitalLoop3"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Prologue/HospitalLoop3.wav"
+
+
+}
+
+
+"Underhell.MallLoop.1"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Prologue/MallLoop1.wav"
+
+
+}
+"Underhell.MallLoop.2"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Prologue/MallLoop2.wav"
+
+
+}
+"Underhell.MallLoop.2.2"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Prologue/MallLoop2.2.wav"
+
+
+}
+"Underhell.MallLoop.3"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Prologue/MallLoop3.wav"
+
+
+}
+"Underhell.Parkinglotloop.2"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Prologue/Parkinglotloop2.wav"
+
+
+}
+"Underhell.Parkinglotloop.3"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Prologue/Parkinglotloop3.wav"
+
+
+}
+"Underhell.TrackingAce"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Prologue/TrackingAce.wav"
+
+
+}
+"Underhell.Hummer.Loop"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Prologue/HummerLoop.wav"
+
+
+}
+"Underhell.Hummer.Loop.Guitar"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Prologue/HummerLoopGuitar.wav"
+
+
+}
+
+"Underhell.KickingDoorsDown.Loop"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Prologue/KickingDoorsDownLoop.wav"
+
+
+}
+
+//*******Chapter1*********
+
+
+"Underhell.Chapter1.Butchery.Intro.Loop"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/Butchery.Intro.Loop.wav"
+
+
+}
+
+"Underhell.Chapter1.Butchery.Intro.Track"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/Butchery.Intro.Track.mp3"
+
+
+}
+
+"Underhell.Chapter1.Butchery.Fight.Loop"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/Butchery.Fight.Loop.wav"
+
+
+}
+
+"Underhell.Chapter1.Butchery.Outro.Track"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/Butchery.Outro.Track.mp3"
+
+
+}
+
+"Underhell.Chapter1.PowerRooms.Loop.1"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/PowerRooms.Loop.1.wav"
+
+
+}
+
+"Underhell.Chapter1.PowerRooms.Loop.2"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/PowerRooms.Loop.2.wav"
+
+
+}
+
+"Underhell.Chapter1.PowerRooms.Loop.3"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/PowerRooms.Loop.3.mp3"
+
+
+}
+
+"Underhell.Chapter1.PowerRooms.Outro"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/PowerRooms.Outro.mp3"
+
+
+}
+
+"Underhell.Chapter1.PowerRooms.Outro.Igor"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/PowerRooms.Outro.Igor.mp3"
+
+
+}
+
+"Underhell.Chapter1.HSB.Ceiling.Loop"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/HSB.Ceiling.Loop.wav"
+
+
+}
+
+"Underhell.Chapter1.HSB.Ceiling.Stinger"	
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"rndwave"
+		{
+
+		"wave"			"music/Action/Chapter1/HSB.Ceiling.Stinger1.wav"
+		"wave"			"music/Action/Chapter1/HSB.Ceiling.Stinger2.wav"
+		"wave"			"music/Action/Chapter1/HSB.Ceiling.Stinger3.wav"
+		"wave"			"music/Action/Chapter1/HSB.Ceiling.Stinger4.wav"
+		}
+
+}
+
+
+"Underhell.Chapter1.MGPS.Intro"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/MGPS.Intro.mp3"
+
+
+}
+
+"Underhell.Chapter1.MGPS.Loop.1"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/MGPS.Loop.1.wav"
+
+
+}
+
+"Underhell.Chapter1.MGPS.Loop.2"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/MGPS.Loop.2.wav"
+
+
+}
+
+"Underhell.Chapter1.MGPS.Loop.3"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/MGPS.Loop.3.wav"
+
+
+}
+
+"Underhell.Chapter1.MGPS.Loop.4"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/MGPS.Loop.4.wav"
+
+
+}
+
+"Underhell.Chapter1.MGPS.Outro"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/MGPS.Outro.mp3"
+
+
+}
+
+"Underhell.Chapter1.Sneak.Idle.Track.1"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/Sneak.Idle.Track.1.mp3"
+
+
+}
+"Underhell.Chapter1.Sneak.Idle.Track.2"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/Sneak.Idle.Track.2.mp3"
+
+
+}
+"Underhell.Chapter1.Sneak.Idle.Track.3"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/Sneak.Idle.Track.3.mp3"
+
+
+}
+
+"Underhell.Chapter1.Sneak.Alert.Loop.1"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/Sneak.Alert.Loop.1.wav"
+
+
+}
+"Underhell.Chapter1.Sneak.Alert.Loop.2"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/Sneak.Alert.Loop.2.wav"
+
+
+}
+"Underhell.Chapter1.Sneak.Alert.Loop.3"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/Sneak.Alert.Loop.3.wav"
+
+
+}
+
+"Underhell.Chapter1.Sneak.Combat.Loop.1"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/Sneak.Combat.Loop.1.wav"
+
+
+}
+"Underhell.Chapter1.Sneak.Combat.Loop.2"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/Sneak.Combat.Loop.2.wav"
+
+
+}
+"Underhell.Chapter1.Sneak.Combat.Loop.3"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/Sneak.Combat.Loop.3.wav"
+
+
+}
+
+"Underhell.Chapter1.Aces.Intro"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/Aces.Intro.mp3"
+
+
+}
+
+"Underhell.Chapter1.Aces.Combat.Loop"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/Aces.Combat.Loop.wav"
+
+
+}
+
+"Underhell.Chapter1.Aces.Combat.Last.Loop"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/Aces.Combat.Last.Loop.wav"
+
+
+}
+
+"Underhell.Chapter1.Aces.Outro"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/Aces.Outro.mp3"
+
+
+}
+
+"Underhell.Chapter1.Marcus.Monitors.Loop"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/Marcus.Monitors.Loop.wav"
+
+
+}
+
+"Underhell.Chapter1.Marcus.StandOff.Loop"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/Marcus.StandOff.Loop.wav"
+
+
+}
+
+"Underhell.Chapter1.Marcus.Prisoner.Loop"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/Marcus.Prisoner.Loop.wav"
+
+
+}
+
+"Underhell.Chapter1.Marcus.Battle.Intro"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/Marcus.Battle.Intro.mp3"
+
+
+}
+
+"Underhell.Chapter1.Marcus.Battle.Action.Loop"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/Marcus.Battle.Action.Loop.wav"
+
+
+}
+
+"Underhell.Chapter1.Marcus.Battle.Sneak.Loop"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/Marcus.Battle.Sneak.Loop.wav"
+
+
+}
+
+"Underhell.Chapter1.Marcus.Battle.Outro"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/Marcus.Battle.Outro.mp3"
+
+
+}
+
+
+"Underhell.Chapter1.RadioCombat.Intro"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/RadioCombat.Intro.mp3"
+
+
+}
+
+"Underhell.Chapter1.RadioCombat.Loop.1"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/RadioCombat.Loop.1.wav"
+
+
+}
+
+"Underhell.Chapter1.RadioCombat.Outro"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/RadioCombat.Outro.mp3"
+
+
+}
+
+
+"Underhell.Chapter1.Level5.Loop.1"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/Level5.Loop.1.wav"
+
+
+}
+
+"Underhell.Chapter1.Level5.Loop.2"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/Level5.Loop.2.wav"
+
+
+}
+
+"Underhell.Chapter1.Level5.Loop.2.Combat"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/Level5.Loop.2.Combat.wav"
+
+
+}
+
+"Underhell.Chapter1.Level5.Loop.3"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/Level5.Loop.3.wav"
+
+
+}
+
+"Underhell.Chapter1.Level5.Loop.3.Combat"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/Level5.Loop.3.Combat.wav"
+
+
+}
+
+
+"Underhell.Chapter1.CoreFinale.Track.1"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/CoreFinale.Track.1.mp3"
+
+
+}
+
+"Underhell.Chapter1.CoreFinale.Track.2"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/CoreFinale.Track.2.mp3"
+
+
+}
+
+"Underhell.Chapter1.CoreFinale.Track.3"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/CoreFinale.Track.3.mp3"
+
+
+}
+
+"Underhell.Chapter1.CoreFinale.Loop.1"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/CoreFinale.Loop.1.wav"
+
+
+}
+
+"Underhell.Chapter1.TheExpress.Loop.1"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/TheExpress.Loop.1.wav"
+
+
+}
+
+"Underhell.Chapter1.TheExpress.Loop.2"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/TheExpress.Loop.2.wav"
+
+
+}
+
+"Underhell.Chapter1.TheExpress.Tense.Loop"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/TheExpress.Tense.Loop.wav"
+
+
+}
+
+"Underhell.Chapter1.TheExpress.Combat.Loop"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/TheExpress.Combat.Loop.wav"
+
+
+}
+
+"Underhell.Chapter1.TheExpress.Loop.Final"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/TheExpress.Loop.Final.wav"
+
+
+}
+
+"Underhell.Chapter1.TheExpress.Checkpoint.1"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/TheExpress.Checkpoint.1.mp3"
+
+
+}
+
+"Underhell.Chapter1.TheExpress.Checkpoint.2"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/TheExpress.Checkpoint.2.mp3"
+
+
+}
+
+"Underhell.Chapter1.TheExpress.Checkpoint.3"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/TheExpress.Checkpoint.3.mp3"
+
+
+}
+
+"Underhell.Chapter1.TheExpress.Crash"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/TheExpress.Crash.mp3"
+
+
+}
+
+"Underhell.Cutscene.Chapter1.Warehouse.Battle.Loop"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/Warehouse.Battle.Loop.wav"
+
+
+}
+
+
+"Underhell.Chapter1.Desert.Combat.Loop.1"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/Desert.Combat.Loop.1.wav"
+
+
+}
+"Underhell.Chapter1.Desert.Combat.Loop.2"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/Desert.Combat.Loop.2.wav"
+
+
+}
+"Underhell.Chapter1.Desert.Combat.Loop.3"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/Desert.Combat.Loop.3.wav"
+
+
+}
+"Underhell.Chapter1.Desert.Combat.Loop.4"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/Desert.Combat.Loop.4.wav"
+
+
+}
+
+"Underhell.Chapter1.Desert.Idle.Loop.1"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/Desert.Idle.Loop.1.wav"
+
+
+}
+"Underhell.Chapter1.Desert.Idle.Loop.2"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/Desert.Idle.Loop.2.wav"
+
+
+}
+"Underhell.Chapter1.Desert.Idle.Loop.3"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/Desert.Idle.Loop.3.wav"
+
+
+}
+"Underhell.Chapter1.Desert.Idle.Loop.4"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/Desert.Idle.Loop.4.wav"
+
+
+}
+
+"Underhell.Chapter1.Desert.Idle.Transition.1"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/Desert.Idle.Transition.1.mp3"
+
+
+}
+"Underhell.Chapter1.Desert.Idle.Transition.2"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/Desert.Idle.Transition.2.mp3"
+
+
+}
+"Underhell.Chapter1.Desert.Intro"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/Desert.Intro.mp3"
+
+
+}
+"Underhell.Chapter1.Desert.Stinger.Escape"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/Desert.Stinger.Escape.mp3"
+
+
+}
+"Underhell.Chapter1.Desert.Stinger.Helicopter"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/Desert.Stinger.Helicopter.mp3"
+
+
+}
+"Underhell.Chapter1.Desert.Stinger.Jeep"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/Desert.Stinger.Jeep.mp3"
+
+
+}
+"Underhell.Chapter1.Desert.Stinger.Sunlight"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/Desert.Stinger.Sunlight.mp3"
+
+
+}
+"Underhell.Chapter1.Desert.Stinger.Transition"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/Desert.Stinger.Transition.mp3"
+
+
+}
+"Underhell.Chapter1.Desert.Stinger.Tunnel"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/Desert.Stinger.Tunnel.mp3"
+
+
+}
+
+
+
+"Underhell.Chapter1.Desert.Sunlight.Loop"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/Desert.Sunlight.Loop.wav"
+
+
+}
+"Underhell.Chapter1.Desert.Tunnel.Loop"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/Desert.Tunnel.Loop.wav"
+
+
+}
+
+
+"Underhell.Chapter1.Desert.HeliTunnel.Loop.1"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/Desert.HeliTunnel.Loop.1.wav"
+
+
+}
+
+"Underhell.Chapter1.Desert.HeliTunnel.Loop.2"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/Desert.HeliTunnel.Loop.2.wav"
+
+
+}
+
+"Underhell.Chapter1.Desert.Helicopters.Reveal"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/Desert.Helicopters.Reveal.mp3"
+
+
+}
+
+"Underhell.Chapter1.Desert.Helicopters.Explosion"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Chapter1/Desert.Helicopters.Explosion.mp3"
+
+
+}
+
+
+//=========================Ambient========================
+
+//*******Chapter1*********
+
+
+"Underhell.Chapter1.Ambient.Dream.Loop"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Ambient/Chapter1/Chapter1.Dream.Loop.mp3"
+
+
+}
+
+
+"Underhell.Chapter1.Ambient.ARC.1"		
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+		"rndwave"
+		{
+
+		"wave"			"*#music/Ambient/Chapter1/ARC/ARC.1.1.mp3"
+		"wave"			"*#music/Ambient/Chapter1/ARC/ARC.1.2.mp3"
+		"wave"			"*#music/Ambient/Chapter1/ARC/ARC.1.3.mp3"
+		"wave"			"*#music/Ambient/Chapter1/ARC/ARC.1.4.mp3"
+		"wave"			"*#music/Ambient/Chapter1/ARC/ARC.1.5.mp3"
+		"wave"			"*#music/Ambient/Chapter1/ARC/ARC.1.6.mp3"
+		"wave"			"*#music/Ambient/Chapter1/ARC/ARC.1.7.mp3"
+		"wave"			"*#music/Ambient/Chapter1/ARC/ARC.1.8.mp3"
+
+		}
+
+}
+"Underhell.Chapter1.Ambient.ARC.2"		
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+		"rndwave"
+		{
+
+		"wave"			"*#music/Ambient/Chapter1/ARC/ARC.2.1.mp3"
+		"wave"			"*#music/Ambient/Chapter1/ARC/ARC.2.2.mp3"
+		"wave"			"*#music/Ambient/Chapter1/ARC/ARC.2.3.mp3"
+		"wave"			"*#music/Ambient/Chapter1/ARC/ARC.2.4.mp3"
+		"wave"			"*#music/Ambient/Chapter1/ARC/ARC.2.5.mp3"
+		"wave"			"*#music/Ambient/Chapter1/ARC/ARC.2.6.mp3"
+		"wave"			"*#music/Ambient/Chapter1/ARC/ARC.2.7.mp3"
+		"wave"			"*#music/Ambient/Chapter1/ARC/ARC.2.8.mp3"
+		"wave"			"*#music/Ambient/Chapter1/ARC/ARC.2.9.mp3"
+		"wave"			"*#music/Ambient/Chapter1/ARC/ARC.2.10.mp3"
+		"wave"			"*#music/Ambient/Chapter1/ARC/ARC.2.11.mp3"
+		"wave"			"*#music/Ambient/Chapter1/ARC/ARC.2.12.mp3"
+		"wave"			"*#music/Ambient/Chapter1/ARC/ARC.2.13.mp3"
+		"wave"			"*#music/Ambient/Chapter1/ARC/ARC.2.14.mp3"
+		"wave"			"*#music/Ambient/Chapter1/ARC/ARC.2.15.mp3"
+		}
+
+}
+"Underhell.Chapter1.Ambient.ARC.3"		
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+		"rndwave"
+		{
+		"wave"			"*#music/Ambient/Chapter1/ARC/ARC.3.1.mp3"
+		"wave"			"*#music/Ambient/Chapter1/ARC/ARC.3.2.mp3"
+		"wave"			"*#music/Ambient/Chapter1/ARC/ARC.3.3.mp3"
+		"wave"			"*#music/Ambient/Chapter1/ARC/ARC.3.4.mp3"
+		}
+
+}
+"Underhell.Chapter1.Ambient.ARC.4"		
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"rndwave"
+		{
+		"wave"			"*#music/Ambient/Chapter1/ARC/ARC.4.1.mp3"
+		"wave"			"*#music/Ambient/Chapter1/ARC/ARC.4.2.mp3"
+		"wave"			"*#music/Ambient/Chapter1/ARC/ARC.4.3.mp3"
+		"wave"			"*#music/Ambient/Chapter1/ARC/ARC.4.4.mp3"
+		"wave"			"*#music/Ambient/Chapter1/ARC/ARC.4.5.mp3"
+		"wave"			"*#music/Ambient/Chapter1/ARC/ARC.4.6.mp3"
+		"wave"			"*#music/Ambient/Chapter1/ARC/ARC.4.7.mp3"
+		"wave"			"*#music/Ambient/Chapter1/ARC/ARC.4.8.mp3"
+		"wave"			"*#music/Ambient/Chapter1/ARC/ARC.4.9.mp3"
+		"wave"			"*#music/Ambient/Chapter1/ARC/ARC.4.10.mp3"
+		"wave"			"*#music/Ambient/Chapter1/ARC/ARC.4.11.mp3"
+		}
+
+}
+
+"Underhell.Chapter1.Ambient.Textures"		
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"	"95, 105"
+
+	"soundlevel"	"0"
+
+		"rndwave"
+		{
+		"wave"			"*#music/Ambient/Chapter1/Textures/Texture.1.mp3"
+		"wave"			"*#music/Ambient/Chapter1/Textures/Texture.2.mp3"
+		"wave"			"*#music/Ambient/Chapter1/Textures/Texture.3.mp3"
+		"wave"			"*#music/Ambient/Chapter1/Textures/Texture.4.mp3"
+		"wave"			"*#music/Ambient/Chapter1/Textures/Texture.5.mp3"
+		"wave"			"*#music/Ambient/Chapter1/Textures/Texture.6.mp3"
+		"wave"			"*#music/Ambient/Chapter1/Textures/Texture.7.mp3"
+		"wave"			"*#music/Ambient/Chapter1/Textures/Texture.8.mp3"
+		"wave"			"*#music/Ambient/Chapter1/Textures/Texture.9.mp3"
+		"wave"			"*#music/Ambient/Chapter1/Textures/Texture.10.mp3"
+		"wave"			"*#music/Ambient/Chapter1/Textures/Texture.11.mp3"
+		"wave"			"*#music/Ambient/Chapter1/Textures/Texture.12.mp3"
+		"wave"			"*#music/Ambient/Chapter1/Textures/Texture.13.mp3"
+		"wave"			"*#music/Ambient/Chapter1/Textures/Texture.14.mp3"
+		"wave"			"*#music/Ambient/Chapter1/Textures/Texture.15.mp3"
+		"wave"			"*#music/Ambient/Chapter1/Textures/Texture.16.mp3"
+		}
+
+}
+
+"Underhell.Chapter1.Ambient.mooRefaS1.1"		
+{
+
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+
+		"wave"			"*#music/Ambient/Chapter1/SafeRoom/mooRefaS1.1.mp3"
+
+}
+"Underhell.Chapter1.Ambient.mooRefaS1.2"		
+{
+
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+
+		"wave"			"*#music/Ambient/Chapter1/SafeRoom/mooRefaS1.2.mp3"
+
+}
+"Underhell.Chapter1.Ambient.mooRefaS1.3"		
+{
+
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+
+		"wave"			"*#music/Ambient/Chapter1/SafeRoom/mooRefaS1.3.mp3"
+
+}
+"Underhell.Chapter1.Ambient.mooRefaS1.4"		
+{
+
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+
+		"wave"			"*#music/Ambient/Chapter1/SafeRoom/mooRefaS1.4.mp3"
+
+}
+"Underhell.Chapter1.Ambient.mooRefaS1.5"		
+{
+
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+
+		"wave"			"*#music/Ambient/Chapter1/SafeRoom/mooRefaS1.5.mp3"
+
+}
+"Underhell.Chapter1.Ambient.mooRefaS1.6"		
+{
+
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+
+		"wave"			"*#music/Ambient/Chapter1/SafeRoom/mooRefaS1.6.mp3"
+
+}
+
+
+"Underhell.Chapter1.Ambient.SafeRoom.1.1"		
+{
+
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+
+		"wave"			"*#music/Ambient/Chapter1/SafeRoom/SafeRoom1.1.mp3"
+
+}
+"Underhell.Chapter1.Ambient.SafeRoom.1.2"		
+{
+
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+
+		"wave"			"*#music/Ambient/Chapter1/SafeRoom/SafeRoom1.2.mp3"
+
+}
+"Underhell.Chapter1.Ambient.SafeRoom.1.3"		
+{
+
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+
+		"wave"			"*#music/Ambient/Chapter1/SafeRoom/SafeRoom1.3.mp3"
+
+}
+"Underhell.Chapter1.Ambient.SafeRoom.1.4"		
+{
+
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+
+		"wave"			"*#music/Ambient/Chapter1/SafeRoom/SafeRoom1.4.mp3"
+
+}
+"Underhell.Chapter1.Ambient.SafeRoom.1.5"		
+{
+
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+
+		"wave"			"*#music/Ambient/Chapter1/SafeRoom/SafeRoom1.5.mp3"
+
+}
+"Underhell.Chapter1.Ambient.SafeRoom.1.6"		
+{
+
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+
+		"wave"			"*#music/Ambient/Chapter1/SafeRoom/SafeRoom1.6.mp3"
+
+}
+
+"Underhell.Chapter1.Ambient.SafeRoom.2.1"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+
+		"wave"			"*#music/Ambient/Chapter1/SafeRoom/SafeRoom2.1.mp3"
+
+}
+"Underhell.Chapter1.Ambient.SafeRoom.2.2"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+
+		"wave"			"*#music/Ambient/Chapter1/SafeRoom/SafeRoom2.2.mp3"
+
+}
+"Underhell.Chapter1.Ambient.SafeRoom.2.3"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+
+		"wave"			"*#music/Ambient/Chapter1/SafeRoom/SafeRoom2.3.mp3"
+
+}
+"Underhell.Chapter1.Ambient.SafeRoom.2.4"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+
+		"wave"			"*#music/Ambient/Chapter1/SafeRoom/SafeRoom2.4.mp3"
+
+}
+"Underhell.Chapter1.Ambient.SafeRoom.2.5"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+
+		"wave"			"*#music/Ambient/Chapter1/SafeRoom/SafeRoom2.5.mp3"
+
+}
+"Underhell.Chapter1.Ambient.SafeRoom.2.6"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+
+		"wave"			"*#music/Ambient/Chapter1/SafeRoom/SafeRoom2.6.mp3"
+
+}
+
+//=========================Cutscenes========================
+
+//*******Prologue*********
+
+"Underhell.Cutscene.Goodbye"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"0.5"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Prologue/Goodbye.mp3"
+
+
+}
+"Underhell.Cutscene.Prologue_Helicopter"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Prologue/Prologue_Helicopter.mp3"
+
+
+}
+"Underhell.Cutscene.Prologue_TacLoop"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Prologue/Prologue_TacLoop.wav"
+
+
+}
+
+"Underhell.Cutscene.Prologue_TacLoop_Guitar"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Action/Prologue/Prologue_TacLoop_Guitar.wav"
+
+
+}
+
+"Underhell.Cutscene.Incoming"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Prologue/Incoming.mp3"
+
+
+}
+"Underhell.Cutscene.Avenged"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Prologue/Avenged.mp3"
+
+
+}
+
+
+"Underhell.Cutscene.Hummer.Intro"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Prologue/HummerIntro.mp3"
+
+
+}
+"Underhell.Cutscene.Hummer.Outro"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Prologue/HummerOutro.mp3"
+
+
+}
+
+"Underhell.Cutscene.KickingDoorsDown"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Prologue/KickingDoorsDown.mp3"
+
+
+}
+"Underhell.Cutscene.KickingDoorsDown.Skip"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Prologue/KickingDoorsDownSkip.mp3"
+
+
+}
+"Underhell.Cutscene.KickingDoorsDown.Outro"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Prologue/KickingDoorsDownOutro.mp3"
+
+
+}
+
+"Underhell.Cutscene.Hostages"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Prologue/Hostages.mp3"
+
+
+}
+"Underhell.Cutscene.OutOfControl"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Prologue/OutOfControl.mp3"
+
+
+}
+
+"Underhell.Cutscene.Consequences"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Prologue/Consequences.mp3"
+
+
+}
+"Underhell.Cutscene.PianoScene"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Prologue/PianoScene.mp3"
+
+
+}
+"Underhell.Cutscene.Interrogation"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"0.5"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Prologue/Interrogation.mp3"
+
+
+}
+
+"Underhell.Cutscene.A.R.C."		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Prologue/A.R.C.mp3"
+
+
+}
+
+
+//*******CHAPTER 1*********
+
+
+"Underhell.Cutscene.Chapter1.Intro.Sec1"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"0.8"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/Intro_Sec1.mp3"
+
+
+}
+"Underhell.Cutscene.Chapter1.Intro.Sec2"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"0.8"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/Intro_Sec2.mp3"
+
+
+}
+"Underhell.Cutscene.Chapter1.Intro.Sec3"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"0.8"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/Intro_Sec3.mp3"
+
+
+}
+"Underhell.Cutscene.Chapter1.Intro.Ending"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"0.8"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/Intro_Ending.mp3"
+
+
+}
+"Underhell.Cutscene.Chapter1.Intro.Loop1"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"0.8"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/Intro_Loop1.wav"
+
+
+}
+"Underhell.Cutscene.Chapter1.Intro.Loop2"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"0.8"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/Intro_Loop2.wav"
+
+
+}
+"Underhell.Cutscene.Chapter1.Intro.Loop3"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/Intro_Loop3.wav"
+
+
+}
+"Underhell.Cutscene.Chapter1.Intro.Loop4"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"0.8"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/Intro_Loop4.wav"
+
+
+}
+"Underhell.Cutscene.Chapter1.Intro.Loop5"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"0.8"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/Intro_Loop5.wav"
+
+
+}
+"Underhell.Cutscene.Chapter1.DreamWater"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/DreamWater.mp3"
+
+
+}
+
+"Underhell.Cutscene.Chapter1.Determined"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/Determined.mp3"
+
+
+}
+
+"Underhell.Cutscene.Chapter1.RiseAndShine"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/RiseAndShine.mp3"
+
+
+}
+
+"Underhell.Cutscene.Chapter1.ShowerFight.Intro"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/ShowerFight.Intro.mp3"
+
+
+}
+
+"Underhell.Cutscene.Chapter1.ShowerFight.Loop"		
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"rndwave"
+		{
+		"wave"			"#music/Cutscenes/Chapter1/ShowerFight.Loop.1.mp3"
+		"wave"			"#music/Cutscenes/Chapter1/ShowerFight.Loop.2.mp3"
+		"wave"			"#music/Cutscenes/Chapter1/ShowerFight.Loop.3.mp3"
+		"wave"			"#music/Cutscenes/Chapter1/ShowerFight.Loop.4.mp3"
+		"wave"			"#music/Cutscenes/Chapter1/ShowerFight.Loop.5.mp3"
+		}
+
+}
+
+"Underhell.Cutscene.Chapter1.ShowerFight.Lose"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/ShowerFight.Lose.mp3"
+
+
+}
+
+"Underhell.Cutscene.Chapter1.ShowerFight.Win"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/ShowerFight.Win.mp3"
+
+
+}
+
+"Underhell.Cutscene.TheCore.Malcolm"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"0.6"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/TheCore.Malcolm.mp3"
+
+
+}
+"Underhell.Cutscene.TheCore.Helicopter"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"0.6"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/TheCore.Helicopter.mp3"
+
+
+}
+
+"Underhell.Cutscene.Flushed"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"0.6"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/Flushed.mp3"
+
+
+}
+
+"Underhell.Cutscene.Chapter1.CodeRed.Intro.Loop"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"0.6"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/CodeRed.Intro.Loop.wav"
+
+
+}
+
+"Underhell.Cutscene.Chapter1.CodeRed.1"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"0.6"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/CodeRed.1.mp3"
+
+
+}
+
+"Underhell.Cutscene.Chapter1.CodeRed.2"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"0.6"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/CodeRed.2.mp3"
+
+
+}
+
+"Underhell.Cutscene.Chapter1.CodeRed.3"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"0.6"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/CodeRed.3.mp3"
+
+
+}
+
+"Underhell.Cutscene.Chapter1.CodeRed.4"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"0.6"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/CodeRed.4.mp3"
+
+
+}
+
+"Underhell.Cutscene.Chapter1.MatthewUnveiling.1"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/MatthewUnveiling.1.mp3"
+
+
+}
+
+"Underhell.Cutscene.Chapter1.MatthewUnveiling.2"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/MatthewUnveiling.2.mp3"
+
+
+}
+
+"Underhell.Cutscene.Chapter1.MatthewUnveiling.3"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/MatthewUnveiling.3.mp3"
+
+
+}
+
+"Underhell.Cutscene.Chapter1.CoreArrival"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/CoreArrival.wav"
+
+
+}
+
+"Underhell.Cutscene.Chapter1.RaitoUnveiling.1"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/RaitoUnveiling.1.mp3"
+
+
+}
+"Underhell.Cutscene.Chapter1.RaitoUnveiling.2"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/RaitoUnveiling.2.mp3"
+
+
+}
+"Underhell.Cutscene.Chapter1.RaitoUnveiling.3"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/RaitoUnveiling.3.mp3"
+
+
+}
+"Underhell.Cutscene.Chapter1.RaitoUnveiling.4"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/RaitoUnveiling.4.mp3"
+
+
+}
+
+"Underhell.Cutscene.Chapter1.DejaVuTrack.1"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/DejaVuTrack.1.mp3"
+
+
+}
+
+"Underhell.Cutscene.Chapter1.DejaVuTrack.2"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/DejaVuTrack.2.mp3"
+
+
+}
+
+"Underhell.Cutscene.Chapter1.DejaVuTrack.2.5"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/DejaVuTrack.2.5.mp3"
+
+
+}
+
+"Underhell.Cutscene.Chapter1.DejaVuTrack.3"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/DejaVuTrack.3.mp3"
+
+
+}
+
+"Underhell.Cutscene.Chapter1.DejaVuTrack.3.End"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/DejaVuTrack.3.End.mp3"
+
+
+}
+
+"Underhell.Cutscene.Chapter1.DejaVuLoop.1"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/DejaVuLoop.1.wav"
+
+
+}
+
+"Underhell.Cutscene.Chapter1.HermitSong"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+		"wave"			"*music/Cutscenes/Chapter1/HermitSong.mp3"
+
+
+}
+
+
+"Underhell.Cutscene.Chapter1.FirstLight.Track.1"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/FirstLight.Track.1.mp3"
+
+
+}
+
+"Underhell.Cutscene.Chapter1.FirstLight.Loop.1"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/FirstLight.Loop.1.wav"
+
+
+}
+
+"Underhell.Cutscene.Chapter1.FirstLight.Loop.2"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/FirstLight.Loop.2.wav"
+
+
+}
+
+"Underhell.Cutscene.Chapter1.FirstLight.Loop.3"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/FirstLight.Loop.3.wav"
+
+
+}
+
+"Underhell.Cutscene.Chapter1.TrainFinale.1"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/TrainFinale.1.mp3"
+
+
+}
+
+"Underhell.Cutscene.Chapter1.TrainFinale.2"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/TrainFinale.2.mp3"
+
+
+}
+
+"Underhell.Cutscene.Chapter1.Warehouse.1"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/Warehouse.1.mp3"
+
+
+}
+"Underhell.Cutscene.Chapter1.Warehouse.2"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/Warehouse.2.mp3"
+
+
+}
+"Underhell.Cutscene.Chapter1.Warehouse.3"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/Warehouse.3.mp3"
+
+
+}
+"Underhell.Cutscene.Chapter1.Warehouse.4"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/Warehouse.4.mp3"
+
+
+}
+"Underhell.Cutscene.Chapter1.Warehouse.5"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/Warehouse.5.mp3"
+
+
+}
+"Underhell.Cutscene.Chapter1.Warehouse.6"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/Warehouse.6.mp3"
+
+
+}
+"Underhell.Cutscene.Chapter1.Warehouse.7"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/Warehouse.7.mp3"
+
+
+}
+
+"Underhell.Cutscene.Chapter1.Warehouse.End.1"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/Warehouse.End.1.mp3"
+
+
+}
+
+"Underhell.Cutscene.Chapter1.Warehouse.End.2"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/Warehouse.End.2.mp3"
+
+
+}
+
+"Underhell.Cutscene.Chapter1.Warehouse.End.3"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/Warehouse.End.3.mp3"
+
+
+}
+
+"Underhell.Cutscene.Chapter1.Warehouse.End.4"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/Warehouse.End.4.mp3"
+
+
+}
+
+
+
+
+"Underhell.Cutscene.Chapter1.TheTown.Loop"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/TheTown.Loop.wav"
+
+
+}
+
+"Underhell.Cutscene.Chapter1.TheRoad"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/TheRoad.mp3"
+
+
+}
+
+"Underhell.Cutscene.Chapter1.Awakening"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/Awakening.mp3"
+
+
+}
+
+"Underhell.Cutscene.Chapter1.Interrogation"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/Interrogation.mp3"
+
+
+}
+
+"Underhell.Cutscene.Chapter1.TheVoid.Hall.Loop"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/TheVoid.Hall.Loop.wav"
+
+
+}
+
+"Underhell.Cutscene.Chapter1.TheVoid.Limbo.Loop"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/TheVoid.Limbo.Loop.wav"
+
+
+}
+
+"Underhell.Cutscene.Chapter1.TheVoid.FlashBack"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/TheVoid.FlashBack.mp3"
+
+
+}
+
+//**Trust**
+
+"Underhell.Cutscene.Chapter1.TheVoid.Lab.Loop.1"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/TheVoid.Lab.Loop.1.wav"
+
+
+}
+
+"Underhell.Cutscene.Chapter1.TheVoid.Lab.Loop.2"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/TheVoid.Lab.Loop.2.wav"
+
+
+}
+
+"Underhell.Cutscene.Chapter1.TheVoid.Lab.Loop.3"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/TheVoid.Lab.Loop.3.wav"
+
+
+}
+
+"Underhell.Cutscene.Chapter1.TheVoid.Lab.Loop.4"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/TheVoid.Lab.Loop.4.wav"
+
+
+}
+
+"Underhell.Cutscene.Chapter1.TheVoid.House.1"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/TheVoid.House.1.mp3"
+
+
+}
+
+"Underhell.Cutscene.Chapter1.TheVoid.House.2"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/TheVoid.House.2.mp3"
+
+
+}
+
+"Underhell.Cutscene.Chapter1.TheVoid.House.3"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/TheVoid.House.3.mp3"
+
+
+}
+
+"Underhell.Cutscene.Chapter1.Interrogation.Loop"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/Interrogation.Loop.wav"
+
+
+}
+
+"Underhell.Cutscene.Chapter1.Trust.Prelude.Stinger"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/Trust.Prelude.Stinger.mp3"
+
+
+}
+
+"Underhell.Cutscene.Chapter1.Trust.Prelude.Loop"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/Trust.Prelude.Loop.wav"
+
+
+}
+
+"Underhell.Cutscene.Chapter1.Trust.Intro.Stinger"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/Trust.Intro.Stinger.mp3"
+
+
+}
+
+"Underhell.Cutscene.Chapter1.Trust.Intro.Loop"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/Trust.Intro.Loop.wav"
+
+
+}
+
+"Underhell.Cutscene.Chapter1.Trust.Level2.Sneak.Loop"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/Trust.Level2.Sneak.Loop.wav"
+
+
+}
+
+"Underhell.Cutscene.Chapter1.Trust.Level2.Combat.Loop"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/Trust.Level2.Combat.Loop.wav"
+
+
+}
+
+"Underhell.Cutscene.Chapter1.Trust.She"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/Trust.She.mp3"
+
+
+}
+
+"Underhell.Cutscene.Chapter1.Trust.Window"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/Trust.Window.mp3"
+
+
+}
+
+"Underhell.Cutscene.Chapter1.Trust.Outside.Loop"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/Trust.Outside.Loop.wav"
+
+
+}
+
+
+"Underhell.Cutscene.Chapter1.Trust.Level1.Sneak.Loop"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/Trust.Level1.Sneak.Loop.wav"
+
+
+}
+
+"Underhell.Cutscene.Chapter1.Trust.Level1.Combat.Loop"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/Trust.Level1.Combat.Loop.wav"
+
+
+}
+
+"Underhell.Cutscene.Chapter1.Trust.Level3.Sneak.Loop"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/Trust.Level3.Sneak.Loop.wav"
+
+
+}
+
+"Underhell.Cutscene.Chapter1.Trust.Level3.Sneak.Tense.Loop"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/Trust.Level3.Sneak.Tense.Loop.wav"
+
+
+}
+
+"Underhell.Cutscene.Chapter1.Trust.Level3.Combat.Loop"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/Trust.Level3.Combat.Loop.wav"
+
+
+}
+
+"Underhell.Cutscene.Chapter1.Trust.FaceToFace"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/Trust.FaceToFace.mp3"
+
+
+}
+
+"Underhell.Cutscene.Chapter1.Trust.TheJump"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/Trust.TheJump.mp3"
+
+
+}
+
+"Underhell.Cutscene.Chapter1.Trust.TheJump.ToBeContinued"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/Trust.TheJump.ToBeContinued.mp3"
+
+
+}
+
+"Underhell.Cutscene.Chapter1.Credits"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/Cutscenes/Chapter1/Credits.mp3"
+
+
+}
+
+
+
+// =====================================HORROR=======================
+
+
+"Underhell.SheIsComing"			
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+
+	"soundlevel"	"0"
+
+		"wave"		"*#music/Horror/House/SheIsComing.wav"
+
+
+}
+"Underhell.SheIsHere"			
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+
+	"soundlevel"	"0"
+
+		"wave"		"*#music/Horror/House/SheIsHere.wav"
+
+
+}
+"Underhell.TheWoods"			
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+
+	"soundlevel"	"0"
+
+		"wave"		"*#music/Horror/House/TheWoods.wav"
+
+
+}
+
+"Underhell.Guilt.1"			
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+
+	"soundlevel"	"0"
+
+		"wave"		"*#music/Horror/Guilt/Guilt.1.wav"
+
+
+}
+"Underhell.Guilt.2"			
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+
+	"soundlevel"	"0"
+
+		"wave"		"*#music/Horror/Guilt/Guilt.2.wav"
+
+
+}
+"Underhell.Guilt.3"			
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+
+	"soundlevel"	"0"
+
+		"wave"		"*#music/Horror/Guilt/Guilt.3.wav"
+
+
+}
+"Underhell.Guilt.4"			
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+
+	"soundlevel"	"0"
+
+		"wave"		"*#music/Horror/Guilt/Guilt.4.wav"
+
+
+}
+"Underhell.Guilt.5"			
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+
+	"soundlevel"	"0"
+
+		"wave"		"*#music/Horror/Guilt/Guilt.5.wav"
+
+
+}
+
+"Underhell.Guilt.Random"			
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+
+	"soundlevel"	"0"
+
+		"rndwave"
+		{
+		"wave"			"*#music/Horror/Guilt/Guilt.1.wav"
+		"wave"			"*#music/Horror/Guilt/Guilt.2.wav"
+		"wave"			"*#music/Horror/Guilt/Guilt.3.wav"
+		"wave"			"*#music/Horror/Guilt/Guilt.4.wav"
+		"wave"			"*#music/Horror/Guilt/Guilt.5.wav"
+		}
+
+
+}
+
+"Underhell.Guilt.Ping"			
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+
+		"wave"		"*#music/Horror/Guilt/GuiltPing.wav"
+
+}
+
+"Underhell.Angelo.Noises.Random"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+
+	"soundlevel"	"0"
+
+		"rndwave"
+		{
+		"wave"			"*#music/Horror/Angelo/Angelo.Noises.1.mp3"
+		"wave"			"*#music/Horror/Angelo/Angelo.Noises.2.mp3"
+		"wave"			"*#music/Horror/Angelo/Angelo.Noises.3.mp3"
+		"wave"			"*#music/Horror/Angelo/Angelo.Noises.4.mp3"
+		"wave"			"*#music/Horror/Angelo/Angelo.Noises.5.mp3"
+		"wave"			"*#music/Horror/Angelo/Angelo.Noises.6.mp3"
+		"wave"			"*#music/Horror/Angelo/Angelo.Noises.7.mp3"
+		}
+
+
+}
+
+"Underhell.Angelo.Near.Random"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+
+	"soundlevel"	"0"
+
+		"rndwave"
+		{
+		"wave"			"*#music/Horror/Angelo/Angelo.Near.1.mp3"
+		"wave"			"*#music/Horror/Angelo/Angelo.Near.2.mp3"
+		"wave"			"*#music/Horror/Angelo/Angelo.Near.3.mp3"
+		}
+
+
+}
+
+"Underhell.Angelo.Caught"			
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+
+		"wave"		"*#music/Horror/Angelo/Angelo.Caught.mp3"
+
+}
+"Underhell.Angelo.Clear"			
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+
+		"wave"		"*#music/Horror/Angelo/Angelo.Clear.mp3"
+
+}
+"Underhell.Angelo.FirstEncounter"			
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+
+		"wave"		"*#music/Horror/Angelo/Angelo.FirstEncounter.mp3"
+
+}
+"Underhell.Angelo.Found"			
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+
+		"wave"		"*#music/Horror/Angelo/Angelo.Found.mp3"
+
+}
+"Underhell.Angelo.Lost"			
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+
+		"wave"		"*#music/Horror/Angelo/Angelo.Lost.mp3"
+
+}
+"Underhell.Angelo.Spotted"			
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+
+		"wave"		"*#music/Horror/Angelo/Angelo.Spotted.mp3"
+
+}
+
+"Underhell.Angelo.Ping"			
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+
+		"wave"		"*#music/Horror/Angelo/Angelo.Ping.wav"
+
+}
+
+//*******Chapter1*********
+
+"Underhell.Chapter1.Horror.Idle.Track.1"			
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+
+	"soundlevel"	"0"
+
+		"wave"		"*#music/Horror/Horror.Idle.Track.1.mp3"
+
+
+}
+"Underhell.Chapter1.Horror.Idle.Track.2"			
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+
+	"soundlevel"	"0"
+
+		"wave"		"*#music/Horror/Horror.Idle.Track.2.mp3"
+
+
+}
+"Underhell.Chapter1.Horror.Idle.Track.3"			
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+
+	"soundlevel"	"0"
+
+		"wave"		"*#music/Horror/Horror.Idle.Track.3.mp3"
+
+
+}
+
+"Underhell.Chapter1.Horror.Alert.Loop.1"			
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+
+	"soundlevel"	"0"
+
+		"wave"		"*#music/Horror/Horror.Alert.Loop.1.wav"
+
+
+}
+"Underhell.Chapter1.Horror.Alert.Loop.2"			
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+
+	"soundlevel"	"0"
+
+		"wave"		"*#music/Horror/Horror.Alert.Loop.2.wav"
+
+
+}
+"Underhell.Chapter1.Horror.Alert.Loop.3"			
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+
+	"soundlevel"	"0"
+
+		"wave"		"*#music/Horror/Horror.Alert.Loop.3.wav"
+
+
+}
+
+"Underhell.Chapter1.Horror.Combat.Loop.1"			
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+
+	"soundlevel"	"0"
+
+		"wave"		"*#music/Horror/Horror.Combat.Loop.1.wav"
+
+
+}
+"Underhell.Chapter1.Horror.Combat.Loop.2"			
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+
+	"soundlevel"	"0"
+
+		"wave"		"*#music/Horror/Horror.Combat.Loop.2.wav"
+
+
+}
+"Underhell.Chapter1.Horror.Combat.Loop.3"			
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+
+	"soundlevel"	"0"
+
+		"wave"		"*#music/Horror/Horror.Combat.Loop.3.wav"
+
+
+}
+
+
+
+"Underhell.Chapter1.Horde.Incoming.Loop.1"			
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+
+	"soundlevel"	"0"
+
+		"wave"		"*#music/Horror/Horde/Horde_Incoming_Loop_1.mp3"
+
+
+}
+
+"Underhell.Chapter1.Horde.Loop.1"			
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+
+	"soundlevel"	"0"
+
+		"wave"		"*#music/Horror/Horde/Horde_Loop_1.wav"
+
+
+}
+"Underhell.Chapter1.Horde.Loop.2"			
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+
+	"soundlevel"	"0"
+
+		"wave"		"*#music/Horror/Horde/Horde_Loop_2.wav"
+
+
+}
+"Underhell.Chapter1.Horde.Loop.3"			
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+
+	"soundlevel"	"0"
+
+		"wave"		"*#music/Horror/Horde/Horde_Loop_3.wav"
+
+
+}
+"Underhell.Chapter1.Horde.Loop.4"			
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+
+	"soundlevel"	"0"
+
+		"wave"		"*#music/Horror/Horde/Horde_Loop_4.wav"
+
+
+}
+
+"Underhell.Chapter1.Horde.Loop.1.GM"			
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+
+	"soundlevel"	"0"
+
+		"wave"		"*#music/Horror/Horde/Horde_Loop_1_GM.wav"
+
+
+}
+"Underhell.Chapter1.Horde.Loop.2.GM"			
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+
+	"soundlevel"	"0"
+
+		"wave"		"*#music/Horror/Horde/Horde_Loop_2_GM.wav"
+
+
+}
+"Underhell.Chapter1.Horde.Loop.3.GM"			
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+
+	"soundlevel"	"0"
+
+		"wave"		"*#music/Horror/Horde/Horde_Loop_3_GM.wav"
+
+
+}
+"Underhell.Chapter1.Horde.Loop.4.GM"			
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+
+	"soundlevel"	"0"
+
+		"wave"		"*#music/Horror/Horde/Horde_Loop_4_GM.wav"
+
+
+}
+
+"Underhell.Chapter1.Horde.Loop.5"			
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+
+	"soundlevel"	"0"
+
+		"wave"		"*#music/Horror/Horde/Horde_Loop_5.wav"
+
+
+}
+"Underhell.Chapter1.Horde.Loop.6"			
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+
+	"soundlevel"	"0"
+
+		"wave"		"*#music/Horror/Horde/Horde_Loop_6.wav"
+
+
+}
+"Underhell.Chapter1.Horde.Loop.7"			
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+
+	"soundlevel"	"0"
+
+		"wave"		"*#music/Horror/Horde/Horde_Loop_7.wav"
+
+
+}
+
+
+//========================JU-ON==================================
+
+"Underhell.UH-P1"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/UH-P1.mp3"
+
+
+}
+"Underhell.UH-P2"		
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#music/UH-P2.mp3"
+
+
+}
+
+"Underhell.StingerShort"			
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#underhell/stingershort1.wav"
+
+
+}
+"Underhell.StingerShort2"			
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#underhell/stingershort2.wav"
+
+
+}
+
+
+"Underhell.Stinger2"			
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#UnderHell/stinger2.wav"
+
+
+}
+"Underhell.Stinger3"			
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#underhell/stinger3.wav"
+
+
+}
+
+"Underhell.Stinger7"			
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#underhell/stinger7.wav"
+
+
+}
+
+
+"Underhell.NightMareLoop"			
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*#underhell/NightmareLoop.wav"
+
+
+}
+"Underhell.Voices"			
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+		"wave"			"*underhell/hallucination_voices.wav"
+
+
+}

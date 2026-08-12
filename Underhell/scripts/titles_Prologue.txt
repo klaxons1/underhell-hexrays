@@ -1,0 +1,673 @@
+Titles_Prologue
+{
+
+// ==============================================
+// Comments
+// ==============================================
+
+	Prologue_Comment_GettingAway
+	{
+		"positionx"		"-1"
+		"positiony"		"0.7"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"130"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#UnderHell_Prologue_Comment_GettingAway"
+		"Channel"		"3"
+	}
+
+	Prologue_Comment_LostHim
+	{
+		"positionx"		"-1"
+		"positiony"		"0.7"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"130"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#UnderHell_Prologue_Comment_LostHim"
+		"Channel"		"3"
+	}
+
+	Prologue_Comment_SecretStash
+	{
+		"positionx"		"-1"
+		"positiony"		"0.7"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"130"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#UnderHell_Prologue_Comment_SecretStash"
+		"Channel"		"3"
+	}
+
+	Prologue_Comment_SecretStash
+	{
+		"positionx"		"-1"
+		"positiony"		"0.7"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"130"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#UnderHell_Prologue_Comment_SecretStash"
+		"Channel"		"3"
+	}
+
+// ==============================================
+// Date & Time Display
+// ==============================================
+
+	Prologue_Date_Display
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.9"
+		"fadein"		"0.03"
+		"fadeout"		"0.8"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"130"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#UnderHell_Prologue_Date_Display"
+	}
+
+// ==============================================
+// Main Objectives Display
+// ==============================================
+
+
+	Prologue_1_Objective_A
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.1"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"165"
+		"g1"			"155"
+		"b1"			"30"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"245"
+		"b2"			"115"
+		"a2"			"0"
+		"Message"		"#UnderHell_Prologue_1_Objective_A"
+		"Channel"		"0"
+	}
+
+	Prologue_1_Objective_A-Up
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.1"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"165"
+		"g1"			"155"
+		"b1"			"30"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"245"
+		"b2"			"115"
+		"a2"			"0"
+		"Message"		"#UnderHell_Prologue_1_Objective_A-Up"
+		"Channel"		"0"
+	}
+
+	Prologue_1_Objective_B
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.1"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"165"
+		"g1"			"155"
+		"b1"			"30"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"245"
+		"b2"			"115"
+		"a2"			"0"
+		"Message"		"#UnderHell_Prologue_1_Objective_B"
+		"Channel"		"0"
+	}
+
+	Prologue_1_Objective_B-1
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.1"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"165"
+		"g1"			"155"
+		"b1"			"30"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"245"
+		"b2"			"115"
+		"a2"			"0"
+		"Message"		"#UnderHell_Prologue_1_Objective_B-1"
+		"Channel"		"0"
+	}
+
+	Prologue_1_Objective_C
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.1"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"165"
+		"g1"			"155"
+		"b1"			"30"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"245"
+		"b2"			"115"
+		"a2"			"0"
+		"Message"		"#UnderHell_Prologue_1_Objective_C"
+		"Channel"		"0"
+	}
+
+	Prologue_1_Objective_D
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.1"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"165"
+		"g1"			"155"
+		"b1"			"30"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"245"
+		"b2"			"115"
+		"a2"			"0"
+		"Message"		"#UnderHell_Prologue_1_Objective_D"
+		"Channel"		"0"
+	}
+
+	Prologue_2_Objective_A
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.1"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"165"
+		"g1"			"155"
+		"b1"			"30"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"245"
+		"b2"			"115"
+		"a2"			"0"
+		"Message"		"#UnderHell_Prologue_2_Objective_A"
+		"Channel"		"0"
+	}
+
+	Prologue_3_Objective_A
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.1"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"165"
+		"g1"			"155"
+		"b1"			"30"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"245"
+		"b2"			"115"
+		"a2"			"0"
+		"Message"		"#UnderHell_Prologue_3_Objective_A"
+		"Channel"		"0"
+	}
+
+	Prologue_3_Objective_B
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.1"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"165"
+		"g1"			"155"
+		"b1"			"30"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"245"
+		"b2"			"115"
+		"a2"			"0"
+		"Message"		"#UnderHell_Prologue_3_Objective_B"
+		"Channel"		"0"
+	}
+
+	Prologue_3_Objective_C
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.1"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"165"
+		"g1"			"155"
+		"b1"			"30"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"245"
+		"b2"			"115"
+		"a2"			"0"
+		"Message"		"#UnderHell_Prologue_3_Objective_C"
+		"Channel"		"0"
+	}
+
+	Prologue_4_Objective_A
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.1"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"165"
+		"g1"			"155"
+		"b1"			"30"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"245"
+		"b2"			"115"
+		"a2"			"0"
+		"Message"		"#UnderHell_Prologue_4_Objective_A"
+		"Channel"		"0"
+	}
+
+	Prologue_4_Objective_B
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.1"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"165"
+		"g1"			"155"
+		"b1"			"30"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"245"
+		"b2"			"115"
+		"a2"			"0"
+		"Message"		"#UnderHell_Prologue_4_Objective_B"
+		"Channel"		"0"
+	}
+
+	Prologue_4_Objective_C
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.1"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"165"
+		"g1"			"155"
+		"b1"			"30"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"245"
+		"b2"			"115"
+		"a2"			"0"
+		"Message"		"#UnderHell_Prologue_4_Objective_C"
+		"Channel"		"0"
+	}
+
+	Prologue_4_Objective_D
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.1"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"165"
+		"g1"			"155"
+		"b1"			"30"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"245"
+		"b2"			"115"
+		"a2"			"0"
+		"Message"		"#UnderHell_Prologue_4_Objective_D"
+		"Channel"		"0"
+	}
+
+	Prologue_4_Objective_D-1
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.1"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"165"
+		"g1"			"155"
+		"b1"			"30"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"245"
+		"b2"			"115"
+		"a2"			"0"
+		"Message"		"#UnderHell_Prologue_4_Objective_D-1"
+		"Channel"		"0"
+	}
+
+	Prologue_4_Objective_E
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.1"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"165"
+		"g1"			"155"
+		"b1"			"30"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"245"
+		"b2"			"115"
+		"a2"			"0"
+		"Message"		"#UnderHell_Prologue_4_Objective_E"
+		"Channel"		"0"
+	}
+
+	Prologue_4_Objective_F
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.1"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"165"
+		"g1"			"155"
+		"b1"			"30"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"245"
+		"b2"			"115"
+		"a2"			"0"
+		"Message"		"#UnderHell_Prologue_4_Objective_F"
+		"Channel"		"0"
+	}
+
+	Prologue_4_Objective_G
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.1"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"165"
+		"g1"			"155"
+		"b1"			"30"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"245"
+		"b2"			"115"
+		"a2"			"0"
+		"Message"		"#UnderHell_Prologue_4_Objective_G"
+		"Channel"		"0"
+	}
+
+	Prologue_5_Objective_A
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.1"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"165"
+		"g1"			"155"
+		"b1"			"30"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"245"
+		"b2"			"115"
+		"a2"			"0"
+		"Message"		"#UnderHell_Prologue_5_Objective_A"
+		"Channel"		"0"
+	}
+
+	Prologue_5_Objective_B
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.1"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"165"
+		"g1"			"155"
+		"b1"			"30"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"245"
+		"b2"			"115"
+		"a2"			"0"
+		"Message"		"#UnderHell_Prologue_5_Objective_B"
+		"Channel"		"0"
+	}
+
+	Prologue_5_Objective_C
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.1"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"165"
+		"g1"			"155"
+		"b1"			"30"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"245"
+		"b2"			"115"
+		"a2"			"0"
+		"Message"		"#UnderHell_Prologue_5_Objective_C"
+		"Channel"		"0"
+	}
+
+	Prologue_5_Objective_D
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.1"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"165"
+		"g1"			"155"
+		"b1"			"30"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"245"
+		"b2"			"115"
+		"a2"			"0"
+		"Message"		"#UnderHell_Prologue_5_Objective_D"
+		"Channel"		"0"
+	}
+
+	Prologue_5_Objective_E
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.1"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"165"
+		"g1"			"155"
+		"b1"			"30"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"245"
+		"b2"			"115"
+		"a2"			"0"
+		"Message"		"#UnderHell_Prologue_5_Objective_E"
+		"Channel"		"0"
+	}
+
+
+// ==============================================
+// Secondary Objectives Display
+// ==============================================
+
+	Prologue_1_Objective_A-1
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.16"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"30"
+		"g1"			"160"
+		"b1"			"170"
+		"a1"			"0"
+		"r2"			"110"
+		"g2"			"200"
+		"b2"			"255"
+		"a2"			"0"
+		"Message"		"#UnderHell_Prologue_1_Objective_A-1"
+		"Channel"		"2"
+	}
+
+	Prologue_3_Objective_C1
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.16"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"30"
+		"g1"			"160"
+		"b1"			"170"
+		"a1"			"0"
+		"r2"			"110"
+		"g2"			"200"
+		"b2"			"255"
+		"a2"			"0"
+		"Message"		"#UnderHell_Prologue_3_Objective_C1"
+		"Channel"		"2"
+	}
+
+	Prologue_4_Objective_C1
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.16"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"30"
+		"g1"			"160"
+		"b1"			"170"
+		"a1"			"0"
+		"r2"			"110"
+		"g2"			"200"
+		"b2"			"255"
+		"a2"			"0"
+		"Message"		"#UnderHell_Prologue_4_Objective_C1"
+		"Channel"		"2"
+	}
+
+	
+}

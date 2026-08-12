@@ -1,0 +1,105 @@
+int *sub_1013B9A0()
+{
+  if ( (dword_106B0098 & 1) == 0 )
+  {
+    dword_106B0098 |= 1u;
+    dword_106B007C = (int)"CEnvSpark";
+    dword_106B0084 = 0;
+    dword_106B0088 = 0;
+    dword_106B008C = 0;
+    dword_106B0090 = 0;
+    dword_106B0094 = 0;
+    dword_106B0080 = 9;
+    atexit(sub_10470FD0);
+  }
+  dword_10621CE8 = (int)&dword_1060F348;
+  if ( (dword_106B0098 & 2) == 0 )
+  {
+    dword_106B0098 |= 2u;
+    dword_10621E48 = (int)sub_100390B0((char **)&dword_106B007C, "SparkThink");
+    word_10621E54 = 1;
+    dword_10621E64 = 0;
+    dword_10621E68 = 0;
+    dword_10621E6C = 0;
+    dword_10621E70 = 0;
+    dword_10621E74 = 0;
+    word_10621E8A = 8;
+    dword_10621E98 = 0;
+    dword_10621E9C = 0;
+    dword_10621EA0 = 0;
+    dword_10621EA4 = 0;
+    dword_10621EA8 = 0;
+    dword_10621ECC = 0;
+    dword_10621ED0 = 0;
+    dword_10621ED4 = 0;
+    dword_10621ED8 = 0;
+    dword_10621EDC = 0;
+    word_10621E56 = 32;
+    word_10621E88 = 1;
+    word_10621EF0 = 1;
+    word_10621EBC = 1;
+    word_10621EBE = 8;
+    dword_10621F00 = 0;
+    dword_10621F04 = 0;
+    dword_10621F08 = 0;
+    dword_10621F0C = 0;
+    dword_10621F10 = 0;
+    dword_10621E4C = 0;
+    dword_10621E50 = 0;
+    dword_10621E58 = 0;
+    dword_10621E5C = 0;
+    dword_10621E60 = (int)sub_1013B5E0;
+    dword_10621E78 = 0;
+    dword_10621E7C = (int)"InputStartSpark";
+    dword_10621E80 = 0;
+    dword_10621E84 = 0;
+    dword_10621E8C = (int)"StartSpark";
+    dword_10621E90 = 0;
+    dword_10621E94 = (int)sub_1013B780;
+    dword_10621EAC = 0;
+    dword_10621EB0 = (int)"InputStopSpark";
+    dword_10621EB4 = 0;
+    dword_10621EB8 = 0;
+    dword_10621EC0 = (int)"StopSpark";
+    dword_10621EC4 = 0;
+    dword_10621EC8 = (int)sub_1017B2E0;
+    dword_10621EE0 = 0;
+    dword_10621EE4 = (int)"InputToggleSpark";
+    dword_10621EE8 = 0;
+    dword_10621EEC = 0;
+    word_10621EF2 = 8;
+    dword_10621EF4 = (int)"ToggleSpark";
+    dword_10621EF8 = 0;
+    dword_10621EFC = (int)sub_1013B7D0;
+    dword_10621F14 = 0;
+    dword_10621F18 = (int)"InputSparkOnce";
+    dword_10621F1C = 0;
+    dword_10621F20 = 0;
+    word_10621F24 = 1;
+    word_10621F26 = 8;
+    dword_10621F28 = (int)"SparkOnce";
+    dword_10621F2C = 0;
+    dword_10621F30 = (int)sub_1013B7B0;
+    dword_10621F34 = 0;
+    dword_10621F38 = 0;
+    dword_10621F3C = 0;
+    dword_10621F40 = 0;
+    dword_10621F44 = 0;
+    dword_10621F48 = 11;
+    dword_10621F4C = (int)"m_OnSpark";
+    dword_10621F50 = 816;
+    dword_10621F54 = 0;
+    dword_10621F58 = 1441793;
+    dword_10621F5C = (int)"OnSpark";
+    dword_10621F60 = (int)off_10614A2C;
+    dword_10621F64 = 0;
+    dword_10621F68 = 0;
+    dword_10621F6C = 0;
+    dword_10621F70 = 0;
+    dword_10621F74 = 0;
+    dword_10621F78 = 0;
+  }
+  dword_10621CE0 = 10;
+  dword_10621CDC = (int)&unk_10621D74;
+  return &dword_10621CDC;
+}

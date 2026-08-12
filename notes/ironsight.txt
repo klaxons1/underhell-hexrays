@@ -1,0 +1,461 @@
+underhell presumably uses this system, but maybe it is modified
+----------------
+thats how underhell weapon script looks:
+// RIFLE G36K
+
+WeaponData
+{
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"	"G3"
+	"viewmodel"			"models/weapons/v_g36k_pg.mdl"
+	"playermodel"			"models/weapons/w_g36k_pg.mdl"
+	"anim_prefix"			"ar2"
+	"bucket"			"4"
+	"bucket_position"		"1"
+
+	"clip_size"			"20"
+	"default_clip"			"20"
+
+	"primary_ammo"			"AR2"
+
+	"weight"				"7"
+	"item_flags"			"0"
+
+	// Recoil and Viewpunch data
+
+	"PunchPitch"  "-4, -2"
+	"PunchYaw"    "-1,1"
+	
+	"SnapPitch"   "-0.5, 0"
+	"SnapYaw"   "-0.25, 0.25"
+	"CrouchRecoilMult" "0.25" // lower values means less recoil
+	"CrouchAccuracyMult" "0.25" // lower values means more accurate
+	
+	"RunAccuracyMult" "1.5"
+
+	// Ironsight setting.
+ 	ExpOffset
+   	{
+		"x"   "-1.3"
+		"y"   "-1.64"
+		"z"   "0.8"
+
+		"xori"   "-0" 
+		"yori"   "0" 
+		"zori"   "0"
+		"accuracy" "0"
+  	 }
+
+	UH_Weapon_Special
+	{
+		"Penetration"   "6"
+                "FireMode"      "1"
+	}
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		"empty"			"Weapon_Shotgun.Empty"
+		"reload"		"Weapon_G36K.Boltpull"
+		"single_shot"		"Weapon_G36K.Single"
+		"single_shot_silenced"	"Weapon_G36K.Silenced"
+
+		// NPC SECTION
+		"single_shot_npc"	"Weapon_G36K.Single.NPC"
+		"reload_npc"		"Weapon_G36K.Boltpull"
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"weapon"
+		{
+			"file"		"sprites/hud/weapons/G36K"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		"weapon_s"
+		{
+			"file"		"sprites/hud/weapons/G36K"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		"ammo"
+		{
+				"font"		"WeaponIcons"
+				"character"	"r"
+		}
+		"crosshair"
+		{
+				"font"		"Crosshairs"
+				"character"	"Q"
+		}
+		"autoaim"
+		{
+				"file"		"sprites/crosshairs"
+				"x"			"0"
+				"y"			"48"
+				"width"		"24"
+				"height"	"24"
+		}
+	}
+        WeaponSpec
+                "WeaponType"   "0"
+
+                }
+                "FireMode"     "1"
+
+
+---------------------------------------------------------
+This article or section needs to be cleaned up to conform to a higher standard of quality.
+The goal of this tutorial is to create an ironsight system. It moves the origin of the weapon position up to the Player's eyes.
+
+Here's a tutorial that implements a server-controlled Ironsight system: Adding Ironsights. It might be better for MP mods, but works just as fine in SP.
+
+
+Contents
+1	Intro
+2	hl2mp_weapon_parse.h (DM) or weapon_parse.h (Singleplayer)
+3	hl2mp_weapon_parse.cpp (DM) or weapon_parse.cpp (Singleplayer)
+4	baseviewmodel_shared.cpp
+4.1	Animating the gun
+5	baseviewmodel_shared.h
+6	Extra
+7	weapon_pistol.txt
+8	Singleplayer Differences
+9	Results
+10	Notes
+Intro
+HL2DM and Singleplayer SDK
+
+This could work with the Scratch as well. Normally all you have to do is replace hl2mp_ with sdk_xxx.cpp and you will find the right files to put it in.
+
+This is a community project. The original code comes from this man: Cin.
+
+He has credits to most of this code as it is now.
+
+Todo: 	Change the fov on toggle
+hl2mp_weapon_parse.h (DM) or weapon_parse.h (Singleplayer)
+Add this in the bottom of the file. Only add the lines with //ADDED behind.
+
+public:
+
+	//jorg40 - ironsight
+	Vector m_expOffset; //ADDED
+	QAngle m_expOriOffset; //ADDED
+
+	int m_iPlayerDamage;
+};
+hl2mp_weapon_parse.cpp (DM) or weapon_parse.cpp (Singleplayer)
+Add this in the file.
+
+void CHL2MPSWeaponInfo::Parse( KeyValues *pKeyValuesData, const char *szWeaponName )
+{
+...
+   // this just saves off the data in the script file for later use
+   KeyValues *pEt = pKeyValuesData->FindKey("ExpOffset");
+   if (pEt)
+   {
+		m_expOffset.x     = pEt->GetFloat("x", 0.0f);
+		m_expOffset.y     = pEt->GetFloat("y", 0.0f);
+		m_expOffset.z     = pEt->GetFloat("z", 0.0f);
+
+		m_expOriOffset.x  = pEt->GetFloat("xori", 0.0f);
+		m_expOriOffset.y  = pEt->GetFloat("yori", 0.0f);
+		m_expOriOffset.z  = pEt->GetFloat("zori", 0.0f);
+   }
+   else
+   {
+      m_expOffset = vec3_origin;
+      m_expOriOffset.Init();
+   }
+...
+}
+baseviewmodel_shared.cpp
+Change in the beginning of the file so it looks like this
+
+#include "cbase.h"
+#include "baseviewmodel_shared.h"
+#include "datacache/imdlcache.h"
+
+#if defined( CLIENT_DLL )
+#include "iprediction.h"
+#include "prediction.h"
+// cin: 070105 - ironsight mode changes
+#include "convar.h"
+#include "c_hl2mp_player.h"
+#include "weapon_hl2mpbase.h"
+#else
+#include "vguiscreen.h"
+#endif
+
+
+// memdbgon must be the last include file in a .cpp file!!!
+#include "tier0/memdbgon.h"
+Then under that add so it should look like this.
+
+//THIS IS ALREADY IN THE CODE, just so you know where we are
+#define VIEWMODEL_ANIMATION_PARITY_BITS 3
+#define SCREEN_OVERLAY_MATERIAL "vgui/screens/vgui_overlay"
+
+//ALL BELOW IS NEW
+#if defined( CLIENT_DLL )
+void ExpWpnTestOffset(ConVar *pConVar, char *pszString);
+ConVar   cl_exp_test_wpn_offset("cl_exp_test_wpn_offset", "0", 0, "Tests weapon offsets",
+      (FnChangeCallback_t)ExpWpnTestOffset);
+
+ConVar   cl_exp_test_wpn_offset_x("cl_exp_test_wpn_offset_x", "0");
+ConVar   cl_exp_test_wpn_offset_y("cl_exp_test_wpn_offset_y", "0");
+ConVar   cl_exp_test_wpn_offset_z("cl_exp_test_wpn_offset_z", "0");
+
+ConVar   cl_exp_test_wpn_ori_offset_x("cl_exp_test_wpn_ori_offset_x", "0");
+ConVar   cl_exp_test_wpn_ori_offset_y("cl_exp_test_wpn_ori_offset_y", "0");
+ConVar   cl_exp_test_wpn_ori_offset_z("cl_exp_test_wpn_ori_offset_z", "0");
+
+// cin: 070105 - applies existing weapon offsets when
+// entering test mode (this will not be called upon
+// weapon change, so beware)
+// this mode should only be used for calibrating the
+// ironsighted mode offests for a particular weapon
+void ExpWpnTestOffset(ConVar *pConVar, char *pszString)
+{
+   CBasePlayer *pPlayer = UTIL_PlayerByIndex(engine->GetLocalPlayer());
+   if (pPlayer)
+   {
+      CWeaponHL2MPBase *pWeapon  = dynamic_cast<CWeaponHL2MPBase *>(pPlayer->GetActiveWeapon());
+      if (pWeapon)
+      {
+         cl_exp_test_wpn_offset_x.SetValue(pWeapon->GetHL2MPWpnData().m_expOffset.x);
+         cl_exp_test_wpn_offset_y.SetValue(pWeapon->GetHL2MPWpnData().m_expOffset.y);
+         cl_exp_test_wpn_offset_z.SetValue(pWeapon->GetHL2MPWpnData().m_expOffset.z);
+
+         cl_exp_test_wpn_ori_offset_x.SetValue(pWeapon->GetHL2MPWpnData().m_expOriOffset.x);
+         cl_exp_test_wpn_ori_offset_y.SetValue(pWeapon->GetHL2MPWpnData().m_expOriOffset.y);
+         cl_exp_test_wpn_ori_offset_z.SetValue(pWeapon->GetHL2MPWpnData().m_expOriOffset.z);
+      }
+   }
+}
+
+
+// last time ironsighted mode was toggled
+float gIronsightedTime(0.0f);
+
+// I bound this to a key for testing(i.e. bind [ ironsight_toggle)
+CON_COMMAND(ironsight_toggle, "toggles ironsight mode for the current weapon")
+{
+   if (gpGlobals->curtime - gIronsightedTime < 0.5f)
+      return;
+
+   CBasePlayer *pPlayer = UTIL_PlayerByIndex(engine->GetLocalPlayer());
+   if (pPlayer)
+   {
+     C_BaseViewModel  *pVm = pPlayer->GetViewModel();
+      if (pVm)
+      {
+		pPlayer->m_Local.m_iHideHUD ^= HIDEHUD_CROSSHAIR ;
+         pVm->m_bExpSighted  ^= true;
+         gIronsightedTime     = gpGlobals->curtime;
+      }
+   }
+}
+
+void CalcExpWpnOffsets(CBasePlayer *owner, Vector &pos, QAngle &ang)
+{
+   Vector   forward, right, up, offset;
+
+   // this is a simple test mode to help determine the proper values
+   // to place in the weapon script
+   if (cl_exp_test_wpn_offset.GetBool())
+   {
+      ang.x      += cl_exp_test_wpn_ori_offset_x.GetFloat();
+      ang.y      += cl_exp_test_wpn_ori_offset_y.GetFloat();
+      ang.z      += cl_exp_test_wpn_ori_offset_z.GetFloat();
+      offset.Init(cl_exp_test_wpn_offset_x.GetFloat(),
+                  cl_exp_test_wpn_offset_y.GetFloat(),
+                  cl_exp_test_wpn_offset_z.GetFloat());
+   }
+   else
+   {
+      CWeaponHL2MPBase *pWeapon  = dynamic_cast<CWeaponHL2MPBase *>(ToHL2MPPlayer(owner)->GetActiveWeapon());
+      if (pWeapon)
+      {
+         ang        += pWeapon->GetHL2MPWpnData().m_expOriOffset;
+         offset      = pWeapon->GetHL2MPWpnData().m_expOffset;
+      }
+   }
+
+   // get eye direction angles
+   AngleVectors(ang, &forward, &right, &up);
+
+   // apply the offsets
+   pos        += forward   * offset.x;
+   pos        += right     * offset.y;
+   pos        += up        * offset.z;
+}
+#endif
+Scroll down some and you will find the ViewModel::Spawn Edit it to look like this:
+
+void CBaseViewModel::Spawn( void )
+{
+	Precache( );
+	SetSize( Vector( -8, -4, -2), Vector(8, 4, 2) );
+	SetSolid( SOLID_NONE );
+
+	#ifdef CLIENT_DLL
+   // cin: 070105 - ironsighted mode changes
+   m_bExpSighted  = false;
+   m_expFactor    = 0.0f;
+   gIronsightedTime = 0.0f; 
+#endif
+
+
+}
+Animating the gun
+Now while we are still in the file we need some more. Look for void CBaseViewModel::CalcViewModelView. Replace the whole function with this.
+
+void CBaseViewModel::CalcViewModelView( CBasePlayer *owner, const Vector& eyePosition, const QAngle& eyeAngles )
+{
+   // UNDONE: Calc this on the server?  Disabled for now as it seems unnecessary to have this info on the server
+#if defined( CLIENT_DLL )
+   QAngle vmangoriginal = eyeAngles;
+   QAngle vmangles = eyeAngles;
+   Vector vmorigin = eyePosition;
+
+   CBaseCombatWeapon *pWeapon = m_hWeapon.Get();
+   //Allow weapon lagging
+   if ( pWeapon != NULL )
+   {
+#if defined( CLIENT_DLL )
+      if ( !prediction->InPrediction() )
+#endif
+      {
+         pWeapon->AddViewmodelBob( this, vmorigin, vmangles );
+         CalcViewModelLag( vmorigin, vmangles, vmangoriginal );
+      }
+   }
+
+#if defined( CLIENT_DLL )
+   if ( !prediction->InPrediction() )
+   {
+      // Let the viewmodel shake at about 10% of the amplitude of the player's view
+      vieweffects->ApplyShake( vmorigin, vmangles, 0.1 );   
+   }
+#endif
+   // cin: 070105 - ironsighted mode changes
+   // get the wpn offsets
+   CalcExpWpnOffsets(owner, vmorigin, vmangles);
+
+   // get delta time for 1 sec interpolation and interpolate to/from positional offset
+   float delta(gpGlobals->curtime - gIronsightedTime);
+   m_expFactor = (m_bExpSighted) ? 
+         (delta > 1.0f) ? 1.0f : delta :
+         (delta > 1.0f) ? 0.0f : 1.0f - delta;
+   Vector difPos(vmorigin - eyePosition);
+   vmorigin = eyePosition + (difPos * m_expFactor);
+
+   SetLocalOrigin(vmorigin);
+   SetLocalAngles(vmangles);
+#endif
+}
+Looks easy huh? What does it do then? The delta variables says what is what. 1.0 is when the gun is fully ironsighted, and 0.0 says when it is not sighted at all. So this codes calculates the distance between and slide the gun from 0 to 1.
+
+baseviewmodel_shared.h
+You need to add a couple of public defines here.
+
+class CBaseViewModel : public CBaseAnimating
+{
+	DECLARE_CLASS( CBaseViewModel, CBaseAnimating );
+public:
+
+	bool m_bExpSighted; //ADDED
+	float m_expFactor; //ADDED
+
+	DECLARE_NETWORKCLASS();
+	DECLARE_PREDICTABLE();
+
+#if !defined( CLIENT_DLL )
+	DECLARE_DATADESC();
+#endif
+Extra
+Some of you might think the gun is is moving up to the designated point a bit too slow, then here is the solution to it. Nothing hard nothing particular cool stuff, just 2 lines of code.
+
+Look for this line: float gIronsightedTime(0.0f); Below it add this.
+
+float gMoveTime(0.1f); //Jorg40 - Seconds to use to move the model up to players view
+Last line. Go to the delta float delta(gpGlobals->curtime - gIronsightedTime); Change it to look like this:
+
+float delta((gpGlobals->curtime - gIronsightedTime) / gMoveTime);
+Done! All we need to do is to change the script files.
+
+weapon_pistol.txt
+Add this somewhere around the "WeaponData" section in the script file.
+
+   ExpOffset
+   {
+      "x"   "-15"
+      "y"   "-5.5"
+      "z"   "4.2"
+     // "xori"   "-2.9" //Does not work
+     // "yori"   "1.1" //Does not work
+     // "zori"   "2.0" // Does not work
+   }
+Singleplayer Differences
+To achieve this in singleplayer make the following alterations:
+
+Replace:
+
+CWeaponHL2MPBase *pWeapon = dynamic_cast<CWeaponHL2MPBase *>(pPlayer->GetActiveWeapon());
+with
+
+CBaseCombatWeapon *pWeapon = pPlayer->GetActiveWeapon();
+Replace:
+
+CWeaponHL2MPBase *pWeapon  = dynamic_cast<CWeaponHL2MPBase *>(ToHL2MPPlayer(owner)->GetActiveWeapon());
+with
+
+CBaseCombatWeapon *pWeapon = owner->GetActiveWeapon();
+Replace:
+
+ConVar   cl_exp_test_wpn_offset("cl_exp_test_wpn_offset", "0", 0, "Tests weapon offsets", (FnChangeCallback_t)ExpWpnTestOffset);
+with
+
+ConVar   cl_exp_test_wpn_offset("cl_exp_test_wpn_offset", "0", 0, "Tests weapon offsets", (FnChangeCallback)ExpWpnTestOffset);
+Replace:
+
+#include "convar.h"
+#include "c_hl2mp_player.h"
+#include "weapon_hl2mpbase.h"
+with
+
+#include "convar.h"
+#include "c_baseplayer.h"
+Replace:
+
+pWeapon->GetHL2MPWpnData()
+with
+
+pWeapon->GetWpnData()
+Results
+
+Example of the end result
+An example image is shown on the right.
+Notes
+Quote/Note from the real author: How you set m_expFactor (time based interpolation is the easiest) and m_bExpSighted (button press) is up to you. Also , consider how you may pass this information to the server so ironsighted mode can be propagated over to other clients (i.e. other players will see that you're in ironsighted mode).
+
+Also in-game, open console, write cl_exp and all the commands that are needed will show up.
+
+Note from Pretador: Adding the Keybinds: To add the keybind to toggle ironsight, open up your kb_act. Under "#Valve_Combat_Title" Add:
+
+"ironsight_toggle" "#MOD_ironsight_toggle"
+
+Then open your mod_english.txt in mod/resource and write:
+
+"MOD_ironsight_toggle" "ironsight_toggle"
+
+
+
+

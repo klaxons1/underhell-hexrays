@@ -1,0 +1,29 @@
+int __thiscall sub_101DC510(int this)
+{
+  int result; // eax
+  int v3; // esi
+  int v4; // esi
+  double ArgList; // [esp+Ch] [ebp-210h]
+  double ArgLista; // [esp+Ch] [ebp-210h]
+  double ArgListb; // [esp+Ch] [ebp-210h]
+  char Buffer[512]; // [esp+1Ch] [ebp-200h] BYREF
+
+  result = sub_100DF940(this);
+  v3 = result;
+  if ( (*(_BYTE *)(this + 236) & 1) != 0 )
+  {
+    ArgList = *(float *)(this + 808);
+    sub_10429A00(Buffer, 0x200u, "Constant: %3.2f", SLOBYTE(ArgList));
+    sub_100D5DE0((_DWORD *)this, v3, (int)Buffer, 0.0, 255, 255, 255, 255);
+    ArgLista = *(float *)(this + 812);
+    v4 = v3 + 1;
+    sub_10429A00(Buffer, 0x200u, "Length: %3.2f", SLOBYTE(ArgLista));
+    sub_100D5DE0((_DWORD *)this, v4, (int)Buffer, 0.0, 255, 255, 255, 255);
+    ArgListb = *(float *)(this + 816);
+    ++v4;
+    sub_10429A00(Buffer, 0x200u, "Damping: %3.2f", SLOBYTE(ArgListb));
+    sub_100D5DE0((_DWORD *)this, v4, (int)Buffer, 0.0, 255, 255, 255, 255);
+    return v4 + 1;
+  }
+  return result;
+}

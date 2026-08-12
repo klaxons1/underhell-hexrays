@@ -1,0 +1,7 @@
+DName *__thiscall DName::operator+(_DWORD *this, DName *a2, char a3)
+{
+  *(_DWORD *)a2 = *this;
+  *((_DWORD *)a2 + 1) = this[1];
+  DName::operator+=(a2, a3);
+  return a2;
+}

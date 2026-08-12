@@ -1,0 +1,13 @@
+void __thiscall sub_101174F0(_DWORD *this)
+{
+  __int64 v1; // [esp-8h] [ebp-Ch]
+  float v2; // [esp+0h] [ebp-4h]
+
+  v2 = 0.0;
+  HIDWORD(v1) = this;
+  LODWORD(v1) = 0;
+  if ( byte_1069C024 )
+    sub_1010DD80(this + 206, v1, v2);
+  else
+    sub_1010DD80(this + 200, v1, v2);
+}

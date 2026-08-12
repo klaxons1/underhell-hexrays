@@ -1,0 +1,122 @@
+"NPC_Butcher.FootstepRight"
+{
+	"channel"		"CHAN_BODY"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_IDLE"
+
+	"rndwave"
+	{
+		"wave"	"npc/butcher/foot1.wav"
+		"wave"	"npc/butcher/foot3.wav"
+	}
+}
+
+"NPC_Butcher.FootstepLeft"
+{
+	"channel"		"CHAN_BODY"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_IDLE"
+
+	"rndwave"
+	{
+		"wave"	"npc/butcher/foot2.wav"
+		"wave"	"npc/butcher/foot4.wav"
+	}
+}
+
+"NPC_Butcher.Idle"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"95, 105"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"	"npc/butcher/Butcher.Idle.1.wav"
+		"wave"	"npc/butcher/Butcher.Idle.2.wav"
+		"wave"	"npc/butcher/Butcher.Idle.3.wav"
+		"wave"	"npc/butcher/Butcher.Idle.4.wav"
+		"wave"	"npc/butcher/Butcher.Idle.5.wav"
+		"wave"	"npc/butcher/Butcher.Idle.6.wav"
+		"wave"	"npc/butcher/Butcher.Idle.7.wav"
+		"wave"	"npc/butcher/Butcher.Idle.8.wav"
+		"wave"	"npc/butcher/Butcher.Idle.9.wav"
+	}
+
+}
+
+"NPC_Butcher.Alert"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"95, 105"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"	"npc/butcher/Butcher.Alert.1.wav"
+		"wave"	"npc/butcher/Butcher.Alert.2.wav"
+		"wave"	"npc/butcher/Butcher.Alert.3.wav"
+		"wave"	"npc/butcher/Butcher.Alert.4.wav"
+		"wave"	"npc/butcher/Butcher.Alert.5.wav"
+	}
+
+}
+"NPC_Butcher.Charge"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"95, 105"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"	"npc/butcher/Butcher.Charge.1.wav"
+		"wave"	"npc/butcher/Butcher.Charge.2.wav"
+	}
+
+}
+"NPC_Butcher.ChargeHit"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"95, 105"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"	"npc/butcher/Butcher.ChargeHit.1.wav"
+		"wave"	"npc/butcher/Butcher.ChargeHit.2.wav"
+		"wave"	"npc/butcher/Butcher.ChargeHit.3.wav"
+		"wave"	"npc/butcher/Butcher.ChargeHit.4.wav"
+
+	}
+
+}
+"NPC_Butcher.Melee"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"95, 105"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"	"npc/butcher/Butcher.Melee.1.wav"
+		"wave"	"npc/butcher/Butcher.Melee.2.wav"
+		"wave"	"npc/butcher/Butcher.Melee.3.wav"
+		"wave"	"npc/butcher/Butcher.Melee.4.wav"
+		"wave"	"npc/butcher/Butcher.Melee.5.wav"
+	}
+
+}

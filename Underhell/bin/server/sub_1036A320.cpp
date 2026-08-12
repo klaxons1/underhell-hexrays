@@ -1,0 +1,4 @@
+void __thiscall sub_1036A320(_DWORD *this, int a2)
+{
+  sub_1023C380(this, (int)"NPC_BlackHeadcrab.Die", 0.0, 0);
+}

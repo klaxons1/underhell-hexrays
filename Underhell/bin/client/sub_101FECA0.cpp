@@ -1,0 +1,72 @@
+char **sub_101FECA0()
+{
+  if ( (dword_10465874 & 1) == 0 )
+  {
+    dword_10465874 |= 1u;
+    dword_103F2CB8 = 3;
+    dword_103F2CD0 = 3;
+    dword_103F2CE8 = 3;
+    dword_103F2D00 = 3;
+    dword_103F2D18 = 3;
+    dword_103F2D30 = 3;
+    dword_103F2D48 = 3;
+    dword_103F2CBC = 4;
+    dword_103F2CC0 = 4;
+    dword_103F2CC4 = 0;
+    dword_103F2CC8 = (int)"operator end fadein";
+    dword_103F2CCC = (int)"0";
+    dword_103F2CD4 = 8;
+    dword_103F2CD8 = 4;
+    dword_103F2CDC = 0;
+    dword_103F2CE0 = (int)"operator start fadeout";
+    dword_103F2CE4 = (int)"0";
+    dword_103F2CEC = 12;
+    dword_103F2CF0 = 4;
+    dword_103F2CF4 = 0;
+    dword_103F2CF8 = (int)"operator end fadeout";
+    dword_103F2CFC = (int)"0";
+    dword_103F2D04 = 16;
+    dword_103F2D08 = 4;
+    dword_103F2D0C = 0;
+    dword_103F2D10 = (int)"operator fade oscillate";
+    dword_103F2D14 = (int)"0";
+    dword_103F2D1C = 20;
+    dword_103F2D20 = 4;
+    dword_103F2D24 = 0;
+    dword_103F2D28 = (int)"minimum distance";
+    dword_103F2D2C = (int)"0";
+    dword_103F2D34 = 44;
+    dword_103F2D38 = 4;
+    dword_103F2D3C = 0;
+    dword_103F2D40 = (int)"maximum distance";
+    dword_103F2D44 = (int)"100";
+    dword_103F2D4C = 48;
+    dword_103F2D50 = 4;
+    dword_103F2D54 = 0;
+    dword_103F2D58 = (int)"control point number";
+    dword_103F2D5C = (int)"0";
+    dword_103F2D60 = 2;
+    dword_103F2D64 = 52;
+    dword_103F2D68 = 4;
+    dword_103F2D6C = 0;
+    dword_103F2D70 = (int)"offset of center";
+    dword_103F2D74 = (int)"0 0 0";
+    dword_103F2D78 = 10;
+    dword_103F2D7C = 56;
+    dword_103F2D80 = 12;
+    dword_103F2D84 = 0;
+    dword_103F2D88 = (int)"global center point";
+    dword_103F2D8C = (int)"0";
+    dword_103F2D90 = 4;
+    dword_103F2D94 = 68;
+    dword_103F2D98 = 1;
+    dword_103F2D9C = 0;
+    dword_103F2DA0 = 0;
+    dword_103F2DA4 = 0;
+    dword_103F2DA8 = 0;
+    dword_103F2DAC = 0;
+    dword_103F2DB0 = 0;
+    dword_103F2DB4 = 0;
+  }
+  return off_103F2CB0;
+}

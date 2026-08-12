@@ -1,0 +1,72 @@
+char **sub_102059B0()
+{
+  if ( (dword_10465950 & 1) == 0 )
+  {
+    dword_10465950 |= 1u;
+    dword_103F45F0 = 3;
+    dword_103F4608 = 3;
+    dword_103F4620 = 3;
+    dword_103F4638 = 3;
+    dword_103F4650 = 3;
+    dword_103F4680 = 10;
+    dword_103F4698 = 10;
+    dword_103F45F4 = 4;
+    dword_103F45F8 = 4;
+    dword_103F45FC = 0;
+    dword_103F4600 = (int)"operator end fadein";
+    dword_103F4604 = (int)"0";
+    dword_103F460C = 8;
+    dword_103F4610 = 4;
+    dword_103F4614 = 0;
+    dword_103F4618 = (int)"operator start fadeout";
+    dword_103F461C = (int)"0";
+    dword_103F4624 = 12;
+    dword_103F4628 = 4;
+    dword_103F462C = 0;
+    dword_103F4630 = (int)"operator end fadeout";
+    dword_103F4634 = (int)"0";
+    dword_103F463C = 16;
+    dword_103F4640 = 4;
+    dword_103F4644 = 0;
+    dword_103F4648 = (int)"operator fade oscillate";
+    dword_103F464C = (int)"0";
+    dword_103F4654 = 20;
+    dword_103F4658 = 4;
+    dword_103F465C = 0;
+    dword_103F4660 = (int)"control_point_number";
+    dword_103F4664 = (int)"0";
+    dword_103F4668 = 2;
+    dword_103F466C = 68;
+    dword_103F4670 = 4;
+    dword_103F4674 = 0;
+    dword_103F4678 = (int)"offset min";
+    dword_103F467C = (int)"0 0 0";
+    dword_103F4684 = 44;
+    dword_103F4688 = 12;
+    dword_103F468C = 0;
+    dword_103F4690 = (int)"offset max";
+    dword_103F4694 = (int)"0 0 0";
+    dword_103F469C = 56;
+    dword_103F46A0 = 12;
+    dword_103F46A4 = 0;
+    dword_103F46A8 = (int)"offset in local space 0/1";
+    dword_103F46AC = (int)"0";
+    dword_103F46B0 = 4;
+    dword_103F46B4 = 72;
+    dword_103F46B8 = 1;
+    dword_103F46BC = 0;
+    dword_103F46C0 = (int)"offset proportional to radius 0/1";
+    dword_103F46C4 = (int)"0";
+    dword_103F46C8 = 4;
+    dword_103F46CC = 73;
+    dword_103F46D0 = 1;
+    dword_103F46D4 = 0;
+    dword_103F46D8 = 0;
+    dword_103F46DC = 0;
+    dword_103F46E0 = 0;
+    dword_103F46E4 = 0;
+    dword_103F46E8 = 0;
+    dword_103F46EC = 0;
+  }
+  return off_103F45E8;
+}

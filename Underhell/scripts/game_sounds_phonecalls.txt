@@ -1,0 +1,635 @@
+//****************Prologue****************
+
+"Prologue.House.Phone.Advert1"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/phonecalls/Prologue/advert1.wav"
+}
+"Prologue.House.Phone.Advert2"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/phonecalls/Prologue/advert2.wav"
+}
+"Prologue.House.Phone.Advert3"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/phonecalls/Prologue/advert3.wav"
+}
+"Prologue.House.Phone.Advert4"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/phonecalls/Prologue/advert4.wav"
+}
+"Prologue.House.Phone.Message1"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/phonecalls/Prologue/message1.wav"
+}
+"Prologue.House.Phone.Message2"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/phonecalls/Prologue/message2.wav"
+}
+"Prologue.House.Phone.Message3"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/phonecalls/Prologue/message3.wav"
+}
+"Prologue.House.Phone.Message4"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/phonecalls/Prologue/message4.wav"
+}
+"Prologue.House.Phone.Message5"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/phonecalls/Prologue/message5.wav"
+}
+"Prologue.House.Phone.Message6"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/phonecalls/Prologue/message6.wav"
+}
+"Prologue.House.Phone.Message7"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/phonecalls/Prologue/message7.wav"
+}
+
+"Prologue.House.Phone.Message7.Caption.1"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample2.wav"
+}
+"Prologue.House.Phone.Message7.Caption.2"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Prologue.House.Phone.Message7.Caption.3"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample2.wav"
+}
+"Prologue.House.Phone.Message7.Caption.4"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Prologue.House.Phone.Message7.Caption.5"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample2.wav"
+}
+
+//****************CHAPTER 1****************
+
+"Chapter1.House.Phone.Message1"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/phonecalls/Chapter1/message1.wav"
+}
+"Chapter1.House.Phone.Message1.Caption.1"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.House.Phone.Message1.Caption.2"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.House.Phone.Message1.Caption.3"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample2.wav"
+}
+"Chapter1.House.Phone.Message1.Caption.4"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample2.wav"
+}
+"Chapter1.House.Phone.Message1.Caption.5"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+
+"Chapter1.House.Phone.Message2"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/phonecalls/Chapter1/message2.wav"
+}
+"Chapter1.House.Phone.Message2.Caption.1"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.House.Phone.Message2.Caption.2"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample2.wav"
+}
+"Chapter1.House.Phone.Message2.Caption.3"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.House.Phone.Message2.Caption.4"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample2.wav"
+}
+"Chapter1.House.Phone.Message2.Caption.5"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample2.wav"
+}
+"Chapter1.House.Phone.Message2.Caption.6"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample2.wav"
+}
+"Chapter1.House.Phone.Message2.Caption.7"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.House.Phone.Message2.Caption.8"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+
+
+"Chapter1.House.Phone.Message3"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/phonecalls/Chapter1/message3.wav"
+}
+"Chapter1.House.Phone.Message3.Caption.1"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.House.Phone.Message3.Caption.2"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.House.Phone.Message3.Caption.3"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.House.Phone.Message3.Caption.4"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.House.Phone.Message3.Caption.5"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.House.Phone.Message3.Caption.6"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+
+"Chapter1.House.Phone.Message4"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/phonecalls/Chapter1/message4.wav"
+}
+"Chapter1.House.Phone.Message5"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/phonecalls/Chapter1/message5.wav"
+}
+"Chapter1.House.Phone.Message5.Caption.1"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.House.Phone.Message5.Caption.2"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.House.Phone.Message5.Caption.3"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample2.wav"
+}
+"Chapter1.House.Phone.Message5.Caption.4"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.House.Phone.Message5.Caption.5"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample2.wav"
+}
+"Chapter1.House.Phone.Message5.Caption.6"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample2.wav"
+}
+
+"Chapter1.House.Phone.Message6"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/phonecalls/Chapter1/message6.wav"
+}
+"Chapter1.House.Phone.Message6.Caption.1"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.House.Phone.Message6.Caption.2"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.House.Phone.Message6.Caption.3"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample2.wav"
+}
+"Chapter1.House.Phone.Message6.Caption.4"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample2.wav"
+}
+"Chapter1.House.Phone.Message6.Caption.5"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.House.Phone.Message6.Caption.6"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample2.wav"
+}
+
+"Chapter1.House.Phone.Message7"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/phonecalls/Chapter1/message7.wav"
+}
+"Chapter1.House.Phone.Message7.Caption.1"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.House.Phone.Message7.Caption.2"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.House.Phone.Message7.Caption.3"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.House.Phone.Message7.Caption.4"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.House.Phone.Message7.Caption.5"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.House.Phone.Message7.Caption.6"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.House.Phone.Message7.Caption.7"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.House.Phone.Message7.Caption.8"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+"Chapter1.House.Phone.Message7.Caption.9"
+{
+
+	"channel"		"CHAN_VOICE"
+	"volume"	"0.7"
+   "soundlevel"		"SNDLVL_NORM"
+	"pitch"			"92, 103"
+		"wave"	"vo/Captions/sample.wav"
+}
+
+//****************Effects****************
+
+"phone.hangup"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"pitch"			"95, 110"
+	"soundlevel"	"SNDLVL_NORM"
+	"rndwave"
+	{
+		"wave"	"misc/phone/phone-hang-up-1.wav"
+		"wave"	"misc/phone/phone-hang-up-2.wav"
+
+	}
+}
+"phone.pickup"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"pitch"			"95, 110"
+	"soundlevel"	"SNDLVL_NORM"
+	"rndwave"
+	{
+		"wave"	"misc/phone/phone-pick-up-1.wav"
+		"wave"	"misc/phone/phone-pick-up-2.wav"
+		"wave"	"misc/phone/phone-pick-up-3.wav"
+
+	}
+}
+
+"Phone.Ring"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.7"
+	"soundlevel"  "SNDLVL_75dB"
+	"pitch"		"100"
+	"wave"	"misc/phone/phone_ringing.wav"
+}
+
+"Phone.Busy"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.7"
+	"soundlevel"  "SNDLVL_75dB"
+	"pitch"		"100"
+	"wave"	"misc/phone/phone-busy-1.wav"
+}
+"Telephone.Ring"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.7"
+	"soundlevel"  "SNDLVL_75dB"
+	"pitch"		"100"
+	"wave"	"misc/phone/telephone-ring-1.wav"
+}

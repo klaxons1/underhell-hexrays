@@ -1,0 +1,132 @@
+int *sub_101809B0()
+{
+  if ( (dword_106B65E8 & 1) == 0 )
+  {
+    dword_106B65E8 |= 1u;
+    dword_106B65CC = (int)"CLogicBranchList";
+    dword_106B65D4 = 0;
+    dword_106B65D8 = 0;
+    dword_106B65DC = 0;
+    dword_106B65E0 = 0;
+    dword_106B65E4 = 0;
+    dword_106B65D0 = 16;
+    atexit(sub_10472010);
+  }
+  dword_1062CE90 = (int)&dword_1060F348;
+  if ( (dword_106B65E8 & 2) == 0 )
+  {
+    dword_106B65E8 |= 2u;
+    if ( (dword_106950B0 & 1) == 0 )
+    {
+      dword_106950B0 |= 1u;
+      dword_106950AC = (int)&CUtlVectorDataOps<CUtlVector<CHandle<CBaseEntity>,CUtlMemory<CHandle<CBaseEntity>,int>>,13>::`vftable';
+    }
+    dword_1062FB14 = 0;
+    flt_1062FB58 = 0.0;
+    dword_1062FB18 = 0;
+    dword_1062FB1C = 0;
+    dword_1062FB20 = 0;
+    dword_1062FB24 = 0;
+    word_1062FB38 = 1;
+    word_1062FB6E = 8;
+    dword_1062FB7C = 0;
+    dword_1062FB80 = 0;
+    dword_1062FB84 = 0;
+    dword_1062FB88 = 0;
+    dword_1062FB8C = 0;
+    word_1062FB3A = 2;
+    word_1062FB6C = 1;
+    word_1062FBA0 = 1;
+    word_1062FBA2 = 8;
+    dword_1062FB5C = 20;
+    dword_1062FB90 = 20;
+    dword_1062FBB0 = 0;
+    dword_1062FBB4 = 0;
+    dword_1062FBB8 = 0;
+    dword_1062FBBC = 0;
+    dword_1062FBC0 = 0;
+    dword_1062FBC4 = 20;
+    word_1062FBD6 = 8;
+    dword_1062FBE4 = 0;
+    dword_1062FBE8 = 0;
+    dword_1062FBEC = 0;
+    dword_1062FBF0 = 0;
+    dword_1062FBF4 = 0;
+    dword_1062FB0C = (int)&dword_106950AC;
+    dword_1062FB10 = 0;
+    dword_1062FB28 = 5;
+    dword_1062FB2C = (int)"m_eLastState";
+    dword_1062FB30 = 884;
+    dword_1062FB34 = 0;
+    dword_1062FB3C = 0;
+    dword_1062FB40 = 0;
+    dword_1062FB44 = 0;
+    dword_1062FB48 = 0;
+    dword_1062FB4C = 4;
+    dword_1062FB50 = 0;
+    dword_1062FB54 = 0;
+    dword_1062FB60 = (int)"InputTest";
+    dword_1062FB64 = 0;
+    dword_1062FB68 = 0;
+    dword_1062FB70 = (int)"Test";
+    dword_1062FB74 = 0;
+    dword_1062FB78 = (int)sub_1017D8B0;
+    dword_1062FB94 = (int)"Input_OnLogicBranchChanged";
+    dword_1062FB98 = 0;
+    dword_1062FB9C = 0;
+    dword_1062FBA4 = (int)"_OnLogicBranchChanged";
+    dword_1062FBA8 = 0;
+    dword_1062FBAC = (int)sub_1017D890;
+    dword_1062FBC8 = (int)"Input_OnLogicBranchRemoved";
+    dword_1062FBCC = 0;
+    dword_1062FBD0 = 0;
+    word_1062FBD4 = 1;
+    dword_1062FBD8 = (int)"_OnLogicBranchRemoved";
+    dword_1062FBDC = 0;
+    dword_1062FBE0 = (int)sub_1017D820;
+    dword_1062FBF8 = 11;
+    dword_1062FBFC = (int)"m_OnAllTrue";
+    dword_1062FC00 = 888;
+    dword_1062FC04 = 0;
+    word_1062FC08 = 1;
+    dword_1062FC14 = 0;
+    dword_1062FC18 = 0;
+    dword_1062FC1C = 0;
+    dword_1062FC20 = 0;
+    dword_1062FC24 = 0;
+    dword_1062FC28 = 0;
+    word_1062FC3C = 1;
+    word_1062FC0A = 22;
+    word_1062FC3E = 22;
+    dword_1062FC0C = (int)"OnAllTrue";
+    dword_1062FC10 = (int)off_10614A2C;
+    dword_1062FC2C = 11;
+    dword_1062FC30 = (int)"m_OnAllFalse";
+    dword_1062FC34 = 912;
+    dword_1062FC38 = 0;
+    dword_1062FC40 = (int)"OnAllFalse";
+    dword_1062FC44 = (int)off_10614A2C;
+    dword_1062FC48 = 0;
+    dword_1062FC4C = 0;
+    dword_1062FC50 = 0;
+    dword_1062FC54 = 0;
+    dword_1062FC58 = 0;
+    dword_1062FC5C = 0;
+    dword_1062FC60 = 11;
+    dword_1062FC64 = (int)"m_OnMixed";
+    dword_1062FC68 = 936;
+    dword_1062FC6C = 0;
+    dword_1062FC70 = 1441793;
+    dword_1062FC74 = (int)"OnMixed";
+    dword_1062FC78 = (int)off_10614A2C;
+    dword_1062FC7C = 0;
+    dword_1062FC80 = 0;
+    dword_1062FC84 = 0;
+    dword_1062FC88 = 0;
+    dword_1062FC8C = 0;
+    dword_1062FC90 = 0;
+  }
+  dword_1062CE88 = 24;
+  dword_1062CE84 = (int)&unk_1062F7B4;
+  return &dword_1062CE84;
+}

@@ -1,0 +1,8 @@
+int __thiscall sub_1027D1D0(int *this, _DWORD *a2, float *a3)
+{
+  if ( *a2 == 3007 )
+    return sub_1027D000(this, a3, 0);
+  if ( *a2 == 3103 )
+    return sub_1027C780(this, (int)a3, 0.0);
+  return sub_100CFE60(this, (int)a2, (int)a3);
+}

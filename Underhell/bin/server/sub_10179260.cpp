@@ -1,0 +1,100 @@
+int *sub_10179260()
+{
+  if ( (dword_106B6304 & 1) == 0 )
+  {
+    dword_106B6304 |= 1u;
+    dword_106B62E8 = (int)"CLight";
+    dword_106B62F0 = 0;
+    dword_106B62F4 = 0;
+    dword_106B62F8 = 0;
+    dword_106B62FC = 0;
+    dword_106B6300 = 0;
+    dword_106B62EC = 6;
+    atexit(sub_10471ED0);
+  }
+  dword_1062C008 = (int)&dword_1060F348;
+  if ( (dword_106B6304 & 2) == 0 )
+  {
+    dword_106B6304 |= 2u;
+    dword_1062C1EC = (int)sub_100390B0((char **)&dword_106B62E8, "FadeThink");
+    dword_1062C1F0 = 0;
+    dword_1062C1F4 = 0;
+    dword_1062C1F8 = 2097153;
+    dword_1062C1FC = 0;
+    dword_1062C200 = 0;
+    dword_1062C204 = (int)sub_10178DE0;
+    dword_1062C208 = 0;
+    dword_1062C20C = 0;
+    dword_1062C210 = 0;
+    dword_1062C214 = 0;
+    dword_1062C218 = 0;
+    dword_1062C21C = 2;
+    dword_1062C220 = (int)"InputSetPattern";
+    dword_1062C224 = 0;
+    dword_1062C228 = 0;
+    dword_1062C22C = 524289;
+    dword_1062C230 = (int)"SetPattern";
+    dword_1062C234 = 0;
+    dword_1062C238 = (int)sub_101790B0;
+    dword_1062C23C = 0;
+    dword_1062C240 = 0;
+    dword_1062C244 = 0;
+    dword_1062C248 = 0;
+    dword_1062C24C = 0;
+    dword_1062C250 = 2;
+    dword_1062C254 = (int)"InputFadeToPattern";
+    dword_1062C258 = 0;
+    dword_1062C25C = 0;
+    dword_1062C260 = 524289;
+    dword_1062C264 = (int)"FadeToPattern";
+    dword_1062C268 = 0;
+    dword_1062C26C = (int)sub_10179140;
+    dword_1062C270 = 0;
+    dword_1062C274 = 0;
+    dword_1062C278 = 0;
+    dword_1062C27C = 0;
+    dword_1062C280 = 0;
+    dword_1062C284 = 0;
+    dword_1062C288 = (int)"InputToggle";
+    dword_1062C28C = 0;
+    dword_1062C290 = 0;
+    dword_1062C294 = 524289;
+    dword_1062C298 = (int)"Toggle";
+    dword_1062C29C = 0;
+    dword_1062C2A0 = (int)sub_10179090;
+    dword_1062C2A4 = 0;
+    dword_1062C2A8 = 0;
+    dword_1062C2AC = 0;
+    dword_1062C2B0 = 0;
+    dword_1062C2B4 = 0;
+    dword_1062C2B8 = 0;
+    dword_1062C2BC = (int)"InputTurnOn";
+    dword_1062C2C0 = 0;
+    dword_1062C2C4 = 0;
+    dword_1062C2C8 = 524289;
+    dword_1062C2CC = (int)"TurnOn";
+    dword_1062C2D0 = 0;
+    dword_1062C2D4 = (int)sub_10179070;
+    dword_1062C2D8 = 0;
+    dword_1062C2DC = 0;
+    dword_1062C2E0 = 0;
+    dword_1062C2E4 = 0;
+    dword_1062C2E8 = 0;
+    dword_1062C2EC = 0;
+    dword_1062C2F0 = (int)"InputTurnOff";
+    dword_1062C2F4 = 0;
+    dword_1062C2F8 = 0;
+    dword_1062C2FC = 524289;
+    dword_1062C300 = (int)"TurnOff";
+    dword_1062C304 = 0;
+    dword_1062C308 = (int)sub_10179080;
+    dword_1062C30C = 0;
+    dword_1062C310 = 0;
+    dword_1062C314 = 0;
+    dword_1062C318 = 0;
+    dword_1062C31C = 0;
+  }
+  dword_1062C000 = 11;
+  dword_1062BFFC = (int)asc_1062C0E4;
+  return &dword_1062BFFC;
+}

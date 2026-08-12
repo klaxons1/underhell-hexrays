@@ -1,0 +1,3665 @@
+Titles_House
+{
+
+// ==============================================
+// Tutorial Objectives
+// ==============================================
+
+	Tutorial_Objective_1
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.16"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"30"
+		"g1"			"160"
+		"b1"			"170"
+		"a1"			"0"
+		"r2"			"110"
+		"g2"			"200"
+		"b2"			"255"
+		"a2"			"0"
+		"Message"		"#Underhell_Tutorial_Objective_1"
+		"Channel"		"2"
+	}
+
+	Tutorial_Objective_2
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.16"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"30"
+		"g1"			"160"
+		"b1"			"170"
+		"a1"			"0"
+		"r2"			"110"
+		"g2"			"200"
+		"b2"			"255"
+		"a2"			"0"
+		"Message"		"#Underhell_Tutorial_Objective_2"
+		"Channel"		"2"
+	}
+
+	Tutorial_Objective_3
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.16"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"30"
+		"g1"			"160"
+		"b1"			"170"
+		"a1"			"0"
+		"r2"			"110"
+		"g2"			"200"
+		"b2"			"255"
+		"a2"			"0"
+		"Message"		"#Underhell_Tutorial_Objective_3"
+		"Channel"		"2"
+	}
+
+	Tutorial_Objective_4
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.16"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"30"
+		"g1"			"160"
+		"b1"			"170"
+		"a1"			"0"
+		"r2"			"110"
+		"g2"			"200"
+		"b2"			"255"
+		"a2"			"0"
+		"Message"		"#Underhell_Tutorial_Objective_4"
+		"Channel"		"2"
+	}
+
+	Tutorial_Objective_5
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.16"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"30"
+		"g1"			"160"
+		"b1"			"170"
+		"a1"			"0"
+		"r2"			"110"
+		"g2"			"200"
+		"b2"			"255"
+		"a2"			"0"
+		"Message"		"#Underhell_Tutorial_Objective_5"
+		"Channel"		"2"
+	}
+
+	Tutorial_Objective_6
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.16"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"30"
+		"g1"			"160"
+		"b1"			"170"
+		"a1"			"0"
+		"r2"			"110"
+		"g2"			"200"
+		"b2"			"255"
+		"a2"			"0"
+		"Message"		"#Underhell_Tutorial_Objective_6"
+		"Channel"		"2"
+	}
+
+	Tutorial_Objective_7
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.16"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"30"
+		"g1"			"160"
+		"b1"			"170"
+		"a1"			"0"
+		"r2"			"110"
+		"g2"			"200"
+		"b2"			"255"
+		"a2"			"0"
+		"Message"		"#Underhell_Tutorial_Objective_7"
+		"Channel"		"2"
+	}
+
+	Tutorial_Objective_8
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.16"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"30"
+		"g1"			"160"
+		"b1"			"170"
+		"a1"			"0"
+		"r2"			"110"
+		"g2"			"200"
+		"b2"			"255"
+		"a2"			"0"
+		"Message"		"#Underhell_Tutorial_Objective_8"
+		"Channel"		"2"
+	}
+
+	Tutorial_Objective_9
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.16"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"30"
+		"g1"			"160"
+		"b1"			"170"
+		"a1"			"0"
+		"r2"			"110"
+		"g2"			"200"
+		"b2"			"255"
+		"a2"			"0"
+		"Message"		"#Underhell_Tutorial_Objective_9"
+		"Channel"		"2"
+	}
+
+	Tutorial_Objective_10
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.16"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"30"
+		"g1"			"160"
+		"b1"			"170"
+		"a1"			"0"
+		"r2"			"110"
+		"g2"			"200"
+		"b2"			"255"
+		"a2"			"0"
+		"Message"		"#Underhell_Tutorial_Objective_10"
+		"Channel"		"2"
+	}
+
+	Tutorial_Objective_11
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.16"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"30"
+		"g1"			"160"
+		"b1"			"170"
+		"a1"			"0"
+		"r2"			"110"
+		"g2"			"200"
+		"b2"			"255"
+		"a2"			"0"
+		"Message"		"#Underhell_Tutorial_Objective_11"
+		"Channel"		"2"
+	}
+
+	Tutorial_Objective_12
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.16"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"30"
+		"g1"			"160"
+		"b1"			"170"
+		"a1"			"0"
+		"r2"			"110"
+		"g2"			"200"
+		"b2"			"255"
+		"a2"			"0"
+		"Message"		"#Underhell_Tutorial_Objective_12"
+		"Channel"		"2"
+	}
+
+	Tutorial_Objective_13
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.16"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"30"
+		"g1"			"160"
+		"b1"			"170"
+		"a1"			"0"
+		"r2"			"110"
+		"g2"			"200"
+		"b2"			"255"
+		"a2"			"0"
+		"Message"		"#Underhell_Tutorial_Objective_13"
+		"Channel"		"2"
+	}
+
+	Tutorial_Objective_14
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.16"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"30"
+		"g1"			"160"
+		"b1"			"170"
+		"a1"			"0"
+		"r2"			"110"
+		"g2"			"200"
+		"b2"			"255"
+		"a2"			"0"
+		"Message"		"#Underhell_Tutorial_Objective_14"
+		"Channel"		"2"
+	}
+
+	Tutorial_Objective_15
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.16"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"30"
+		"g1"			"160"
+		"b1"			"170"
+		"a1"			"0"
+		"r2"			"110"
+		"g2"			"200"
+		"b2"			"255"
+		"a2"			"0"
+		"Message"		"#Underhell_Tutorial_Objective_15"
+		"Channel"		"2"
+	}
+
+	Tutorial_Objective_16
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.16"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"30"
+		"g1"			"160"
+		"b1"			"170"
+		"a1"			"0"
+		"r2"			"110"
+		"g2"			"200"
+		"b2"			"255"
+		"a2"			"0"
+		"Message"		"#Underhell_Tutorial_Objective_16"
+		"Channel"		"2"
+	}
+
+	Tutorial_Objective_17
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.16"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"30"
+		"g1"			"160"
+		"b1"			"170"
+		"a1"			"0"
+		"r2"			"110"
+		"g2"			"200"
+		"b2"			"255"
+		"a2"			"0"
+		"Message"		"#Underhell_Tutorial_Objective_17"
+		"Channel"		"2"
+	}
+
+	Tutorial_Objective_18
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.16"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"30"
+		"g1"			"160"
+		"b1"			"170"
+		"a1"			"0"
+		"r2"			"110"
+		"g2"			"200"
+		"b2"			"255"
+		"a2"			"0"
+		"Message"		"#Underhell_Tutorial_Objective_18"
+		"Channel"		"2"
+	}
+
+	Tutorial_Objective_19
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.16"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"30"
+		"g1"			"160"
+		"b1"			"170"
+		"a1"			"0"
+		"r2"			"110"
+		"g2"			"200"
+		"b2"			"255"
+		"a2"			"0"
+		"Message"		"#Underhell_Tutorial_Objective_19"
+		"Channel"		"2"
+	}
+
+	Tutorial_Objective_20
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.16"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"30"
+		"g1"			"160"
+		"b1"			"170"
+		"a1"			"0"
+		"r2"			"110"
+		"g2"			"200"
+		"b2"			"255"
+		"a2"			"0"
+		"Message"		"#Underhell_Tutorial_Objective_20"
+		"Channel"		"2"
+	}
+
+// ==============================================
+// Game Explanation Messages
+// ==============================================
+
+	House_Comment_StartTutorial
+	{
+		"positionx"		"-1"
+		"positiony"		"0.6"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Comment_StartTutorial"
+		"Channel"		"4"
+	}
+
+
+	House_Comment_LeaveTutorial
+	{
+		"positionx"		"-1"
+		"positiony"		"0.6"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"6.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Comment_LeaveTutorial"
+		"Channel"		"4"
+	}
+
+	House_Comment_TutorialPast
+	{
+		"positionx"		"-1"
+		"positiony"		"0.6"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"10.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Comment_TutorialPast"
+		"Channel"		"4"
+	}
+
+	House0_Comment_PlayThrough
+	{
+		"positionx"		"-1"
+		"positiony"		"0.6"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"8.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House0_Comment_PlayThrough"
+		"Channel"		"4"
+	}
+
+	House1_Comment_PlayThrough
+	{
+		"positionx"		"-1"
+		"positiony"		"0.6"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"8.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House1_Comment_PlayThrough"
+		"Channel"		"4"
+	}
+
+	House_Comment_Mysteries
+	{
+		"positionx"		"-1"
+		"positiony"		"0.6"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"8.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Comment_Mysteries"
+		"Channel"		"4"
+	}
+
+	House_Comment_Ending
+	{
+		"positionx"		"-1"
+		"positiony"		"0.6"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"8.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Comment_Ending"
+		"Channel"		"4"
+	}
+
+	House_Comment_ThanksForPlaying
+	{
+		"positionx"		"-1"
+		"positiony"		"0.6"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"8.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Comment_ThanksForPlaying"
+		"Channel"		"4"
+	}
+
+// ==============================================
+// Trophies
+// ==============================================
+
+	House_Trophy_Tutorial
+	{
+		"positionx"		"-1"
+		"positiony"		"0.6"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"5.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Trophy_Tutorial"
+		"Channel"		"3"
+	}
+
+	House_Trophy_TutorialMike
+	{
+		"positionx"		"-1"
+		"positiony"		"0.6"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"5.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Trophy_TutorialMike"
+		"Channel"		"3"
+	}
+
+	House_Trophy_Bullseye
+	{
+		"positionx"		"-1"
+		"positiony"		"0.6"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"5.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Trophy_Bullseye"
+		"Channel"		"3"
+	}
+
+	House_Trophy_Negociator
+	{
+		"positionx"		"-1"
+		"positiony"		"0.6"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"5.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Trophy_Negociator"
+		"Channel"		"3"
+	}
+
+	House_Trophy_AceHunter
+	{
+		"positionx"		"-1"
+		"positiony"		"0.6"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"5.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Trophy_AceHunter"
+		"Channel"		"3"
+	}
+
+	House_Trophy_FamilyReunion
+	{
+		"positionx"		"-1"
+		"positiony"		"0.6"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"5.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Trophy_FamilyReunion"
+		"Channel"		"3"
+	}
+
+	House_Trophy_Lucy
+	{
+		"positionx"		"-1"
+		"positiony"		"0.6"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"5.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Trophy_Lucy"
+		"Channel"		"3"
+	}
+
+	House_Trophy_SpyApprentice
+	{
+		"positionx"		"-1"
+		"positiony"		"0.6"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"5.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Trophy_SpyApprentice"
+		"Channel"		"3"
+	}
+
+	House_Trophy_TechApprentice
+	{
+		"positionx"		"-1"
+		"positiony"		"0.6"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"5.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Trophy_TechApprentice"
+		"Channel"		"3"
+	}
+
+	House_Trophy_TechExpert
+	{
+		"positionx"		"-1"
+		"positiony"		"0.7"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"5.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Trophy_TechExpert"
+		"Channel"		"3"
+	}
+
+	House_Trophy_SolidJake
+	{
+		"positionx"		"-1"
+		"positiony"		"0.6"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"5.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Trophy_SolidJake"
+		"Channel"		"3"
+	}
+
+	House_Trophy_TerryColt
+	{
+		"positionx"		"-1"
+		"positiony"		"0.6"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"5.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Trophy_TerryColt"
+		"Channel"		"3"
+	}
+
+// Prologue House
+
+// ==============================================
+// Info Help Messages
+// ==============================================
+
+
+	HouseInfo_1
+	{
+		"positionx"		"-1"
+		"positiony"		"0.9"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"255"
+		"g1"			"255"
+		"b1"			"255"
+		"a1"			"0"
+		"r2"			"15"
+		"g2"			"30"
+		"b2"			"240"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Info_1"
+		"Channel"		"3"
+	}
+
+	HouseInfo_2
+	{
+		"positionx"		"-1"
+		"positiony"		"0.9"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"255"
+		"g1"			"255"
+		"b1"			"255"
+		"a1"			"0"
+		"r2"			"15"
+		"g2"			"30"
+		"b2"			"240"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Info_2"
+		"Channel"		"3"
+	}
+
+	HouseInfo_3.5
+	{
+		"positionx"		"-1"
+		"positiony"		"0.9"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"255"
+		"g1"			"255"
+		"b1"			"255"
+		"a1"			"0"
+		"r2"			"15"
+		"g2"			"30"
+		"b2"			"240"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Info_3.5"
+		"Channel"		"3"
+	}
+
+	HouseInfo_4
+	{
+		"positionx"		"-1"
+		"positiony"		"0.9"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"255"
+		"g1"			"255"
+		"b1"			"255"
+		"a1"			"0"
+		"r2"			"15"
+		"g2"			"30"
+		"b2"			"240"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Info_4"
+		"Channel"		"3"
+	}
+
+	HouseInfo_5
+	{
+		"positionx"		"-1"
+		"positiony"		"0.9"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"255"
+		"g1"			"255"
+		"b1"			"255"
+		"a1"			"0"
+		"r2"			"15"
+		"g2"			"30"
+		"b2"			"240"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Info_5"
+		"Channel"		"3"
+	}
+
+	HouseInfo_5-1
+	{
+		"positionx"		"-1"
+		"positiony"		"0.9"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"255"
+		"g1"			"255"
+		"b1"			"255"
+		"a1"			"0"
+		"r2"			"15"
+		"g2"			"30"
+		"b2"			"240"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Info_5-1"
+		"Channel"		"3"
+	}
+
+	HouseInfo_5-2
+	{
+		"positionx"		"-1"
+		"positiony"		"0.9"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"255"
+		"g1"			"255"
+		"b1"			"255"
+		"a1"			"0"
+		"r2"			"15"
+		"g2"			"30"
+		"b2"			"240"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Info_5-2"
+		"Channel"		"3"
+	}
+
+	HouseInfo_6-1
+	{
+		"positionx"		"-1"
+		"positiony"		"0.9"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"255"
+		"g1"			"255"
+		"b1"			"255"
+		"a1"			"0"
+		"r2"			"15"
+		"g2"			"30"
+		"b2"			"240"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Info_6-1"
+		"Channel"		"3"
+	}
+
+	HouseInfo_7
+	{
+		"positionx"		"-1"
+		"positiony"		"0.9"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"255"
+		"g1"			"255"
+		"b1"			"255"
+		"a1"			"0"
+		"r2"			"15"
+		"g2"			"30"
+		"b2"			"240"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Info_7"
+		"Channel"		"3"
+	}
+
+	HouseInfo_8
+	{
+		"positionx"		"-1"
+		"positiony"		"0.9"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"255"
+		"g1"			"255"
+		"b1"			"255"
+		"a1"			"0"
+		"r2"			"15"
+		"g2"			"30"
+		"b2"			"240"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Info_8"
+		"Channel"		"3"
+	}
+
+	HouseInfo_9
+	{
+		"positionx"		"-1"
+		"positiony"		"0.9"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"255"
+		"g1"			"255"
+		"b1"			"255"
+		"a1"			"0"
+		"r2"			"15"
+		"g2"			"30"
+		"b2"			"240"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Info_9"
+		"Channel"		"3"
+	}
+
+// ==============================================
+// Info Help Message Secondary
+// ==============================================
+
+	HouseInfo_3
+	{
+		"positionx"		"-1"
+		"positiony"		"0.7"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"255"
+		"g1"			"255"
+		"b1"			"255"
+		"a1"			"0"
+		"r2"			"15"
+		"g2"			"30"
+		"b2"			"240"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Info_3"
+		"Channel"		"4"
+	}
+
+	HouseInfo_6
+	{
+		"positionx"		"-1"
+		"positiony"		"0.7"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"255"
+		"g1"			"255"
+		"b1"			"255"
+		"a1"			"0"
+		"r2"			"15"
+		"g2"			"30"
+		"b2"			"240"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Info_6"
+		"Channel"		"4"
+	}
+
+	HouseInfo_6-2
+	{
+		"positionx"		"-1"
+		"positiony"		"0.7"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"255"
+		"g1"			"255"
+		"b1"			"255"
+		"a1"			"0"
+		"r2"			"15"
+		"g2"			"30"
+		"b2"			"240"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Info_6-2"
+		"Channel"		"4"
+	}
+
+
+// ==============================================
+// Comments Messages
+// ==============================================
+
+	House_Comment_DreamCatcherOn
+	{
+		"positionx"		"-1"
+		"positiony"		"0.7"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Comment_DreamCatcherOn"
+		"Channel"		"3"
+	}
+
+	House_Comment_DreamCatcherOff
+	{
+		"positionx"		"-1"
+		"positiony"		"0.7"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Comment_DreamCatcherOff"
+		"Channel"		"3"
+	}
+
+	House_Comment_DreamCatcherSleep
+	{
+		"positionx"		"-1"
+		"positiony"		"0.7"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Comment_DreamCatcherSleep"
+		"Channel"		"3"
+	}
+
+	House_Comment_NoGas
+	{
+		"positionx"		"-1"
+		"positiony"		"0.7"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Comment_NoGas"
+		"Channel"		"3"
+	}
+
+	House_Comment_Gas
+	{
+		"positionx"		"-1"
+		"positiony"		"0.7"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Comment_Gas"
+		"Channel"		"3"
+	}
+
+	House_Comment_FuseBlow
+	{
+		"positionx"		"-1"
+		"positiony"		"0.7"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Comment_FuseBlow"
+		"Channel"		"3"
+	}
+
+	House_Comment_NoSleep
+	{
+		"positionx"		"-1"
+		"positiony"		"0.7"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Comment_NoSleep"
+		"Channel"		"3"
+	}
+
+	House_Comment_NoMail
+	{
+		"positionx"		"-1"
+		"positiony"		"0.7"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Comment_NoMail"
+		"Channel"		"3"
+	}
+
+	House_Comment_Frame_Drawer
+	{
+		"positionx"		"-1"
+		"positiony"		"0.7"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Comment_Frame_Drawer"
+		"Channel"		"3"
+	}
+
+	House_Comment_Frame
+	{
+		"positionx"		"-1"
+		"positiony"		"0.7"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Comment_Frame"
+		"Channel"		"3"
+	}
+
+	House_Comment_Chest
+	{
+		"positionx"		"-1"
+		"positiony"		"0.7"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Comment_Chest"
+		"Channel"		"3"
+	}
+
+	House_Comment_Bathroom
+	{
+		"positionx"		"-1"
+		"positiony"		"0.7"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Comment_Bathroom"
+		"Channel"		"3"
+	}
+
+	House_Comment_Diary_Pages_Missing
+	{
+		"positionx"		"-1"
+		"positiony"		"0.7"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Comment_Diary_Pages_Missing"
+		"Channel"		"3"
+	}
+
+	House_Comment_StorageCloset
+	{
+		"positionx"		"-1"
+		"positiony"		"0.7"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Comment_StorageCloset"
+		"Channel"		"3"
+	}
+
+	House_Comment_StorageCloset_NoNeed
+	{
+		"positionx"		"-1"
+		"positiony"		"0.7"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Comment_StorageCloset_NoNeed"
+		"Channel"		"3"
+	}
+
+	House_Comment_Mags
+	{
+		"positionx"		"-1"
+		"positiony"		"0.7"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Comment_Mags"
+		"Channel"		"3"
+	}
+
+	House_Comment_LaserSight
+	{
+		"positionx"		"-1"
+		"positiony"		"0.7"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Comment_LaserSight"
+		"Channel"		"3"
+	}
+
+	House_Comment_GunCabinet
+	{
+		"positionx"		"-1"
+		"positiony"		"0.7"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Comment_GunCabinet"
+		"Channel"		"3"
+	}
+
+	House_Comment_AtticCrates
+	{
+		"positionx"		"-1"
+		"positiony"		"0.7"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Comment_AtticCrates"
+		"Channel"		"3"
+	}
+
+	House_Comment_AtticCrates2
+	{
+		"positionx"		"-1"
+		"positiony"		"0.7"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Comment_AtticCrates2"
+		"Channel"		"3"
+	}
+
+	House_Comment_GardenHouseDoor
+	{
+		"positionx"		"-1"
+		"positiony"		"0.7"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Comment_GardenHouseDoor"
+		"Channel"		"3"
+	}
+
+	House_Comment_GardenHouseRemote
+	{
+		"positionx"		"-1"
+		"positiony"		"0.7"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Comment_GardenHouseRemote"
+		"Channel"		"3"
+	}
+
+	House_Comment_Tire
+	{
+		"positionx"		"-1"
+		"positiony"		"0.7"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Comment_Tire"
+		"Channel"		"3"
+	}
+
+	House_Comment_Calendary
+	{
+		"positionx"		"-1"
+		"positiony"		"0.7"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Comment_Calendary"
+		"Channel"		"3"
+	}
+
+	House_Comment_BatteryCharger
+	{
+		"positionx"		"-1"
+		"positiony"		"0.7"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Comment_BatteryCharger"
+		"Channel"		"3"
+	}
+
+	House_Comment_TruckKeys
+	{
+		"positionx"		"-1"
+		"positiony"		"0.7"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Comment_TruckKeys"
+		"Channel"		"3"
+	}
+
+	House_Comment_GrabGear
+	{
+		"positionx"		"-1"
+		"positiony"		"0.7"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Comment_GrabGear"
+		"Channel"		"3"
+	}
+
+	House_Comment_CarryGear
+	{
+		"positionx"		"-1"
+		"positiony"		"0.7"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Comment_CarryGear"
+		"Channel"		"3"
+	}
+
+	House_Comment_Allset
+	{
+		"positionx"		"-1"
+		"positiony"		"0.7"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Comment_Allset"
+		"Channel"		"3"
+	}
+
+	House_Comment_Dryer
+	{
+		"positionx"		"-1"
+		"positiony"		"0.7"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Comment_Dryer"
+		"Channel"		"3"
+	}
+
+	House_Comment_SecretRoom
+	{
+		"positionx"		"-1"
+		"positiony"		"0.7"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Comment_SecretRoom"
+		"Channel"		"3"
+	}
+
+	House_Comment_Slider
+	{
+		"positionx"		"-1"
+		"positiony"		"0.7"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Comment_Slider"
+		"Channel"		"3"
+	}
+
+	House_Comment_Burner
+	{
+		"positionx"		"-1"
+		"positiony"		"0.7"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Comment_Burner"
+		"Channel"		"3"
+	}
+
+	House_Comment_HerStuff
+	{
+		"positionx"		"-1"
+		"positiony"		"0.7"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Comment_HerStuff"
+		"Channel"		"3"
+	}
+
+	House_Comment_HerStuffBack
+	{
+		"positionx"		"-1"
+		"positiony"		"0.7"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Comment_HerStuffBack"
+		"Channel"		"3"
+	}
+
+	House_Comment_HerStuffGarbage
+	{
+		"positionx"		"-1"
+		"positiony"		"0.7"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Comment_HerStuffGarbage"
+		"Channel"		"3"
+	}
+
+	House_Comment_Musicbox
+	{
+		"positionx"		"-1"
+		"positiony"		"0.7"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Comment_Musicbox"
+		"Channel"		"3"
+	}
+
+	House_Comment_CopBottle
+	{
+		"positionx"		"-1"
+		"positiony"		"0.7"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Comment_CopBottle"
+		"Channel"		"3"
+	}
+
+	House_Comment_Sunrise
+	{
+		"positionx"		"-1"
+		"positiony"		"0.7"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Comment_Sunrise"
+		"Channel"		"3"
+	}
+
+	House_Comment_NightFall
+	{
+		"positionx"		"-1"
+		"positiony"		"0.7"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Comment_NightFall"
+		"Channel"		"3"
+	}
+
+	House_Comment_Garbage
+	{
+		"positionx"		"-1"
+		"positiony"		"0.7"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Comment_Garbage"
+		"Channel"		"3"
+	}
+
+	House_Comment_GardenHouseVent
+	{
+		"positionx"		"-1"
+		"positiony"		"0.7"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Comment_GardenHouseVent"
+		"Channel"		"3"
+	}
+
+	House_Comment_NotJunk
+	{
+		"positionx"		"-1"
+		"positiony"		"0.7"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Comment_NotJunk"
+		"Channel"		"3"
+	}
+
+	House_Comment_TreeLogs
+	{
+		"positionx"		"-1"
+		"positiony"		"0.7"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Comment_TreeLogs"
+		"Channel"		"3"
+	}
+
+// ==============================================
+// Special Comments Messages (Green)
+// ==============================================
+
+	House_Comment_Diary_PagesReturned
+	{
+		"positionx"		"-1"
+		"positiony"		"0.8"
+		"fadein"		"0.03"
+		"fadeout"		"0.05"
+		"effect"		"2"
+		"holdtime"		"2.6"
+		"fxtime"		"0.25"
+		"r1"			"30"
+		"g1"			"100"
+		"b1"			"30"
+		"a1"			"0"
+		"r2"			"30"
+		"g2"			"255"
+		"b2"			"70"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Comment_Diary_PagesReturned"
+		"Channel"		"5"
+	}
+
+	House_Comment_Diary_Pages_Complete
+	{
+		"positionx"		"-1"
+		"positiony"		"0.8"
+		"fadein"		"0.03"
+		"fadeout"		"0.05"
+		"effect"		"2"
+		"holdtime"		"2.6"
+		"fxtime"		"0.25"
+		"r1"			"30"
+		"g1"			"100"
+		"b1"			"30"
+		"a1"			"0"
+		"r2"			"30"
+		"g2"			"255"
+		"b2"			"70"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Comment_Diary_Pages_Complete"
+		"Channel"		"5"
+	}
+
+	House_Item_TinyPiece
+	{
+		"positionx"		"-1"
+		"positiony"		"0.8"
+		"fadein"		"0.03"
+		"fadeout"		"0.05"
+		"effect"		"2"
+		"holdtime"		"2.6"
+		"fxtime"		"0.25"
+		"r1"			"30"
+		"g1"			"100"
+		"b1"			"30"
+		"a1"			"0"
+		"r2"			"30"
+		"g2"			"255"
+		"b2"			"70"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Item_TinyPiece"
+		"Channel"		"5"
+	}
+
+	House_Item_GardenRemote
+	{
+		"positionx"		"-1"
+		"positiony"		"0.8"
+		"fadein"		"0.03"
+		"fadeout"		"0.05"
+		"effect"		"2"
+		"holdtime"		"2.6"
+		"fxtime"		"0.25"
+		"r1"			"30"
+		"g1"			"100"
+		"b1"			"30"
+		"a1"			"0"
+		"r2"			"30"
+		"g2"			"255"
+		"b2"			"70"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Item_GardenRemote"
+		"Channel"		"5"
+	}
+
+	House_Item_Shovel
+	{
+		"positionx"		"-1"
+		"positiony"		"0.8"
+		"fadein"		"0.03"
+		"fadeout"		"0.05"
+		"effect"		"2"
+		"holdtime"		"2.6"
+		"fxtime"		"0.25"
+		"r1"			"30"
+		"g1"			"100"
+		"b1"			"30"
+		"a1"			"0"
+		"r2"			"30"
+		"g2"			"255"
+		"b2"			"70"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Item_Shovel"
+		"Channel"		"5"
+	}
+
+	House_Item_Crowbar
+	{
+		"positionx"		"-1"
+		"positiony"		"0.8"
+		"fadein"		"0.03"
+		"fadeout"		"0.05"
+		"effect"		"2"
+		"holdtime"		"2.6"
+		"fxtime"		"0.25"
+		"r1"			"30"
+		"g1"			"100"
+		"b1"			"30"
+		"a1"			"0"
+		"r2"			"30"
+		"g2"			"255"
+		"b2"			"70"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Item_Crowbar"
+		"Channel"		"5"
+	}
+
+	House_Item_Axe
+	{
+		"positionx"		"-1"
+		"positiony"		"0.8"
+		"fadein"		"0.03"
+		"fadeout"		"0.05"
+		"effect"		"2"
+		"holdtime"		"2.6"
+		"fxtime"		"0.25"
+		"r1"			"30"
+		"g1"			"100"
+		"b1"			"30"
+		"a1"			"0"
+		"r2"			"30"
+		"g2"			"255"
+		"b2"			"70"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Item_Axe"
+		"Channel"		"5"
+	}
+
+	House_Item_FlareBox
+	{
+		"positionx"		"-1"
+		"positiony"		"0.8"
+		"fadein"		"0.03"
+		"fadeout"		"0.05"
+		"effect"		"2"
+		"holdtime"		"2.6"
+		"fxtime"		"0.25"
+		"r1"			"30"
+		"g1"			"100"
+		"b1"			"30"
+		"a1"			"0"
+		"r2"			"30"
+		"g2"			"255"
+		"b2"			"70"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Item_FlareBox"
+		"Channel"		"5"
+	}
+
+	House_Item_Pliers
+	{
+		"positionx"		"-1"
+		"positiony"		"0.8"
+		"fadein"		"0.03"
+		"fadeout"		"0.05"
+		"effect"		"2"
+		"holdtime"		"2.6"
+		"fxtime"		"0.25"
+		"r1"			"30"
+		"g1"			"100"
+		"b1"			"30"
+		"a1"			"0"
+		"r2"			"30"
+		"g2"			"255"
+		"b2"			"70"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Item_Pliers"
+		"Channel"		"5"
+	}
+
+	House_Well_FoundTape2
+	{
+		"positionx"		"-1"
+		"positiony"		"0.8"
+		"fadein"		"0.03"
+		"fadeout"		"0.05"
+		"effect"		"2"
+		"holdtime"		"2.6"
+		"fxtime"		"0.25"
+		"r1"			"30"
+		"g1"			"100"
+		"b1"			"30"
+		"a1"			"0"
+		"r2"			"30"
+		"g2"			"255"
+		"b2"			"70"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Well_FoundTape2"
+		"Channel"		"5"
+	}
+
+	House_Well_FoundTape3
+	{
+		"positionx"		"-1"
+		"positiony"		"0.8"
+		"fadein"		"0.03"
+		"fadeout"		"0.05"
+		"effect"		"2"
+		"holdtime"		"2.6"
+		"fxtime"		"0.25"
+		"r1"			"30"
+		"g1"			"100"
+		"b1"			"30"
+		"a1"			"0"
+		"r2"			"30"
+		"g2"			"255"
+		"b2"			"70"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Well_FoundTape3"
+		"Channel"		"5"
+	}
+
+	House_Well_FoundTape4
+	{
+		"positionx"		"-1"
+		"positiony"		"0.8"
+		"fadein"		"0.03"
+		"fadeout"		"0.05"
+		"effect"		"2"
+		"holdtime"		"2.6"
+		"fxtime"		"0.25"
+		"r1"			"30"
+		"g1"			"100"
+		"b1"			"30"
+		"a1"			"0"
+		"r2"			"30"
+		"g2"			"255"
+		"b2"			"70"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Well_FoundTape4"
+		"Channel"		"5"
+	}
+
+	House_Well_FoundTape5
+	{
+		"positionx"		"-1"
+		"positiony"		"0.8"
+		"fadein"		"0.03"
+		"fadeout"		"0.05"
+		"effect"		"2"
+		"holdtime"		"2.6"
+		"fxtime"		"0.25"
+		"r1"			"30"
+		"g1"			"100"
+		"b1"			"30"
+		"a1"			"0"
+		"r2"			"30"
+		"g2"			"255"
+		"b2"			"70"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Well_FoundTape5"
+		"Channel"		"5"
+	}
+
+	House_Well_FoundTape6
+	{
+		"positionx"		"-1"
+		"positiony"		"0.8"
+		"fadein"		"0.03"
+		"fadeout"		"0.05"
+		"effect"		"2"
+		"holdtime"		"2.6"
+		"fxtime"		"0.25"
+		"r1"			"30"
+		"g1"			"100"
+		"b1"			"30"
+		"a1"			"0"
+		"r2"			"30"
+		"g2"			"255"
+		"b2"			"70"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Well_FoundTape6"
+		"Channel"		"5"
+	}
+
+// ==============================================
+// Item Names
+// ==============================================
+
+	House_Item_AtticKey
+	{
+		"positionx"		"0.5"
+		"positiony"		"0.9"
+		"fadein"		"0.03"
+		"fadeout"		"0.05"
+		"effect"		"2"
+		"holdtime"		"2.5"
+		"fxtime"		"0.25"
+		"r1"			"30"
+		"g1"			"100"
+		"b1"			"30"
+		"a1"			"0"
+		"r2"			"30"
+		"g2"			"255"
+		"b2"			"70"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Item_AtticKey"
+		"Channel"		"6"
+	}
+
+	House_Item_BackYardKey
+	{
+		"positionx"		"0.5"
+		"positiony"		"0.9"
+		"fadein"		"0.03"
+		"fadeout"		"0.05"
+		"effect"		"2"
+		"holdtime"		"2.5"
+		"fxtime"		"0.25"
+		"r1"			"30"
+		"g1"			"100"
+		"b1"			"30"
+		"a1"			"0"
+		"r2"			"30"
+		"g2"			"255"
+		"b2"			"70"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Item_BackYardKey"
+		"Channel"		"6"
+	}
+
+	House_Item_MasterKey
+	{
+		"positionx"		"0.5"
+		"positiony"		"0.9"
+		"fadein"		"0.03"
+		"fadeout"		"0.05"
+		"effect"		"2"
+		"holdtime"		"2.5"
+		"fxtime"		"0.25"
+		"r1"			"30"
+		"g1"			"100"
+		"b1"			"30"
+		"a1"			"0"
+		"r2"			"30"
+		"g2"			"255"
+		"b2"			"70"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Item_MasterKey"
+		"Channel"		"6"
+	}
+
+	House_Item_GunCabinetKey
+	{
+		"positionx"		"0.5"
+		"positiony"		"0.9"
+		"fadein"		"0.03"
+		"fadeout"		"0.05"
+		"effect"		"2"
+		"holdtime"		"2.5"
+		"fxtime"		"0.25"
+		"r1"			"30"
+		"g1"			"100"
+		"b1"			"30"
+		"a1"			"0"
+		"r2"			"30"
+		"g2"			"255"
+		"b2"			"70"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Item_GunCabinetKey"
+		"Channel"		"6"
+	}
+
+	House_Item_StorageKey
+	{
+		"positionx"		"0.5"
+		"positiony"		"0.9"
+		"fadein"		"0.03"
+		"fadeout"		"0.05"
+		"effect"		"2"
+		"holdtime"		"2.5"
+		"fxtime"		"0.25"
+		"r1"			"30"
+		"g1"			"100"
+		"b1"			"30"
+		"a1"			"0"
+		"r2"			"30"
+		"g2"			"255"
+		"b2"			"70"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Item_StorageKey"
+		"Channel"		"6"
+	}
+
+
+	House_Item_TruckKey
+	{
+		"positionx"		"0.5"
+		"positiony"		"0.9"
+		"fadein"		"0.03"
+		"fadeout"		"0.05"
+		"effect"		"2"
+		"holdtime"		"2.5"
+		"fxtime"		"0.25"
+		"r1"			"30"
+		"g1"			"100"
+		"b1"			"30"
+		"a1"			"0"
+		"r2"			"30"
+		"g2"			"255"
+		"b2"			"70"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Item_TruckKey"
+		"Channel"		"6"
+	}
+
+	House_Item_BasementKey
+	{
+		"positionx"		"0.5"
+		"positiony"		"0.9"
+		"fadein"		"0.03"
+		"fadeout"		"0.05"
+		"effect"		"2"
+		"holdtime"		"2.5"
+		"fxtime"		"0.25"
+		"r1"			"30"
+		"g1"			"100"
+		"b1"			"30"
+		"a1"			"0"
+		"r2"			"30"
+		"g2"			"255"
+		"b2"			"70"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Item_BasementKey"
+		"Channel"		"6"
+	}
+
+	House_Item_AtticBoxKey
+	{
+		"positionx"		"0.5"
+		"positiony"		"0.9"
+		"fadein"		"0.03"
+		"fadeout"		"0.05"
+		"effect"		"2"
+		"holdtime"		"2.5"
+		"fxtime"		"0.25"
+		"r1"			"30"
+		"g1"			"100"
+		"b1"			"30"
+		"a1"			"0"
+		"r2"			"30"
+		"g2"			"255"
+		"b2"			"70"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Item_AtticBoxKey"
+		"Channel"		"6"
+	}
+
+// ==============================================
+// House Hints
+// ==============================================
+
+	House_Hint_Crawlscene
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.16"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"30"
+		"g1"			"160"
+		"b1"			"170"
+		"a1"			"0"
+		"r2"			"110"
+		"g2"			"200"
+		"b2"			"255"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Hint_Crawlscene"
+		"Channel"		"2"
+	}
+
+	House_Hint_Bed
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.16"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"30"
+		"g1"			"160"
+		"b1"			"170"
+		"a1"			"0"
+		"r2"			"110"
+		"g2"			"200"
+		"b2"			"255"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Hint_Bed"
+		"Channel"		"2"
+	}
+
+	House_Hint_Fuse
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.16"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"30"
+		"g1"			"160"
+		"b1"			"170"
+		"a1"			"0"
+		"r2"			"110"
+		"g2"			"200"
+		"b2"			"255"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Hint_Fuse"
+		"Channel"		"2"
+	}
+
+	House_Hint_FusePlace
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.16"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"30"
+		"g1"			"160"
+		"b1"			"170"
+		"a1"			"0"
+		"r2"			"110"
+		"g2"			"200"
+		"b2"			"255"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Hint_FusePlace"
+		"Channel"		"2"
+	}
+
+	House0_Hint_Gear
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.16"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"30"
+		"g1"			"160"
+		"b1"			"170"
+		"a1"			"0"
+		"r2"			"110"
+		"g2"			"200"
+		"b2"			"255"
+		"a2"			"0"
+		"Message"		"#Underhell_House0_Hint_Gear"
+		"Channel"		"2"
+	}
+
+	House0_Hint_TruckKeys
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.16"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"30"
+		"g1"			"160"
+		"b1"			"170"
+		"a1"			"0"
+		"r2"			"110"
+		"g2"			"200"
+		"b2"			"255"
+		"a2"			"0"
+		"Message"		"#Underhell_House0_Hint_TruckKeys"
+		"Channel"		"2"
+	}
+
+	House0_Hint0
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.16"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"30"
+		"g1"			"160"
+		"b1"			"170"
+		"a1"			"0"
+		"r2"			"110"
+		"g2"			"200"
+		"b2"			"255"
+		"a2"			"0"
+		"Message"		"#Underhell_House0_Hint0"
+		"Channel"		"2"
+	}
+
+	House0_Hint1
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.16"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"30"
+		"g1"			"160"
+		"b1"			"170"
+		"a1"			"0"
+		"r2"			"110"
+		"g2"			"200"
+		"b2"			"255"
+		"a2"			"0"
+		"Message"		"#Underhell_House0_Hint1"
+		"Channel"		"2"
+	}
+
+	House0_Hint2
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.16"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"30"
+		"g1"			"160"
+		"b1"			"170"
+		"a1"			"0"
+		"r2"			"110"
+		"g2"			"200"
+		"b2"			"255"
+		"a2"			"0"
+		"Message"		"#Underhell_House0_Hint2"
+		"Channel"		"2"
+	}
+
+	House0_Hint3
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.16"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"30"
+		"g1"			"160"
+		"b1"			"170"
+		"a1"			"0"
+		"r2"			"110"
+		"g2"			"200"
+		"b2"			"255"
+		"a2"			"0"
+		"Message"		"#Underhell_House0_Hint3"
+		"Channel"		"2"
+	}
+
+	House0_Hint4
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.16"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"30"
+		"g1"			"160"
+		"b1"			"170"
+		"a1"			"0"
+		"r2"			"110"
+		"g2"			"200"
+		"b2"			"255"
+		"a2"			"0"
+		"Message"		"#Underhell_House0_Hint4"
+		"Channel"		"2"
+	}
+
+	House0_Hint5
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.16"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"30"
+		"g1"			"160"
+		"b1"			"170"
+		"a1"			"0"
+		"r2"			"110"
+		"g2"			"200"
+		"b2"			"255"
+		"a2"			"0"
+		"Message"		"#Underhell_House0_Hint5"
+		"Channel"		"2"
+	}
+
+	House0_Hint6
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.16"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"30"
+		"g1"			"160"
+		"b1"			"170"
+		"a1"			"0"
+		"r2"			"110"
+		"g2"			"200"
+		"b2"			"255"
+		"a2"			"0"
+		"Message"		"#Underhell_House0_Hint6"
+		"Channel"		"2"
+	}
+
+
+// Chapter 1 House
+
+	House1_Hint0
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.16"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"30"
+		"g1"			"160"
+		"b1"			"170"
+		"a1"			"0"
+		"r2"			"110"
+		"g2"			"200"
+		"b2"			"255"
+		"a2"			"0"
+		"Message"		"#Underhell_House1_Hint0"
+		"Channel"		"2"
+	}
+
+	House1_Hint1
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.16"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"30"
+		"g1"			"160"
+		"b1"			"170"
+		"a1"			"0"
+		"r2"			"110"
+		"g2"			"200"
+		"b2"			"255"
+		"a2"			"0"
+		"Message"		"#Underhell_House1_Hint1"
+		"Channel"		"2"
+	}
+
+	House1_Hint2
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.16"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"30"
+		"g1"			"160"
+		"b1"			"170"
+		"a1"			"0"
+		"r2"			"110"
+		"g2"			"200"
+		"b2"			"255"
+		"a2"			"0"
+		"Message"		"#Underhell_House1_Hint2"
+		"Channel"		"2"
+	}
+
+	House1_Hint3
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.16"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"30"
+		"g1"			"160"
+		"b1"			"170"
+		"a1"			"0"
+		"r2"			"110"
+		"g2"			"200"
+		"b2"			"255"
+		"a2"			"0"
+		"Message"		"#Underhell_House1_Hint3"
+		"Channel"		"2"
+	}
+
+	House1_Hint4
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.16"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"30"
+		"g1"			"160"
+		"b1"			"170"
+		"a1"			"0"
+		"r2"			"110"
+		"g2"			"200"
+		"b2"			"255"
+		"a2"			"0"
+		"Message"		"#Underhell_House1_Hint4"
+		"Channel"		"2"
+	}
+
+	House1_Hint5
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.16"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"30"
+		"g1"			"160"
+		"b1"			"170"
+		"a1"			"0"
+		"r2"			"110"
+		"g2"			"200"
+		"b2"			"255"
+		"a2"			"0"
+		"Message"		"#Underhell_House1_Hint5"
+		"Channel"		"2"
+	}
+
+	House1_Hint6
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.16"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"30"
+		"g1"			"160"
+		"b1"			"170"
+		"a1"			"0"
+		"r2"			"110"
+		"g2"			"200"
+		"b2"			"255"
+		"a2"			"0"
+		"Message"		"#Underhell_House1_Hint6"
+		"Channel"		"2"
+	}
+
+	House1_Hint7
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.16"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"30"
+		"g1"			"160"
+		"b1"			"170"
+		"a1"			"0"
+		"r2"			"110"
+		"g2"			"200"
+		"b2"			"255"
+		"a2"			"0"
+		"Message"		"#Underhell_House1_Hint7"
+		"Channel"		"2"
+	}
+
+	House1_Hint8
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.16"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"30"
+		"g1"			"160"
+		"b1"			"170"
+		"a1"			"0"
+		"r2"			"110"
+		"g2"			"200"
+		"b2"			"255"
+		"a2"			"0"
+		"Message"		"#Underhell_House1_Hint8"
+		"Channel"		"2"
+	}
+
+	House1_Hint9
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.16"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"30"
+		"g1"			"160"
+		"b1"			"170"
+		"a1"			"0"
+		"r2"			"110"
+		"g2"			"200"
+		"b2"			"255"
+		"a2"			"0"
+		"Message"		"#Underhell_House1_Hint9"
+		"Channel"		"2"
+	}
+
+	House1_Hint9-1
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.16"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"30"
+		"g1"			"160"
+		"b1"			"170"
+		"a1"			"0"
+		"r2"			"110"
+		"g2"			"200"
+		"b2"			"255"
+		"a2"			"0"
+		"Message"		"#Underhell_House1_Hint9-1"
+		"Channel"		"2"
+	}
+
+	House1_Hint10
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.16"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"30"
+		"g1"			"160"
+		"b1"			"170"
+		"a1"			"0"
+		"r2"			"110"
+		"g2"			"200"
+		"b2"			"255"
+		"a2"			"0"
+		"Message"		"#Underhell_House1_Hint10"
+		"Channel"		"2"
+	}
+
+	House1_Hint11
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.16"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"30"
+		"g1"			"160"
+		"b1"			"170"
+		"a1"			"0"
+		"r2"			"110"
+		"g2"			"200"
+		"b2"			"255"
+		"a2"			"0"
+		"Message"		"#Underhell_House1_Hint11"
+		"Channel"		"2"
+	}
+
+	House1_Hint12
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.16"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"30"
+		"g1"			"160"
+		"b1"			"170"
+		"a1"			"0"
+		"r2"			"110"
+		"g2"			"200"
+		"b2"			"255"
+		"a2"			"0"
+		"Message"		"#Underhell_House1_Hint12"
+		"Channel"		"2"
+	}
+
+	House1_Hint13
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.16"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"30"
+		"g1"			"160"
+		"b1"			"170"
+		"a1"			"0"
+		"r2"			"110"
+		"g2"			"200"
+		"b2"			"255"
+		"a2"			"0"
+		"Message"		"#Underhell_House1_Hint13"
+		"Channel"		"2"
+	}
+
+	House1_Hint14
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.16"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"30"
+		"g1"			"160"
+		"b1"			"170"
+		"a1"			"0"
+		"r2"			"110"
+		"g2"			"200"
+		"b2"			"255"
+		"a2"			"0"
+		"Message"		"#Underhell_House1_Hint14"
+		"Channel"		"2"
+	}
+
+	House1_Hint15
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.16"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"30"
+		"g1"			"160"
+		"b1"			"170"
+		"a1"			"0"
+		"r2"			"110"
+		"g2"			"200"
+		"b2"			"255"
+		"a2"			"0"
+		"Message"		"#Underhell_House1_Hint15"
+		"Channel"		"2"
+	}
+
+	House1_Hint16
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.16"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"30"
+		"g1"			"160"
+		"b1"			"170"
+		"a1"			"0"
+		"r2"			"110"
+		"g2"			"200"
+		"b2"			"255"
+		"a2"			"0"
+		"Message"		"#Underhell_House1_Hint16"
+		"Channel"		"2"
+	}
+
+	House1_Hint17
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.16"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"30"
+		"g1"			"160"
+		"b1"			"170"
+		"a1"			"0"
+		"r2"			"110"
+		"g2"			"200"
+		"b2"			"255"
+		"a2"			"0"
+		"Message"		"#Underhell_House1_Hint17"
+		"Channel"		"2"
+	}
+
+	House1_Hint18
+	{
+		"positionx"		"0.1"
+		"positiony"		"0.16"
+		"fadein"		"0.007"
+		"fadeout"		"0.5"
+		"effect"		"2"
+		"holdtime"		"3.5"
+		"fxtime"		"0.25"
+		"r1"			"30"
+		"g1"			"160"
+		"b1"			"170"
+		"a1"			"0"
+		"r2"			"110"
+		"g2"			"200"
+		"b2"			"255"
+		"a2"			"0"
+		"Message"		"#Underhell_House1_Hint18"
+		"Channel"		"2"
+	}
+
+// ==============================================
+// Comments
+// ==============================================
+
+	House_Comment_ThunderTreeNoise
+	{
+		"positionx"		"-1"
+		"positiony"		"0.7"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Comment_ThunderTreeNoise"
+		"Channel"		"3"
+	}
+
+	House_Comment_ThunderTreeFound
+	{
+		"positionx"		"-1"
+		"positiony"		"0.7"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Comment_ThunderTreeFound"
+		"Channel"		"3"
+	}
+
+	House_Comment_WellSoil
+	{
+		"positionx"		"-1"
+		"positiony"		"0.7"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Comment_WellSoil"
+		"Channel"		"3"
+	}
+
+	House_Comment_WellExit
+	{
+		"positionx"		"-1"
+		"positiony"		"0.7"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Comment_WellExit"
+		"Channel"		"3"
+	}
+
+	House_Comment_WellSealed
+	{
+		"positionx"		"-1"
+		"positiony"		"0.7"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Comment_WellSealed"
+		"Channel"		"3"
+	}
+
+	House_Comment_WoodsFire
+	{
+		"positionx"		"-1"
+		"positiony"		"0.7"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Comment_WoodsFire"
+		"Channel"		"3"
+	}
+
+	House_Comment_WellTop_Crowbar
+	{
+		"positionx"		"-1"
+		"positiony"		"0.7"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Comment_WellTop_Crowbar"
+		"Channel"		"3"
+	}
+
+	House_Comment_FlareBox_Keep
+	{
+		"positionx"		"-1"
+		"positiony"		"0.7"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Comment_FlareBox_Keep"
+		"Channel"		"3"
+	}
+
+	House_Comment_FlareBox_Need
+	{
+		"positionx"		"-1"
+		"positiony"		"0.7"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Comment_FlareBox_Need"
+		"Channel"		"3"
+	}
+
+	House_Comment_FlareBox_Drop
+	{
+		"positionx"		"-1"
+		"positiony"		"0.7"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Comment_FlareBox_Drop"
+		"Channel"		"3"
+	}
+
+	House_Comment_WellFires
+	{
+		"positionx"		"-1"
+		"positiony"		"0.7"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Comment_WellFires"
+		"Channel"		"3"
+	}
+
+	House_Comment_DeadBodies
+	{
+		"positionx"		"-1"
+		"positiony"		"0.7"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Comment_DeadBodies"
+		"Channel"		"3"
+	}
+
+	House_Comment_WellDream
+	{
+		"positionx"		"-1"
+		"positiony"		"0.7"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Comment_WellDream"
+		"Channel"		"3"
+	}
+
+	House_Comment_WellTop_CantMove
+	{
+		"positionx"		"-1"
+		"positiony"		"0.7"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Comment_WellTop_CantMove"
+		"Channel"		"3"
+	}
+
+	House_Comment_Fence_Pliers
+	{
+		"positionx"		"-1"
+		"positiony"		"0.7"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Comment_Fence_Pliers"
+		"Channel"		"3"
+	}
+
+	House_Comment_Fence_PP
+	{
+		"positionx"		"-1"
+		"positiony"		"0.7"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Comment_Fence_PP"
+		"Channel"		"3"
+	}
+
+	House_Comment_DeadCrow
+	{
+		"positionx"		"-1"
+		"positiony"		"0.7"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Comment_DeadCrow"
+		"Channel"		"3"
+	}
+
+	House_Comment_WellTapePrevious
+	{
+		"positionx"		"-1"
+		"positiony"		"0.7"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Comment_WellTapePrevious"
+		"Channel"		"3"
+	}
+
+	House_Comment_WellTapesFound
+	{
+		"positionx"		"-1"
+		"positiony"		"0.7"
+		"fadein"		"0.5"
+		"fadeout"		"0.5"
+		"effect"		"0"
+		"holdtime"		"3.0"
+		"fxtime"		"0.25"
+		"r1"			"230"
+		"g1"			"230"
+		"b1"			"125"
+		"a1"			"0"
+		"r2"			"255"
+		"g2"			"255"
+		"b2"			"180"
+		"a2"			"0"
+		"Message"		"#Underhell_House_Comment_WellTapesFound"
+		"Channel"		"3"
+	}
+	
+}

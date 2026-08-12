@@ -1,0 +1,78 @@
+char **sub_10207A70()
+{
+  if ( (dword_10465980 & 1) == 0 )
+  {
+    dword_10465980 |= 1u;
+    dword_103F51C0 = 3;
+    dword_103F51D8 = 3;
+    dword_103F51F0 = 3;
+    dword_103F5208 = 3;
+    dword_103F5220 = 3;
+    dword_103F5280 = 3;
+    dword_103F5298 = 3;
+    dword_103F51C4 = 4;
+    dword_103F51C8 = 4;
+    dword_103F51CC = 0;
+    dword_103F51D0 = (int)"operator end fadein";
+    dword_103F51D4 = (int)"0";
+    dword_103F51DC = 8;
+    dword_103F51E0 = 4;
+    dword_103F51E4 = 0;
+    dword_103F51E8 = (int)"operator start fadeout";
+    dword_103F51EC = (int)"0";
+    dword_103F51F4 = 12;
+    dword_103F51F8 = 4;
+    dword_103F51FC = 0;
+    dword_103F5200 = (int)"operator end fadeout";
+    dword_103F5204 = (int)"0";
+    dword_103F520C = 16;
+    dword_103F5210 = 4;
+    dword_103F5214 = 0;
+    dword_103F5218 = (int)"operator fade oscillate";
+    dword_103F521C = (int)"0";
+    dword_103F5224 = 20;
+    dword_103F5228 = 4;
+    dword_103F522C = 0;
+    dword_103F5230 = (int)"control point number";
+    dword_103F5234 = (int)"0";
+    dword_103F5238 = 2;
+    dword_103F523C = 68;
+    dword_103F5240 = 4;
+    dword_103F5244 = 0;
+    dword_103F5248 = (int)"warp min";
+    dword_103F524C = (int)"1 1 1";
+    dword_103F5250 = 10;
+    dword_103F5254 = 44;
+    dword_103F5258 = 12;
+    dword_103F525C = 0;
+    dword_103F5260 = (int)"warp max";
+    dword_103F5264 = (int)"1 1 1";
+    dword_103F5268 = 10;
+    dword_103F526C = 56;
+    dword_103F5270 = 12;
+    dword_103F5274 = 0;
+    dword_103F5278 = (int)"warp transition time (treats min/max as start/end sizes)";
+    dword_103F527C = (int)"0";
+    dword_103F5284 = 72;
+    dword_103F5288 = 4;
+    dword_103F528C = 0;
+    dword_103F5290 = (int)"warp transition start time";
+    dword_103F5294 = (int)"0";
+    dword_103F529C = 76;
+    dword_103F52A0 = 4;
+    dword_103F52A4 = 0;
+    dword_103F52A8 = (int)"reverse warp (0/1)";
+    dword_103F52AC = (int)"0";
+    dword_103F52B0 = 4;
+    dword_103F52B4 = 80;
+    dword_103F52B8 = 1;
+    dword_103F52BC = 0;
+    dword_103F52C0 = 0;
+    dword_103F52C4 = 0;
+    dword_103F52C8 = 0;
+    dword_103F52CC = 0;
+    dword_103F52D0 = 0;
+    dword_103F52D4 = 0;
+  }
+  return off_103F51B8;
+}

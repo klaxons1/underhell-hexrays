@@ -1,0 +1,4 @@
+void *sub_10276130()
+{
+  return &unk_106CFF70;
+}

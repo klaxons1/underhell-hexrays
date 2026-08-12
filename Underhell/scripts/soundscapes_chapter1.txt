@@ -1,0 +1,4503 @@
+"Uh.Chapter1.Flashback"
+{
+	"dsp"	"0"
+
+	"playrandom"
+	{
+		"volume"	"0.2,0.5"
+		"pitch"		"85,95"
+		"time"		"10.0, 25.0"
+		"soundlevel"	"SNDLVL_110dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient\atmosphere\hole_hit1.wav"
+			"wave" "ambient\atmosphere\hole_hit2.wav"
+			"wave" "ambient\atmosphere\hole_hit3.wav"
+			"wave" "ambient\atmosphere\hole_hit4.wav"
+			"wave" "ambient\atmosphere\hole_hit5.wav"
+			"wave" "ambient\atmosphere\hole_hit6.wav"
+		}
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.2"
+		"wave"		"ambient\atmosphere\cave_outdoor1.wav"
+		"pitch"		"100"
+	}
+
+}
+
+"Uh.Chapter1.Dream.Memory"
+{
+	"dsp"	"22"
+
+	"playrandom"
+	{
+		"volume"	"0.3,0.5"
+		"pitch"		"90,110"
+		"time"		"5.0, 12.0"
+		"soundlevel"	"SNDLVL_130dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient\wind\smallgust2.wav"
+			"wave" "ambient\wind\wind_gust_10.wav"
+			"wave" "ambient\wind\wind_gust_2.wav"
+			"wave" "ambient\wind\wind_gust_8.wav"
+			"wave" "ambient\wind\wind_med1.wav"
+			"wave" "ambient\wind\wind_med2.wav"
+			"wave" "ambient\wind\wind_snippet3.wav"
+			"wave" "ambient\wind\wind_snippet4.wav"
+			"wave" "ambient\wind\wind_snippet5.wav"
+
+		}
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.7"
+		"wave"		"ambient\atmosphere\deadtown_ambience.wav"
+		"pitch"		"95"
+	}
+
+}
+
+"Uh.Chapter1.House.Out"
+{
+	"dsp"	"1"
+
+	"playrandom"
+	{
+		"volume"	"0.3,0.6"
+		"pitch"		"90,110"
+		"time"		"12.0, 20.0"
+		"soundlevel"	"SNDLVL_150dB"
+		"position"	"random"
+		"rndwave"
+		{
+
+			"wave" "ambient\nature\wind_leaves_mild_gust_1.wav"
+			"wave" "ambient\wind\wind_gust_8.wav"
+			"wave" "ambient\wind\wind_med1.wav"
+			"wave" "ambient\wind\wind_med2.wav"
+			"wave" "ambient\wind\wind_snippet3.wav"
+			"wave" "ambient\wind\wind_snippet4.wav"
+			"wave" "ambient\wind\wind_snippet5.wav"
+
+		}
+	}
+	"playrandom"
+	{
+		"volume"	"0.2,0.5"
+		"pitch"		"90,110"
+		"time"		"25.0, 30.0"
+		"soundlevel"	"SNDLVL_150dB"
+		"position"	"random"
+		"rndwave"
+		{
+
+			"wave" "ambient\nature\wind_leaves_mild_gust_1.wav"
+			"wave" "ambient\wind\wind_gust_8.wav"
+			"wave" "ambient\wind\wind_med1.wav"
+			"wave" "ambient\wind\wind_med2.wav"
+			"wave" "ambient\wind\wind_snippet3.wav"
+			"wave" "ambient\wind\wind_snippet4.wav"
+			"wave" "ambient\levels\streetwar\city_scream3.wav"
+			"wave" "npc/crow/idle1.wav"
+			"wave" "npc/crow/idle2.wav"
+			"wave" "npc/crow/idle3.wav"
+			"wave" "npc/crow/idle4.wav"
+			"wave" "npc/crow/alert1.wav"
+			"wave" "npc/crow/alert2.wav"
+			"wave" "npc/crow/alert3.wav"
+
+		}
+	}
+	"playrandom"
+	{
+		"volume"	"0.1,0.2"
+		"pitch"		"90,110"
+		"time"		"60.0, 120.0"
+		"soundlevel"	"SNDLVL_150dB"
+		"position"	"random"
+		"rndwave"
+		{
+
+			"wave" "ambient\levels\citadel\strange_talk1.wav"
+			"wave" "ambient\levels\citadel\strange_talk3.wav"
+			"wave" "ambient\levels\citadel\strange_talk5.wav"
+			"wave" "ambient\misc\equipment_stress1.wav"
+			"wave" "ambient\misc\equipment_stress2.wav"
+			"wave" "ambient\misc\equipment_stress3.wav"
+			"wave" "ambient\misc\metal2.wav"
+			"wave" "npc/crow/idle1.wav"
+			"wave" "npc/crow/idle2.wav"
+			"wave" "npc/crow/idle3.wav"
+			"wave" "npc/crow/idle4.wav"
+			"wave" "npc/crow/alert1.wav"
+			"wave" "npc/crow/alert2.wav"
+			"wave" "npc/crow/alert3.wav"
+
+		}
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.4"
+		"wave"		"weather\windlowandrustle.wav"
+		"pitch"		"100"
+	}
+
+}
+"Uh.Chapter1.House.Out.Night"
+{
+	"dsp"	"1"
+
+	"playrandom"
+	{
+		"volume"	"0.1,0.2"
+		"pitch"		"90,110"
+		"time"		"12.0, 24.0"
+		"soundlevel"	"SNDLVL_130dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient\wind\wind_med1.wav"
+			"wave" "ambient\wind\wind_snippet3.wav"
+			"wave" "ambient\wind\wind_snippet4.wav"
+			"wave" "ambient\wind\wind_snippet5.wav"
+
+		}
+	}
+
+
+	"playlooping"
+	{
+		"volume"	"0.8"
+		"wave"		"weather\WindTrees.wav"
+		"pitch"		"100"
+	}
+
+}
+
+"Uh.Chapter1.House.Out.Night.Woods"
+{
+	"dsp"	"1"
+
+	"playrandom"
+	{
+		"volume"	"0.1,0.2"
+		"pitch"		"90,110"
+		"time"		"12.0, 24.0"
+		"soundlevel"	"SNDLVL_130dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient\nature\wind_leaves_mild_gust_1.wav"
+			"wave" "ambient\wind\wind_med1.wav"
+			"wave" "ambient\wind\wind_snippet3.wav"
+			"wave" "ambient\wind\wind_snippet4.wav"
+			"wave" "ambient\wind\wind_snippet5.wav"
+
+		}
+	}
+
+	"playrandom"
+	{
+		"volume"	"0.1,0.2"
+		"pitch"		"90,110"
+		"time"		"8.0, 24.0"
+		"soundlevel"	"SNDLVL_100dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient\misc\metal2.wav"
+			"wave" "ambient\materials\metal4.wav"
+			"wave" "ambient\misc\equipment_stress1.wav"
+			"wave" "ambient\misc\equipment_stress2.wav"
+			"wave" "ambient\misc\equipment_stress3.wav"
+			"wave" "ambient\levels\streetwar\city_scream3.wav"
+			"wave" "npc/crow/idle1.wav"
+			"wave" "npc/crow/idle2.wav"
+			"wave" "npc/crow/idle3.wav"
+			"wave" "npc/crow/idle4.wav"
+			"wave" "npc/crow/alert1.wav"
+			"wave" "npc/crow/alert2.wav"
+			"wave" "npc/crow/alert3.wav"
+
+		}
+	}
+
+
+	"playlooping"
+	{
+		"volume"	"0.8"
+		"wave"		"weather\WindTrees.wav"
+		"pitch"		"100"
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.8"
+		"wave"		"Music\Horror\House\TheWoods.wav"
+		"pitch"		"100"
+	}
+
+}
+
+"Uh.Chapter1.House.In"
+{
+	"dsp"	"1"
+
+	"playrandom"
+	{
+		"volume"	"0.3,0.3"
+		"pitch"		"85,95"
+		"time"		"10.0, 35.0"
+		"soundlevel"	"SNDLVL_110dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient\materials\wood_creak1.wav"
+			"wave" "ambient\materials\wood_creak2.wav"
+			"wave" "ambient\materials\wood_creak3.wav"
+			"wave" "ambient\materials\wood_creak4.wav"
+			"wave" "ambient\materials\wood_creak5.wav"
+			"wave" "ambient\materials\wood_creak6.wav"
+			"wave" "ambient\materials\wood_creak1.wav"
+		}
+	}
+
+
+	"playlooping"
+	{
+		"volume"	"0.8"
+		"wave"		"weather\windthroughwindow.wav"
+		"pitch"		"90"
+	}
+
+}
+
+
+"Uh.Chapter1.House.Basement"
+{
+	"dsp"	"1"
+
+	"playrandom"
+	{
+		"volume"	"0.2,0.5"
+		"pitch"		"85,95"
+		"time"		"10.0, 25.0"
+		"soundlevel"	"SNDLVL_110dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient\atmosphere\hole_hit1.wav"
+			"wave" "ambient\atmosphere\hole_hit2.wav"
+			"wave" "ambient\atmosphere\hole_hit3.wav"
+			"wave" "ambient\atmosphere\hole_hit4.wav"
+			"wave" "ambient\atmosphere\hole_hit5.wav"
+			"wave" "ambient\atmosphere\hole_hit6.wav"
+		}
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.4"
+		"wave"		"ambient\atmosphere\cave_outdoor1.wav"
+		"pitch"		"100"
+	}
+
+}
+
+"Uh.Chapter1.House.Well"
+{
+	"dsp"	"25"
+
+	"playrandom"
+	{
+		"volume"	"0.2,0.5"
+		"pitch"		"85,95"
+		"time"		"10.0, 25.0"
+		"soundlevel"	"SNDLVL_110dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient\atmosphere\hole_hit1.wav"
+			"wave" "ambient\atmosphere\hole_hit2.wav"
+			"wave" "ambient\atmosphere\hole_hit3.wav"
+			"wave" "ambient\atmosphere\hole_hit4.wav"
+			"wave" "ambient\atmosphere\hole_hit5.wav"
+			"wave" "ambient\atmosphere\hole_hit6.wav"
+			"wave" "ambient\water\distant_drip1.wav"
+			"wave" "ambient\water\distant_drip2.wav"
+			"wave" "ambient\water\distant_drip3.wav"
+			"wave" "ambient\water\distant_drip4.wav"
+		}
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.4"
+		"wave"		"ambient\atmosphere\cave_outdoor1.wav"
+		"pitch"		"100"
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.6"
+		"wave"		"ambient\atmosphere\tone_well.wav"
+		"pitch"		"100"
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.1"
+		"wave"		"ambient\water\corridor_water.wav"
+		"pitch"		"100"
+	}
+
+}
+
+// ======================================ARC================================
+
+"Uh.Chapter1.ARC.Core.Arrival"
+{
+	"dsp"	"1"
+
+	"playrandom"
+	{
+		"volume"	"0.1,0.4"
+		"pitch"		"90,110"
+		"time"		"5.0, 12.0"
+		"soundlevel"	"SNDLVL_130dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient\atmosphere\metallic1.wav"
+			"wave" "ambient\atmosphere\metallic2.wav"
+			"wave" "ambient/misc/equipment_stress2.wav"
+			"wave" "ambient/misc/equipment_stress3.wav"
+			"wave" "ambient\materials\metal5.wav"
+			"wave" "ambient\materials\rustypipes1.wav"
+			"wave" "ambient\materials\rustypipes2.wav"
+			"wave" "ambient\materials\rustypipes3.wav"
+			"wave" "ambient/levels/labs/machine_stop1.wav"
+			"wave" "ambient/machines/machine1_hit1.wav"
+			"wave" "ambient/machines/machine1_hit2.wav"
+			"wave" "ambient/levels/outland/ol11silodoor_end_op.wav"
+			"wave" "ambient/levels/outland/ol11silodoor_end_cl.wav"
+			"wave" "ambient/levels/outland/ol11silodoor_start_cl.wav"
+			"wave" "ambient/levels/outland/ol11silodoor_start_op.wav"
+
+
+		}
+	}
+	"playlooping"
+	{
+		"volume"	"0.4"
+		"wave"		"ambient\levels\citadel\citadel_drone_loop4.wav"
+		"pitch"		"100"
+	}
+
+
+}
+
+"Uh.Chapter1.ARC.Core"
+{
+	"dsp"	"4"
+
+	"playrandom"
+	{
+		"volume"	"0.1,0.3"
+		"pitch"		"90,110"
+		"time"		"8.0, 20.0"
+		"soundlevel"	"SNDLVL_130dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient\atmosphere\metallic1.wav"
+			"wave" "ambient\atmosphere\metallic2.wav"
+			"wave" "ambient/misc/equipment_stress2.wav"
+			"wave" "ambient/misc/equipment_stress3.wav"
+			"wave" "ambient\materials\rustypipes1.wav"
+			"wave" "ambient\materials\rustypipes2.wav"
+			"wave" "ambient\materials\rustypipes3.wav"
+			"wave"	"ambient\atmosphere\hole_hit1.wav"
+			"wave"	"ambient\atmosphere\hole_hit2.wav"
+			"wave"	"ambient\atmosphere\hole_hit3.wav"
+			"wave"	"ambient\atmosphere\hole_hit4.wav"
+			"wave"	"ambient\atmosphere\hole_hit5.wav"
+			"wave" "ambient\atmosphere\hole_hit6.wav"
+
+
+		}
+	}
+	"playrandom"
+	{
+		"volume"	"0.2,0.5"
+		"pitch"		"90,110"
+		"time"		"10.0, 35.0"
+		"soundlevel"	"SNDLVL_130dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient/materials/metal_rattle1.wav"
+			"wave" "ambient/materials/metal_rattle3.wav"
+			"wave" "ambient/materials/metal_rattle4.wav"
+			"wave" "ambient/materials/metal4.wav"
+			"wave" "ambient/misc/metal3.wav"
+			"wave" "ambient/misc/metal6.wav"
+			"wave" "ambient/misc/metal7.wav"
+			"wave" "ambient/misc/metal8.wav"
+			"wave" "ambient/misc/metal9.wav"
+
+		}
+	}
+	"playrandom"
+	{
+		"volume"	"0.1,0.2"
+		"pitch"		"90,110"
+		"time"		"35.0, 85.0"
+		"soundlevel"	"SNDLVL_180dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "screams/far/male_far_scream2.wav"
+			"wave" "screams/far/male_far_scream3.wav"
+			"wave" "screams/far/male_far_scream4.wav"
+			"wave" "screams/far/male_far_scream5.wav"
+			"wave" "screams/far/male_far_scream6.wav"
+			"wave" "screams/far/male_far_scream7.wav"
+
+
+		}
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.3"
+		"wave"		"ambient\levels\citadel\citadel_drone_loop4.wav"
+		"pitch"		"100"
+	}
+
+}
+
+"Uh.Chapter1.ARC.Core.Depressurization"
+{
+	"dsp"	"29"
+
+	"playrandom"
+	{
+		"volume"	"0.1,0.3"
+		"pitch"		"90,110"
+		"time"		"5.0, 12.0"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient\atmosphere\metallic1.wav"
+			"wave" "ambient\atmosphere\metallic2.wav"
+			"wave" "ambient/misc/equipment_stress2.wav"
+			"wave" "ambient/misc/equipment_stress3.wav"
+			"wave" "ambient\materials\metal5.wav"
+			"wave" "ambient\materials\rustypipes1.wav"
+			"wave" "ambient\materials\rustypipes2.wav"
+			"wave" "ambient\materials\rustypipes3.wav"
+			"wave"	"ambient\atmosphere\hole_hit1.wav"
+			"wave"	"ambient\atmosphere\hole_hit2.wav"
+			"wave"	"ambient\atmosphere\hole_hit3.wav"
+			"wave"	"ambient\atmosphere\hole_hit4.wav"
+			"wave"	"ambient\atmosphere\hole_hit5.wav"
+			"wave" "ambient\atmosphere\hole_hit6.wav"
+
+
+		}
+	}
+	"playrandom"
+	{
+		"volume"	"0.8,1"
+		"pitch"		"90,110"
+		"time"		"0.4, 1.0"
+		"rndwave"
+		{
+			"wave" "ambient\wind\wind_hit1.wav"
+			"wave" "ambient\wind\wind_hit2.wav"
+			"wave" "ambient\wind\wind_hit3.wav"
+			"wave" "ambient\wind\windgust.wav"
+			"wave" "ambient\wind\windgust_strong.wav"
+			"wave" "ambient\wind\wind_gust_10.wav"
+			"wave" "ambient\wind\wind_gust_8.wav"
+
+		}
+	}
+	"playlooping"
+	{
+		"volume"	"0.1"
+		"wave"		"ambient\levels\citadel\citadel_drone_loop4.wav"
+		"pitch"		"100"
+	}
+	"playlooping"
+	{
+		"volume"	"0.4"
+		"wave"		"ambient\levels\canals\tunnel_wind_loop1.wav"
+		"pitch"		"100"
+	}
+
+}
+
+"Uh.Chapter1.ARC.Core.Opened"
+{
+	"dsp"	"22"
+
+	"playrandom"
+	{
+		"volume"	"0.1,0.2"
+		"pitch"		"90,110"
+		"time"		"5.0, 12.0"
+		"soundlevel"	"SNDLVL_130dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient\wind\smallgust2.wav"
+			"wave" "ambient\wind\wind_gust_10.wav"
+			"wave" "ambient\wind\wind_gust_2.wav"
+			"wave" "ambient\wind\wind_med1.wav"
+			"wave" "ambient\wind\wind_med2.wav"
+
+		}
+	}
+	"playrandom"
+	{
+		"volume"	"0.1,0.5"
+		"pitch"		"90,110"
+		"time"		"10.0, 25.0"
+		"soundlevel"	"SNDLVL_130dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient\atmosphere\metallic1.wav"
+			"wave" "ambient\atmosphere\metallic2.wav"
+			"wave" "ambient/misc/equipment_stress2.wav"
+			"wave" "ambient/misc/equipment_stress3.wav"
+			"wave" "ambient\materials\metal5.wav"
+			"wave" "ambient\materials\rustypipes1.wav"
+			"wave" "ambient\materials\rustypipes2.wav"
+			"wave" "ambient\materials\rustypipes3.wav"
+			"wave" "ambient/materials/metal_rattle1.wav"
+			"wave" "ambient/materials/metal_rattle3.wav"
+			"wave" "ambient/materials/metal_rattle4.wav"
+			"wave" "ambient/materials/metal4.wav"
+			"wave" "ambient/misc/metal3.wav"
+			"wave" "ambient/misc/metal6.wav"
+			"wave" "ambient/misc/metal7.wav"
+			"wave" "ambient/misc/metal8.wav"
+			"wave" "ambient/misc/metal9.wav"
+
+		}
+	}
+	"playlooping"
+	{
+		"volume"	"0.2"
+		"wave"		"ambient\levels\citadel\citadel_drone_loop4.wav"
+		"pitch"		"100"
+	}
+	"playlooping"
+	{
+		"volume"	"0.3"
+		"wave"		"ambient\levels\canals\tunnel_wind_loop1.wav"
+		"pitch"		"100"
+	}
+
+}
+
+"Uh.Chapter1.ARC.Core.Access"
+{
+	"dsp"	"1"
+
+	"playrandom"
+	{
+		"volume"	"0.1,0.3"
+		"pitch"		"90,110"
+		"time"		"5.0, 12.0"
+		"soundlevel"	"SNDLVL_130dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient\atmosphere\metallic1.wav"
+			"wave" "ambient\atmosphere\metallic2.wav"
+			"wave" "ambient/misc/equipment_stress2.wav"
+			"wave" "ambient/misc/equipment_stress3.wav"
+			"wave" "ambient\materials\metal5.wav"
+			"wave" "ambient\materials\rustypipes1.wav"
+			"wave" "ambient\materials\rustypipes2.wav"
+			"wave" "ambient\materials\rustypipes3.wav"
+			"wave" "ambient/tones/pipes.wav"
+			"wave" "ambient/tones/pipes2.wav"
+
+		}
+	}
+	"playlooping"
+	{
+		"volume"	"0.3"
+		"wave"		"ambient\atmosphere\drone1lp.wav"
+		"pitch"		"100"
+	}
+	"playlooping"
+	{
+		"volume"	"0.1"
+		"position"	"0"
+		"wave"		"ambient\levels\canals\generator_ambience_loop1.wav"
+		"pitch"		"100"
+	}
+
+}
+
+
+"Uh.Chapter1.ARC.Transition.Arrival"
+{
+	"dsp"	"1"
+
+	"playrandom"
+	{
+		"volume"	"0.1,0.3"
+		"pitch"		"90,110"
+		"time"		"5.0, 12.0"
+		"soundlevel"	"SNDLVL_130dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient\atmosphere\metallic1.wav"
+			"wave" "ambient\atmosphere\metallic2.wav"
+			"wave" "ambient/misc/equipment_stress2.wav"
+			"wave" "ambient/misc/equipment_stress3.wav"
+			"wave" "ambient\materials\metal5.wav"
+			"wave" "ambient\materials\rustypipes1.wav"
+			"wave" "ambient\materials\rustypipes2.wav"
+			"wave" "ambient\materials\rustypipes3.wav"
+
+		}
+	}
+	"playlooping"
+	{
+		"volume"	"0.3"
+		"wave"		"ambient\levels\citadel\drone1lp.wav"
+		"pitch"		"100"
+	}
+
+}
+
+"Uh.Chapter1.ARC.Transition"
+{
+	"dsp"	"1"
+
+	"playrandom"
+	{
+		"volume"	"0.1,0.3"
+		"pitch"		"90,110"
+		"time"		"5.0, 12.0"
+		"soundlevel"	"SNDLVL_130dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient\atmosphere\metallic1.wav"
+			"wave" "ambient\atmosphere\metallic2.wav"
+			"wave" "ambient/misc/equipment_stress2.wav"
+			"wave" "ambient/misc/equipment_stress3.wav"
+			"wave" "ambient\materials\metal5.wav"
+			"wave" "ambient\materials\rustypipes1.wav"
+			"wave" "ambient\materials\rustypipes2.wav"
+			"wave" "ambient\materials\rustypipes3.wav"
+
+		}
+	}
+	"playrandom"
+	{
+		"volume"	"0.3,0.8"
+		"pitch"		"90,110"
+		"time"		"10.0, 35.0"
+		"soundlevel"	"SNDLVL_130dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient/materials/metal_rattle1.wav"
+			"wave" "ambient/materials/metal_rattle3.wav"
+			"wave" "ambient/materials/metal_rattle4.wav"
+			"wave" "ambient/materials/metal4.wav"
+			"wave" "ambient/misc/metal3.wav"
+			"wave" "ambient/misc/metal6.wav"
+			"wave" "ambient/misc/metal7.wav"
+			"wave" "ambient/misc/metal8.wav"
+			"wave" "ambient/misc/metal9.wav"
+
+		}
+	}
+	"playrandom"
+	{
+		"volume"	"0.1,0.2"
+		"pitch"		"90,110"
+		"time"		"35.0, 85.0"
+		"soundlevel"	"SNDLVL_180dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "screams/far/male_far_scream2.wav"
+			"wave" "screams/far/male_far_scream3.wav"
+			"wave" "screams/far/male_far_scream4.wav"
+			"wave" "screams/far/male_far_scream5.wav"
+			"wave" "screams/far/male_far_scream6.wav"
+			"wave" "screams/far/male_far_scream7.wav"
+
+
+		}
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.2"
+		"wave"		"ambient\levels\citadel\drone1lp.wav"
+		"pitch"		"100"
+	}
+
+}
+
+"Uh.Chapter1.ARC.Transition.Showers"
+{
+	"dsp"	"1"
+
+	"playrandom"
+	{
+		"volume"	"0.1,0.3"
+		"pitch"		"90,110"
+		"time"		"5.0, 12.0"
+		"soundlevel"	"SNDLVL_130dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient\atmosphere\metallic1.wav"
+			"wave" "ambient\atmosphere\metallic2.wav"
+			"wave" "ambient/misc/equipment_stress2.wav"
+			"wave" "ambient/misc/equipment_stress3.wav"
+			"wave" "ambient\materials\metal5.wav"
+			"wave" "ambient\materials\rustypipes1.wav"
+			"wave" "ambient\materials\rustypipes2.wav"
+			"wave" "ambient\materials\rustypipes3.wav"
+
+		}
+	}
+	"playrandom"
+	{
+		"volume"	"0.3,0.8"
+		"pitch"		"90,110"
+		"time"		"10.0, 35.0"
+		"soundlevel"	"SNDLVL_130dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient/materials/metal_rattle1.wav"
+			"wave" "ambient/materials/metal_rattle3.wav"
+			"wave" "ambient/materials/metal_rattle4.wav"
+			"wave" "ambient/materials/metal4.wav"
+			"wave" "ambient/misc/metal3.wav"
+			"wave" "ambient/misc/metal6.wav"
+			"wave" "ambient/misc/metal7.wav"
+			"wave" "ambient/misc/metal8.wav"
+			"wave" "ambient/misc/metal9.wav"
+
+		}
+	}
+	"playrandom"
+	{
+		"volume"	"0.1,0.2"
+		"pitch"		"90,110"
+		"time"		"35.0, 85.0"
+		"soundlevel"	"SNDLVL_180dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "screams/far/male_far_scream2.wav"
+			"wave" "screams/far/male_far_scream3.wav"
+			"wave" "screams/far/male_far_scream4.wav"
+			"wave" "screams/far/male_far_scream5.wav"
+			"wave" "screams/far/male_far_scream6.wav"
+			"wave" "screams/far/male_far_scream7.wav"
+
+
+		}
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.2"
+		"wave"		"ambient\levels\citadel\drone1lp.wav"
+		"pitch"		"100"
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.1"
+		"wave"		"ambient/levels/canals/waterleak_loop1.wav"
+		"pitch"		"100"
+	}
+
+}
+
+"Uh.Chapter1.ARC.Main.Arrival"
+{
+	"dsp"	"1"
+
+	"playrandom"
+	{
+		"volume"	"0.1,0.3"
+		"pitch"		"90,110"
+		"time"		"5.0, 12.0"
+		"soundlevel"	"SNDLVL_130dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient\atmosphere\metallic1.wav"
+			"wave" "ambient\atmosphere\metallic2.wav"
+			"wave" "ambient/misc/equipment_stress2.wav"
+			"wave" "ambient/misc/equipment_stress3.wav"
+			"wave" "ambient\creatures\rats1.wav"
+			"wave" "ambient\creatures\rats2.wav"
+			"wave" "ambient\creatures\rats3.wav"
+			"wave" "ambient\creatures\rats4.wav"
+			"wave" "ambient\materials\metal5.wav"
+			"wave" "ambient\materials\rustypipes1.wav"
+			"wave" "ambient\materials\rustypipes2.wav"
+			"wave" "ambient\materials\rustypipes3.wav"
+			"wave"  "ambient/voices/cough1.wav"
+			"wave"  "ambient/voices/cough2.wav"
+			"wave"  "ambient/voices/cough3.wav"
+			"wave"  "ambient/voices/cough4.wav"
+			"wave"  "ambient/creatures/rats1.wav"
+			"wave"  "ambient/creatures/rats2.wav"
+			"wave"  "ambient/creatures/rats3.wav"
+			"wave"  "ambient/creatures/rats4.wav"
+
+		}
+	}
+
+	"playrandom"
+	{
+		"volume"	"0.2,0.4"
+		"pitch"		"90,110"
+		"time"		"10.0, 35.0"
+		"soundlevel"	"SNDLVL_110dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient/materials/metal_rattle1.wav"
+			"wave" "ambient/materials/metal_rattle3.wav"
+			"wave" "ambient/materials/metal_rattle4.wav"
+			"wave" "ambient/materials/metal4.wav"
+			"wave" "ambient/misc/metal3.wav"
+			"wave" "ambient/misc/metal6.wav"
+			"wave" "ambient/misc/metal7.wav"
+			"wave" "ambient/misc/metal8.wav"
+			"wave" "ambient/misc/metal9.wav"
+			"wave" "ambient/tones/pipes.wav"
+			"wave" "ambient/tones/pipes2.wav"
+
+		}
+	}
+	"playlooping"
+	{
+		"volume"	"0.3"
+		"wave"		"ambient/atmosphere/underground_hall_loop1.wav"
+		"pitch"		"100"
+	}
+	"playlooping"
+	{
+		"volume"	"0.15"
+		"wave"		"ambient/voices/appartments_crowd_loop1.wav"
+		"pitch"		"95"
+	}
+
+}
+
+"Uh.Chapter1.ARC.Dream"
+{
+	"dsp"	"1"
+
+	"playrandom"
+	{
+		"volume"	"0.1,0.3"
+		"pitch"		"90,110"
+		"time"		"5.0, 12.0"
+		"soundlevel"	"SNDLVL_130dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient\levels\citadel\strange_talk1.wav"
+			"wave" "ambient\levels\citadel\strange_talk5.wav"
+			"wave" "ambient\levels\citadel\strange_talk6.wav"
+			"wave" "ambient\levels\citadel\strange_talk7.wav"
+			"wave" "ambient\levels\citadel\strange_talk8.wav"
+			"wave" "ambient\levels\citadel\strange_talk9.wav"
+			"wave" "ambient\levels\citadel\strange_talk6.wav"
+
+		}
+	}
+
+	"playrandom"
+	{
+		"volume"	"0.2,0.4"
+		"pitch"		"90,110"
+		"time"		"10.0, 35.0"
+		"soundlevel"	"SNDLVL_110dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient\atmosphere\metallic1.wav"
+			"wave" "ambient\atmosphere\metallic2.wav"
+			"wave" "ambient/misc/equipment_stress2.wav"
+			"wave" "ambient/misc/equipment_stress3.wav"
+			"wave" "ambient\materials\metal5.wav"
+			"wave" "ambient\materials\rustypipes1.wav"
+			"wave" "ambient\materials\rustypipes2.wav"
+			"wave" "ambient\materials\rustypipes3.wav"
+			"wave" "ambient/materials/metal_rattle1.wav"
+			"wave" "ambient/materials/metal_rattle3.wav"
+			"wave" "ambient/materials/metal_rattle4.wav"
+			"wave" "ambient/materials/metal4.wav"
+			"wave" "ambient/misc/metal3.wav"
+			"wave" "ambient/misc/metal6.wav"
+			"wave" "ambient/misc/metal7.wav"
+			"wave" "ambient/misc/metal8.wav"
+			"wave" "ambient/misc/metal9.wav"
+			"wave" "ambient/tones/pipes.wav"
+			"wave" "ambient/tones/pipes2.wav"
+
+		}
+	}
+	"playlooping"
+	{
+		"volume"	"0.5"
+		"wave"		"ambient\atmosphere\cave_outdoor1.wav"
+		"pitch"		"100"
+	}
+	"playlooping"
+	{
+		"volume"	"0.1"
+		"wave"		"ambient/levels/canals/waterleak_loop1.wav"
+		"pitch"		"100"
+	}
+
+}
+
+"Uh.Chapter1.ARC.Laundry.Arrival"
+{
+	"dsp"	"1"
+
+	"playrandom"
+	{
+		"volume"	"0.1,0.3"
+		"pitch"		"90,110"
+		"time"		"5.0, 12.0"
+		"soundlevel"	"SNDLVL_130dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient\atmosphere\metallic1.wav"
+			"wave" "ambient\atmosphere\metallic2.wav"
+			"wave" "ambient/misc/equipment_stress2.wav"
+			"wave" "ambient/misc/equipment_stress3.wav"
+			"wave" "ambient\creatures\rats1.wav"
+			"wave" "ambient\creatures\rats2.wav"
+			"wave" "ambient\creatures\rats3.wav"
+			"wave" "ambient\creatures\rats4.wav"
+			"wave" "ambient\materials\metal5.wav"
+			"wave" "ambient\materials\rustypipes1.wav"
+			"wave" "ambient\materials\rustypipes2.wav"
+			"wave" "ambient\materials\rustypipes3.wav"
+			"wave"  "ambient/voices/cough1.wav"
+			"wave"  "ambient/voices/cough2.wav"
+			"wave"  "ambient/voices/cough3.wav"
+			"wave"  "ambient/voices/cough4.wav"
+			"wave"  "ambient/creatures/rats1.wav"
+			"wave"  "ambient/creatures/rats2.wav"
+			"wave"  "ambient/creatures/rats3.wav"
+			"wave"  "ambient/creatures/rats4.wav"
+
+		}
+	}
+
+	"playrandom"
+	{
+		"volume"	"0.2,0.4"
+		"pitch"		"90,110"
+		"time"		"10.0, 35.0"
+		"soundlevel"	"SNDLVL_110dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient/materials/metal_rattle1.wav"
+			"wave" "ambient/materials/metal_rattle3.wav"
+			"wave" "ambient/materials/metal_rattle4.wav"
+			"wave" "ambient/materials/metal4.wav"
+			"wave" "ambient/misc/metal3.wav"
+			"wave" "ambient/misc/metal6.wav"
+			"wave" "ambient/misc/metal7.wav"
+			"wave" "ambient/misc/metal8.wav"
+			"wave" "ambient/misc/metal9.wav"
+			"wave" "ambient/tones/pipes.wav"
+			"wave" "ambient/tones/pipes2.wav"
+
+		}
+	}
+	"playlooping"
+	{
+		"volume"	"0.3"
+		"wave"		"ambient/atmosphere/underground_hall_loop1.wav"
+		"pitch"		"100"
+	}
+	"playlooping"
+	{
+		"volume"	"0.1"
+		"wave"		"ambient/voices/appartments_crowd_loop1.wav"
+		"pitch"		"95"
+	}
+	"playlooping"
+	{
+		"volume"	"1"
+		"position"	"0"
+		"wave"		"ambient\atmosphere\laundry_amb.wav"
+		"pitch"		"100"
+	}
+	"playlooping"
+	{
+		"volume"	"1"
+		"position"	"1"
+		"wave"		"ambient\atmosphere\laundry_amb.wav"
+		"pitch"		"100"
+	}
+	"playlooping"
+	{
+		"volume"	"1"
+		"position"	"2"
+		"wave"		"ambient\atmosphere\laundry_amb.wav"
+		"pitch"		"100"
+	}
+	"playlooping"
+	{
+		"volume"	"1"
+		"position"	"3"
+		"wave"		"ambient\atmosphere\laundry_amb.wav"
+		"pitch"		"100"
+	}
+	"playlooping"
+	{
+		"volume"	"1"
+		"position"	"4"
+		"wave"		"ambient\machines\laundry_machine1_amb.wav"
+		"pitch"		"100"
+	}
+
+}
+"Uh.Chapter1.ARC.Main"
+{
+	"dsp"	"1"
+
+	"playrandom"
+	{
+		"volume"	"0.1,0.3"
+		"pitch"		"90,110"
+		"time"		"5.0, 12.0"
+		"soundlevel"	"SNDLVL_130dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient\atmosphere\hole_hit1.wav"
+			"wave" "ambient\atmosphere\hole_hit2.wav"
+			"wave" "ambient\atmosphere\hole_hit3.wav"
+			"wave" "ambient\atmosphere\hole_hit4.wav"
+			"wave" "ambient\atmosphere\hole_hit5.wav"
+			"wave" "ambient\atmosphere\hole_hit6.wav"
+			"wave" "ambient\atmosphere\metallic1.wav"
+			"wave" "ambient\atmosphere\metallic2.wav"
+			"wave" "ambient/misc/equipment_stress2.wav"
+			"wave" "ambient/misc/equipment_stress3.wav"
+			"wave" "ambient\creatures\rats1.wav"
+			"wave" "ambient\creatures\rats2.wav"
+			"wave" "ambient\creatures\rats3.wav"
+			"wave" "ambient\creatures\rats4.wav"
+			"wave" "ambient\materials\metal5.wav"
+			"wave" "ambient\materials\rustypipes1.wav"
+			"wave" "ambient\materials\rustypipes2.wav"
+			"wave" "ambient\materials\rustypipes3.wav"
+			"wave" "ambient\materials\creaking.wav"
+			"wave" "ambient\materials\icegrind1.wav"
+			"wave" "ambient\misc\shutter6.wav"
+			"wave" "ambient\misc\shutter7.wav"
+			"wave" "ambient\misc\shutter8.wav"
+		}
+	}
+	"playrandom"
+	{
+		"volume"	"0.3,0.8"
+		"pitch"		"90,110"
+		"time"		"10.0, 35.0"
+		"soundlevel"	"SNDLVL_130dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient/materials/metal_rattle1.wav"
+			"wave" "ambient/materials/metal_rattle3.wav"
+			"wave" "ambient/materials/metal_rattle4.wav"
+			"wave" "ambient/materials/metal4.wav"
+			"wave" "ambient/misc/metal3.wav"
+			"wave" "ambient/misc/metal6.wav"
+			"wave" "ambient/misc/metal7.wav"
+			"wave" "ambient/misc/metal8.wav"
+			"wave" "ambient/misc/metal9.wav"
+
+		}
+	}
+	"playrandom"
+	{
+		"volume"	"0.1,0.2"
+		"pitch"		"90,110"
+		"time"		"35.0, 85.0"
+		"soundlevel"	"SNDLVL_120dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "screams/far/male_far_scream2.wav"
+			"wave" "screams/far/male_far_scream3.wav"
+			"wave" "screams/far/male_far_scream4.wav"
+			"wave" "screams/far/male_far_scream5.wav"
+			"wave" "screams/far/male_far_scream6.wav"
+			"wave" "screams/far/male_far_scream7.wav"
+
+
+		}
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.3"
+		"wave"		"ambient/atmosphere/underground_hall_loop1.wav"
+		"pitch"		"100"
+	}
+
+}
+"Uh.Chapter1.ARC.Main.SecRoom"
+{
+	"dsp"	"1"
+
+	"playrandom"
+	{
+		"volume"	"0.1,0.3"
+		"pitch"		"90,110"
+		"time"		"5.0, 12.0"
+		"soundlevel"	"SNDLVL_130dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient\atmosphere\hole_hit1.wav"
+			"wave" "ambient\atmosphere\hole_hit2.wav"
+			"wave" "ambient\atmosphere\hole_hit3.wav"
+			"wave" "ambient\atmosphere\hole_hit4.wav"
+			"wave" "ambient\atmosphere\hole_hit5.wav"
+			"wave" "ambient\atmosphere\hole_hit6.wav"
+			"wave" "ambient\atmosphere\metallic1.wav"
+			"wave" "ambient\atmosphere\metallic2.wav"
+			"wave" "ambient/misc/equipment_stress2.wav"
+			"wave" "ambient/misc/equipment_stress3.wav"
+			"wave" "ambient\creatures\rats1.wav"
+			"wave" "ambient\creatures\rats2.wav"
+			"wave" "ambient\creatures\rats3.wav"
+			"wave" "ambient\creatures\rats4.wav"
+			"wave" "ambient\materials\metal5.wav"
+			"wave" "ambient\materials\rustypipes1.wav"
+			"wave" "ambient\materials\rustypipes2.wav"
+			"wave" "ambient\materials\rustypipes3.wav"
+			"wave" "ambient\materials\creaking.wav"
+			"wave" "ambient\materials\icegrind1.wav"
+			"wave" "ambient\misc\shutter6.wav"
+			"wave" "ambient\misc\shutter7.wav"
+			"wave" "ambient\misc\shutter8.wav"
+		}
+	}
+	"playrandom"
+	{
+		"volume"	"0.3,0.8"
+		"pitch"		"90,110"
+		"time"		"10.0, 35.0"
+		"soundlevel"	"SNDLVL_130dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient/materials/metal_rattle1.wav"
+			"wave" "ambient/materials/metal_rattle3.wav"
+			"wave" "ambient/materials/metal_rattle4.wav"
+			"wave" "ambient/materials/metal4.wav"
+			"wave" "ambient/misc/metal3.wav"
+			"wave" "ambient/misc/metal6.wav"
+			"wave" "ambient/misc/metal7.wav"
+			"wave" "ambient/misc/metal8.wav"
+			"wave" "ambient/misc/metal9.wav"
+
+		}
+	}
+	"playrandom"
+	{
+		"volume"	"0.1,0.2"
+		"pitch"		"90,110"
+		"time"		"35.0, 85.0"
+		"soundlevel"	"SNDLVL_120dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "screams/far/male_far_scream2.wav"
+			"wave" "screams/far/male_far_scream3.wav"
+			"wave" "screams/far/male_far_scream4.wav"
+			"wave" "screams/far/male_far_scream5.wav"
+			"wave" "screams/far/male_far_scream6.wav"
+			"wave" "screams/far/male_far_scream7.wav"
+
+
+		}
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.3"
+		"wave"		"ambient\atmosphere\quiet_cellblock_amb.wav"
+		"pitch"		"100"
+	}
+
+}
+
+"Uh.Chapter1.ARC.Main.NoPower"
+{
+	"dsp"	"1"
+
+	"playrandom"
+	{
+		"volume"	"0.1,0.3"
+		"pitch"		"90,110"
+		"time"		"5.0, 12.0"
+		"soundlevel"	"SNDLVL_130dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient\atmosphere\hole_hit1.wav"
+			"wave" "ambient\atmosphere\hole_hit2.wav"
+			"wave" "ambient\atmosphere\hole_hit3.wav"
+			"wave" "ambient\atmosphere\hole_hit4.wav"
+			"wave" "ambient\atmosphere\hole_hit5.wav"
+			"wave" "ambient\atmosphere\hole_hit6.wav"
+			"wave" "ambient\atmosphere\metallic1.wav"
+			"wave" "ambient\atmosphere\metallic2.wav"
+			"wave" "ambient/misc/equipment_stress2.wav"
+			"wave" "ambient/misc/equipment_stress3.wav"
+			"wave" "ambient\creatures\rats1.wav"
+			"wave" "ambient\creatures\rats2.wav"
+			"wave" "ambient\creatures\rats3.wav"
+			"wave" "ambient\creatures\rats4.wav"
+			"wave" "ambient\materials\metal5.wav"
+			"wave" "ambient\materials\rustypipes1.wav"
+			"wave" "ambient\materials\rustypipes2.wav"
+			"wave" "ambient\materials\rustypipes3.wav"
+			"wave" "ambient\materials\creaking.wav"
+			"wave" "ambient\materials\icegrind1.wav"
+			"wave" "ambient\misc\shutter6.wav"
+			"wave" "ambient\misc\shutter7.wav"
+			"wave" "ambient\misc\shutter8.wav"
+		}
+	}
+	"playrandom"
+	{
+		"volume"	"0.3,0.8"
+		"pitch"		"90,110"
+		"time"		"10.0, 35.0"
+		"soundlevel"	"SNDLVL_130dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient/materials/metal_rattle1.wav"
+			"wave" "ambient/materials/metal_rattle3.wav"
+			"wave" "ambient/materials/metal_rattle4.wav"
+			"wave" "ambient/materials/metal4.wav"
+			"wave" "ambient/misc/metal3.wav"
+			"wave" "ambient/misc/metal6.wav"
+			"wave" "ambient/misc/metal7.wav"
+			"wave" "ambient/misc/metal8.wav"
+			"wave" "ambient/misc/metal9.wav"
+
+		}
+	}
+	"playrandom"
+	{
+		"volume"	"0.1,0.2"
+		"pitch"		"90,110"
+		"time"		"35.0, 85.0"
+		"soundlevel"	"SNDLVL_120dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "screams/far/male_far_scream2.wav"
+			"wave" "screams/far/male_far_scream3.wav"
+			"wave" "screams/far/male_far_scream4.wav"
+			"wave" "screams/far/male_far_scream5.wav"
+			"wave" "screams/far/male_far_scream6.wav"
+			"wave" "screams/far/male_far_scream7.wav"
+
+
+		}
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.4"
+		"wave"		"ambient\atmosphere\cave_outdoor1.wav"
+		"pitch"		"100"
+	}
+
+}
+
+"Uh.Chapter1.ARC.Lockers.Arrival"
+{
+	"dsp"	"1"
+
+	"playrandom"
+	{
+		"volume"	"0.1,0.3"
+		"pitch"		"90,110"
+		"time"		"5.0, 12.0"
+		"soundlevel"	"SNDLVL_130dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient\atmosphere\metallic1.wav"
+			"wave" "ambient\atmosphere\metallic2.wav"
+			"wave" "ambient/misc/equipment_stress2.wav"
+			"wave" "ambient/misc/equipment_stress3.wav"
+			"wave" "ambient\creatures\rats1.wav"
+			"wave" "ambient\creatures\rats2.wav"
+			"wave" "ambient\creatures\rats3.wav"
+			"wave" "ambient\creatures\rats4.wav"
+			"wave" "ambient\materials\metal5.wav"
+			"wave" "ambient\materials\rustypipes1.wav"
+			"wave" "ambient\materials\rustypipes2.wav"
+			"wave" "ambient\materials\rustypipes3.wav"
+
+		}
+	}
+
+	"playrandom"
+	{
+		"volume"	"0.2,0.4"
+		"pitch"		"90,110"
+		"time"		"10.0, 35.0"
+		"soundlevel"	"SNDLVL_110dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient/materials/metal_rattle1.wav"
+			"wave" "ambient/materials/metal_rattle3.wav"
+			"wave" "ambient/materials/metal_rattle4.wav"
+			"wave" "ambient/materials/metal4.wav"
+			"wave" "ambient/misc/metal3.wav"
+			"wave" "ambient/misc/metal6.wav"
+			"wave" "ambient/misc/metal7.wav"
+			"wave" "ambient/misc/metal8.wav"
+			"wave" "ambient/misc/metal9.wav"
+			"wave" "ambient/tones/pipes.wav"
+			"wave" "ambient/tones/pipes2.wav"
+
+		}
+	}
+	"playlooping"
+	{
+		"volume"	"0.4"
+		"wave"		"ambient/atmosphere/underground_hall_loop1.wav"
+		"pitch"		"100"
+	}
+	"playlooping"
+	{
+		"volume"	"0.1"
+		"wave"		"ambient/voices/appartments_crowd_loop1.wav"
+		"pitch"		"95"
+	}
+
+}
+
+"Uh.Chapter1.ARC.Showers.Arrival"
+{
+	"dsp"	"1"
+
+	"playrandom"
+	{
+		"volume"	"0.1,0.3"
+		"pitch"		"90,110"
+		"time"		"5.0, 12.0"
+		"soundlevel"	"SNDLVL_130dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient\atmosphere\hole_hit1.wav"
+			"wave" "ambient\atmosphere\hole_hit2.wav"
+			"wave" "ambient\atmosphere\hole_hit3.wav"
+			"wave" "ambient\atmosphere\hole_hit4.wav"
+			"wave" "ambient\atmosphere\hole_hit5.wav"
+			"wave" "ambient\atmosphere\hole_hit6.wav"
+			"wave" "ambient\atmosphere\metallic1.wav"
+			"wave" "ambient\atmosphere\metallic2.wav"
+			"wave" "ambient/misc/equipment_stress2.wav"
+			"wave" "ambient/misc/equipment_stress3.wav"
+			"wave" "ambient\creatures\rats1.wav"
+			"wave" "ambient\creatures\rats2.wav"
+			"wave" "ambient\creatures\rats3.wav"
+			"wave" "ambient\creatures\rats4.wav"
+			"wave" "ambient\materials\metal5.wav"
+			"wave" "ambient\materials\rustypipes1.wav"
+			"wave" "ambient\materials\rustypipes2.wav"
+			"wave" "ambient\materials\rustypipes3.wav"
+			"wave" "ambient/tones/pipes.wav"
+			"wave" "ambient/tones/pipes2.wav"
+
+		}
+	}
+	"playrandom"
+	{
+		"volume"	"0.3,0.8"
+		"pitch"		"90,110"
+		"time"		"10.0, 35.0"
+		"soundlevel"	"SNDLVL_130dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient/water/distant_drip1.wav"
+			"wave" "ambient/water/distant_drip2.wav"
+			"wave" "ambient/water/distant_drip3.wav"
+			"wave" "ambient/water/distant_drip4.wav"
+			"wave" "ambient/misc/metal3.wav"
+			"wave" "ambient/misc/metal6.wav"
+			"wave" "ambient/misc/metal7.wav"
+			"wave" "ambient/misc/metal8.wav"
+			"wave" "ambient/misc/metal9.wav"
+
+		}
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.1"
+		"wave"		"ambient/voices/appartments_crowd_loop1.wav"
+		"pitch"		"100"
+	}
+	"playlooping"
+	{
+		"volume"	"0.3"
+		"wave"		"ambient/atmosphere/underground_hall_loop1.wav"
+		"pitch"		"100"
+	}
+	"playlooping"
+	{
+		"volume"	"0.1"
+		"wave"		"ambient/levels/canals/waterleak_loop1.wav"
+		"pitch"		"100"
+	}
+
+}
+
+"Uh.Chapter1.ARC.Showers"
+{
+	"dsp"	"1"
+
+	"playrandom"
+	{
+		"volume"	"0.1,0.3"
+		"pitch"		"90,110"
+		"time"		"5.0, 12.0"
+		"soundlevel"	"SNDLVL_130dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient\atmosphere\hole_hit1.wav"
+			"wave" "ambient\atmosphere\hole_hit2.wav"
+			"wave" "ambient\atmosphere\hole_hit3.wav"
+			"wave" "ambient\atmosphere\hole_hit4.wav"
+			"wave" "ambient\atmosphere\hole_hit5.wav"
+			"wave" "ambient\atmosphere\hole_hit6.wav"
+			"wave" "ambient\atmosphere\metallic1.wav"
+			"wave" "ambient\atmosphere\metallic2.wav"
+			"wave" "ambient/misc/equipment_stress2.wav"
+			"wave" "ambient/misc/equipment_stress3.wav"
+			"wave" "ambient\creatures\rats1.wav"
+			"wave" "ambient\creatures\rats2.wav"
+			"wave" "ambient\creatures\rats3.wav"
+			"wave" "ambient\creatures\rats4.wav"
+			"wave" "ambient\materials\metal5.wav"
+			"wave" "ambient\materials\rustypipes1.wav"
+			"wave" "ambient\materials\rustypipes2.wav"
+			"wave" "ambient\materials\rustypipes3.wav"
+			"wave" "ambient/tones/pipes.wav"
+			"wave" "ambient/tones/pipes2.wav"
+			"wave" "ambient\materials\creaking.wav"
+
+		}
+	}
+	"playrandom"
+	{
+		"volume"	"0.3,0.8"
+		"pitch"		"90,110"
+		"time"		"10.0, 35.0"
+		"soundlevel"	"SNDLVL_130dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient/water/distant_drip1.wav"
+			"wave" "ambient/water/distant_drip2.wav"
+			"wave" "ambient/water/distant_drip3.wav"
+			"wave" "ambient/water/distant_drip4.wav"
+			"wave" "ambient/misc/metal3.wav"
+			"wave" "ambient/misc/metal6.wav"
+			"wave" "ambient/misc/metal7.wav"
+			"wave" "ambient/misc/metal8.wav"
+			"wave" "ambient/misc/metal9.wav"
+
+		}
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.3"
+		"wave"		"ambient/atmosphere/underground_hall_loop1.wav"
+		"pitch"		"100"
+	}
+	"playlooping"
+	{
+		"volume"	"0.1"
+		"wave"		"ambient/levels/canals/waterleak_loop1.wav"
+		"pitch"		"100"
+	}
+
+}
+
+
+"Uh.Chapter1.ARC.Vents"
+{
+	"dsp"	"1"
+
+	"playrandom"
+	{
+		"volume"	"0.1,0.5"
+		"pitch"		"85,95"
+		"time"		"10.0, 15.0"
+		"soundlevel"	"SNDLVL_110dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient\atmosphere\hole_hit1.wav"
+			"wave" "ambient\atmosphere\hole_hit2.wav"
+			"wave" "ambient\atmosphere\hole_hit3.wav"
+			"wave" "ambient\atmosphere\hole_hit4.wav"
+			"wave" "ambient\atmosphere\hole_hit5.wav"
+			"wave" "ambient\atmosphere\hole_hit6.wav"
+			"wave" "ambient\atmosphere\cave_hit1.wav"
+			"wave" "ambient\atmosphere\cave_hit2.wav"
+			"wave" "ambient\atmosphere\cave_hit3.wav"
+			"wave" "ambient\atmosphere\cave_hit4.wav"
+			"wave" "ambient\atmosphere\cave_hit5.wav"
+			"wave" "ambient\materials\creaking.wav"
+			"wave" "ambient\materials\icegrind1.wav"
+			"wave" "ambient\materials\vent_scurry_medium.wav"
+			"wave" "ambient\misc\metal_str1.wav"
+			"wave" "ambient\misc\metal_str2.wav"
+			"wave" "ambient\misc\metal_str3.wav"
+			"wave" "ambient\misc\metal_str4.wav"
+			"wave" "ambient\misc\metal_str5.wav"
+			"wave" "ambient\materials\metal_stress1.wav"
+			"wave" "ambient\materials\metal_stress2.wav"
+			"wave" "ambient\materials\metal_stress3.wav"
+			"wave" "ambient\materials\metal_stress4.wav"
+			"wave" "ambient\materials\metal_stress5.wav"
+
+
+		}
+	}
+
+	"playrandom"
+	{
+		"volume"	"0.5,0.6"
+		"pitch"		"85,100"
+		"time"		"10.0, 17.0"
+		"soundlevel"	"SNDLVL_100dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient/materials/metal_stress1.wav"
+			"wave" "ambient/materials/metal_stress2.wav"
+			"wave" "ambient/materials/metal_stress3.wav"
+			"wave" "ambient/materials/metal_stress4.wav"
+			"wave" "ambient/materials/metal_stress5.wav"
+			"wave" "ambient/misc/metal2.wav"
+
+		}
+	}
+	"playlooping"
+	{
+		"volume"	"0.2"
+		"wave"		"ambient/atmosphere/hole_amb3.wav"
+		"pitch"		"95"
+	}
+
+}
+"Uh.Chapter1.ARC.Vents.Noderoom"
+{
+	"dsp"	"1"
+
+	"playrandom"
+	{
+		"volume"	"0.1,0.5"
+		"pitch"		"85,95"
+		"time"		"10.0, 15.0"
+		"soundlevel"	"SNDLVL_110dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient\atmosphere\hole_hit1.wav"
+			"wave" "ambient\atmosphere\hole_hit2.wav"
+			"wave" "ambient\atmosphere\hole_hit3.wav"
+			"wave" "ambient\atmosphere\hole_hit4.wav"
+			"wave" "ambient\atmosphere\hole_hit5.wav"
+			"wave" "ambient\atmosphere\hole_hit6.wav"
+			"wave" "ambient/tones/pipes.wav"
+			"wave" "ambient/tones/pipes2.wav"
+			"wave" "ambient\atmosphere\metallic1.wav"
+			"wave" "ambient\atmosphere\metallic2.wav"
+			"wave" "ambient\materials\creaking.wav"
+			"wave" "ambient\materials\icegrind1.wav"
+			"wave" "ambient\misc\metal_str1.wav"
+			"wave" "ambient\misc\metal_str2.wav"
+			"wave" "ambient\misc\metal_str3.wav"
+			"wave" "ambient\misc\metal_str4.wav"
+			"wave" "ambient\misc\metal_str5.wav"
+			"wave" "ambient\materials\metal_stress1.wav"
+			"wave" "ambient\materials\metal_stress2.wav"
+			"wave" "ambient\materials\metal_stress3.wav"
+			"wave" "ambient\materials\metal_stress4.wav"
+			"wave" "ambient\materials\metal_stress5.wav"
+		}
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.1"
+		"wave"		"ambient/atmosphere/elev_shaft1.wav"
+		"pitch"		"95"
+	}
+
+}
+"Uh.Chapter1.ARC.HSB.Arrival"
+{
+	"dsp"	"1"
+
+	"playrandom"
+	{
+		"volume"	"0.1,0.3"
+		"pitch"		"90,110"
+		"time"		"7.0, 20.0"
+		"soundlevel"	"SNDLVL_130dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient\atmosphere\hole_hit1.wav"
+			"wave" "ambient\atmosphere\hole_hit2.wav"
+			"wave" "ambient\atmosphere\hole_hit3.wav"
+			"wave" "ambient\atmosphere\hole_hit4.wav"
+			"wave" "ambient\atmosphere\hole_hit5.wav"
+			"wave" "ambient\atmosphere\hole_hit6.wav"
+			"wave" "ambient\atmosphere\metallic1.wav"
+			"wave" "ambient\atmosphere\metallic2.wav"
+			"wave" "ambient/misc/equipment_stress2.wav"
+			"wave" "ambient/misc/equipment_stress3.wav"
+			"wave" "ambient\creatures\rats1.wav"
+			"wave" "ambient\creatures\rats2.wav"
+			"wave" "ambient\creatures\rats3.wav"
+			"wave" "ambient\creatures\rats4.wav"
+			"wave" "ambient\materials\metal5.wav"
+			"wave" "ambient\materials\rustypipes1.wav"
+			"wave" "ambient\materials\rustypipes2.wav"
+			"wave" "ambient\materials\rustypipes3.wav"
+			"wave" "ambient\misc\shutter6.wav"
+			"wave" "ambient\misc\shutter7.wav"
+			"wave" "ambient\misc\shutter8.wav"
+			"wave" "ambient\voices\cough1.wav"
+			"wave" "ambient\voices\cough2.wav"
+			"wave" "ambient\voices\cough3.wav"
+
+
+
+
+
+
+
+		}
+	}
+	"playrandom"
+	{
+		"volume"	"0.3,0.5"
+		"pitch"		"90,110"
+		"time"		"7.0, 20.0"
+		"soundlevel"	"SNDLVL_130dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient\atmosphere\hole_hit1.wav"
+
+		}
+	}
+	"playrandom"
+	{
+		"volume"	"0.1,0.2"
+		"pitch"		"90,110"
+		"time"		"35.0, 85.0"
+		"soundlevel"	"SNDLVL_180dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "screams/far/male_far_scream2.wav"
+			"wave" "screams/far/male_far_scream3.wav"
+			"wave" "screams/far/male_far_scream4.wav"
+			"wave" "screams/far/male_far_scream5.wav"
+			"wave" "screams/far/male_far_scream6.wav"
+			"wave" "screams/far/male_far_scream7.wav"
+
+
+		}
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.3"
+		"wave"		"ambient\atmosphere\drone1lp.wav"
+		"pitch"		"100"
+	}
+
+}
+"Uh.Chapter1.ARC.HSB.WardenOffice"
+{
+	"dsp"	"1"
+
+	"playrandom"
+	{
+		"volume"	"0.1,0.3"
+		"pitch"		"90,110"
+		"time"		"20.0, 50.0"
+		"soundlevel"	"SNDLVL_130dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient\atmosphere\metallic1.wav"
+			"wave" "ambient\atmosphere\metallic2.wav"
+			"wave" "ambient/misc/equipment_stress2.wav"
+			"wave" "ambient/misc/equipment_stress3.wav"
+			"wave" "ambient\materials\metal5.wav"
+			"wave" "ambient\materials\rustypipes1.wav"
+			"wave" "ambient\materials\rustypipes2.wav"
+			"wave" "ambient\materials\rustypipes3.wav"
+			"wave" "ambient\misc\shutter6.wav"
+			"wave" "ambient\misc\shutter7.wav"
+			"wave" "ambient\misc\shutter8.wav"
+
+		}
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.1"
+		"wave"		"ambient\atmosphere\underground_hall_loop1.wav"
+		"pitch"		"100"
+	}
+
+}
+"Uh.Chapter1.ARC.HSB"
+{
+	"dsp"	"1"
+
+	"playrandom"
+	{
+		"volume"	"0.1,0.3"
+		"pitch"		"90,110"
+		"time"		"7.0, 20.0"
+		"soundlevel"	"SNDLVL_130dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient\atmosphere\hole_hit1.wav"
+			"wave" "ambient\atmosphere\hole_hit2.wav"
+			"wave" "ambient\atmosphere\hole_hit3.wav"
+			"wave" "ambient\atmosphere\hole_hit4.wav"
+			"wave" "ambient\atmosphere\hole_hit5.wav"
+			"wave" "ambient\atmosphere\hole_hit6.wav"
+			"wave" "ambient\atmosphere\metallic1.wav"
+			"wave" "ambient\atmosphere\metallic2.wav"
+			"wave" "ambient/misc/equipment_stress2.wav"
+			"wave" "ambient/misc/equipment_stress3.wav"
+			"wave" "ambient\creatures\rats1.wav"
+			"wave" "ambient\creatures\rats2.wav"
+			"wave" "ambient\creatures\rats3.wav"
+			"wave" "ambient\creatures\rats4.wav"
+			"wave" "ambient\materials\metal5.wav"
+			"wave" "ambient\materials\rustypipes1.wav"
+			"wave" "ambient\materials\rustypipes2.wav"
+			"wave" "ambient\materials\rustypipes3.wav"
+
+		}
+	}
+	"playrandom"
+	{
+		"volume"	"0.3,0.8"
+		"pitch"		"90,110"
+		"time"		"10.0, 35.0"
+		"soundlevel"	"SNDLVL_130dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient/materials/metal_rattle1.wav"
+			"wave" "ambient/materials/metal_rattle3.wav"
+			"wave" "ambient/materials/metal_rattle4.wav"
+			"wave" "ambient/materials/metal4.wav"
+			"wave" "ambient/misc/metal3.wav"
+			"wave" "ambient/misc/metal6.wav"
+			"wave" "ambient/misc/metal7.wav"
+			"wave" "ambient/misc/metal8.wav"
+			"wave" "ambient/misc/metal9.wav"
+
+		}
+	}
+	"playrandom"
+	{
+		"volume"	"0.1,0.2"
+		"pitch"		"90,110"
+		"time"		"35.0, 85.0"
+		"soundlevel"	"SNDLVL_180dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "screams/far/male_far_scream2.wav"
+			"wave" "screams/far/male_far_scream3.wav"
+			"wave" "screams/far/male_far_scream4.wav"
+			"wave" "screams/far/male_far_scream5.wav"
+			"wave" "screams/far/male_far_scream6.wav"
+			"wave" "screams/far/male_far_scream7.wav"
+
+
+		}
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.3"
+		"wave"		"ambient/atmosphere/drone2lp.wav"
+		"pitch"		"100"
+	}
+
+}
+"Uh.Chapter1.ARC.HSB.Ceiling"
+{
+	"dsp"	"1"
+
+	"playrandom"
+	{
+		"volume"	"0.1,0.3"
+		"pitch"		"90,110"
+		"time"		"7.0, 20.0"
+		"soundlevel"	"SNDLVL_130dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient\atmosphere\hole_hit1.wav"
+			"wave" "ambient\atmosphere\hole_hit2.wav"
+			"wave" "ambient\atmosphere\hole_hit3.wav"
+			"wave" "ambient\atmosphere\hole_hit4.wav"
+			"wave" "ambient\atmosphere\hole_hit5.wav"
+			"wave" "ambient\atmosphere\hole_hit6.wav"
+			"wave" "ambient\atmosphere\metallic1.wav"
+			"wave" "ambient\atmosphere\metallic2.wav"
+			"wave" "ambient/misc/equipment_stress2.wav"
+			"wave" "ambient/misc/equipment_stress3.wav"
+			"wave" "ambient\creatures\rats1.wav"
+			"wave" "ambient\creatures\rats2.wav"
+			"wave" "ambient\creatures\rats3.wav"
+			"wave" "ambient\creatures\rats4.wav"
+			"wave" "ambient\materials\metal5.wav"
+			"wave" "ambient\materials\rustypipes1.wav"
+			"wave" "ambient\materials\rustypipes2.wav"
+			"wave" "ambient\materials\rustypipes3.wav"
+
+		}
+	}
+	"playrandom"
+	{
+		"volume"	"0.3,0.8"
+		"pitch"		"90,110"
+		"time"		"10.0, 35.0"
+		"soundlevel"	"SNDLVL_130dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient/materials/metal_rattle1.wav"
+			"wave" "ambient/materials/metal_rattle3.wav"
+			"wave" "ambient/materials/metal_rattle4.wav"
+			"wave" "ambient/materials/metal4.wav"
+			"wave" "ambient/misc/metal3.wav"
+			"wave" "ambient/misc/metal6.wav"
+			"wave" "ambient/misc/metal7.wav"
+			"wave" "ambient/misc/metal8.wav"
+			"wave" "ambient/misc/metal9.wav"
+
+		}
+	}
+	"playrandom"
+	{
+		"volume"	"0.1,0.2"
+		"pitch"		"90,110"
+		"time"		"35.0, 85.0"
+		"soundlevel"	"SNDLVL_180dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "screams/far/male_far_scream2.wav"
+			"wave" "screams/far/male_far_scream3.wav"
+			"wave" "screams/far/male_far_scream4.wav"
+			"wave" "screams/far/male_far_scream5.wav"
+			"wave" "screams/far/male_far_scream6.wav"
+			"wave" "screams/far/male_far_scream7.wav"
+
+
+		}
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.3"
+		"wave"		"ambient\atmosphere\cave_outdoor1.wav"
+		"pitch"		"100"
+	}
+
+}
+
+"Uh.Chapter1.ARC.Maintenance.Transition"
+{
+	"dsp"	"7"
+
+	"playrandom"
+	{
+		"volume"	"0.3,0.7"
+		"pitch"		"85,95"
+		"time"		"10.0, 15.0"
+		"soundlevel"	"SNDLVL_110dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient\atmosphere\hole_hit1.wav"
+			"wave" "ambient\atmosphere\hole_hit2.wav"
+			"wave" "ambient\atmosphere\hole_hit3.wav"
+			"wave" "ambient\atmosphere\hole_hit4.wav"
+			"wave" "ambient\atmosphere\hole_hit5.wav"
+			"wave" "ambient\atmosphere\hole_hit6.wav"
+			"wave" "ambient/tones/pipes.wav"
+		}
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.3"
+		"wave"		"ambient\atmosphere\cargo_hold2.wav"
+		"pitch"		"95"
+	}
+
+}
+
+
+"Uh.Chapter1.ARC.Maintenance.Corridor1"
+{
+	"dsp"	"4"
+
+	"playrandom"
+	{
+		"volume"	"0.3,0.7"
+		"pitch"		"85,95"
+		"time"		"10.0, 15.0"
+		"soundlevel"	"SNDLVL_110dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient\atmosphere\hole_hit1.wav"
+			"wave" "ambient\atmosphere\hole_hit2.wav"
+			"wave" "ambient\atmosphere\hole_hit3.wav"
+			"wave" "ambient\atmosphere\hole_hit4.wav"
+			"wave" "ambient\atmosphere\hole_hit5.wav"
+			"wave" "ambient\atmosphere\hole_hit6.wav"
+			"wave" "ambient/tones/pipes.wav"
+		}
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.3"
+		"wave"		"ambient\atmosphere\ambience5.wav"
+		"pitch"		"95"
+	}
+
+}
+"Uh.Chapter1.ARC.Maintenance.Sewers"
+{
+	"dsp"	"25"
+
+	"playrandom"
+	{
+		"volume"	"0.3,0.7"
+		"pitch"		"85,95"
+		"time"		"10.0, 15.0"
+		"soundlevel"	"SNDLVL_110dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient\atmosphere\hole_hit1.wav"
+			"wave" "ambient\atmosphere\hole_hit2.wav"
+			"wave" "ambient\atmosphere\hole_hit3.wav"
+			"wave" "ambient\atmosphere\hole_hit4.wav"
+			"wave" "ambient\atmosphere\hole_hit5.wav"
+			"wave" "ambient\atmosphere\hole_hit6.wav"
+			"wave" "ambient/tones/pipes.wav"
+			"wave" "ambient/tones/pipes2.wav"
+		}
+	}
+	"playrandom"
+	{
+		"volume"	"0.3,0.7"
+		"pitch"		"85,95"
+		"time"		"10.0, 15.0"
+		"soundlevel"	"SNDLVL_110dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient\water\distant_drip1.wav"
+			"wave" "ambient\water\distant_drip2.wav"
+			"wave" "ambient\water\distant_drip3.wav"
+			"wave" "ambient\water\distant_drip4.wav"
+
+		}
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.3"
+		"wave"		"ambient\atmosphere\drone2lp.wav"
+		"pitch"		"95"
+	}
+	"playlooping"
+	{
+		"volume"	"0.5"
+		"wave"		"ambient\levels\canals\waterleak_loop1.wav"
+		"pitch"		"95"
+	}
+
+}
+"Uh.Chapter1.ARC.Maintenance.Reservoir"
+{
+	"dsp"	"4"
+
+	"playrandom"
+	{
+		"volume"	"0.3,0.7"
+		"pitch"		"85,95"
+		"time"		"10.0, 15.0"
+		"soundlevel"	"SNDLVL_110dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient\atmosphere\hole_hit1.wav"
+			"wave" "ambient\atmosphere\hole_hit2.wav"
+			"wave" "ambient\atmosphere\hole_hit3.wav"
+			"wave" "ambient\atmosphere\hole_hit4.wav"
+			"wave" "ambient\atmosphere\hole_hit5.wav"
+			"wave" "ambient\atmosphere\hole_hit6.wav"
+			"wave" "ambient/tones/pipes.wav"
+			"wave" "ambient/tones/pipes2.wav"
+		}
+	}
+	"playrandom"
+	{
+		"volume"	"0.3,0.7"
+		"pitch"		"85,95"
+		"time"		"10.0, 25.0"
+		"soundlevel"	"SNDLVL_110dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient\water\distant_drip1.wav"
+			"wave" "ambient\water\distant_drip2.wav"
+			"wave" "ambient\water\distant_drip3.wav"
+			"wave" "ambient\water\distant_drip4.wav"
+
+		}
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.2"
+		"wave"		"ambient\atmosphere\drone2lp.wav"
+		"pitch"		"95"
+	}
+	"playlooping"
+	{
+		"volume"	"1"
+		"position"	"0"
+		"wave"		"ambient\levels\canals\dam_water_loop2.wav"
+		"pitch"		"100"
+	}
+	"playlooping"
+	{
+		"volume"	"1"
+		"position"	"1"
+		"wave"		"ambient\levels\canals\dam_water_loop2.wav"
+		"pitch"		"100"
+	}
+	"playlooping"
+	{
+		"volume"	"1"
+		"position"	"2"
+		"wave"		"ambient\levels\canals\dam_water_loop2.wav"
+		"pitch"		"100"
+	}
+	"playlooping"
+	{
+		"volume"	"1"
+		"position"	"3"
+		"wave"		"ambient\levels\canals\dam_water_loop2.wav"
+		"pitch"		"100"
+	}
+	"playlooping"
+	{
+		"volume"	"1"
+		"position"	"4"
+		"wave"		"ambient\levels\canals\dam_water_loop2.wav"
+		"pitch"		"100"
+	}
+	"playlooping"
+	{
+		"volume"	"1"
+		"position"	"5"
+		"wave"		"ambient\levels\canals\dam_water_loop2.wav"
+		"pitch"		"100"
+	}
+	"playlooping"
+	{
+		"volume"	"1"
+		"position"	"6"
+		"wave"		"ambient\levels\canals\dam_water_loop2.wav"
+		"pitch"		"100"
+	}
+
+}
+"Uh.Chapter1.ARC.Maintenance.Quarters"
+{
+	"dsp"	"1"
+
+	"playrandom"
+	{
+		"volume"	"0.3,0.7"
+		"pitch"		"85,95"
+		"time"		"10.0, 15.0"
+		"soundlevel"	"SNDLVL_110dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient\atmosphere\hole_hit1.wav"
+			"wave" "ambient\atmosphere\hole_hit2.wav"
+			"wave" "ambient\atmosphere\hole_hit3.wav"
+			"wave" "ambient\atmosphere\hole_hit4.wav"
+			"wave" "ambient\atmosphere\hole_hit5.wav"
+			"wave" "ambient\atmosphere\hole_hit6.wav"
+			"wave" "ambient/tones/pipes.wav"
+			"wave" "ambient/tones/pipes2.wav"
+			"wave" "ambient\atmosphere\metallic1.wav"
+			"wave" "ambient\atmosphere\metallic2.wav"
+			"wave" "ambient/misc/equipment_stress2.wav"
+			"wave" "ambient/misc/equipment_stress3.wav"
+			"wave" "ambient\creatures\rats1.wav"
+			"wave" "ambient\creatures\rats2.wav"
+			"wave" "ambient\creatures\rats3.wav"
+			"wave" "ambient\creatures\rats4.wav"
+			"wave" "ambient\materials\metal5.wav"
+			"wave" "ambient\materials\rustypipes1.wav"
+			"wave" "ambient\materials\rustypipes2.wav"
+			"wave" "ambient\materials\rustypipes3.wav"
+		}
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.3"
+		"wave"		"ambient\atmosphere\drone2lp.wav"
+		"pitch"		"95"
+	}
+
+}
+
+"Uh.Chapter1.ARC.Maintenance.Corridor2"
+{
+	"dsp"	"1"
+
+	"playrandom"
+	{
+		"volume"	"0.3,0.7"
+		"pitch"		"85,95"
+		"time"		"10.0, 15.0"
+		"soundlevel"	"SNDLVL_110dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient\atmosphere\hole_hit1.wav"
+			"wave" "ambient\atmosphere\hole_hit2.wav"
+			"wave" "ambient\atmosphere\hole_hit3.wav"
+			"wave" "ambient\atmosphere\hole_hit4.wav"
+			"wave" "ambient\atmosphere\hole_hit5.wav"
+			"wave" "ambient\atmosphere\hole_hit6.wav"
+			"wave" "ambient/tones/pipes.wav"
+			"wave" "ambient/tones/pipes2.wav"
+			"wave" "ambient\atmosphere\metallic1.wav"
+			"wave" "ambient\atmosphere\metallic2.wav"
+			"wave" "ambient/misc/equipment_stress2.wav"
+			"wave" "ambient/misc/equipment_stress3.wav"
+			"wave" "ambient\materials\rustypipes1.wav"
+			"wave" "ambient\materials\rustypipes2.wav"
+			"wave" "ambient\materials\rustypipes3.wav"
+		}
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.3"
+		"wave"		"ambient\atmosphere\cargo_hold2.wav"
+		"pitch"		"95"
+	}
+	"playlooping"
+	{
+		"volume"	"1"
+		"position"	"0"
+		"wave"		"ambient\atmosphere\drone1lp.wav"
+		"pitch"		"100"
+	}
+	"playlooping"
+	{
+		"volume"	"0.5"
+		"position"	"1"
+		"wave"		"ambient\atmosphere\engine_room.wav"
+		"pitch"		"100"
+	}
+	"playlooping"
+	{
+		"volume"	"0.5"
+		"position"	"2"
+		"wave"		"ambient\atmosphere\indoor1.wav"
+		"pitch"		"100"
+	}
+	"playlooping"
+	{
+		"volume"	"0.5"
+		"position"	"3"
+		"wave"		"ambient\atmosphere\laundry_amb.wav"
+		"pitch"		"100"
+	}
+	"playlooping"
+	{
+		"volume"	"0.5"
+		"position"	"4"
+		"wave"		"ambient\atmosphere\laundry_amb.wav"
+		"pitch"		"100"
+	}
+	"playlooping"
+	{
+		"volume"	"0.5"
+		"position"	"5"
+		"wave"		"ambient\atmosphere\pipe1.wav"
+		"pitch"		"100"
+	}
+	"playlooping"
+	{
+		"volume"	"0.5"
+		"position"	"6"
+		"wave"		"ambient\atmosphere\tunnel1.wav"
+		"pitch"		"100"
+	}
+
+}
+
+
+"Uh.Chapter1.ARC.Maintenance.WareHouse"
+{
+	"dsp"	"1"
+
+	"playrandom"
+	{
+		"volume"	"0.3,0.7"
+		"pitch"		"85,95"
+		"time"		"10.0, 15.0"
+		"soundlevel"	"SNDLVL_110dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient\atmosphere\hole_hit1.wav"
+			"wave" "ambient\atmosphere\hole_hit2.wav"
+			"wave" "ambient\atmosphere\hole_hit3.wav"
+			"wave" "ambient\atmosphere\hole_hit4.wav"
+			"wave" "ambient\atmosphere\hole_hit5.wav"
+			"wave" "ambient\atmosphere\hole_hit6.wav"
+			"wave" "ambient/tones/pipes.wav"
+			"wave" "ambient/tones/pipes2.wav"
+			"wave" "ambient\atmosphere\metallic1.wav"
+			"wave" "ambient\atmosphere\metallic2.wav"
+			"wave" "ambient/misc/equipment_stress2.wav"
+			"wave" "ambient/misc/equipment_stress3.wav"
+			"wave" "ambient\materials\rustypipes1.wav"
+			"wave" "ambient\materials\rustypipes2.wav"
+			"wave" "ambient\materials\rustypipes3.wav"
+			"wave" "ambient\materials\creaking.wav"
+			"wave" "ambient\materials\icegrind1.wav"
+			"wave" "ambient\materials\vent_scurry_medium.wav"
+		}
+	}
+
+	"playrandom"
+	{
+		"volume"	"0.1,0.2"
+		"pitch"		"90,110"
+		"time"		"35.0, 85.0"
+		"soundlevel"	"SNDLVL_180dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "screams/far/male_far_scream2.wav"
+			"wave" "screams/far/male_far_scream3.wav"
+			"wave" "screams/far/male_far_scream4.wav"
+			"wave" "screams/far/male_far_scream5.wav"
+			"wave" "screams/far/male_far_scream6.wav"
+			"wave" "screams/far/male_far_scream7.wav"
+
+
+		}
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.3"
+		"wave"		"ambient\atmosphere\undercity_loop1.wav"
+		"pitch"		"95"
+	}
+
+}
+
+"Uh.Chapter1.ARC.Maintenance.Lift"
+{
+	"dsp"	"1"
+
+	"playrandom"
+	{
+		"volume"	"0.3,0.7"
+		"pitch"		"85,95"
+		"time"		"10.0, 15.0"
+		"soundlevel"	"SNDLVL_110dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient\atmosphere\hole_hit1.wav"
+			"wave" "ambient\atmosphere\hole_hit2.wav"
+			"wave" "ambient\atmosphere\hole_hit3.wav"
+			"wave" "ambient\atmosphere\hole_hit4.wav"
+			"wave" "ambient\atmosphere\hole_hit5.wav"
+			"wave" "ambient\atmosphere\hole_hit6.wav"
+			"wave" "ambient/tones/pipes.wav"
+			"wave" "ambient/tones/pipes2.wav"
+			"wave" "ambient\atmosphere\metallic1.wav"
+			"wave" "ambient\atmosphere\metallic2.wav"
+			"wave" "ambient/misc/equipment_stress2.wav"
+			"wave" "ambient/misc/equipment_stress3.wav"
+			"wave" "ambient\materials\rustypipes1.wav"
+			"wave" "ambient\materials\rustypipes2.wav"
+			"wave" "ambient\materials\rustypipes3.wav"
+		}
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.4"
+		"wave"		"ambient\atmosphere\elev_shaft1.wav"
+		"pitch"		"95"
+	}
+
+}
+
+"Uh.Chapter1.ARC.Maintenance.Corridor3"
+{
+	"dsp"	"1"
+
+	"playrandom"
+	{
+		"volume"	"0.3,0.7"
+		"pitch"		"85,95"
+		"time"		"10.0, 15.0"
+		"soundlevel"	"SNDLVL_110dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient\atmosphere\hole_hit1.wav"
+			"wave" "ambient\atmosphere\hole_hit2.wav"
+			"wave" "ambient\atmosphere\hole_hit3.wav"
+			"wave" "ambient\atmosphere\hole_hit4.wav"
+			"wave" "ambient\atmosphere\hole_hit5.wav"
+			"wave" "ambient\atmosphere\hole_hit6.wav"
+			"wave" "ambient/tones/pipes.wav"
+			"wave" "ambient/tones/pipes2.wav"
+			"wave" "ambient\atmosphere\metallic1.wav"
+			"wave" "ambient\atmosphere\metallic2.wav"
+			"wave" "ambient/misc/equipment_stress2.wav"
+			"wave" "ambient/misc/equipment_stress3.wav"
+			"wave" "ambient\materials\rustypipes1.wav"
+			"wave" "ambient\materials\rustypipes2.wav"
+			"wave" "ambient\materials\rustypipes3.wav"
+		}
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.3"
+		"wave"		"ambient\atmosphere\undercity_loop1.wav"
+		"pitch"		"95"
+	}
+	"playlooping"
+	{
+		"volume"	"1"
+		"position"	"0"
+		"wave"		"ambient\atmosphere\drone1lp.wav"
+		"pitch"		"100"
+	}
+	"playlooping"
+	{
+		"volume"	"0.5"
+		"position"	"1"
+		"wave"		"ambient\atmosphere\engine_room.wav"
+		"pitch"		"100"
+	}
+	"playlooping"
+	{
+		"volume"	"0.5"
+		"position"	"2"
+		"wave"		"ambient\atmosphere\indoor1.wav"
+		"pitch"		"100"
+	}
+	"playlooping"
+	{
+		"volume"	"0.5"
+		"position"	"3"
+		"wave"		"ambient\atmosphere\laundry_amb.wav"
+		"pitch"		"100"
+	}
+	"playlooping"
+	{
+		"volume"	"0.5"
+		"position"	"4"
+		"wave"		"ambient\atmosphere\laundry_amb.wav"
+		"pitch"		"100"
+	}
+	"playlooping"
+	{
+		"volume"	"0.5"
+		"position"	"5"
+		"wave"		"ambient\atmosphere\pipe1.wav"
+		"pitch"		"100"
+	}
+	"playlooping"
+	{
+		"volume"	"0.5"
+		"position"	"6"
+		"wave"		"ambient\atmosphere\tunnel1.wav"
+		"pitch"		"100"
+	}
+
+}
+
+"Uh.Chapter1.ARC.Maintenance.Generator.On"
+{
+	"dsp"	"1"
+
+	"playrandom"
+	{
+		"volume"	"0.3,0.7"
+		"pitch"		"85,95"
+		"time"		"10.0, 15.0"
+		"soundlevel"	"SNDLVL_110dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient\atmosphere\hole_hit1.wav"
+			"wave" "ambient\atmosphere\hole_hit2.wav"
+			"wave" "ambient\atmosphere\hole_hit3.wav"
+			"wave" "ambient\atmosphere\hole_hit4.wav"
+			"wave" "ambient\atmosphere\hole_hit5.wav"
+			"wave" "ambient\atmosphere\hole_hit6.wav"
+			"wave" "ambient/tones/pipes.wav"
+			"wave" "ambient/tones/pipes2.wav"
+			"wave" "ambient\atmosphere\metallic1.wav"
+			"wave" "ambient\atmosphere\metallic2.wav"
+			"wave" "ambient/misc/equipment_stress2.wav"
+			"wave" "ambient/misc/equipment_stress3.wav"
+			"wave" "ambient\materials\rustypipes1.wav"
+			"wave" "ambient\materials\rustypipes2.wav"
+			"wave" "ambient\materials\rustypipes3.wav"
+		}
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.3"
+		"wave"		"ambient\atmosphere\cargo_hold1.wav"
+		"pitch"		"95"
+	}
+
+}
+"Uh.Chapter1.ARC.Maintenance.Generator.Off"
+{
+	"dsp"	"1"
+
+	"playrandom"
+	{
+		"volume"	"0.3,0.7"
+		"pitch"		"85,95"
+		"time"		"10.0, 15.0"
+		"soundlevel"	"SNDLVL_110dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient\atmosphere\hole_hit1.wav"
+			"wave" "ambient\atmosphere\hole_hit2.wav"
+			"wave" "ambient\atmosphere\hole_hit3.wav"
+			"wave" "ambient\atmosphere\hole_hit4.wav"
+			"wave" "ambient\atmosphere\hole_hit5.wav"
+			"wave" "ambient\atmosphere\hole_hit6.wav"
+			"wave" "ambient/tones/pipes.wav"
+			"wave" "ambient/tones/pipes2.wav"
+			"wave" "ambient\atmosphere\metallic1.wav"
+			"wave" "ambient\atmosphere\metallic2.wav"
+			"wave" "ambient/misc/equipment_stress2.wav"
+			"wave" "ambient/misc/equipment_stress3.wav"
+			"wave" "ambient\materials\rustypipes1.wav"
+			"wave" "ambient\materials\rustypipes2.wav"
+			"wave" "ambient\materials\rustypipes3.wav"
+		}
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.5"
+		"wave"		"ambient\atmosphere\drone4lp.wav"
+		"pitch"		"95"
+	}
+
+}
+
+"Uh.Chapter1.ARC.Level1"
+{
+	"dsp"	"1"
+
+	"playrandom"
+	{
+		"volume"	"0.1,0.2"
+		"pitch"		"90,110"
+		"time"		"5.0, 12.0"
+		"soundlevel"	"SNDLVL_130dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient\atmosphere\hole_hit1.wav"
+			"wave" "ambient\atmosphere\hole_hit2.wav"
+			"wave" "ambient\atmosphere\hole_hit3.wav"
+			"wave" "ambient\atmosphere\hole_hit4.wav"
+			"wave" "ambient\atmosphere\hole_hit5.wav"
+			"wave" "ambient\atmosphere\hole_hit6.wav"
+			"wave" "ambient\atmosphere\metallic1.wav"
+			"wave" "ambient\atmosphere\metallic2.wav"
+			"wave" "ambient/misc/equipment_stress2.wav"
+			"wave" "ambient/misc/equipment_stress3.wav"
+			"wave" "ambient\creatures\rats1.wav"
+			"wave" "ambient\creatures\rats2.wav"
+			"wave" "ambient\creatures\rats3.wav"
+			"wave" "ambient\creatures\rats4.wav"
+			"wave" "ambient\materials\metal5.wav"
+			"wave" "ambient\materials\rustypipes1.wav"
+			"wave" "ambient\materials\rustypipes2.wav"
+			"wave" "ambient\materials\rustypipes3.wav"
+			"wave" "ambient\materials\creaking.wav"
+			"wave" "ambient\materials\icegrind1.wav"
+		}
+	}
+	"playrandom"
+	{
+		"volume"	"0.3,0.8"
+		"pitch"		"90,110"
+		"time"		"10.0, 35.0"
+		"soundlevel"	"SNDLVL_130dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient/materials/metal_rattle1.wav"
+			"wave" "ambient/materials/metal_rattle3.wav"
+			"wave" "ambient/materials/metal_rattle4.wav"
+			"wave" "ambient/materials/metal4.wav"
+			"wave" "ambient/misc/metal3.wav"
+			"wave" "ambient/misc/metal6.wav"
+			"wave" "ambient/misc/metal7.wav"
+			"wave" "ambient/misc/metal8.wav"
+			"wave" "ambient/misc/metal9.wav"
+
+		}
+	}
+	"playrandom"
+	{
+		"volume"	"0.1,0.2"
+		"pitch"		"90,110"
+		"time"		"35.0, 85.0"
+		"soundlevel"	"SNDLVL_120dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "screams/far/male_far_scream2.wav"
+			"wave" "screams/far/male_far_scream3.wav"
+			"wave" "screams/far/male_far_scream4.wav"
+			"wave" "screams/far/male_far_scream5.wav"
+			"wave" "screams/far/male_far_scream6.wav"
+			"wave" "screams/far/male_far_scream7.wav"
+
+
+		}
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.4"
+		"wave"		"ambient\atmosphere\engine_room.wav"
+		"pitch"		"100"
+	}
+	"playlooping"
+	{
+		"volume"	"0.1"
+		"position"	"0"
+		"wave"		"ambient\levels\canals\generator_ambience_loop1.wav"
+		"pitch"		"100"
+	}
+
+}
+"Uh.Chapter1.ARC.Level1.SafeRoom"
+{
+	"dsp"	"1"
+
+	"playrandom"
+	{
+		"volume"	"0.1,0.2"
+		"pitch"		"90,110"
+		"time"		"20.0, 35.0"
+		"soundlevel"	"SNDLVL_130dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient\atmosphere\metallic1.wav"
+			"wave" "ambient\atmosphere\metallic2.wav"
+			"wave" "ambient\tones\pipes.wav"
+		}
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.1"
+		"wave"		"ambient\machines\lab_loop1.wav"
+		"pitch"		"100"
+	}
+	"playlooping"
+	{
+		"volume"	"0.05"
+		"position"	"0"
+		"wave"		"ambient\levels\canals\generator_ambience_loop1.wav"
+		"pitch"		"100"
+	}
+	"playlooping"
+	{
+		"volume"	"0.05"
+		"position"	"1"
+		"wave"		"ambient\machines\power_transformer_loop_2.wav"
+		"pitch"		"100"
+	}
+	"playlooping"
+	{
+		"volume"	"0.05"
+		"position"	"2"
+		"wave"		"ambient\electric\electric_hum_whine.wav"
+		"pitch"		"100"
+	}
+
+
+}
+"Uh.Chapter1.ARC.Residential.Corridor"
+{
+	"dsp"	"1"
+
+	"playrandom"
+	{
+		"volume"	"0.1,0.3"
+		"pitch"		"90,110"
+		"time"		"5.0, 22.0"
+		"soundlevel"	"SNDLVL_130dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient\atmosphere\hole_hit1.wav"
+			"wave" "ambient\atmosphere\hole_hit2.wav"
+			"wave" "ambient\atmosphere\hole_hit3.wav"
+			"wave" "ambient\atmosphere\hole_hit4.wav"
+			"wave" "ambient\atmosphere\hole_hit5.wav"
+			"wave" "ambient\atmosphere\hole_hit6.wav"
+			"wave" "ambient\atmosphere\metallic1.wav"
+			"wave" "ambient\atmosphere\metallic2.wav"
+			"wave" "ambient/misc/equipment_stress2.wav"
+			"wave" "ambient/misc/equipment_stress3.wav"
+			"wave" "ambient\materials\rustypipes1.wav"
+			"wave" "ambient\materials\rustypipes2.wav"
+			"wave" "ambient\materials\rustypipes3.wav"
+			"wave" "ambient/materials/metal_rattle1.wav"
+			"wave" "ambient/materials/metal_rattle3.wav"
+			"wave" "ambient/materials/metal_rattle4.wav"
+			"wave" "ambient/materials/metal4.wav"
+			"wave" "ambient/misc/metal3.wav"
+			"wave" "ambient/misc/metal6.wav"
+			"wave" "ambient/misc/metal7.wav"
+			"wave" "ambient/misc/metal8.wav"
+			"wave" "ambient/misc/metal9.wav"
+		}
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.2"
+		"wave"		"ambient\machines\lab_loop1.wav"
+		"pitch"		"100"
+	}
+
+}
+"Uh.Chapter1.ARC.Residential"
+{
+	"dsp"	"1"
+
+	"playrandom"
+	{
+		"volume"	"0.1,0.3"
+		"pitch"		"90,110"
+		"time"		"5.0, 12.0"
+		"soundlevel"	"SNDLVL_130dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient\atmosphere\hole_hit1.wav"
+			"wave" "ambient\atmosphere\hole_hit2.wav"
+			"wave" "ambient\atmosphere\hole_hit3.wav"
+			"wave" "ambient\atmosphere\hole_hit4.wav"
+			"wave" "ambient\atmosphere\hole_hit5.wav"
+			"wave" "ambient\atmosphere\hole_hit6.wav"
+			"wave" "ambient\atmosphere\metallic1.wav"
+			"wave" "ambient\atmosphere\metallic2.wav"
+			"wave" "ambient/misc/equipment_stress2.wav"
+			"wave" "ambient/misc/equipment_stress3.wav"
+			"wave" "ambient\materials\metal5.wav"
+			"wave" "ambient\materials\rustypipes1.wav"
+			"wave" "ambient\materials\rustypipes2.wav"
+			"wave" "ambient\materials\rustypipes3.wav"
+			"wave" "ambient\materials\creaking.wav"
+			"wave" "ambient\materials\icegrind1.wav"
+			"wave" "ambient\misc\shutter6.wav"
+			"wave" "ambient\misc\shutter7.wav"
+			"wave" "ambient\misc\shutter8.wav"
+			"wave" "ambient\materials\vent_scurry_medium.wav"
+		}
+	}
+	"playrandom"
+	{
+		"volume"	"0.3,0.8"
+		"pitch"		"90,110"
+		"time"		"10.0, 35.0"
+		"soundlevel"	"SNDLVL_130dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient/materials/metal_rattle1.wav"
+			"wave" "ambient/materials/metal_rattle3.wav"
+			"wave" "ambient/materials/metal_rattle4.wav"
+			"wave" "ambient/materials/metal4.wav"
+			"wave" "ambient/misc/metal2.wav"
+			"wave" "ambient/misc/metal6.wav"
+			"wave" "ambient/misc/metal7.wav"
+			"wave" "ambient/misc/metal8.wav"
+			"wave" "ambient/misc/metal9.wav"
+
+		}
+	}
+	"playrandom"
+	{
+		"volume"	"0.1,0.2"
+		"pitch"		"90,110"
+		"time"		"35.0, 85.0"
+		"soundlevel"	"SNDLVL_120dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "screams/far/male_far_scream2.wav"
+			"wave" "screams/far/male_far_scream3.wav"
+			"wave" "screams/far/male_far_scream4.wav"
+			"wave" "screams/far/male_far_scream5.wav"
+			"wave" "screams/far/male_far_scream6.wav"
+			"wave" "screams/far/male_far_scream7.wav"
+
+
+		}
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.3"
+		"wave"		"ambient\atmosphere\cargo_hold2.wav"
+		"pitch"		"100"
+	}
+
+}
+"Uh.Chapter1.ARC.MedicalBay"
+{
+	"dsp"	"1"
+
+	"playrandom"
+	{
+		"volume"	"0.1,0.3"
+		"pitch"		"90,110"
+		"time"		"5.0, 25.0"
+		"soundlevel"	"SNDLVL_130dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient\atmosphere\hole_hit1.wav"
+			"wave" "ambient\atmosphere\hole_hit2.wav"
+			"wave" "ambient\atmosphere\hole_hit3.wav"
+			"wave" "ambient\atmosphere\hole_hit4.wav"
+			"wave" "ambient\atmosphere\hole_hit5.wav"
+			"wave" "ambient\atmosphere\hole_hit6.wav"
+			"wave" "ambient\atmosphere\metallic1.wav"
+			"wave" "ambient\atmosphere\metallic2.wav"
+			"wave" "ambient/misc/equipment_stress2.wav"
+			"wave" "ambient/misc/equipment_stress3.wav"
+			"wave" "ambient\materials\metal5.wav"
+			"wave" "ambient\materials\rustypipes1.wav"
+			"wave" "ambient\materials\rustypipes2.wav"
+			"wave" "ambient\materials\rustypipes3.wav"
+		}
+	}
+
+
+	"playlooping"
+	{
+		"volume"	"0.3"
+		"wave"		"ambient\atmosphere\quiet_cellblock_amb.wav"
+		"pitch"		"100"
+	}
+
+}
+"Uh.Chapter1.ARC.Residential.Pool"
+{
+	"dsp"	"4"
+
+	"playrandom"
+	{
+		"volume"	"0.1,0.3"
+		"pitch"		"90,110"
+		"time"		"5.0, 12.0"
+		"soundlevel"	"SNDLVL_130dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient\atmosphere\hole_hit1.wav"
+			"wave" "ambient\atmosphere\hole_hit2.wav"
+			"wave" "ambient\atmosphere\hole_hit3.wav"
+			"wave" "ambient\atmosphere\hole_hit4.wav"
+			"wave" "ambient\atmosphere\hole_hit5.wav"
+			"wave" "ambient\atmosphere\hole_hit6.wav"
+			"wave" "ambient\atmosphere\metallic1.wav"
+			"wave" "ambient\atmosphere\metallic2.wav"
+			"wave" "ambient/misc/equipment_stress2.wav"
+			"wave" "ambient/misc/equipment_stress3.wav"
+			"wave" "ambient\materials\metal5.wav"
+			"wave" "ambient\materials\rustypipes1.wav"
+			"wave" "ambient\materials\rustypipes2.wav"
+			"wave" "ambient\materials\rustypipes3.wav"
+			"wave" "ambient\materials\creaking.wav"
+			"wave" "ambient\materials\icegrind1.wav"
+			"wave" "ambient\misc\shutter6.wav"
+			"wave" "ambient\misc\shutter7.wav"
+			"wave" "ambient\misc\shutter8.wav"
+			"wave" "ambient\materials\vent_scurry_medium.wav"
+		}
+	}
+	"playrandom"
+	{
+		"volume"	"0.3,0.8"
+		"pitch"		"90,110"
+		"time"		"10.0, 35.0"
+		"soundlevel"	"SNDLVL_130dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient/materials/metal_rattle1.wav"
+			"wave" "ambient/materials/metal_rattle3.wav"
+			"wave" "ambient/materials/metal_rattle4.wav"
+			"wave" "ambient/materials/metal4.wav"
+			"wave" "ambient/misc/metal2.wav"
+			"wave" "ambient/misc/metal6.wav"
+			"wave" "ambient/misc/metal7.wav"
+			"wave" "ambient/misc/metal8.wav"
+			"wave" "ambient/misc/metal9.wav"
+
+		}
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.3"
+		"wave"		"ambient\atmosphere\cargo_hold2.wav"
+		"pitch"		"100"
+	}
+
+
+	"playlooping"
+	{
+		"volume"	"0.1"
+		"wave"		"ambient\levels\canals\waterleak_loop1.wav"
+		"pitch"		"100"
+	}
+}
+
+"Uh.Chapter1.ARC.Level2.Laboratories"
+{
+	"dsp"	"1"
+
+	"playrandom"
+	{
+		"volume"	"0.3,0.7"
+		"pitch"		"85,95"
+		"time"		"10.0, 15.0"
+		"soundlevel"	"SNDLVL_110dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient\atmosphere\hole_hit1.wav"
+			"wave" "ambient\atmosphere\hole_hit2.wav"
+			"wave" "ambient\atmosphere\hole_hit3.wav"
+			"wave" "ambient\atmosphere\hole_hit4.wav"
+			"wave" "ambient\atmosphere\hole_hit5.wav"
+			"wave" "ambient\atmosphere\hole_hit6.wav"
+			"wave" "ambient/tones/pipes.wav"
+			"wave" "ambient/tones/pipes2.wav"
+			"wave" "ambient\atmosphere\metallic1.wav"
+			"wave" "ambient\atmosphere\metallic2.wav"
+			"wave" "ambient/misc/equipment_stress2.wav"
+			"wave" "ambient/misc/equipment_stress3.wav"
+			"wave" "ambient\materials\rustypipes1.wav"
+			"wave" "ambient\materials\rustypipes2.wav"
+			"wave" "ambient\materials\rustypipes3.wav"
+		}
+	}
+
+	"playrandom"
+	{
+		"volume"	"0.1,0.2"
+		"pitch"		"90,110"
+		"time"		"35.0, 85.0"
+		"soundlevel"	"SNDLVL_120dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "screams/far/male_far_scream2.wav"
+			"wave" "screams/far/male_far_scream3.wav"
+			"wave" "screams/far/male_far_scream4.wav"
+			"wave" "screams/far/male_far_scream5.wav"
+			"wave" "screams/far/male_far_scream6.wav"
+			"wave" "screams/far/male_far_scream7.wav"
+
+
+		}
+	}
+
+	"playrandom"
+	{
+		"volume"	"0.3,0.8"
+		"pitch"		"90,110"
+		"time"		"10.0, 35.0"
+		"soundlevel"	"SNDLVL_130dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient/materials/metal_rattle1.wav"
+			"wave" "ambient/materials/metal_rattle3.wav"
+			"wave" "ambient/materials/metal_rattle4.wav"
+			"wave" "ambient/materials/metal4.wav"
+			"wave" "ambient/misc/metal2.wav"
+			"wave" "ambient/misc/metal6.wav"
+			"wave" "ambient/misc/metal7.wav"
+			"wave" "ambient/misc/metal8.wav"
+			"wave" "ambient/misc/metal9.wav"
+
+		}
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.7"
+		"wave"		"ambient\atmosphere\drone4lp.wav"
+		"pitch"		"95"
+	}
+
+}
+"Uh.Chapter1.ARC.Level2.Laboratories.Labs"
+{
+	"dsp"	"1"
+
+	"playrandom"
+	{
+		"volume"	"0.3,0.7"
+		"pitch"		"85,95"
+		"time"		"10.0, 15.0"
+		"soundlevel"	"SNDLVL_110dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient\atmosphere\hole_hit1.wav"
+			"wave" "ambient\atmosphere\hole_hit2.wav"
+			"wave" "ambient\atmosphere\hole_hit3.wav"
+			"wave" "ambient\atmosphere\hole_hit4.wav"
+			"wave" "ambient\atmosphere\hole_hit5.wav"
+			"wave" "ambient\atmosphere\hole_hit6.wav"
+			"wave" "ambient/tones/pipes.wav"
+			"wave" "ambient/tones/pipes2.wav"
+			"wave" "ambient\atmosphere\metallic1.wav"
+			"wave" "ambient\atmosphere\metallic2.wav"
+			"wave" "ambient/misc/equipment_stress2.wav"
+			"wave" "ambient/misc/equipment_stress3.wav"
+			"wave" "ambient\materials\rustypipes1.wav"
+			"wave" "ambient\materials\rustypipes2.wav"
+			"wave" "ambient\materials\rustypipes3.wav"
+		}
+	}
+
+	"playrandom"
+	{
+		"volume"	"0.1,0.2"
+		"pitch"		"90,110"
+		"time"		"35.0, 85.0"
+		"soundlevel"	"SNDLVL_120dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "screams/far/male_far_scream2.wav"
+			"wave" "screams/far/male_far_scream3.wav"
+			"wave" "screams/far/male_far_scream4.wav"
+			"wave" "screams/far/male_far_scream5.wav"
+			"wave" "screams/far/male_far_scream6.wav"
+			"wave" "screams/far/male_far_scream7.wav"
+
+
+		}
+	}
+
+	"playrandom"
+	{
+		"volume"	"0.3,0.8"
+		"pitch"		"90,110"
+		"time"		"10.0, 35.0"
+		"soundlevel"	"SNDLVL_130dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient/materials/metal_rattle1.wav"
+			"wave" "ambient/materials/metal_rattle3.wav"
+			"wave" "ambient/materials/metal_rattle4.wav"
+			"wave" "ambient/materials/metal4.wav"
+			"wave" "ambient/misc/metal2.wav"
+			"wave" "ambient/misc/metal6.wav"
+			"wave" "ambient/misc/metal7.wav"
+			"wave" "ambient/misc/metal8.wav"
+			"wave" "ambient/misc/metal9.wav"
+
+		}
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.4"
+		"wave"		"ambient\atmosphere\tunnel1.wav"
+		"pitch"		"95"
+	}
+
+}
+"Uh.Chapter1.ARC.Level2.Laboratories.Under"
+{
+	"dsp"	"1"
+
+	"playrandom"
+	{
+		"volume"	"0.3,0.7"
+		"pitch"		"85,95"
+		"time"		"10.0, 15.0"
+		"soundlevel"	"SNDLVL_110dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient\atmosphere\hole_hit1.wav"
+			"wave" "ambient\atmosphere\hole_hit2.wav"
+			"wave" "ambient\atmosphere\hole_hit3.wav"
+			"wave" "ambient\atmosphere\hole_hit4.wav"
+			"wave" "ambient\atmosphere\hole_hit5.wav"
+			"wave" "ambient\atmosphere\hole_hit6.wav"
+			"wave" "ambient/tones/pipes.wav"
+			"wave" "ambient/tones/pipes2.wav"
+			"wave" "ambient\atmosphere\metallic1.wav"
+			"wave" "ambient\atmosphere\metallic2.wav"
+			"wave" "ambient/misc/equipment_stress2.wav"
+			"wave" "ambient/misc/equipment_stress3.wav"
+			"wave" "ambient\materials\rustypipes1.wav"
+			"wave" "ambient\materials\rustypipes2.wav"
+			"wave" "ambient\materials\rustypipes3.wav"
+		}
+	}
+
+	"playrandom"
+	{
+		"volume"	"0.1,0.2"
+		"pitch"		"90,110"
+		"time"		"35.0, 85.0"
+		"soundlevel"	"SNDLVL_120dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "screams/far/male_far_scream2.wav"
+			"wave" "screams/far/male_far_scream3.wav"
+			"wave" "screams/far/male_far_scream4.wav"
+			"wave" "screams/far/male_far_scream5.wav"
+			"wave" "screams/far/male_far_scream6.wav"
+			"wave" "screams/far/male_far_scream7.wav"
+
+
+		}
+	}
+
+	"playrandom"
+	{
+		"volume"	"0.3,0.8"
+		"pitch"		"90,110"
+		"time"		"10.0, 35.0"
+		"soundlevel"	"SNDLVL_130dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient/materials/metal_rattle1.wav"
+			"wave" "ambient/materials/metal_rattle3.wav"
+			"wave" "ambient/materials/metal_rattle4.wav"
+			"wave" "ambient/materials/metal4.wav"
+			"wave" "ambient/misc/metal2.wav"
+			"wave" "ambient/misc/metal6.wav"
+			"wave" "ambient/misc/metal7.wav"
+			"wave" "ambient/misc/metal8.wav"
+			"wave" "ambient/misc/metal9.wav"
+
+		}
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.5"
+		"wave"		"ambient\atmosphere\drone2lp.wav"
+		"pitch"		"95"
+	}
+
+}
+
+"Uh.Chapter1.ARC.Level5"
+{
+	"dsp"	"1"
+
+	"playrandom"
+	{
+		"volume"	"0.1,0.2"
+		"pitch"		"90,110"
+		"time"		"8.0, 16.0"
+		"soundlevel"	"SNDLVL_130dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient\atmosphere\hole_hit1.wav"
+			"wave" "ambient\atmosphere\hole_hit2.wav"
+			"wave" "ambient\atmosphere\hole_hit3.wav"
+			"wave" "ambient\atmosphere\hole_hit4.wav"
+			"wave" "ambient\atmosphere\hole_hit5.wav"
+			"wave" "ambient\atmosphere\hole_hit6.wav"
+			"wave" "ambient\atmosphere\metallic1.wav"
+			"wave" "ambient\atmosphere\metallic2.wav"
+			"wave" "ambient/misc/equipment_stress2.wav"
+			"wave" "ambient/misc/equipment_stress3.wav"
+			"wave" "ambient\materials\metal5.wav"
+			"wave" "ambient\materials\rustypipes1.wav"
+			"wave" "ambient\materials\rustypipes2.wav"
+			"wave" "ambient\materials\rustypipes3.wav"
+			"wave" "ambient\tones\pipes.wav"
+			"wave" "ambient\materials\creaking.wav"
+		}
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.4"
+		"wave"		"ambient\atmosphere\cargo_hold2.wav"
+		"pitch"		"100"
+	}
+
+}
+"Uh.Chapter1.ARC.Level5.Corridor"
+{
+	"dsp"	"1"
+
+	"playrandom"
+	{
+		"volume"	"0.1,0.2"
+		"pitch"		"90,110"
+		"time"		"8.0, 16.0"
+		"soundlevel"	"SNDLVL_130dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient\atmosphere\hole_hit1.wav"
+			"wave" "ambient\atmosphere\hole_hit2.wav"
+			"wave" "ambient\atmosphere\hole_hit3.wav"
+			"wave" "ambient\atmosphere\hole_hit4.wav"
+			"wave" "ambient\atmosphere\hole_hit5.wav"
+			"wave" "ambient\atmosphere\hole_hit6.wav"
+			"wave" "ambient\atmosphere\metallic1.wav"
+			"wave" "ambient\atmosphere\metallic2.wav"
+			"wave" "ambient/misc/equipment_stress2.wav"
+			"wave" "ambient/misc/equipment_stress3.wav"
+			"wave" "ambient\materials\metal5.wav"
+			"wave" "ambient\materials\rustypipes1.wav"
+			"wave" "ambient\materials\rustypipes2.wav"
+			"wave" "ambient\materials\rustypipes3.wav"
+			"wave" "ambient\tones\pipes.wav"
+			"wave" "ambient\materials\creaking.wav"
+		}
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.4"
+		"wave"		"ambient\atmosphere\engine_room.wav"
+		"pitch"		"100"
+	}
+
+}
+
+"Uh.Chapter1.ARC.Conveyors"
+{
+	"dsp"	"1"
+
+	"playrandom"
+	{
+		"volume"	"0.3,0.7"
+		"pitch"		"85,95"
+		"time"		"10.0, 15.0"
+		"soundlevel"	"SNDLVL_110dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient\atmosphere\hole_hit1.wav"
+			"wave" "ambient\atmosphere\hole_hit2.wav"
+			"wave" "ambient\atmosphere\hole_hit3.wav"
+			"wave" "ambient\atmosphere\hole_hit4.wav"
+			"wave" "ambient\atmosphere\hole_hit5.wav"
+			"wave" "ambient\atmosphere\hole_hit6.wav"
+			"wave" "ambient/tones/pipes.wav"
+			"wave" "ambient/tones/pipes2.wav"
+			"wave" "ambient\atmosphere\metallic1.wav"
+			"wave" "ambient\atmosphere\metallic2.wav"
+			"wave" "ambient/misc/equipment_stress2.wav"
+			"wave" "ambient/misc/equipment_stress3.wav"
+			"wave" "ambient\materials\rustypipes1.wav"
+			"wave" "ambient\materials\rustypipes2.wav"
+			"wave" "ambient\materials\rustypipes3.wav"
+			"wave" "ambient\materials\creaking.wav"
+			"wave" "ambient\materials\icegrind1.wav"
+			"wave" "ambient\materials\vent_scurry_medium.wav"
+		}
+	}
+
+	"playrandom"
+	{
+		"volume"	"0.1,0.2"
+		"pitch"		"90,110"
+		"time"		"35.0, 85.0"
+		"soundlevel"	"SNDLVL_180dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "screams/far/male_far_scream2.wav"
+			"wave" "screams/far/male_far_scream3.wav"
+			"wave" "screams/far/male_far_scream4.wav"
+			"wave" "screams/far/male_far_scream5.wav"
+			"wave" "screams/far/male_far_scream6.wav"
+			"wave" "screams/far/male_far_scream7.wav"
+
+
+		}
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.2"
+		"wave"		"ambient\atmosphere\undercity_loop1.wav"
+		"pitch"		"95"
+	}
+
+}
+
+"Uh.Chapter1.ARC.Conveyors.Room"
+{
+	"dsp"	"1"
+
+	"playrandom"
+	{
+		"volume"	"0.3,0.7"
+		"pitch"		"85,95"
+		"time"		"10.0, 15.0"
+		"soundlevel"	"SNDLVL_110dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient\atmosphere\hole_hit1.wav"
+			"wave" "ambient\atmosphere\hole_hit2.wav"
+			"wave" "ambient\atmosphere\hole_hit3.wav"
+			"wave" "ambient\atmosphere\hole_hit4.wav"
+			"wave" "ambient\atmosphere\hole_hit5.wav"
+			"wave" "ambient\atmosphere\hole_hit6.wav"
+			"wave" "ambient/tones/pipes.wav"
+			"wave" "ambient/tones/pipes2.wav"
+			"wave" "ambient\atmosphere\metallic1.wav"
+			"wave" "ambient\atmosphere\metallic2.wav"
+			"wave" "ambient/misc/equipment_stress2.wav"
+			"wave" "ambient/misc/equipment_stress3.wav"
+			"wave" "ambient\materials\rustypipes1.wav"
+			"wave" "ambient\materials\rustypipes2.wav"
+			"wave" "ambient\materials\rustypipes3.wav"
+			"wave" "ambient\materials\creaking.wav"
+			"wave" "ambient\materials\icegrind1.wav"
+			"wave" "ambient\materials\vent_scurry_medium.wav"
+		}
+	}
+
+	"playrandom"
+	{
+		"volume"	"0.1,0.2"
+		"pitch"		"90,110"
+		"time"		"35.0, 85.0"
+		"soundlevel"	"SNDLVL_180dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "screams/far/male_far_scream2.wav"
+			"wave" "screams/far/male_far_scream3.wav"
+			"wave" "screams/far/male_far_scream4.wav"
+			"wave" "screams/far/male_far_scream5.wav"
+			"wave" "screams/far/male_far_scream6.wav"
+			"wave" "screams/far/male_far_scream7.wav"
+
+
+		}
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.3"
+		"wave"		"ambient\atmosphere\underground.wav"
+		"pitch"		"95"
+	}
+
+}
+
+"Uh.Chapter1.ARC.Train.Tunnel.Inside"
+{
+	"dsp"	"4"
+
+	"playrandom"
+	{
+		"volume"	"0.3,0.8"
+		"pitch"		"85,95"
+		"time"		"10.0, 15.0"
+		"soundlevel"	"SNDLVL_110dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "physics\metal\metal_solid_strain1.wav"
+			"wave" "physics\metal\metal_solid_strain2.wav"
+			"wave" "physics\metal\metal_solid_strain3.wav"
+			"wave" "physics\metal\metal_box_strain1.wav"
+			"wave" "physics\metal\metal_box_strain2.wav"
+			"wave" "physics\metal\metal_box_strain3.wav"
+			"wave" "physics\metal\metal_box_strain4.wav"
+			"wave" "ambient\materials\metal_stress1.wav"
+			"wave" "ambient\materials\metal_stress2.wav"
+			"wave" "ambient\materials\metal_stress3.wav"
+			"wave" "ambient\materials\metal_stress4.wav"
+			"wave" "ambient\materials\metal_stress5.wav"
+			"wave" "ambient\misc\metal_str4.wav"
+			"wave" "ambient\misc\metal_str5.wav"
+		}
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.2"
+		"wave"		"ambient\atmosphere\undercity_loop1.wav"
+		"pitch"		"120"
+	}
+
+}
+
+"Uh.Chapter1.ARC.Train.Tunnel.Outside"
+{
+	"dsp"	"7"
+
+	"playrandom"
+	{
+		"volume"	"0.3,0.7"
+		"pitch"		"85,95"
+		"time"		"10.0, 15.0"
+		"soundlevel"	"SNDLVL_110dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient\atmosphere\hole_hit1.wav"
+			"wave" "ambient\atmosphere\hole_hit2.wav"
+			"wave" "ambient\atmosphere\hole_hit3.wav"
+			"wave" "ambient\atmosphere\hole_hit4.wav"
+			"wave" "ambient\atmosphere\hole_hit5.wav"
+			"wave" "ambient\atmosphere\hole_hit6.wav"
+			"wave" "ambient/tones/pipes.wav"
+			"wave" "ambient\atmosphere\metallic1.wav"
+			"wave" "ambient\atmosphere\metallic2.wav"
+		}
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.4"
+		"wave"		"ambient\atmosphere\underground_hall_loop1.wav"
+		"pitch"		"90"
+	}
+
+}
+
+"Uh.Chapter1.ARC.Train.Tunnel.Outside.Wind"
+{
+	"dsp"	"7"
+
+	"playrandom"
+	{
+		"volume"	"0.3,0.7"
+		"pitch"		"85,95"
+		"time"		"10.0, 15.0"
+		"soundlevel"	"SNDLVL_110dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient\atmosphere\hole_hit1.wav"
+			"wave" "ambient\atmosphere\hole_hit2.wav"
+			"wave" "ambient\atmosphere\hole_hit3.wav"
+			"wave" "ambient\atmosphere\hole_hit4.wav"
+			"wave" "ambient\atmosphere\hole_hit5.wav"
+			"wave" "ambient\atmosphere\hole_hit6.wav"
+			"wave" "ambient/tones/pipes.wav"
+			"wave" "ambient\atmosphere\metallic1.wav"
+			"wave" "ambient\atmosphere\metallic2.wav"
+		}
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.4"
+		"wave"		"ambient\atmosphere\underground_hall_loop1.wav"
+		"pitch"		"90"
+	}
+	"playlooping"
+	{
+		"volume"	"0.6"
+		"wave"		"vehicles\fast_windloop1.wav"
+		"pitch"		"95"
+	}
+
+}
+
+"Uh.Chapter1.ARC.Train.Lift"
+{
+	"dsp"	"13"
+
+	"playrandom"
+	{
+		"volume"	"0.3,0.8"
+		"pitch"		"85,95"
+		"time"		"10.0, 15.0"
+		"soundlevel"	"SNDLVL_110dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient\atmosphere\hole_hit1.wav"
+			"wave" "ambient\atmosphere\hole_hit2.wav"
+			"wave" "ambient\atmosphere\hole_hit3.wav"
+			"wave" "ambient\atmosphere\hole_hit4.wav"
+			"wave" "ambient\atmosphere\hole_hit5.wav"
+			"wave" "ambient\atmosphere\hole_hit6.wav"
+			"wave" "ambient/tones/pipes.wav"
+			"wave" "ambient\atmosphere\metallic1.wav"
+			"wave" "ambient\atmosphere\metallic2.wav"
+		}
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.3"
+		"wave"		"ambient\atmosphere\undercity_loop1.wav"
+		"pitch"		"120"
+	}
+
+}
+
+"Uh.Chapter1.ARC.Train.Hall"
+{
+	"dsp"	"7"
+
+	"playrandom"
+	{
+		"volume"	"0.3,0.7"
+		"pitch"		"85,95"
+		"time"		"10.0, 15.0"
+		"soundlevel"	"SNDLVL_110dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient\atmosphere\hole_hit1.wav"
+			"wave" "ambient\atmosphere\hole_hit2.wav"
+			"wave" "ambient\atmosphere\hole_hit3.wav"
+			"wave" "ambient\atmosphere\hole_hit4.wav"
+			"wave" "ambient\atmosphere\hole_hit5.wav"
+			"wave" "ambient\atmosphere\hole_hit6.wav"
+			"wave" "ambient/tones/pipes.wav"
+			"wave" "ambient\atmosphere\metallic1.wav"
+			"wave" "ambient\atmosphere\metallic2.wav"
+		}
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.4"
+		"wave"		"ambient\wind\wind_rooftop1.wav"
+		"pitch"		"90"
+	}
+
+}
+
+"Uh.Chapter1.WareHouse"
+{
+	"dsp"	"4"
+
+	"playrandom"
+	{
+		"volume"	"0.2,0.5"
+		"pitch"		"85,95"
+		"time"		"10.0, 15.0"
+		"soundlevel"	"SNDLVL_110dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient\atmosphere\hole_hit1.wav"
+			"wave" "ambient\atmosphere\hole_hit2.wav"
+			"wave" "ambient\atmosphere\hole_hit3.wav"
+			"wave" "ambient\atmosphere\hole_hit4.wav"
+			"wave" "ambient\atmosphere\hole_hit5.wav"
+			"wave" "ambient\atmosphere\hole_hit6.wav"
+			"wave" "ambient/tones/pipes.wav"
+			"wave" "ambient/tones/pipes2.wav"
+			"wave" "ambient\atmosphere\metallic1.wav"
+			"wave" "ambient\atmosphere\metallic2.wav"
+			"wave" "ambient/misc/equipment_stress2.wav"
+			"wave" "ambient/misc/equipment_stress3.wav"
+			"wave" "ambient\materials\rustypipes1.wav"
+			"wave" "ambient\materials\rustypipes2.wav"
+			"wave" "ambient\materials\rustypipes3.wav"
+			"wave" "ambient\materials\creaking.wav"
+			"wave" "ambient\materials\icegrind1.wav"
+			"wave" "ambient\materials\vent_scurry_medium.wav"
+		}
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.2"
+		"wave"		"ambient\atmosphere\cargo_hold2.wav"
+		"pitch"		"90"
+	}
+
+}
+
+"Uh.Chapter1.ARC.Surface.Garage"
+{
+	"dsp"	"4"
+
+	"playrandom"
+	{
+		"volume"	"0.3,0.7"
+		"pitch"		"85,95"
+		"time"		"10.0, 15.0"
+		"soundlevel"	"SNDLVL_110dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient\atmosphere\hole_hit1.wav"
+			"wave" "ambient\atmosphere\hole_hit2.wav"
+			"wave" "ambient\atmosphere\hole_hit3.wav"
+			"wave" "ambient\atmosphere\hole_hit4.wav"
+			"wave" "ambient\atmosphere\hole_hit5.wav"
+			"wave" "ambient\atmosphere\hole_hit6.wav"
+			"wave" "ambient/tones/pipes.wav"
+		}
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.3"
+		"wave"		"ambient\atmosphere\ambience5.wav"
+		"pitch"		"95"
+	}
+
+}
+
+"Uh.Chapter1.ARC.Surface.Tunnel"
+{
+	"dsp"	"4"
+
+	"playrandom"
+	{
+		"volume"	"0.3,0.7"
+		"pitch"		"85,95"
+		"time"		"10.0, 15.0"
+		"soundlevel"	"SNDLVL_110dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient\atmosphere\hole_hit1.wav"
+			"wave" "ambient\atmosphere\hole_hit2.wav"
+			"wave" "ambient\atmosphere\hole_hit3.wav"
+			"wave" "ambient\atmosphere\hole_hit4.wav"
+			"wave" "ambient\atmosphere\hole_hit5.wav"
+			"wave" "ambient\atmosphere\hole_hit6.wav"
+			"wave" "ambient/tones/pipes.wav"
+		}
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.5"
+		"wave"		"ambient\atmosphere\engine_room.wav"
+		"pitch"		"95"
+	}
+
+}
+
+"Uh.Chapter1.ARC.Surface.Tunnel.Open"
+{
+	"dsp"	"4"
+
+	"playrandom"
+	{
+		"volume"	"0.3,0.5"
+		"pitch"		"90,110"
+		"time"		"5.0, 12.0"
+		"soundlevel"	"SNDLVL_130dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient\wind\smallgust2.wav"
+			"wave" "ambient\wind\wind_gust_10.wav"
+			"wave" "ambient\wind\wind_gust_2.wav"
+			"wave" "ambient\wind\wind_gust_8.wav"
+			"wave" "ambient\wind\wind_med1.wav"
+			"wave" "ambient\wind\wind_med2.wav"
+			"wave" "ambient\wind\wind_snippet3.wav"
+			"wave" "ambient\wind\wind_snippet4.wav"
+			"wave" "ambient\wind\wind_snippet5.wav"
+
+		}
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.7"
+		"wave"		"ambient\levels\canals\tunnel_wind_loop1.wav"
+		"pitch"		"100"
+	}
+
+
+}
+
+"Uh.Chapter1.ARC.Surface.Desert"
+{
+	"dsp"	"4"
+
+	"playrandom"
+	{
+		"volume"	"0.5,0.6"
+		"pitch"		"90,110"
+		"time"		"5.0, 12.0"
+		"soundlevel"	"SNDLVL_130dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient\wind\smallgust2.wav"
+			"wave" "ambient\wind\wind_gust_10.wav"
+			"wave" "ambient\wind\wind_gust_2.wav"
+			"wave" "ambient\wind\wind_gust_8.wav"
+			"wave" "ambient\wind\wind_med1.wav"
+			"wave" "ambient\wind\wind_med2.wav"
+			"wave" "ambient\wind\wind_snippet3.wav"
+			"wave" "ambient\wind\wind_snippet4.wav"
+			"wave" "ambient\wind\wind_snippet5.wav"
+
+		}
+	}
+
+	"playrandom"
+	{
+		"volume"	"0.4,0.8"
+		"pitch"		"90,110"
+		"time"		"3.0, 8.0"
+		"soundlevel"	"SNDLVL_130dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient\machines\aircraft_distant_flyby1.wav"
+			"wave" "ambient\machines\aircraft_distant_flyby3.wav"
+			"wave" "ambient\machines\heli_pass_distant1.wav"
+			"wave" "ambient\machines\heli_pass_quick1.wav"
+			"wave" "ambient\machines\heli_pass_quick2.wav"
+			"wave" "ambient\machines\heli_pass1.wav"
+			"wave" "ambient\machines\heli_pass2.wav"
+			"wave" "ambient\machines\truck_pass_distant1.wav"
+			"wave" "ambient\machines\truck_pass_distant2.wav"
+			"wave" "ambient\machines\truck_pass_distant3.wav"
+			"wave" "ambient\materials\metal4.wav"
+			"wave" "ambient\misc\equipment_stress1.wav"
+			"wave" "ambient\misc\equipment_stress2.wav"
+			"wave" "ambient\misc\equipment_stress3.wav"
+			"wave" "ambient\misc\truck_drive1.wav"
+			"wave" "ambient\misc\truck_drive2.wav"
+			"wave" "ambient\overhead\hel1.wav"
+			"wave" "ambient\overhead\hel2.wav"
+			"wave" "ambient\overhead\plane1.wav"
+			"wave" "ambient\overhead\plane2.wav"
+			"wave" "ambient\overhead\plane3.wav"
+			"wave" "ambient\levels\streetwar\city_battle13.wav"
+			"wave" "ambient\levels\streetwar\apc_distant2.wav"
+			"wave" "ambient\levels\streetwar\apc_distant3.wav"
+			"wave" "ambient\levels\streetwar\gunship_distant1.wav"
+			"wave" "ambient\levels\streetwar\heli_distant1.wav"
+
+		}
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.7"
+		"wave"		"ambient\wind\wasteland_wind.wav"
+		"pitch"		"100"
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.7"
+		"wave"		"ambient\wind\wind_outdoors_1.wav"
+		"pitch"		"100"
+	}
+
+
+}
+
+"Uh.Chapter1.TheRoad"
+{
+	"dsp"	"22"
+
+	"playrandom"
+	{
+		"volume"	"0.3,0.5"
+		"pitch"		"90,110"
+		"time"		"5.0, 12.0"
+		"soundlevel"	"SNDLVL_130dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient\wind\smallgust2.wav"
+			"wave" "ambient\wind\wind_gust_10.wav"
+			"wave" "ambient\wind\wind_gust_2.wav"
+			"wave" "ambient\wind\wind_gust_8.wav"
+			"wave" "ambient\wind\wind_med1.wav"
+			"wave" "ambient\wind\wind_med2.wav"
+			"wave" "ambient\wind\wind_snippet3.wav"
+			"wave" "ambient\wind\wind_snippet4.wav"
+			"wave" "ambient\wind\wind_snippet5.wav"
+
+		}
+	}
+
+	"playrandom"
+	{
+		"volume"	"0.3,0.5"
+		"pitch"		"90,110"
+		"time"		"5.0, 15.0"
+		"soundlevel"	"SNDLVL_120dB"
+		"position"	"1"
+		"rndwave"
+		{
+			"wave" "ambient\materials\metal_stress1.wav"
+			"wave" "ambient\materials\metal_stress2.wav"
+			"wave" "ambient\materials\metal_stress3.wav"
+			"wave" "ambient\materials\metal_stress4.wav"
+			"wave" "ambient\materials\metal_stress5.wav"
+			"wave" "ambient\misc\metal_str1.wav"
+			"wave" "ambient\misc\metal_str2.wav"
+			"wave" "ambient\misc\metal_str3.wav"
+			"wave" "ambient\misc\metal_str4.wav"
+			"wave" "ambient\misc\metal_str5.wav"
+
+
+
+		}
+	}
+
+	"playrandom"
+	{
+		"volume"	"0.3,0.5"
+		"pitch"		"90,110"
+		"time"		"5.0, 15.0"
+		"soundlevel"	"SNDLVL_120dB"
+		"position"	"2"
+		"rndwave"
+		{
+			"wave" "ambient\materials\metal_stress1.wav"
+			"wave" "ambient\materials\metal_stress2.wav"
+			"wave" "ambient\materials\metal_stress3.wav"
+			"wave" "ambient\materials\metal_stress4.wav"
+			"wave" "ambient\materials\metal_stress5.wav"
+			"wave" "ambient\misc\metal_str1.wav"
+			"wave" "ambient\misc\metal_str2.wav"
+			"wave" "ambient\misc\metal_str3.wav"
+			"wave" "ambient\misc\metal_str4.wav"
+			"wave" "ambient\misc\metal_str5.wav"
+
+
+
+		}
+	}
+
+	"playrandom"
+	{
+		"volume"	"0.3,0.5"
+		"pitch"		"90,110"
+		"time"		"5.0, 15.0"
+		"soundlevel"	"SNDLVL_120dB"
+		"position"	"3"
+		"rndwave"
+		{
+			"wave" "ambient\materials\metal_stress1.wav"
+			"wave" "ambient\materials\metal_stress2.wav"
+			"wave" "ambient\materials\metal_stress3.wav"
+			"wave" "ambient\materials\metal_stress4.wav"
+			"wave" "ambient\materials\metal_stress5.wav"
+			"wave" "ambient\misc\metal_str1.wav"
+			"wave" "ambient\misc\metal_str2.wav"
+			"wave" "ambient\misc\metal_str3.wav"
+			"wave" "ambient\misc\metal_str4.wav"
+			"wave" "ambient\misc\metal_str5.wav"
+
+
+
+		}
+	}
+
+	"playrandom"
+	{
+		"volume"	"0.4,0.8"
+		"pitch"		"90,110"
+		"time"		"4.0, 8.0"
+		"soundlevel"	"SNDLVL_130dB"
+		"position"	"4"
+		"rndwave"
+		{
+			"wave" "ambient\wind\smallgust2.wav"
+			"wave" "ambient\wind\wind_gust_10.wav"
+			"wave" "ambient\wind\wind_gust_2.wav"
+			"wave" "ambient\wind\wind_gust_8.wav"
+			"wave" "ambient\wind\wind_med1.wav"
+			"wave" "ambient\wind\wind_med2.wav"
+			"wave" "ambient\wind\wind_snippet3.wav"
+			"wave" "ambient\wind\wind_snippet4.wav"
+			"wave" "ambient\wind\wind_snippet5.wav"
+
+
+		}
+	}
+	"playrandom"
+	{
+		"volume"	"0.4,0.8"
+		"pitch"		"90,110"
+		"time"		"4.0, 8.0"
+		"soundlevel"	"SNDLVL_130dB"
+		"position"	"5"
+		"rndwave"
+		{
+			"wave" "ambient\wind\smallgust2.wav"
+			"wave" "ambient\wind\wind_gust_10.wav"
+			"wave" "ambient\wind\wind_gust_2.wav"
+			"wave" "ambient\wind\wind_gust_8.wav"
+			"wave" "ambient\wind\wind_med1.wav"
+			"wave" "ambient\wind\wind_med2.wav"
+			"wave" "ambient\wind\wind_snippet3.wav"
+			"wave" "ambient\wind\wind_snippet4.wav"
+			"wave" "ambient\wind\wind_snippet5.wav"
+
+
+		}
+	}
+	"playrandom"
+	{
+		"volume"	"0.4,0.8"
+		"pitch"		"90,110"
+		"time"		"4.0, 8.0"
+		"soundlevel"	"SNDLVL_130dB"
+		"position"	"6"
+		"rndwave"
+		{
+			"wave" "ambient\wind\smallgust2.wav"
+			"wave" "ambient\wind\wind_gust_10.wav"
+			"wave" "ambient\wind\wind_gust_2.wav"
+			"wave" "ambient\wind\wind_gust_8.wav"
+			"wave" "ambient\wind\wind_med1.wav"
+			"wave" "ambient\wind\wind_med2.wav"
+			"wave" "ambient\wind\wind_snippet3.wav"
+			"wave" "ambient\wind\wind_snippet4.wav"
+			"wave" "ambient\wind\wind_snippet5.wav"
+
+
+		}
+	}
+
+
+	"playlooping"
+	{
+		"volume"	"0.7"
+		"wave"		"ambient\wind\wasteland_wind.wav"
+		"pitch"		"100"
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.4"
+		"wave"		"ambient\atmosphere\deadtown_ambience.wav"
+		"pitch"		"95"
+	}
+
+}
+
+"Uh.Chapter1.Dinner"
+{
+	"dsp"	"22"
+
+	"playlooping"
+	{
+		"volume"	"0.5"
+		"wave"		"ambient\atmosphere\tone_well.wav"
+		"pitch"		"100"
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.6"
+		"wave"		"weather\windthroughwindow.wav"
+		"pitch"		"100"
+	}
+
+}
+
+"Uh.Chapter1.DeadCity.In"
+{
+	"dsp"	"1"
+
+	"playrandom"
+	{
+		"volume"	"0.05,0.2"
+		"pitch"		"90,110"
+		"time"		"5.0, 15.0"
+		"soundlevel"	"SNDLVL_120dB"
+		"position"	"1"
+		"rndwave"
+		{
+			"wave" "screams\group\crowd_panic_hard1.wav"
+			"wave" "screams\group\crowd_panic_hard1.wav"
+			"wave" "screams\group\crowd_panic_hard1.wav"
+			"wave" "screams\group\crowd_panic_hard1.wav"
+			"wave" "screams\group\crowd_panic_hard1.wav"
+			"wave" "ambient\levels\streetwar\city_battle12.wav"
+			"wave" "ambient\levels\streetwar\city_riot1.wav"
+
+
+		}
+	}
+
+	"playrandom"
+	{
+		"volume"	"0.05,0.2"
+		"pitch"		"90,110"
+		"time"		"5.0, 15.0"
+		"soundlevel"	"SNDLVL_120dB"
+		"position"	"2"
+		"rndwave"
+		{
+			"wave" "screams\group\crowd_panic_hard1.wav"
+			"wave" "screams\group\crowd_panic_hard1.wav"
+			"wave" "screams\group\crowd_panic_hard1.wav"
+			"wave" "screams\group\crowd_panic_hard1.wav"
+			"wave" "screams\group\crowd_panic_hard1.wav"
+			"wave" "screams\group\crowd_panic_hard1.wav"
+			"wave" "ambient\levels\streetwar\city_battle12.wav"
+			"wave" "ambient\levels\streetwar\city_riot1.wav"
+
+
+		}
+	}
+
+	"playrandom"
+	{
+		"volume"	"0.05,0.2"
+		"pitch"		"90,110"
+		"time"		"5.0, 15.0"
+		"soundlevel"	"SNDLVL_120dB"
+		"position"	"3"
+		"rndwave"
+		{
+			"wave" "screams\group\crowd_panic_hard1.wav"
+			"wave" "screams\group\crowd_panic_hard1.wav"
+			"wave" "screams\group\crowd_panic_hard1.wav"
+			"wave" "screams\group\crowd_panic_hard1.wav"
+			"wave" "screams\group\crowd_panic_hard1.wav"
+			"wave" "screams\group\crowd_panic_hard1.wav"
+			"wave" "ambient\levels\streetwar\city_battle12.wav"
+			"wave" "ambient\levels\streetwar\city_riot1.wav"
+
+
+		}
+	}
+
+	"playrandom"
+	{
+		"volume"	"0.05,0.2"
+		"pitch"		"90,110"
+		"time"		"5.0, 15.0"
+		"soundlevel"	"SNDLVL_120dB"
+		"position"	"4"
+		"rndwave"
+		{
+			"wave" "screams\group\crowd_panic_hard1.wav"
+			"wave" "screams\group\crowd_panic_hard1.wav"
+			"wave" "screams\group\crowd_panic_hard1.wav"
+			"wave" "screams\group\crowd_panic_hard1.wav"
+			"wave" "screams\group\crowd_panic_hard1.wav"
+			"wave" "screams\group\crowd_panic_hard1.wav"
+			"wave" "ambient\levels\streetwar\city_battle12.wav"
+			"wave" "ambient\levels\streetwar\city_riot1.wav"
+
+
+		}
+	}
+
+	"playrandom"
+	{
+		"volume"	"0.2,0.6"
+		"pitch"		"90,110"
+		"time"		"5.0, 15.0"
+		"soundlevel"	"SNDLVL_130dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient\levels\prison\inside_battle2.wav"
+			"wave" "ambient\levels\prison\inside_battle3.wav"
+			"wave" "ambient\levels\prison\inside_battle4.wav"
+			"wave" "ambient\machines\aircraft_distant_flyby1.wav"
+			"wave" "ambient\machines\aircraft_distant_flyby3.wav"
+			"wave" "ambient\machines\heli_pass_distant1.wav"
+			"wave" "ambient\machines\heli_pass_quick1.wav"
+			"wave" "ambient\machines\heli_pass_quick2.wav"
+			"wave" "ambient\machines\heli_pass1.wav"
+			"wave" "ambient\machines\heli_pass2.wav"
+			"wave" "ambient\machines\truck_pass_distant1.wav"
+			"wave" "ambient\machines\truck_pass_distant2.wav"
+			"wave" "ambient\machines\truck_pass_distant3.wav"
+			"wave" "ambient\materials\metal4.wav"
+			"wave" "ambient\misc\ambulance1.wav"
+			"wave" "ambient\misc\car1.wav"
+			"wave" "ambient\misc\car2.wav"
+			"wave" "ambient\misc\carhonk1.wav"
+			"wave" "ambient\misc\carhonk2.wav"
+			"wave" "ambient\misc\carhonk3.wav"
+			"wave" "ambient\misc\equipment_stress1.wav"
+			"wave" "ambient\misc\equipment_stress2.wav"
+			"wave" "ambient\misc\equipment_stress3.wav"
+			"wave" "ambient\misc\garbage_truck1.wav"
+			"wave" "ambient\misc\police1.wav"
+			"wave" "ambient\misc\truck_drive1.wav"
+			"wave" "ambient\misc\truck_drive2.wav"
+			"wave" "ambient\overhead\hel1.wav"
+			"wave" "ambient\overhead\hel2.wav"
+			"wave" "ambient\overhead\plane1.wav"
+			"wave" "ambient\overhead\plane2.wav"
+			"wave" "ambient\overhead\plane3.wav"
+
+		}
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.5"
+		"wave"		"ambient\atmosphere\quiet_cellblock_amb.wav"
+		"pitch"		"95"
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.2"
+		"wave"		"ambient\atmosphere\tunnel1.wav"
+		"pitch"		"95"
+	}
+
+
+}
+
+"Uh.Chapter1.DeadCity.Station"
+{
+	"dsp"	"1"
+
+	"playrandom"
+	{
+		"volume"	"0.025,0.1"
+		"pitch"		"90,110"
+		"time"		"5.0, 15.0"
+		"soundlevel"	"SNDLVL_120dB"
+		"position"	"1"
+		"rndwave"
+		{
+			"wave" "screams\group\crowd_panic_hard1.wav"
+			"wave" "screams\group\crowd_panic_hard1.wav"
+			"wave" "screams\group\crowd_panic_hard1.wav"
+			"wave" "screams\group\crowd_panic_hard1.wav"
+			"wave" "screams\group\crowd_panic_hard1.wav"
+			"wave" "ambient\levels\streetwar\city_battle12.wav"
+			"wave" "ambient\levels\streetwar\city_riot1.wav"
+
+
+		}
+	}
+
+	"playrandom"
+	{
+		"volume"	"0.025,0.1"
+		"pitch"		"90,110"
+		"time"		"5.0, 15.0"
+		"soundlevel"	"SNDLVL_120dB"
+		"position"	"2"
+		"rndwave"
+		{
+			"wave" "screams\group\crowd_panic_hard1.wav"
+			"wave" "screams\group\crowd_panic_hard1.wav"
+			"wave" "screams\group\crowd_panic_hard1.wav"
+			"wave" "screams\group\crowd_panic_hard1.wav"
+			"wave" "screams\group\crowd_panic_hard1.wav"
+			"wave" "screams\group\crowd_panic_hard1.wav"
+			"wave" "ambient\levels\streetwar\city_battle12.wav"
+			"wave" "ambient\levels\streetwar\city_riot1.wav"
+
+
+		}
+	}
+
+	"playrandom"
+	{
+		"volume"	"0.025,0.1"
+		"pitch"		"90,110"
+		"time"		"5.0, 15.0"
+		"soundlevel"	"SNDLVL_120dB"
+		"position"	"3"
+		"rndwave"
+		{
+			"wave" "screams\group\crowd_panic_hard1.wav"
+			"wave" "screams\group\crowd_panic_hard1.wav"
+			"wave" "screams\group\crowd_panic_hard1.wav"
+			"wave" "screams\group\crowd_panic_hard1.wav"
+			"wave" "screams\group\crowd_panic_hard1.wav"
+			"wave" "screams\group\crowd_panic_hard1.wav"
+			"wave" "ambient\levels\streetwar\city_battle12.wav"
+			"wave" "ambient\levels\streetwar\city_riot1.wav"
+
+
+		}
+	}
+
+	"playrandom"
+	{
+		"volume"	"0.025,0.1"
+		"pitch"		"90,110"
+		"time"		"5.0, 15.0"
+		"soundlevel"	"SNDLVL_120dB"
+		"position"	"4"
+		"rndwave"
+		{
+			"wave" "screams\group\crowd_panic_hard1.wav"
+			"wave" "screams\group\crowd_panic_hard1.wav"
+			"wave" "screams\group\crowd_panic_hard1.wav"
+			"wave" "screams\group\crowd_panic_hard1.wav"
+			"wave" "screams\group\crowd_panic_hard1.wav"
+			"wave" "screams\group\crowd_panic_hard1.wav"
+			"wave" "ambient\levels\streetwar\city_battle12.wav"
+			"wave" "ambient\levels\streetwar\city_riot1.wav"
+
+
+		}
+	}
+
+	"playrandom"
+	{
+		"volume"	"0.1,0.4"
+		"pitch"		"90,110"
+		"time"		"10.0, 20.0"
+		"soundlevel"	"SNDLVL_130dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient\levels\prison\inside_battle2.wav"
+			"wave" "ambient\levels\prison\inside_battle3.wav"
+			"wave" "ambient\levels\prison\inside_battle4.wav"
+			"wave" "ambient\machines\aircraft_distant_flyby1.wav"
+			"wave" "ambient\machines\aircraft_distant_flyby3.wav"
+			"wave" "ambient\machines\heli_pass_distant1.wav"
+			"wave" "ambient\machines\heli_pass_quick1.wav"
+			"wave" "ambient\machines\heli_pass_quick2.wav"
+			"wave" "ambient\machines\heli_pass1.wav"
+			"wave" "ambient\machines\heli_pass2.wav"
+			"wave" "ambient\machines\truck_pass_distant1.wav"
+			"wave" "ambient\machines\truck_pass_distant2.wav"
+			"wave" "ambient\machines\truck_pass_distant3.wav"
+			"wave" "ambient\materials\metal4.wav"
+			"wave" "ambient\misc\ambulance1.wav"
+			"wave" "ambient\misc\car1.wav"
+			"wave" "ambient\misc\car2.wav"
+			"wave" "ambient\misc\carhonk1.wav"
+			"wave" "ambient\misc\carhonk2.wav"
+			"wave" "ambient\misc\carhonk3.wav"
+			"wave" "ambient\misc\equipment_stress1.wav"
+			"wave" "ambient\misc\equipment_stress2.wav"
+			"wave" "ambient\misc\equipment_stress3.wav"
+			"wave" "ambient\misc\garbage_truck1.wav"
+			"wave" "ambient\misc\police1.wav"
+			"wave" "ambient\misc\truck_drive1.wav"
+			"wave" "ambient\misc\truck_drive2.wav"
+			"wave" "ambient\overhead\hel1.wav"
+			"wave" "ambient\overhead\hel2.wav"
+			"wave" "ambient\overhead\plane1.wav"
+			"wave" "ambient\overhead\plane2.wav"
+			"wave" "ambient\overhead\plane3.wav"
+
+		}
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.5"
+		"wave"		"ambient\atmosphere\quiet_cellblock_amb.wav"
+		"pitch"		"95"
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.3"
+		"wave"		"ambient\atmosphere\tunnel1.wav"
+		"pitch"		"95"
+	}
+
+
+}
+
+"Uh.Chapter1.DeadCity.Out"
+{
+	"dsp"	"1"
+
+	"playrandom"
+	{
+		"volume"	"0.1,0.4"
+		"pitch"		"90,110"
+		"time"		"5.0, 15.0"
+		"soundlevel"	"SNDLVL_120dB"
+		"position"	"1"
+		"rndwave"
+		{
+			"wave" "screams\group\crowd_panic_hard1.wav"
+			"wave" "screams\group\crowd_panic_hard1.wav"
+			"wave" "screams\group\crowd_panic_hard1.wav"
+			"wave" "screams\group\crowd_panic_hard1.wav"
+			"wave" "screams\group\crowd_panic_hard1.wav"
+			"wave" "ambient\levels\streetwar\city_battle12.wav"
+			"wave" "ambient\levels\streetwar\city_riot1.wav"
+
+
+		}
+	}
+
+	"playrandom"
+	{
+		"volume"	"0.1,0.4"
+		"pitch"		"90,110"
+		"time"		"5.0, 15.0"
+		"soundlevel"	"SNDLVL_120dB"
+		"position"	"2"
+		"rndwave"
+		{
+			"wave" "screams\group\crowd_panic_hard1.wav"
+			"wave" "screams\group\crowd_panic_hard1.wav"
+			"wave" "screams\group\crowd_panic_hard1.wav"
+			"wave" "screams\group\crowd_panic_hard1.wav"
+			"wave" "screams\group\crowd_panic_hard1.wav"
+			"wave" "screams\group\crowd_panic_hard1.wav"
+			"wave" "ambient\levels\streetwar\city_battle12.wav"
+			"wave" "ambient\levels\streetwar\city_riot1.wav"
+
+
+		}
+	}
+
+	"playrandom"
+	{
+		"volume"	"0.1,0.4"
+		"pitch"		"90,110"
+		"time"		"5.0, 15.0"
+		"soundlevel"	"SNDLVL_120dB"
+		"position"	"3"
+		"rndwave"
+		{
+			"wave" "screams\group\crowd_panic_hard1.wav"
+			"wave" "screams\group\crowd_panic_hard1.wav"
+			"wave" "screams\group\crowd_panic_hard1.wav"
+			"wave" "screams\group\crowd_panic_hard1.wav"
+			"wave" "screams\group\crowd_panic_hard1.wav"
+			"wave" "screams\group\crowd_panic_hard1.wav"
+			"wave" "ambient\levels\streetwar\city_battle12.wav"
+			"wave" "ambient\levels\streetwar\city_riot1.wav"
+
+
+		}
+	}
+
+	"playrandom"
+	{
+		"volume"	"0.1,0.4"
+		"pitch"		"90,110"
+		"time"		"5.0, 15.0"
+		"soundlevel"	"SNDLVL_120dB"
+		"position"	"4"
+		"rndwave"
+		{
+			"wave" "screams\group\crowd_panic_hard1.wav"
+			"wave" "screams\group\crowd_panic_hard1.wav"
+			"wave" "screams\group\crowd_panic_hard1.wav"
+			"wave" "screams\group\crowd_panic_hard1.wav"
+			"wave" "screams\group\crowd_panic_hard1.wav"
+			"wave" "screams\group\crowd_panic_hard1.wav"
+			"wave" "ambient\levels\streetwar\city_battle12.wav"
+			"wave" "ambient\levels\streetwar\city_riot1.wav"
+
+
+		}
+	}
+
+	"playrandom"
+	{
+		"volume"	"0.2,0.6"
+		"pitch"		"90,110"
+		"time"		"6.0, 20.0"
+		"soundlevel"	"SNDLVL_130dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient\levels\prison\inside_battle2.wav"
+			"wave" "ambient\levels\prison\inside_battle3.wav"
+			"wave" "ambient\levels\prison\inside_battle4.wav"
+			"wave" "ambient\machines\aircraft_distant_flyby1.wav"
+			"wave" "ambient\machines\aircraft_distant_flyby3.wav"
+			"wave" "ambient\machines\heli_pass_distant1.wav"
+			"wave" "ambient\machines\heli_pass_quick1.wav"
+			"wave" "ambient\machines\heli_pass_quick2.wav"
+			"wave" "ambient\machines\heli_pass1.wav"
+			"wave" "ambient\machines\heli_pass2.wav"
+			"wave" "ambient\machines\truck_pass_distant1.wav"
+			"wave" "ambient\machines\truck_pass_distant2.wav"
+			"wave" "ambient\machines\truck_pass_distant3.wav"
+			"wave" "ambient\materials\metal4.wav"
+			"wave" "ambient\misc\ambulance1.wav"
+			"wave" "ambient\misc\car1.wav"
+			"wave" "ambient\misc\car2.wav"
+			"wave" "ambient\misc\carhonk1.wav"
+			"wave" "ambient\misc\carhonk2.wav"
+			"wave" "ambient\misc\carhonk3.wav"
+			"wave" "ambient\misc\equipment_stress1.wav"
+			"wave" "ambient\misc\equipment_stress2.wav"
+			"wave" "ambient\misc\equipment_stress3.wav"
+			"wave" "ambient\misc\garbage_truck1.wav"
+			"wave" "ambient\misc\police1.wav"
+			"wave" "ambient\misc\truck_drive1.wav"
+			"wave" "ambient\misc\truck_drive2.wav"
+			"wave" "ambient\overhead\hel1.wav"
+			"wave" "ambient\overhead\hel2.wav"
+			"wave" "ambient\overhead\plane1.wav"
+			"wave" "ambient\overhead\plane2.wav"
+			"wave" "ambient\overhead\plane3.wav"
+
+		}
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.9"
+		"wave"		"ambient\atmosphere\deadtown_ambience.wav"
+		"pitch"		"95"
+	}
+
+
+}

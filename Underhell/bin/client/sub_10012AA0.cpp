@@ -1,0 +1,21 @@
+bool __thiscall sub_10012AA0(int this, int a2)
+{
+  return *(_BYTE *)(this + 64) != *(_BYTE *)(a2 + 64)
+      || *(_BYTE *)(this + 65) != *(_BYTE *)(a2 + 65)
+      || !sub_10012310((float *)(this + 4), (float *)(a2 + 4), 0.0099999998)
+      || *(_BYTE *)(this + 16) != *(_BYTE *)(a2 + 16)
+      || *(_BYTE *)(this + 17) != *(_BYTE *)(a2 + 17)
+      || *(_BYTE *)(this + 18) != *(_BYTE *)(a2 + 18)
+      || *(_BYTE *)(this + 19) != *(_BYTE *)(a2 + 19)
+      || sub_10011E20((_BYTE *)(this + 20), (_BYTE *)(a2 + 20))
+      || *(float *)(a2 + 32) != *(float *)(this + 32)
+      || *(float *)(a2 + 36) != *(float *)(this + 36)
+      || *(float *)(a2 + 40) != *(float *)(this + 40)
+      || *(float *)(a2 + 44) != *(float *)(this + 44)
+      || sub_10011E20((_BYTE *)(this + 24), (_BYTE *)(a2 + 24))
+      || sub_10011E20((_BYTE *)(this + 28), (_BYTE *)(a2 + 28))
+      || *(float *)(a2 + 48) != *(float *)(this + 48)
+      || *(float *)(a2 + 52) != *(float *)(this + 52)
+      || *(float *)(a2 + 56) != *(float *)(this + 56)
+      || *(float *)(a2 + 60) != *(float *)(this + 60);
+}

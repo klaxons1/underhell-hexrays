@@ -1,0 +1,4 @@
+_DWORD *sub_1046E410()
+{
+  return sub_1042FD90(dword_106F16BC, (int)sub_10417CD0, (int)"VSERVERCHOREOTOOLS001");
+}

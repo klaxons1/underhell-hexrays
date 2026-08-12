@@ -1,0 +1,513 @@
+//TITLES FOR HALF-LIFE 2
+// Position command $position x y 
+// x & y are from 0 to 1 to be screen resolution independent
+// -1 means center in each dimension
+// Effect command $effect <effect number>
+// effect 0 is fade in/fade out
+// effect 1 is flickery credits
+// effect 2 is write out (training room)
+// Text color r g b command $color
+// fadein time fadeout time / hold time
+// $fadein (message fade in time - per character in effect 2)
+// $fadeout (message fade out time)
+// $holdtime (stay on the screen for this long)
+
+//INTRO TITLES
+// All centered for now
+$position -1 -1
+$effect 2
+// This is the final color
+$color 100 100 100
+// This is the highlight color
+$color2 240 110 0
+// This is the time it takes to fade each character
+$fadein 0.01
+// This is the amount of time the highlight lags behind the leading edge of the text
+$fxtime 0.25
+// How long to hold the message on the screen (after it scans out)
+$holdtime 3.5
+// How long it takes to fade out the message after holding
+$fadeout 1.5
+
+
+//INTRO CREDITS
+// Lower left
+$position 0.1 0.6
+$effect 1
+$color 128 128 128
+$color2 0 0 0
+$fadein 1.5
+$fadeout 0.5
+$holdtime 1.2
+
+CR1
+{
+Testing 1
+}
+
+CR2
+{
+Testing 2
+}
+
+CR3
+{
+Testing 3
+}
+
+
+//INTRO TITLES
+$position -1 -1
+$effect 2
+$color 100 100 100
+$color2 240 110 0
+$fadein 0.01
+$fxtime 0.25
+$holdtime 3.5
+$fadeout 1.5
+
+
+GAMEOVER_ALLY
+{
+#UnderHell_GameOver_Ally
+}
+
+GAMEOVER_OBJECT
+{
+#UnderHell_GameOver_Object
+}
+
+GAMEOVER_TIMER
+{
+#UnderHell_GameOver_Timer
+}
+
+GAMEOVER_STUCK
+{
+#UnderHell_GameOver_Stuck
+}
+
+Underhell_TobeContinued
+{
+#UnderHell_ToBeContinued
+}
+
+$fadein 0.03
+$holdtime 9
+
+
+//CHAPTER TITLES
+
+$fadein 0.01
+$holdtime 3.5
+$position -1 0.58
+
+CHAPTER1_TITLE
+{
+#UnderHell_Chapter1_Title
+}
+
+CHAPTER2_TITLE
+{
+#UnderHell_Chapter2_Title
+}
+
+CHAPTER3_TITLE
+{
+#UnderHell_Chapter3_Title
+}
+
+CHAPTER4_TITLE
+{
+#UnderHell_Chapter4_Title
+}
+
+CHAPTER5_TITLE
+{
+#UnderHell_Chapter5_Title
+}
+
+CHAPTER6_TITLE
+{
+#UnderHell_Chapter6_Title
+}
+
+// Checkpoint Message
+$position 0.1 0.075
+$effect 2
+$color 32 100 34
+$color2 28 253 67
+$fadein 0.03
+$fxtime 0.25
+$holdtime 2.5
+$fadeout 0.05
+
+GAMESAVED
+{
+#UnderHell_Empty
+}
+
+GAMECHECKPOINT
+{
+#UnderHell_Checkpoint
+}
+
+// Checkpoint Saved Message
+$position -1 0.65
+$effect 2
+// This is the final color
+$color 20 128 255
+// This is the highlight color
+$color2 40 160 255
+// This is the time it takes to fade each character
+$fadein 0.01
+// This is the amount of time the highlight lags behind the leading edge of the text
+$fxtime 0.25
+// How long to hold the message on the screen (after it scans out)
+$holdtime 2.0
+// How long it takes to fade out the message after holding
+$fadeout 0.5
+
+GAMECHECKPOINTSAVED
+{
+#UnderHell_Saved
+}
+
+// Saved House Message
+$position -1 0.65
+$effect 2
+// This is the final color
+$color 100 100 100
+// This is the highlight color
+$color2 240 110 0
+// This is the time it takes to fade each character
+$fadein 0.01
+// This is the amount of time the highlight lags behind the leading edge of the text
+$fxtime 0.25
+// How long to hold the message on the screen (after it scans out)
+$holdtime 2.0
+// How long it takes to fade out the message after holding
+$fadeout 0.5
+
+GAMESAVEDHOUSE
+{
+#UnderHell_Saved
+}
+
+// Comments Messages
+$position -1 0.65
+$effect 0
+// This is the final color
+$color 232 224 125
+// This is the highlight color
+$color2 255 251 174
+// This is the time it takes to fade each character
+$fadein 0.6
+// This is the amount of time the highlight lags behind the leading edge of the text
+$fxtime 0.25
+// How long to hold the message on the screen (after it scans out)
+$holdtime 2.5
+// How long it takes to fade out the message after holding
+$fadeout 0.6
+
+Comment_DoorUnlocked
+{
+#UnderHell_Comment_DoorUnlocked
+}
+
+// Secondary Objective Complete
+$position 0.1 0.16
+$effect 2
+$color 28 159 166
+$color2 113 202 255
+$fadein 0.007
+$fxtime 0.25
+$holdtime 3.5
+$fadeout 0.5
+
+SecondaryObjective_Complete
+{
+#Underhell_SecondaryObjective_Complete
+}
+
+// Mission Failed Display
+$position 0.1 0.1
+$effect 2
+$color 176 17 21
+$color2 255 113 113
+$fadein 0.003
+$fxtime 0.25
+$holdtime 2.5
+$fadeout 0.05
+
+Mission_Failed
+{
+#Underhell_Mission_Failed
+}
+
+// Game title
+// This is a placeholder to hold the effects controls for the "Half-Life" title
+$position -1 -1
+// Only effect 0 is supported for game title
+$effect 0
+// This is the final color
+$color 180 180 180
+// Not used color2
+$color2 0 0 0
+// This is the time it takes to fade in the title
+$fadein 1.0
+// How long to hold the message on the screen (after it scans out)
+$holdtime 3.0
+// How long it takes to fade out the message after holding
+$fadeout 1.5
+
+GAMETITLE
+{
+UnderHell
+}
+
+// Hud CODE Number 1 ( Left Side )
+$position 0.47 0.05
+$effect 0
+$color 255 255 255
+$color2 14 30 226
+$fadein 0.5
+$fxtime 0.25
+$holdtime 3
+$fadeout 0.5
+
+CodeNumber1_1
+{
+#Underhell_CodeNumber_1
+}
+CodeNumber1_2
+{
+#Underhell_CodeNumber_2
+}
+CodeNumber1_3
+{
+#Underhell_CodeNumber_3
+}
+CodeNumber1_4
+{
+#Underhell_CodeNumber_4
+}
+CodeNumber1_5
+{
+#Underhell_CodeNumber_5
+}
+CodeNumber1_6
+{
+#Underhell_CodeNumber_6
+}
+CodeNumber1_7
+{
+#Underhell_CodeNumber_7
+}
+CodeNumber1_8
+{
+#Underhell_CodeNumber_8
+}
+CodeNumber1_9
+{
+#Underhell_CodeNumber_9
+}
+
+// Hud CODE Number 2 ( Middle Left Side )
+$position 0.49 0.05
+$effect 0
+$color 255 255 255
+$color2 14 30 226
+$fadein 0.5
+$fxtime 0.25
+$holdtime 3
+$fadeout 0.5
+
+CodeNumber2_1
+{
+#Underhell_CodeNumber_1
+}
+CodeNumber2_2
+{
+#Underhell_CodeNumber_2
+}
+CodeNumber2_3
+{
+#Underhell_CodeNumber_3
+}
+CodeNumber2_4
+{
+#Underhell_CodeNumber_4
+}
+CodeNumber2_5
+{
+#Underhell_CodeNumber_5
+}
+CodeNumber2_6
+{
+#Underhell_CodeNumber_6
+}
+CodeNumber2_7
+{
+#Underhell_CodeNumber_7
+}
+CodeNumber2_8
+{
+#Underhell_CodeNumber_8
+}
+CodeNumber2_9
+{
+#Underhell_CodeNumber_9
+}
+
+// Hud CODE Number 3 ( Middle Right Side )
+$position 0.51 0.05
+$effect 0
+$color 255 255 255
+$color2 14 30 226
+$fadein 0.5
+$fxtime 0.25
+$holdtime 3
+$fadeout 0.5
+
+CodeNumber3_1
+{
+#Underhell_CodeNumber_1
+}
+CodeNumber3_2
+{
+#Underhell_CodeNumber_2
+}
+CodeNumber3_3
+{
+#Underhell_CodeNumber_3
+}
+CodeNumber3_4
+{
+#Underhell_CodeNumber_4
+}
+CodeNumber3_5
+{
+#Underhell_CodeNumber_5
+}
+CodeNumber3_6
+{
+#Underhell_CodeNumber_6
+}
+CodeNumber3_7
+{
+#Underhell_CodeNumber_7
+}
+CodeNumber3_8
+{
+#Underhell_CodeNumber_8
+}
+CodeNumber3_9
+{
+#Underhell_CodeNumber_9
+}
+
+// Hud CODE Number 4 (  Right Side )
+$position 0.53 0.05
+$effect 0
+$color 255 255 255
+$color2 14 30 226
+$fadein 0.5
+$fxtime 0.25
+$holdtime 3
+$fadeout 0.5
+
+CodeNumber4_1
+{
+#Underhell_CodeNumber_1
+}
+CodeNumber4_2
+{
+#Underhell_CodeNumber_2
+}
+CodeNumber4_3
+{
+#Underhell_CodeNumber_3
+}
+CodeNumber4_4
+{
+#Underhell_CodeNumber_4
+}
+CodeNumber4_5
+{
+#Underhell_CodeNumber_5
+}
+CodeNumber4_6
+{
+#Underhell_CodeNumber_6
+}
+CodeNumber4_7
+{
+#Underhell_CodeNumber_7
+}
+CodeNumber4_8
+{
+#Underhell_CodeNumber_8
+}
+CodeNumber4_9
+{
+#Underhell_CodeNumber_9
+}
+
+// Obtained Message
+$position 0.32 0.9
+$effect 2
+$color 232 224 125
+$color2 255 251 174
+$fadein 0.03
+$fxtime 0.25
+$holdtime 2.8
+$fadeout 0.05
+
+ObtainedMessage
+{
+#UnderHell_ObtainedMessage
+}
+
+// Items Messages
+$position 0.5 0.9
+$effect 2
+$color 32 100 34
+$color2 28 253 67
+$fadein 0.03
+$fxtime 0.25
+$holdtime 2.5
+$fadeout 0.05
+
+// Gear
+
+Item_FlashLight
+{
+#Underhell_Item_FlashLight
+}
+
+Item_ShoulderFlashLight
+{
+#Underhell_Item_ShoulderFlashLight
+}
+
+Item_GasMask
+{
+#Underhell_Item_GasMask
+}
+
+Item_NightVision	
+{
+#Underhell_Item_NightVision
+}
+
+Item_HermitWrench
+{
+#Underhell_Item_HermitWrench
+}
+
+
+Item_PistolSilencer
+{
+#Underhell_Item_PistolSilencer
+}

@@ -1,0 +1,801 @@
+// **************************************************************
+// HL2 ambient generic sounds for general use by level designers:
+// ambients, explosions, water, fire, weather, sirens etc.
+
+"explode_1"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"VOL_NORM"
+	"pitch"			"95, 105"
+
+	"soundlevel"	"SNDLVL_GUNFIRE"
+
+	"wave"			"ambient/explosions/explode_1.wav"
+}
+
+"explode_2"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"VOL_NORM"
+	"pitch"			"95, 105"
+
+	"soundlevel"	"SNDLVL_GUNFIRE"
+
+	"wave"			"ambient/explosions/explode_2.wav"
+}
+
+"explode_3"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"VOL_NORM"
+	"pitch"			"95, 105"
+
+	"soundlevel"	"SNDLVL_GUNFIRE"
+
+	"wave"			"ambient/explosions/explode_3.wav"
+}
+
+"explode_4"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"VOL_NORM"
+	"pitch"			"95, 105"
+
+	"soundlevel"	"SNDLVL_GUNFIRE"
+
+	"wave"			"ambient/explosions/explode_4.wav"
+}
+
+"explode_5"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"VOL_NORM"
+	"pitch"			"95, 105"
+
+	"soundlevel"	"SNDLVL_GUNFIRE"
+
+	"wave"			"ambient/explosions/explode_5.wav"
+}
+
+"explode_6"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"VOL_NORM"
+	"pitch"			"95, 105"
+
+	"soundlevel"	"SNDLVL_GUNFIRE"
+
+	"wave"			"ambient/explosions/explode_6.wav"
+}
+
+"explode_7"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"VOL_NORM"
+	"pitch"			"95, 105"
+
+	"soundlevel"	"SNDLVL_GUNFIRE"
+
+	"wave"			"ambient/explosions/explode_7.wav"
+}
+
+"explode_8"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"VOL_NORM"
+	"pitch"			"95, 105"
+
+	"soundlevel"	"SNDLVL_GUNFIRE"
+
+	"wave"			"ambient/explosions/explode_8.wav"
+}
+
+"explode_9"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"VOL_NORM"
+	"pitch"			"95, 105"
+
+	"soundlevel"	"SNDLVL_GUNFIRE"
+
+	"wave"			"ambient/explosions/explode_9.wav"
+}
+
+"Artillery_Incoming"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"VOL_NORM"
+	"pitch"			"95, 105"
+
+	"soundlevel"	"SNDLVL_GUNFIRE"
+
+	"rndwave"
+	{
+		"wave"	"ambient/explosions/artillery_incoming01.wav"
+		"wave"	"ambient/explosions/artillery_incoming02.wav"
+		"wave"	"ambient/explosions/artillery_incoming03.wav"
+		"wave"	"ambient/explosions/artillery_incoming04.wav"
+		"wave"	"ambient/explosions/artillery_incoming05.wav"
+		"wave"	"ambient/explosions/incoming01.wav"
+		"wave"	"ambient/explosions/incoming02.wav"
+		"wave"	"ambient/explosions/incoming03.wav"
+		"wave"	"ambient/explosions/incoming04.wav"
+		"wave"	"ambient/explosions/incoming05.wav"
+		"wave"	"ambient/explosions/incoming06.wav"
+		"wave"	"ambient/explosions/incoming07.wav"
+		"wave"	"ambient/explosions/incoming08.wav"
+		"wave"	"ambient/explosions/incoming09.wav"
+		"wave"	"ambient/explosions/mrk_incoming1.wav"
+		"wave"	"ambient/explosions/mrk_incoming2.wav"
+		"wave"	"ambient/explosions/mrk_incoming3.wav"
+		"wave"	"ambient/explosions/mrk_incoming4.wav"
+
+
+	}
+}
+
+"Metal.Door_Breach"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"95, 105"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"	"ambient/DoorBreach/exp_door_metal_breach01.wav"
+		"wave"	"ambient/DoorBreach/exp_door_metal_breach02.wav"
+		"wave"	"ambient/DoorBreach/exp_door_metal_breach03.wav"
+		"wave"	"ambient/DoorBreach/exp_door_metal_breach04.wav"
+	}
+}
+"Wood.Door_Breach"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"95, 105"
+
+	"soundlevel"	"SNDLVL_GUNFIRE"
+
+	"rndwave"
+	{
+		"wave"	"ambient/DoorBreach/exp_door_wood_breach01.wav"
+		"wave"	"ambient/DoorBreach/exp_door_wood_breach02.wav"
+		"wave"	"ambient/DoorBreach/exp_door_wood_breach03.wav"
+	}
+}
+
+"Radio.Static"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"VOL_NORM"
+	"pitch"			"95, 105"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"	"ambient/radio/amb_seaknight_radio1.wav"
+		"wave"	"ambient/radio/emt_radio_static1_loop.wav"
+		"wave"	"ambient/radio/emt_radiostatic_2.wav"
+
+
+	}
+}
+
+"fire_large"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"			"ambient/fire/fire_big_loop1.wav"
+}
+
+"fire_medium"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.5"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"			"ambient/fire/fire_med_loop1.wav"
+}
+
+
+"Fire.Plasma"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+		"soundlevel"  "SNDLVL_60dB"
+
+	"wave"	"ambient/fire/firebig.wav"
+}
+
+"Splash.SplashSound"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.75"
+	"soundlevel"  "SNDLVL_75dB"
+	"pitch"	"90, 100"
+
+	"rndwave"
+	{
+		"wave"	"ambient/water/water_spray1.wav"
+		"wave"	"ambient/water/water_spray2.wav"
+		"wave"	"ambient/water/water_spray3.wav"
+	}
+}
+
+"DoSpark"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.4,0.6"
+	"pitch"		"100,120"
+	"soundlevel"  "SNDLVL_70dB"
+
+	"rndwave"
+	{
+		"wave"	"ambient/energy/zap1.wav"
+		"wave"	"ambient/energy/zap2.wav"
+		"wave"	"ambient/energy/zap3.wav"
+		"wave"	"ambient/energy/zap7.wav"
+		"wave"	"ambient/energy/zap8.wav"
+	}
+}
+
+"LoudSpark"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.8,1.0"
+	"soundlevel"  "SNDLVL_80dB"
+	"pitch"		"100,120"
+	"rndwave"
+	{
+		"wave"	"ambient/energy/zap1.wav"
+		"wave"	"ambient/energy/zap2.wav"
+		"wave"	"ambient/energy/zap3.wav"
+		"wave"	"ambient/energy/zap7.wav"
+		"wave"	"ambient/energy/zap8.wav"
+	}
+}
+
+"ReallyLoudSpark"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.8,1.0"
+	"soundlevel"  "SNDLVL_130dB"
+	"pitch"		"100,120"
+	"rndwave"
+	{
+		"wave"	"ambient/energy/zap1.wav"
+		"wave"	"ambient/energy/zap2.wav"
+		"wave"	"ambient/energy/zap3.wav"
+		"wave"	"ambient/energy/zap7.wav"
+		"wave"	"ambient/energy/zap8.wav"
+	}
+}
+
+"ExtinguisherJet.TurnOn"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"VOL_NORM"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"wave"	"weapons/extinguisher/fire1.wav"
+}
+
+"ExtinguisherJet.TurnOff"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"VOL_NORM"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"wave"	"weapons/extinguisher/release1.wav"
+}
+
+
+"ambient.steam01"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.4"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_70dB"
+
+	"wave"		"ambient/gas/steam_loop1.wav"
+}
+
+"PhysicsCannister.ThrusterLoop"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"VOL_NORM"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_100DB"
+
+	"wave"			"ambient/gas/cannister_loop.wav"
+}
+
+// Electrical zap hits
+"ambient.electrical_zap_1"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"VOL_NORM"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_100DB"
+
+	"wave"			"ambient/energy/zap1.wav"
+}
+
+"ambient.electrical_zap_2"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"VOL_NORM"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_100DB"
+
+	"wave"			"ambient/energy/zap2.wav"
+}
+
+"ambient.electrical_zap_3"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"VOL_NORM"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_100DB"
+
+	"wave"			"ambient/energy/zap3.wav"
+}
+
+"ambient.electrical_zap_4"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"VOL_NORM"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_100DB"
+
+	"wave"			"ambient/energy/zap4.wav"
+}
+
+"ambient.electrical_zap_5"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"VOL_NORM"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_100DB"
+
+	"wave"			"ambient/energy/zap5.wav"
+}
+
+"ambient.electrical_zap_6"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"VOL_NORM"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_100DB"
+
+	"wave"			"ambient/energy/zap6.wav"
+}
+
+"ambient.electrical_zap_7"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"VOL_NORM"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_100DB"
+
+	"wave"			"ambient/energy/zap7.wav"
+}
+
+"ambient.electrical_zap_8"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"VOL_NORM"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_100DB"
+
+	"wave"			"ambient/energy/zap8.wav"
+}
+"ambient.electrical_zap_9"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"VOL_NORM"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_100DB"
+
+	"wave"			"ambient/energy/zap9.wav"
+}
+
+"ambient.electrical_random_zap_1"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"VOL_NORM"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_100DB"
+
+	"rndwave"
+	{
+		"wave"	"ambient/energy/zap1.wav"
+		"wave"	"ambient/energy/zap2.wav"
+		"wave"	"ambient/energy/zap3.wav"
+	}
+}
+
+"ambient.electrical_random_zap_2"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"VOL_NORM"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_100DB"
+
+	"rndwave"
+	{
+		"wave"	"ambient/energy/zap5.wav"
+		"wave"	"ambient/energy/zap6.wav"
+		"wave"	"ambient/energy/zap7.wav"
+		"wave"	"ambient/energy/zap8.wav"
+		"wave"	"ambient/energy/zap9.wav"
+	}
+}
+
+"ambient.whoosh_huge_incoming1"
+{
+
+	"channel"		"CHAN_STATIC"
+	"volume"		"VOL_NORM"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_100DB"
+
+	"wave"	"physics/nearmiss/whoosh_huge1.wav"
+}
+
+"ambient.whoosh_huge_incoming2"
+{
+
+	"channel"		"CHAN_STATIC"
+	"volume"		"VOL_NORM"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_100DB"
+
+	"wave"	"physics/nearmiss/whoosh_huge2.wav"
+}
+
+"ambient.whoosh_huge_incoming3"
+{
+
+	"channel"		"CHAN_STATIC"
+	"volume"		"VOL_NORM"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_100DB"
+
+	"wave"	"physics/nearmiss/whoosh_huge3.wav"
+}
+
+
+"ambient.whoosh_huge_incoming4"
+{
+
+	"channel"		"CHAN_STATIC"
+	"volume"		"VOL_NORM"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_100DB"
+
+	"wave"	"physics/nearmiss/whoosh_huge4.wav"
+}
+
+
+"ambient.whoosh_huge_incoming5"
+{
+
+	"channel"		"CHAN_STATIC"
+	"volume"		"VOL_NORM"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_100DB"
+
+	"wave"	"physics/nearmiss/whoosh_huge5.wav"
+}
+
+
+
+"ambient.whoosh_large_incoming1"
+{
+
+	"channel"		"CHAN_STATIC"
+	"volume"		"VOL_NORM"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_100DB"
+
+	"wave"	"physics/nearmiss/whoosh_large1.wav"
+}
+
+"ambient.whoosh_large_incoming2"
+{
+
+	"channel"		"CHAN_STATIC"
+	"volume"		"VOL_NORM"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_100DB"
+
+	"wave"	"physics/nearmiss/whoosh_large2.wav"
+}
+"ambient.whoosh_large_incoming3"
+{
+
+	"channel"		"CHAN_STATIC"
+	"volume"		"VOL_NORM"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_100DB"
+
+	"wave"	"physics/nearmiss/whoosh_large3.wav"
+}
+"ambient.whoosh_large_incoming4"
+{
+
+	"channel"		"CHAN_STATIC"
+	"volume"		"VOL_NORM"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_100DB"
+
+	"wave"	"physics/nearmiss/whoosh_large4.wav"
+}
+
+"ambient.whoosh_medium_incoming1"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"VOL_NORM"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_100DB"
+
+	"wave"	"physics/nearmiss/whoosh_medium1.wav"
+}
+
+"ambient.whoosh_medium_incoming2"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"VOL_NORM"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_100DB"
+
+	"wave"	"physics/nearmiss/whoosh_medium2.wav"
+}
+"ambient.whoosh_medium_incoming3"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"VOL_NORM"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_100DB"
+
+	"wave"	"physics/nearmiss/whoosh_medium3.wav"
+}
+"ambient.whoosh_medium_incoming4"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"VOL_NORM"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_100DB"
+
+	"wave"	"physics/nearmiss/whoosh_medium4.wav"
+}
+"ambient.whoosh_medium_incoming5"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"VOL_NORM"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_100DB"
+
+	"wave"	"physics/nearmiss/whoosh_medium5.wav"
+}
+"ambient.whoosh_medium_incoming6"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"VOL_NORM"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_100DB"
+
+	"wave"	"physics/nearmiss/whoosh_medium6.wav"
+}
+"ambient.rock_slide1"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"VOL_NORM"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_100DB"
+
+	"wave"	"ambient/materials/rock1.wav"
+}
+"ambient.rock_slide2"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"VOL_NORM"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_100DB"
+
+	"wave"	"ambient/materials/rock2.wav"
+}
+"ambient.rock_slide3"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"VOL_NORM"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_100DB"
+
+	"wave"	"ambient/materials/rock3.wav"
+}
+"ambient.rock_slide4"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"VOL_NORM"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_100DB"
+
+	"wave"	"ambient/materials/rock4.wav"
+}
+"ambient.rock_slide5"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"VOL_NORM"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_100DB"
+
+	"wave"	"ambient/materials/rock5.wav"
+}
+
+"Crowd.Panic"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.6,1.0"
+	"pitch"		"100,120"
+	"soundlevel"  "SNDLVL_70dB"
+
+	"rndwave"
+	{
+		"wave"	"Screams\Group\Crowd_Panic1.wav"
+		"wave"	"Screams\Group\Crowd_Panic2.wav"
+		"wave"	"Screams\Group\Crowd_Panic3.wav"
+		"wave"	"Screams\Group\Crowd_Panic4.wav"
+		"wave"	"Screams\Group\Crowd_Panic5.wav"
+		"wave"	"Screams\Group\Crowd_Panic6.wav"
+		"wave"	"Screams\Group\Crowd_Panic7.wav"
+	}
+}
+
+"Crowd.Panic.Hard"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.6,1.0"
+	"pitch"		"100,120"
+	"soundlevel"  "SNDLVL_70dB"
+
+	"rndwave"
+	{
+		"wave"	"Screams\Group\Crowd_Panic_Hard1.wav"
+		"wave"	"Screams\Group\Crowd_Panic_Hard2.wav"
+		"wave"	"Screams\Group\Crowd_Panic_Hard3.wav"
+		"wave"	"Screams\Group\Crowd_Panic_Hard4.wav"
+		"wave"	"Screams\Group\Crowd_Panic_Hard5.wav"
+		"wave"	"Screams\Group\Crowd_Panic_Hard6.wav"
+	}
+}
+
+"Male.Group.Screams"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.6,1.0"
+	"pitch"		"100,120"
+	"soundlevel"  "SNDLVL_70dB"
+
+	"rndwave"
+	{
+		"wave"	"Screams\Group\Male_Group_Screams1.wav"
+		"wave"	"Screams\Group\Male_Group_Screams2.wav"
+		"wave"	"Screams\Group\Male_Group_Screams3.wav"
+		"wave"	"Screams\Group\Male_Group_Screams4.wav"
+	}
+}
+
+"Male.Scream.Far"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.6,1.0"
+	"pitch"		"100,120"
+	"soundlevel"  "SNDLVL_70dB"
+
+	"rndwave"
+	{
+		"wave"	"Screams\Far\Male_Far_Scream1.wav"
+		"wave"	"Screams\Far\Male_Far_Scream2.wav"
+		"wave"	"Screams\Far\Male_Far_Scream3.wav"
+		"wave"	"Screams\Far\Male_Far_Scream4.wav"
+		"wave"	"Screams\Far\Male_Far_Scream5.wav"
+		"wave"	"Screams\Far\Male_Far_Scream6.wav"
+		"wave"	"Screams\Far\Male_Far_Scream7.wav"
+	}
+}
+
+"Male.Scream.Single"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.6,1.0"
+	"pitch"		"100,120"
+	"soundlevel"  "SNDLVL_70dB"
+
+	"rndwave"
+	{
+		"wave"	"Screams\Single\Male_Scream1.wav"
+		"wave"	"Screams\Single\Male_Scream2.wav"
+		"wave"	"Screams\Single\Male_Scream3.wav"
+		"wave"	"Screams\Single\Male_Scream4.wav"
+		"wave"	"Screams\Single\Male_Scream5.wav"
+		"wave"	"Screams\Single\Male_Scream6.wav"
+		"wave"	"Screams\Single\Male_Scream7.wav"
+		"wave"	"Screams\Single\Male_Scream8.wav"
+		"wave"	"Screams\Single\Male_Scream9.wav"
+		"wave"	"Screams\Single\Male_Scream10.wav"
+		"wave"	"Screams\Single\Male_Scream11.wav"
+		"wave"	"Screams\Single\Male_Scream12.wav"
+		"wave"	"Screams\Single\Male_Scream13.wav"
+		"wave"	"Screams\Single\Male_Scream14.wav"
+		"wave"	"Screams\Single\Male_Scream15.wav"
+		"wave"	"Screams\Single\Male_Scream16.wav"
+		"wave"	"Screams\Single\Male_Scream17.wav"
+		"wave"	"Screams\Single\Male_Scream18.wav"
+		"wave"	"Screams\Single\Male_Scream19.wav"
+		"wave"	"Screams\Single\Male_Scream20.wav"
+
+	}
+}
+"Police.Passby"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"VOL_NORM"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_100DB"
+
+	"wave"	"ambient/misc/police1.wav"
+}
+"Ambulance.Passby"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"VOL_NORM"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_100DB"
+
+	"wave"	"ambient/misc/ambulance1.wav"
+}

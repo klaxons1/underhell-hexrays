@@ -1,0 +1,72 @@
+char **sub_102036F0()
+{
+  if ( (dword_10465930 & 1) == 0 )
+  {
+    dword_10465930 |= 1u;
+    dword_103F3A94 = (int)"0";
+    dword_103F3AAC = (int)"0";
+    dword_103F3AC4 = (int)"0";
+    dword_103F3ADC = (int)"0";
+    dword_103F3AF4 = (int)"0";
+    dword_103F3B24 = (int)"0";
+    dword_103F3B54 = (int)"0";
+    dword_103F3A80 = 3;
+    dword_103F3A84 = 4;
+    dword_103F3A88 = 4;
+    dword_103F3A8C = 0;
+    dword_103F3A90 = (int)"operator end fadein";
+    dword_103F3A98 = 3;
+    dword_103F3A9C = 8;
+    dword_103F3AA0 = 4;
+    dword_103F3AA4 = 0;
+    dword_103F3AA8 = (int)"operator start fadeout";
+    dword_103F3AB0 = 3;
+    dword_103F3AB4 = 12;
+    dword_103F3AB8 = 4;
+    dword_103F3ABC = 0;
+    dword_103F3AC0 = (int)"operator end fadeout";
+    dword_103F3AC8 = 3;
+    dword_103F3ACC = 16;
+    dword_103F3AD0 = 4;
+    dword_103F3AD4 = 0;
+    dword_103F3AD8 = (int)"operator fade oscillate";
+    dword_103F3AE0 = 3;
+    dword_103F3AE4 = 20;
+    dword_103F3AE8 = 4;
+    dword_103F3AEC = 0;
+    dword_103F3AF0 = (int)"emission_start_time";
+    dword_103F3AF8 = 3;
+    dword_103F3AFC = 48;
+    dword_103F3B00 = 4;
+    dword_103F3B04 = 0;
+    dword_103F3B08 = (int)"emission_rate";
+    dword_103F3B0C = (int)"100";
+    dword_103F3B10 = 3;
+    dword_103F3B14 = 52;
+    dword_103F3B18 = 4;
+    dword_103F3B1C = 0;
+    dword_103F3B20 = (int)"emission_duration";
+    dword_103F3B28 = 3;
+    dword_103F3B2C = 44;
+    dword_103F3B30 = 4;
+    dword_103F3B34 = 0;
+    dword_103F3B38 = (int)"scale emission to used control points";
+    dword_103F3B3C = (int)"0.0";
+    dword_103F3B40 = 3;
+    dword_103F3B44 = 60;
+    dword_103F3B48 = 4;
+    dword_103F3B4C = 0;
+    dword_103F3B50 = (int)"use parent particles for emission scaling";
+    dword_103F3B58 = 4;
+    dword_103F3B5C = 64;
+    dword_103F3B60 = 1;
+    dword_103F3B64 = 0;
+    dword_103F3B68 = 0;
+    dword_103F3B6C = 0;
+    dword_103F3B70 = 0;
+    dword_103F3B74 = 0;
+    dword_103F3B78 = 0;
+    dword_103F3B7C = 0;
+  }
+  return off_103F3A78;
+}

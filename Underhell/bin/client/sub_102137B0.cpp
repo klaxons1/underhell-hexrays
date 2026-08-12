@@ -1,0 +1,78 @@
+char **sub_102137B0()
+{
+  if ( (dword_10465B54 & 1) == 0 )
+  {
+    dword_10465B54 |= 1u;
+    dword_103F8064 = (int)"0";
+    dword_103F807C = (int)"0";
+    dword_103F8094 = (int)"0";
+    dword_103F80AC = (int)"0";
+    dword_103F80C4 = (int)".25";
+    dword_103F80DC = (int)".25";
+    dword_103F80F4 = (int)"1";
+    dword_103F810C = (int)"1";
+    dword_103F8124 = (int)"1";
+    dword_103F8050 = 3;
+    dword_103F8054 = 4;
+    dword_103F8058 = 4;
+    dword_103F805C = 0;
+    dword_103F8060 = (int)"operator end fadein";
+    dword_103F8068 = 3;
+    dword_103F806C = 8;
+    dword_103F8070 = 4;
+    dword_103F8074 = 0;
+    dword_103F8078 = (int)"operator start fadeout";
+    dword_103F8080 = 3;
+    dword_103F8084 = 12;
+    dword_103F8088 = 4;
+    dword_103F808C = 0;
+    dword_103F8090 = (int)"operator end fadeout";
+    dword_103F8098 = 3;
+    dword_103F809C = 16;
+    dword_103F80A0 = 4;
+    dword_103F80A4 = 0;
+    dword_103F80A8 = (int)"operator fade oscillate";
+    dword_103F80B0 = 3;
+    dword_103F80B4 = 20;
+    dword_103F80B8 = 4;
+    dword_103F80BC = 0;
+    dword_103F80C0 = (int)"fade out time min";
+    dword_103F80C8 = 3;
+    dword_103F80CC = 44;
+    dword_103F80D0 = 4;
+    dword_103F80D4 = 0;
+    dword_103F80D8 = (int)"fade out time max";
+    dword_103F80E0 = 3;
+    dword_103F80E4 = 48;
+    dword_103F80E8 = 4;
+    dword_103F80EC = 0;
+    dword_103F80F0 = (int)"fade out time exponent";
+    dword_103F80F8 = 3;
+    dword_103F80FC = 52;
+    dword_103F8100 = 4;
+    dword_103F8104 = 0;
+    dword_103F8108 = (int)"proportional 0/1";
+    dword_103F8110 = 4;
+    dword_103F8114 = 80;
+    dword_103F8118 = 1;
+    dword_103F811C = 0;
+    dword_103F8120 = (int)"ease in and out";
+    dword_103F8128 = 4;
+    dword_103F812C = 81;
+    dword_103F8130 = 1;
+    dword_103F8134 = 0;
+    dword_103F8138 = (int)"fade bias";
+    dword_103F813C = (int)"0.5";
+    dword_103F8140 = 3;
+    dword_103F8144 = 56;
+    dword_103F8148 = 4;
+    dword_103F814C = 0;
+    dword_103F8150 = 0;
+    dword_103F8154 = 0;
+    dword_103F8158 = 0;
+    dword_103F815C = 0;
+    dword_103F8160 = 0;
+    dword_103F8164 = 0;
+  }
+  return off_103F8048;
+}

@@ -1,0 +1,100 @@
+int *sub_10205C40()
+{
+  if ( (dword_106C1B1C & 1) == 0 )
+  {
+    dword_106C1B1C |= 1u;
+    dword_106C1B00 = (int)"CPointHurt";
+    dword_106C1B08 = 0;
+    dword_106C1B0C = 0;
+    dword_106C1B10 = 0;
+    dword_106C1B14 = 0;
+    dword_106C1B18 = 0;
+    dword_106C1B04 = 10;
+    atexit(sub_10473890);
+  }
+  dword_1064238C = (int)&dword_1060F348;
+  if ( (dword_106C1B1C & 2) == 0 )
+  {
+    dword_106C1B1C |= 2u;
+    dword_10642524 = (int)sub_100390B0((char **)&dword_106C1B00, "HurtThink");
+    dword_10642528 = 0;
+    dword_1064252C = 0;
+    dword_10642530 = 2097153;
+    dword_10642534 = 0;
+    dword_10642538 = 0;
+    dword_1064253C = (int)sub_10205830;
+    dword_10642540 = 0;
+    dword_10642544 = 0;
+    dword_10642548 = 0;
+    dword_1064254C = 0;
+    dword_10642550 = 0;
+    dword_10642554 = 0;
+    dword_10642558 = (int)"InputTurnOn";
+    dword_1064255C = 0;
+    dword_10642560 = 0;
+    dword_10642564 = 524289;
+    dword_10642568 = (int)"TurnOn";
+    dword_1064256C = 0;
+    dword_10642570 = (int)sub_102059F0;
+    dword_10642574 = 0;
+    dword_10642578 = 0;
+    dword_1064257C = 0;
+    dword_10642580 = 0;
+    dword_10642584 = 0;
+    dword_10642588 = 0;
+    dword_1064258C = (int)"InputTurnOff";
+    dword_10642590 = 0;
+    dword_10642594 = 0;
+    dword_10642598 = 524289;
+    dword_1064259C = (int)"TurnOff";
+    dword_106425A0 = 0;
+    dword_106425A4 = (int)sub_10205A50;
+    dword_106425A8 = 0;
+    dword_106425AC = 0;
+    dword_106425B0 = 0;
+    dword_106425B4 = 0;
+    dword_106425B8 = 0;
+    dword_106425BC = 0;
+    dword_106425C0 = (int)"InputToggle";
+    dword_106425C4 = 0;
+    dword_106425C8 = 0;
+    dword_106425CC = 524289;
+    dword_106425D0 = (int)"Toggle";
+    dword_106425D4 = 0;
+    dword_106425D8 = (int)sub_10205AA0;
+    dword_106425DC = 0;
+    dword_106425E0 = 0;
+    dword_106425E4 = 0;
+    dword_106425E8 = 0;
+    dword_106425EC = 0;
+    dword_106425F0 = 0;
+    dword_106425F4 = (int)"InputHurt";
+    dword_106425F8 = 0;
+    dword_106425FC = 0;
+    dword_10642600 = 524289;
+    dword_10642604 = (int)"Hurt";
+    dword_10642608 = 0;
+    dword_1064260C = (int)sub_10205B00;
+    dword_10642610 = 0;
+    dword_10642614 = 0;
+    dword_10642618 = 0;
+    dword_1064261C = 0;
+    dword_10642620 = 0;
+    dword_10642624 = 13;
+    dword_10642628 = (int)"m_pActivator";
+    dword_1064262C = 820;
+    dword_10642630 = 0;
+    dword_10642634 = 131073;
+    dword_10642638 = 0;
+    dword_1064263C = 0;
+    dword_10642640 = 0;
+    dword_10642644 = 0;
+    dword_10642648 = 4;
+    dword_1064264C = 0;
+    dword_10642650 = 0;
+    flt_10642654 = 0.0;
+  }
+  dword_10642384 = 11;
+  dword_10642380 = (int)&unk_1064241C;
+  return &dword_10642380;
+}

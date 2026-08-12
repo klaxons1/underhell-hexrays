@@ -1,0 +1,9 @@
+_DWORD *__thiscall sub_102AA8A0(_DWORD *this, char a2)
+{
+  *this = &CAI_Spotlight::`vftable';
+  sub_102AA7E0(this);
+  *this = &CAI_Component::`vftable';
+  if ( (a2 & 1) != 0 )
+    sub_10184660((int)this);
+  return this;
+}

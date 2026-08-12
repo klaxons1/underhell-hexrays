@@ -1,0 +1,48 @@
+int __thiscall sub_10148190(int this, int a2)
+{
+  sub_10148090((_DWORD *)this, a2);
+  *(_DWORD *)this = &CAboveWaterView::`vftable';
+  *(_DWORD *)(this + 360) = 1;
+  *(float *)(this + 452) = 0.0;
+  *(_BYTE *)(this + 448) = 0;
+  *(_BYTE *)(this + 456) = 0;
+  *(_WORD *)(this + 476) = 1;
+  *(_DWORD *)(this + 484) = a2;
+  *(_DWORD *)(this + 488) = 0;
+  *(_DWORD *)(this + 492) = 0;
+  *(_DWORD *)(this + 496) = 0;
+  *(_DWORD *)(this + 500) = 0;
+  *(_DWORD *)(this + 504) = 0;
+  *(_DWORD *)(this + 508) = 0;
+  *(_DWORD *)(this + 356) = &CAboveWaterView::CReflectionView::`vftable';
+  *(_DWORD *)(this + 480) = a2 + 456;
+  *(_DWORD *)(this + 516) = 1;
+  *(float *)(this + 608) = 0.0;
+  *(_BYTE *)(this + 604) = 0;
+  *(_BYTE *)(this + 612) = 0;
+  *(_WORD *)(this + 632) = 1;
+  *(_DWORD *)(this + 640) = a2;
+  *(_DWORD *)(this + 644) = 0;
+  *(_DWORD *)(this + 648) = 0;
+  *(_DWORD *)(this + 652) = 0;
+  *(_DWORD *)(this + 656) = 0;
+  *(_DWORD *)(this + 660) = 0;
+  *(_DWORD *)(this + 664) = 0;
+  *(_DWORD *)(this + 636) = a2 + 456;
+  *(_DWORD *)(this + 512) = &CAboveWaterView::CRefractionView::`vftable';
+  *(_DWORD *)(this + 672) = 1;
+  *(float *)(this + 764) = 0.0;
+  *(_BYTE *)(this + 760) = 0;
+  *(_BYTE *)(this + 768) = 0;
+  *(_WORD *)(this + 788) = 1;
+  *(_DWORD *)(this + 796) = a2;
+  *(_DWORD *)(this + 800) = 0;
+  *(_DWORD *)(this + 804) = 0;
+  *(_DWORD *)(this + 808) = 0;
+  *(_DWORD *)(this + 812) = 0;
+  *(_DWORD *)(this + 816) = 0;
+  *(_DWORD *)(this + 820) = 0;
+  *(_DWORD *)(this + 792) = a2 + 456;
+  *(_DWORD *)(this + 668) = &CAboveWaterView::CIntersectionView::`vftable';
+  return this;
+}

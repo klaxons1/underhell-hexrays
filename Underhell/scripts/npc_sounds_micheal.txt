@@ -1,0 +1,922 @@
+//Prologue
+
+"Prologue.Micheal.Interrogation.1"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Prologue.Micheal.Interrogation.1.wav"
+}
+"Prologue.Micheal.Interrogation.2"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Prologue.Micheal.Interrogation.2.wav"
+}
+"Prologue.Micheal.Interrogation.3"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Prologue.Micheal.Interrogation.3.wav"
+}
+"Prologue.Micheal.Interrogation.4"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Prologue.Micheal.Interrogation.4.wav"
+}
+"Prologue.Micheal.Interrogation.5"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Prologue.Micheal.Interrogation.5.wav"
+}
+"Prologue.Micheal.Interrogation.6"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Prologue.Micheal.Interrogation.6.wav"
+}
+"Prologue.Micheal.Interrogation.7"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Prologue.Micheal.Interrogation.7.wav"
+}
+"Prologue.Micheal.Interrogation.8"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Prologue.Micheal.Interrogation.8.wav"
+}
+"Prologue.Micheal.Interrogation.9"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Prologue.Micheal.Interrogation.9.wav"
+}
+"Prologue.Micheal.Interrogation.10"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Prologue.Micheal.Interrogation.10.wav"
+}
+"Prologue.Micheal.Interrogation.11"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Prologue.Micheal.Interrogation.11.wav"
+}
+"Prologue.Micheal.Interrogation.12"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Prologue.Micheal.Interrogation.12.wav"
+}
+"Prologue.Micheal.Interrogation.13"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Prologue.Micheal.Interrogation.13.wav"
+}
+"Prologue.Micheal.Interrogation.14"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Prologue.Micheal.Interrogation.14.wav"
+}
+
+//Chapter1
+
+"Chapter1.Micheal.Dinner.1"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.Micheal.Dinner.1.wav"
+}
+"Chapter1.Micheal.Dinner.2"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.Micheal.Dinner.2.wav"
+}
+"Chapter1.Micheal.Dinner.3"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.Micheal.Dinner.3.wav"
+}
+"Chapter1.Micheal.Dinner.4"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.Micheal.Dinner.4.wav"
+}
+"Chapter1.Micheal.Dinner.5"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.Micheal.Dinner.5.wav"
+}
+"Chapter1.Micheal.Dinner.6"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.Micheal.Dinner.6.wav"
+}
+"Chapter1.Micheal.Dinner.7"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.Micheal.Dinner.7.wav"
+}
+"Chapter1.Micheal.Dinner.8"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.Micheal.Dinner.8.wav"
+}
+"Chapter1.Micheal.Dinner.9"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.Micheal.Dinner.9.wav"
+}
+"Chapter1.Micheal.Dinner.10"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.Micheal.Dinner.10.wav"
+}
+"Chapter1.Micheal.Dinner.11"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.Micheal.Dinner.11.wav"
+}
+
+"Chapter1.Micheal.Dinner.Count.1"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Micheal\Chapter1.Micheal.Dinner.Count.1.wav"
+}
+"Chapter1.Micheal.Dinner.Count.2"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Micheal\Chapter1.Micheal.Dinner.Count.2.wav"
+}
+"Chapter1.Micheal.Dinner.Count.3"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Micheal\Chapter1.Micheal.Dinner.Count.3.wav"
+}
+"Chapter1.Micheal.Dinner.Count.4"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Micheal\Chapter1.Micheal.Dinner.Count.4.wav"
+}
+"Chapter1.Micheal.Dinner.Count.5"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Micheal\Chapter1.Micheal.Dinner.Count.5.wav"
+}
+"Chapter1.Micheal.Dinner.Count.6"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Micheal\Chapter1.Micheal.Dinner.Count.6.wav"
+}
+"Chapter1.Micheal.Dinner.Count.7"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Micheal\Chapter1.Micheal.Dinner.Count.7.wav"
+}
+"Chapter1.Micheal.Dinner.Count.8"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Micheal\Chapter1.Micheal.Dinner.Count.8.wav"
+}
+"Chapter1.Micheal.Dinner.Count.9"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Micheal\Chapter1.Micheal.Dinner.Count.9.wav"
+}
+"Chapter1.Micheal.Dinner.Count.10"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Micheal\Chapter1.Micheal.Dinner.Count.10.wav"
+}
+
+"Chapter1.Micheal.Interrogation.1"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.Micheal.Interrogation.1.wav"
+}
+"Chapter1.Micheal.Interrogation.2"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.Micheal.Interrogation.2.wav"
+}
+"Chapter1.Micheal.Interrogation.3"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.Micheal.Interrogation.3.wav"
+}
+"Chapter1.Micheal.Interrogation.4"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.Micheal.Interrogation.4.wav"
+}
+"Chapter1.Micheal.Interrogation.5"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.Micheal.Interrogation.5.wav"
+}
+"Chapter1.Micheal.Interrogation.6"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.Micheal.Interrogation.6.wav"
+}
+"Chapter1.Micheal.Interrogation.7"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.Micheal.Interrogation.7.wav"
+}
+"Chapter1.Micheal.Interrogation.8"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.Micheal.Interrogation.8.wav"
+}
+"Chapter1.Micheal.Interrogation.9"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.Micheal.Interrogation.9.wav"
+}
+"Chapter1.Micheal.Interrogation.10"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.Micheal.Interrogation.10.wav"
+}
+"Chapter1.Micheal.Interrogation.11"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.Micheal.Interrogation.11.wav"
+}
+"Chapter1.Micheal.Interrogation.12"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.Micheal.Interrogation.12.wav"
+}
+
+"Chapter1.Micheal.Void.1"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Micheal\Chapter1.Micheal.Void.1.wav"
+}
+"Chapter1.Micheal.Void.2"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Micheal\Chapter1.Micheal.Void.2.wav"
+}
+"Chapter1.Micheal.Void.3"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Micheal\Chapter1.Micheal.Void.3.wav"
+}
+"Chapter1.Micheal.Void.4"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Micheal\Chapter1.Micheal.Void.4.wav"
+}
+"Chapter1.Micheal.Void.5"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Micheal\Chapter1.Micheal.Void.5.wav"
+}
+"Chapter1.Micheal.Void.6"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Micheal\Chapter1.Micheal.Void.6.wav"
+}
+"Chapter1.Micheal.Void.7"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Micheal\Chapter1.Micheal.Void.7.wav"
+}
+"Chapter1.Micheal.Void.8"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_NONE"
+   "wave"          "vo\Micheal\Chapter1.Micheal.Void.8.wav"
+}
+"Chapter1.Micheal.Void.9"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.Micheal.Void.9.wav"
+}
+"Chapter1.Micheal.Void.10"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.Micheal.Void.10.wav"
+}
+"Chapter1.Micheal.Void.11"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.Micheal.Void.11.wav"
+}
+"Chapter1.Micheal.Void.12"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.Micheal.Void.12.wav"
+}
+"Chapter1.Micheal.Void.13"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.Micheal.Void.13.wav"
+}
+"Chapter1.Micheal.Void.14"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.Micheal.Void.14.wav"
+}
+"Chapter1.Micheal.Void.15"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.Micheal.Void.15.wav"
+}
+"Chapter1.Micheal.Void.16"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.Micheal.Void.16.wav"
+}
+"Chapter1.Micheal.Void.17"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.Micheal.Void.17.wav"
+}
+"Chapter1.Micheal.Void.18"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.Micheal.Void.18.wav"
+}
+"Chapter1.Micheal.Void.19"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.Micheal.Void.19.wav"
+}
+"Chapter1.Micheal.Void.20"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.Micheal.Void.20.wav"
+}
+
+"Chapter1.Micheal.Void.Guide.1"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.Micheal.Void.Guide.1.wav"
+}
+"Chapter1.Micheal.Void.Guide.2"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.Micheal.Void.Guide.2.wav"
+}
+"Chapter1.Micheal.Void.Guide.3"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.Micheal.Void.Guide.3.wav"
+}
+"Chapter1.Micheal.Void.Guide.4"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.Micheal.Void.Guide.4.wav"
+}
+"Chapter1.Micheal.Void.Guide.5"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.Micheal.Void.Guide.5.wav"
+}
+"Chapter1.Micheal.Void.Guide.6"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.Micheal.Void.Guide.6.wav"
+}
+"Chapter1.Micheal.Void.Guide.7"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.Micheal.Void.Guide.7.wav"
+}
+"Chapter1.Micheal.Void.Guide.8"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.Micheal.Void.Guide.8.wav"
+}
+"Chapter1.Micheal.Void.Guide.9"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.Micheal.Void.Guide.9.wav"
+}
+
+//Suit Man
+
+"Chapter1.SuitMan.Interrogation.1"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.SuitMan.Interrogation.1.wav"
+}
+"Chapter1.SuitMan.Interrogation.2"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.SuitMan.Interrogation.2.wav"
+}
+"Chapter1.SuitMan.Interrogation.3"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.SuitMan.Interrogation.3.wav"
+}
+"Chapter1.SuitMan.Interrogation.4"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.SuitMan.Interrogation.4.wav"
+}
+"Chapter1.SuitMan.Interrogation.5"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.SuitMan.Interrogation.5.wav"
+}
+"Chapter1.SuitMan.Interrogation.6"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.SuitMan.Interrogation.6.wav"
+}
+"Chapter1.SuitMan.Interrogation.7"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.SuitMan.Interrogation.7.wav"
+}
+
+//Officer
+
+"Chapter1.Officer.Interrogation.1"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.Officer.Interrogation.1.wav"
+}
+"Chapter1.Officer.Interrogation.2"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.Officer.Interrogation.2.wav"
+}
+"Chapter1.Officer.Interrogation.3"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.Officer.Interrogation.3.wav"
+}
+"Chapter1.Officer.Interrogation.4"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.Officer.Interrogation.4.wav"
+}
+"Chapter1.Officer.Interrogation.5"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.Officer.Interrogation.5.wav"
+}
+"Chapter1.Officer.Interrogation.6"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.Officer.Interrogation.6.wav"
+}
+"Chapter1.Officer.Interrogation.7"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.Officer.Interrogation.7.wav"
+}
+"Chapter1.Officer.Interrogation.8"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.Officer.Interrogation.8.wav"
+}
+"Chapter1.Officer.Interrogation.9"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.Officer.Interrogation.9.wav"
+}
+"Chapter1.Officer.Interrogation.10"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.Officer.Interrogation.10.wav"
+}
+"Chapter1.Officer.Interrogation.11"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.Officer.Interrogation.11.wav"
+}
+"Chapter1.Officer.Interrogation.12"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.Officer.Interrogation.12.wav"
+}
+
+//Doctor
+
+"Chapter1.Doctor.Interrogation.1"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.Doctor.Interrogation.1.wav"
+}
+"Chapter1.Doctor.Interrogation.2"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.Doctor.Interrogation.2.wav"
+}
+"Chapter1.Doctor.Interrogation.3"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.Doctor.Interrogation.3.wav"
+}
+"Chapter1.Doctor.Interrogation.4"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.Doctor.Interrogation.4.wav"
+}
+"Chapter1.Doctor.Interrogation.5"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.Doctor.Interrogation.5.wav"
+}
+"Chapter1.Doctor.Interrogation.6"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.Doctor.Interrogation.6.wav"
+}
+"Chapter1.Doctor.Interrogation.7"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.Doctor.Interrogation.7.wav"
+}
+"Chapter1.Doctor.Interrogation.8"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.Doctor.Interrogation.8.wav"
+}
+"Chapter1.Doctor.Interrogation.9"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.Doctor.Interrogation.9.wav"
+}
+"Chapter1.Doctor.Interrogation.10"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.Doctor.Interrogation.10.wav"
+}
+"Chapter1.Doctor.Interrogation.11"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.Doctor.Interrogation.11.wav"
+}
+"Chapter1.Doctor.Interrogation.12"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.Doctor.Interrogation.12.wav"
+}
+"Chapter1.Doctor.Interrogation.13"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.Doctor.Interrogation.13.wav"
+}
+"Chapter1.Doctor.Interrogation.14"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.Doctor.Interrogation.14.wav"
+}
+"Chapter1.Doctor.Interrogation.15"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.Doctor.Interrogation.15.wav"
+}
+"Chapter1.Doctor.Interrogation.16"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.Doctor.Interrogation.16.wav"
+}
+"Chapter1.Doctor.Interrogation.17"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.Doctor.Interrogation.17.wav"
+}
+"Chapter1.Doctor.Interrogation.18"
+{
+   "channel"       "CHAN_VOICE"
+   "volume"        "VOL_NORM"
+   "pitch"         "PITCH_NORM"
+   "soundlevel"    "SNDLVL_TALKING"
+   "wave"          "vo\Micheal\Chapter1.Doctor.Interrogation.18.wav"
+}

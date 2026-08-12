@@ -1,0 +1,14 @@
+int __thiscall sub_10001CE0(_DWORD *this, int a2)
+{
+  unsigned int v2; // eax
+  int *v3; // ecx
+
+  v2 = this[a2 + 477];
+  if ( v2 == -1 )
+    return 0;
+  v3 = &off_1061BE18[4 * (this[a2 + 477] & 0xFFF) + 1];
+  if ( v3[1] != v2 >> 12 )
+    return 0;
+  else
+    return *v3;
+}

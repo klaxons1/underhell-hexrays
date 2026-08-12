@@ -1,0 +1,10 @@
+float *__cdecl sub_10421B40(float *a1, float *a2, float *a3)
+{
+  float *result; // eax
+
+  result = a2;
+  *a3 = a2[2] * a1[2] + a2[1] * a1[1] + *a1 * *a2 + a2[3];
+  a3[1] = a2[6] * a1[2] + a2[5] * a1[1] + a2[4] * *a1 + a2[7];
+  a3[2] = a2[10] * a1[2] + a2[9] * a1[1] + a2[8] * *a1 + a2[11];
+  return result;
+}
