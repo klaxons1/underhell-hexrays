@@ -1,0 +1,14 @@
+//exec default.cfg
+
+exec joystick.cfg
+
+exec autoexec.cfg
+
+stuffcmds
+
+sv_cheats 1
+
+// display the startup level
+startupmenu
+
+dirtyworkaround
