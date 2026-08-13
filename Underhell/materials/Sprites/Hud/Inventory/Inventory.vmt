@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "sprites/hud/Inventory/Inventory"
+	"$translucent" 1
+	"$ignorez"     "1"
+}

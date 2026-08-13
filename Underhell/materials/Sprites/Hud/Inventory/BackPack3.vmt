@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "sprites/hud/Inventory/BackPack3"
+	"$translucent" 1
+	"$ignorez"     "1"
+}
