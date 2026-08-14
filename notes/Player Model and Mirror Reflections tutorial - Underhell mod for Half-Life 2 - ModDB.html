@@ -1,0 +1,1204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Player Model and Mirror Reflections tutorial - Underhell mod for Half-Life 2 - ModDB</title>
+	<meta charset="utf-8">
+	 
+	<meta name="keywords" content="underhell mod for half life 2, player model and mirror reflections, articles, information, data, gossip, feature, read, view, discuss" />
+	<meta name="description" content="A short explanation followed by a tutorial about the Player Model and the Mirror Reflections systems in Underhell." />
+	<meta name="robots" content="max-image-preview:large" />
+	<meta property="fb:app_id" content="210134345672070"/>
+	<meta property="og:title" content="Player Model and Mirror Reflections tutorial - Underhell mod for Half-Life 2" />
+	<meta property="og:description" content="A short explanation followed by a tutorial about the Player Model and the Mirror Reflections systems in Underhell." />
+	<meta property="og:site_name" content="ModDB" />
+	<meta property="og:type" content="article" /> 
+	<meta property="og:url" content="https://www.moddb.com/mods/underhell/tutorials/player-model-and-mirror-reflections" /> 
+	<meta property="og:image" content="https://media.moddb.com/images/articles/1/109/108091/Mirrors.jpg" /> 
+	 
+	<meta property="twitter:card" content="summary_large_image" />
+	<meta property="twitter:site" content="@moddb" />
+	<meta property="twitter:title" content="Player Model and Mirror Reflections tutorial - Underhell mod for Half-Life 2" />
+	<meta property="twitter:description" content="A short explanation followed by a tutorial about the Player Model and the Mirror Reflections systems in Underhell." />
+	<meta property="twitter:url" content="https://www.moddb.com/mods/underhell/tutorials/player-model-and-mirror-reflections" /> 
+	<meta property="twitter:image" content="https://media.moddb.com/images/articles/1/109/108091/Mirrors.jpg" /> 
+	<link rel="stylesheet" type="text/css" media="all" href="https://static.moddb.com/html/external/min/index.php?g=css&amp;80" />
+	<link rel="icon" href="https://www.moddb.com/favicon.ico" type="image/x-icon" />
+	<link rel="icon" href="https://www.moddb.com/favicon.png" type="image/png" sizes="96x96" />
+	<link rel="icon" href="https://www.moddb.com/favicon-192x192.png" type="image/png" sizes="192x192" />
+	<link rel="apple-touch-icon" href="https://www.moddb.com/apple-touch-icon.png" sizes="180x180" />
+	<link rel="alternate" href="https://rss.moddb.com/mods/underhell/tutorials/feed/rss.xml" type="application/rss+xml" title="Player Model and Mirror Reflections tutorial - Underhell mod for Half-Life 2 feed" />	<meta name="ad:no_cmp" content="true"><script type="text/javascript" charset="UTF-8" src="//geo.cookie-script.com/s/02fe83eeed96d72125f64a74a34c1e06.js?country=gb&region=eu"></script><script type="text/javascript" charset="UTF-8" src="//geo.cookie-script.com/s/752e55d1c55e9bb1ffd11b935da9c032.js?country=us"></script><link rel="stylesheet" href="https://static.moddb.com/html/external/min/index.php?b=cutoff&amp;f=css/highlight.css&amp;1" type="text/css" />
+</head>
+<body>
+
+<div id="body">
+<div class="container">
+	<header><div id="header">
+		<div id="searchbox">
+			 
+			<span class="guest">Hello guest <a href="/members/register">register</a> or <a href="/members/login" id="togglelogin">sign in</a></span><span class="arrow">&nbsp;</span>
+			<form action="https://www.moddb.com/search" class="search" method="get"><input type="text" name="q" maxlength="500" value="" id="sitesearch" class="text" placeholder="Search"  /><input type="image" name="sa" value="Search" src="https://static.moddb.com/cutoff/images/default/btn_search_box.png" class="button" alt="Search ModDB" title="Search ModDB"  /></form>			 
+			<form action="https://www.moddb.com/members/login" method="post" name="memberform" class="login"><input type="hidden" name="referer" value="/mods/underhell/tutorials/player-model-and-mirror-reflections/" /><input type="hidden" name="rememberme" value="1" /><input type="hidden" name="members" value="1" /><span class="eebdddfbffdedformouter"><span><span><span><span class="eebdddfbffdedforminner"><input type="text" name="IyMyMmI2MjkwOGVlYzdiMjQ2OGUwMmQwMWJmNjM2MGFmNzE5NTk0Mjk5ODh1c2VybmFtZQ:E::E:" maxlength="500" value="" placeholder="Username" class="text" autocomplete="off"  /></span></span></span></span></span><span class="eebdddfbffdedformouter"><span><span><span class="eebdddfbffdedforminner"><input type="text" name="IyMyMmI2MjkwOGVlYzdiMjQ2OGUwMmQwMWJmNjM2MGFmNzM3NDY3MjE3ODFib3RjYXRjaGVy" maxlength="500" placeholder="Username" class="text" autocomplete="off"  /></span></span></span></span><style> span.eebdddfbffdedformouter span span span.eebdddfbffdedforminner { display: none; } span.eebdddfbffdedformouter span span span span.eebdddfbffdedforminner { display: inline; }</style>
+<input type="password" name="password" maxlength="100" placeholder="Password" class="text password" autocomplete="off"  /><input type="submit" name="members" value="GO" class="button" title="Sign In" style="color: #000;text-align: center;"  /></form>			<span class="login" style="display: none;">or with: <a href="/members/loginext/steam" class="steamiconsml" style="float: right; margin: 3px 1px 0 4px;" title="Click to connect via Steam"></a><a href="/members/loginext/google" class="googleiconsml" style="float: right; margin: 3px 1px 0 4px;" title="Click to connect via Google"></a><a href="/members/loginext/twitter" class="twittericonsml" style="float: right; margin: 3px 1px 0 4px;" title="Click to connect via Twitter"></a><a href="/members/loginext/facebook" class="facebookiconsml" style="float: right; margin: 3px 1px 0 4px;" title="Click to connect via Facebook"></a></span>
+			 
+		</div>
+
+		<h1>Player Model and Mirror Reflections tutorial - Underhell mod for Half-Life 2</h1>
+		<a href="/" class="logo" title="ModDB Home"></a>
+
+ 		 
+		<ul class="tabs">
+			<li class="on"><a href="/">HOME</a></li>
+			<li><a href="/today" title="New today">Today</a></li>
+			<li><a href="/week" title="New this week">Week</a></li>
+			<li><a href="/month" title="New this month">Month</a></li>
+			<li><a href="/year" title="New this year">Year</a></li>
+			 
+		</ul>
+	</div>
+	<div id="subheader">
+		<nav><ul class="tabs">
+			<li class="firsttab"><a href="/games">games</a>
+				<ul>
+					<li><a href="/games/top">popular</a></li>
+					<li><a href="/games/latest">latest</a></li>
+					 
+					<li><a href="https://www.indiedb.com">indies</a></li>
+					<li><a href="https://modularity.games">publishing</a></li>
+					 
+					<li><a href="/games/add">add game</a></li>
+									</ul>
+			</li>
+			<li class="on"><a href="/mods">mods</a>
+				<ul>
+					<li><a href="/mods/top">popular</a></li>
+					<li><a href="/mods/latest">latest</a></li>
+					<li><a href="/mods/add">add mod</a></li>
+				</ul>
+			</li>
+			<li><a href="/addons">addons</a>
+				<ul>
+					<li><a href="/addons/top">popular</a></li>
+					<li><a href="/addons/latest">latest</a></li>
+					<li><a href="/addons/add">upload</a></li>
+				</ul>
+			</li>
+			<li><a href="/downloads">files</a>
+				<ul>
+					<li><a href="/downloads/top">popular</a></li>
+					<li><a href="/downloads/latest">latest</a></li>
+					<li><a href="/downloads/add">upload</a></li>
+				</ul>
+			</li>
+			 
+			<li><a href="/rtx">RTX Remix</a>
+				<ul>
+					<li><a href="/rtx">Games Compatibility</a></li>	
+					<li><a href="/rtx/mods">Remix Mods</a></li>
+					<li><a href="/rtx/downloads">Remix Files</a></li>
+					<li><a href="/rtx/downloads?filter=t&category=34">PBR Assets</a></li><!-- RTX_ASSET -->
+					<li><a href="/rtx/articles">News</a></li>
+					<li><a href="/rtx/tutorials">Tutorials</a></li>
+					<li><a href="/rtx/stats">Statistics</a></li>
+				</ul>
+			</li>
+			 
+			<li><a href="/videos">videos</a>
+				<ul>
+					<li><a href="/images">images</a></li>
+					<li><a href="/audio">audio</a></li>
+				</ul>
+			</li>
+			<li><a href="/articles">articles</a>
+				<ul>
+					<li><a href="/reviews">reviews</a></li>
+					<li><a href="/headlines">headlines</a></li>
+					 
+					<li><a href="/blogs">blogs</a></li>
+					 
+					<li><a href="/articles/add">post article</a></li>
+				</ul>
+			</li>
+			<li><a href="/engines">engines</a>
+				<ul>
+					<li><a href="/engines/top">popular</a></li>
+					<li><a href="/engines/latest">latest</a></li>
+					<li><a href="/engines/add">add engine</a></li>
+				</ul>
+			</li>
+			<li><a href="/company">developers</a>
+				<ul>
+					<li><a href="/company/top">popular</a></li>
+					<li><a href="/company/latest">latest</a></li>
+					<li><a href="/company/add">add dev</a></li>
+				</ul>
+			</li>
+			<li><a href="/groups">groups</a>
+				<ul>
+					<li><a href="/groups/top">popular</a></li>
+					<li><a href="/groups/latest">latest</a></li>
+					<li><a href="/groups/add">add group</a></li>
+				</ul>
+			</li>
+			<li><a href="/forum">forums</a></li>
+			<li><a href="/jobs">jobs</a>
+				<ul>
+					<li><a href="/jobs/add">post job</a></li>
+				</ul>
+			</li>
+		</ul></nav>
+	</div></header>
+
+	 
+
+	<div class="column span-all tabtutorials">	<div class="headerbox" style="background-image: url(https://media.moddb.com/images/mods/1/9/8841/bg.jpg);">
+		<div class="headercorner">
+			<div class="title">
+				 
+				<h2><a href="/mods/underhell">Underhell</a></h2>
+				<h3>
+					<a href="/games/half-life-2">Half-Life 2 mod</a> | <time datetime="2011-03-05">Released 2011</time>				</h3>
+				<span class="bg"></span>
+			</div>
+			<nav><ul class="menu">
+				<li class="firsttab"><a href="/mods/underhell">summary</a></li><li class=""><a href="/mods/underhell/articles">articles</a></li><li class="on"><a href="/mods/underhell/tutorials">tutorials</a></li><li class=""><a href="/mods/underhell/reviews">reviews</a></li><li class=""><a href="/mods/underhell/downloads">files</a></li><li class=""><a href="/mods/underhell/videos">videos</a></li><li class=""><a href="/mods/underhell/images">images</a></li>			</ul></nav>
+		</div>
+	</div>
+		<div class="headernormalbox normalbox">
+		<div class="inner">
+			<div class="body clear">
+								<div class="tooltip"></div>
+								<p>Underhell is a Source Engine game developed by the Underhell Team in collaboration with We Create Stuff.
+
+Underhell Chapter 1 requires ONLY Source SDK Base 2007 installed.
+
+No Source game is required.
+
+</p>			</div>
+		</div>
+	</div>
+</div><div class="column span-300-alt first tabtutorials"><article itemscope itemtype="https://schema.org/TechArticle">
+					<meta itemscope itemprop="mainEntityOfPage"  itemtype="https://schema.org/WebPage" itemid="https://www.moddb.com/tutorials/player-model-and-mirror-reflections" />
+					<meta itemprop="dateModified" content="2012-08-17T04:02:00+0000" />
+					<meta itemprop="image" content="https://media.moddb.com/images/articles/1/109/108091/Mirrors.jpg" />
+					<div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+						<meta itemprop="name" content="ModDB" />
+						<div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+							<meta itemprop="url" content="https://static.moddb.com/cutoff/images/default/splash.png">
+							<meta itemprop="width" content="120">
+							<meta itemprop="height" content="60">
+						</div>
+					</div>	<div class="normalbox" id="readarticle">
+		<div class="normalcorner">
+			<div class="title">
+				<span class="options">
+					<a href="/messages/ajax/action/?action=report&amp;sitearea=articles&amp;siteareaid=108091" class="reporticon 44825bfc951a8ff5714f8bb710efda3freport" rel="nofollow" title="Report">Report</a> <a href="https://rss.moddb.com/mods/underhell/tutorials/feed/rss.xml" target="_blank" class="rssicon"  title="RSS">RSS</a>				</span>
+				<span class="heading" itemprop="headline">Player Model and Mirror Reflections</span>
+			</div>
+		</div>
+		<div class="inner">
+			<div class="body bodyarticle clear">
+								<div class="tooltip"></div>
+								
+												 
+				<p class="introductiontext" itemprop="description">A short explanation followed by a tutorial about the Player Model and the Mirror Reflections systems in Underhell.</p>
+								<p class="introduction">
+					Posted by <span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name"><a href="/members/mxthe" class="verifiedicon" title="Mod Manager" itemprop="url">Mxthe</a></span></span> on <time datetime="2012-08-17" itemprop="datePublished">Aug 17th, 2012</time> - <span itemprop="proficiencyLevel">Basic</span> Mapping/Technical 				</p>
+				<div id="articlecontent" itemprop="articleBody"><p>The Orange Box engine has an brush entity called "<a href="https://developer.valvesoftware.com/wiki/Func_reflective_glass" target="_blank" title="https://developer.valvesoftware.com/wiki/Func_reflective_glass">func_reflective_glass</a>", it is a mirror entity.<br />
+Technically, it is a Camera and a Monitor within itself, which is why if you have more than one of these in a same room, you will get issues.<br />
+These mirrors look great and add a lot of realism to environments, unfortunately there is one thing that does not reflect : The player himself.</p>
+<p>This is due to the player NOT having a model set in Orange Box, and even when set, it remains invisible when in first person mode.</p>
+<h2><span style="color: #000000;"><strong>Player Model</strong></span></h2>
+<br />
+<p>Due to a small Third Person part in Underhell : Chapter 1, we had to create a functional and animated player model, that would closely follow the player's movement speed, animation and head direction, to try and make him as "alive" looking as possible.</p>
+<p>This is why we manually animated and linked every single player behavior, down to lowering weapons,  shooting, jumping and crouching, to a preset playermodel.</p>
+<p>The default player model is : "models/player/jake_casual.mdl"<br />
+In order to change the player model, an input must be sent to the <em>!player</em> entity:</p>
+<pre><code class="lang-">!player SetPlayerModel models/player/jake_guard.mdl </code></pre>
+<br />
+<p>This input to the <em>!player</em> will set the playermodel to whatever is specified.<br />
+If the model path/name is not correct, the game will simply display an error message in the console, and the model will remain unchanged.</p>
+<p>In order for any additional player model to be animated properly, the following lines must be added to the .qc of the model :</p>
+<pre><code class="lang-">$includemodel &quot;player/male_anims.mdl&quot;
+$includemodel &quot;humans/male_shared.mdl&quot;
+$includemodel &quot;humans/male_ss.mdl&quot;
+$includemodel &quot;humans/male_gestures.mdl&quot;
+$includemodel &quot;humans/male_postures.mdl&quot;
+$includemodel &quot;humans/female_shared.mdl&quot;
+$includemodel &quot;humans/female_ss.mdl&quot;
+$includemodel &quot;alyx_animations.mdl&quot;
+$includemodel &quot;alyx_gestures.mdl&quot;</code></pre>
+<br />
+<p>Yes, those are a lot of compiled animation models, but this gives many possibilities for the player model to be well animated or even be an actor during scenes, that can have many gestures/poses.<br />
+A feature commonly used in Underhell.</p>
+<h2><span style="color: #000000;"><strong>Mirrors</strong></span></h2>
+<br />
+<p>So we had our player model, fully functional in Third Person, but it would still not render in mirrors nor monitors.The main problem was, that in order for it to be rendered there, it also needed to be rendered in the "world" so that it could reflect properly, which means that if the player would look down while in first person, he would see INSIDE the player model, and cause very nasty visual bugs.</p>
+<p>So, we thought of a system that would allow us to render entities ONLY in the <em>"RenderTarget"</em> textures, giving us not only the opportunity to render player in Mirrors and Monitors while in first person, but ANY dynamic entity in the game, can be added a keyvalue to be rendered only in Mirrors or Monitors.</p>
+<p>This system gives us endless possibilities for scares, where "something" would only be visible while looking at it through a mirror/monitor.</p>
+<p>The playermodel has this value set by default, in order for any entity to be rendered only in mirrors, the following keyvalue must be added in hammer, by turning smartedit off:</p>
+<div class="geshiheader"> code:</div>
+<div class=" geshi">uh_rendermirrorsonly 1</div>
+<br />
+<p>Setting this keyvalue to any entity in the game, will tell the engine to render them only in <em>"RenderTarget"</em> textures, therefore only in <a href="https://developer.valvesoftware.com/wiki/Func_reflective_glass" target="_blank" title="https://developer.valvesoftware.com/wiki/Func_reflective_glass">func_reflective_glass</a> or <a href="https://developer.valvesoftware.com/wiki/Func_monitor" target="_blank" title="https://developer.valvesoftware.com/wiki/Func_monitor">func_monitors</a>.</p>
+<p><img src="https://media.moddb.com/images/articles/1/109/108091/auto/1345178371.jpg" alt="" width="578" height="314" /></p>
+<h2><strong>Multiple Mirrors</strong></h2>
+<br />
+<p>As previously stated in the <a href="https://www.moddb.com/mods/underhell/tutorials/multiple-render-targets-higher-resolution-monitors" target="_blank" title="https://www.moddb.com/mods/underhell/tutorials/multiple-render-targets-higher-resolution-monitors">Multiple Render Texture</a>, placing multiple <em>RenderTargets</em> that use the same <em>RenderTarget</em> texture in one room, messes it up badly, and can even cause crashes.</p>
+<p>The Multiple Mirrors feature is something that we have planned, however at the time we are uncertain if it is possible using the same technique used previously.<br />
+Whenever this feature is implemented and works correctly, I will edit this section and describe it's functionality.</p>
+<div class="center" style="text-align: center;"><em>Programming by Carlos "Charly" Sotelo </em> </div>
+</div>
+							</div>
+		</div>
+	</div>
+</article> 	<div class="normalbox commentbox" id="comments">
+		<div class="normalcorner">
+			<div class="title">
+				<span class="options">
+					<a href="#commentform" class="addicon"  title="Post comment">Post comment</a>				</span>
+				<span class="heading">Comments</span>
+			</div>
+		</div>
+		<div class="inner">
+			<div class="body">
+				<div class="tooltip"></div>
+								<div class="table tablecomments">
+					 
+					<div id="3167012" class="row">
+						 
+						<div class="avatarholder">
+							<a href="/members/serathis" title="Serathis" class="avatar"><img src="https://media.moddb.com/images/members/1/398/397290/Sissy_by_JoPereiraS.jpg" alt="Serathis" width="50" height="50" /></a>
+													</div>
+						<div class="content">
+							<span class="heading">
+								<a href="/members/serathis" class="author" data-nameid="serathis">Serathis</a>  - <a href="#3167012" style="color: inherit;"><time datetime="2012-08-18T09:07:34+00:00">Aug 18 2012</time></a> - 479 comments							</span>
+														<div class="comment">
+								<p>Player reflections? In a Half Life mod? Hell must have frozen over! Nice.
+</p>
+							</div>
+							<span class="actions" data-id="3167012">
+								<a href="#commentform" class="entericon"  title="Reply">Reply</a> <a href="#karma" class="karmagoodicon comment3167012karmagood" rel="nofollow" title="Good karma">Good karma</a> <a href="#karma" class="karmabadicon comment3167012karmabad" rel="nofollow" title="Bad karma">Bad karma</a><span class="karma" title="Karma">+25 votes</span>							</span>
+													</div>
+						<div style="clear: both;"></div>
+					</div>
+					 
+					<div id="3168517" class="row reply1">
+						<div class="clearer"></div> 
+						<div class="avatarholder">
+							<a href="/members/domodestruction" title="Domo01" class="avatar"><img src="https://media.moddb.com/images/members/1/403/402352/shinyandchrome.png" alt="Domo01" width="50" height="50" /></a>
+													</div>
+						<div class="content">
+							<span class="heading">
+								<a href="/members/domodestruction" class="author" data-nameid="domodestruction">Domo01</a>  - <a href="#3168517" style="color: inherit;"><time datetime="2012-08-19T00:56:39+00:00">Aug 19 2012</time></a> - 449 comments							</span>
+														<div class="comment">
+								<p>It's not like this is the first mod to have reflections in mirrors. Still mighty impressive though.
+</p>
+							</div>
+							<span class="actions" data-id="3168517">
+								<a href="#commentform" class="entericon"  title="Reply">Reply</a> <a href="#karma" class="karmagoodicon comment3168517karmagood" rel="nofollow" title="Good karma">Good karma</a> <a href="#karma" class="karmabadicon comment3168517karmabad" rel="nofollow" title="Bad karma">Bad karma</a><span class="karma" title="Karma">+4 votes</span>							</span>
+													</div>
+						<div style="clear: both;"></div>
+					</div>
+					 
+					<div id="3168583" class="row reply1">
+						<div class="clearer"></div> 
+						<div class="avatarholder">
+							<a href="/members/charlotte-dunois" title="TheJP3372" class="avatar"><img src="https://media.moddb.com/images/members/1/463/462135/CHARRLOTTTE.jpg" alt="TheJP3372" width="50" height="50" /></a>
+													</div>
+						<div class="content">
+							<span class="heading">
+								<a href="/members/charlotte-dunois" class="author" data-nameid="charlotte-dunois">TheJP3372</a>  - <a href="#3168583" style="color: inherit;"><time datetime="2012-08-19T01:43:47+00:00">Aug 19 2012</time></a> - 791 comments							</span>
+														<div class="comment">
+								<p>I sense really creepy mirror scares coming o.0
+</p>
+							</div>
+							<span class="actions" data-id="3168583">
+								<a href="#commentform" class="entericon"  title="Reply">Reply</a> <a href="#karma" class="karmagoodicon comment3168583karmagood" rel="nofollow" title="Good karma">Good karma</a> <a href="#karma" class="karmabadicon comment3168583karmabad" rel="nofollow" title="Bad karma">Bad karma</a><span class="karma" title="Karma">+11 votes</span>							</span>
+													</div>
+						<div style="clear: both;"></div>
+					</div>
+					 
+					<div id="3169520" class="row reply1">
+						<div class="clearer"></div> 
+						<div class="avatarholder">
+							<a href="/members/dnny2" title="Dønny" class="avatar"><img src="https://media.moddb.com/images/members/1/455/454483/Mass-Effect-2-CE-12-icon.png" alt="Dønny" width="50" height="50" /></a>
+													</div>
+						<div class="content">
+							<span class="heading">
+								<a href="/members/dnny2" class="author" data-nameid="dnny2">Dønny</a>  - <a href="#3169520" style="color: inherit;"><time datetime="2012-08-19T14:58:30+00:00">Aug 19 2012</time></a> - 156 comments							</span>
+														<div class="comment">
+								<p>in this case we need feet and legs too! i can't identify myself with a mute, astral entity anyways..
+</p>
+							</div>
+							<span class="actions" data-id="3169520">
+								<a href="#commentform" class="entericon"  title="Reply">Reply</a> <a href="#karma" class="karmagoodicon comment3169520karmagood" rel="nofollow" title="Good karma">Good karma</a> <a href="#karma" class="karmabadicon comment3169520karmabad" rel="nofollow" title="Bad karma">Bad karma</a><span class="karma" title="Karma">+3 votes</span>							</span>
+													</div>
+						<div style="clear: both;"></div>
+					</div>
+					 
+					<div id="3170518" class="row reply2">
+						<div class="clearer"></div> 
+						<div class="avatarholder">
+							<a href="/members/phenixtri" title="Phenixtri" class="avatar"><img src="https://media.moddb.com/images/members/1/399/398308/Konachan.com_-_90721_city_final_.jpg" alt="Phenixtri" width="50" height="50" /></a>
+													</div>
+						<div class="content">
+							<span class="heading">
+								<a href="/members/phenixtri" class="author" data-nameid="phenixtri">Phenixtri</a>  - <a href="#3170518" style="color: inherit;"><time datetime="2012-08-19T23:12:35+00:00">Aug 20 2012</time></a> - 3,411 comments							</span>
+														<div class="comment">
+								<p>indeed a properly animated player view model capable of visibly interacting with physics props would really bring the games atmosphere to life. IE being able to see your own arm picking things up for example. Not even valve has had the balls to pull something like that off.
+</p>
+							</div>
+							<span class="actions" data-id="3170518">
+								<a href="#commentform" class="entericon"  title="Reply">Reply</a> <a href="#karma" class="karmagoodicon comment3170518karmagood" rel="nofollow" title="Good karma">Good karma</a> <a href="#karma" class="karmabadicon comment3170518karmabad" rel="nofollow" title="Bad karma">Bad karma</a><span class="karma" title="Karma">+3 votes</span>							</span>
+													</div>
+						<div style="clear: both;"></div>
+					</div>
+					 
+					<div id="3170775" class="row rowdeveloper reply2">
+						<div class="clearer"></div> 
+						<div class="avatarholder">
+							<a href="/members/mxthe" title="Mxthe" class="avatar"><img src="https://media.moddb.com/images/members/1/55/54719/Avatar.jpg" alt="Mxthe" width="50" height="50" /></a>
+							<span class="developer">Author</span>						</div>
+						<div class="content">
+							<span class="heading">
+								<a href="/members/mxthe" class="author" data-nameid="mxthe">Mxthe</a>  - <a href="#3170775" style="color: inherit;"><time datetime="2012-08-20T01:58:07+00:00">Aug 20 2012</time></a> - 736 comments							</span>
+														<div class="comment">
+								<p>Yeah well don't expect that to happen any time soon.</p>
+<p>Crysis kinda does that in first person for some objects, but you can't really pick up a lot of objects in the game.</p>
+<p>The problem with this system comes in the fact that every object has different mass and shape, and the arms and hands would need to be animated correctly so the "carrying" would look right.</p>
+<p>Doing this arm and hands animation for every possible object in the game is a nightmare.</p>
+<p>It could be done procedurally, which is most likely what will happen, but game developers have more important things to do that work on such things.</p>
+<p>Very few games allow you to pick up physic objects at all...
+</p>
+							</div>
+							<span class="actions" data-id="3170775">
+								<a href="#commentform" class="entericon"  title="Reply">Reply</a> <a href="#karma" class="karmagoodicon comment3170775karmagood" rel="nofollow" title="Good karma">Good karma</a><span class="karma" title="Karma">+4 votes</span>							</span>
+													</div>
+						<div style="clear: both;"></div>
+					</div>
+					 
+					<div id="3171775" class="row reply2">
+						<div class="clearer"></div> 
+						<div class="avatarholder">
+							<a href="/members/mkilbride" title="Mkilbride" class="avatar"><img src="https://media.moddb.com/images/members/1/66/65954/Moddbfinal.jpg" alt="Mkilbride" width="50" height="50" /></a>
+													</div>
+						<div class="content">
+							<span class="heading">
+								<a href="/members/mkilbride" class="author" data-nameid="mkilbride">Mkilbride</a>  - <a href="#3171775" style="color: inherit;"><time datetime="2012-08-20T15:11:58+00:00">Aug 20 2012</time></a> - 2,780 comments							</span>
+														<div class="comment">
+								<p>Uh, what?</p>
+<p>Valve has done that before in a game.</p>
+<p>Also, there is a mod that allows you to pick up weapons. You see your hands go down, like Crysis and pick them up.</p>
+<p>Can't find the mod right now though. It was basically CS:S with really advanced bots, more weapons,a nd changes, like SMOD, but wasn't called so.
+</p>
+							</div>
+							<span class="actions" data-id="3171775">
+								<a href="#commentform" class="entericon"  title="Reply">Reply</a> <a href="#karma" class="karmagoodicon comment3171775karmagood" rel="nofollow" title="Good karma">Good karma</a> <a href="#karma" class="karmabadicon comment3171775karmabad" rel="nofollow" title="Bad karma">Bad karma</a><span class="karma" title="Karma">-4 votes</span>							</span>
+													</div>
+						<div style="clear: both;"></div>
+					</div>
+					 
+					<div id="3167056" class="row">
+						<div class="clearer"></div> 
+						<div class="avatarholder">
+							<a href="/members/chad51" title="Chad51" class="avatar"><img src="https://static.moddb.com/html/cutoff/images/default/error_50x50.png" alt="Chad51" width="50" height="50" /></a>
+													</div>
+						<div class="content">
+							<span class="heading">
+								<a href="/members/chad51" class="author" data-nameid="chad51">Chad51</a>  - <a href="#3167056" style="color: inherit;"><time datetime="2012-08-18T09:55:45+00:00">Aug 18 2012</time></a> - 81 comments							</span>
+														<div class="comment">
+								<p>Awesome
+</p>
+							</div>
+							<span class="actions" data-id="3167056">
+								<a href="#commentform" class="entericon"  title="Reply">Reply</a> <a href="#karma" class="karmagoodicon comment3167056karmagood" rel="nofollow" title="Good karma">Good karma</a> <a href="#karma" class="karmabadicon comment3167056karmabad" rel="nofollow" title="Bad karma">Bad karma</a><span class="karma" title="Karma">+1 vote</span>							</span>
+													</div>
+						<div style="clear: both;"></div>
+					</div>
+					 
+					<div id="3167082" class="row">
+						<div class="clearer"></div> 
+						<div class="avatarholder">
+							<a href="/members/lh-goup" title="Dr.Goupyl" class="avatar"><img src="https://media.moddb.com/images/members/1/214/213028/shitty_faoks1.jpg" alt="Dr.Goupyl" width="50" height="50" /></a>
+													</div>
+						<div class="content">
+							<span class="heading">
+								<a href="/members/lh-goup" class="author" data-nameid="lh-goup">Dr.Goupyl</a>  - <a href="#3167082" style="color: inherit;"><time datetime="2012-08-18T10:12:50+00:00">Aug 18 2012</time></a> - 2,268 comments							</span>
+														<div class="comment">
+								<p>That's really neat, i like how you put small but cool extra details.
+</p>
+							</div>
+							<span class="actions" data-id="3167082">
+								<a href="#commentform" class="entericon"  title="Reply">Reply</a> <a href="#karma" class="karmagoodicon comment3167082karmagood" rel="nofollow" title="Good karma">Good karma</a> <a href="#karma" class="karmabadicon comment3167082karmabad" rel="nofollow" title="Bad karma">Bad karma</a><span class="karma" title="Karma">+9 votes</span>							</span>
+													</div>
+						<div style="clear: both;"></div>
+					</div>
+					 
+					<div id="3167158" class="row">
+						<div class="clearer"></div> 
+						<div class="avatarholder">
+							<a href="/members/sn4rk" title="Sn4rk" class="avatar"><img src="https://media.moddb.com/images/members/1/557/556023/637437_mask1.jpg" alt="Sn4rk" width="50" height="50" /></a>
+													</div>
+						<div class="content">
+							<span class="heading">
+								<a href="/members/sn4rk" class="author" data-nameid="sn4rk">Sn4rk</a>  - <a href="#3167158" style="color: inherit;"><time datetime="2012-08-18T11:17:53+00:00">Aug 18 2012</time></a> - 560 comments							</span>
+														<div class="comment">
+								<p>You can finally see yourself in mirrors? I suggest to make some scares like this :D example: You look at the mirror, everything looks normal. You look away, then you look back and "she" is standing behind you.
+</p>
+							</div>
+							<span class="actions" data-id="3167158">
+								<a href="#commentform" class="entericon"  title="Reply">Reply</a> <a href="#karma" class="karmagoodicon comment3167158karmagood" rel="nofollow" title="Good karma">Good karma</a> <a href="#karma" class="karmabadicon comment3167158karmabad" rel="nofollow" title="Bad karma">Bad karma</a><span class="karma" title="Karma">+1 vote</span>							</span>
+													</div>
+						<div style="clear: both;"></div>
+					</div>
+					 
+					<div id="3167280" class="row reply1">
+						<div class="clearer"></div> 
+						<div class="avatarholder">
+							<a href="/members/aza3" title="Aza027" class="avatar"><img src="https://media.moddb.com/images/members/1/423/422953/Dark_Cold_Synth_Wave_Post_Punk_M.png" alt="Aza027" width="50" height="50" /></a>
+													</div>
+						<div class="content">
+							<span class="heading">
+								<a href="/members/aza3" class="author" data-nameid="aza3">Aza027</a>  - <a href="#3167280" style="color: inherit;"><time datetime="2012-08-18T13:01:54+00:00">Aug 18 2012</time></a> - 325 comments							</span>
+														<div class="comment">
+								<p>This.
+</p>
+							</div>
+							<span class="actions" data-id="3167280">
+								<a href="#commentform" class="entericon"  title="Reply">Reply</a> <a href="#karma" class="karmagoodicon comment3167280karmagood" rel="nofollow" title="Good karma">Good karma</a> <a href="#karma" class="karmabadicon comment3167280karmabad" rel="nofollow" title="Bad karma">Bad karma</a><span class="karma" title="Karma">+1 vote</span>							</span>
+													</div>
+						<div style="clear: both;"></div>
+					</div>
+					 
+					<div id="3167183" class="row">
+						<div class="clearer"></div> 
+						<div class="avatarholder">
+							<a href="/members/kisaraji" title="Kisaraji" class="avatar"><img src="https://media.moddb.com/images/members/1/502/501957/373183_304961362941913_118702824.jpg" alt="Kisaraji" width="50" height="50" /></a>
+													</div>
+						<div class="content">
+							<span class="heading">
+								<a href="/members/kisaraji" class="author" data-nameid="kisaraji">Kisaraji</a>  - <a href="#3167183" style="color: inherit;"><time datetime="2012-08-18T11:32:08+00:00">Aug 18 2012</time></a> - 206 comments							</span>
+														<div class="comment">
+								<p>It's one step to make the player fell that he isn't just a floating weapon!
+</p>
+							</div>
+							<span class="actions" data-id="3167183">
+								<a href="#commentform" class="entericon"  title="Reply">Reply</a> <a href="#karma" class="karmagoodicon comment3167183karmagood" rel="nofollow" title="Good karma">Good karma</a> <a href="#karma" class="karmabadicon comment3167183karmabad" rel="nofollow" title="Bad karma">Bad karma</a><span class="karma" title="Karma">+3 votes</span>							</span>
+													</div>
+						<div style="clear: both;"></div>
+					</div>
+					 
+					<div id="3167275" class="row reply1">
+						<div class="clearer"></div> 
+						<div class="avatarholder">
+							<a href="/members/itsthepopei" title="itsthepopei" class="avatar"><img src="https://media.moddb.com/images/members/1/197/196674/thumby.jpg" alt="itsthepopei" width="50" height="50" /></a>
+													</div>
+						<div class="content">
+							<span class="heading">
+								<a href="/members/itsthepopei" class="author" data-nameid="itsthepopei">itsthepopei</a>  - <a href="#3167275" style="color: inherit;"><time datetime="2012-08-18T12:56:32+00:00">Aug 18 2012</time></a> - 154 comments							</span>
+														<div class="comment">
+								<p>Floating weapons have feelings too!!!!
+</p>
+							</div>
+							<span class="actions" data-id="3167275">
+								<a href="#commentform" class="entericon"  title="Reply">Reply</a> <a href="#karma" class="karmagoodicon comment3167275karmagood" rel="nofollow" title="Good karma">Good karma</a> <a href="#karma" class="karmabadicon comment3167275karmabad" rel="nofollow" title="Bad karma">Bad karma</a><span class="karma" title="Karma">+5 votes</span>							</span>
+													</div>
+						<div style="clear: both;"></div>
+					</div>
+					 
+					<div id="3171309" class="row reply1">
+						<div class="clearer"></div> 
+						<div class="avatarholder">
+							<a href="/members/igotznoskittles78" title="IGotzNoSkittles78" class="avatar"><img src="https://media.moddb.com/images/members/1/339/338382/Bunny.jpg" alt="IGotzNoSkittles78" width="50" height="50" /></a>
+													</div>
+						<div class="content">
+							<span class="heading">
+								<a href="/members/igotznoskittles78" class="author" data-nameid="igotznoskittles78">IGotzNoSkittles78</a>  - <a href="#3171309" style="color: inherit;"><time datetime="2012-08-20T09:03:49+00:00">Aug 20 2012</time></a> - 101 comments							</span>
+														<div class="comment">
+								<p>The Player is not a weapon!! It's a pair of floating hands holding a weapon!
+</p>
+							</div>
+							<span class="actions" data-id="3171309">
+								<a href="#commentform" class="entericon"  title="Reply">Reply</a> <a href="#karma" class="karmagoodicon comment3171309karmagood" rel="nofollow" title="Good karma">Good karma</a> <a href="#karma" class="karmabadicon comment3171309karmabad" rel="nofollow" title="Bad karma">Bad karma</a><span class="karma" title="Karma">+1 vote</span>							</span>
+													</div>
+						<div style="clear: both;"></div>
+					</div>
+					 
+					<div id="4938312" class="row reply2">
+						<div class="clearer"></div> 
+						<div class="avatarholder">
+							<a href="/members/warrior250official" title="xX[Warrior250]Xx" class="avatar"><img src="https://media.moddb.com/images/members/3/2791/2790218/Annotation_2020-01-26_185519.jpg" alt="xX[Warrior250]Xx" width="50" height="50" /></a>
+													</div>
+						<div class="content">
+							<span class="heading">
+								<a href="/members/warrior250official" class="author" data-nameid="warrior250official">xX[Warrior250]Xx</a>  - <a href="#4938312" style="color: inherit;"><time datetime="2014-11-29T14:57:29+00:00">Nov 29 2014</time></a> - 3,657 comments							</span>
+														<div class="comment">
+								<p>Can we just call it Field of View? Hands with a weapon seems weird for me :P
+</p>
+							</div>
+							<span class="actions" data-id="4938312">
+								<a href="#commentform" class="entericon"  title="Reply">Reply</a> <a href="#karma" class="karmagoodicon comment4938312karmagood" rel="nofollow" title="Good karma">Good karma</a> <a href="#karma" class="karmabadicon comment4938312karmabad" rel="nofollow" title="Bad karma">Bad karma</a><span class="karma" title="Karma">+1 vote</span>							</span>
+													</div>
+						<div style="clear: both;"></div>
+					</div>
+					 
+					<div id="3167187" class="row">
+						<div class="clearer"></div> 
+						<div class="avatarholder">
+							<a href="/members/rustie" title="Rus[T]" class="avatar"><img src="https://media.moddb.com/images/members/1/981/980121/120x120px-LS-4055e4b7_8bd2e35765.gif" alt="Rus[T]" width="50" height="50" /></a>
+													</div>
+						<div class="content">
+							<span class="heading">
+								<a href="/members/rustie" class="author" data-nameid="rustie">Rus[T]</a>  - <a href="#3167187" style="color: inherit;"><time datetime="2012-08-18T11:33:47+00:00">Aug 18 2012</time></a> - 1,163 comments							</span>
+														<div class="comment">
+								<p>Wow, so weird this isn't supported by default, great work!
+</p>
+							</div>
+							<span class="actions" data-id="3167187">
+								<a href="#commentform" class="entericon"  title="Reply">Reply</a> <a href="#karma" class="karmagoodicon comment3167187karmagood" rel="nofollow" title="Good karma">Good karma</a> <a href="#karma" class="karmabadicon comment3167187karmabad" rel="nofollow" title="Bad karma">Bad karma</a><span class="karma" title="Karma">+3 votes</span>							</span>
+													</div>
+						<div style="clear: both;"></div>
+					</div>
+					 
+					<div id="3167728" class="row">
+						<div class="clearer"></div> 
+						<div class="avatarholder">
+							<a href="/members/thedevon" title="thedevon" class="avatar"><img src="https://static.moddb.com/html/cutoff/images/default/error_50x50.png" alt="thedevon" width="50" height="50" /></a>
+													</div>
+						<div class="content">
+							<span class="heading">
+								<a href="/members/thedevon" class="author" data-nameid="thedevon">thedevon</a>  - <a href="#3167728" style="color: inherit;"><time datetime="2012-08-18T17:54:10+00:00">Aug 18 2012</time></a> - 26 comments							</span>
+														<div class="comment">
+								<p>you should make a crazy mirror maze for one of the dreams
+</p>
+							</div>
+							<span class="actions" data-id="3167728">
+								<a href="#commentform" class="entericon"  title="Reply">Reply</a> <a href="#karma" class="karmagoodicon comment3167728karmagood" rel="nofollow" title="Good karma">Good karma</a> <a href="#karma" class="karmabadicon comment3167728karmabad" rel="nofollow" title="Bad karma">Bad karma</a><span class="karma" title="Karma">+4 votes</span>							</span>
+													</div>
+						<div style="clear: both;"></div>
+					</div>
+					 
+					<div id="3167898" class="row">
+						<div class="clearer"></div> 
+						<div class="avatarholder">
+							<a href="/members/mistermister" title="MisterMister" class="avatar"><img src="https://media.moddb.com/images/members/1/842/841342/1db11939f3c0adeae786b83c541b6d5c.jpg" alt="MisterMister" width="50" height="50" /></a>
+													</div>
+						<div class="content">
+							<span class="heading">
+								<a href="/members/mistermister" class="author" data-nameid="mistermister">MisterMister</a>  - <a href="#3167898" style="color: inherit;"><time datetime="2012-08-18T19:26:42+00:00">Aug 18 2012</time></a> - 140 comments							</span>
+														<div class="comment">
+								<p>Thank You so much!
+</p>
+							</div>
+							<span class="actions" data-id="3167898">
+								<a href="#commentform" class="entericon"  title="Reply">Reply</a> <a href="#karma" class="karmagoodicon comment3167898karmagood" rel="nofollow" title="Good karma">Good karma</a> <a href="#karma" class="karmabadicon comment3167898karmabad" rel="nofollow" title="Bad karma">Bad karma</a><span class="karma" title="Karma">+3 votes</span>							</span>
+													</div>
+						<div style="clear: both;"></div>
+					</div>
+					 
+					<div id="3168315" class="row">
+						<div class="clearer"></div> 
+						<div class="avatarholder">
+							<a href="/members/dunejumper" title="Dune_Jumper" class="avatar"><img src="https://media.moddb.com/images/members/1/527/526557/Normal_-_Copy.jpg" alt="Dune_Jumper" width="50" height="50" /></a>
+													</div>
+						<div class="content">
+							<span class="heading">
+								<a href="/members/dunejumper" class="author" data-nameid="dunejumper">Dune_Jumper</a>  - <a href="#3168315" style="color: inherit;"><time datetime="2012-08-18T23:00:29+00:00">Aug 19 2012</time></a> - 1,579 comments							</span>
+														<div class="comment">
+								<p>Too bad I won't enjoy looking at my reflection...I'll be too worried about what else is about to appear in the reflection.
+</p>
+							</div>
+							<span class="actions" data-id="3168315">
+								<a href="#commentform" class="entericon"  title="Reply">Reply</a> <a href="#karma" class="karmagoodicon comment3168315karmagood" rel="nofollow" title="Good karma">Good karma</a> <a href="#karma" class="karmabadicon comment3168315karmabad" rel="nofollow" title="Bad karma">Bad karma</a><span class="karma" title="Karma">+3 votes</span>							</span>
+													</div>
+						<div style="clear: both;"></div>
+					</div>
+					 
+					<div id="3168326" class="row">
+						<div class="clearer"></div> 
+						<div class="avatarholder">
+							<a href="/members/cattts" title="CaptainCat" class="avatar"><img src="https://media.moddb.com/images/members/1/715/714476/Gas_mask.jpg" alt="CaptainCat" width="50" height="50" /></a>
+													</div>
+						<div class="content">
+							<span class="heading">
+								<a href="/members/cattts" class="author" data-nameid="cattts">CaptainCat</a>  - <a href="#3168326" style="color: inherit;"><time datetime="2012-08-18T23:03:53+00:00">Aug 19 2012</time></a> - 9 comments							</span>
+														<div class="comment">
+								<p>Aright, now give us the lower half of our bodys. Please
+</p>
+							</div>
+							<span class="actions" data-id="3168326">
+								<a href="#commentform" class="entericon"  title="Reply">Reply</a> <a href="#karma" class="karmagoodicon comment3168326karmagood" rel="nofollow" title="Good karma">Good karma</a> <a href="#karma" class="karmabadicon comment3168326karmabad" rel="nofollow" title="Bad karma">Bad karma</a><span class="karma" title="Karma">+4 votes</span>							</span>
+													</div>
+						<div style="clear: both;"></div>
+					</div>
+					 
+					<div id="3173817" class="row">
+						<div class="clearer"></div> 
+						<div class="avatarholder">
+							<a href="/members/bor2571" title="Bor2571" class="avatar"><img src="https://static.moddb.com/html/cutoff/images/default/error_50x50.png" alt="Bor2571" width="50" height="50" /></a>
+													</div>
+						<div class="content">
+							<span class="heading">
+								<a href="/members/bor2571" class="author" data-nameid="bor2571">Bor2571</a>  - <a href="#3173817" style="color: inherit;"><time datetime="2012-08-21T13:27:11+00:00">Aug 21 2012</time></a> - 35 comments							</span>
+														<div class="comment">
+								<p>I think this would be a good horror scene idea "You walk into the room and look at the mirror, the door shuts and you investigate, when you turn back and look at the mirror you see her then some creepy stuff happens like screaming then the lights go out and so on" don't you people agree with me.
+</p>
+							</div>
+							<span class="actions" data-id="3173817">
+								<a href="#commentform" class="entericon"  title="Reply">Reply</a> <a href="#karma" class="karmagoodicon comment3173817karmagood" rel="nofollow" title="Good karma">Good karma</a> <a href="#karma" class="karmabadicon comment3173817karmabad" rel="nofollow" title="Bad karma">Bad karma</a><span class="karma" title="Karma">+1 vote</span>							</span>
+													</div>
+						<div style="clear: both;"></div>
+					</div>
+					 
+					<div id="3498960" class="row">
+						<div class="clearer"></div> 
+						<div class="avatarholder">
+							<a href="/members/dr-tomorrow" title="Dr_Tomorrow" class="avatar"><img src="https://static.moddb.com/html/cutoff/images/default/error_50x50.png" alt="Dr_Tomorrow" width="50" height="50" /></a>
+													</div>
+						<div class="content">
+							<span class="heading">
+								<a href="/members/dr-tomorrow" class="author" data-nameid="dr-tomorrow">Dr_Tomorrow</a>  - <a href="#3498960" style="color: inherit;"><time datetime="2013-01-16T02:06:50+00:00">Jan 16 2013</time></a> - 207 comments							</span>
+														<div class="comment">
+								<p>Why Valve couldn't implement this stuff by now? I mean I feel that the whole Valve gaming company programmers are no better than Charly all alone...
+</p>
+							</div>
+							<span class="actions" data-id="3498960">
+								<a href="#commentform" class="entericon"  title="Reply">Reply</a> <a href="#karma" class="karmagoodicon comment3498960karmagood" rel="nofollow" title="Good karma">Good karma</a> <a href="#karma" class="karmabadicon comment3498960karmabad" rel="nofollow" title="Bad karma">Bad karma</a><span class="karma" title="Karma">+1 vote</span>							</span>
+													</div>
+						<div style="clear: both;"></div>
+					</div>
+									</div>
+							</div>
+	
+					</div>
+	</div>
+	<div class="normalbox formbox" id="commentform">
+		<div class="normalcorner">
+			<div class="title">
+								<span class="heading">Post a comment</span>
+			</div>
+		</div>
+		<div class="inner">
+			<div id="commentform" class="body bodysimple clear">
+								<div class="tooltip"></div>
+							
+																
+				<div class="table tableform">
+					<form action="https://www.moddb.com/mods/underhell/tutorials/player-model-and-mirror-reflections/#commentform" method="post" name="commentform"><input type="hidden" name="formhash" value="da4213e343f8a25dac6f192dc3a106fb" /><input type="hidden" name="replyid" value="0" id="commentreplyid" /><input type="hidden" name="page" value="1" id="commentpage" />					<div class="row rowcommentguest clear">
+												<p class="helper"></p><p><a href="/members/loginext/steam" class="steamicon" style="float: right; margin-left: 6px;" title="Click to connect via Steam"></a><a href="/members/loginext/google" class="googleicon" style="float: right; margin-left: 6px;" title="Click to connect via Google"></a><a href="/members/loginext/twitter" class="twittericon" style="float: right; margin-left: 6px;" title="Click to connect via Twitter"></a><a href="/members/loginext/facebook" class="facebookicon" style="float: right; margin-left: 6px;" title="Click to connect via Facebook"></a>Your comment will be anonymous unless you <a href="/members/register">join the community</a>. Or sign in with your social account:</p>					</div>
+										<div class="row rowcommentsummary clear">
+												<p class="helper"></p><textarea name="summary" cols="80" rows="10" id="commentsummary" required="required" ></textarea>					</div>
+										<div class="row rowcommentemail clear" style="display: none;">
+												<label for="commentemail">&#69;&#109;&#97;&#105;&#108;</label>
+												<p class="helper"></p><span class="dbbaccedfefbbdformouter"><span><span><span class="dbbaccedfefbbdforminner"><input type="text" name="IyMyMmI2MjkwOGVlYzdiMjQ2OGUwMmQwMWJmNjM2MGFmNzk3MDEyMjg3NzRlbWFpbA:E::E:" maxlength="500" value="" id="commentemail" class="text" autocomplete="off"  /></span></span></span></span><span class="dbbaccedfefbbdformouter"><span><span><span><span class="dbbaccedfefbbdforminner"><input type="text" name="IyMyMmI2MjkwOGVlYzdiMjQ2OGUwMmQwMWJmNjM2MGFmNzg3MjMwODU1NzVib3RjYXRjaGVy" maxlength="500" class="text" autocomplete="off"  /></span></span></span></span></span><style> span.dbbaccedfefbbdformouter span span span span { display: none; } span.dbbaccedfefbbdformouter { display: inline; }</style>
+					</div>
+															<div class="row buttons">
+																								<input type="submit" name="comment" value="Save comment" id="commentsubmit"  />					</div>
+					</form>				</div>
+			</div>
+		</div>
+	</div>
+</div><div class="column span-300 last tabtutorials">	<div class="normalbox menubox" id="modsinfo">
+				<div class="normalcorner">
+			<div class="title">
+								<span class="options">
+					<a href="#watch" class="watchicon mods8841watch" rel="nofollow" title="Follow">Follow</a> <a href="/messages/ajax/action/?action=report&amp;sitearea=mods&amp;siteareaid=8841" class="reporticon 44825bfc951a8ff5714f8bb710efda3freport" rel="nofollow" title="Report">Report</a>				</span>
+								<span class="heading">Profile</span>
+			</div>
+		</div>
+				<div class="inner">
+			<div class="body bodysimple">
+								<div class="tooltip"></div>
+																<div class="table tablemenu">
+										<div class="row clear">
+						<a href="/mods/underhell/downloads" class="downloadautotoggle button buttonlarge buttonfull"><span class="buttoncount">264.7K</span><span class="buttontext">Download</span></a><div class="downloadon" style="display: none;"><a href="/mods/underhell/downloads/underhell-chapter-1" class="button buttonfull"><span style="float: right;">FULL</span><span>Underhell Chapter 1</span><hr><span style="font-weight: normal; float: right;">171.6K</span><span style="font-weight: normal;">1.55gb</span></a><a href="/mods/underhell/downloads/underhell-chapter-1-russian-language-pack" class="button buttonfull"><span style="float: right;">PATCH</span><span>Underhell Chapter 1 - Russian Language Pack</span><hr><span style="font-weight: normal; float: right;">24.3K</span><span style="font-weight: normal;">15.75mb</span></a><a href="/mods/underhell/downloads/underhell-chapter-1-tchinese-language-pack" class="button buttonfull"><span style="float: right;">PATCH</span><span>Underhell Chapter 1 - TChinese Language Pack</span><hr><span style="font-weight: normal; float: right;">1.9K</span><span style="font-weight: normal;">26.55mb</span></a><a href="/mods/underhell/downloads/underhell-chapter-1-german-language-pack" class="button buttonfull"><span style="float: right;">PATCH</span><span>Underhell Chapter 1 - German Language Pack</span><hr><span style="font-weight: normal; float: right;">1.8K</span><span style="font-weight: normal;">16.58mb</span></a><a href="/mods/underhell/downloads/underhell-chapter-1-spanish-language-pack" class="button buttonfull"><span style="float: right;">PATCH</span><span>Underhell Chapter 1 - Spanish Language Pack</span><hr><span style="font-weight: normal; float: right;">2.7K</span><span style="font-weight: normal;">25.11mb</span></a></div>					</div>
+										<div class="row clear">
+						<a href="#watch" class="watchicon c76625d26ff7f0c55142db2c328da119watch button buttonlarge buttonfull" rel="nofollow"><span class="buttoncount watchcount">4.2K</span><span class="buttontext">Follow</span></a>					</div>
+										<div class="row clear">
+												<h5>Icon</h5>
+						<span class="summary">
+							<a href="/games/half-life-2"><img src="https://media.moddb.com/images/games/1/1/61/hl2.png" alt="Half-Life 2" width="32" height="32" /></a>						</span>
+											</div>
+										<div class="row clear">
+												<h5>Game</h5>
+						<span class="summary">
+							<a href="/games/half-life-2">Half-Life 2</a>						</span>
+											</div>
+										<div class="row clear">
+												<h5>Creator</h5>
+						<span class="summary">
+							<a href="/members/mxthe">Mxthe</a>						</span>
+											</div>
+										<div class="row clear">
+												<h5>Contact</h5>
+						<span class="summary">
+							<a href="/messages/compose?to=Mxthe">Send Message</a>						</span>
+											</div>
+										<div class="row clear">
+												<h5>Homepage</h5>
+						<span class="summary">
+							<a href="http://underhell.wecreatestuff.com/" rel="noopener noreferrer" target="_blank">Underhell.wecreatestuff.com</a>						</span>
+											</div>
+										<div class="row clear">
+												<h5>Release date</h5>
+						<span class="summary">
+							<time datetime="2011-03-05">Released 2011</time>						</span>
+											</div>
+									</div>
+							</div>
+		</div>
+	</div>
+	<div class="normalbox menubox" id="rtxremix">
+				<div class="normalcorner">
+			<div class="title">
+								<span class="heading">RTX Remix</span>
+			</div>
+		</div>
+				<div class="inner">
+			<div class="body bodysimple">
+								<div class="tooltip"></div>
+																<div class="table tablemenu">
+										<div class="row clear">
+						RTX Remix is a <a href="https://www.nvidia.com/en-us/geforce/rtx-remix/" target="_blank">modding platform by NVIDIA</a>, which allows modders to create stunning HD remasters of classic games <a href="/rtx">(see all supported)</a>, with ray tracing and DLSS.<br><br>					</div>
+										<div class="row clear">
+						This mod is NOT using RTX Remix. Learn more about <a href="/news/rtx-remix-on-moddb">ModDB's collaboration with the Remix community</a> to organize all compatible games, and <a href="/games/half-life-2#rtxremix">Half-Life 2's</a> support for RTX. <a href="/platforms/rtx/set" class="togglertxinfo">Hide this dialog</a>.					</div>
+									</div>
+							</div>
+		</div>
+	</div>
+	<div class="normalbox menubox" id="articlesprofilemenu">
+				<div class="normalcorner">
+			<div class="title">
+								<span class="heading">Tutorial</span>
+			</div>
+		</div>
+				<div class="inner">
+			<div class="body bodysimple">
+								<div class="tooltip"></div>
+																<div class="table tablemenu">
+										<div class="row clear">
+												<h5>Tags</h5>
+						<span class="summary">
+							<a href="/tags/level-design">Level Design</a>, <a href="/tags/mapping">Mapping</a>, <a href="/tags/tutorial">Tutorial</a>						</span>
+											</div>
+										<div class="row clear">
+												<h5>Browse</h5>
+						<span class="summary">
+							<a href="/mods/underhell/tutorials">Tutorials</a>						</span>
+											</div>
+										<div class="row clear">
+												<h5>New</h5>
+						<span class="summary">
+							<a href="/members/register" class="addicon">Members only</a>						</span>
+											</div>
+										<div class="row clear">
+												<h5>Report</h5>
+						<span class="summary">
+							<a href="/messages/ajax/action/?action=report&amp;sitearea=articles&amp;siteareaid=108091" class="reporticon 44825bfc951a8ff5714f8bb710efda3freport" rel="nofollow">Report</a>						</span>
+											</div>
+										<div class="row clear">
+												<h5>Views</h5>
+						<span class="summary">
+							<a href="/statistics/data/visit/articles/108091" rel="iframe=true;innerHeight=525;innerWidth=830" class="thickbox" title="Player Model and Mirror Reflections Statistics">9,384 (1 today)</a>						</span>
+											</div>
+										<div class="row clear">
+						 
+<h5>Share</h5>
+<span class="summary summarypromo">
+	<a href="https://www.reddit.com/r/1/submit?url=https%3A%2F%2Fwww.moddb.com%2Fmods%2Funderhell%2Ftutorials%2Fplayer-model-and-mirror-reflections&title=Player+Model+and+Mirror+Reflections+tutorial+-+Underhell+mod+for+Half-Life+2" class="redditpromo csstooltip" title="Share on Reddit" target="_blank" rel="nofollow noopener noreferrer"></a><a href="mailto:?subject=Player%20Model%20and%20Mirror%20Reflections%20tutorial%20-%20Underhell%20mod%20for%20Half-Life%202&body=Visit%3A%20https%3A%2F%2Fwww.moddb.com%2Fmods%2Funderhell%2Ftutorials%2Fplayer-model-and-mirror-reflections" class="emailpromo csstooltip" title="Email a friend" rel="nofollow"></a><a href="https://twitter.com/intent/tweet?status=Player+Model+and+Mirror+Reflections+tutorial+-+Underhell+mod+for+Half-Life+2+https%3A%2F%2Fwww.moddb.com%2Fmods%2Funderhell%2Ftutorials%2Fplayer-model-and-mirror-reflections+via+%40moddb&url=https%3A%2F%2Fwww.moddb.com%2Fmods%2Funderhell%2Ftutorials%2Fplayer-model-and-mirror-reflections&via=moddb" class="twitterpromo csstooltip" title="Tweeeeeet!" target="_blank" rel="nofollow noopener noreferrer"></a><a href="https://www.facebook.com/dialog/share?app_id=210134345672070&display=page&href=https%3A%2F%2Fwww.moddb.com%2Fmods%2Funderhell%2Ftutorials%2Fplayer-model-and-mirror-reflections&quote=Player+Model+and+Mirror+Reflections+tutorial+-+Underhell+mod+for+Half-Life+2&redirect_uri=https%3A%2F%2Fwww.moddb.com%2Fmods%2Funderhell%2Ftutorials%2Fplayer-model-and-mirror-reflections" class="facebookpromo csstooltip" title="Share on Facebook" target="_blank" rel="nofollow noopener noreferrer"></a> 
+</span>
+ 					</div>
+									</div>
+							</div>
+		</div>
+	</div>
+ <div class="normalbox linksbox" id="menulinksmods">
+	<div class="normalcorner">
+		<div class="title">
+			 
+			<span class="heading">Related Mods</span>
+		</div>
+	</div>
+	<div class="inner">
+		<div class="body bodysimple">
+			<div class="tooltip"></div>
+			<div class="table tablerelated">
+								<div class="row clear">
+										<a href="/mods/underhell" title="Underhell" class="image"><img src="https://media.moddb.com/cache/images/mods/1/9/8841/crop_120x90/Chapter1Wallpaper768.jpg" alt="Underhell" /></a>
+										<div class="content">
+						<a href="/mods/underhell" class="heading">Underhell</a>
+						<span class="summary">
+							<a href="/games/half-life-2">Half-Life 2</a> 						</span>
+					</div>
+				</div>
+				 
+			</div>
+		</div>
+	</div>
+</div>
+<div class="normalbox linksbox" id="menulinksgames">
+	<div class="normalcorner">
+		<div class="title">
+			 
+			<span class="heading">Related Games</span>
+		</div>
+	</div>
+	<div class="inner">
+		<div class="body bodysimple">
+			<div class="tooltip"></div>
+			<div class="table tablerelated">
+								<div class="row clear">
+										<a href="/games/half-life-2" title="Half-Life 2" class="image"><img src="https://media.moddb.com/cache/images/games/1/1/61/crop_120x90/hl2_thumb.jpg" alt="Half-Life 2" /></a>
+										<div class="content">
+						<a href="/games/half-life-2" class="heading">Half-Life 2</a>
+						<span class="summary">
+							First Person Shooter 						</span>
+					</div>
+				</div>
+				 
+			</div>
+		</div>
+	</div>
+</div>
+</div> 	<div style="clear: both; height: 1em;"></div><!-- IE6 Hack -->
+</div>
+
+<footer><div id="footer">
+	<div class="content">
+		<a href="https://www.dbolical.com" class="network dbolical" target="_blank" title="DBolical - Entertainment Euphoria"></a>
+		<span class="terms"><a href="/privacy-policy#cookies" class="csconsentlink">Cookies</a> | <a href="/terms-of-use">Terms of Use</a> | <a href="/privacy-policy" style="padding-right: 0">Privacy Policy</a></span>
+		<span class="links"><a href="/blog">Blog</a> | <a href="/about">About</a> | <a href="/advertise">Advertise</a> | <a href="/contact">Contact</a> | <a href="/mods/add">Submit Mod</a> | <a href="https://mod.io" target="_blank" title="Cross Platform Mod support for game developers">Cross-Platform Mod Support</a> | <a href="/sitemap">Site Map</a></span>
+		<span class="copyright">&copy; 2002 - 2026 <a href="https://www.dbolical.com" target="_blank">DBolical Pty Ltd.</a>&nbsp; All Rights Reserved.&nbsp; <a href="/members/online">6152 modders</a>.</span>
+	</div>
+</div><script src="https://static.moddb.com/html/external/min/index.php?g=jquery&amp;1"></script><script type="application/ld+json">{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"Item":{"@id":"https://www.moddb.com/games","name":"Games"}},{"@type":"ListItem","position":2,"Item":{"@id":"https://www.moddb.com/games/half-life-2","name":"Half-Life 2"}},{"@type":"ListItem","position":3,"Item":{"@id":"https://www.moddb.com/games/half-life-2/mods","name":"Mods"}},{"@type":"ListItem","position":4,"Item":{"@id":"https://www.moddb.com/mods/underhell","name":"Underhell"}},{"@type":"ListItem","position":5,"Item":{"@id":"https://www.moddb.com/mods/underhell/tutorials","name":"Tutorials"}},{"@type":"ListItem","position":6,"Item":{"@id":"https://www.moddb.com/mods/underhell/tutorials/player-model-and-mirror-reflections","name":"Player Model and Mirror Reflections","image":"https://media.moddb.com/images/articles/1/109/108091/Mirrors.jpg"}}]}</script>
+<script src="https://static.moddb.com/html/external/min/index.php?g=js&amp;19"></script>
+<script src="https://static.moddb.com/html/external/min/index.php?b=cutoff&amp;f=js/misc.highlight.js"></script><script src="https://static.moddb.com/html/external/min/index.php?b=cutoff&amp;f=js/jquery.form.js&amp;1"></script><style type="text/css">#rtxremix { display: none; }</style>
+
+<script>
+$(document).ready(function() { $("#togglelogin").click(function() { 
+					if($("#searchbox .search").is(":visible")) {
+						$("#searchbox .arrow").html("&nbsp;&#187;");
+						$("#searchbox .search").fadeOut(function() { $("#searchbox .login").show(); });
+					} else {
+						$("#searchbox .arrow").html("&nbsp;");
+						$("#searchbox .login").fadeOut(function() { $("#searchbox .search").show(); });
+					}
+					return false;
+				});
+$("#sitesearch").suggestClick("https://www.moddb.com/html/scripts/autocomplete.php?a=search&p=mods",{resultsClass: "suggest_search", positionIn: "#searchbox", limit: 10});
+hljs.initHighlightingOnLoad();
+hljs.initHighlightingOnLoad();
+hljs.initHighlightingOnLoad();
+hljs.initHighlightingOnLoad();
+$(".44825bfc951a8ff5714f8bb710efda3freport").saveUpdate("report", false);
+
+			viewComment = function(currentoption, response) {
+				if(response["action"] == "delete") {
+					$("#"+currentoption.closest(".actions").data("id")+" div.comment").show().html(response["success"] ? "<p>Your comment action was successful. When a comment is deleted all replies to the comment will be removed as well. Because you are an admin, you can click the \"view deleted\" link above to view deleted comments in-case you wish to undelete them in the future. If this was a mistake, click the link again to reverse the change.</p>" : "<p>"+response["text"]+"</p>");
+					currentoption.html(response["labels"]["delete"]);
+				} else if(response["action"] == "archive") {
+					currentoption.closest(".row").slideUp(400, function(){$(this).remove();});
+				} else if(response["action"].includes("karma")) {
+					if(response["success"]) {
+						karma = parseInt(currentoption.parent().find(".karma").html().split(" ", 1));
+						karma = karma ? (karma + response["karma"]) : response["karma"];
+						currentoption.parent().find(".karma").html((karma==1 ? "+1 vote" : (karma>1 ? "+"+karma+" votes" : karma+" votes")));
+					} else if(response["error"]) {
+						currentoption.parent().find(".karma").html(response["text"]);
+					}
+				}
+			};
+				
+			$(".rowdeleted .comment,.rowbury .comment").hide().each(function() {
+				extra = $(this).find(".hidereason").html();
+				$(this).find(".hidereason").remove();
+				$(this).before("<p><a href=# class=togglecomment>View comment</a> <em>"+extra+"</em></p>");
+			});
+				
+			$(".togglecomment").click(function() {
+				$(this).parent().next().slideDown();
+				$(this).parent().remove();
+				return false;
+			});
+$(".comment3167012karmagood").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3167012karmabad").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3168517karmagood").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3168517karmabad").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3168583karmagood").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3168583karmabad").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3169520karmagood").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3169520karmabad").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3170518karmagood").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3170518karmabad").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3170775karmagood").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3171775karmagood").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3171775karmabad").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3167056karmagood").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3167056karmabad").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3167082karmagood").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3167082karmabad").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3167158karmagood").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3167158karmabad").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3167280karmagood").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3167280karmabad").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3167183karmagood").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3167183karmabad").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3167275karmagood").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3167275karmabad").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3171309karmagood").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3171309karmabad").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment4938312karmagood").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment4938312karmabad").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3167187karmagood").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3167187karmabad").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3167728karmagood").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3167728karmabad").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3167898karmagood").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3167898karmabad").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3168315karmagood").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3168315karmabad").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3168326karmagood").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3168326karmabad").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3173817karmagood").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3173817karmabad").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3498960karmagood").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3498960karmabad").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$("#commentsummary").formAutoResize({extraSpace: 0});
+$("#commentemail").after('<input type="hidden" name="IyMyMmI2MjkwOGVlYzdiMjQ2OGUwMmQwMWJmNjM2MGFmNzg1NzIwMDg4ODVqc2ZpZWxk" value="1" />');
+
+			$(".tablecomments .entericon").click( function() {
+				var post = $(this).closest(".actions").data("id");
+				var link = $(this);
+		
+				if(!$("#commentsummary").length) {
+					return true;
+				} else if($("#"+post+" div.replypostholder").length) {
+					// do nothing
+				} else {
+					$("#"+post+" div.comment").append("<div class=\"replypostholder\"><br /><textarea rows=\"5\" cols=\"50\" class=\"editpost\" id=\"reply"+post+"\" placeholder=\"Reply to @"+$("#"+post+" .author").data("nameid")+"\"></textarea><div><input type=\"button\" value=\"Cancel\" id=\"cancelreply"+post+"\" /> <input type=\"button\" value=\"Save\" id=\"savereply"+post+"\" style=\"font-weight: bold;\" /></div></div>");
+					var textarea = $("#reply"+post);
+					var mentions = $("#commentform .mentions-input").length > 0;
+
+					if(mentions) {
+						textarea.mentionsInput({source: "https://www.moddb.com/html/scripts/autocomplete.php?a=mentions&p=home&l=6&u=666"});
+					}
+	
+					$("#cancelreply"+post).click(function() {
+						$("#"+post+" div.replypostholder").remove();
+					});
+		
+					$("#savereply"+post).click(function() {
+						postcontent = mentions ? textarea.mentionsInput("getValue") : textarea.val();
+		
+						if(postcontent) {
+							$(this).remove();
+							$("#cancelreply"+post).remove();
+							textarea.after("<span class=\"ajaxicon\">Saving your reply</span>");
+							if(mentions) {
+								$("#commentsummary").mentionsInput("setValue", postcontent);
+							} else {
+								$("#commentsummary").val(postcontent);
+							}
+							$("#commentform input[name=replyid]").val(post);
+							$("#commentsubmit").click();
+						} else {
+							$(this).text("Please enter a comment");
+						}
+					});
+				}
+	
+				return false;
+			});
+$(".mods8841watch").click(function(){
+					$.achtung({message: "Only members can follow mods. <a href=\"/members/register\">Sign up</a> today and follow your favorites.", className: "achtungFail", timeout:5});
+					return false;
+				});
+
+					$(".downloadautotoggle").click(function(){
+						$(".downloadon").slideToggle();
+						return false;
+					});
+$(".c76625d26ff7f0c55142db2c328da119watch").click(function(){
+						$.achtung({message: "Only members can follow mods. <a href=\"/members/register\">Sign up</a> today and follow your favorites.", className: "achtungFail", timeout:5});
+						if($(this).hasClass("button")) {
+							$(this).addClass("buttonon");
+						}
+						return false;
+					});
+$(".togglertxinfo").click(function(e){
+				if($(this).attr("href") == "#rtxremix") {
+					localStorage.setItem("rtxtoggled", true);
+					$("#rtxremix").show();
+					return true;
+				} else {
+					localStorage.removeItem("rtxtoggled");
+					$("#rtxremix").hide();
+					return false;
+				}
+			});
+			
+			
+
+		function cookieScript(e) {
+			var status = CookieScript.instance.currentState().categories.includes("targeting") ? "false" : "true";
+			var cookies = CookieScript.instance.currentState().categories.includes("performance") ? "true" : "false";
+			var cookie_data = { npa : {status:status,cookies:cookies,version:"1.0.13",chosen:"true"}, expires : 365 };
+			Cookies.set("dfp-npa", cookie_data.npa, { expires: cookie_data.expires, secure: true });
+
+	if (typeof gtag === "function") { gtag("consent", "update", {"ad_storage": cookie_data.npa.status == "false" ? "granted" : "denied", "ad_user_data": cookie_data.npa.status == "false" ? "granted" : "denied", "ad_personalization": cookie_data.npa.status == "false" ? "granted" : "denied", "analytics_storage": cookie_data.npa.cookies == "true" ? "granted" : "denied"}); }
+
+	if(cookie_data.npa.status == "false") {
+		// personalize
+		if (typeof permutive === "object") { permutive.consent({ "opt_in": true, "token": "Allow All" }); }
+	} else {
+		// don't personalize
+		if (typeof permutive === "object") { permutive.consent({ "opt_in": false }); }
+		Cookies.remove("permutive-id", { domain: "moddb.com", secure: true });
+	}
+		}
+
+		if(!Cookies.get("dfp-npa")) {
+			Cookies.set("dfp-npa", {status:"false",cookies:"true",version:"1.0.13",chosen:"false"}, { expires: 60, secure: true });
+		}
+
+		window.addEventListener("CookieScriptAcceptAll", cookieScript);
+		window.addEventListener("CookieScriptAccept", cookieScript);
+		window.addEventListener("CookieScriptReject", cookieScript);
+		window.addEventListener("CookieScriptClose", cookieScript);
+$("a.thickbox").click(function() { $.colorbox({href:$(this).attr("href"), rel:$(this).attr("rel"), open:true, onOpen:function(){ $(".nextmediabox").hide(); }, onClosed:function(){ $(".nextmediabox").show(); }}); return false; });
+ });
+</script></footer>
+</div>
+
+ <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496" integrity="sha512-ZE9pZaUXND66v380QUtch/5sE9tPFh2zg45pR2PB0CVkCtOREv2AJKkSidISWkysEuQ0EH8faUU5du78bx87UQ==" data-cf-beacon='{"version":"2024.11.0","token":"8e37b0c8f0164496b83e8a9662df72e8"}' crossorigin="anonymous"></script>
+</body>
+</html>

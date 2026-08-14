@@ -1,0 +1,1023 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Bodygroups, Gibs, Ragdolls and Decals tutorial - Underhell mod for Half-Life 2 - ModDB</title>
+	<meta charset="utf-8">
+	 
+	<meta name="keywords" content="underhell mod for half life 2, bodygroups gibs ragdolls and decals, articles, information, data, gossip, feature, read, view, discuss" />
+	<meta name="description" content="This tutorial will explain how Bodygroups, Gibs, Ragdolls and decals work in Underhell, and which features has been added." />
+	<meta name="robots" content="max-image-preview:large" />
+	<meta property="fb:app_id" content="210134345672070"/>
+	<meta property="og:title" content="Bodygroups, Gibs, Ragdolls and Decals tutorial - Underhell mod for Half-Life 2" />
+	<meta property="og:description" content="This tutorial will explain how Bodygroups, Gibs, Ragdolls and decals work in Underhell, and which features has been added." />
+	<meta property="og:site_name" content="ModDB" />
+	<meta property="og:type" content="article" /> 
+	<meta property="og:url" content="https://www.moddb.com/mods/underhell/tutorials/bodygroups-gibs-and-ragdolls" /> 
+	<meta property="og:image" content="https://media.moddb.com/images/articles/1/107/106470/Soldier_BodyGroups2.jpg" /> 
+	 
+	<meta property="twitter:card" content="summary_large_image" />
+	<meta property="twitter:site" content="@moddb" />
+	<meta property="twitter:title" content="Bodygroups, Gibs, Ragdolls and Decals tutorial - Underhell mod for Half-Life 2" />
+	<meta property="twitter:description" content="This tutorial will explain how Bodygroups, Gibs, Ragdolls and decals work in Underhell, and which features has been added." />
+	<meta property="twitter:url" content="https://www.moddb.com/mods/underhell/tutorials/bodygroups-gibs-and-ragdolls" /> 
+	<meta property="twitter:image" content="https://media.moddb.com/images/articles/1/107/106470/Soldier_BodyGroups2.jpg" /> 
+	<link rel="stylesheet" type="text/css" media="all" href="https://static.moddb.com/html/external/min/index.php?g=css&amp;80" />
+	<link rel="icon" href="https://www.moddb.com/favicon.ico" type="image/x-icon" />
+	<link rel="icon" href="https://www.moddb.com/favicon.png" type="image/png" sizes="96x96" />
+	<link rel="icon" href="https://www.moddb.com/favicon-192x192.png" type="image/png" sizes="192x192" />
+	<link rel="apple-touch-icon" href="https://www.moddb.com/apple-touch-icon.png" sizes="180x180" />
+	<link rel="alternate" href="https://rss.moddb.com/mods/underhell/tutorials/feed/rss.xml" type="application/rss+xml" title="Bodygroups, Gibs, Ragdolls and Decals tutorial - Underhell mod for Half-Life 2 feed" />	<meta name="ad:no_cmp" content="true"><script type="text/javascript" charset="UTF-8" src="//geo.cookie-script.com/s/02fe83eeed96d72125f64a74a34c1e06.js?country=gb&region=eu"></script><script type="text/javascript" charset="UTF-8" src="//geo.cookie-script.com/s/752e55d1c55e9bb1ffd11b935da9c032.js?country=us"></script><link rel="stylesheet" href="https://static.moddb.com/html/external/min/index.php?b=cutoff&amp;f=css/highlight.css&amp;1" type="text/css" />
+</head>
+<body>
+
+<div id="body">
+<div class="container">
+	<header><div id="header">
+		<div id="searchbox">
+			 
+			<span class="guest">Hello guest <a href="/members/register">register</a> or <a href="/members/login" id="togglelogin">sign in</a></span><span class="arrow">&nbsp;</span>
+			<form action="https://www.moddb.com/search" class="search" method="get"><input type="text" name="q" maxlength="500" value="" id="sitesearch" class="text" placeholder="Search"  /><input type="image" name="sa" value="Search" src="https://static.moddb.com/cutoff/images/default/btn_search_box.png" class="button" alt="Search ModDB" title="Search ModDB"  /></form>			 
+			<form action="https://www.moddb.com/members/login" method="post" name="memberform" class="login"><input type="hidden" name="referer" value="/mods/underhell/tutorials/bodygroups-gibs-and-ragdolls/" /><input type="hidden" name="rememberme" value="1" /><input type="hidden" name="members" value="1" /><span class="ebbeedfadcccformouter"><span><span><span><span><span><span class="ebbeedfadcccforminner"><input type="text" name="IyMyMmI2MjkwOGVlYzdiMjQ2OGUwMmQwMWJmNjM2MGFmNzI2MDY4MTA0NDdib3RjYXRjaGVy" maxlength="500" placeholder="Username" class="text" autocomplete="off"  /></span></span></span></span></span></span></span><span class="ebbeedfadcccformouter"><span><span><span class="ebbeedfadcccforminner"><input type="text" name="IyMyMmI2MjkwOGVlYzdiMjQ2OGUwMmQwMWJmNjM2MGFmNzMzODUyNjMzNTR1c2VybmFtZQ:E::E:" maxlength="500" value="" placeholder="Username" class="text" autocomplete="off"  /></span></span></span></span><style> span.ebbeedfadcccformouter span span span span span span { display: none; } span.ebbeedfadcccformouter { display: inline; }</style>
+<input type="password" name="password" maxlength="100" placeholder="Password" class="text password" autocomplete="off"  /><input type="submit" name="members" value="GO" class="button" title="Sign In" style="color: #000;text-align: center;"  /></form>			<span class="login" style="display: none;">or with: <a href="/members/loginext/steam" class="steamiconsml" style="float: right; margin: 3px 1px 0 4px;" title="Click to connect via Steam"></a><a href="/members/loginext/google" class="googleiconsml" style="float: right; margin: 3px 1px 0 4px;" title="Click to connect via Google"></a><a href="/members/loginext/twitter" class="twittericonsml" style="float: right; margin: 3px 1px 0 4px;" title="Click to connect via Twitter"></a><a href="/members/loginext/facebook" class="facebookiconsml" style="float: right; margin: 3px 1px 0 4px;" title="Click to connect via Facebook"></a></span>
+			 
+		</div>
+
+		<h1>Bodygroups, Gibs, Ragdolls and Decals tutorial - Underhell mod for Half-Life 2</h1>
+		<a href="/" class="logo" title="ModDB Home"></a>
+
+ 		 
+		<ul class="tabs">
+			<li class="on"><a href="/">HOME</a></li>
+			<li><a href="/today" title="New today">Today</a></li>
+			<li><a href="/week" title="New this week">Week</a></li>
+			<li><a href="/month" title="New this month">Month</a></li>
+			<li><a href="/year" title="New this year">Year</a></li>
+			 
+		</ul>
+	</div>
+	<div id="subheader">
+		<nav><ul class="tabs">
+			<li class="firsttab"><a href="/games">games</a>
+				<ul>
+					<li><a href="/games/top">popular</a></li>
+					<li><a href="/games/latest">latest</a></li>
+					 
+					<li><a href="https://www.indiedb.com">indies</a></li>
+					<li><a href="https://modularity.games">publishing</a></li>
+					 
+					<li><a href="/games/add">add game</a></li>
+									</ul>
+			</li>
+			<li class="on"><a href="/mods">mods</a>
+				<ul>
+					<li><a href="/mods/top">popular</a></li>
+					<li><a href="/mods/latest">latest</a></li>
+					<li><a href="/mods/add">add mod</a></li>
+				</ul>
+			</li>
+			<li><a href="/addons">addons</a>
+				<ul>
+					<li><a href="/addons/top">popular</a></li>
+					<li><a href="/addons/latest">latest</a></li>
+					<li><a href="/addons/add">upload</a></li>
+				</ul>
+			</li>
+			<li><a href="/downloads">files</a>
+				<ul>
+					<li><a href="/downloads/top">popular</a></li>
+					<li><a href="/downloads/latest">latest</a></li>
+					<li><a href="/downloads/add">upload</a></li>
+				</ul>
+			</li>
+			 
+			<li><a href="/rtx">RTX Remix</a>
+				<ul>
+					<li><a href="/rtx">Games Compatibility</a></li>	
+					<li><a href="/rtx/mods">Remix Mods</a></li>
+					<li><a href="/rtx/downloads">Remix Files</a></li>
+					<li><a href="/rtx/downloads?filter=t&category=34">PBR Assets</a></li><!-- RTX_ASSET -->
+					<li><a href="/rtx/articles">News</a></li>
+					<li><a href="/rtx/tutorials">Tutorials</a></li>
+					<li><a href="/rtx/stats">Statistics</a></li>
+				</ul>
+			</li>
+			 
+			<li><a href="/videos">videos</a>
+				<ul>
+					<li><a href="/images">images</a></li>
+					<li><a href="/audio">audio</a></li>
+				</ul>
+			</li>
+			<li><a href="/articles">articles</a>
+				<ul>
+					<li><a href="/reviews">reviews</a></li>
+					<li><a href="/headlines">headlines</a></li>
+					 
+					<li><a href="/blogs">blogs</a></li>
+					 
+					<li><a href="/articles/add">post article</a></li>
+				</ul>
+			</li>
+			<li><a href="/engines">engines</a>
+				<ul>
+					<li><a href="/engines/top">popular</a></li>
+					<li><a href="/engines/latest">latest</a></li>
+					<li><a href="/engines/add">add engine</a></li>
+				</ul>
+			</li>
+			<li><a href="/company">developers</a>
+				<ul>
+					<li><a href="/company/top">popular</a></li>
+					<li><a href="/company/latest">latest</a></li>
+					<li><a href="/company/add">add dev</a></li>
+				</ul>
+			</li>
+			<li><a href="/groups">groups</a>
+				<ul>
+					<li><a href="/groups/top">popular</a></li>
+					<li><a href="/groups/latest">latest</a></li>
+					<li><a href="/groups/add">add group</a></li>
+				</ul>
+			</li>
+			<li><a href="/forum">forums</a></li>
+			<li><a href="/jobs">jobs</a>
+				<ul>
+					<li><a href="/jobs/add">post job</a></li>
+				</ul>
+			</li>
+		</ul></nav>
+	</div></header>
+
+	 
+
+	<div class="column span-all tabtutorials">	<div class="headerbox" style="background-image: url(https://media.moddb.com/images/mods/1/9/8841/bg.jpg);">
+		<div class="headercorner">
+			<div class="title">
+				 
+				<h2><a href="/mods/underhell">Underhell</a></h2>
+				<h3>
+					<a href="/games/half-life-2">Half-Life 2 mod</a> | <time datetime="2011-03-05">Released 2011</time>				</h3>
+				<span class="bg"></span>
+			</div>
+			<nav><ul class="menu">
+				<li class="firsttab"><a href="/mods/underhell">summary</a></li><li class=""><a href="/mods/underhell/articles">articles</a></li><li class="on"><a href="/mods/underhell/tutorials">tutorials</a></li><li class=""><a href="/mods/underhell/reviews">reviews</a></li><li class=""><a href="/mods/underhell/downloads">files</a></li><li class=""><a href="/mods/underhell/videos">videos</a></li><li class=""><a href="/mods/underhell/images">images</a></li>			</ul></nav>
+		</div>
+	</div>
+		<div class="headernormalbox normalbox">
+		<div class="inner">
+			<div class="body clear">
+								<div class="tooltip"></div>
+								<p>Underhell is a Source Engine game developed by the Underhell Team in collaboration with We Create Stuff.
+
+Underhell Chapter 1 requires ONLY Source SDK Base 2007 installed.
+
+No Source game is required.
+
+</p>			</div>
+		</div>
+	</div>
+</div><div class="column span-300-alt first tabtutorials"><article itemscope itemtype="https://schema.org/TechArticle">
+					<meta itemscope itemprop="mainEntityOfPage"  itemtype="https://schema.org/WebPage" itemid="https://www.moddb.com/tutorials/bodygroups-gibs-and-ragdolls" />
+					<meta itemprop="dateModified" content="2012-07-23T17:13:10+0000" />
+					<meta itemprop="image" content="https://media.moddb.com/images/articles/1/107/106470/Soldier_BodyGroups2.jpg" />
+					<div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+						<meta itemprop="name" content="ModDB" />
+						<div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+							<meta itemprop="url" content="https://static.moddb.com/cutoff/images/default/splash.png">
+							<meta itemprop="width" content="120">
+							<meta itemprop="height" content="60">
+						</div>
+					</div>	<div class="normalbox" id="readarticle">
+		<div class="normalcorner">
+			<div class="title">
+				<span class="options">
+					<a href="/messages/ajax/action/?action=report&amp;sitearea=articles&amp;siteareaid=106470" class="reporticon 44825bfc951a8ff5714f8bb710efda3freport" rel="nofollow" title="Report">Report</a> <a href="https://rss.moddb.com/mods/underhell/tutorials/feed/rss.xml" target="_blank" class="rssicon"  title="RSS">RSS</a>				</span>
+				<span class="heading" itemprop="headline">Bodygroups, Gibs, Ragdolls and Decals</span>
+			</div>
+		</div>
+		<div class="inner">
+			<div class="body bodyarticle clear">
+								<div class="tooltip"></div>
+								
+												 
+				<p class="introductiontext" itemprop="description">This tutorial will explain how Bodygroups, Gibs, Ragdolls and decals work in Underhell, and which features has been added.</p>
+								<p class="introduction">
+					Posted by <span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name"><a href="/members/mxthe" class="verifiedicon" title="Mod Manager" itemprop="url">Mxthe</a></span></span> on <time datetime="2012-07-23T17:13:10+00:00" itemprop="datePublished">Jul 23rd, 2012</time> - <span itemprop="proficiencyLevel">Basic</span> Mapping/Technical 				</p>
+				<div id="articlecontent" itemprop="articleBody"><p>Very early on in the development, I knew I wanted a dismemberment system, which is why for Prologue I relied on SMOD and made my own "Gib" models, the system was experimental and buggy, but it was okay.</p>
+<p>But now that Carlos is on the team, I was able to design a more thorough system for said dismemberment, as well as a few other add-on along the way.</p>
+<h2><span style="color: #000000;">BODYGROUPS</span></h2>
+<p>Bodygroups are a part of a model that can be toggled on and off at will via ingame code, or a hammer input. There can be multiple and different "Bodies" within that group.<br />
+A perfect example is a Helmet Bodygroup, which can have multiple sets of helmets, and thanks to this you can change the helmet on an NPC with just changing the bodygroup "Helmet".</p>
+<p>Unfortunately the Hammer input that came along with the Source Engine was very vague, see there are 2 ways to Identify bodygroups, either via the Group name and the Value of the bodygroup, or via a binary calculation code that will "add" each part of the bodygroup to each other and render it to a number, like the FLAGS system in hammer.</p>
+<p>Unfortunately when you have over 5 bodygroups each with 2 or 3 models per group, this value can go over a thousand, since there has to be a number for each combination of any Group/Value.</p>
+<p>This is why a String Parser was added to a Hammer Keyvalue we implemented, to facilitate BodyGroup selection via Hammer :<br />
+Say you have a Bodygroup named "Arms", a Bodygroup named "Legs" and a Bodygroup named "Helmet".<br />
+In Hammer, you want him to have Helmet number 2, Arms number 1 and Legs number 4.</p>
+<p>The value to enter in hammer would be the following :</p>
+<pre><code class="lang-">uh_bodygroup : Helmet2Arms1Legs4</code></pre>
+<br />
+<p>The string parser "separates" strings and numbers to form the correct values, and reads them accordingly.<br />
+This is a VERY powerful and risky system, if you enter a wrong bodygroup, the game <span style="text-decoration: underline;">WILL</span> crash.<br />
+Just double check your bodygroup names on the models you are using, and it should be fine.</p>
+<p>Here is a quick list of Underhell's Soldiers Bodygroups :<span style="color: #000000;"><strong></p>
+<p>COMBINE_SOLDIER.MDL : </strong></span></p>
+<pre><code class="lang-">Droppeable helmet model : models/items/helmet_visor.mdl &lt; Has 4 bodygroups &quot;HELMET&quot; for NOVISOR, NOVISOR, VISORUP, and VISORDOWN respectively.
+Droppeable riot shield model : models/items/riotshield.mdl
+Droppeable ballistic shield model : models/items/ballisticshield.mdl
+GIBS : models\Gibs\BodyParts\Soldier\
+
+leftarm.mdl
+rightarm.mdl
+leftleg.mdl
+rightleg.mdl
+leftleg2.mdl
+rightleg2.mdl
+
+
+Skins : 0-3
+
+0 : White arms
+1 : Tanned Arms
+2 : Black Arms
+3 : Long sleeves
+
+Head - 0 - Regular Head
+Head - 1 - Destroyed Head
+
+HELMET 0 = NO HELMET
+HELMET 1 = HELMET - No visor
+HELMET 2 = HELMET - Visor Raised
+HELMET 3 = HELMET - Visor &lt; - Protects Face
+
+Armor - 0 - Regular Armor
+Armor - 1 - Heavy Armor &lt; - 50% damage on Torso and Stomach
+
+ARMS - 0 - Both Arms
+ARMS - 1 - No Left Arm
+ARMS - 2 - No Right Arm
+ARMS - 3 - No Arms
+
+Legs - 0 - Regular Legs
+Legs - 1 - No Left Regular Leg
+Legs - 2 - No Right Regular Leg
+Legs - 3 - No Regular Legs
+Legs - 4 - Heavy Legs &lt; - 50% damage on Legs
+Legs - 5 - No Left Heavy Legs
+Legs - 6 - No Right Heavy Legs
+Legs - 7 - No Heavy Legs</code></pre>
+<br />
+<p><span style="color: #000000;"><strong></p>
+<p>COMBINE_SOLDIER_PRISONGUARD.MDL : </strong><br />
+</span></p>
+<pre><code class="lang-">Droppeable helmet model : models/items/helmet.mdl &lt; Unlike the other helmet, has no bodygroups for visors
+Droppeable gasmask model : models/items/gasmask.mdl
+Droppeable riot shield model : models/items/riotshield.mdl
+Droppeable ballistic shield model : models/items/ballisticshield.mdl
+GIBS : models\Gibs\BodyParts\Soldier_PrisonGuard\
+
+SKINS:
+NONE (Just Default one)
+
+leftarm.mdl
+rightarm.mdl
+leftleg.mdl
+rightleg.mdl
+
+(Legs 2 are in the main soldier folder, since they are the same as original&#039;s soldiers LEGS2)
+
+Head - 0 - Regular Head
+Head - 1 - Destroyed Head
+
+HELMET 0 = NO HELMET (For when Gasmask and Helmets are shot off)
+HELMET 1 = HELMET - Simple Helmet
+HELMET 2 = HELMET - Simple Helmet
+HELMET 3 = HELMET - Simple Helmet
+
+GasMask - 0 - No Gas Mask
+GasMask - 1 - Gas Mask
+
+Armor - 0 - Regular Armor
+Armor - 1 - Heavy Armor &lt; - 50% Damage on Torso and Stomach
+
+Legs - 0 - Regular Legs
+Legs - 1 - No Left Regular Leg
+Legs - 2 - No Right Regular Leg
+Legs - 3 - No Regular Legs
+Legs - 4 - Heavy Legs &lt; - 50% Damage on legs
+Legs - 5 - No Left Heavy Legs
+Legs - 6 - No Right Heavy Legs
+Legs - 7 - No Heavy Legs</code></pre>
+<br />
+<p><em>More BodyGroup lists will be added soon...</em></p>
+<h2>GIBS</h2>
+<br />
+<p>The gibs are engine generated ragdolls, that do not enter the same category as usual ragdolls.<br />
+When a body part is shot off, the Bodygroup of the original model is changed to "remove" that part on it, and a "gib" is spawned at the correct body attachment to make it look like it was "detached" from there.<br />
+The gibs models were carefully "severed" from their original models at the exact same location where the original model's bodygroup is cut.</p>
+<p>The following console commands allow to set the desired effects :
+<pre><code class="lang-">uh_gibhealth (80): How much damage to inflict to gib a bodypart (This value is for legs, Arms is 50% that value)
+
+uh_headhealth (21): How much damage to inflict to destroy the head.
+
+uh_helmethealth (30): How much damage should a helmet take before being &quot;shot off&quot; the head of the NPC.
+
+uh_maxsergibs (8): How many Server Side gibs can there be in the level before the oldest one is turned into a clientside ragdoll.</code></pre>
+<br />
+<h2>RAGDOLLS</h2>
+<br />
+<p>The Ragdolls in Underhell aren't just "neat visual effects" they are real entities that can be interacted with.<br />
+If specified, NPCs will fire an OutPut when a ragdoll is spotted, triggering any desired effect.<br />
+Players can therefore pick up any "limb" on a ragdoll like a physic object  and drag them around to hide the ragdolls, therefore avoiding detection in some situations where "discretion" is important.<br />
+Dragging ragdolls will leave a "Blood_Drop" decal specific to this behavior, it looks lighter and different than other blood decals.</p>
+<p>Ragdolls can also be "dismembered" completely (head, arms and legs).</p>
+<p>The following console commands allow to set the desired effects : </p>
+<pre><code class="lang-">uh_ragdollcollisiontype (11): What collision rules should the ragdolls follow. 
+0 = Everything, including other Ragdolls, NPCs and Player
+1 = Doesn&#039;t collide with anything (Debris ragdoll for heavy battles)
+11 = Everything, except NPCs and Players.
+
+uh_maxseragdolls (16): How many Server Side Ragdolls can there be in the level before the oldest one is turned into a clientside ragdoll.
+
+uh_bodymousedamper (4): A speed divider for when Player is dragging a ragdoll, the Mouse&#039;s sensitivity is temporarily reduced by this divider to give an illusion of &quot;weight&quot;</code></pre>
+<br />
+<p>Hammer placed prop_ragdolls are excluded from any of those rules, they will not be turned to clientside.</p>
+<p>The Keyvalue to add to an NPC to make them find bodies is the following: </p>
+<pre><code class="lang-">uh_SpotBodies (0-1)</code></pre>
+<br />
+<p>An input can also be called to toggle this function On and Off</p>
+<pre><code class="lang-">SetSpotBodiesOn
+SetSpotBodiesOff</code></pre>
+<br />
+<p>When the SpotBodies is on, the NPC will fire the following outputs when they spot a body:</p>
+<p><strong><span style="color: #000000;">OnSpotSoldierBody </span></strong><span style="color: #000000;">: Fires when a Soldier body was found</span><br />
+<strong><span style="color: #000000;"><span class="spoiler">OnSpotI******dBody </span> : </span></strong><span style="color: #000000;">Fired when a <span class="spoiler">SPOILERS</span> body was found</span><br />
+<strong><span style="color: #000000;">OnSpotDefaultBody : </span></strong><span style="color: #000000;">Fired when any other type of npc ragdoll was found</p>
+<p>In this output link "!caller" is the body itself, and "!activator" is the NPC who spotted the body.</p>
+<p>Here's a way it can be used :</span></p>
+<pre><code class="lang-">OnSpotSoldierBody !Activator WalkToEntity !caller</code></pre>
+<br />
+<p>This output will make the person who found the body <em>(!activator)</em> Walk to the dead body <em>(!caller)</em></p>
+<h2>DROPPED OBJECTS</h2>
+<br />
+<p>Some enemies will drop random objects upon death.<br />
+This "loot" is not only randomized but dynamic, an enemy with a helmet will drop it if you shoot his head, an enemy with a riot shield will drop it, ect...</p>
+<p>There are functional items, such as the helmets that give the player "Armor" points when picked up, but there are also "Cosmetic" objects, like gibs that detach when shot.<br />
+GasMasks or respirators is a good example.</p>
+<p>The following console command allows to limit these "dropped objects" for optimization purposes.</p>
+<pre><code class="lang-">uh_maxitems (16) : Limits the number of enemy dropped items and objects.</code></pre>
+<br />
+<br />
+<h2>DECALS</h2>
+<br />
+<p>Underhell's Decal system has received a bit of a overhaul as well.<br />
+Here are the new Decals :</p>
+<pre><code class="lang-">Blood: Default Blood Decal, used for bullet wounds, and strong ragdoll impacts.
+
+Blood_Drop: Used when dragging bodies or limbs around.
+
+Blood_Trace: Used only for headshots or &quot;destroyed head&quot; events, looks &quot;thicker&quot; and &quot;brainy&quot; bloody matter.
+
+AceBlood: Oily Brown blood, for a new type of NPC.</code></pre>
+<br />
+<p>New decals isn't the only change that has been made to the decal system.<br />
+The "Blood" decal's shader has been modified to receive better lighting.The shader type has been split into 2 types : </p>
+<ol>
+<li>"LightMappedGeneric" lighting when sprayed on brushes (wall, floor, ect..)</li>
+<li>"VertexLitGeneric" lighting when sprayed on models (Npcs, props, shields, vehicles, ect...)</li>
+</ol>
+<p>This gives a <a href="https://cloud.steampowered.com/ugc/558695283921007201/D4C70EE79E96D582C096315D43535D14EE80C840/" target="_blank" title="https://cloud.steampowered.com/ugc/558695283921007201/D4C70EE79E96D582C096315D43535D14EE80C840/">unique look to the blood</a>, that reacts to the flashlight's light, instead of just "disappearing" when lit, which is a common Source Engine glitch.</p>
+<div class="center" style="text-align: center;"><em>Programming by Carlos "Charly" Sotelo </em> </div>
+</div>
+							</div>
+		</div>
+	</div>
+</article> 	<div class="normalbox commentbox" id="comments">
+		<div class="normalcorner">
+			<div class="title">
+				<span class="options">
+					<a href="#commentform" class="addicon"  title="Post comment">Post comment</a>				</span>
+				<span class="heading">Comments</span>
+			</div>
+		</div>
+		<div class="inner">
+			<div class="body">
+				<div class="tooltip"></div>
+								<div class="table tablecomments">
+					 
+					<div id="3112494" class="row">
+						 
+						<div class="avatarholder">
+							<a href="/members/mistermister" title="MisterMister" class="avatar"><img src="https://media.moddb.com/images/members/1/842/841342/1db11939f3c0adeae786b83c541b6d5c.jpg" alt="MisterMister" width="50" height="50" /></a>
+													</div>
+						<div class="content">
+							<span class="heading">
+								<a href="/members/mistermister" class="author" data-nameid="mistermister">MisterMister</a>  - <a href="#3112494" style="color: inherit;"><time datetime="2012-07-24T01:58:25+00:00">Jul 24 2012</time></a> - 140 comments							</span>
+														<div class="comment">
+								<p>Thank You so much for this update!
+</p>
+							</div>
+							<span class="actions" data-id="3112494">
+								<a href="#commentform" class="entericon"  title="Reply">Reply</a> <a href="#karma" class="karmagoodicon comment3112494karmagood" rel="nofollow" title="Good karma">Good karma</a> <a href="#karma" class="karmabadicon comment3112494karmabad" rel="nofollow" title="Bad karma">Bad karma</a><span class="karma" title="Karma">+3 votes</span>							</span>
+													</div>
+						<div style="clear: both;"></div>
+					</div>
+					 
+					<div id="3112515" class="row">
+						<div class="clearer"></div> 
+						<div class="avatarholder">
+							<a href="/members/mistermister" title="MisterMister" class="avatar"><img src="https://media.moddb.com/images/members/1/842/841342/1db11939f3c0adeae786b83c541b6d5c.jpg" alt="MisterMister" width="50" height="50" /></a>
+													</div>
+						<div class="content">
+							<span class="heading">
+								<a href="/members/mistermister" class="author" data-nameid="mistermister">MisterMister</a>  - <a href="#3112515" style="color: inherit;"><time datetime="2012-07-24T02:12:31+00:00">Jul 24 2012</time></a> - 140 comments							</span>
+														<div class="comment">
+								<p>Also i have one question about the gore and entites effects. Will we be able to further dismember a already seperate enity from the body like blowing a arm in half or doing so on a already attached arm? Thanks Again really looking forward to this great mod!
+</p>
+							</div>
+							<span class="actions" data-id="3112515">
+								<a href="#commentform" class="entericon"  title="Reply">Reply</a> <a href="#karma" class="karmagoodicon comment3112515karmagood" rel="nofollow" title="Good karma">Good karma</a> <a href="#karma" class="karmabadicon comment3112515karmabad" rel="nofollow" title="Bad karma">Bad karma</a><span class="karma" title="Karma">+3 votes</span>							</span>
+													</div>
+						<div style="clear: both;"></div>
+					</div>
+					 
+					<div id="3112524" class="row rowdeveloper reply1">
+						<div class="clearer"></div> 
+						<div class="avatarholder">
+							<a href="/members/mxthe" title="Mxthe" class="avatar"><img src="https://media.moddb.com/images/members/1/55/54719/Avatar.jpg" alt="Mxthe" width="50" height="50" /></a>
+							<span class="developer">Author</span>						</div>
+						<div class="content">
+							<span class="heading">
+								<a href="/members/mxthe" class="author" data-nameid="mxthe">Mxthe</a>  - <a href="#3112524" style="color: inherit;"><time datetime="2012-07-24T02:18:47+00:00">Jul 24 2012</time></a> - 736 comments							</span>
+														<div class="comment">
+								<p>Nah, that would be kinda overdoing it.</p>
+<p>It's very fun and "tactical dismemberment" the way it is already.</p>
+<p>There are entities that can be dismembered alive, so yeah dismemberment isn't only cosmetic.
+</p>
+							</div>
+							<span class="actions" data-id="3112524">
+								<a href="#commentform" class="entericon"  title="Reply">Reply</a> <a href="#karma" class="karmagoodicon comment3112524karmagood" rel="nofollow" title="Good karma">Good karma</a><span class="karma" title="Karma">+5 votes</span>							</span>
+													</div>
+						<div style="clear: both;"></div>
+					</div>
+					 
+					<div id="3112565" class="row">
+						<div class="clearer"></div> 
+						<div class="avatarholder">
+							<a href="/members/mistermister" title="MisterMister" class="avatar"><img src="https://media.moddb.com/images/members/1/842/841342/1db11939f3c0adeae786b83c541b6d5c.jpg" alt="MisterMister" width="50" height="50" /></a>
+													</div>
+						<div class="content">
+							<span class="heading">
+								<a href="/members/mistermister" class="author" data-nameid="mistermister">MisterMister</a>  - <a href="#3112565" style="color: inherit;"><time datetime="2012-07-24T02:49:55+00:00">Jul 24 2012</time></a> - 140 comments							</span>
+														<div class="comment">
+								<p>Thanks For replying!
+</p>
+							</div>
+							<span class="actions" data-id="3112565">
+								<a href="#commentform" class="entericon"  title="Reply">Reply</a> <a href="#karma" class="karmagoodicon comment3112565karmagood" rel="nofollow" title="Good karma">Good karma</a> <a href="#karma" class="karmabadicon comment3112565karmabad" rel="nofollow" title="Bad karma">Bad karma</a><span class="karma" title="Karma">+1 vote</span>							</span>
+													</div>
+						<div style="clear: both;"></div>
+					</div>
+					 
+					<div id="3112700" class="row">
+						<div class="clearer"></div> 
+						<div class="avatarholder">
+							<a href="/members/paulisdead18" title="Paulisdead18" class="avatar"><img src="https://media.moddb.com/images/members/1/398/397804/hoax.jpg" alt="Paulisdead18" width="50" height="50" /></a>
+													</div>
+						<div class="content">
+							<span class="heading">
+								<a href="/members/paulisdead18" class="author" data-nameid="paulisdead18">Paulisdead18</a>  - <a href="#3112700" style="color: inherit;"><time datetime="2012-07-24T05:02:45+00:00">Jul 24 2012</time></a> - 329 comments							</span>
+														<div class="comment">
+								<p>I like these technical posts. It really shows us all the things you've been doing, how hard some of it can be, and how it's done. Maybe things like this will be used in other mods, and I guess this would be the lesson ;)
+</p>
+							</div>
+							<span class="actions" data-id="3112700">
+								<a href="#commentform" class="entericon"  title="Reply">Reply</a> <a href="#karma" class="karmagoodicon comment3112700karmagood" rel="nofollow" title="Good karma">Good karma</a> <a href="#karma" class="karmabadicon comment3112700karmabad" rel="nofollow" title="Bad karma">Bad karma</a><span class="karma" title="Karma">+2 votes</span>							</span>
+													</div>
+						<div style="clear: both;"></div>
+					</div>
+					 
+					<div id="3114217" class="row">
+						<div class="clearer"></div> 
+						<div class="avatarholder">
+							<a href="/members/mistermister" title="MisterMister" class="avatar"><img src="https://media.moddb.com/images/members/1/842/841342/1db11939f3c0adeae786b83c541b6d5c.jpg" alt="MisterMister" width="50" height="50" /></a>
+													</div>
+						<div class="content">
+							<span class="heading">
+								<a href="/members/mistermister" class="author" data-nameid="mistermister">MisterMister</a>  - <a href="#3114217" style="color: inherit;"><time datetime="2012-07-24T21:14:31+00:00">Jul 25 2012</time></a> - 140 comments							</span>
+														<div class="comment">
+								<p>The bullet holes in those dead guys reminds me of KingPin Life of Crime with a mix of Soldier Of Fortune on the side.
+</p>
+							</div>
+							<span class="actions" data-id="3114217">
+								<a href="#commentform" class="entericon"  title="Reply">Reply</a> <a href="#karma" class="karmagoodicon comment3114217karmagood" rel="nofollow" title="Good karma">Good karma</a> <a href="#karma" class="karmabadicon comment3114217karmabad" rel="nofollow" title="Bad karma">Bad karma</a><span class="karma" title="Karma">+2 votes</span>							</span>
+													</div>
+						<div style="clear: both;"></div>
+					</div>
+					 
+					<div id="3114331" class="row">
+						<div class="clearer"></div> 
+						<div class="avatarholder">
+							<a href="/members/fidchell" title="Fidchell" class="avatar"><img src="https://media.moddb.com/images/members/1/202/201745/lauraav.png" alt="Fidchell" width="50" height="50" /></a>
+													</div>
+						<div class="content">
+							<span class="heading">
+								<a href="/members/fidchell" class="author" data-nameid="fidchell">Fidchell</a>  - <a href="#3114331" style="color: inherit;"><time datetime="2012-07-24T22:18:42+00:00">Jul 25 2012</time></a> - 110 comments							</span>
+														<div class="comment">
+								<p>This is some wickedly awesome ****. Good luck on the mod. :)
+</p>
+							</div>
+							<span class="actions" data-id="3114331">
+								<a href="#commentform" class="entericon"  title="Reply">Reply</a> <a href="#karma" class="karmagoodicon comment3114331karmagood" rel="nofollow" title="Good karma">Good karma</a> <a href="#karma" class="karmabadicon comment3114331karmabad" rel="nofollow" title="Bad karma">Bad karma</a><span class="karma" title="Karma">+2 votes</span>							</span>
+													</div>
+						<div style="clear: both;"></div>
+					</div>
+					 
+					<div id="3130875" class="row">
+						<div class="clearer"></div> 
+						<div class="avatarholder">
+							<a href="/members/arkanium" title="Arkanium" class="avatar"><img src="https://media.moddb.com/images/members/1/511/510999/black-knight.1.jpg" alt="Arkanium" width="50" height="50" /></a>
+													</div>
+						<div class="content">
+							<span class="heading">
+								<a href="/members/arkanium" class="author" data-nameid="arkanium">Arkanium</a>  - <a href="#3130875" style="color: inherit;"><time datetime="2012-08-01T14:23:52+00:00">Aug 1 2012</time></a> - 311 comments							</span>
+														<div class="comment">
+								<p>Would I be right in saying that NPCs will react to blood_drop decals in some way but not to normal blood decals? Seems like you've got some very cool ideas here.
+</p>
+							</div>
+							<span class="actions" data-id="3130875">
+								<a href="#commentform" class="entericon"  title="Reply">Reply</a> <a href="#karma" class="karmagoodicon comment3130875karmagood" rel="nofollow" title="Good karma">Good karma</a> <a href="#karma" class="karmabadicon comment3130875karmabad" rel="nofollow" title="Bad karma">Bad karma</a><span class="karma" title="Karma">+1 vote</span>							</span>
+													</div>
+						<div style="clear: both;"></div>
+					</div>
+					 
+					<div id="6699192" class="row">
+						<div class="clearer"></div> 
+						<div class="avatarholder">
+							<a href="/members/weaponsmith" title="weaponsmith" class="avatar"><img src="https://static.moddb.com/html/cutoff/images/default/error_50x50.png" alt="weaponsmith" width="50" height="50" /></a>
+													</div>
+						<div class="content">
+							<span class="heading">
+								<a href="/members/weaponsmith" class="author" data-nameid="weaponsmith">weaponsmith</a>  - <a href="#6699192" style="color: inherit;"><time datetime="2017-09-25T21:48:13+00:00">Sep 26 2017</time></a> - 142 comments							</span>
+														<div class="comment">
+								<p>Yo Guys i am working on modding under hell to my Personal Likeness<br />
+I change the Strength of the weapons Replace some Voice actors like the soldiers with my own Voice Just making it a bit better<br />
+For example<br />
+I change the health of the soldiers to<br />
+100.<br />
+instead of 30 But even the weakest gun does 10 damage now and the Assault Rifle does 22 Damage so i made them stronger but the guns are much more deadly now (This goes for the Hostiles too FEAR THE SHOT GUNNER FEAR THE SHOT GUNNER)so yeah i want to release it in the Future and call it (My name Cut of Under hell) id think that be fun i have a few problems tough the copy of under hell i have keeps crashing when i go through certain doors and look at certain areas its really annoying and it needs fixing do you guys have any idea what i am talking about?</p>
+<p>O and besides that could someone tell me how to change the Enemy soldiers Body groups so that none of them can be black or just remove the black skin altogether I find them to be either in over their head or just out of place id like to keep them if they'd be their own special Npc that runs faster and is weaker but is also stupider  and the other soldiers would have problems with them---Well you see they are Professional PMC's they should have good squad cohesion and off course another problem is they are just presented as if they are interchangeable Plus my voice acting doesn't really fit them yeah The normal soldier voice actor is Micheal tsouras or something like that<br />
+He defiantly does not fit everyone and especially not me so id like to change that so they are all either white or tanned and white which would make sense to me since 1.they are Professional (Not saying black men cant be professional but they can be more aggressive and well they should just not be AS Randomly generated as the white and tanned guy)</p>
+<p>I would suggest:</p>
+<p>PMC SOLDIER Skin Randomization</p>
+<p>White. 65</p>
+<p>Tanned\Asian or whatever its suppose to be.  25</p>
+<p>Black. 10 </p>
+<p>i think this would make the most sense its America white's are better Fighters overall so id make sense that they'd me the most Those tanned guys should just be like just more white like soldiers unless they are Asians.</p>
+<p>And there should be only a few of the black guys or maybe none<br />
+I guess id go for either minimal or none not this Everyone is EXACTLY THE same bull crap</p>
+<p>So basically in short how to either:Remove the black skin or reduce their randomization</p>
+<br />
+<br />
+							</div>
+							<span class="actions" data-id="6699192">
+								<a href="#commentform" class="entericon"  title="Reply">Reply</a> <a href="#karma" class="karmagoodicon comment6699192karmagood" rel="nofollow" title="Good karma">Good karma</a> <a href="#karma" class="karmabadicon comment6699192karmabad" rel="nofollow" title="Bad karma">Bad karma</a><span class="karma" title="Karma">+3 votes</span>							</span>
+													</div>
+						<div style="clear: both;"></div>
+					</div>
+									</div>
+							</div>
+	
+					</div>
+	</div>
+	<div class="normalbox formbox" id="commentform">
+		<div class="normalcorner">
+			<div class="title">
+								<span class="heading">Post a comment</span>
+			</div>
+		</div>
+		<div class="inner">
+			<div id="commentform" class="body bodysimple clear">
+								<div class="tooltip"></div>
+							
+																
+				<div class="table tableform">
+					<form action="https://www.moddb.com/mods/underhell/tutorials/bodygroups-gibs-and-ragdolls/#commentform" method="post" name="commentform"><input type="hidden" name="formhash" value="37117b9ed534b1e020fe9c43bfb74304" /><input type="hidden" name="replyid" value="0" id="commentreplyid" /><input type="hidden" name="page" value="1" id="commentpage" />					<div class="row rowcommentguest clear">
+												<p class="helper"></p><p><a href="/members/loginext/steam" class="steamicon" style="float: right; margin-left: 6px;" title="Click to connect via Steam"></a><a href="/members/loginext/google" class="googleicon" style="float: right; margin-left: 6px;" title="Click to connect via Google"></a><a href="/members/loginext/twitter" class="twittericon" style="float: right; margin-left: 6px;" title="Click to connect via Twitter"></a><a href="/members/loginext/facebook" class="facebookicon" style="float: right; margin-left: 6px;" title="Click to connect via Facebook"></a>Your comment will be anonymous unless you <a href="/members/register">join the community</a>. Or sign in with your social account:</p>					</div>
+										<div class="row rowcommentsummary clear">
+												<p class="helper"></p><textarea name="summary" cols="80" rows="10" id="commentsummary" required="required" ></textarea>					</div>
+										<div class="row rowcommentemail clear" style="display: none;">
+												<label for="commentemail">&#69;&#109;&#97;&#105;&#108;</label>
+												<p class="helper"></p><span class="cadeaaabfformouter"><span><span><span><span><span><span><span class="cadeaaabfforminner"><input type="text" name="IyMyMmI2MjkwOGVlYzdiMjQ2OGUwMmQwMWJmNjM2MGFmNzc4NDE3ODE5NzRib3RjYXRjaGVy" maxlength="500" class="text" autocomplete="off"  /></span></span></span></span></span></span></span></span><span class="cadeaaabfformouter"><span><span><span><span><span><span class="cadeaaabfforminner"><input type="text" name="IyMyMmI2MjkwOGVlYzdiMjQ2OGUwMmQwMWJmNjM2MGFmNzE2NjgxNTAzNThlbWFpbA:E::E:" maxlength="500" value="" id="commentemail" class="text" autocomplete="off"  /></span></span></span></span></span></span></span><style> span.cadeaaabfformouter span span span span span span span { display: none; } span.cadeaaabfformouter { display: inline; }</style>
+					</div>
+															<div class="row buttons">
+																								<input type="submit" name="comment" value="Save comment" id="commentsubmit"  />					</div>
+					</form>				</div>
+			</div>
+		</div>
+	</div>
+</div><div class="column span-300 last tabtutorials">	<div class="normalbox menubox" id="modsinfo">
+				<div class="normalcorner">
+			<div class="title">
+								<span class="options">
+					<a href="#watch" class="watchicon mods8841watch" rel="nofollow" title="Follow">Follow</a> <a href="/messages/ajax/action/?action=report&amp;sitearea=mods&amp;siteareaid=8841" class="reporticon 44825bfc951a8ff5714f8bb710efda3freport" rel="nofollow" title="Report">Report</a>				</span>
+								<span class="heading">Profile</span>
+			</div>
+		</div>
+				<div class="inner">
+			<div class="body bodysimple">
+								<div class="tooltip"></div>
+																<div class="table tablemenu">
+										<div class="row clear">
+						<a href="/mods/underhell/downloads" class="downloadautotoggle button buttonlarge buttonfull"><span class="buttoncount">264.7K</span><span class="buttontext">Download</span></a><div class="downloadon" style="display: none;"><a href="/mods/underhell/downloads/underhell-chapter-1" class="button buttonfull"><span style="float: right;">FULL</span><span>Underhell Chapter 1</span><hr><span style="font-weight: normal; float: right;">171.6K</span><span style="font-weight: normal;">1.55gb</span></a><a href="/mods/underhell/downloads/underhell-chapter-1-russian-language-pack" class="button buttonfull"><span style="float: right;">PATCH</span><span>Underhell Chapter 1 - Russian Language Pack</span><hr><span style="font-weight: normal; float: right;">24.3K</span><span style="font-weight: normal;">15.75mb</span></a><a href="/mods/underhell/downloads/underhell-chapter-1-tchinese-language-pack" class="button buttonfull"><span style="float: right;">PATCH</span><span>Underhell Chapter 1 - TChinese Language Pack</span><hr><span style="font-weight: normal; float: right;">1.9K</span><span style="font-weight: normal;">26.55mb</span></a><a href="/mods/underhell/downloads/underhell-chapter-1-german-language-pack" class="button buttonfull"><span style="float: right;">PATCH</span><span>Underhell Chapter 1 - German Language Pack</span><hr><span style="font-weight: normal; float: right;">1.8K</span><span style="font-weight: normal;">16.58mb</span></a><a href="/mods/underhell/downloads/underhell-chapter-1-spanish-language-pack" class="button buttonfull"><span style="float: right;">PATCH</span><span>Underhell Chapter 1 - Spanish Language Pack</span><hr><span style="font-weight: normal; float: right;">2.7K</span><span style="font-weight: normal;">25.11mb</span></a></div>					</div>
+										<div class="row clear">
+						<a href="#watch" class="watchicon c76625d26ff7f0c55142db2c328da119watch button buttonlarge buttonfull" rel="nofollow"><span class="buttoncount watchcount">4.2K</span><span class="buttontext">Follow</span></a>					</div>
+										<div class="row clear">
+												<h5>Icon</h5>
+						<span class="summary">
+							<a href="/games/half-life-2"><img src="https://media.moddb.com/images/games/1/1/61/hl2.png" alt="Half-Life 2" width="32" height="32" /></a>						</span>
+											</div>
+										<div class="row clear">
+												<h5>Game</h5>
+						<span class="summary">
+							<a href="/games/half-life-2">Half-Life 2</a>						</span>
+											</div>
+										<div class="row clear">
+												<h5>Creator</h5>
+						<span class="summary">
+							<a href="/members/mxthe">Mxthe</a>						</span>
+											</div>
+										<div class="row clear">
+												<h5>Contact</h5>
+						<span class="summary">
+							<a href="/messages/compose?to=Mxthe">Send Message</a>						</span>
+											</div>
+										<div class="row clear">
+												<h5>Homepage</h5>
+						<span class="summary">
+							<a href="http://underhell.wecreatestuff.com/" rel="noopener noreferrer" target="_blank">Underhell.wecreatestuff.com</a>						</span>
+											</div>
+										<div class="row clear">
+												<h5>Release date</h5>
+						<span class="summary">
+							<time datetime="2011-03-05">Released 2011</time>						</span>
+											</div>
+									</div>
+							</div>
+		</div>
+	</div>
+	<div class="normalbox menubox" id="rtxremix">
+				<div class="normalcorner">
+			<div class="title">
+								<span class="heading">RTX Remix</span>
+			</div>
+		</div>
+				<div class="inner">
+			<div class="body bodysimple">
+								<div class="tooltip"></div>
+																<div class="table tablemenu">
+										<div class="row clear">
+						RTX Remix is a <a href="https://www.nvidia.com/en-us/geforce/rtx-remix/" target="_blank">modding platform by NVIDIA</a>, which allows modders to create stunning HD remasters of classic games <a href="/rtx">(see all supported)</a>, with ray tracing and DLSS.<br><br>					</div>
+										<div class="row clear">
+						This mod is NOT using RTX Remix. Learn more about <a href="/news/rtx-remix-on-moddb">ModDB's collaboration with the Remix community</a> to organize all compatible games, and <a href="/games/half-life-2#rtxremix">Half-Life 2's</a> support for RTX. <a href="/platforms/rtx/set" class="togglertxinfo">Hide this dialog</a>.					</div>
+									</div>
+							</div>
+		</div>
+	</div>
+	<div class="normalbox menubox" id="articlesprofilemenu">
+				<div class="normalcorner">
+			<div class="title">
+								<span class="heading">Tutorial</span>
+			</div>
+		</div>
+				<div class="inner">
+			<div class="body bodysimple">
+								<div class="tooltip"></div>
+																<div class="table tablemenu">
+										<div class="row clear">
+												<h5>Tags</h5>
+						<span class="summary">
+							<a href="/tags/level-design">Level Design</a>, <a href="/tags/mapping">Mapping</a>, <a href="/tags/tutorial">Tutorial</a>						</span>
+											</div>
+										<div class="row clear">
+												<h5>Browse</h5>
+						<span class="summary">
+							<a href="/mods/underhell/tutorials">Tutorials</a>						</span>
+											</div>
+										<div class="row clear">
+												<h5>New</h5>
+						<span class="summary">
+							<a href="/members/register" class="addicon">Members only</a>						</span>
+											</div>
+										<div class="row clear">
+												<h5>Report</h5>
+						<span class="summary">
+							<a href="/messages/ajax/action/?action=report&amp;sitearea=articles&amp;siteareaid=106470" class="reporticon 44825bfc951a8ff5714f8bb710efda3freport" rel="nofollow">Report</a>						</span>
+											</div>
+										<div class="row clear">
+												<h5>Views</h5>
+						<span class="summary">
+							<a href="/statistics/data/visit/articles/106470" rel="iframe=true;innerHeight=525;innerWidth=830" class="thickbox" title="Bodygroups, Gibs, Ragdolls and Decals Statistics">11,054 (2 today)</a>						</span>
+											</div>
+										<div class="row clear">
+						 
+<h5>Share</h5>
+<span class="summary summarypromo">
+	<a href="https://www.reddit.com/r/1/submit?url=https%3A%2F%2Fwww.moddb.com%2Fmods%2Funderhell%2Ftutorials%2Fbodygroups-gibs-and-ragdolls&title=Bodygroups%2C+Gibs%2C+Ragdolls+and+Decals+tutorial+-+Underhell+mod+for+Half-Life+2" class="redditpromo csstooltip" title="Share on Reddit" target="_blank" rel="nofollow noopener noreferrer"></a><a href="mailto:?subject=Bodygroups%2C%20Gibs%2C%20Ragdolls%20and%20Decals%20tutorial%20-%20Underhell%20mod%20for%20Half-Life%202&body=Visit%3A%20https%3A%2F%2Fwww.moddb.com%2Fmods%2Funderhell%2Ftutorials%2Fbodygroups-gibs-and-ragdolls" class="emailpromo csstooltip" title="Email a friend" rel="nofollow"></a><a href="https://twitter.com/intent/tweet?status=Bodygroups%2C+Gibs%2C+Ragdolls+and+Decals+tutorial+-+Underhell+mod+for+Half-Life+2+https%3A%2F%2Fwww.moddb.com%2Fmods%2Funderhell%2Ftutorials%2Fbodygroups-gibs-and-ragdolls+via+%40moddb&url=https%3A%2F%2Fwww.moddb.com%2Fmods%2Funderhell%2Ftutorials%2Fbodygroups-gibs-and-ragdolls&via=moddb" class="twitterpromo csstooltip" title="Tweeeeeet!" target="_blank" rel="nofollow noopener noreferrer"></a><a href="https://www.facebook.com/dialog/share?app_id=210134345672070&display=page&href=https%3A%2F%2Fwww.moddb.com%2Fmods%2Funderhell%2Ftutorials%2Fbodygroups-gibs-and-ragdolls&quote=Bodygroups%2C+Gibs%2C+Ragdolls+and+Decals+tutorial+-+Underhell+mod+for+Half-Life+2&redirect_uri=https%3A%2F%2Fwww.moddb.com%2Fmods%2Funderhell%2Ftutorials%2Fbodygroups-gibs-and-ragdolls" class="facebookpromo csstooltip" title="Share on Facebook" target="_blank" rel="nofollow noopener noreferrer"></a> 
+</span>
+ 					</div>
+									</div>
+							</div>
+		</div>
+	</div>
+ <div class="normalbox linksbox" id="menulinksmods">
+	<div class="normalcorner">
+		<div class="title">
+			 
+			<span class="heading">Related Mods</span>
+		</div>
+	</div>
+	<div class="inner">
+		<div class="body bodysimple">
+			<div class="tooltip"></div>
+			<div class="table tablerelated">
+								<div class="row clear">
+										<a href="/mods/underhell" title="Underhell" class="image"><img src="https://media.moddb.com/cache/images/mods/1/9/8841/crop_120x90/Chapter1Wallpaper768.jpg" alt="Underhell" /></a>
+										<div class="content">
+						<a href="/mods/underhell" class="heading">Underhell</a>
+						<span class="summary">
+							<a href="/games/half-life-2">Half-Life 2</a> 						</span>
+					</div>
+				</div>
+				 
+			</div>
+		</div>
+	</div>
+</div>
+<div class="normalbox linksbox" id="menulinksgames">
+	<div class="normalcorner">
+		<div class="title">
+			 
+			<span class="heading">Related Games</span>
+		</div>
+	</div>
+	<div class="inner">
+		<div class="body bodysimple">
+			<div class="tooltip"></div>
+			<div class="table tablerelated">
+								<div class="row clear">
+										<a href="/games/half-life-2" title="Half-Life 2" class="image"><img src="https://media.moddb.com/cache/images/games/1/1/61/crop_120x90/hl2_thumb.jpg" alt="Half-Life 2" /></a>
+										<div class="content">
+						<a href="/games/half-life-2" class="heading">Half-Life 2</a>
+						<span class="summary">
+							First Person Shooter 						</span>
+					</div>
+				</div>
+				 
+			</div>
+		</div>
+	</div>
+</div>
+</div> 	<div style="clear: both; height: 1em;"></div><!-- IE6 Hack -->
+</div>
+
+<footer><div id="footer">
+	<div class="content">
+		<a href="https://www.dbolical.com" class="network dbolical" target="_blank" title="DBolical - Entertainment Euphoria"></a>
+		<span class="terms"><a href="/privacy-policy#cookies" class="csconsentlink">Cookies</a> | <a href="/terms-of-use">Terms of Use</a> | <a href="/privacy-policy" style="padding-right: 0">Privacy Policy</a></span>
+		<span class="links"><a href="/blog">Blog</a> | <a href="/about">About</a> | <a href="/advertise">Advertise</a> | <a href="/contact">Contact</a> | <a href="/mods/add">Submit Mod</a> | <a href="https://mod.io" target="_blank" title="Cross Platform Mod support for game developers">Cross-Platform Mod Support</a> | <a href="/sitemap">Site Map</a></span>
+		<span class="copyright">&copy; 2002 - 2026 <a href="https://www.dbolical.com" target="_blank">DBolical Pty Ltd.</a>&nbsp; All Rights Reserved.&nbsp; <a href="/members/online">6728 modders</a>.</span>
+	</div>
+</div><script src="https://static.moddb.com/html/external/min/index.php?g=jquery&amp;1"></script><script type="application/ld+json">{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"Item":{"@id":"https://www.moddb.com/games","name":"Games"}},{"@type":"ListItem","position":2,"Item":{"@id":"https://www.moddb.com/games/half-life-2","name":"Half-Life 2"}},{"@type":"ListItem","position":3,"Item":{"@id":"https://www.moddb.com/games/half-life-2/mods","name":"Mods"}},{"@type":"ListItem","position":4,"Item":{"@id":"https://www.moddb.com/mods/underhell","name":"Underhell"}},{"@type":"ListItem","position":5,"Item":{"@id":"https://www.moddb.com/mods/underhell/tutorials","name":"Tutorials"}},{"@type":"ListItem","position":6,"Item":{"@id":"https://www.moddb.com/mods/underhell/tutorials/bodygroups-gibs-and-ragdolls","name":"Bodygroups, Gibs, Ragdolls and Decals","image":"https://media.moddb.com/images/articles/1/107/106470/Soldier_BodyGroups2.jpg"}}]}</script>
+<script src="https://static.moddb.com/html/external/min/index.php?g=js&amp;19"></script>
+<script src="https://static.moddb.com/html/external/min/index.php?b=cutoff&amp;f=js/misc.highlight.js"></script><script src="https://static.moddb.com/html/external/min/index.php?b=cutoff&amp;f=js/jquery.form.js&amp;1"></script><style type="text/css">#rtxremix { display: none; }</style>
+
+<script>
+$(document).ready(function() { $("#togglelogin").click(function() { 
+					if($("#searchbox .search").is(":visible")) {
+						$("#searchbox .arrow").html("&nbsp;&#187;");
+						$("#searchbox .search").fadeOut(function() { $("#searchbox .login").show(); });
+					} else {
+						$("#searchbox .arrow").html("&nbsp;");
+						$("#searchbox .login").fadeOut(function() { $("#searchbox .search").show(); });
+					}
+					return false;
+				});
+$("#sitesearch").suggestClick("https://www.moddb.com/html/scripts/autocomplete.php?a=search&p=mods",{resultsClass: "suggest_search", positionIn: "#searchbox", limit: 10});
+hljs.initHighlightingOnLoad();
+hljs.initHighlightingOnLoad();
+hljs.initHighlightingOnLoad();
+hljs.initHighlightingOnLoad();
+hljs.initHighlightingOnLoad();
+hljs.initHighlightingOnLoad();
+hljs.initHighlightingOnLoad();
+hljs.initHighlightingOnLoad();
+hljs.initHighlightingOnLoad();
+hljs.initHighlightingOnLoad();
+$(".44825bfc951a8ff5714f8bb710efda3freport").saveUpdate("report", false);
+
+			viewComment = function(currentoption, response) {
+				if(response["action"] == "delete") {
+					$("#"+currentoption.closest(".actions").data("id")+" div.comment").show().html(response["success"] ? "<p>Your comment action was successful. When a comment is deleted all replies to the comment will be removed as well. Because you are an admin, you can click the \"view deleted\" link above to view deleted comments in-case you wish to undelete them in the future. If this was a mistake, click the link again to reverse the change.</p>" : "<p>"+response["text"]+"</p>");
+					currentoption.html(response["labels"]["delete"]);
+				} else if(response["action"] == "archive") {
+					currentoption.closest(".row").slideUp(400, function(){$(this).remove();});
+				} else if(response["action"].includes("karma")) {
+					if(response["success"]) {
+						karma = parseInt(currentoption.parent().find(".karma").html().split(" ", 1));
+						karma = karma ? (karma + response["karma"]) : response["karma"];
+						currentoption.parent().find(".karma").html((karma==1 ? "+1 vote" : (karma>1 ? "+"+karma+" votes" : karma+" votes")));
+					} else if(response["error"]) {
+						currentoption.parent().find(".karma").html(response["text"]);
+					}
+				}
+			};
+				
+			$(".rowdeleted .comment,.rowbury .comment").hide().each(function() {
+				extra = $(this).find(".hidereason").html();
+				$(this).find(".hidereason").remove();
+				$(this).before("<p><a href=# class=togglecomment>View comment</a> <em>"+extra+"</em></p>");
+			});
+				
+			$(".togglecomment").click(function() {
+				$(this).parent().next().slideDown();
+				$(this).parent().remove();
+				return false;
+			});
+$(".comment3112494karmagood").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3112494karmabad").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3112515karmagood").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3112515karmabad").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3112524karmagood").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3112565karmagood").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3112565karmabad").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3112700karmagood").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3112700karmabad").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3114217karmagood").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3114217karmabad").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3114331karmagood").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3114331karmabad").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3130875karmagood").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3130875karmabad").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment6699192karmagood").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment6699192karmabad").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$("#commentsummary").formAutoResize({extraSpace: 0});
+$("#commentemail").after('<input type="hidden" name="IyMyMmI2MjkwOGVlYzdiMjQ2OGUwMmQwMWJmNjM2MGFmNzIxMzcyMTMzMTZqc2ZpZWxk" value="1" />');
+
+			$(".tablecomments .entericon").click( function() {
+				var post = $(this).closest(".actions").data("id");
+				var link = $(this);
+		
+				if(!$("#commentsummary").length) {
+					return true;
+				} else if($("#"+post+" div.replypostholder").length) {
+					// do nothing
+				} else {
+					$("#"+post+" div.comment").append("<div class=\"replypostholder\"><br /><textarea rows=\"5\" cols=\"50\" class=\"editpost\" id=\"reply"+post+"\" placeholder=\"Reply to @"+$("#"+post+" .author").data("nameid")+"\"></textarea><div><input type=\"button\" value=\"Cancel\" id=\"cancelreply"+post+"\" /> <input type=\"button\" value=\"Save\" id=\"savereply"+post+"\" style=\"font-weight: bold;\" /></div></div>");
+					var textarea = $("#reply"+post);
+					var mentions = $("#commentform .mentions-input").length > 0;
+
+					if(mentions) {
+						textarea.mentionsInput({source: "https://www.moddb.com/html/scripts/autocomplete.php?a=mentions&p=home&l=6&u=666"});
+					}
+	
+					$("#cancelreply"+post).click(function() {
+						$("#"+post+" div.replypostholder").remove();
+					});
+		
+					$("#savereply"+post).click(function() {
+						postcontent = mentions ? textarea.mentionsInput("getValue") : textarea.val();
+		
+						if(postcontent) {
+							$(this).remove();
+							$("#cancelreply"+post).remove();
+							textarea.after("<span class=\"ajaxicon\">Saving your reply</span>");
+							if(mentions) {
+								$("#commentsummary").mentionsInput("setValue", postcontent);
+							} else {
+								$("#commentsummary").val(postcontent);
+							}
+							$("#commentform input[name=replyid]").val(post);
+							$("#commentsubmit").click();
+						} else {
+							$(this).text("Please enter a comment");
+						}
+					});
+				}
+	
+				return false;
+			});
+$(".mods8841watch").click(function(){
+					$.achtung({message: "Only members can follow mods. <a href=\"/members/register\">Sign up</a> today and follow your favorites.", className: "achtungFail", timeout:5});
+					return false;
+				});
+
+					$(".downloadautotoggle").click(function(){
+						$(".downloadon").slideToggle();
+						return false;
+					});
+$(".c76625d26ff7f0c55142db2c328da119watch").click(function(){
+						$.achtung({message: "Only members can follow mods. <a href=\"/members/register\">Sign up</a> today and follow your favorites.", className: "achtungFail", timeout:5});
+						if($(this).hasClass("button")) {
+							$(this).addClass("buttonon");
+						}
+						return false;
+					});
+$(".togglertxinfo").click(function(e){
+				if($(this).attr("href") == "#rtxremix") {
+					localStorage.setItem("rtxtoggled", true);
+					$("#rtxremix").show();
+					return true;
+				} else {
+					localStorage.removeItem("rtxtoggled");
+					$("#rtxremix").hide();
+					return false;
+				}
+			});
+			
+			
+
+		function cookieScript(e) {
+			var status = CookieScript.instance.currentState().categories.includes("targeting") ? "false" : "true";
+			var cookies = CookieScript.instance.currentState().categories.includes("performance") ? "true" : "false";
+			var cookie_data = { npa : {status:status,cookies:cookies,version:"1.0.13",chosen:"true"}, expires : 365 };
+			Cookies.set("dfp-npa", cookie_data.npa, { expires: cookie_data.expires, secure: true });
+
+	if (typeof gtag === "function") { gtag("consent", "update", {"ad_storage": cookie_data.npa.status == "false" ? "granted" : "denied", "ad_user_data": cookie_data.npa.status == "false" ? "granted" : "denied", "ad_personalization": cookie_data.npa.status == "false" ? "granted" : "denied", "analytics_storage": cookie_data.npa.cookies == "true" ? "granted" : "denied"}); }
+
+	if(cookie_data.npa.status == "false") {
+		// personalize
+		if (typeof permutive === "object") { permutive.consent({ "opt_in": true, "token": "Allow All" }); }
+	} else {
+		// don't personalize
+		if (typeof permutive === "object") { permutive.consent({ "opt_in": false }); }
+		Cookies.remove("permutive-id", { domain: "moddb.com", secure: true });
+	}
+		}
+
+		if(!Cookies.get("dfp-npa")) {
+			Cookies.set("dfp-npa", {status:"false",cookies:"true",version:"1.0.13",chosen:"false"}, { expires: 60, secure: true });
+		}
+
+		window.addEventListener("CookieScriptAcceptAll", cookieScript);
+		window.addEventListener("CookieScriptAccept", cookieScript);
+		window.addEventListener("CookieScriptReject", cookieScript);
+		window.addEventListener("CookieScriptClose", cookieScript);
+$("a.thickbox").click(function() { $.colorbox({href:$(this).attr("href"), rel:$(this).attr("rel"), open:true, onOpen:function(){ $(".nextmediabox").hide(); }, onClosed:function(){ $(".nextmediabox").show(); }}); return false; });
+ });
+</script></footer>
+</div>
+
+ <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496" integrity="sha512-ZE9pZaUXND66v380QUtch/5sE9tPFh2zg45pR2PB0CVkCtOREv2AJKkSidISWkysEuQ0EH8faUU5du78bx87UQ==" data-cf-beacon='{"version":"2024.11.0","token":"8e37b0c8f0164496b83e8a9662df72e8"}' crossorigin="anonymous"></script>
+</body>
+</html>

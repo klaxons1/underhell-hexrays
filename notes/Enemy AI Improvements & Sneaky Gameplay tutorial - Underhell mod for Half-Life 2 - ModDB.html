@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Enemy AI Improvements &#038; Sneaky Gameplay tutorial - Underhell mod for Half-Life 2 - ModDB</title>
+	<meta charset="utf-8">
+	 
+	<meta name="keywords" content="underhell mod for half life 2, enemy ai improvements sneaky gameplay, articles, information, data, gossip, feature, read, view, discuss" />
+	<meta name="description" content="This is a short explanation of how the &quot;Sneaky Gameplay&quot; works in Underhell, and how the enemy AI was improved and tailored to help it work correctly, followed by a short tutorial on the Level Design." />
+	<meta name="robots" content="max-image-preview:large" />
+	<meta property="fb:app_id" content="210134345672070"/>
+	<meta property="og:title" content="Enemy AI Improvements &#038; Sneaky Gameplay tutorial - Underhell mod for Half-Life 2" />
+	<meta property="og:description" content="This is a short explanation of how the &quot;Sneaky Gameplay&quot; works in Underhell, and how the enemy AI was improved and tailored to help it work correctly, followed by a short tutorial on the Level Design." />
+	<meta property="og:site_name" content="ModDB" />
+	<meta property="og:type" content="article" /> 
+	<meta property="og:url" content="https://www.moddb.com/mods/underhell/tutorials/enemy-ai-improvements-sneaky-gameplay" /> 
+	<meta property="og:image" content="https://media.moddb.com/images/articles/1/109/108313/SneakMap.jpg" /> 
+	 
+	<meta property="twitter:card" content="summary_large_image" />
+	<meta property="twitter:site" content="@moddb" />
+	<meta property="twitter:title" content="Enemy AI Improvements &#038; Sneaky Gameplay tutorial - Underhell mod for Half-Life 2" />
+	<meta property="twitter:description" content="This is a short explanation of how the &quot;Sneaky Gameplay&quot; works in Underhell, and how the enemy AI was improved and tailored to help it work correctly, followed by a short tutorial on the Level Design." />
+	<meta property="twitter:url" content="https://www.moddb.com/mods/underhell/tutorials/enemy-ai-improvements-sneaky-gameplay" /> 
+	<meta property="twitter:image" content="https://media.moddb.com/images/articles/1/109/108313/SneakMap.jpg" /> 
+	<link rel="stylesheet" type="text/css" media="all" href="https://static.moddb.com/html/external/min/index.php?g=css&amp;80" />
+	<link rel="icon" href="https://www.moddb.com/favicon.ico" type="image/x-icon" />
+	<link rel="icon" href="https://www.moddb.com/favicon.png" type="image/png" sizes="96x96" />
+	<link rel="icon" href="https://www.moddb.com/favicon-192x192.png" type="image/png" sizes="192x192" />
+	<link rel="apple-touch-icon" href="https://www.moddb.com/apple-touch-icon.png" sizes="180x180" />
+	<link rel="alternate" href="https://rss.moddb.com/mods/underhell/tutorials/feed/rss.xml" type="application/rss+xml" title="Enemy AI Improvements &#038; Sneaky Gameplay tutorial - Underhell mod for Half-Life 2 feed" />	<meta name="ad:no_cmp" content="true"><script type="text/javascript" charset="UTF-8" src="//geo.cookie-script.com/s/02fe83eeed96d72125f64a74a34c1e06.js?country=gb&region=eu"></script><script type="text/javascript" charset="UTF-8" src="//geo.cookie-script.com/s/752e55d1c55e9bb1ffd11b935da9c032.js?country=us"></script><link rel="stylesheet" href="https://static.moddb.com/html/external/min/index.php?b=cutoff&amp;f=css/highlight.css&amp;1" type="text/css" />
+</head>
+<body>
+
+<div id="body">
+<div class="container">
+	<header><div id="header">
+		<div id="searchbox">
+			 
+			<span class="guest">Hello guest <a href="/members/register">register</a> or <a href="/members/login" id="togglelogin">sign in</a></span><span class="arrow">&nbsp;</span>
+			<form action="https://www.moddb.com/search" class="search" method="get"><input type="text" name="q" maxlength="500" value="" id="sitesearch" class="text" placeholder="Search"  /><input type="image" name="sa" value="Search" src="https://static.moddb.com/cutoff/images/default/btn_search_box.png" class="button" alt="Search ModDB" title="Search ModDB"  /></form>			 
+			<form action="https://www.moddb.com/members/login" method="post" name="memberform" class="login"><input type="hidden" name="referer" value="/mods/underhell/tutorials/enemy-ai-improvements-sneaky-gameplay/" /><input type="hidden" name="rememberme" value="1" /><input type="hidden" name="members" value="1" /><span class="caffefbeformouter"><span><span><span><span><span><span class="caffefbeforminner"><input type="text" name="IyMyMmI2MjkwOGVlYzdiMjQ2OGUwMmQwMWJmNjM2MGFmNzI0NTUwMDM1Njl1c2VybmFtZQ:E::E:" maxlength="500" value="" placeholder="Username" class="text" autocomplete="off"  /></span></span></span></span></span></span></span><span class="caffefbeformouter"><span><span><span><span><span class="caffefbeforminner"><input type="text" name="IyMyMmI2MjkwOGVlYzdiMjQ2OGUwMmQwMWJmNjM2MGFmNzM5MTcxNjEwMjJib3RjYXRjaGVy" maxlength="500" placeholder="Username" class="text" autocomplete="off"  /></span></span></span></span></span></span><style> span.caffefbeformouter span span span span span.caffefbeforminner { display: none; } span.caffefbeformouter span span span span span span.caffefbeforminner { display: inline; }</style>
+<input type="password" name="password" maxlength="100" placeholder="Password" class="text password" autocomplete="off"  /><input type="submit" name="members" value="GO" class="button" title="Sign In" style="color: #000;text-align: center;"  /></form>			<span class="login" style="display: none;">or with: <a href="/members/loginext/steam" class="steamiconsml" style="float: right; margin: 3px 1px 0 4px;" title="Click to connect via Steam"></a><a href="/members/loginext/google" class="googleiconsml" style="float: right; margin: 3px 1px 0 4px;" title="Click to connect via Google"></a><a href="/members/loginext/twitter" class="twittericonsml" style="float: right; margin: 3px 1px 0 4px;" title="Click to connect via Twitter"></a><a href="/members/loginext/facebook" class="facebookiconsml" style="float: right; margin: 3px 1px 0 4px;" title="Click to connect via Facebook"></a></span>
+			 
+		</div>
+
+		<h1>Enemy AI Improvements &#038; Sneaky Gameplay tutorial - Underhell mod for Half-Life 2</h1>
+		<a href="/" class="logo" title="ModDB Home"></a>
+
+ 		 
+		<ul class="tabs">
+			<li class="on"><a href="/">HOME</a></li>
+			<li><a href="/today" title="New today">Today</a></li>
+			<li><a href="/week" title="New this week">Week</a></li>
+			<li><a href="/month" title="New this month">Month</a></li>
+			<li><a href="/year" title="New this year">Year</a></li>
+			 
+		</ul>
+	</div>
+	<div id="subheader">
+		<nav><ul class="tabs">
+			<li class="firsttab"><a href="/games">games</a>
+				<ul>
+					<li><a href="/games/top">popular</a></li>
+					<li><a href="/games/latest">latest</a></li>
+					 
+					<li><a href="https://www.indiedb.com">indies</a></li>
+					<li><a href="https://modularity.games">publishing</a></li>
+					 
+					<li><a href="/games/add">add game</a></li>
+									</ul>
+			</li>
+			<li class="on"><a href="/mods">mods</a>
+				<ul>
+					<li><a href="/mods/top">popular</a></li>
+					<li><a href="/mods/latest">latest</a></li>
+					<li><a href="/mods/add">add mod</a></li>
+				</ul>
+			</li>
+			<li><a href="/addons">addons</a>
+				<ul>
+					<li><a href="/addons/top">popular</a></li>
+					<li><a href="/addons/latest">latest</a></li>
+					<li><a href="/addons/add">upload</a></li>
+				</ul>
+			</li>
+			<li><a href="/downloads">files</a>
+				<ul>
+					<li><a href="/downloads/top">popular</a></li>
+					<li><a href="/downloads/latest">latest</a></li>
+					<li><a href="/downloads/add">upload</a></li>
+				</ul>
+			</li>
+			 
+			<li><a href="/rtx">RTX Remix</a>
+				<ul>
+					<li><a href="/rtx">Games Compatibility</a></li>	
+					<li><a href="/rtx/mods">Remix Mods</a></li>
+					<li><a href="/rtx/downloads">Remix Files</a></li>
+					<li><a href="/rtx/downloads?filter=t&category=34">PBR Assets</a></li><!-- RTX_ASSET -->
+					<li><a href="/rtx/articles">News</a></li>
+					<li><a href="/rtx/tutorials">Tutorials</a></li>
+					<li><a href="/rtx/stats">Statistics</a></li>
+				</ul>
+			</li>
+			 
+			<li><a href="/videos">videos</a>
+				<ul>
+					<li><a href="/images">images</a></li>
+					<li><a href="/audio">audio</a></li>
+				</ul>
+			</li>
+			<li><a href="/articles">articles</a>
+				<ul>
+					<li><a href="/reviews">reviews</a></li>
+					<li><a href="/headlines">headlines</a></li>
+					 
+					<li><a href="/blogs">blogs</a></li>
+					 
+					<li><a href="/articles/add">post article</a></li>
+				</ul>
+			</li>
+			<li><a href="/engines">engines</a>
+				<ul>
+					<li><a href="/engines/top">popular</a></li>
+					<li><a href="/engines/latest">latest</a></li>
+					<li><a href="/engines/add">add engine</a></li>
+				</ul>
+			</li>
+			<li><a href="/company">developers</a>
+				<ul>
+					<li><a href="/company/top">popular</a></li>
+					<li><a href="/company/latest">latest</a></li>
+					<li><a href="/company/add">add dev</a></li>
+				</ul>
+			</li>
+			<li><a href="/groups">groups</a>
+				<ul>
+					<li><a href="/groups/top">popular</a></li>
+					<li><a href="/groups/latest">latest</a></li>
+					<li><a href="/groups/add">add group</a></li>
+				</ul>
+			</li>
+			<li><a href="/forum">forums</a></li>
+			<li><a href="/jobs">jobs</a>
+				<ul>
+					<li><a href="/jobs/add">post job</a></li>
+				</ul>
+			</li>
+		</ul></nav>
+	</div></header>
+
+	 
+
+	<div class="column span-all tabtutorials">	<div class="headerbox" style="background-image: url(https://media.moddb.com/images/mods/1/9/8841/bg.jpg);">
+		<div class="headercorner">
+			<div class="title">
+				 
+				<h2><a href="/mods/underhell">Underhell</a></h2>
+				<h3>
+					<a href="/games/half-life-2">Half-Life 2 mod</a> | <time datetime="2011-03-05">Released 2011</time>				</h3>
+				<span class="bg"></span>
+			</div>
+			<nav><ul class="menu">
+				<li class="firsttab"><a href="/mods/underhell">summary</a></li><li class=""><a href="/mods/underhell/articles">articles</a></li><li class="on"><a href="/mods/underhell/tutorials">tutorials</a></li><li class=""><a href="/mods/underhell/reviews">reviews</a></li><li class=""><a href="/mods/underhell/downloads">files</a></li><li class=""><a href="/mods/underhell/videos">videos</a></li><li class=""><a href="/mods/underhell/images">images</a></li>			</ul></nav>
+		</div>
+	</div>
+		<div class="headernormalbox normalbox">
+		<div class="inner">
+			<div class="body clear">
+								<div class="tooltip"></div>
+								<p>Underhell is a Source Engine game developed by the Underhell Team in collaboration with We Create Stuff.
+
+Underhell Chapter 1 requires ONLY Source SDK Base 2007 installed.
+
+No Source game is required.
+
+</p>			</div>
+		</div>
+	</div>
+</div><div class="column span-300-alt first tabtutorials"><article itemscope itemtype="https://schema.org/TechArticle">
+					<meta itemscope itemprop="mainEntityOfPage"  itemtype="https://schema.org/WebPage" itemid="https://www.moddb.com/tutorials/enemy-ai-improvements-sneaky-gameplay" />
+					<meta itemprop="dateModified" content="2012-08-20T22:10:31+0000" />
+					<meta itemprop="image" content="https://media.moddb.com/images/articles/1/109/108313/SneakMap.jpg" />
+					<div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+						<meta itemprop="name" content="ModDB" />
+						<div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+							<meta itemprop="url" content="https://static.moddb.com/cutoff/images/default/splash.png">
+							<meta itemprop="width" content="120">
+							<meta itemprop="height" content="60">
+						</div>
+					</div>	<div class="normalbox" id="readarticle">
+		<div class="normalcorner">
+			<div class="title">
+				<span class="options">
+					<a href="/messages/ajax/action/?action=report&amp;sitearea=articles&amp;siteareaid=108313" class="reporticon 44825bfc951a8ff5714f8bb710efda3freport" rel="nofollow" title="Report">Report</a> <a href="https://rss.moddb.com/mods/underhell/tutorials/feed/rss.xml" target="_blank" class="rssicon"  title="RSS">RSS</a>				</span>
+				<span class="heading" itemprop="headline">Enemy AI Improvements &#038; Sneaky Gameplay</span>
+			</div>
+		</div>
+		<div class="inner">
+			<div class="body bodyarticle clear">
+								<div class="tooltip"></div>
+								
+												 
+				<p class="introductiontext" itemprop="description">This is a short explanation of how the &quot;Sneaky Gameplay&quot; works in Underhell, and how the enemy AI was improved and tailored to help it work correctly, followed by a short tutorial on the Level Design.</p>
+								<p class="introduction">
+					Posted by <span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name"><a href="/members/mxthe" class="verifiedicon" title="Mod Manager" itemprop="url">Mxthe</a></span></span> on <time datetime="2012-08-20T22:10:31+00:00" itemprop="datePublished">Aug 21st, 2012</time> - <span itemprop="proficiencyLevel">Basic</span> Mapping/Technical 				</p>
+				<div id="articlecontent" itemprop="articleBody"><p>Say what you want, HL2 has one of the best <span style="color: #000000;"><strong>A</strong></span>rtificial <strong><span style="color: #000000;">I</span></strong>ntelligence I have seen in a game.<br />
+Soldiers work together, communicate, flank the player, flushes him with grenades, and will patrol around the last area where the player was seen if he disappears.</p>
+<p>This is all HL2's Default AI, but a few factors can make it seem less impressive than it actually is.</p>
+<ol>
+<li>Enemy Soldiers see you instantly, given their 180° + field of view.</li>
+<li>The "Combine" voices are hard to understand, therefore all the player hears is jiberrish</li>
+<li>The way the AI patrols by default looks pretty dumb, unless given specific context.</li>
+</ol>
+<p>Very early in the development of Underhell I knew I wanted to have a sneaky/tactical gameplay possibilities, therefore I had made a list of features that I wanted to see in, but at the time I designed these Levels, I did not have the code or those features yet, so I had to keep everything in mind before actually being able to test it.</p>
+<p>That said, it worked out pretty well...</p>
+<h2><span style="color: #000000;">FIELD OF SIGHT</span></h2>
+<p><em>(or field of view)</em></p>
+<p>The default field of view of the "<a href="https://developer.valvesoftware.com/wiki/Npc_combine_s" target="_blank" title="https://developer.valvesoftware.com/wiki/Npc_combine_s">npc_combine_s</a>" is based around a real Human's being field of view, which is slightly above 180°. This makes it nearly impossible to sneak around them unless they are turned away.</p>
+<p>So our first step was to create a set of keyvalues and input to determine the FOS and the View Distance.</p>
+<pre><code class="lang-">Keyvalues:
+
+uh_fos 
+uh_viewdistance</code></pre>
+<br />
+<p>Those 2 keyvalues are added in the NPC's properties in hammer, by turning SmartEdit off, they allow for very precise setting of the field of view and the view distance.<br />
+We also implemented a set of inputs allowing us to change these values in real time.</p>
+<pre><code class="lang-">Inputs:
+
+setfos
+setviewdistance</code></pre>
+<br />
+<p>As soon as we had these settings in the game, we realized just how cool it was to be able to sneak around a soldier without being detected.<br />
+As for the "realism" in lowering the Field Of View, the levels in which it is reduced are extremely dark, and the soldiers are wearing gas masks.</p>
+<h2>TEMP SQUADS</h2>
+<br />
+<p>In Source engine, only NPCs that are in the same "Squad" will work together and communicate.<br />
+The trick is, that even if one soldier of the squad is at one side of the map, and another at the other end of the map, they will still "Work Together" and be alerted together when one of them spots the player.</p>
+<p>So I knew I would need multiple Squads, but the problem in splitting up the squad is given when, 2 squads actually meet in the map, and do not even communicate or work together to take down their enemies.</p>
+<p>So we came up with a Temp Squad system, when 2 NPCs that are allied to each other, are within each other's line of sight, they are placed in a "Temporary Squad" and begin sharing target information, independently of their squadname.<br />
+Whenever the line of sight is lost, the "Temp Squad" is broken, and they cease to communicate, UNLESS they are within the same Squadname.</p>
+<p>This makes it so that every soldier in the game work together when they are close to each other, independent of which squads they are in.<br />
+But this system does is not specific to soldiers, but to every NPC type in the game, as long as they are allies, they will now work together.</p>
+<p>The following keyvalue must be set to the NPC's properties by turning SmartEdit off :</p>
+<pre><code class="lang-">SquadTemp : 1</code></pre>
+<br />
+<p>You can also dynamically turn the SquadTemp on and off with the following inputs</p>
+<pre><code class="lang-">SetSquadTemp (0-1)</code></pre>
+<br />
+<br />
+<h2><span style="color: #000000;">VOICE ACTING</span></h2>
+<br />
+<p>Another major detail in a believable behavior, is the Voices of the soldiers, and how they communicate.<br />
+Half Life 2 has 27 "SENTENCES" categories for Soldier Communications.<br />
+<em>These can be found in "Scripts/sentences.txt"</em></p>
+<pre><code class="lang-">//PAIN
+//DIE
+// I am about to start shooting
+// My enemy is close and I can see him
+// I am moving in
+// I am still alert and pursuing enemy
+// Nobody has seen enemy in 10 seconds
+// Nobody has seen enemy in 5 seconds
+// I just saw a friendly die
+// Just found enemy after lost long
+// I am throwing a grenade
+// Enemy Grenade lands nearby (one man only)
+// Something dangerous nearby, need to run
+// Player Alert - first contact and I&#039;m the squad leader
+// Last soldier&#039;s hit damaged player significantly
+// Monster Alert - first contact and I&#039;m the squad leader
+// Monster Alert - by type
+// I killed a monster
+// I was hit and it hurt. I&#039;m taking cover
+// I took damage but it didn&#039;t hurt much
+// I&#039;m the last guy in the squad
+// Player is dead
+// Idle statement - my status, no enemy
+// I&#039;m asking a question while idle, which may be answered with affirmative
+// Answering affirmative
+// Answering all clear
+// Questioning if all clear</code></pre>
+<br />
+<p>So I was looking for a voice actor with a very good "Military" voice and way of speaking, and I stumbled across <span style="color: #000000;"><em><strong>Michael Tsarouhas</strong></em></span>.</p>
+<p>In a few days he has sent me over 400 lines for the first 7 categories, which are the most commonly spoken, and I have to say I was sold.</p>
+<p>We have over 32 lines per category, said in many different ways, and honestly this simple addition provides an incredible amount of "immersion" to the game.<br />
+I have spent countless hours just observing Soldiers behave in squad while fighting other enemies, and I have to say I am impressed by the depth of the HL2's default AI, in ways I wasn't before, simply because I couldn't understand a damn thing the "Combine Soldiers" say in HL2.</p>
+<h2><span style="color: #000000;">DYNAMIC PATROLS &amp; CHATTER</span></h2>
+<br />
+<p>Soldiers in HL2 have no "default patrolling" system, they have a simple input called "StartPatrolling", which makes them walk around in circles, but they do not navigate a level by themselves unless told to.<br />
+I knew that I wanted dynamic and randomized patrols in the Sneaky Levels, because I wanted people to be able to play them over and over again without it being exactly the same twice.</p>
+<p>So I came up with a system that randomly teleports a "target" at predefined locations around the level, and the soldier will dynamically create his path to the target, depending on his current position.<br />
+Based on a randomized timer, the soldier's target will teleport somewhere else, and the soldier will therefore update his navigation path to get to the target's new position.</p>
+<p>This makes extremely dynamic and realistic patrolling system, that is rather hard to predict, but since the locations at which the target teleports are preset, it is not impossible to understand the "patrol area" of a specific soldier.</p>
+<p>In addition to this system, I have created another dynamic "Conversation" system based on whether 2 soldiers on patrol find themselves in the same location.<br />
+In which case they both stop patrolling, have a randomized conversation, and then resume their patrols.</p>
+<p>These Conversations can give very important information to the player about what is going on in the location the player is currently in.</p>
+<h2><span style="color: #000000;">BODY DETECTION</span></h2>
+<br />
+<p>As previously mentioned in the "<a href="https://www.moddb.com/mods/underhell/tutorials/bodygroups-gibs-and-ragdolls" target="_blank" title="https://www.moddb.com/mods/underhell/tutorials/bodygroups-gibs-and-ragdolls">Bodygroups, Gibs, Ragdolls and Decals</a>" tutorial, we have created a system which allows for soldiers to "Detect" dead bodies.The Keyvalue to add to an NPC to make them find bodies is the following:
+<pre><code class="lang-">uh_SpotBodies (0-1)</code></pre>
+<br />
+<p>An input can also be called to toggle this function On and Off </p>
+<pre><code class="lang-">SetSpotBodiesOn
+SetSpotBodiesOff</code></pre>
+<br />
+<p>When the SpotBodies is on, the NPC will fire the following outputs when they spot a body:</p>
+<p> <strong><span style="color: #000000;">OnSpotSoldierBody </span></strong><span style="color: #000000;">: Fires when a Soldier body was found</span><br />
+ <strong><span style="color: #000000;"><span class="spoiler">OnSpotI******dBody </span> : </span></strong><span style="color: #000000;">Fired when a <span class="spoiler">SPOILERS</span> body was found</span><br />
+ <strong><span style="color: #000000;">OnSpotDefaultBody : </span></strong><span style="color: #000000;">Fired when any other type of npc ragdoll was found</span></p>
+<p> In this output link "!caller" is the body itself, and "!activator" is the NPC who spotted the body.</p>
+<p> Here's a way it can be used :</p>
+<pre><code class="lang-">OnSpotSoldierBody !Activator WalkToEntity !caller</code></pre>
+<br />
+<p> This output will make the person who found the body <em>(!activator)</em> Walk to the dead body <em>(!caller)</em></p>
+<h2><span style="color: #000000;">BACKUP SYSTEM</span></h2>
+<br />
+<p>The sneaky levels have a "Backup System", that dynamically sends an additional squad in the map, randomly equipped with a <a href="https://www.moddb.com/mods/underhell/images/riot-shields-wip#imagebox" target="_blank" title="https://www.moddb.com/mods/underhell/images/riot-shields-wip#imagebox">Riot Shield</a> or a <a href="https://www.moddb.com/mods/underhell/images/ballistic-shield" target="_blank">Ballistic shield</a>.</p>
+<p>Depending on how often the player is spotted, and whether or not he opens fire, Soldiers in the map will call for backup, and soon after the nearest Core Access will open, letting in the reinforcements.</p>
+<p>This can make the gunfights very dynamic, if the player decides to go in Guns Blazing.</p>
+<p>I do not recommend one approach or the other, I will simply say that the game has been designed to support as many approaches as possible, while giving possibilities to the player to change tactic at any given time.</p>
+<p>That said, unlike some other games, the reinforcements are <span style="color: #000000;"><span style="text-decoration: underline;"><strong>NEVER</strong></span></span> unlimited.</p>
+<div class="center" style="text-align: center;"><em>Programming by Carlos "Charly" Sotelo </em> </div>
+</div>
+							</div>
+		</div>
+	</div>
+</article> 	<div class="normalbox commentbox" id="comments">
+		<div class="normalcorner">
+			<div class="title">
+				<span class="options">
+					<a href="#commentform" class="addicon"  title="Post comment">Post comment</a>				</span>
+				<span class="heading">Comments</span>
+			</div>
+		</div>
+		<div class="inner">
+			<div class="body">
+				<div class="tooltip"></div>
+								<div class="table tablecomments">
+					 
+					<div id="3173024" class="row">
+						 
+						<div class="avatarholder">
+							<a href="/members/mkilbride" title="Mkilbride" class="avatar"><img src="https://media.moddb.com/images/members/1/66/65954/Moddbfinal.jpg" alt="Mkilbride" width="50" height="50" /></a>
+													</div>
+						<div class="content">
+							<span class="heading">
+								<a href="/members/mkilbride" class="author" data-nameid="mkilbride">Mkilbride</a>  - <a href="#3173024" style="color: inherit;"><time datetime="2012-08-21T02:58:03+00:00">Aug 21 2012</time></a> - 2,780 comments							</span>
+														<div class="comment">
+								<p>Underhell, new and improved edition.</p>
+<p>This time it will become an even bigger hit;</p>
+<p>Gaben will play it!
+</p>
+							</div>
+							<span class="actions" data-id="3173024">
+								<a href="#commentform" class="entericon"  title="Reply">Reply</a> <a href="#karma" class="karmagoodicon comment3173024karmagood" rel="nofollow" title="Good karma">Good karma</a> <a href="#karma" class="karmabadicon comment3173024karmabad" rel="nofollow" title="Bad karma">Bad karma</a><span class="karma" title="Karma">+16 votes</span>							</span>
+													</div>
+						<div style="clear: both;"></div>
+					</div>
+					 
+					<div id="3173508" class="row reply1">
+						<div class="clearer"></div> 
+						<div class="avatarholder">
+							<a href="/members/sebu" title="SeBu" class="avatar"><img src="https://media.moddb.com/images/members/1/131/130357/avatar.jpg" alt="SeBu" width="50" height="50" /></a>
+													</div>
+						<div class="content">
+							<span class="heading">
+								<a href="/members/sebu" class="author" data-nameid="sebu">SeBu</a>  - <a href="#3173508" style="color: inherit;"><time datetime="2012-08-21T09:37:30+00:00">Aug 21 2012</time></a> - 185 comments							</span>
+														<div class="comment">
+								<p>He definately (probably) think that Underhell is worth the weight!</p>
+<iframe width="600" height="338" src="https://www.youtube.com/embed/j5UNal_-EJ8" frameborder="0" allowfullscreen></iframe></p>
+							</div>
+							<span class="actions" data-id="3173508">
+								<a href="#commentform" class="entericon"  title="Reply">Reply</a> <a href="#karma" class="karmagoodicon comment3173508karmagood" rel="nofollow" title="Good karma">Good karma</a> <a href="#karma" class="karmabadicon comment3173508karmabad" rel="nofollow" title="Bad karma">Bad karma</a><span class="karma" title="Karma">+7 votes</span>							</span>
+													</div>
+						<div style="clear: both;"></div>
+					</div>
+					 
+					<div id="3173029" class="row">
+						<div class="clearer"></div> 
+						<div class="avatarholder">
+							<a href="/members/gregthegen" title="Gregthegen" class="avatar"><img src="https://media.moddb.com/images/members/1/285/284004/mix_11_-_Copy.png" alt="Gregthegen" width="50" height="50" /></a>
+													</div>
+						<div class="content">
+							<span class="heading">
+								<a href="/members/gregthegen" class="author" data-nameid="gregthegen">Gregthegen</a>  - <a href="#3173029" style="color: inherit;"><time datetime="2012-08-21T03:00:14+00:00">Aug 21 2012</time></a> - 785 comments							</span>
+														<div class="comment">
+								<p>Based upon my playthrough of the prologue and the description you are giving of the new AI, Underhell will go from being one of the most fun mods ever, to an absolute do-not-miss for any shooter/horror/stealth/puzzle fans . Simply put, thank you!:D
+</p>
+							</div>
+							<span class="actions" data-id="3173029">
+								<a href="#commentform" class="entericon"  title="Reply">Reply</a> <a href="#karma" class="karmagoodicon comment3173029karmagood" rel="nofollow" title="Good karma">Good karma</a> <a href="#karma" class="karmabadicon comment3173029karmabad" rel="nofollow" title="Bad karma">Bad karma</a><span class="karma" title="Karma">+10 votes</span>							</span>
+													</div>
+						<div style="clear: both;"></div>
+					</div>
+					 
+					<div id="3173367" class="row">
+						<div class="clearer"></div> 
+						<div class="avatarholder">
+							<a href="/members/raygoza" title="Raygoza" class="avatar"><img src="https://media.moddb.com/images/members/1/382/381237/716458y2aEVaJ1.gif" alt="Raygoza" width="50" height="50" /></a>
+													</div>
+						<div class="content">
+							<span class="heading">
+								<a href="/members/raygoza" class="author" data-nameid="raygoza">Raygoza</a>  - <a href="#3173367" style="color: inherit;"><time datetime="2012-08-21T07:38:51+00:00">Aug 21 2012</time></a> - 1,616 comments							</span>
+														<div class="comment">
+								<p>This seems to be a lot more interesting than before.
+</p>
+							</div>
+							<span class="actions" data-id="3173367">
+								<a href="#commentform" class="entericon"  title="Reply">Reply</a> <a href="#karma" class="karmagoodicon comment3173367karmagood" rel="nofollow" title="Good karma">Good karma</a> <a href="#karma" class="karmabadicon comment3173367karmabad" rel="nofollow" title="Bad karma">Bad karma</a><span class="karma" title="Karma">+6 votes</span>							</span>
+													</div>
+						<div style="clear: both;"></div>
+					</div>
+					 
+					<div id="3174668" class="row">
+						<div class="clearer"></div> 
+						<div class="avatarholder">
+							<a href="/members/arkanium" title="Arkanium" class="avatar"><img src="https://media.moddb.com/images/members/1/511/510999/black-knight.1.jpg" alt="Arkanium" width="50" height="50" /></a>
+													</div>
+						<div class="content">
+							<span class="heading">
+								<a href="/members/arkanium" class="author" data-nameid="arkanium">Arkanium</a>  - <a href="#3174668" style="color: inherit;"><time datetime="2012-08-21T20:47:35+00:00">Aug 21 2012</time></a> - 311 comments							</span>
+														<div class="comment">
+								<p>"That said, unlike some other games, the reinforcements are NEVER unlimited."</p>
+<p>Thank you for this. Unlimited enemy reinforcement always really annoyed me.</p>
+<p>I'm interested to see the randomised patrols; without seeing it in action it seems as if it could possibly end up being a bit weird or unrealistic (e.g. a soldier walking the same path and back twice, when he has another area to guard as well). </p>
+<p>Conversations, on the other hand, sound awesome already.</p>
+<p>Temporary squads seem pretty useful, but what happens if you have 3 of the 4 NPCs in a normal squad gain LoS on an ally from a different squad? Those three will become part of the Temp Squad but the fourth NPC  is now no longer receiving any target info until its squadmates stop being part of the Temp Squad.</p>
+<p>Or have you made a way of allowing the Temp Squad info sharing to coexist simultaneously with normal info sharing via squads?
+</p>
+							</div>
+							<span class="actions" data-id="3174668">
+								<a href="#commentform" class="entericon"  title="Reply">Reply</a> <a href="#karma" class="karmagoodicon comment3174668karmagood" rel="nofollow" title="Good karma">Good karma</a> <a href="#karma" class="karmabadicon comment3174668karmabad" rel="nofollow" title="Bad karma">Bad karma</a><span class="karma" title="Karma">+2 votes</span>							</span>
+													</div>
+						<div style="clear: both;"></div>
+					</div>
+					 
+					<div id="3174781" class="row rowdeveloper reply1">
+						<div class="clearer"></div> 
+						<div class="avatarholder">
+							<a href="/members/mxthe" title="Mxthe" class="avatar"><img src="https://media.moddb.com/images/members/1/55/54719/Avatar.jpg" alt="Mxthe" width="50" height="50" /></a>
+							<span class="developer">Author</span>						</div>
+						<div class="content">
+							<span class="heading">
+								<a href="/members/mxthe" class="author" data-nameid="mxthe">Mxthe</a>  - <a href="#3174781" style="color: inherit;"><time datetime="2012-08-21T21:49:39+00:00">Aug 22 2012</time></a> - 736 comments							</span>
+														<div class="comment">
+								<p>The tempsquad co-exists with the already existing squads.<br />
+It's just a new type of squad, which is temporary, and based on LOS.
+</p>
+							</div>
+							<span class="actions" data-id="3174781">
+								<a href="#commentform" class="entericon"  title="Reply">Reply</a> <a href="#karma" class="karmagoodicon comment3174781karmagood" rel="nofollow" title="Good karma">Good karma</a><span class="karma" title="Karma">+3 votes</span>							</span>
+													</div>
+						<div style="clear: both;"></div>
+					</div>
+					 
+					<div id="3175683" class="row">
+						<div class="clearer"></div> 
+						<div class="avatarholder">
+							<a href="/members/igotznoskittles78" title="IGotzNoSkittles78" class="avatar"><img src="https://media.moddb.com/images/members/1/339/338382/Bunny.jpg" alt="IGotzNoSkittles78" width="50" height="50" /></a>
+													</div>
+						<div class="content">
+							<span class="heading">
+								<a href="/members/igotznoskittles78" class="author" data-nameid="igotznoskittles78">IGotzNoSkittles78</a>  - <a href="#3175683" style="color: inherit;"><time datetime="2012-08-22T10:18:17+00:00">Aug 22 2012</time></a> - 101 comments							</span>
+														<div class="comment">
+								<p>Really love the sentences script, It's a shame not many people utilize it for their own mods. It's only a couple hours of work to get done if you know what to do.
+</p>
+							</div>
+							<span class="actions" data-id="3175683">
+								<a href="#commentform" class="entericon"  title="Reply">Reply</a> <a href="#karma" class="karmagoodicon comment3175683karmagood" rel="nofollow" title="Good karma">Good karma</a> <a href="#karma" class="karmabadicon comment3175683karmabad" rel="nofollow" title="Bad karma">Bad karma</a><span class="karma" title="Karma">+1 vote</span>							</span>
+													</div>
+						<div style="clear: both;"></div>
+					</div>
+					 
+					<div id="3214052" class="row">
+						<div class="clearer"></div> 
+						<div class="avatarholder">
+							<a href="/members/defcon6" title="Defcon6" class="avatar"><img src="https://media.moddb.com/images/members/1/229/228039/10352828_10152157437531314_81494.jpg" alt="Defcon6" width="50" height="50" /></a>
+													</div>
+						<div class="content">
+							<span class="heading">
+								<a href="/members/defcon6" class="author" data-nameid="defcon6">Defcon6</a>  - <a href="#3214052" style="color: inherit;"><time datetime="2012-09-08T17:44:56+00:00">Sep 8 2012</time></a> - 255 comments							</span>
+														<div class="comment">
+								<p>You didn't understand what the Combine said!? Now I'm proud, because I totally did ^^ But they had a couple of weird codes like "ripcord", "biotics", "necrotics" and others that one kinda had to guess/learn? Didn't take long though :P
+</p>
+							</div>
+							<span class="actions" data-id="3214052">
+								<a href="#commentform" class="entericon"  title="Reply">Reply</a> <a href="#karma" class="karmagoodicon comment3214052karmagood" rel="nofollow" title="Good karma">Good karma</a> <a href="#karma" class="karmabadicon comment3214052karmabad" rel="nofollow" title="Bad karma">Bad karma</a><span class="karma" title="Karma">+1 vote</span>							</span>
+													</div>
+						<div style="clear: both;"></div>
+					</div>
+					 
+					<div id="3615377" class="row">
+						<div class="clearer"></div> 
+						<div class="avatarholder">
+							<a href="/members/boredgunner" title="boredgunner" class="avatar"><img src="https://media.moddb.com/images/members/1/252/251056/evga.1.jpg" alt="boredgunner" width="50" height="50" /></a>
+													</div>
+						<div class="content">
+							<span class="heading">
+								<a href="/members/boredgunner" class="author" data-nameid="boredgunner">boredgunner</a>  - <a href="#3615377" style="color: inherit;"><time datetime="2013-03-03T17:56:51+00:00">Mar 3 2013</time></a> - 2,071 comments							</span>
+														<div class="comment">
+								<p>I will be making an unofficial expanshun for this mod called Overhell
+</p>
+							</div>
+							<span class="actions" data-id="3615377">
+								<a href="#commentform" class="entericon"  title="Reply">Reply</a> <a href="#karma" class="karmagoodicon comment3615377karmagood" rel="nofollow" title="Good karma">Good karma</a> <a href="#karma" class="karmabadicon comment3615377karmabad" rel="nofollow" title="Bad karma">Bad karma</a><span class="karma" title="Karma">+1 vote</span>							</span>
+													</div>
+						<div style="clear: both;"></div>
+					</div>
+					 
+					<div id="6816297" class="row">
+						<div class="clearer"></div> 
+						<div class="avatarholder">
+							<a href="/members/andrius-valerius" title="Andrius_Valerius" class="avatar"><img src="https://static.moddb.com/html/cutoff/images/default/error_50x50.png" alt="Andrius_Valerius" width="50" height="50" /></a>
+													</div>
+						<div class="content">
+							<span class="heading">
+								<a href="/members/andrius-valerius" class="author" data-nameid="andrius-valerius">Andrius_Valerius</a>  - <a href="#6816297" style="color: inherit;"><time datetime="2018-01-02T19:18:06+00:00">Jan 2 2018</time></a> - 14 comments							</span>
+														<div class="comment">
+								<p>Is it possible to make like your enemy's think that they can't beat you so they run to there friends
+</p>
+							</div>
+							<span class="actions" data-id="6816297">
+								<a href="#commentform" class="entericon"  title="Reply">Reply</a> <a href="#karma" class="karmagoodicon comment6816297karmagood" rel="nofollow" title="Good karma">Good karma</a> <a href="#karma" class="karmabadicon comment6816297karmabad" rel="nofollow" title="Bad karma">Bad karma</a><span class="karma" title="Karma">+1 vote</span>							</span>
+													</div>
+						<div style="clear: both;"></div>
+					</div>
+									</div>
+							</div>
+	
+					</div>
+	</div>
+	<div class="normalbox formbox" id="commentform">
+		<div class="normalcorner">
+			<div class="title">
+								<span class="heading">Post a comment</span>
+			</div>
+		</div>
+		<div class="inner">
+			<div id="commentform" class="body bodysimple clear">
+								<div class="tooltip"></div>
+							
+																
+				<div class="table tableform">
+					<form action="https://www.moddb.com/mods/underhell/tutorials/enemy-ai-improvements-sneaky-gameplay/#commentform" method="post" name="commentform"><input type="hidden" name="formhash" value="1b38782fb2aafb8d4fb87c28b41f87b4" /><input type="hidden" name="replyid" value="0" id="commentreplyid" /><input type="hidden" name="page" value="1" id="commentpage" />					<div class="row rowcommentguest clear">
+												<p class="helper"></p><p><a href="/members/loginext/steam" class="steamicon" style="float: right; margin-left: 6px;" title="Click to connect via Steam"></a><a href="/members/loginext/google" class="googleicon" style="float: right; margin-left: 6px;" title="Click to connect via Google"></a><a href="/members/loginext/twitter" class="twittericon" style="float: right; margin-left: 6px;" title="Click to connect via Twitter"></a><a href="/members/loginext/facebook" class="facebookicon" style="float: right; margin-left: 6px;" title="Click to connect via Facebook"></a>Your comment will be anonymous unless you <a href="/members/register">join the community</a>. Or sign in with your social account:</p>					</div>
+										<div class="row rowcommentsummary clear">
+												<p class="helper"></p><textarea name="summary" cols="80" rows="10" id="commentsummary" required="required" ></textarea>					</div>
+										<div class="row rowcommentemail clear" style="display: none;">
+												<label for="commentemail">&#69;&#109;&#97;&#105;&#108;</label>
+												<p class="helper"></p><span class="cdefcbbecbbdbeformouter"><span><span><span><span><span class="cdefcbbecbbdbeforminner"><input type="text" name="IyMyMmI2MjkwOGVlYzdiMjQ2OGUwMmQwMWJmNjM2MGFmNzQ0NzAwMzg3MDRlbWFpbA:E::E:" maxlength="500" value="" id="commentemail" class="text" autocomplete="off"  /></span></span></span></span></span></span><span class="cdefcbbecbbdbeformouter"><span><span><span><span><span><span class="cdefcbbecbbdbeforminner"><input type="text" name="IyMyMmI2MjkwOGVlYzdiMjQ2OGUwMmQwMWJmNjM2MGFmNzM3MjcwNzM0MTVib3RjYXRjaGVy" maxlength="500" class="text" autocomplete="off"  /></span></span></span></span></span></span></span><style> span.cdefcbbecbbdbeformouter span span span span span span { display: none; } span.cdefcbbecbbdbeformouter span { display: inline; }</style>
+					</div>
+															<div class="row buttons">
+																								<input type="submit" name="comment" value="Save comment" id="commentsubmit"  />					</div>
+					</form>				</div>
+			</div>
+		</div>
+	</div>
+</div><div class="column span-300 last tabtutorials">	<div class="normalbox menubox" id="modsinfo">
+				<div class="normalcorner">
+			<div class="title">
+								<span class="options">
+					<a href="#watch" class="watchicon mods8841watch" rel="nofollow" title="Follow">Follow</a> <a href="/messages/ajax/action/?action=report&amp;sitearea=mods&amp;siteareaid=8841" class="reporticon 44825bfc951a8ff5714f8bb710efda3freport" rel="nofollow" title="Report">Report</a>				</span>
+								<span class="heading">Profile</span>
+			</div>
+		</div>
+				<div class="inner">
+			<div class="body bodysimple">
+								<div class="tooltip"></div>
+																<div class="table tablemenu">
+										<div class="row clear">
+						<a href="/mods/underhell/downloads" class="downloadautotoggle button buttonlarge buttonfull"><span class="buttoncount">264.7K</span><span class="buttontext">Download</span></a><div class="downloadon" style="display: none;"><a href="/mods/underhell/downloads/underhell-chapter-1" class="button buttonfull"><span style="float: right;">FULL</span><span>Underhell Chapter 1</span><hr><span style="font-weight: normal; float: right;">171.6K</span><span style="font-weight: normal;">1.55gb</span></a><a href="/mods/underhell/downloads/underhell-chapter-1-russian-language-pack" class="button buttonfull"><span style="float: right;">PATCH</span><span>Underhell Chapter 1 - Russian Language Pack</span><hr><span style="font-weight: normal; float: right;">24.3K</span><span style="font-weight: normal;">15.75mb</span></a><a href="/mods/underhell/downloads/underhell-chapter-1-tchinese-language-pack" class="button buttonfull"><span style="float: right;">PATCH</span><span>Underhell Chapter 1 - TChinese Language Pack</span><hr><span style="font-weight: normal; float: right;">1.9K</span><span style="font-weight: normal;">26.55mb</span></a><a href="/mods/underhell/downloads/underhell-chapter-1-german-language-pack" class="button buttonfull"><span style="float: right;">PATCH</span><span>Underhell Chapter 1 - German Language Pack</span><hr><span style="font-weight: normal; float: right;">1.8K</span><span style="font-weight: normal;">16.58mb</span></a><a href="/mods/underhell/downloads/underhell-chapter-1-spanish-language-pack" class="button buttonfull"><span style="float: right;">PATCH</span><span>Underhell Chapter 1 - Spanish Language Pack</span><hr><span style="font-weight: normal; float: right;">2.7K</span><span style="font-weight: normal;">25.11mb</span></a></div>					</div>
+										<div class="row clear">
+						<a href="#watch" class="watchicon c76625d26ff7f0c55142db2c328da119watch button buttonlarge buttonfull" rel="nofollow"><span class="buttoncount watchcount">4.2K</span><span class="buttontext">Follow</span></a>					</div>
+										<div class="row clear">
+												<h5>Icon</h5>
+						<span class="summary">
+							<a href="/games/half-life-2"><img src="https://media.moddb.com/images/games/1/1/61/hl2.png" alt="Half-Life 2" width="32" height="32" /></a>						</span>
+											</div>
+										<div class="row clear">
+												<h5>Game</h5>
+						<span class="summary">
+							<a href="/games/half-life-2">Half-Life 2</a>						</span>
+											</div>
+										<div class="row clear">
+												<h5>Creator</h5>
+						<span class="summary">
+							<a href="/members/mxthe">Mxthe</a>						</span>
+											</div>
+										<div class="row clear">
+												<h5>Contact</h5>
+						<span class="summary">
+							<a href="/messages/compose?to=Mxthe">Send Message</a>						</span>
+											</div>
+										<div class="row clear">
+												<h5>Homepage</h5>
+						<span class="summary">
+							<a href="http://underhell.wecreatestuff.com/" rel="noopener noreferrer" target="_blank">Underhell.wecreatestuff.com</a>						</span>
+											</div>
+										<div class="row clear">
+												<h5>Release date</h5>
+						<span class="summary">
+							<time datetime="2011-03-05">Released 2011</time>						</span>
+											</div>
+									</div>
+							</div>
+		</div>
+	</div>
+	<div class="normalbox menubox" id="rtxremix">
+				<div class="normalcorner">
+			<div class="title">
+								<span class="heading">RTX Remix</span>
+			</div>
+		</div>
+				<div class="inner">
+			<div class="body bodysimple">
+								<div class="tooltip"></div>
+																<div class="table tablemenu">
+										<div class="row clear">
+						RTX Remix is a <a href="https://www.nvidia.com/en-us/geforce/rtx-remix/" target="_blank">modding platform by NVIDIA</a>, which allows modders to create stunning HD remasters of classic games <a href="/rtx">(see all supported)</a>, with ray tracing and DLSS.<br><br>					</div>
+										<div class="row clear">
+						This mod is NOT using RTX Remix. Learn more about <a href="/news/rtx-remix-on-moddb">ModDB's collaboration with the Remix community</a> to organize all compatible games, and <a href="/games/half-life-2#rtxremix">Half-Life 2's</a> support for RTX. <a href="/platforms/rtx/set" class="togglertxinfo">Hide this dialog</a>.					</div>
+									</div>
+							</div>
+		</div>
+	</div>
+	<div class="normalbox menubox" id="articlesprofilemenu">
+				<div class="normalcorner">
+			<div class="title">
+								<span class="heading">Tutorial</span>
+			</div>
+		</div>
+				<div class="inner">
+			<div class="body bodysimple">
+								<div class="tooltip"></div>
+																<div class="table tablemenu">
+										<div class="row clear">
+												<h5>Tags</h5>
+						<span class="summary">
+							<a href="/tags/level-design">Level Design</a>, <a href="/tags/mapping">Mapping</a>, <a href="/tags/tutorial">Tutorial</a>						</span>
+											</div>
+										<div class="row clear">
+												<h5>Browse</h5>
+						<span class="summary">
+							<a href="/mods/underhell/tutorials">Tutorials</a>						</span>
+											</div>
+										<div class="row clear">
+												<h5>New</h5>
+						<span class="summary">
+							<a href="/members/register" class="addicon">Members only</a>						</span>
+											</div>
+										<div class="row clear">
+												<h5>Report</h5>
+						<span class="summary">
+							<a href="/messages/ajax/action/?action=report&amp;sitearea=articles&amp;siteareaid=108313" class="reporticon 44825bfc951a8ff5714f8bb710efda3freport" rel="nofollow">Report</a>						</span>
+											</div>
+										<div class="row clear">
+												<h5>Views</h5>
+						<span class="summary">
+							<a href="/statistics/data/visit/articles/108313" rel="iframe=true;innerHeight=525;innerWidth=830" class="thickbox" title="Enemy AI Improvements &#038; Sneaky Gameplay Statistics">8,550 (2 today)</a>						</span>
+											</div>
+										<div class="row clear">
+						 
+<h5>Share</h5>
+<span class="summary summarypromo">
+	<a href="https://www.reddit.com/r/1/submit?url=https%3A%2F%2Fwww.moddb.com%2Fmods%2Funderhell%2Ftutorials%2Fenemy-ai-improvements-sneaky-gameplay&title=Enemy+AI+Improvements+%26+Sneaky+Gameplay+tutorial+-+Underhell+mod+for+Half-Life+2" class="redditpromo csstooltip" title="Share on Reddit" target="_blank" rel="nofollow noopener noreferrer"></a><a href="mailto:?subject=Enemy%20AI%20Improvements%20%26%20Sneaky%20Gameplay%20tutorial%20-%20Underhell%20mod%20for%20Half-Life%202&body=Visit%3A%20https%3A%2F%2Fwww.moddb.com%2Fmods%2Funderhell%2Ftutorials%2Fenemy-ai-improvements-sneaky-gameplay" class="emailpromo csstooltip" title="Email a friend" rel="nofollow"></a><a href="https://twitter.com/intent/tweet?status=Enemy+AI+Improvements+%26+Sneaky+Gameplay+tutorial+-+Underhell+mod+for+Half-Life+2+https%3A%2F%2Fwww.moddb.com%2Fmods%2Funderhell%2Ftutorials%2Fenemy-ai-improvements-sneaky-gameplay+via+%40moddb&url=https%3A%2F%2Fwww.moddb.com%2Fmods%2Funderhell%2Ftutorials%2Fenemy-ai-improvements-sneaky-gameplay&via=moddb" class="twitterpromo csstooltip" title="Tweeeeeet!" target="_blank" rel="nofollow noopener noreferrer"></a><a href="https://www.facebook.com/dialog/share?app_id=210134345672070&display=page&href=https%3A%2F%2Fwww.moddb.com%2Fmods%2Funderhell%2Ftutorials%2Fenemy-ai-improvements-sneaky-gameplay&quote=Enemy+AI+Improvements+%26+Sneaky+Gameplay+tutorial+-+Underhell+mod+for+Half-Life+2&redirect_uri=https%3A%2F%2Fwww.moddb.com%2Fmods%2Funderhell%2Ftutorials%2Fenemy-ai-improvements-sneaky-gameplay" class="facebookpromo csstooltip" title="Share on Facebook" target="_blank" rel="nofollow noopener noreferrer"></a> 
+</span>
+ 					</div>
+									</div>
+							</div>
+		</div>
+	</div>
+ <div class="normalbox linksbox" id="menulinksmods">
+	<div class="normalcorner">
+		<div class="title">
+			 
+			<span class="heading">Related Mods</span>
+		</div>
+	</div>
+	<div class="inner">
+		<div class="body bodysimple">
+			<div class="tooltip"></div>
+			<div class="table tablerelated">
+								<div class="row clear">
+										<a href="/mods/underhell" title="Underhell" class="image"><img src="https://media.moddb.com/cache/images/mods/1/9/8841/crop_120x90/Chapter1Wallpaper768.jpg" alt="Underhell" /></a>
+										<div class="content">
+						<a href="/mods/underhell" class="heading">Underhell</a>
+						<span class="summary">
+							<a href="/games/half-life-2">Half-Life 2</a> 						</span>
+					</div>
+				</div>
+				 
+			</div>
+		</div>
+	</div>
+</div>
+<div class="normalbox linksbox" id="menulinksgames">
+	<div class="normalcorner">
+		<div class="title">
+			 
+			<span class="heading">Related Games</span>
+		</div>
+	</div>
+	<div class="inner">
+		<div class="body bodysimple">
+			<div class="tooltip"></div>
+			<div class="table tablerelated">
+								<div class="row clear">
+										<a href="/games/half-life-2" title="Half-Life 2" class="image"><img src="https://media.moddb.com/cache/images/games/1/1/61/crop_120x90/hl2_thumb.jpg" alt="Half-Life 2" /></a>
+										<div class="content">
+						<a href="/games/half-life-2" class="heading">Half-Life 2</a>
+						<span class="summary">
+							First Person Shooter 						</span>
+					</div>
+				</div>
+				 
+			</div>
+		</div>
+	</div>
+</div>
+</div> 	<div style="clear: both; height: 1em;"></div><!-- IE6 Hack -->
+</div>
+
+<footer><div id="footer">
+	<div class="content">
+		<a href="https://www.dbolical.com" class="network dbolical" target="_blank" title="DBolical - Entertainment Euphoria"></a>
+		<span class="terms"><a href="/privacy-policy#cookies" class="csconsentlink">Cookies</a> | <a href="/terms-of-use">Terms of Use</a> | <a href="/privacy-policy" style="padding-right: 0">Privacy Policy</a></span>
+		<span class="links"><a href="/blog">Blog</a> | <a href="/about">About</a> | <a href="/advertise">Advertise</a> | <a href="/contact">Contact</a> | <a href="/mods/add">Submit Mod</a> | <a href="https://mod.io" target="_blank" title="Cross Platform Mod support for game developers">Cross-Platform Mod Support</a> | <a href="/sitemap">Site Map</a></span>
+		<span class="copyright">&copy; 2002 - 2026 <a href="https://www.dbolical.com" target="_blank">DBolical Pty Ltd.</a>&nbsp; All Rights Reserved.&nbsp; <a href="/members/online">6479 modders</a>.</span>
+	</div>
+</div><script src="https://static.moddb.com/html/external/min/index.php?g=jquery&amp;1"></script><script type="application/ld+json">{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"Item":{"@id":"https://www.moddb.com/games","name":"Games"}},{"@type":"ListItem","position":2,"Item":{"@id":"https://www.moddb.com/games/half-life-2","name":"Half-Life 2"}},{"@type":"ListItem","position":3,"Item":{"@id":"https://www.moddb.com/games/half-life-2/mods","name":"Mods"}},{"@type":"ListItem","position":4,"Item":{"@id":"https://www.moddb.com/mods/underhell","name":"Underhell"}},{"@type":"ListItem","position":5,"Item":{"@id":"https://www.moddb.com/mods/underhell/tutorials","name":"Tutorials"}},{"@type":"ListItem","position":6,"Item":{"@id":"https://www.moddb.com/mods/underhell/tutorials/enemy-ai-improvements-sneaky-gameplay","name":"Enemy AI Improvements & Sneaky Gameplay","image":"https://media.moddb.com/images/articles/1/109/108313/SneakMap.jpg"}}]}</script>
+<script src="https://static.moddb.com/html/external/min/index.php?g=js&amp;19"></script>
+<script src="https://static.moddb.com/html/external/min/index.php?b=cutoff&amp;f=js/misc.highlight.js"></script><script src="https://static.moddb.com/html/external/min/index.php?b=cutoff&amp;f=js/jquery.form.js&amp;1"></script><style type="text/css">#rtxremix { display: none; }</style>
+
+<script>
+$(document).ready(function() { $("#togglelogin").click(function() { 
+					if($("#searchbox .search").is(":visible")) {
+						$("#searchbox .arrow").html("&nbsp;&#187;");
+						$("#searchbox .search").fadeOut(function() { $("#searchbox .login").show(); });
+					} else {
+						$("#searchbox .arrow").html("&nbsp;");
+						$("#searchbox .login").fadeOut(function() { $("#searchbox .search").show(); });
+					}
+					return false;
+				});
+$("#sitesearch").suggestClick("https://www.moddb.com/html/scripts/autocomplete.php?a=search&p=mods",{resultsClass: "suggest_search", positionIn: "#searchbox", limit: 10});
+hljs.initHighlightingOnLoad();
+hljs.initHighlightingOnLoad();
+hljs.initHighlightingOnLoad();
+hljs.initHighlightingOnLoad();
+hljs.initHighlightingOnLoad();
+hljs.initHighlightingOnLoad();
+hljs.initHighlightingOnLoad();
+hljs.initHighlightingOnLoad();
+$(".44825bfc951a8ff5714f8bb710efda3freport").saveUpdate("report", false);
+
+			viewComment = function(currentoption, response) {
+				if(response["action"] == "delete") {
+					$("#"+currentoption.closest(".actions").data("id")+" div.comment").show().html(response["success"] ? "<p>Your comment action was successful. When a comment is deleted all replies to the comment will be removed as well. Because you are an admin, you can click the \"view deleted\" link above to view deleted comments in-case you wish to undelete them in the future. If this was a mistake, click the link again to reverse the change.</p>" : "<p>"+response["text"]+"</p>");
+					currentoption.html(response["labels"]["delete"]);
+				} else if(response["action"] == "archive") {
+					currentoption.closest(".row").slideUp(400, function(){$(this).remove();});
+				} else if(response["action"].includes("karma")) {
+					if(response["success"]) {
+						karma = parseInt(currentoption.parent().find(".karma").html().split(" ", 1));
+						karma = karma ? (karma + response["karma"]) : response["karma"];
+						currentoption.parent().find(".karma").html((karma==1 ? "+1 vote" : (karma>1 ? "+"+karma+" votes" : karma+" votes")));
+					} else if(response["error"]) {
+						currentoption.parent().find(".karma").html(response["text"]);
+					}
+				}
+			};
+				
+			$(".rowdeleted .comment,.rowbury .comment").hide().each(function() {
+				extra = $(this).find(".hidereason").html();
+				$(this).find(".hidereason").remove();
+				$(this).before("<p><a href=# class=togglecomment>View comment</a> <em>"+extra+"</em></p>");
+			});
+				
+			$(".togglecomment").click(function() {
+				$(this).parent().next().slideDown();
+				$(this).parent().remove();
+				return false;
+			});
+$(".comment3173024karmagood").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3173024karmabad").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3173508karmagood").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3173508karmabad").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3173029karmagood").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3173029karmabad").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3173367karmagood").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3173367karmabad").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3174668karmagood").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3174668karmabad").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3174781karmagood").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3175683karmagood").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3175683karmabad").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3214052karmagood").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3214052karmabad").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3615377karmagood").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3615377karmabad").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment6816297karmagood").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment6816297karmabad").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$("#commentsummary").formAutoResize({extraSpace: 0});
+$("#commentemail").after('<input type="hidden" name="IyMyMmI2MjkwOGVlYzdiMjQ2OGUwMmQwMWJmNjM2MGFmNzQ3NzA3ODc5MzJqc2ZpZWxk" value="1" />');
+
+			$(".tablecomments .entericon").click( function() {
+				var post = $(this).closest(".actions").data("id");
+				var link = $(this);
+		
+				if(!$("#commentsummary").length) {
+					return true;
+				} else if($("#"+post+" div.replypostholder").length) {
+					// do nothing
+				} else {
+					$("#"+post+" div.comment").append("<div class=\"replypostholder\"><br /><textarea rows=\"5\" cols=\"50\" class=\"editpost\" id=\"reply"+post+"\" placeholder=\"Reply to @"+$("#"+post+" .author").data("nameid")+"\"></textarea><div><input type=\"button\" value=\"Cancel\" id=\"cancelreply"+post+"\" /> <input type=\"button\" value=\"Save\" id=\"savereply"+post+"\" style=\"font-weight: bold;\" /></div></div>");
+					var textarea = $("#reply"+post);
+					var mentions = $("#commentform .mentions-input").length > 0;
+
+					if(mentions) {
+						textarea.mentionsInput({source: "https://www.moddb.com/html/scripts/autocomplete.php?a=mentions&p=home&l=6&u=666"});
+					}
+	
+					$("#cancelreply"+post).click(function() {
+						$("#"+post+" div.replypostholder").remove();
+					});
+		
+					$("#savereply"+post).click(function() {
+						postcontent = mentions ? textarea.mentionsInput("getValue") : textarea.val();
+		
+						if(postcontent) {
+							$(this).remove();
+							$("#cancelreply"+post).remove();
+							textarea.after("<span class=\"ajaxicon\">Saving your reply</span>");
+							if(mentions) {
+								$("#commentsummary").mentionsInput("setValue", postcontent);
+							} else {
+								$("#commentsummary").val(postcontent);
+							}
+							$("#commentform input[name=replyid]").val(post);
+							$("#commentsubmit").click();
+						} else {
+							$(this).text("Please enter a comment");
+						}
+					});
+				}
+	
+				return false;
+			});
+$(".mods8841watch").click(function(){
+					$.achtung({message: "Only members can follow mods. <a href=\"/members/register\">Sign up</a> today and follow your favorites.", className: "achtungFail", timeout:5});
+					return false;
+				});
+
+					$(".downloadautotoggle").click(function(){
+						$(".downloadon").slideToggle();
+						return false;
+					});
+$(".c76625d26ff7f0c55142db2c328da119watch").click(function(){
+						$.achtung({message: "Only members can follow mods. <a href=\"/members/register\">Sign up</a> today and follow your favorites.", className: "achtungFail", timeout:5});
+						if($(this).hasClass("button")) {
+							$(this).addClass("buttonon");
+						}
+						return false;
+					});
+$(".togglertxinfo").click(function(e){
+				if($(this).attr("href") == "#rtxremix") {
+					localStorage.setItem("rtxtoggled", true);
+					$("#rtxremix").show();
+					return true;
+				} else {
+					localStorage.removeItem("rtxtoggled");
+					$("#rtxremix").hide();
+					return false;
+				}
+			});
+			
+			
+
+		function cookieScript(e) {
+			var status = CookieScript.instance.currentState().categories.includes("targeting") ? "false" : "true";
+			var cookies = CookieScript.instance.currentState().categories.includes("performance") ? "true" : "false";
+			var cookie_data = { npa : {status:status,cookies:cookies,version:"1.0.13",chosen:"true"}, expires : 365 };
+			Cookies.set("dfp-npa", cookie_data.npa, { expires: cookie_data.expires, secure: true });
+
+	if (typeof gtag === "function") { gtag("consent", "update", {"ad_storage": cookie_data.npa.status == "false" ? "granted" : "denied", "ad_user_data": cookie_data.npa.status == "false" ? "granted" : "denied", "ad_personalization": cookie_data.npa.status == "false" ? "granted" : "denied", "analytics_storage": cookie_data.npa.cookies == "true" ? "granted" : "denied"}); }
+
+	if(cookie_data.npa.status == "false") {
+		// personalize
+		if (typeof permutive === "object") { permutive.consent({ "opt_in": true, "token": "Allow All" }); }
+	} else {
+		// don't personalize
+		if (typeof permutive === "object") { permutive.consent({ "opt_in": false }); }
+		Cookies.remove("permutive-id", { domain: "moddb.com", secure: true });
+	}
+		}
+
+		if(!Cookies.get("dfp-npa")) {
+			Cookies.set("dfp-npa", {status:"false",cookies:"true",version:"1.0.13",chosen:"false"}, { expires: 60, secure: true });
+		}
+
+		window.addEventListener("CookieScriptAcceptAll", cookieScript);
+		window.addEventListener("CookieScriptAccept", cookieScript);
+		window.addEventListener("CookieScriptReject", cookieScript);
+		window.addEventListener("CookieScriptClose", cookieScript);
+$("a.thickbox").click(function() { $.colorbox({href:$(this).attr("href"), rel:$(this).attr("rel"), open:true, onOpen:function(){ $(".nextmediabox").hide(); }, onClosed:function(){ $(".nextmediabox").show(); }}); return false; });
+ });
+</script></footer>
+</div>
+
+ <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496" integrity="sha512-ZE9pZaUXND66v380QUtch/5sE9tPFh2zg45pR2PB0CVkCtOREv2AJKkSidISWkysEuQ0EH8faUU5du78bx87UQ==" data-cf-beacon='{"version":"2024.11.0","token":"8e37b0c8f0164496b83e8a9662df72e8"}' crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Custom Titles System tutorial - Underhell mod for Half-Life 2 - ModDB</title>
+	<meta charset="utf-8">
+	 
+	<meta name="keywords" content="underhell mod for half life 2, custom titles system, articles, information, data, gossip, feature, read, view, discuss" />
+	<meta name="description" content="After hitting a hard limitation on the TITLES.TXT file, we have created our own system that allows us to not only create as many TITLES as we want, but also to save them and read them through multiple files." />
+	<meta name="robots" content="max-image-preview:large" />
+	<meta property="fb:app_id" content="210134345672070"/>
+	<meta property="og:title" content="Custom Titles System tutorial - Underhell mod for Half-Life 2" />
+	<meta property="og:description" content="After hitting a hard limitation on the TITLES.TXT file, we have created our own system that allows us to not only create as many TITLES as we want, but also to save them and read them through multiple files." />
+	<meta property="og:site_name" content="ModDB" />
+	<meta property="og:type" content="article" /> 
+	<meta property="og:url" content="https://www.moddb.com/mods/underhell/tutorials/custom-titles-system" /> 
+	<meta property="og:image" content="https://media.moddb.com/images/articles/1/114/113349/Custom_Titles_System.jpg" /> 
+	 
+	<meta property="twitter:card" content="summary_large_image" />
+	<meta property="twitter:site" content="@moddb" />
+	<meta property="twitter:title" content="Custom Titles System tutorial - Underhell mod for Half-Life 2" />
+	<meta property="twitter:description" content="After hitting a hard limitation on the TITLES.TXT file, we have created our own system that allows us to not only create as many TITLES as we want, but also to save them and read them through multiple files." />
+	<meta property="twitter:url" content="https://www.moddb.com/mods/underhell/tutorials/custom-titles-system" /> 
+	<meta property="twitter:image" content="https://media.moddb.com/images/articles/1/114/113349/Custom_Titles_System.jpg" /> 
+	<link rel="stylesheet" type="text/css" media="all" href="https://static.moddb.com/html/external/min/index.php?g=css&amp;80" />
+	<link rel="icon" href="https://www.moddb.com/favicon.ico" type="image/x-icon" />
+	<link rel="icon" href="https://www.moddb.com/favicon.png" type="image/png" sizes="96x96" />
+	<link rel="icon" href="https://www.moddb.com/favicon-192x192.png" type="image/png" sizes="192x192" />
+	<link rel="apple-touch-icon" href="https://www.moddb.com/apple-touch-icon.png" sizes="180x180" />
+	<link rel="alternate" href="https://rss.moddb.com/mods/underhell/tutorials/feed/rss.xml" type="application/rss+xml" title="Custom Titles System tutorial - Underhell mod for Half-Life 2 feed" />	<meta name="ad:no_cmp" content="true"><script type="text/javascript" charset="UTF-8" src="//geo.cookie-script.com/s/02fe83eeed96d72125f64a74a34c1e06.js?country=gb&region=eu"></script><script type="text/javascript" charset="UTF-8" src="//geo.cookie-script.com/s/752e55d1c55e9bb1ffd11b935da9c032.js?country=us"></script><link rel="stylesheet" href="https://static.moddb.com/html/external/min/index.php?b=cutoff&amp;f=css/highlight.css&amp;1" type="text/css" />
+</head>
+<body>
+
+<div id="body">
+<div class="container">
+	<header><div id="header">
+		<div id="searchbox">
+			 
+			<span class="guest">Hello guest <a href="/members/register">register</a> or <a href="/members/login" id="togglelogin">sign in</a></span><span class="arrow">&nbsp;</span>
+			<form action="https://www.moddb.com/search" class="search" method="get"><input type="text" name="q" maxlength="500" value="" id="sitesearch" class="text" placeholder="Search"  /><input type="image" name="sa" value="Search" src="https://static.moddb.com/cutoff/images/default/btn_search_box.png" class="button" alt="Search ModDB" title="Search ModDB"  /></form>			 
+			<form action="https://www.moddb.com/members/login" method="post" name="memberform" class="login"><input type="hidden" name="referer" value="/mods/underhell/tutorials/custom-titles-system/" /><input type="hidden" name="rememberme" value="1" /><input type="hidden" name="members" value="1" /><span class="bddfedcbeaabformouter"><span><span><span><span><span><span class="bddfedcbeaabforminner"><input type="text" name="IyMyMmI2MjkwOGVlYzdiMjQ2OGUwMmQwMWJmNjM2MGFmNzY4Nzc2NzA5MTB1c2VybmFtZQ:E::E:" maxlength="500" value="" placeholder="Username" class="text" autocomplete="off"  /></span></span></span></span></span></span></span><span class="bddfedcbeaabformouter"><span><span><span><span><span class="bddfedcbeaabforminner"><input type="text" name="IyMyMmI2MjkwOGVlYzdiMjQ2OGUwMmQwMWJmNjM2MGFmNzQ3Mjg0NjE4MzFib3RjYXRjaGVy" maxlength="500" placeholder="Username" class="text" autocomplete="off"  /></span></span></span></span></span></span><style> span.bddfedcbeaabformouter span span span span span.bddfedcbeaabforminner { display: none; } span.bddfedcbeaabformouter span span span span span span.bddfedcbeaabforminner { display: inline; }</style>
+<input type="password" name="password" maxlength="100" placeholder="Password" class="text password" autocomplete="off"  /><input type="submit" name="members" value="GO" class="button" title="Sign In" style="color: #000;text-align: center;"  /></form>			<span class="login" style="display: none;">or with: <a href="/members/loginext/steam" class="steamiconsml" style="float: right; margin: 3px 1px 0 4px;" title="Click to connect via Steam"></a><a href="/members/loginext/google" class="googleiconsml" style="float: right; margin: 3px 1px 0 4px;" title="Click to connect via Google"></a><a href="/members/loginext/twitter" class="twittericonsml" style="float: right; margin: 3px 1px 0 4px;" title="Click to connect via Twitter"></a><a href="/members/loginext/facebook" class="facebookiconsml" style="float: right; margin: 3px 1px 0 4px;" title="Click to connect via Facebook"></a></span>
+			 
+		</div>
+
+		<h1>Custom Titles System tutorial - Underhell mod for Half-Life 2</h1>
+		<a href="/" class="logo" title="ModDB Home"></a>
+
+ 		 
+		<ul class="tabs">
+			<li class="on"><a href="/">HOME</a></li>
+			<li><a href="/today" title="New today">Today</a></li>
+			<li><a href="/week" title="New this week">Week</a></li>
+			<li><a href="/month" title="New this month">Month</a></li>
+			<li><a href="/year" title="New this year">Year</a></li>
+			 
+		</ul>
+	</div>
+	<div id="subheader">
+		<nav><ul class="tabs">
+			<li class="firsttab"><a href="/games">games</a>
+				<ul>
+					<li><a href="/games/top">popular</a></li>
+					<li><a href="/games/latest">latest</a></li>
+					 
+					<li><a href="https://www.indiedb.com">indies</a></li>
+					<li><a href="https://modularity.games">publishing</a></li>
+					 
+					<li><a href="/games/add">add game</a></li>
+									</ul>
+			</li>
+			<li class="on"><a href="/mods">mods</a>
+				<ul>
+					<li><a href="/mods/top">popular</a></li>
+					<li><a href="/mods/latest">latest</a></li>
+					<li><a href="/mods/add">add mod</a></li>
+				</ul>
+			</li>
+			<li><a href="/addons">addons</a>
+				<ul>
+					<li><a href="/addons/top">popular</a></li>
+					<li><a href="/addons/latest">latest</a></li>
+					<li><a href="/addons/add">upload</a></li>
+				</ul>
+			</li>
+			<li><a href="/downloads">files</a>
+				<ul>
+					<li><a href="/downloads/top">popular</a></li>
+					<li><a href="/downloads/latest">latest</a></li>
+					<li><a href="/downloads/add">upload</a></li>
+				</ul>
+			</li>
+			 
+			<li><a href="/rtx">RTX Remix</a>
+				<ul>
+					<li><a href="/rtx">Games Compatibility</a></li>	
+					<li><a href="/rtx/mods">Remix Mods</a></li>
+					<li><a href="/rtx/downloads">Remix Files</a></li>
+					<li><a href="/rtx/downloads?filter=t&category=34">PBR Assets</a></li><!-- RTX_ASSET -->
+					<li><a href="/rtx/articles">News</a></li>
+					<li><a href="/rtx/tutorials">Tutorials</a></li>
+					<li><a href="/rtx/stats">Statistics</a></li>
+				</ul>
+			</li>
+			 
+			<li><a href="/videos">videos</a>
+				<ul>
+					<li><a href="/images">images</a></li>
+					<li><a href="/audio">audio</a></li>
+				</ul>
+			</li>
+			<li><a href="/articles">articles</a>
+				<ul>
+					<li><a href="/reviews">reviews</a></li>
+					<li><a href="/headlines">headlines</a></li>
+					 
+					<li><a href="/blogs">blogs</a></li>
+					 
+					<li><a href="/articles/add">post article</a></li>
+				</ul>
+			</li>
+			<li><a href="/engines">engines</a>
+				<ul>
+					<li><a href="/engines/top">popular</a></li>
+					<li><a href="/engines/latest">latest</a></li>
+					<li><a href="/engines/add">add engine</a></li>
+				</ul>
+			</li>
+			<li><a href="/company">developers</a>
+				<ul>
+					<li><a href="/company/top">popular</a></li>
+					<li><a href="/company/latest">latest</a></li>
+					<li><a href="/company/add">add dev</a></li>
+				</ul>
+			</li>
+			<li><a href="/groups">groups</a>
+				<ul>
+					<li><a href="/groups/top">popular</a></li>
+					<li><a href="/groups/latest">latest</a></li>
+					<li><a href="/groups/add">add group</a></li>
+				</ul>
+			</li>
+			<li><a href="/forum">forums</a></li>
+			<li><a href="/jobs">jobs</a>
+				<ul>
+					<li><a href="/jobs/add">post job</a></li>
+				</ul>
+			</li>
+		</ul></nav>
+	</div></header>
+
+	 
+
+	<div class="column span-all tabtutorials">	<div class="headerbox" style="background-image: url(https://media.moddb.com/images/mods/1/9/8841/bg.jpg);">
+		<div class="headercorner">
+			<div class="title">
+				 
+				<h2><a href="/mods/underhell">Underhell</a></h2>
+				<h3>
+					<a href="/games/half-life-2">Half-Life 2 mod</a> | <time datetime="2011-03-05">Released 2011</time>				</h3>
+				<span class="bg"></span>
+			</div>
+			<nav><ul class="menu">
+				<li class="firsttab"><a href="/mods/underhell">summary</a></li><li class=""><a href="/mods/underhell/articles">articles</a></li><li class="on"><a href="/mods/underhell/tutorials">tutorials</a></li><li class=""><a href="/mods/underhell/reviews">reviews</a></li><li class=""><a href="/mods/underhell/downloads">files</a></li><li class=""><a href="/mods/underhell/videos">videos</a></li><li class=""><a href="/mods/underhell/images">images</a></li>			</ul></nav>
+		</div>
+	</div>
+		<div class="headernormalbox normalbox">
+		<div class="inner">
+			<div class="body clear">
+								<div class="tooltip"></div>
+								<p>Underhell is a Source Engine game developed by the Underhell Team in collaboration with We Create Stuff.
+
+Underhell Chapter 1 requires ONLY Source SDK Base 2007 installed.
+
+No Source game is required.
+
+</p>			</div>
+		</div>
+	</div>
+</div><div class="column span-300-alt first tabtutorials"><article itemscope itemtype="https://schema.org/TechArticle">
+					<meta itemscope itemprop="mainEntityOfPage"  itemtype="https://schema.org/WebPage" itemid="https://www.moddb.com/tutorials/custom-titles-system" />
+					<meta itemprop="dateModified" content="2012-11-07T19:01:57+0000" />
+					<meta itemprop="image" content="https://media.moddb.com/images/articles/1/114/113349/Custom_Titles_System.jpg" />
+					<div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+						<meta itemprop="name" content="ModDB" />
+						<div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+							<meta itemprop="url" content="https://static.moddb.com/cutoff/images/default/splash.png">
+							<meta itemprop="width" content="120">
+							<meta itemprop="height" content="60">
+						</div>
+					</div>	<div class="normalbox" id="readarticle">
+		<div class="normalcorner">
+			<div class="title">
+				<span class="options">
+					<a href="/messages/ajax/action/?action=report&amp;sitearea=articles&amp;siteareaid=113349" class="reporticon 44825bfc951a8ff5714f8bb710efda3freport" rel="nofollow" title="Report">Report</a> <a href="https://rss.moddb.com/mods/underhell/tutorials/feed/rss.xml" target="_blank" class="rssicon"  title="RSS">RSS</a>				</span>
+				<span class="heading" itemprop="headline">Custom Titles System</span>
+			</div>
+		</div>
+		<div class="inner">
+			<div class="body bodyarticle clear">
+								<div class="tooltip"></div>
+								
+												 
+				<p class="introductiontext" itemprop="description">After hitting a hard limitation on the TITLES.TXT file, we have created our own system that allows us to not only create as many TITLES as we want, but also to save them and read them through multiple files.</p>
+								<p class="introduction">
+					Posted by <span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name"><a href="/members/mxthe" class="verifiedicon" title="Mod Manager" itemprop="url">Mxthe</a></span></span> on <time datetime="2012-11-07T19:01:57+00:00" itemprop="datePublished">Nov 7th, 2012</time> - <span itemprop="proficiencyLevel">Basic</span> Mapping/Technical 				</p>
+				<div id="articlecontent" itemprop="articleBody"><p>Underhell has text, a lot of text, Main Objectives, Secondary Objectives, Item Names, Area Names, Comments ect...</p>
+<p>There are so many text entries, that the poor <em>titles.txt</em> file that is used to store <a href="https://developer.valvesoftware.com/wiki/Env_message" target="_blank" title="https://developer.valvesoftware.com/wiki/Env_message">localized text</a>, stopped working!<br />
+It took us days to figure out exactly what was going on, and even after we figured it out, we realized we could not edit or increase that limitation, because the actual inner workings of this file are located inside a .DLL that was <span style="text-decoration: underline;">not</span> included within the SDK Valve released.</p>
+<p>So, we had to come up with a plan, and <span style="color: #000000;"><strong>Charly</strong></span> did just that.</p>
+<h2><span style="color: #000000;">New Titles, New Format !</span></h2>
+<br />
+<p>So, we had all the text already placed in the levels, already referenced in the multiple localized <em>.RES</em> files, so re-creating a new entity would have been more than a pain.<br />
+We discussed that the main problem was "Too Many Entries in ONE single file".<br />
+So even if we managed to re-create our own <em>titles.txt</em> file, we would still have an issue.</p>
+<p><span style="color: #000000;"><strong>The engine would have to, search through the "pool" of text entries, and "fish" the one called by the game.</strong></span></p>
+<p>So as new Chapters would have been released, this pool of text would have kept growing and growing, therefore increasing text loading times at each display.</p>
+<p>So, <span style="color: #000000;"><strong>Charly</strong></span> came up with an idea, to "Slice" the files where the text would be call, into multiple files.</p>
+<p><span style="color: #000000;"><strong>This not only makes calling texts faster, but it also allows people who want to create their own maps/stories to make their personalized text files they can include with the download.</strong></span></p>
+<p>Using only one UNIQUE <em>titles.txt</em> would have been a problem for all the people that wanted to create their own maps and add their own objectives, if everyone includes their own <em>titles.txt</em>, they will overwrite each other.</p>
+<p>Through our new system, anyone can create their own titles file, and include it with the download.</p>
+<p>Here's how it works :</p>
+<h2><span style="color: #000000;">ENV_MESSAGE</span></h2>
+<br />
+<p><span style="color: #000000;">First, go read the Env_Message section of the </span><a href="https://www.moddb.com/mods/underhell/tutorials/new-message-entities-inputs" target="_blank" title="https://www.moddb.com/mods/underhell/tutorials/new-message-entities-inputs"><span class="heading">New Message Entities Inputs Tutorial.</span></a></p>
+<p>The new titles system still uses our modded <a href="https://developer.valvesoftware.com/wiki/Env_message" target="_blank" title="https://developer.valvesoftware.com/wiki/Env_message">Env_Message</a> entity.</p>
+<p>Except it comes with a new twist.</p>
+<p>This was the previous Target Parameter to enter, to display a message:</p>
+<pre><code class="lang-">InputMessage House_Comment_MusicBox</code></pre>
+<br />
+<p>Here, we Input to the <a href="https://developer.valvesoftware.com/wiki/Env_message" target="_blank" title="https://developer.valvesoftware.com/wiki/Env_message">env_message</a> to display the <em>title</em> "House_Comment_MusicBox"</p>
+<p>If we enter this previous format, the engine will still look through the original <em>scripts/titles.txt</em> file.</p>
+<p>Here's where the magic comes in, there is our NEW input with file specification :</p>
+<pre><code class="lang-">InputMessage @YOURFILE.txt_House_Comment_MusicBox</code></pre>
+<br />
+<p>Let's break this down shall we?</p>
+<p><span style="color: #000000;"><strong>@YOURFILE.TXT</strong></span> = The @ tells the engine to look for specified the file in the Scripts folder.<br />
+_                      = Is used as a String Parser between the File Search, and the actual message<br />
+House_Comment_MusicBox = The ACTUAL message entry within the specified file.</p>
+<p>Not only does our new system works with the "InputMessage" input, but it also works with every other input we have modded into env_message, which are :</p>
+<pre><code class="lang-">&quot;SetMessage&quot;
+&quot;SetMessagePriority1&quot;
+&quot;SetMessagePriority2&quot;
+&quot;SetMessagePriority3&quot;
+...(1-16)
+&quot;RemoveMessagePriority&quot;    &quot;1-16&quot;  </code></pre>
+<br />
+<br />
+<h2><span style="color: #000000;">CUSTOM TITLES</span></h2>
+<br />
+<p>Now that we know how to CALL a message through a file, let's see how the actual file formatting is, for practical reasons, we have created our own format that allows us to choose unique styles for each entries.</p>
+<p>Here is the format for <span style="color: #000000;"><strong>"Titles_House.txt"</strong></span> :</p>
+<pre><code class="lang-">Titles_House
+{
+
+	House_Comment_MusicBox
+	{
+		&quot;positionx&quot;		&quot;-1&quot;
+		&quot;positiony&quot;		&quot;0.6&quot;
+		&quot;fadein&quot;		&quot;0.5&quot;
+		&quot;fadeout&quot;		&quot;0.5&quot;
+		&quot;effect&quot;		&quot;0&quot;
+		&quot;holdtime&quot;		&quot;8.0&quot;
+		&quot;fxtime&quot;		&quot;0.25&quot;
+		&quot;r1&quot;			&quot;230&quot;
+		&quot;g1&quot;			&quot;230&quot;
+		&quot;b1&quot;			&quot;125&quot;
+		&quot;a1&quot;			&quot;0&quot;
+		&quot;r2&quot;			&quot;255&quot;
+		&quot;g2&quot;			&quot;255&quot;
+		&quot;b2&quot;			&quot;180&quot;
+		&quot;a2&quot;			&quot;0&quot;
+		&quot;Message&quot;		&quot;#Underhell_House_Comment_MusicBox&quot;
+	}
+}</code></pre>
+<br />
+<p>Let's break THAT down :<br />
+<span style="color: #000000;"><br />
+<strong>Titles_House</strong></span>          : The Name of the file<br />
+{ </p>
+<p><span style="color: #000000;"><strong>House_Comment_MusicBox</strong></span>  : The Name of the Entry, to write in your env_message<br />
+{<br />
+<strong><span style="color: #000000;">positionx</span>  </strong>              : The X position of the Display<br />
+<span style="color: #000000;"><strong>positiony</strong></span>                : The Y position of the Display<br />
+<span style="color: #000000;"><strong>fadein</strong></span>                    : Message fade in time - per character in effect 2<br />
+<span style="color: #000000;"><strong>fadeout</strong></span>                  : Message fade out time<br />
+<span style="color: #000000;"><strong>effect</strong></span>                    : The Effect Number<br />
+// effect 0 is fade in/fade out<br />
+// effect 1 is flickery credits<br />
+// effect 2 is write out (objectives)<br />
+<span style="color: #000000;"><strong>holdtime</strong></span>                 : Stay on the screen for this long<br />
+<span style="color: #000000;"><strong>fxtime</strong></span>                     : This is the amount of time the highlight lags behind the leading edge of the <span style="color: #000000;"><strong>text</strong></span><br />
+<span style="color: #000000;"><strong>r1</strong></span>                           : Primary Red Value ( 0 - 255 )<br />
+<span style="color: #000000;"><strong>g1 </strong></span>                          : Primary Green Value ( 0 - 255 )<br />
+<span style="color: #000000;"><strong>b1</strong></span>                           : Primary Blue Value ( 0 - 255 )<br />
+<span style="color: #000000;"><strong>a1 </strong></span>                          : Primary Alpha Value (0 - 255 )<br />
+<span style="color: #000000;"><strong>r2</strong></span>                           : Secondary Red Value ( 0 - 255 )<br />
+<span style="color: #000000;"><strong>g2 </strong></span>                          : Secondary  Green Value ( 0 - 255 )<br />
+<span style="color: #000000;"><strong>b2</strong></span>                           : Secondary  Blue Value ( 0 - 255 )<br />
+<span style="color: #000000;"><strong>a2</strong></span>                           : Secondary  Alpha Value (0 - 255 )<br />
+<span style="color: #000000;"><strong>Message</strong></span>                   : The Actual Message, enter <a href="/tags/MessageName">#MessageName</a> to localize through resource folder.<br />
+<strong>} </strong><br />
+(Other Entries here)<br />
+<strong>}  </strong> < End of file</p>
+<br />
+<p>So, as you can see, the format differs a bit from the original <em>titles.txt</em>, but the values are the same.<br />
+This new system allows for users who want to create their own adventures with their own comments/objectives to do so, without overwriting the original <em>titles.txt </em>file.<br />
+Everyone can now create his own, and link it through their <a href="https://developer.valvesoftware.com/wiki/Env_message" target="_blank" title="https://developer.valvesoftware.com/wiki/Env_message">env_message</a> within the level.</p>
+<h2><span style="color: #000000;">Localization</span></h2>
+<br />
+<p>As you can see in the "Message" field, we have entered "#Underhell_House_Comment_MusicBox" .</p>
+<p>The "#Underhell_" part refers to the #Underhell_<em>YourLanguage</em> files that are located in the resource folders.<br />
+These language files are part of the <a href="https://developer.valvesoftware.com/wiki/VGUI_Documentation#Localization" target="_blank" title="https://developer.valvesoftware.com/wiki/VGUI_Documentation#Localization">Localization system.</a></p>
+<p>If you want to create your own localized files for your levels, simply create a file called "YourLevelName_<em>YourLanguage</em> " and place it in the resource folder.</p>
+<p>Say you want to create a Level called <span style="color: #000000;"><strong>"Overheaven"</strong></span>, you just need to create a file called <span style="color: #000000;"><strong>Overheaven</strong></span>_English.txt in the resource folder, and in there create your English entries, which your Custom Titles will refer to.</p>
+<p>So in the Message field, you will enter "#<span style="color: #000000;"><strong>Overheaven</strong></span>_MessageName", and it will look for the message name within the file you have created.</p>
+<p>This way, if someone wants to translate your level, all they have to do is copy "<span style="color: #000000;"><strong>Overheaven</strong></span>_english" and rename it to "<span style="color: #000000;"><strong>Overheaven</strong></span>_<em>TheirLanguage</em> and translate the content.</p>
+<div class="center" style="text-align: center;"><em>Programming by Carlos "Charly" Sotelo </em></div>
+</div>
+							</div>
+		</div>
+	</div>
+</article> 	<div class="normalbox commentbox" id="comments">
+		<div class="normalcorner">
+			<div class="title">
+				<span class="options">
+					<a href="#commentform" class="addicon"  title="Post comment">Post comment</a>				</span>
+				<span class="heading">Comments</span>
+			</div>
+		</div>
+		<div class="inner">
+			<div class="body">
+				<div class="tooltip"></div>
+								<div class="table tablecomments">
+					 
+					<div id="3332488" class="row">
+						 
+						<div class="avatarholder">
+							<a href="/members/ratchetzemlinsky" title="JoshZemlinsky" class="avatar"><img src="https://media.moddb.com/images/members/1/347/346065/IconSynxProposal03.png" alt="JoshZemlinsky" width="50" height="50" /></a>
+													</div>
+						<div class="content">
+							<span class="heading">
+								<a href="/members/ratchetzemlinsky" class="author" data-nameid="ratchetzemlinsky">JoshZemlinsky</a>  - <a href="#3332488" style="color: inherit;"><time datetime="2012-11-07T20:02:33+00:00">Nov 7 2012</time></a> - 347 comments							</span>
+														<div class="comment">
+								<p>Hehe, awesome work guys. Im really impressed by Carlos' work :D<br />
+And this indeed will be usefull. Goodjob!
+</p>
+							</div>
+							<span class="actions" data-id="3332488">
+								<a href="#commentform" class="entericon"  title="Reply">Reply</a> <a href="#karma" class="karmagoodicon comment3332488karmagood" rel="nofollow" title="Good karma">Good karma</a> <a href="#karma" class="karmabadicon comment3332488karmabad" rel="nofollow" title="Bad karma">Bad karma</a><span class="karma" title="Karma">+8 votes</span>							</span>
+													</div>
+						<div style="clear: both;"></div>
+					</div>
+					 
+					<div id="3332500" class="row">
+						<div class="clearer"></div> 
+						<div class="avatarholder">
+							<a href="/members/gregthegen" title="Gregthegen" class="avatar"><img src="https://media.moddb.com/images/members/1/285/284004/mix_11_-_Copy.png" alt="Gregthegen" width="50" height="50" /></a>
+													</div>
+						<div class="content">
+							<span class="heading">
+								<a href="/members/gregthegen" class="author" data-nameid="gregthegen">Gregthegen</a>  - <a href="#3332500" style="color: inherit;"><time datetime="2012-11-07T20:07:43+00:00">Nov 7 2012</time></a> - 785 comments							</span>
+														<div class="comment">
+								<p>Each time the engine hands you a new problem, you surpass it and give other modders the resources to do the same. You sir and your team are not only geniuses but class A modders. Well done and thank you for overcoming every obstacle to make this mod grand.
+</p>
+							</div>
+							<span class="actions" data-id="3332500">
+								<a href="#commentform" class="entericon"  title="Reply">Reply</a> <a href="#karma" class="karmagoodicon comment3332500karmagood" rel="nofollow" title="Good karma">Good karma</a> <a href="#karma" class="karmabadicon comment3332500karmabad" rel="nofollow" title="Bad karma">Bad karma</a><span class="karma" title="Karma">+16 votes</span>							</span>
+													</div>
+						<div style="clear: both;"></div>
+					</div>
+					 
+					<div id="3332744" class="row reply1">
+						<div class="clearer"></div> 
+						<div class="avatarholder">
+							<a href="/members/rustie" title="Rus[T]" class="avatar"><img src="https://media.moddb.com/images/members/1/981/980121/120x120px-LS-4055e4b7_8bd2e35765.gif" alt="Rus[T]" width="50" height="50" /></a>
+													</div>
+						<div class="content">
+							<span class="heading">
+								<a href="/members/rustie" class="author" data-nameid="rustie">Rus[T]</a>  - <a href="#3332744" style="color: inherit;"><time datetime="2012-11-07T22:31:36+00:00">Nov 8 2012</time></a> - 1,163 comments							</span>
+														<div class="comment">
+								<p>Uhu, a great mod in the making + valuable info? = WIN!
+</p>
+							</div>
+							<span class="actions" data-id="3332744">
+								<a href="#commentform" class="entericon"  title="Reply">Reply</a> <a href="#karma" class="karmagoodicon comment3332744karmagood" rel="nofollow" title="Good karma">Good karma</a> <a href="#karma" class="karmabadicon comment3332744karmabad" rel="nofollow" title="Bad karma">Bad karma</a><span class="karma" title="Karma">+7 votes</span>							</span>
+													</div>
+						<div style="clear: both;"></div>
+					</div>
+					 
+					<div id="3335792" class="row reply1">
+						<div class="clearer"></div> 
+						<div class="avatarholder">
+							<a href="/members/robralner" title="RobRalneR" class="avatar"><img src="https://media.moddb.com/images/members/1/349/348347/My_Profile_Pic_v2.png" alt="RobRalneR" width="50" height="50" /></a>
+													</div>
+						<div class="content">
+							<span class="heading">
+								<a href="/members/robralner" class="author" data-nameid="robralner">RobRalneR</a>  - <a href="#3335792" style="color: inherit;"><time datetime="2012-11-09T19:36:16+00:00">Nov 9 2012</time></a> - 125 comments							</span>
+														<div class="comment">
+								<p>I totally agree.
+</p>
+							</div>
+							<span class="actions" data-id="3335792">
+								<a href="#commentform" class="entericon"  title="Reply">Reply</a> <a href="#karma" class="karmagoodicon comment3335792karmagood" rel="nofollow" title="Good karma">Good karma</a> <a href="#karma" class="karmabadicon comment3335792karmabad" rel="nofollow" title="Bad karma">Bad karma</a><span class="karma" title="Karma">+7 votes</span>							</span>
+													</div>
+						<div style="clear: both;"></div>
+					</div>
+					 
+					<div id="3334346" class="row">
+						<div class="clearer"></div> 
+						<div class="avatarholder">
+							<a href="/members/molemad" title="MoleMad" class="avatar"><img src="https://media.moddb.com/images/members/1/823/822537/wtf_-_Copy.png" alt="MoleMad" width="50" height="50" /></a>
+													</div>
+						<div class="content">
+							<span class="heading">
+								<a href="/members/molemad" class="author" data-nameid="molemad">MoleMad</a>  - <a href="#3334346" style="color: inherit;"><time datetime="2012-11-08T22:39:24+00:00">Nov 9 2012</time></a> - 16 comments							</span>
+														<div class="comment">
+								<p>If this **** doesn't get greenlit, I will go download this mod unto a portable hard-drive and launch it through Valve HQ's window with a canon.
+</p>
+							</div>
+							<span class="actions" data-id="3334346">
+								<a href="#commentform" class="entericon"  title="Reply">Reply</a> <a href="#karma" class="karmagoodicon comment3334346karmagood" rel="nofollow" title="Good karma">Good karma</a> <a href="#karma" class="karmabadicon comment3334346karmabad" rel="nofollow" title="Bad karma">Bad karma</a><span class="karma" title="Karma">+12 votes</span>							</span>
+													</div>
+						<div style="clear: both;"></div>
+					</div>
+					 
+					<div id="3338139" class="row reply1">
+						<div class="clearer"></div> 
+						<div class="avatarholder">
+							<a href="/members/rustie" title="Rus[T]" class="avatar"><img src="https://media.moddb.com/images/members/1/981/980121/120x120px-LS-4055e4b7_8bd2e35765.gif" alt="Rus[T]" width="50" height="50" /></a>
+													</div>
+						<div class="content">
+							<span class="heading">
+								<a href="/members/rustie" class="author" data-nameid="rustie">Rus[T]</a>  - <a href="#3338139" style="color: inherit;"><time datetime="2012-11-10T22:06:41+00:00">Nov 11 2012</time></a> - 1,163 comments							</span>
+														<div class="comment">
+								<p>haha, amen sir, amen :D.
+</p>
+							</div>
+							<span class="actions" data-id="3338139">
+								<a href="#commentform" class="entericon"  title="Reply">Reply</a> <a href="#karma" class="karmagoodicon comment3338139karmagood" rel="nofollow" title="Good karma">Good karma</a> <a href="#karma" class="karmabadicon comment3338139karmabad" rel="nofollow" title="Bad karma">Bad karma</a><span class="karma" title="Karma">+6 votes</span>							</span>
+													</div>
+						<div style="clear: both;"></div>
+					</div>
+									</div>
+							</div>
+	
+					</div>
+	</div>
+	<div class="normalbox formbox" id="commentform">
+		<div class="normalcorner">
+			<div class="title">
+								<span class="heading">Post a comment</span>
+			</div>
+		</div>
+		<div class="inner">
+			<div id="commentform" class="body bodysimple clear">
+								<div class="tooltip"></div>
+							
+																
+				<div class="table tableform">
+					<form action="https://www.moddb.com/mods/underhell/tutorials/custom-titles-system/#commentform" method="post" name="commentform"><input type="hidden" name="formhash" value="10213e5d4890b28029a02cb5cfce3b87" /><input type="hidden" name="replyid" value="0" id="commentreplyid" /><input type="hidden" name="page" value="1" id="commentpage" />					<div class="row rowcommentguest clear">
+												<p class="helper"></p><p><a href="/members/loginext/steam" class="steamicon" style="float: right; margin-left: 6px;" title="Click to connect via Steam"></a><a href="/members/loginext/google" class="googleicon" style="float: right; margin-left: 6px;" title="Click to connect via Google"></a><a href="/members/loginext/twitter" class="twittericon" style="float: right; margin-left: 6px;" title="Click to connect via Twitter"></a><a href="/members/loginext/facebook" class="facebookicon" style="float: right; margin-left: 6px;" title="Click to connect via Facebook"></a>Your comment will be anonymous unless you <a href="/members/register">join the community</a>. Or sign in with your social account:</p>					</div>
+										<div class="row rowcommentsummary clear">
+												<p class="helper"></p><textarea name="summary" cols="80" rows="10" id="commentsummary" required="required" ></textarea>					</div>
+										<div class="row rowcommentemail clear" style="display: none;">
+												<label for="commentemail">&#69;&#109;&#97;&#105;&#108;</label>
+												<p class="helper"></p><span class="cfffbadefefbformouter"><span><span><span class="cfffbadefefbforminner"><input type="text" name="IyMyMmI2MjkwOGVlYzdiMjQ2OGUwMmQwMWJmNjM2MGFmNzI3OTg0MDUyOTFlbWFpbA:E::E:" maxlength="500" value="" id="commentemail" class="text" autocomplete="off"  /></span></span></span></span><span class="cfffbadefefbformouter"><span><span><span><span class="cfffbadefefbforminner"><input type="text" name="IyMyMmI2MjkwOGVlYzdiMjQ2OGUwMmQwMWJmNjM2MGFmNzI3OTI5NzU2NDVib3RjYXRjaGVy" maxlength="500" class="text" autocomplete="off"  /></span></span></span></span></span><style> span.cfffbadefefbformouter span span span span { display: none; } span.cfffbadefefbformouter { display: inline; }</style>
+					</div>
+															<div class="row buttons">
+																								<input type="submit" name="comment" value="Save comment" id="commentsubmit"  />					</div>
+					</form>				</div>
+			</div>
+		</div>
+	</div>
+</div><div class="column span-300 last tabtutorials">	<div class="normalbox menubox" id="modsinfo">
+				<div class="normalcorner">
+			<div class="title">
+								<span class="options">
+					<a href="#watch" class="watchicon mods8841watch" rel="nofollow" title="Follow">Follow</a> <a href="/messages/ajax/action/?action=report&amp;sitearea=mods&amp;siteareaid=8841" class="reporticon 44825bfc951a8ff5714f8bb710efda3freport" rel="nofollow" title="Report">Report</a>				</span>
+								<span class="heading">Profile</span>
+			</div>
+		</div>
+				<div class="inner">
+			<div class="body bodysimple">
+								<div class="tooltip"></div>
+																<div class="table tablemenu">
+										<div class="row clear">
+						<a href="/mods/underhell/downloads" class="downloadautotoggle button buttonlarge buttonfull"><span class="buttoncount">264.7K</span><span class="buttontext">Download</span></a><div class="downloadon" style="display: none;"><a href="/mods/underhell/downloads/underhell-chapter-1" class="button buttonfull"><span style="float: right;">FULL</span><span>Underhell Chapter 1</span><hr><span style="font-weight: normal; float: right;">171.6K</span><span style="font-weight: normal;">1.55gb</span></a><a href="/mods/underhell/downloads/underhell-chapter-1-russian-language-pack" class="button buttonfull"><span style="float: right;">PATCH</span><span>Underhell Chapter 1 - Russian Language Pack</span><hr><span style="font-weight: normal; float: right;">24.3K</span><span style="font-weight: normal;">15.75mb</span></a><a href="/mods/underhell/downloads/underhell-chapter-1-tchinese-language-pack" class="button buttonfull"><span style="float: right;">PATCH</span><span>Underhell Chapter 1 - TChinese Language Pack</span><hr><span style="font-weight: normal; float: right;">1.9K</span><span style="font-weight: normal;">26.55mb</span></a><a href="/mods/underhell/downloads/underhell-chapter-1-german-language-pack" class="button buttonfull"><span style="float: right;">PATCH</span><span>Underhell Chapter 1 - German Language Pack</span><hr><span style="font-weight: normal; float: right;">1.8K</span><span style="font-weight: normal;">16.58mb</span></a><a href="/mods/underhell/downloads/underhell-chapter-1-spanish-language-pack" class="button buttonfull"><span style="float: right;">PATCH</span><span>Underhell Chapter 1 - Spanish Language Pack</span><hr><span style="font-weight: normal; float: right;">2.7K</span><span style="font-weight: normal;">25.11mb</span></a></div>					</div>
+										<div class="row clear">
+						<a href="#watch" class="watchicon c76625d26ff7f0c55142db2c328da119watch button buttonlarge buttonfull" rel="nofollow"><span class="buttoncount watchcount">4.2K</span><span class="buttontext">Follow</span></a>					</div>
+										<div class="row clear">
+												<h5>Icon</h5>
+						<span class="summary">
+							<a href="/games/half-life-2"><img src="https://media.moddb.com/images/games/1/1/61/hl2.png" alt="Half-Life 2" width="32" height="32" /></a>						</span>
+											</div>
+										<div class="row clear">
+												<h5>Game</h5>
+						<span class="summary">
+							<a href="/games/half-life-2">Half-Life 2</a>						</span>
+											</div>
+										<div class="row clear">
+												<h5>Creator</h5>
+						<span class="summary">
+							<a href="/members/mxthe">Mxthe</a>						</span>
+											</div>
+										<div class="row clear">
+												<h5>Contact</h5>
+						<span class="summary">
+							<a href="/messages/compose?to=Mxthe">Send Message</a>						</span>
+											</div>
+										<div class="row clear">
+												<h5>Homepage</h5>
+						<span class="summary">
+							<a href="http://underhell.wecreatestuff.com/" rel="noopener noreferrer" target="_blank">Underhell.wecreatestuff.com</a>						</span>
+											</div>
+										<div class="row clear">
+												<h5>Release date</h5>
+						<span class="summary">
+							<time datetime="2011-03-05">Released 2011</time>						</span>
+											</div>
+									</div>
+							</div>
+		</div>
+	</div>
+	<div class="normalbox menubox" id="rtxremix">
+				<div class="normalcorner">
+			<div class="title">
+								<span class="heading">RTX Remix</span>
+			</div>
+		</div>
+				<div class="inner">
+			<div class="body bodysimple">
+								<div class="tooltip"></div>
+																<div class="table tablemenu">
+										<div class="row clear">
+						RTX Remix is a <a href="https://www.nvidia.com/en-us/geforce/rtx-remix/" target="_blank">modding platform by NVIDIA</a>, which allows modders to create stunning HD remasters of classic games <a href="/rtx">(see all supported)</a>, with ray tracing and DLSS.<br><br>					</div>
+										<div class="row clear">
+						This mod is NOT using RTX Remix. Learn more about <a href="/news/rtx-remix-on-moddb">ModDB's collaboration with the Remix community</a> to organize all compatible games, and <a href="/games/half-life-2#rtxremix">Half-Life 2's</a> support for RTX. <a href="/platforms/rtx/set" class="togglertxinfo">Hide this dialog</a>.					</div>
+									</div>
+							</div>
+		</div>
+	</div>
+	<div class="normalbox menubox" id="articlesprofilemenu">
+				<div class="normalcorner">
+			<div class="title">
+								<span class="heading">Tutorial</span>
+			</div>
+		</div>
+				<div class="inner">
+			<div class="body bodysimple">
+								<div class="tooltip"></div>
+																<div class="table tablemenu">
+										<div class="row clear">
+												<h5>Tags</h5>
+						<span class="summary">
+							<a href="/tags/level-design">Level Design</a>, <a href="/tags/mapping">Mapping</a>, <a href="/tags/tutorial">Tutorial</a>						</span>
+											</div>
+										<div class="row clear">
+												<h5>Browse</h5>
+						<span class="summary">
+							<a href="/mods/underhell/tutorials">Tutorials</a>						</span>
+											</div>
+										<div class="row clear">
+												<h5>New</h5>
+						<span class="summary">
+							<a href="/members/register" class="addicon">Members only</a>						</span>
+											</div>
+										<div class="row clear">
+												<h5>Report</h5>
+						<span class="summary">
+							<a href="/messages/ajax/action/?action=report&amp;sitearea=articles&amp;siteareaid=113349" class="reporticon 44825bfc951a8ff5714f8bb710efda3freport" rel="nofollow">Report</a>						</span>
+											</div>
+										<div class="row clear">
+												<h5>Views</h5>
+						<span class="summary">
+							<a href="/statistics/data/visit/articles/113349" rel="iframe=true;innerHeight=525;innerWidth=830" class="thickbox" title="Custom Titles System Statistics">6,765 (1 today)</a>						</span>
+											</div>
+										<div class="row clear">
+						 
+<h5>Share</h5>
+<span class="summary summarypromo">
+	<a href="https://www.reddit.com/r/1/submit?url=https%3A%2F%2Fwww.moddb.com%2Fmods%2Funderhell%2Ftutorials%2Fcustom-titles-system&title=Custom+Titles+System+tutorial+-+Underhell+mod+for+Half-Life+2" class="redditpromo csstooltip" title="Share on Reddit" target="_blank" rel="nofollow noopener noreferrer"></a><a href="mailto:?subject=Custom%20Titles%20System%20tutorial%20-%20Underhell%20mod%20for%20Half-Life%202&body=Visit%3A%20https%3A%2F%2Fwww.moddb.com%2Fmods%2Funderhell%2Ftutorials%2Fcustom-titles-system" class="emailpromo csstooltip" title="Email a friend" rel="nofollow"></a><a href="https://twitter.com/intent/tweet?status=Custom+Titles+System+tutorial+-+Underhell+mod+for+Half-Life+2+https%3A%2F%2Fwww.moddb.com%2Fmods%2Funderhell%2Ftutorials%2Fcustom-titles-system+via+%40moddb&url=https%3A%2F%2Fwww.moddb.com%2Fmods%2Funderhell%2Ftutorials%2Fcustom-titles-system&via=moddb" class="twitterpromo csstooltip" title="Tweeeeeet!" target="_blank" rel="nofollow noopener noreferrer"></a><a href="https://www.facebook.com/dialog/share?app_id=210134345672070&display=page&href=https%3A%2F%2Fwww.moddb.com%2Fmods%2Funderhell%2Ftutorials%2Fcustom-titles-system&quote=Custom+Titles+System+tutorial+-+Underhell+mod+for+Half-Life+2&redirect_uri=https%3A%2F%2Fwww.moddb.com%2Fmods%2Funderhell%2Ftutorials%2Fcustom-titles-system" class="facebookpromo csstooltip" title="Share on Facebook" target="_blank" rel="nofollow noopener noreferrer"></a> 
+</span>
+ 					</div>
+									</div>
+							</div>
+		</div>
+	</div>
+ <div class="normalbox linksbox" id="menulinksmods">
+	<div class="normalcorner">
+		<div class="title">
+			 
+			<span class="heading">Related Mods</span>
+		</div>
+	</div>
+	<div class="inner">
+		<div class="body bodysimple">
+			<div class="tooltip"></div>
+			<div class="table tablerelated">
+								<div class="row clear">
+										<a href="/mods/underhell" title="Underhell" class="image"><img src="https://media.moddb.com/cache/images/mods/1/9/8841/crop_120x90/Chapter1Wallpaper768.jpg" alt="Underhell" /></a>
+										<div class="content">
+						<a href="/mods/underhell" class="heading">Underhell</a>
+						<span class="summary">
+							<a href="/games/half-life-2">Half-Life 2</a> 						</span>
+					</div>
+				</div>
+				 
+			</div>
+		</div>
+	</div>
+</div>
+<div class="normalbox linksbox" id="menulinksgames">
+	<div class="normalcorner">
+		<div class="title">
+			 
+			<span class="heading">Related Games</span>
+		</div>
+	</div>
+	<div class="inner">
+		<div class="body bodysimple">
+			<div class="tooltip"></div>
+			<div class="table tablerelated">
+								<div class="row clear">
+										<a href="/games/half-life-2" title="Half-Life 2" class="image"><img src="https://media.moddb.com/cache/images/games/1/1/61/crop_120x90/hl2_thumb.jpg" alt="Half-Life 2" /></a>
+										<div class="content">
+						<a href="/games/half-life-2" class="heading">Half-Life 2</a>
+						<span class="summary">
+							First Person Shooter 						</span>
+					</div>
+				</div>
+				 
+			</div>
+		</div>
+	</div>
+</div>
+</div> 	<div style="clear: both; height: 1em;"></div><!-- IE6 Hack -->
+</div>
+
+<footer><div id="footer">
+	<div class="content">
+		<a href="https://www.dbolical.com" class="network dbolical" target="_blank" title="DBolical - Entertainment Euphoria"></a>
+		<span class="terms"><a href="/privacy-policy#cookies" class="csconsentlink">Cookies</a> | <a href="/terms-of-use">Terms of Use</a> | <a href="/privacy-policy" style="padding-right: 0">Privacy Policy</a></span>
+		<span class="links"><a href="/blog">Blog</a> | <a href="/about">About</a> | <a href="/advertise">Advertise</a> | <a href="/contact">Contact</a> | <a href="/mods/add">Submit Mod</a> | <a href="https://mod.io" target="_blank" title="Cross Platform Mod support for game developers">Cross-Platform Mod Support</a> | <a href="/sitemap">Site Map</a></span>
+		<span class="copyright">&copy; 2002 - 2026 <a href="https://www.dbolical.com" target="_blank">DBolical Pty Ltd.</a>&nbsp; All Rights Reserved.&nbsp; <a href="/members/online">6023 modders</a>.</span>
+	</div>
+</div><script src="https://static.moddb.com/html/external/min/index.php?g=jquery&amp;1"></script><script type="application/ld+json">{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"Item":{"@id":"https://www.moddb.com/games","name":"Games"}},{"@type":"ListItem","position":2,"Item":{"@id":"https://www.moddb.com/games/half-life-2","name":"Half-Life 2"}},{"@type":"ListItem","position":3,"Item":{"@id":"https://www.moddb.com/games/half-life-2/mods","name":"Mods"}},{"@type":"ListItem","position":4,"Item":{"@id":"https://www.moddb.com/mods/underhell","name":"Underhell"}},{"@type":"ListItem","position":5,"Item":{"@id":"https://www.moddb.com/mods/underhell/tutorials","name":"Tutorials"}},{"@type":"ListItem","position":6,"Item":{"@id":"https://www.moddb.com/mods/underhell/tutorials/custom-titles-system","name":"Custom Titles System","image":"https://media.moddb.com/images/articles/1/114/113349/Custom_Titles_System.jpg"}}]}</script>
+<script src="https://static.moddb.com/html/external/min/index.php?g=js&amp;19"></script>
+<script src="https://static.moddb.com/html/external/min/index.php?b=cutoff&amp;f=js/misc.highlight.js"></script><script src="https://static.moddb.com/html/external/min/index.php?b=cutoff&amp;f=js/jquery.form.js&amp;1"></script><style type="text/css">#rtxremix { display: none; }</style>
+
+<script>
+$(document).ready(function() { $("#togglelogin").click(function() { 
+					if($("#searchbox .search").is(":visible")) {
+						$("#searchbox .arrow").html("&nbsp;&#187;");
+						$("#searchbox .search").fadeOut(function() { $("#searchbox .login").show(); });
+					} else {
+						$("#searchbox .arrow").html("&nbsp;");
+						$("#searchbox .login").fadeOut(function() { $("#searchbox .search").show(); });
+					}
+					return false;
+				});
+$("#sitesearch").suggestClick("https://www.moddb.com/html/scripts/autocomplete.php?a=search&p=mods",{resultsClass: "suggest_search", positionIn: "#searchbox", limit: 10});
+hljs.initHighlightingOnLoad();
+hljs.initHighlightingOnLoad();
+hljs.initHighlightingOnLoad();
+hljs.initHighlightingOnLoad();
+$(".44825bfc951a8ff5714f8bb710efda3freport").saveUpdate("report", false);
+
+			viewComment = function(currentoption, response) {
+				if(response["action"] == "delete") {
+					$("#"+currentoption.closest(".actions").data("id")+" div.comment").show().html(response["success"] ? "<p>Your comment action was successful. When a comment is deleted all replies to the comment will be removed as well. Because you are an admin, you can click the \"view deleted\" link above to view deleted comments in-case you wish to undelete them in the future. If this was a mistake, click the link again to reverse the change.</p>" : "<p>"+response["text"]+"</p>");
+					currentoption.html(response["labels"]["delete"]);
+				} else if(response["action"] == "archive") {
+					currentoption.closest(".row").slideUp(400, function(){$(this).remove();});
+				} else if(response["action"].includes("karma")) {
+					if(response["success"]) {
+						karma = parseInt(currentoption.parent().find(".karma").html().split(" ", 1));
+						karma = karma ? (karma + response["karma"]) : response["karma"];
+						currentoption.parent().find(".karma").html((karma==1 ? "+1 vote" : (karma>1 ? "+"+karma+" votes" : karma+" votes")));
+					} else if(response["error"]) {
+						currentoption.parent().find(".karma").html(response["text"]);
+					}
+				}
+			};
+				
+			$(".rowdeleted .comment,.rowbury .comment").hide().each(function() {
+				extra = $(this).find(".hidereason").html();
+				$(this).find(".hidereason").remove();
+				$(this).before("<p><a href=# class=togglecomment>View comment</a> <em>"+extra+"</em></p>");
+			});
+				
+			$(".togglecomment").click(function() {
+				$(this).parent().next().slideDown();
+				$(this).parent().remove();
+				return false;
+			});
+$(".comment3332488karmagood").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3332488karmabad").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3332500karmagood").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3332500karmabad").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3332744karmagood").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3332744karmabad").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3335792karmagood").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3335792karmabad").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3334346karmagood").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3334346karmabad").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3338139karmagood").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$(".comment3338139karmabad").click(function(){
+					$.achtung({message: "Only members can rate comments. <a href=\"/members/register\">Sign up</a> today.", className: "achtungFail", timeout:5});
+					return false;
+				});
+$("#commentsummary").formAutoResize({extraSpace: 0});
+$("#commentemail").after('<input type="hidden" name="IyMyMmI2MjkwOGVlYzdiMjQ2OGUwMmQwMWJmNjM2MGFmNzY2MTc4NzczNDFqc2ZpZWxk" value="1" />');
+
+			$(".tablecomments .entericon").click( function() {
+				var post = $(this).closest(".actions").data("id");
+				var link = $(this);
+		
+				if(!$("#commentsummary").length) {
+					return true;
+				} else if($("#"+post+" div.replypostholder").length) {
+					// do nothing
+				} else {
+					$("#"+post+" div.comment").append("<div class=\"replypostholder\"><br /><textarea rows=\"5\" cols=\"50\" class=\"editpost\" id=\"reply"+post+"\" placeholder=\"Reply to @"+$("#"+post+" .author").data("nameid")+"\"></textarea><div><input type=\"button\" value=\"Cancel\" id=\"cancelreply"+post+"\" /> <input type=\"button\" value=\"Save\" id=\"savereply"+post+"\" style=\"font-weight: bold;\" /></div></div>");
+					var textarea = $("#reply"+post);
+					var mentions = $("#commentform .mentions-input").length > 0;
+
+					if(mentions) {
+						textarea.mentionsInput({source: "https://www.moddb.com/html/scripts/autocomplete.php?a=mentions&p=home&l=6&u=666"});
+					}
+	
+					$("#cancelreply"+post).click(function() {
+						$("#"+post+" div.replypostholder").remove();
+					});
+		
+					$("#savereply"+post).click(function() {
+						postcontent = mentions ? textarea.mentionsInput("getValue") : textarea.val();
+		
+						if(postcontent) {
+							$(this).remove();
+							$("#cancelreply"+post).remove();
+							textarea.after("<span class=\"ajaxicon\">Saving your reply</span>");
+							if(mentions) {
+								$("#commentsummary").mentionsInput("setValue", postcontent);
+							} else {
+								$("#commentsummary").val(postcontent);
+							}
+							$("#commentform input[name=replyid]").val(post);
+							$("#commentsubmit").click();
+						} else {
+							$(this).text("Please enter a comment");
+						}
+					});
+				}
+	
+				return false;
+			});
+$(".mods8841watch").click(function(){
+					$.achtung({message: "Only members can follow mods. <a href=\"/members/register\">Sign up</a> today and follow your favorites.", className: "achtungFail", timeout:5});
+					return false;
+				});
+
+					$(".downloadautotoggle").click(function(){
+						$(".downloadon").slideToggle();
+						return false;
+					});
+$(".c76625d26ff7f0c55142db2c328da119watch").click(function(){
+						$.achtung({message: "Only members can follow mods. <a href=\"/members/register\">Sign up</a> today and follow your favorites.", className: "achtungFail", timeout:5});
+						if($(this).hasClass("button")) {
+							$(this).addClass("buttonon");
+						}
+						return false;
+					});
+$(".togglertxinfo").click(function(e){
+				if($(this).attr("href") == "#rtxremix") {
+					localStorage.setItem("rtxtoggled", true);
+					$("#rtxremix").show();
+					return true;
+				} else {
+					localStorage.removeItem("rtxtoggled");
+					$("#rtxremix").hide();
+					return false;
+				}
+			});
+			
+			
+
+		function cookieScript(e) {
+			var status = CookieScript.instance.currentState().categories.includes("targeting") ? "false" : "true";
+			var cookies = CookieScript.instance.currentState().categories.includes("performance") ? "true" : "false";
+			var cookie_data = { npa : {status:status,cookies:cookies,version:"1.0.13",chosen:"true"}, expires : 365 };
+			Cookies.set("dfp-npa", cookie_data.npa, { expires: cookie_data.expires, secure: true });
+
+	if (typeof gtag === "function") { gtag("consent", "update", {"ad_storage": cookie_data.npa.status == "false" ? "granted" : "denied", "ad_user_data": cookie_data.npa.status == "false" ? "granted" : "denied", "ad_personalization": cookie_data.npa.status == "false" ? "granted" : "denied", "analytics_storage": cookie_data.npa.cookies == "true" ? "granted" : "denied"}); }
+
+	if(cookie_data.npa.status == "false") {
+		// personalize
+		if (typeof permutive === "object") { permutive.consent({ "opt_in": true, "token": "Allow All" }); }
+	} else {
+		// don't personalize
+		if (typeof permutive === "object") { permutive.consent({ "opt_in": false }); }
+		Cookies.remove("permutive-id", { domain: "moddb.com", secure: true });
+	}
+		}
+
+		if(!Cookies.get("dfp-npa")) {
+			Cookies.set("dfp-npa", {status:"false",cookies:"true",version:"1.0.13",chosen:"false"}, { expires: 60, secure: true });
+		}
+
+		window.addEventListener("CookieScriptAcceptAll", cookieScript);
+		window.addEventListener("CookieScriptAccept", cookieScript);
+		window.addEventListener("CookieScriptReject", cookieScript);
+		window.addEventListener("CookieScriptClose", cookieScript);
+$("a.thickbox").click(function() { $.colorbox({href:$(this).attr("href"), rel:$(this).attr("rel"), open:true, onOpen:function(){ $(".nextmediabox").hide(); }, onClosed:function(){ $(".nextmediabox").show(); }}); return false; });
+ });
+</script></footer>
+</div>
+
+ <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496" integrity="sha512-ZE9pZaUXND66v380QUtch/5sE9tPFh2zg45pR2PB0CVkCtOREv2AJKkSidISWkysEuQ0EH8faUU5du78bx87UQ==" data-cf-beacon='{"version":"2024.11.0","token":"8e37b0c8f0164496b83e8a9662df72e8"}' crossorigin="anonymous"></script>
+</body>
+</html>
