@@ -1,0 +1,5 @@
+"smod_radialblur"
+{
+	"$fbtexture" "_rt_FullFrameFB"
+	"$bluramount" "dev/bullettime"
+}

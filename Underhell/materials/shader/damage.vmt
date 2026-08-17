@@ -1,0 +1,5 @@
+"smod_damageeffect"
+{
+	"$fbtexture" "_rt_FullFrameFB"
+	"$bpower"	"0"
+}

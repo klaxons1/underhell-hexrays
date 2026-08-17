@@ -1,0 +1,7 @@
+"smod_ironsightblur"
+{
+	"$fbtexture" "_rt_FullFrameFB"
+	"$bluramount" "sprites/white"
+	"$bpower"	"0.01"
+	"$blend"	"1"
+}

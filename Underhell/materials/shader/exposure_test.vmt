@@ -1,0 +1,5 @@
+"smod_exposure_test"
+{
+	"$fbtexture" "_rt_FullFrameFB"
+	"$tone" "_rt_FullFrameFB"
+}

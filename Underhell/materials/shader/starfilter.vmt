@@ -1,0 +1,8 @@
+"smod_starfilter"
+{
+	"$basetexture" "_rt_SmallFB0"
+	"$streak" "0"
+	"$step" "0.01"
+	"$aspect" "1.0"
+	"$amount" "1"
+}

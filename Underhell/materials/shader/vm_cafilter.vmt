@@ -1,0 +1,6 @@
+"smod_cafilter"
+{
+	"$fbtexture"	"_rt_FullFrameFB"
+	"$normalmap"	"effects/lens"
+	"$fl"		"-0.02"
+}

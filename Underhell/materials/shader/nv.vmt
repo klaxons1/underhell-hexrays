@@ -1,0 +1,6 @@
+"smod_nightvision"
+{
+	"$fbtexture" "_rt_FullFrameFB"
+	"$scanline" "shader/scanline"
+	"$blend"	"1"
+}

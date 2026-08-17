@@ -1,0 +1,7 @@
+"smod_vectorblur"
+{
+	"$fbtexture" "_rt_FullFrameFB"
+	"$x"	"0"
+	"$y"	"0"
+	"$intensity"	"100"
+}

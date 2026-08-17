@@ -1,0 +1,7 @@
+"smod_radialblur2"
+{
+	"$fbtexture" "_rt_FullFrameFB"
+	"$darkness" "5"
+	"$tintcolor" "[1 1 1]"
+	"$power" "1"
+}

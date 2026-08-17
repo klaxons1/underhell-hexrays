@@ -1,0 +1,6 @@
+"smod_scope"
+{
+	"$fbtexture" "_rt_FullFrameFB"
+	"$normalmap" "shader/blood"
+	"$tintcolor" "[1 .3 .1]"
+}

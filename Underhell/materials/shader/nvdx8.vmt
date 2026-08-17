@@ -1,0 +1,7 @@
+"Modulate"
+{
+	"$translucent" 1
+	"$basetexture" "shader/scanline"
+	"$MOD2X" 1
+	"$alpha" 0
+}

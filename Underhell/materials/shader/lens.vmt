@@ -1,0 +1,7 @@
+"smod_scope"
+{
+	"$fbtexture" "_rt_FullFrameFB"
+	"$normalmap" "effects/lens"
+	"$bluramount"	"0"
+
+}

@@ -1,0 +1,7 @@
+"smod_scope"
+{
+	"$fbtexture" "_rt_FullFrameFB"
+	"$normalmap" "shader/water"
+	"$tintcolor" "[1 1 1]"
+	"$bluramount"	"0.005"
+}
