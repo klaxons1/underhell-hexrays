@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>L4D Glow Effect - Valve Developer Community</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"02c4d131e6d450dd8f3d7823","wgCSPNonce":false,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"L4D_Glow_Effect","wgTitle":"L4D Glow Effect","wgCurRevisionId":211438,"wgRevisionId":211438,"wgArticleId":21483,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Pages using deprecated source tags","Programming"],"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"L4D_Glow_Effect","wgRelevantArticleId":21483,"wgIsProbablyEditable":false,"wgRelevantPageIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVector2022PreviewPages":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true};
+RLSTATE={"site.styles":"ready","user.styles":"ready","user":"ready","user.options":"loading","mediawiki.page.gallery.styles":"ready","ext.pygments":"ready","skins.vector.styles.legacy":"ready"};RLPAGEMODULES=["site","mediawiki.page.ready","mediawiki.toc","skins.vector.legacy.js","mmv.head","mmv.bootstrap.autostart"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});});});</script>
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=ext.pygments%7Cmediawiki.page.gallery.styles%7Cskins.vector.styles.legacy&amp;only=styles&amp;skin=vector"/>
+<script async="" src="/w/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector"/>
+<meta name="generator" content="MediaWiki 1.39.17"/>
+<meta name="format-detection" content="telephone=no"/>
+<meta name="viewport" content="width=1000"/>
+<link rel="icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Valve Developer Community (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="https://developer.valvesoftware.com/w/api.php?action=rsd"/>
+<link rel="alternate" type="application/atom+xml" title="Valve Developer Community Atom feed" href="/w/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-underline-never mw-hide-empty-elt ns-0 ns-subject page-L4D_Glow_Effect rootpage-L4D_Glow_Effect skin-vector action-view skin-vector-legacy vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-disabled vector-feature-sticky-header-disabled vector-feature-sticky-header-edit-disabled vector-feature-table-of-contents-disabled vector-feature-visual-enhancement-next-disabled"><div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+<div id="content" class="mw-body" role="main">
+	<a id="top"></a>
+	<div id="siteNotice"></div>
+	<div class="mw-indicators">
+	</div>
+	<h1 id="firstHeading" class="firstHeading mw-first-heading"><span class="mw-page-title-main">L4D Glow Effect</span></h1>
+	<div id="bodyContent" class="vector-body">
+		<div id="siteSub" class="noprint">From Valve Developer Community</div>
+		<div id="contentSub"></div>
+		<div id="contentSub2"></div>
+		
+		<div id="jump-to-nav"></div>
+		<a class="mw-jump-link" href="#mw-head">Jump to navigation</a>
+		<a class="mw-jump-link" href="#searchInput">Jump to search</a>
+		<div id="mw-content-text" class="mw-body-content mw-content-ltr" lang="en" dir="ltr"><div class="mw-parser-output"><div style="display:flex; background:linear-gradient(90deg, rgb(230 233 190 / 2.8%) 0%, transparent 100%); border-left:.2em solid rgb(230 233 190 / 60%); border-radius:.2em; padding:.47em 0 .4em .94em; margin:.5em 0"><span style="user-select:none; margin-inline:0 .3em; margin-block:-.05em 0"><img alt="Note.png" src="/w/images/thumb/c/cc/Note.png/10px-Note.png" decoding="async" width="10" height="13" srcset="/w/images/thumb/c/cc/Note.png/15px-Note.png 1.5x, /w/images/thumb/c/cc/Note.png/20px-Note.png 2x" data-file-width="500" data-file-height="650" /></span><strong style="display:table-cell; color:rgb(230 233 190); white-space:nowrap; margin-inline:0 .3em">Note&#58;</strong><span style="display:table-cell"> This tutorial is valid for the 2007 Source SDK. The 2013 Source SDK has simple glow effect <a href="/wiki/L4D_Glow_Effect_(2013_SDK)" class="mw-redirect" title="L4D Glow Effect (2013 SDK)">functionality built-in</a>. </span></div>
+<div id="toc" class="toc" role="navigation" aria-labelledby="mw-toc-heading"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><div class="toctitle" lang="en" dir="ltr"><h2 id="mw-toc-heading">Contents</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Introduction"><span class="tocnumber">1</span> <span class="toctext">Introduction</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Requirements"><span class="tocnumber">2</span> <span class="toctext">Requirements</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#The_Breakdown"><span class="tocnumber">3</span> <span class="toctext">The Breakdown</span></a>
+<ul>
+<li class="toclevel-2 tocsection-4"><a href="#Buffers"><span class="tocnumber">3.1</span> <span class="toctext">Buffers</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Material_vs._Texture"><span class="tocnumber">3.2</span> <span class="toctext">Material vs. Texture</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Different_Rendering_Components"><span class="tocnumber">3.3</span> <span class="toctext">Different Rendering Components</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-7"><a href="#The_Code"><span class="tocnumber">4</span> <span class="toctext">The Code</span></a>
+<ul>
+<li class="toclevel-2 tocsection-8"><a href="#Header"><span class="tocnumber">4.1</span> <span class="toctext">Header</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#CEntGlowEffect::Init()"><span class="tocnumber">4.2</span> <span class="toctext">CEntGlowEffect::Init()</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#CEntGlowEffect::Render()"><span class="tocnumber">4.3</span> <span class="toctext">CEntGlowEffect::Render()</span></a></li>
+<li class="toclevel-2 tocsection-11"><a href="#CEntGlowEffect::RenderToStencil()"><span class="tocnumber">4.4</span> <span class="toctext">CEntGlowEffect::RenderToStencil()</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="#CEntGlowEffect::RenderToGlowTexture()"><span class="tocnumber">4.5</span> <span class="toctext">CEntGlowEffect::RenderToGlowTexture()</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-13"><a href="#Implementation"><span class="tocnumber">5</span> <span class="toctext">Implementation</span></a>
+<ul>
+<li class="toclevel-2 tocsection-14"><a href="#Code"><span class="tocnumber">5.1</span> <span class="toctext">Code</span></a></li>
+<li class="toclevel-2 tocsection-15"><a href="#ConVars"><span class="tocnumber">5.2</span> <span class="toctext">ConVars</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-16"><a href="#Notes_and_Future_Work"><span class="tocnumber">6</span> <span class="toctext">Notes and Future Work</span></a></li>
+<li class="toclevel-1 tocsection-17"><a href="#Compatibility_with_other_Screen_Space_Effects"><span class="tocnumber">7</span> <span class="toctext">Compatibility with other Screen Space Effects</span></a></li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id="Introduction">Introduction</span></h2>
+<p>This article will show you how to implement the Left 4 Dead (L4D) entity glow effect that is used for players, zombies, and items you can grab. This effect is not a shader and does not require you to edit any rendering code. I have included a couple of tweaking options and possibility for future enhancement.
+</p><p>This code relied heavily upon the masterful work of Jinto with his <a rel="nofollow" class="external text" href="http://www.facepunch.com/showpost.php?p=18536820&amp;postcount=1078">Lua implementation</a> of this effect in Garry's Mod. Garry himself was also a big help in getting this into fruition and the hlcoders listserve.
+</p>
+<ul class="gallery mw-gallery-traditional" style="max-width: 639px;">
+	<li class="gallerycaption">Images</li>
+		<li class="gallerybox" style="width: 205px"><div style="width: 205px">
+			<div class="thumb" style="width: 200px;"><div style="margin:47px auto;"><a href="/wiki/File:L4d_glow1.jpg" class="image" title="Glowing Through Wall"><img alt="Glowing Through Wall" src="/w/images/thumb/0/08/L4d_glow1.jpg/170px-L4d_glow1.jpg" decoding="async" width="170" height="106" srcset="/w/images/thumb/0/08/L4d_glow1.jpg/255px-L4d_glow1.jpg 1.5x, /w/images/thumb/0/08/L4d_glow1.jpg/340px-L4d_glow1.jpg 2x" data-file-width="1260" data-file-height="788" /></a></div></div>
+			<div class="gallerytext">
+<p>Glowing Through Wall
+</p>
+			</div>
+		</div></li>
+		<li class="gallerybox" style="width: 205px"><div style="width: 205px">
+			<div class="thumb" style="width: 200px;"><div style="margin:47px auto;"><a href="/wiki/File:L4d_glow2.jpg" class="image" title="Multiple Ents and Colors"><img alt="Multiple Ents and Colors" src="/w/images/thumb/b/b5/L4d_glow2.jpg/170px-L4d_glow2.jpg" decoding="async" width="170" height="106" srcset="/w/images/thumb/b/b5/L4d_glow2.jpg/255px-L4d_glow2.jpg 1.5x, /w/images/thumb/b/b5/L4d_glow2.jpg/340px-L4d_glow2.jpg 2x" data-file-width="1260" data-file-height="788" /></a></div></div>
+			<div class="gallerytext">
+<p>Multiple Ents and Colors
+</p>
+			</div>
+		</div></li>
+		<li class="gallerybox" style="width: 205px"><div style="width: 205px">
+			<div class="thumb" style="width: 200px;"><div style="margin:47px auto;"><a href="/wiki/File:L4d_glow3.jpg" class="image" title="Up Close"><img alt="Up Close" src="/w/images/thumb/c/cf/L4d_glow3.jpg/170px-L4d_glow3.jpg" decoding="async" width="170" height="106" srcset="/w/images/thumb/c/cf/L4d_glow3.jpg/255px-L4d_glow3.jpg 1.5x, /w/images/thumb/c/cf/L4d_glow3.jpg/340px-L4d_glow3.jpg 2x" data-file-width="1260" data-file-height="788" /></a></div></div>
+			<div class="gallerytext">
+<p>Up Close
+</p>
+			</div>
+		</div></li>
+</ul>
+<h2><span class="mw-headline" id="Requirements">Requirements</span></h2>
+<ul><li>Strong C++ background</li>
+<li>Strong knowledge of the Source SDK</li>
+<li>Knowledge of general rendering process</li></ul>
+<h2><span class="mw-headline" id="The_Breakdown">The Breakdown</span></h2>
+<p>Rendering the glow effect requires three distinct steps. The first step is to draw the entity onto the engine's Stencil Buffer. The second step is to draw the entity with the color of the glow you want onto a render buffer. The third step is to blur the render buffer and draw it onto the screen while respecting the Stencil Buffer.
+</p>
+<h3><span class="mw-headline" id="Buffers">Buffers</span></h3>
+<p><b>Stencil Buffer:</b> A grayscale buffer implemented by DirectX that can be written to and read from much like a mask in Photoshop. The Stencil Buffer is used in the Scratch Source SDK to read the ambient occlusion depth map and apply appropriate shading in areas. We will be using the Stencil Buffer to "cutout" the entities we want to glow so only the blurred image that extends beyond the entity will show giving the effect of a halo.
+</p><p><b>Render Target (Buffer):</b> A Render Target is a special texture that is registered with the engine and can be written to by the renderer. We will declare two render targets (buffers). One will hold the cumulative images from the glowing entities and the other will be used to blur with.
+</p>
+<h3><span class="mw-headline" id="Material_vs._Texture">Material vs. Texture</span></h3>
+<p>When dealing with the rendering engine it is important to understand the distinction between a material and a texture.
+</p><p><b>Material:</b> A material encapsulates a particular shader and it's associated parameters. A material is what defines how the renderer should render.
+</p><p><b>Texture:</b> A texture is pure image information. To set the texture of a material you typically use <i>$basetexture</i> and whenever the material is rendered that texture is used in the shader
+</p>
+<h3><span class="mw-headline" id="Different_Rendering_Components">Different Rendering Components</span></h3>
+<p>There are three distinct rendering components in the source engine.
+</p>
+<ul><li><b>IMatRenderContext</b> (pRenderContext)</li>
+<li><b>IVRenderView</b> (render)</li>
+<li><b>IVModelRender</b> (modelrender)</li></ul>
+<p>We will be using all three of these in order to achieve the desired effect. Each one does its part to draw our world, however the details are beyond the scope of this tutorial.
+</p>
+<h2><span class="mw-headline" id="The_Code">The Code</span></h2>
+<p>I am going to present the code in chunks to discuss what each does. You can download the code in it's entirety here:
+</p><p><a href="/wiki/L4D_Glow_Effect_CPP" class="mw-redirect" title="L4D Glow Effect CPP">ge_screeneffects.cpp</a><br />
+<a href="/wiki/L4D_Glow_Effect_H" class="mw-redirect" title="L4D Glow Effect H">ge_screeneffects.h</a>
+</p><p><b>Materials Required:</b><br />
+<a rel="nofollow" class="external text" href="http://alanedwardes.com/static_media/glow_pp.zip">L4D Glow Effect Materials.zip</a>
+</p>
+<h3><span class="mw-headline" id="Header">Header</span></h3>
+<div class="mw-highlight mw-highlight-lang-cpp mw-content-ltr" dir="ltr"><pre><span></span><span class="k">class</span><span class="w"> </span><span class="nc">CEntGlowEffect</span><span class="w"> </span><span class="o">:</span><span class="w"> </span><span class="k">public</span><span class="w"> </span><span class="n">IScreenSpaceEffect</span><span class="w"></span>
+<span class="p">{</span><span class="w"></span>
+<span class="k">public</span><span class="o">:</span><span class="w"></span>
+<span class="w">	</span><span class="n">CEntGlowEffect</span><span class="p">(</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="p">};</span><span class="w"></span>
+<span class="w"> </span>
+<span class="w">	</span><span class="k">virtual</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">Init</span><span class="p">(</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="w">	</span><span class="k">virtual</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">Shutdown</span><span class="p">(</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="w">	</span><span class="k">virtual</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">SetParameters</span><span class="p">(</span><span class="w"> </span><span class="n">KeyValues</span><span class="w"> </span><span class="o">*</span><span class="n">params</span><span class="w"> </span><span class="p">)</span><span class="w"> </span><span class="p">{};</span><span class="w"></span>
+<span class="w">	</span><span class="k">virtual</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">Enable</span><span class="p">(</span><span class="w"> </span><span class="kt">bool</span><span class="w"> </span><span class="n">bEnable</span><span class="w"> </span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="n">m_bEnabled</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">bEnable</span><span class="p">;</span><span class="w"> </span><span class="p">}</span><span class="w"></span>
+<span class="w">	</span><span class="k">virtual</span><span class="w"> </span><span class="kt">bool</span><span class="w"> </span><span class="nf">IsEnabled</span><span class="p">(</span><span class="w"> </span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">return</span><span class="w"> </span><span class="n">m_bEnabled</span><span class="p">;</span><span class="w"> </span><span class="p">}</span><span class="w"></span>
+<span class="w"> </span>
+<span class="w">	</span><span class="k">virtual</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">RegisterEnt</span><span class="p">(</span><span class="w"> </span><span class="n">EHANDLE</span><span class="w"> </span><span class="n">hEnt</span><span class="p">,</span><span class="w"> </span><span class="n">Color</span><span class="w"> </span><span class="n">glowColor</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Color</span><span class="p">(</span><span class="mi">255</span><span class="p">,</span><span class="mi">255</span><span class="p">,</span><span class="mi">255</span><span class="p">,</span><span class="mi">64</span><span class="p">),</span><span class="w"> </span><span class="kt">float</span><span class="w"> </span><span class="n">fGlowScale</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">1.0f</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="w">	</span><span class="k">virtual</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">DeregisterEnt</span><span class="p">(</span><span class="w"> </span><span class="n">EHANDLE</span><span class="w"> </span><span class="n">hEnt</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="w"> </span>
+<span class="w">	</span><span class="k">virtual</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">SetEntColor</span><span class="p">(</span><span class="w"> </span><span class="n">EHANDLE</span><span class="w"> </span><span class="n">hEnt</span><span class="p">,</span><span class="w"> </span><span class="n">Color</span><span class="w"> </span><span class="n">glowColor</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="w">	</span><span class="k">virtual</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">SetEntGlowScale</span><span class="p">(</span><span class="w"> </span><span class="n">EHANDLE</span><span class="w"> </span><span class="n">hEnt</span><span class="p">,</span><span class="w"> </span><span class="kt">float</span><span class="w"> </span><span class="n">fGlowScale</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="w"> </span>
+<span class="w">	</span><span class="k">virtual</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">Render</span><span class="p">(</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">x</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">y</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">w</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">h</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="w"> </span>
+<span class="k">protected</span><span class="o">:</span><span class="w"></span>
+<span class="w">	</span><span class="kt">int</span><span class="w"> </span><span class="n">FindGlowEnt</span><span class="p">(</span><span class="w"> </span><span class="n">EHANDLE</span><span class="w"> </span><span class="n">hEnt</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="w">	</span><span class="kt">void</span><span class="w"> </span><span class="nf">RenderToStencil</span><span class="p">(</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">idx</span><span class="p">,</span><span class="w"> </span><span class="n">IMatRenderContext</span><span class="w"> </span><span class="o">*</span><span class="n">pRenderContext</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="w">	</span><span class="kt">void</span><span class="w"> </span><span class="nf">RenderToGlowTexture</span><span class="p">(</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">idx</span><span class="p">,</span><span class="w"> </span><span class="n">IMatRenderContext</span><span class="w"> </span><span class="o">*</span><span class="n">pRenderContext</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="w"> </span>
+<span class="k">private</span><span class="o">:</span><span class="w"></span>
+<span class="w">	</span><span class="kt">bool</span><span class="w">			</span><span class="n">m_bEnabled</span><span class="p">;</span><span class="w"></span>
+
+<span class="w">	</span><span class="k">struct</span><span class="w"> </span><span class="nc">sGlowEnt</span><span class="w"></span>
+<span class="w">	</span><span class="p">{</span><span class="w"></span>
+<span class="w">		</span><span class="n">EHANDLE</span><span class="w">	</span><span class="n">m_hEnt</span><span class="p">;</span><span class="w"></span>
+<span class="w">		</span><span class="kt">float</span><span class="w">	</span><span class="n">m_fColor</span><span class="p">[</span><span class="mi">4</span><span class="p">];</span><span class="w"></span>
+<span class="w">		</span><span class="kt">float</span><span class="w">	</span><span class="n">m_fGlowScale</span><span class="p">;</span><span class="w"></span>
+<span class="w">	</span><span class="p">};</span><span class="w"></span>
+<span class="w"> </span>
+<span class="w">	</span><span class="n">CUtlVector</span><span class="o">&lt;</span><span class="n">sGlowEnt</span><span class="o">*&gt;</span><span class="w">	</span><span class="n">m_vGlowEnts</span><span class="p">;</span><span class="w"></span>
+<span class="w"> </span>
+<span class="w">	</span><span class="n">CTextureReference</span><span class="w">	</span><span class="n">m_GlowBuff1</span><span class="p">;</span><span class="w"></span>
+<span class="w">	</span><span class="n">CTextureReference</span><span class="w">	</span><span class="n">m_GlowBuff2</span><span class="p">;</span><span class="w"></span>
+<span class="w"> </span>
+<span class="w">	</span><span class="n">CMaterialReference</span><span class="w">	</span><span class="n">m_WhiteMaterial</span><span class="p">;</span><span class="w"></span>
+<span class="w">	</span><span class="n">CMaterialReference</span><span class="w">	</span><span class="n">m_EffectMaterial</span><span class="p">;</span><span class="w"></span>
+<span class="w"> </span>
+<span class="w">	</span><span class="n">CMaterialReference</span><span class="w">	</span><span class="n">m_BlurX</span><span class="p">;</span><span class="w"></span>
+<span class="w">	</span><span class="n">CMaterialReference</span><span class="w">	</span><span class="n">m_BlurY</span><span class="p">;</span><span class="w"></span>
+<span class="p">};</span><span class="w"></span>
+</pre></div>
+<p>The glow effect inherits from IScreenSpaceEffect which is part of the screen space effect manager that processes effects during the render sequence. The effects are processed after the Viewmodel is rendered, color correction is applied, and HDR is applied, but before the HUD is drawn. This means the glow effect will be unaffected by HDR and color correction (GOOD!) but will show through the viewmodel (Maybe BAD?). Unfortunately, there is no real good way to solve this problem without adversely affecting the rendering of the effect or the viewmodel.
+</p><p>Anyway, all the functions are implemented from the abstract class, but I added a couple (ie. RegisterEnt and DeregisterEnt) which allow us to easily add and remove entities to apply the glow effect on.
+</p>
+<h3><span id="CEntGlowEffect::Init.28.29"></span><span class="mw-headline" id="CEntGlowEffect::Init()">CEntGlowEffect::Init()</span></h3>
+<div class="mw-highlight mw-highlight-lang-cpp mw-content-ltr" dir="ltr"><pre><span></span><span class="n">ADD_SCREENSPACE_EFFECT</span><span class="p">(</span><span class="w"> </span><span class="n">CEntGlowEffect</span><span class="p">,</span><span class="w"> </span><span class="n">ge_entglow</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+
+<span class="kt">void</span><span class="w"> </span><span class="nf">CEntGlowEffect::Init</span><span class="p">(</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="p">)</span><span class="w"> </span>
+<span class="p">{</span><span class="w"></span>
+<span class="w">	</span><span class="c1">// Initialize the white overlay material to render our model with</span>
+<span class="w">	</span><span class="n">KeyValues</span><span class="w"> </span><span class="o">*</span><span class="n">pVMTKeyValues</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">KeyValues</span><span class="p">(</span><span class="w"> </span><span class="s">&quot;VertexLitGeneric&quot;</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="w">	</span><span class="n">pVMTKeyValues</span><span class="o">-&gt;</span><span class="n">SetString</span><span class="p">(</span><span class="w"> </span><span class="s">&quot;$basetexture&quot;</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;vgui/white&quot;</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="w">	</span><span class="n">pVMTKeyValues</span><span class="o">-&gt;</span><span class="n">SetInt</span><span class="p">(</span><span class="w"> </span><span class="s">&quot;$selfillum&quot;</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="w">	</span><span class="n">pVMTKeyValues</span><span class="o">-&gt;</span><span class="n">SetString</span><span class="p">(</span><span class="w"> </span><span class="s">&quot;$selfillummask&quot;</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;vgui/white&quot;</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="w">	</span><span class="n">pVMTKeyValues</span><span class="o">-&gt;</span><span class="n">SetInt</span><span class="p">(</span><span class="w"> </span><span class="s">&quot;$vertexalpha&quot;</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="w">	</span><span class="n">pVMTKeyValues</span><span class="o">-&gt;</span><span class="n">SetInt</span><span class="p">(</span><span class="w"> </span><span class="s">&quot;$model&quot;</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="w">	</span><span class="n">m_WhiteMaterial</span><span class="p">.</span><span class="n">Init</span><span class="p">(</span><span class="w"> </span><span class="s">&quot;__geglowwhite&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">TEXTURE_GROUP_CLIENT_EFFECTS</span><span class="p">,</span><span class="w"> </span><span class="n">pVMTKeyValues</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="w">	</span><span class="n">m_WhiteMaterial</span><span class="o">-&gt;</span><span class="n">Refresh</span><span class="p">();</span><span class="w"></span>
+
+<span class="w">	</span><span class="c1">// Initialize the Effect material that will be blitted to the Frame Buffer</span>
+<span class="w">	</span><span class="n">KeyValues</span><span class="w"> </span><span class="o">*</span><span class="n">pVMTKeyValues2</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">KeyValues</span><span class="p">(</span><span class="w"> </span><span class="s">&quot;UnlitGeneric&quot;</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="w">	</span><span class="n">pVMTKeyValues2</span><span class="o">-&gt;</span><span class="n">SetString</span><span class="p">(</span><span class="w"> </span><span class="s">&quot;$basetexture&quot;</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;_rt_FullFrameFB&quot;</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="w">	</span><span class="n">pVMTKeyValues2</span><span class="o">-&gt;</span><span class="n">SetInt</span><span class="p">(</span><span class="w"> </span><span class="s">&quot;$additive&quot;</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="w">	</span><span class="n">m_EffectMaterial</span><span class="p">.</span><span class="n">Init</span><span class="p">(</span><span class="w"> </span><span class="s">&quot;__geglowcomposite&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">TEXTURE_GROUP_CLIENT_EFFECTS</span><span class="p">,</span><span class="w"> </span><span class="n">pVMTKeyValues2</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="w">	</span><span class="n">m_EffectMaterial</span><span class="o">-&gt;</span><span class="n">Refresh</span><span class="p">();</span><span class="w"></span>
+<span class="w"> </span>
+<span class="w">	</span><span class="c1">// Initialize render targets for our blurring</span>
+<span class="w">	</span><span class="n">m_GlowBuff1</span><span class="p">.</span><span class="n">InitRenderTarget</span><span class="p">(</span><span class="w"> </span><span class="n">ScreenWidth</span><span class="p">()</span><span class="o">/</span><span class="mi">2</span><span class="p">,</span><span class="w"> </span><span class="n">ScreenHeight</span><span class="p">()</span><span class="o">/</span><span class="mi">2</span><span class="p">,</span><span class="w"> </span><span class="n">RT_SIZE_DEFAULT</span><span class="p">,</span><span class="w"> </span><span class="n">IMAGE_FORMAT_RGBA8888</span><span class="p">,</span><span class="w"> </span><span class="n">MATERIAL_RT_DEPTH_SEPARATE</span><span class="p">,</span><span class="w"> </span><span class="nb">false</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;_rt_geglowbuff1&quot;</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="w">	</span><span class="n">m_GlowBuff2</span><span class="p">.</span><span class="n">InitRenderTarget</span><span class="p">(</span><span class="w"> </span><span class="n">ScreenWidth</span><span class="p">()</span><span class="o">/</span><span class="mi">2</span><span class="p">,</span><span class="w"> </span><span class="n">ScreenHeight</span><span class="p">()</span><span class="o">/</span><span class="mi">2</span><span class="p">,</span><span class="w"> </span><span class="n">RT_SIZE_DEFAULT</span><span class="p">,</span><span class="w"> </span><span class="n">IMAGE_FORMAT_RGBA8888</span><span class="p">,</span><span class="w"> </span><span class="n">MATERIAL_RT_DEPTH_SEPARATE</span><span class="p">,</span><span class="w"> </span><span class="nb">false</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;_rt_geglowbuff2&quot;</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="w"> </span>
+<span class="w">	</span><span class="c1">// Load the blur textures</span>
+<span class="w">	</span><span class="n">m_BlurX</span><span class="p">.</span><span class="n">Init</span><span class="p">(</span><span class="w"> </span><span class="n">materials</span><span class="o">-&gt;</span><span class="n">FindMaterial</span><span class="p">(</span><span class="s">&quot;pp/ge_blurx&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">TEXTURE_GROUP_OTHER</span><span class="p">,</span><span class="w"> </span><span class="nb">true</span><span class="p">)</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="w">	</span><span class="n">m_BlurY</span><span class="p">.</span><span class="n">Init</span><span class="p">(</span><span class="w"> </span><span class="n">materials</span><span class="o">-&gt;</span><span class="n">FindMaterial</span><span class="p">(</span><span class="s">&quot;pp/ge_blury&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">TEXTURE_GROUP_OTHER</span><span class="p">,</span><span class="w"> </span><span class="nb">true</span><span class="p">)</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
+</pre></div>
+<p>The first bit tells the effect manager about us and provides an interface to create the effect. More about that later in the Implementation stage.
+</p><p>The init function is called when the effect is created. This sets up all our materials and textures we will be using in order to render the effect. <b>m_WhiteMaterial</b> will be used to draw the model onto the stencil and the blur buffer in a constant shade of color. <b>m_EffectMaterial</b> is what the final result is going to be rendered from. <b>m_GlowBuff1</b> and <b>m_GlowBuff2</b> are our Render Targets for the glow effect and blurring. <b>m_BlurX</b> and <b>m_BlurY</b> are the blur shaders that will actually perform the blur.
+</p>
+<h3><span id="CEntGlowEffect::Render.28.29"></span><span class="mw-headline" id="CEntGlowEffect::Render()">CEntGlowEffect::Render()</span></h3>
+<p>This is the render function that is called every frame of the render process by the effect manager. This function builds the stencil with the entity cut-outs and the glow buffer with the entity images. It then blurs the glow buffer and renders the result to the screen while respecting the stencil.
+</p>
+<div class="mw-highlight mw-highlight-lang-cpp mw-content-ltr" dir="ltr"><pre><span></span><span class="c1">// Grab the render context</span>
+<span class="n">CMatRenderContextPtr</span><span class="w"> </span><span class="nf">pRenderContext</span><span class="p">(</span><span class="w"> </span><span class="n">materials</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="w"> </span>
+<span class="c1">// Apply our glow buffers as the base textures for our blurring operators</span>
+<span class="n">IMaterialVar</span><span class="w"> </span><span class="o">*</span><span class="n">var</span><span class="p">;</span><span class="w"></span>
+<span class="c1">// Set our effect material to have a base texture of our primary glow buffer</span>
+<span class="n">var</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">m_BlurX</span><span class="o">-&gt;</span><span class="n">FindVar</span><span class="p">(</span><span class="w"> </span><span class="s">&quot;$basetexture&quot;</span><span class="p">,</span><span class="w"> </span><span class="nb">NULL</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="n">var</span><span class="o">-&gt;</span><span class="n">SetTextureValue</span><span class="p">(</span><span class="w"> </span><span class="n">m_GlowBuff1</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="n">var</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">m_BlurY</span><span class="o">-&gt;</span><span class="n">FindVar</span><span class="p">(</span><span class="w"> </span><span class="s">&quot;$basetexture&quot;</span><span class="p">,</span><span class="w"> </span><span class="nb">NULL</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="n">var</span><span class="o">-&gt;</span><span class="n">SetTextureValue</span><span class="p">(</span><span class="w"> </span><span class="n">m_GlowBuff2</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="n">var</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">m_EffectMaterial</span><span class="o">-&gt;</span><span class="n">FindVar</span><span class="p">(</span><span class="w"> </span><span class="s">&quot;$basetexture&quot;</span><span class="p">,</span><span class="w"> </span><span class="nb">NULL</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="n">var</span><span class="o">-&gt;</span><span class="n">SetTextureValue</span><span class="p">(</span><span class="w"> </span><span class="n">m_GlowBuff1</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="w"> </span>
+<span class="n">var</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">m_BlurX</span><span class="o">-&gt;</span><span class="n">FindVar</span><span class="p">(</span><span class="w"> </span><span class="s">&quot;$bloomscale&quot;</span><span class="p">,</span><span class="w"> </span><span class="nb">NULL</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="n">var</span><span class="o">-&gt;</span><span class="n">SetFloatValue</span><span class="p">(</span><span class="w"> </span><span class="mi">10</span><span class="o">*</span><span class="n">cl_ge_glowscale</span><span class="p">.</span><span class="n">GetFloat</span><span class="p">()</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="n">var</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">m_BlurY</span><span class="o">-&gt;</span><span class="n">FindVar</span><span class="p">(</span><span class="w"> </span><span class="s">&quot;$bloomamount&quot;</span><span class="p">,</span><span class="w"> </span><span class="nb">NULL</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="n">var</span><span class="o">-&gt;</span><span class="n">SetFloatValue</span><span class="p">(</span><span class="w"> </span><span class="mi">10</span><span class="o">*</span><span class="n">cl_ge_glowscale</span><span class="p">.</span><span class="n">GetFloat</span><span class="p">()</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="w"> </span>
+<span class="c1">// Clear the glow buffer from the previous iteration</span>
+<span class="n">pRenderContext</span><span class="o">-&gt;</span><span class="n">ClearColor4ub</span><span class="p">(</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="mi">255</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="n">pRenderContext</span><span class="o">-&gt;</span><span class="n">PushRenderTargetAndViewport</span><span class="p">(</span><span class="w"> </span><span class="n">m_GlowBuff1</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="n">pRenderContext</span><span class="o">-&gt;</span><span class="n">ClearBuffers</span><span class="p">(</span><span class="w"> </span><span class="nb">true</span><span class="p">,</span><span class="w"> </span><span class="nb">true</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="n">pRenderContext</span><span class="o">-&gt;</span><span class="n">PopRenderTargetAndViewport</span><span class="p">();</span><span class="w"></span>
+
+<span class="n">pRenderContext</span><span class="o">-&gt;</span><span class="n">PushRenderTargetAndViewport</span><span class="p">(</span><span class="w"> </span><span class="n">m_GlowBuff2</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="n">pRenderContext</span><span class="o">-&gt;</span><span class="n">ClearBuffers</span><span class="p">(</span><span class="w"> </span><span class="nb">true</span><span class="p">,</span><span class="w"> </span><span class="nb">true</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="n">pRenderContext</span><span class="o">-&gt;</span><span class="n">PopRenderTargetAndViewport</span><span class="p">();</span><span class="w"></span>
+<span class="w"> </span>
+<span class="c1">// Clear the stencil buffer in case someone dirtied it this frame</span>
+<span class="n">pRenderContext</span><span class="o">-&gt;</span><span class="n">ClearStencilBufferRectangle</span><span class="p">(</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="n">ScreenWidth</span><span class="p">(),</span><span class="w"> </span><span class="n">ScreenHeight</span><span class="p">(),</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+</pre></div>
+<p>This part takes the materials that we initiated above and assigns their base textures to be the glow buffers respectively. It also manages the global scaling of the blur effect. From there it clears the glow buffers by setting them to a uniform Black color. We set it to black since <b>m_EffectMaterial</b> is set to be additive and black will not apply any effect to the screen (desired). This is a very important step otherwise we would get smearing of the glow effect across the screen.
+</p>
+<div class="mw-highlight mw-highlight-lang-cpp mw-content-ltr" dir="ltr"><pre><span></span><span class="c1">// Iterate over our registered entities and add them to the cut-out stencil and the glow buffer</span>
+<span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">m_vGlowEnts</span><span class="p">.</span><span class="n">Count</span><span class="p">();</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="w"> </span><span class="p">)</span><span class="w"></span>
+<span class="p">{</span><span class="w"></span>
+<span class="w">	</span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="w"> </span><span class="n">cl_ge_glowstencil</span><span class="p">.</span><span class="n">GetInt</span><span class="p">()</span><span class="w"> </span><span class="p">)</span><span class="w"></span>
+<span class="w">		</span><span class="n">RenderToStencil</span><span class="p">(</span><span class="w"> </span><span class="n">i</span><span class="p">,</span><span class="w"> </span><span class="n">pRenderContext</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="w">	</span><span class="n">RenderToGlowTexture</span><span class="p">(</span><span class="w"> </span><span class="n">i</span><span class="p">,</span><span class="w"> </span><span class="n">pRenderContext</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
+</pre></div>
+<p>This code iterates over all our registered entities and puts them into our stencil and the glow buffer.
+</p>
+<div class="mw-highlight mw-highlight-lang-cpp mw-content-ltr" dir="ltr"><pre><span></span><span class="c1">// Now we take the built up glow buffer (m_GlowBuff1) and blur it two ways</span>
+<span class="c1">// the intermediate buffer (m_GlowBuff2) allows us to do this properly</span>
+<span class="n">pRenderContext</span><span class="o">-&gt;</span><span class="n">PushRenderTargetAndViewport</span><span class="p">(</span><span class="w"> </span><span class="n">m_GlowBuff2</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="w">	</span><span class="n">pRenderContext</span><span class="o">-&gt;</span><span class="n">DrawScreenSpaceQuad</span><span class="p">(</span><span class="w"> </span><span class="n">m_BlurX</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="n">pRenderContext</span><span class="o">-&gt;</span><span class="n">PopRenderTargetAndViewport</span><span class="p">();</span><span class="w"></span>
+<span class="w"> </span>
+<span class="n">pRenderContext</span><span class="o">-&gt;</span><span class="n">PushRenderTargetAndViewport</span><span class="p">(</span><span class="w"> </span><span class="n">m_GlowBuff1</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="w">	</span><span class="n">pRenderContext</span><span class="o">-&gt;</span><span class="n">DrawScreenSpaceQuad</span><span class="p">(</span><span class="w"> </span><span class="n">m_BlurY</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="n">pRenderContext</span><span class="o">-&gt;</span><span class="n">PopRenderTargetAndViewport</span><span class="p">();</span><span class="w"></span>
+<span class="w"> </span>
+<span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="w"> </span><span class="n">cl_ge_glowstencil</span><span class="p">.</span><span class="n">GetInt</span><span class="p">()</span><span class="w"> </span><span class="p">)</span><span class="w"></span>
+<span class="p">{</span><span class="w"></span>
+<span class="w">	</span><span class="c1">// Setup the renderer to only draw where the stencil is not 1</span>
+<span class="w">	</span><span class="n">pRenderContext</span><span class="o">-&gt;</span><span class="n">SetStencilEnable</span><span class="p">(</span><span class="w"> </span><span class="nb">true</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="w">	</span><span class="n">pRenderContext</span><span class="o">-&gt;</span><span class="n">SetStencilReferenceValue</span><span class="p">(</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="w">	</span><span class="n">pRenderContext</span><span class="o">-&gt;</span><span class="n">SetStencilTestMask</span><span class="p">(</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="w">	</span><span class="n">pRenderContext</span><span class="o">-&gt;</span><span class="n">SetStencilCompareFunction</span><span class="p">(</span><span class="w"> </span><span class="n">STENCILCOMPARISONFUNCTION_EQUAL</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="w">	</span><span class="n">pRenderContext</span><span class="o">-&gt;</span><span class="n">SetStencilPassOperation</span><span class="p">(</span><span class="w"> </span><span class="n">STENCILOPERATION_ZERO</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
+<span class="w"> </span>
+<span class="c1">// Finally draw our blurred result onto the screen</span>
+<span class="n">pRenderContext</span><span class="o">-&gt;</span><span class="n">DrawScreenSpaceQuad</span><span class="p">(</span><span class="w"> </span><span class="n">m_EffectMaterial</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="c1">//DrawScreenEffectMaterial( m_EffectMaterial, x, y, w, h ); //Uncomment me and comment the above line if you plan to use multiple screeneffects at once.</span>
+<span class="w"> </span>
+<span class="n">pRenderContext</span><span class="o">-&gt;</span><span class="n">SetStencilEnable</span><span class="p">(</span><span class="w"> </span><span class="nb">false</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+</pre></div>
+<p>Finally, we take our built up buffers and blur them. This is done in a two step process (industry standard) by first blurring <b>m_GlowBuff1</b> in the X (Horizontal) direction and rendering it to <b>m_GlowBuff2</b>. Then <b>m_GlowBuff2</b> is blurred in the Y (vertical) direction and rendered back onto <b>m_GlowBuff1</b>. The stencil buffer is then called upon again to ensure that the rendering is only performed where the entity is not.
+</p>
+<h3><span id="CEntGlowEffect::RenderToStencil.28.29"></span><span class="mw-headline" id="CEntGlowEffect::RenderToStencil()">CEntGlowEffect::RenderToStencil()</span></h3>
+<p>This function renders the entity to the stencil. I will take this in small chunks so you understand more about the stencil buffer.
+</p>
+<div class="mw-highlight mw-highlight-lang-cpp mw-content-ltr" dir="ltr"><pre><span></span><span class="n">pRenderContext</span><span class="o">-&gt;</span><span class="n">SetStencilEnable</span><span class="p">(</span><span class="w"> </span><span class="nb">true</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="n">pRenderContext</span><span class="o">-&gt;</span><span class="n">SetStencilFailOperation</span><span class="p">(</span><span class="w"> </span><span class="n">STENCILOPERATION_KEEP</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="n">pRenderContext</span><span class="o">-&gt;</span><span class="n">SetStencilZFailOperation</span><span class="p">(</span><span class="w"> </span><span class="n">STENCILOPERATION_KEEP</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="n">pRenderContext</span><span class="o">-&gt;</span><span class="n">SetStencilPassOperation</span><span class="p">(</span><span class="w"> </span><span class="n">STENCILOPERATION_REPLACE</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+</pre></div>
+<p>Here we enable the stencil, which automatically puts it as our Render Target. <i>Modifying the render target while the stencil is active has disastrous results!</i> We setup the stencil mask operations by saying that if we fail to match our reference value we keep the reference value, but if we pass the reference we replace it with the write mask value.
+</p>
+<div class="mw-highlight mw-highlight-lang-cpp mw-content-ltr" dir="ltr"><pre><span></span><span class="n">pRenderContext</span><span class="o">-&gt;</span><span class="n">SetStencilCompareFunction</span><span class="p">(</span><span class="w"> </span><span class="n">STENCILCOMPARISONFUNCTION_ALWAYS</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="n">pRenderContext</span><span class="o">-&gt;</span><span class="n">SetStencilWriteMask</span><span class="p">(</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="n">pRenderContext</span><span class="o">-&gt;</span><span class="n">SetStencilReferenceValue</span><span class="p">(</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+</pre></div>
+<p>The compare function checks to see if we should even evaluate the pass/fail operation. The Write Mask is what will be written to the stencil if we pass.
+</p>
+<div class="mw-highlight mw-highlight-lang-cpp mw-content-ltr" dir="ltr"><pre><span></span><span class="n">pRenderContext</span><span class="o">-&gt;</span><span class="n">DepthRange</span><span class="p">(</span><span class="w"> </span><span class="mf">0.0f</span><span class="p">,</span><span class="w"> </span><span class="mf">0.01f</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="n">render</span><span class="o">-&gt;</span><span class="n">SetBlend</span><span class="p">(</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="w"> </span>
+<span class="n">modelrender</span><span class="o">-&gt;</span><span class="n">ForcedMaterialOverride</span><span class="p">(</span><span class="w"> </span><span class="n">m_WhiteMaterial</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="w">	</span><span class="n">pEnt</span><span class="o">-&gt;</span><span class="n">DrawModel</span><span class="p">(</span><span class="w"> </span><span class="n">STUDIO_RENDER</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="n">modelrender</span><span class="o">-&gt;</span><span class="n">ForcedMaterialOverride</span><span class="p">(</span><span class="w"> </span><span class="nb">NULL</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="w"> </span>
+<span class="n">render</span><span class="o">-&gt;</span><span class="n">SetBlend</span><span class="p">(</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="n">pRenderContext</span><span class="o">-&gt;</span><span class="n">DepthRange</span><span class="p">(</span><span class="w"> </span><span class="mf">0.0f</span><span class="p">,</span><span class="w"> </span><span class="mf">1.0f</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+</pre></div>
+<p>Here we do a couple of hacky things to make sure we write appropriately to the stencil buffer. We set the depth range to basically nil so that no shading occurs. We also set the blending to 0 to make sure we don't impart any color information. We draw the model overriding it's material to <b>m_WhiteMaterial</b> and then reset everything back to it's nominal values.
+</p>
+<h3><span id="CEntGlowEffect::RenderToGlowTexture.28.29"></span><span class="mw-headline" id="CEntGlowEffect::RenderToGlowTexture()">CEntGlowEffect::RenderToGlowTexture()</span></h3>
+<p>The final bit of information regarding the effect is rendering the color of the glow to <b>m_GlowBuff1</b>.
+</p>
+<div class="mw-highlight mw-highlight-lang-cpp mw-content-ltr" dir="ltr"><pre><span></span><span class="n">pRenderContext</span><span class="o">-&gt;</span><span class="n">PushRenderTargetAndViewport</span><span class="p">(</span><span class="w"> </span><span class="n">m_GlowBuff1</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="w"> </span>
+<span class="n">modelrender</span><span class="o">-&gt;</span><span class="n">SuppressEngineLighting</span><span class="p">(</span><span class="w"> </span><span class="nb">true</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+
+<span class="c1">// Set the glow tint since selfillum trumps color modulation</span>
+<span class="n">IMaterialVar</span><span class="w"> </span><span class="o">*</span><span class="n">var</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">m_WhiteMaterial</span><span class="o">-&gt;</span><span class="n">FindVar</span><span class="p">(</span><span class="w"> </span><span class="s">&quot;$selfillumtint&quot;</span><span class="p">,</span><span class="w"> </span><span class="nb">NULL</span><span class="p">,</span><span class="w"> </span><span class="nb">false</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="n">var</span><span class="o">-&gt;</span><span class="n">SetVecValue</span><span class="p">(</span><span class="w"> </span><span class="n">m_vGlowEnts</span><span class="p">[</span><span class="n">idx</span><span class="p">]</span><span class="o">-&gt;</span><span class="n">m_fColor</span><span class="p">,</span><span class="w"> </span><span class="mi">4</span><span class="w"> </span><span class="p">);</span><span class="w"> </span><span class="c1">// Fixed compilation error</span>
+<span class="n">var</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">m_WhiteMaterial</span><span class="o">-&gt;</span><span class="n">FindVar</span><span class="p">(</span><span class="w"> </span><span class="s">&quot;$alpha&quot;</span><span class="p">,</span><span class="w"> </span><span class="nb">NULL</span><span class="p">,</span><span class="w"> </span><span class="nb">false</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="n">var</span><span class="o">-&gt;</span><span class="n">SetFloatValue</span><span class="p">(</span><span class="w"> </span><span class="n">m_vGlowEnts</span><span class="p">[</span><span class="n">idx</span><span class="p">]</span><span class="o">-&gt;</span><span class="n">m_fColor</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span><span class="w"> </span><span class="p">);</span><span class="w"> </span><span class="c1">// Fixed compilation error</span>
+<span class="w"> </span>
+<span class="n">modelrender</span><span class="o">-&gt;</span><span class="n">ForcedMaterialOverride</span><span class="p">(</span><span class="w"> </span><span class="n">m_WhiteMaterial</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="w">	</span><span class="n">pEnt</span><span class="o">-&gt;</span><span class="n">DrawModel</span><span class="p">(</span><span class="w"> </span><span class="n">STUDIO_RENDER</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="n">modelrender</span><span class="o">-&gt;</span><span class="n">ForcedMaterialOverride</span><span class="p">(</span><span class="w"> </span><span class="nb">NULL</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="w"> </span>
+<span class="n">modelrender</span><span class="o">-&gt;</span><span class="n">SuppressEngineLighting</span><span class="p">(</span><span class="w"> </span><span class="nb">false</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="w"> </span>
+<span class="n">pRenderContext</span><span class="o">-&gt;</span><span class="n">PopRenderTargetAndViewport</span><span class="p">();</span><span class="w"></span>
+</pre></div>
+<p>We start by pushing the m_GlowBuff1 as the top of the rendering stack then we supress the engine lighting so there are no variations in our glow. Then we set the color modulation for the material we are rendering (<b>m_WhiteMaterial</b>) to be the color the entity wanted when they registered with us. Finally, the entity is rendered onto the buffer and everything is reset back to the nominal values.
+</p>
+<h2><span class="mw-headline" id="Implementation">Implementation</span></h2>
+<p>To implement the effect is rather trivial. First you must include both files above into the Client project of the SDK code. Before proceeding, I suggest you do a test compile to make sure everything works out.
+</p>
+<h3><span class="mw-headline" id="Code">Code</span></h3>
+<p>Now, in order for the effect to be active at all times I add this to my <i>clientmode</i> implementation (ClientModeShared):
+</p>
+<div class="mw-highlight mw-highlight-lang-cpp mw-content-ltr" dir="ltr"><pre><span></span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;ge_screeneffects.h&quot;</span><span class="cp"></span>
+
+<span class="p">...</span><span class="w"></span>
+
+<span class="kt">void</span><span class="w"> </span><span class="n">ClientModeNormal</span><span class="o">::</span><span class="n">LevelInit</span><span class="p">(</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="kt">char</span><span class="o">*</span><span class="w"> </span><span class="n">newmap</span><span class="w"> </span><span class="p">)</span><span class="w"></span>
+<span class="p">{</span><span class="w"></span>
+<span class="w">	</span><span class="n">g_pScreenSpaceEffects</span><span class="o">-&gt;</span><span class="n">EnableScreenSpaceEffect</span><span class="p">(</span><span class="w"> </span><span class="s">&quot;ge_entglow&quot;</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="w">	</span><span class="n">BaseClass</span><span class="o">::</span><span class="n">LevelInit</span><span class="p">(</span><span class="w"> </span><span class="n">newmap</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
+
+<span class="kt">void</span><span class="w"> </span><span class="n">ClientModeNormal</span><span class="o">::</span><span class="n">LevelShutdown</span><span class="p">(</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="p">)</span><span class="w"></span>
+<span class="p">{</span><span class="w"></span>
+<span class="w">	</span><span class="n">g_pScreenSpaceEffects</span><span class="o">-&gt;</span><span class="n">DisableScreenSpaceEffect</span><span class="p">(</span><span class="w"> </span><span class="s">&quot;ge_entglow&quot;</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="w">	</span><span class="n">BaseClass</span><span class="o">::</span><span class="n">LevelShutdown</span><span class="p">();</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
+</pre></div>
+<p>You might have to add these function declarations to your ClientModeShared implementation.
+</p><p>If you only want the effect to be active after some trigger or convar you can do it using the same functions as above (Enable/DisableScreenSpaceEffect(...)) but just put it in the appropriate place in your code.
+</p><p>Once the effect is enabled, we still have to get entities to register themselves with the effect so that they are drawn with it on. Since we are using the effect to highlight gameplay tokens I will show a method to active the effect from the server using Server/Client sendtable:
+</p>
+<div class="mw-highlight mw-highlight-lang-cpp mw-content-ltr" dir="ltr"><pre><span></span><span class="cp">##########################</span>
+<span class="cp">### IN THE HEADER FILE ###</span>
+<span class="cp">##########################</span>
+<span class="k">class</span><span class="w"> </span><span class="nc">CGenericToken</span><span class="w"> </span><span class="o">:</span><span class="w"> </span><span class="k">public</span><span class="w"> </span><span class="n">CGEWeaponMelee</span><span class="w"></span>
+<span class="p">{</span><span class="w"></span>
+<span class="k">public</span><span class="o">:</span><span class="w"></span>
+<span class="cp">#ifdef GAME_DLL</span>
+<span class="w">	</span><span class="c1">// Function call to set this entitie&#39;s glow</span>
+<span class="w">	</span><span class="k">virtual</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="n">SetGlow</span><span class="p">(</span><span class="w"> </span><span class="kt">bool</span><span class="w"> </span><span class="n">state</span><span class="p">,</span><span class="w"> </span><span class="n">Color</span><span class="w"> </span><span class="n">glowColor</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Color</span><span class="p">(</span><span class="mi">255</span><span class="p">,</span><span class="mi">255</span><span class="p">,</span><span class="mi">255</span><span class="p">)</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="cp">#else</span>
+<span class="w">	</span><span class="c1">// This is called after we receive and process a network data packet</span>
+<span class="w">	</span><span class="k">virtual</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">PostDataUpdate</span><span class="p">(</span><span class="w"> </span><span class="n">DataUpdateType_t</span><span class="w"> </span><span class="n">updateType</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="cp">#endif</span>
+
+<span class="k">private</span><span class="o">:</span><span class="w"></span>
+<span class="cp">#ifdef CLIENT_DLL</span>
+<span class="w">	</span><span class="n">CEntGlowEffect</span><span class="w"> </span><span class="o">*</span><span class="n">m_pEntGlowEffect</span><span class="p">;</span><span class="w"></span>
+<span class="w">	</span><span class="kt">bool</span><span class="w"> </span><span class="n">m_bClientGlow</span><span class="p">;</span><span class="w"></span>
+<span class="cp">#endif</span>
+<span class="w">	</span><span class="n">CNetworkVar</span><span class="p">(</span><span class="w"> </span><span class="kt">bool</span><span class="p">,</span><span class="w"> </span><span class="n">m_bEnableGlow</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="w">	</span><span class="n">CNetworkVar</span><span class="p">(</span><span class="w"> </span><span class="n">color32</span><span class="p">,</span><span class="w"> </span><span class="n">m_GlowColor</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="p">};</span><span class="w"></span>
+
+
+<span class="cp">#######################</span>
+<span class="cp">### IN THE CPP FILE ###</span>
+<span class="cp">#######################</span>
+<span class="n">BEGIN_NETWORK_TABLE</span><span class="p">(</span><span class="w"> </span><span class="n">CGenericToken</span><span class="p">,</span><span class="w"> </span><span class="n">DT_GenericToken</span><span class="w"> </span><span class="p">)</span><span class="w"></span>
+<span class="cp">#ifdef CLIENT_DLL</span>
+<span class="w">	</span><span class="n">RecvPropBool</span><span class="p">(</span><span class="w"> </span><span class="n">RECVINFO</span><span class="p">(</span><span class="n">m_bEnableGlow</span><span class="p">)</span><span class="w"> </span><span class="p">),</span><span class="w"></span>
+<span class="w">	</span><span class="n">RecvPropInt</span><span class="p">(</span><span class="w"> </span><span class="n">RECVINFO</span><span class="p">(</span><span class="n">m_GlowColor</span><span class="p">),</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="n">RecvProxy_IntToColor32</span><span class="w"> </span><span class="p">),</span><span class="w"></span>
+<span class="cp">#else</span>
+<span class="w">	</span><span class="n">SendPropBool</span><span class="p">(</span><span class="w"> </span><span class="n">SENDINFO</span><span class="p">(</span><span class="n">m_bEnableGlow</span><span class="p">)</span><span class="w"> </span><span class="p">),</span><span class="w"></span>
+<span class="w">	</span><span class="n">SendPropInt</span><span class="p">(</span><span class="w"> </span><span class="n">SENDINFO</span><span class="p">(</span><span class="n">m_GlowColor</span><span class="p">),</span><span class="w"> </span><span class="mi">32</span><span class="p">,</span><span class="w"> </span><span class="n">SPROP_UNSIGNED</span><span class="p">,</span><span class="w"> </span><span class="n">SendProxy_Color32ToInt</span><span class="w"> </span><span class="p">),</span><span class="w"></span>
+<span class="cp">#endif</span>
+<span class="n">END_NETWORK_TABLE</span><span class="p">()</span><span class="w"></span>
+
+<span class="n">CGenericToken</span><span class="o">::</span><span class="n">CGenericToken</span><span class="p">(</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="p">)</span><span class="w"></span>
+<span class="p">{</span><span class="w"></span>
+<span class="cp">#ifdef GAME_DLL</span>
+<span class="w">	</span><span class="n">color32</span><span class="w"> </span><span class="n">col32</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="mi">255</span><span class="p">,</span><span class="w"> </span><span class="mi">255</span><span class="p">,</span><span class="w"> </span><span class="mi">255</span><span class="p">,</span><span class="w"> </span><span class="mi">100</span><span class="w"> </span><span class="p">};</span><span class="w"></span>
+<span class="w">	</span><span class="n">m_GlowColor</span><span class="p">.</span><span class="n">Set</span><span class="p">(</span><span class="w"> </span><span class="n">col32</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="cp">#else</span>
+<span class="w">	</span><span class="n">m_bClientGlow</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">false</span><span class="p">;</span><span class="w"></span>
+<span class="w">	</span><span class="n">m_pEntGlowEffect</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="n">CEntGlowEffect</span><span class="o">*</span><span class="p">)</span><span class="n">g_pScreenSpaceEffects</span><span class="o">-&gt;</span><span class="n">GetScreenSpaceEffect</span><span class="p">(</span><span class="s">&quot;ge_entglow&quot;</span><span class="p">);</span><span class="w"></span>
+<span class="cp">#endif</span>
+
+<span class="w">	</span><span class="n">m_bEnableGlow</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">false</span><span class="p">;</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
+
+
+<span class="cp">#ifdef GAME_DLL</span>
+<span class="kt">void</span><span class="w"> </span><span class="n">CGenericToken</span><span class="o">::</span><span class="n">SetGlow</span><span class="p">(</span><span class="w"> </span><span class="kt">bool</span><span class="w"> </span><span class="n">state</span><span class="p">,</span><span class="w"> </span><span class="n">Color</span><span class="w"> </span><span class="n">glowColor</span><span class="w"> </span><span class="cm">/*=Color(255,255,255)*/</span><span class="w"> </span><span class="p">)</span><span class="w"></span>
+<span class="p">{</span><span class="w"></span>
+<span class="w">	</span><span class="n">m_bGlowSetting</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">state</span><span class="p">;</span><span class="w"></span>
+<span class="w">	</span><span class="n">color32</span><span class="w"> </span><span class="n">col32</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="n">glowColor</span><span class="p">.</span><span class="n">r</span><span class="p">(),</span><span class="w"> </span><span class="n">glowColor</span><span class="p">.</span><span class="n">g</span><span class="p">(),</span><span class="w"> </span><span class="n">glowColor</span><span class="p">.</span><span class="n">b</span><span class="p">(),</span><span class="w"> </span><span class="n">glowColor</span><span class="p">.</span><span class="n">a</span><span class="p">()</span><span class="w"> </span><span class="p">};</span><span class="w"></span>
+
+<span class="w">	</span><span class="n">m_GlowColor</span><span class="p">.</span><span class="n">Set</span><span class="p">(</span><span class="w"> </span><span class="n">col32</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="w">	</span><span class="n">m_bEnableGlow</span><span class="p">.</span><span class="n">Set</span><span class="p">(</span><span class="w"> </span><span class="n">state</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
+<span class="cp">#else</span>
+<span class="kt">void</span><span class="w"> </span><span class="n">CGenericToken</span><span class="o">::</span><span class="n">PostDataUpdate</span><span class="p">(</span><span class="w"> </span><span class="n">DataUpdateType_t</span><span class="w"> </span><span class="n">updateType</span><span class="w"> </span><span class="p">)</span><span class="w"></span>
+<span class="p">{</span><span class="w"></span>
+<span class="w">	</span><span class="n">BaseClass</span><span class="o">::</span><span class="n">PostDataUpdate</span><span class="p">(</span><span class="w"> </span><span class="n">updateType</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+
+<span class="w">	</span><span class="n">color32</span><span class="w"> </span><span class="n">col</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">m_GlowColor</span><span class="p">.</span><span class="n">Get</span><span class="p">();</span><span class="w"></span>
+<span class="w">	</span><span class="c1">// Did we change glow states?</span>
+<span class="w">	</span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="w"> </span><span class="n">m_bClientGlow</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="n">m_bEnableGlow</span><span class="w"> </span><span class="p">)</span><span class="w"></span>
+<span class="w">	</span><span class="p">{</span><span class="w"></span>
+<span class="w">		</span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="w"> </span><span class="n">m_bEnableGlow</span><span class="w"> </span><span class="p">)</span><span class="w"></span>
+<span class="w">		</span><span class="p">{</span><span class="w"></span>
+<span class="w">			</span><span class="c1">// Register us with the effect</span>
+<span class="w">			</span><span class="n">m_pEntGlowEffect</span><span class="o">-&gt;</span><span class="n">RegisterEnt</span><span class="p">(</span><span class="w"> </span><span class="k">this</span><span class="p">,</span><span class="w"> </span><span class="n">Color</span><span class="p">(</span><span class="n">col</span><span class="p">.</span><span class="n">r</span><span class="p">,</span><span class="w"> </span><span class="n">col</span><span class="p">.</span><span class="n">g</span><span class="p">,</span><span class="w"> </span><span class="n">col</span><span class="p">.</span><span class="n">b</span><span class="p">,</span><span class="w"> </span><span class="n">col</span><span class="p">.</span><span class="n">a</span><span class="p">)</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="w">		</span><span class="p">}</span><span class="w"></span>
+<span class="w">		</span><span class="k">else</span><span class="w"></span>
+<span class="w">		</span><span class="p">{</span><span class="w"></span>
+<span class="w">			</span><span class="c1">// Stop glowing</span>
+<span class="w">			</span><span class="n">m_pEntGlowEffect</span><span class="o">-&gt;</span><span class="n">DeregisterEnt</span><span class="p">(</span><span class="w"> </span><span class="k">this</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="w">		</span><span class="p">}</span><span class="w"></span>
+
+<span class="w">		</span><span class="n">m_bClientGlow</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">m_bEnableGlow</span><span class="p">;</span><span class="w"></span>
+<span class="w">	</span><span class="p">}</span><span class="w"></span>
+<span class="w">	</span><span class="k">else</span><span class="w"></span>
+<span class="w">	</span><span class="p">{</span><span class="w"></span>
+<span class="w">		</span><span class="c1">// Maybe we changed color? Set it anyway (not a costly function at all)</span>
+<span class="w">		</span><span class="n">m_pEntGlowEffect</span><span class="o">-&gt;</span><span class="n">SetEntColor</span><span class="p">(</span><span class="w"> </span><span class="k">this</span><span class="p">,</span><span class="w"> </span><span class="n">Color</span><span class="p">(</span><span class="n">col</span><span class="p">.</span><span class="n">r</span><span class="p">,</span><span class="w"> </span><span class="n">col</span><span class="p">.</span><span class="n">g</span><span class="p">,</span><span class="w"> </span><span class="n">col</span><span class="p">.</span><span class="n">b</span><span class="p">,</span><span class="w"> </span><span class="n">col</span><span class="p">.</span><span class="n">a</span><span class="p">)</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="w">	</span><span class="p">}</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
+<span class="cp">#endif</span>
+</pre></div>
+<p>Alternatively, you can control the color and the state strictly from the client or even via Game Events. The choice is yours, by registering entities this way you don't have to worry about messing up the rendering of the effect since everything is already taken care of for you.
+</p>
+<h3><span class="mw-headline" id="ConVars">ConVars</span></h3>
+<p>I exposed a couple of tweaking parameters that you can remove or keep in. You can achieve a FULL ENTITY glow by setting cl_ge_glowstencil to 0. The effect is not perfect and is not meant to be, but it looks pretty cool if you want to glow an entire entity.
+</p><p>You can tweak the global scale of the glow effect with cl_ge_glowscale. It is defaulted to 0.4 with 1.0 being pretty darn intense and 0.2 to be faint.
+</p>
+<h2><span class="mw-headline" id="Notes_and_Future_Work">Notes and Future Work</span></h2>
+<p>OK, this tutorial is a lot to stomach. It took a large effort on my part to get everything to work properly going from LUA and Garry's Mod to C++. I hope you guys are appreciative and use it gratuitously in your mods. Here are some hints and tricks I learned along the way:
+</p><p>The effect is only valid for entities that are in your PVS. That means if the entity leaves your vis leaf it won't be rendered anymore and the effect is nil. I am not sure of a way to correct this, but I think there is a flag that you can set to force an entity to be rendered even if it is outside of your PVS.
+</p><p>Valve's Blur Shaders (BlurFilterX and BlurFilterY) are completely messed up. They both take different parameters and BlurFilterY is disabled by default. BlurFilterX's strength does not seem to be editable via parameters. If someone can get a blur shader to work properly please let me know, as of right now BlurFilterY mainly drives the effect of this glow.
+</p><p>If you want to edit this code it is very important to keep scale in mind. If you modify the size of the glow buffers or add new ones make sure they use the same settings that these use.
+</p><p>I added a possible future feature to change the scale of blurring PER ENTITY while also having a global scale. This is useful for smaller entities where more blur is needed to get them to stand out. The only problem with this is you would have to add another glow buffer and blur the entity onto <b>m_GlowBuff2</b> and the new glow buffer THEN write the blurred texture onto <b>m_GlowBuff1</b>. It might be easier to have two effects running, one for small entities and one for large entities and have scale offset for each. However, if you split the implementation and don't share the buffers, you might get bleeding between stencil applications.
+</p>
+<h2><span class="mw-headline" id="Compatibility_with_other_Screen_Space_Effects">Compatibility with other Screen Space Effects</span></h2>
+<p>Consider replacing the final DrawScreenSpaceQuad call with DrawScreenEffectMaterial, which, unlike DrawScreenSpaceQuad, updates the full frame buffer before rendering. Only do this if you plan to use multiple screen space effects at once time, because this method of rendering is a little bit more expensive. The reason this is needed is that if you've already rendered one screeneffect, and you go to render another that uses the framebuffer without updating the framebuffer (So that it contains the first effect), you'll lose the screeneffect you rendered initially.
+</p>
+<!-- 
+NewPP limit report
+Cached time: 20260816195859
+Cache expiry: 86400
+Reduced expiry: false
+Complications: [show‐toc]
+CPU time usage: 0.076 seconds
+Real time usage: 0.238 seconds
+Preprocessor visited node count: 201/1000000
+Post‐expand include size: 2733/2097152 bytes
+Template argument size: 653/2097152 bytes
+Highest expansion depth: 13/100
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 60556/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    4.216      1 Template:Note
+100.00%    4.216      1 -total
+ 83.14%    3.505      1 Template:Callout_core
+ 39.71%    1.674      2 Template:Language
+ 22.39%    0.944      2 Template:Language/0
+ 12.31%    0.519      1 Template:Dictionary/Note/en
+-->
+
+<!-- Saved in parser cache with key developerwiki-mw_:pcache:idhash:21483-0!canonical and timestamp 20260816195859 and revision id 211438.
+ -->
+</div>
+<div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://developer.valvesoftware.com/w/index.php?title=L4D_Glow_Effect&amp;oldid=211438">https://developer.valvesoftware.com/w/index.php?title=L4D_Glow_Effect&amp;oldid=211438</a>"</div></div>
+		<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/wiki/Category:Programming" title="Category:Programming">Programming</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden category: <ul><li><a href="/wiki/Category:Pages_using_deprecated_source_tags" title="Category:Pages using deprecated source tags">Pages using deprecated source tags</a></li></ul></div></div>
+	</div>
+</div>
+
+<div id="mw-navigation">
+	<h2>Navigation menu</h2>
+	<div id="mw-head">
+		
+
+<nav id="p-personal" class="vector-menu mw-portlet mw-portlet-personal vector-user-menu-legacy" aria-labelledby="p-personal-label" role="navigation"  >
+	<h3
+		id="p-personal-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Personal tools</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="pt-createaccount" class="mw-list-item"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=L4D+Glow+Effect" title="You are encouraged to create an account and log in; however, it is not mandatory"><span>Create account</span></a></li><li id="pt-login" class="mw-list-item"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=L4D+Glow+Effect" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o"><span>Log in</span></a></li></ul>
+		
+	</div>
+</nav>
+
+		<div id="left-navigation">
+			
+
+<nav id="p-namespaces" class="vector-menu mw-portlet mw-portlet-namespaces vector-menu-tabs vector-menu-tabs-legacy" aria-labelledby="p-namespaces-label" role="navigation"  >
+	<h3
+		id="p-namespaces-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Namespaces</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="ca-nstab-main" class="selected mw-list-item"><a href="/wiki/L4D_Glow_Effect" title="View the content page [c]" accesskey="c"><span>Page</span></a></li><li id="ca-talk" class="mw-list-item"><a href="/wiki/Talk:L4D_Glow_Effect" rel="discussion" title="Discussion about the content page [t]" accesskey="t"><span>Discussion</span></a></li></ul>
+		
+	</div>
+</nav>
+
+			
+
+<nav id="p-variants" class="vector-menu mw-portlet mw-portlet-variants emptyPortlet vector-menu-dropdown" aria-labelledby="p-variants-label" role="navigation"  >
+	<input type="checkbox"
+		id="p-variants-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-variants"
+		class="vector-menu-checkbox"
+		aria-labelledby="p-variants-label"
+	/>
+	<label
+		id="p-variants-label"
+		 aria-label="Change language variant"
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">English</span>
+	</label>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"></ul>
+		
+	</div>
+</nav>
+
+		</div>
+		<div id="right-navigation">
+			
+
+<nav id="p-views" class="vector-menu mw-portlet mw-portlet-views vector-menu-tabs vector-menu-tabs-legacy" aria-labelledby="p-views-label" role="navigation"  >
+	<h3
+		id="p-views-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Views</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="ca-view" class="selected mw-list-item"><a href="/wiki/L4D_Glow_Effect"><span>Read</span></a></li><li id="ca-viewsource" class="mw-list-item"><a href="/w/index.php?title=L4D_Glow_Effect&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e"><span>View source</span></a></li><li id="ca-history" class="mw-list-item"><a href="/w/index.php?title=L4D_Glow_Effect&amp;action=history" title="Past revisions of this page [h]" accesskey="h"><span>View history</span></a></li></ul>
+		
+	</div>
+</nav>
+
+			
+
+<nav id="p-cactions" class="vector-menu mw-portlet mw-portlet-cactions emptyPortlet vector-menu-dropdown" aria-labelledby="p-cactions-label" role="navigation"  title="More options" >
+	<input type="checkbox"
+		id="p-cactions-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-cactions"
+		class="vector-menu-checkbox"
+		aria-labelledby="p-cactions-label"
+	/>
+	<label
+		id="p-cactions-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">More</span>
+	</label>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"></ul>
+		
+	</div>
+</nav>
+
+			
+<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+	<div>
+			<h3 >
+				<label for="searchInput">Search</label>
+			</h3>
+		<form action="/w/index.php" id="searchform"
+			class="vector-search-box-form">
+			<div id="simpleSearch"
+				class="vector-search-box-inner"
+				 data-search-loc="header-navigation">
+				<input class="vector-search-box-input"
+					 type="search" name="search" placeholder="Search Valve Developer Community" aria-label="Search Valve Developer Community" autocapitalize="sentences" title="Search Valve Developer Community [f]" accesskey="f" id="searchInput"
+				>
+				<input type="hidden" name="title" value="Special:Search">
+				<input id="mw-searchButton"
+					 class="searchButton mw-fallbackSearchButton" type="submit" name="fulltext" title="Search the pages for this text" value="Search">
+				<input id="searchButton"
+					 class="searchButton" type="submit" name="go" title="Go to a page with this exact name if it exists" value="Go">
+			</div>
+		</form>
+	</div>
+</div>
+
+		</div>
+	</div>
+	
+
+<div id="mw-panel">
+	<div id="p-logo" role="banner">
+		<a class="mw-wiki-logo" href="/wiki/Main_Page"
+			title="Visit the main page"></a>
+	</div>
+	
+
+<nav id="p-navigation" class="vector-menu mw-portlet mw-portlet-navigation vector-menu-portal portal" aria-labelledby="p-navigation-label" role="navigation"  >
+	<h3
+		id="p-navigation-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Navigation</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="n-mainpage" class="mw-list-item"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z"><span>Main Page</span></a></li><li id="n-index" class="mw-list-item"><a href="/wiki/SDK_Docs"><span>Source SDK index</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r"><span>Recent changes</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/wiki/Special:RandomRootpage" title="Load a random page [x]" accesskey="x"><span>Random page</span></a></li></ul>
+		
+	</div>
+</nav>
+
+	
+
+<nav id="p-workshop" class="vector-menu mw-portlet mw-portlet-workshop vector-menu-portal portal" aria-labelledby="p-workshop-label" role="navigation"  >
+	<h3
+		id="p-workshop-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Workshop</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="n-hlsdk" class="mw-list-item"><a href="/wiki/Half-Life_SDK"><span>Half-Life SDK</span></a></li><li id="n-hlatools" class="mw-list-item"><a href="/wiki/Half-Life:_Alyx_Workshop_Tools"><span>Half-Life: Alyx Tools</span></a></li><li id="n-dota2tools" class="mw-list-item"><a href="/wiki/Dota_2_Workshop_Tools"><span>Dota 2 Tools</span></a></li><li id="n-vrtools" class="mw-list-item"><a href="/wiki/SteamVR/Environments"><span>SteamVR Tools</span></a></li><li id="n-cs2tools" class="mw-list-item"><a href="/wiki/Counter-Strike_2_Workshop_Tools"><span>Counter-Strike 2 Tools</span></a></li></ul>
+		
+	</div>
+</nav>
+
+
+<nav id="p-support" class="vector-menu mw-portlet mw-portlet-support vector-menu-portal portal" aria-labelledby="p-support-label" role="navigation"  >
+	<h3
+		id="p-support-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Support</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="n-communityportal" class="mw-list-item"><a href="/wiki/Valve_Developer_Community:Community_portal"><span>Community portal</span></a></li><li id="n-gettinghelp" class="mw-list-item"><a href="/wiki/Help:Contents"><span>Getting help</span></a></li><li id="n-sdkfaq" class="mw-list-item"><a href="/wiki/Category:Source_SDK_FAQ"><span>Source SDK FAQ</span></a></li><li id="n-ldfaq" class="mw-list-item"><a href="/wiki/Category:Level_Design_FAQ"><span>Level Design FAQ</span></a></li></ul>
+		
+	</div>
+</nav>
+
+
+<nav id="p-steamcommunity" class="vector-menu mw-portlet mw-portlet-steamcommunity vector-menu-portal portal" aria-labelledby="p-steamcommunity-label" role="navigation"  >
+	<h3
+		id="p-steamcommunity-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Steam Community</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="n-sdkhub" class="mw-list-item"><a href="http://steamcommunity.com/app/211" rel="nofollow"><span>Source SDK Hub</span></a></li><li id="n-sdkdiscuss" class="mw-list-item"><a href="https://steamcommunity.com/app/211/discussions" rel="nofollow"><span>Source SDK Discussion</span></a></li><li id="n-steam" class="mw-list-item"><a href="http://www.steampowered.com" rel="nofollow"><span>Steam</span></a></li></ul>
+		
+	</div>
+</nav>
+
+
+<nav id="p-tb" class="vector-menu mw-portlet mw-portlet-tb vector-menu-portal portal" aria-labelledby="p-tb-label" role="navigation"  >
+	<h3
+		id="p-tb-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Tools</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="t-whatlinkshere" class="mw-list-item"><a href="/wiki/Special:WhatLinksHere/L4D_Glow_Effect" title="A list of all wiki pages that link here [j]" accesskey="j"><span>What links here</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/wiki/Special:RecentChangesLinked/L4D_Glow_Effect" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k"><span>Related changes</span></a></li><li id="t-specialpages" class="mw-list-item"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q"><span>Special pages</span></a></li><li id="t-print" class="mw-list-item"><a href="javascript:print();" rel="alternate" title="Printable version of this page [p]" accesskey="p"><span>Printable version</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/index.php?title=L4D_Glow_Effect&amp;oldid=211438" title="Permanent link to this revision of this page"><span>Permanent link</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/index.php?title=L4D_Glow_Effect&amp;action=info" title="More information about this page"><span>Page information</span></a></li></ul>
+		
+	</div>
+</nav>
+
+	
+</div>
+
+</div>
+
+<footer id="footer" class="mw-footer" role="contentinfo" >
+	<ul id="footer-info">
+	<li id="footer-info-lastmod"> This page was last edited on 25 November 2017, at 08:03.</li>
+</ul>
+
+	<ul id="footer-places">
+	<li id="footer-places-about"><a href="/wiki/Valve_Developer_Community:About">About Valve Developer Community</a></li>
+	<li id="footer-places-disclaimer"><a href="/wiki/Valve_Developer_Community:Terms_of_use">Terms of Use</a></li>
+	<li id="footer-places-legalnotices"><a href="Valve Developer Community:Third Party Legal Notices">Third Party Legal Notices</a></li>
+</ul>
+
+	<ul id="footer-icons" class="noprint">
+	<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img src="/w/resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/w/resources/assets/poweredby_mediawiki_132x47.png 1.5x, /w/resources/assets/poweredby_mediawiki_176x62.png 2x" width="88" height="31" loading="lazy"/></a></li>
+</ul>
+
+</footer>
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.076","walltime":"0.238","ppvisitednodes":{"value":201,"limit":1000000},"postexpandincludesize":{"value":2733,"limit":2097152},"templateargumentsize":{"value":653,"limit":2097152},"expansiondepth":{"value":13,"limit":100},"expensivefunctioncount":{"value":0,"limit":100},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":60556,"limit":5000000},"timingprofile":["100.00%    4.216      1 Template:Note","100.00%    4.216      1 -total"," 83.14%    3.505      1 Template:Callout_core"," 39.71%    1.674      2 Template:Language"," 22.39%    0.944      2 Template:Language/0"," 12.31%    0.519      1 Template:Dictionary/Note/en"]},"cachereport":{"timestamp":"20260816195859","ttl":86400,"transientcontent":false}}});mw.config.set({"wgBackendResponseTime":70});});</script>
+</body>
+</html>
