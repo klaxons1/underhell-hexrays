@@ -1,0 +1,83 @@
+// ********************************
+// ** auto generated pixelshader **
+// ********************************
+
+
+// Includes
+#include "common_ps_fxc.h"
+#include "common_vertexlitgeneric_dx9.h"
+#include "common_lightmappedgeneric_fxc.h"
+#include "common_flashlight_fxc.h"
+#include "common_parallax.h"
+
+
+// Samplers
+sampler _Sampler_00		: register( s0 );
+sampler _Sampler_01		: register( s1 );
+
+// Semantic structures
+struct PS_INPUT
+{
+	float2 vTexCoord_0			:	TEXCOORD0;
+};
+
+struct PS_OUTPUT
+{
+	float4 vColor_0				:	COLOR0;
+};
+
+// Entry point
+PS_OUTPUT main( const PS_INPUT In )
+{
+	PS_OUTPUT Out;
+	float3 _var0 = tex2D( _Sampler_00, In.vTexCoord_0 ).rgb;
+	float2 _var1 = In.vTexCoord_0 - float( 0.500000 );
+	float2 _var2 = In.vTexCoord_0 - float2( 0.300000, 0.400000 );
+	float2 _var3 = In.vTexCoord_0 - float2( 0.700000, 0.400000 );
+	float2 _var4 = normalize( _var1 );
+	float _var5 = length( _var2 );
+	float _var6 = length( _var3 );
+	float _var7 = length( _var1 );
+	float _var8 = dot( _var4, float2( 0.250000, 0.000000 ) );
+	float _var9 = dot( _var4, float2( 0.000000, 0.500000 ) );
+	_var5 = min( _var5, _var6 );
+	_var7 = smoothstep( float( 2.000000 ), float( -10.000000 ), _var7 );
+	_var8 = _var8 * float( 0.500000 );
+	_var9 = _var9 * float( 0.500000 );
+	float _var10 = smoothstep( float( 0.250000 ), float( 0.300000 ), _var5 );
+	float _var11 = smoothstep( float( 0.425000 ), float( 0.100000 ), _var5 );
+	float _var12 = smoothstep( float( 0.200000 ), float( 0.600000 ), _var5 );
+	_var8 = abs( _var8 );
+	_var9 = abs( _var9 );
+	_var12 = 1.0f - _var12;
+	_var8 = float( 1.000000 ) - _var8;
+	_var9 = float( 1.000000 ) - _var9;
+	float2 _var13 = float2( _var8, _var9 );
+	_var13 = lerp( float( 1.000000 ), _var13, _var10 );
+	{
+		float2 center_def = float2( 0.5f, 0.5f );
+		float rot_def = float( 0.0f );
+		float2 trans_def = float2( 0.0f, 0.0f );
+		float fs = sin( rot_def );
+		float fc = cos( rot_def );
+		float4 row_0 = float4( fc * _var13.x, -fs * _var13.x, 0, ( -center_def.x * fc + center_def.y * fs ) * _var13.x + center_def.x + trans_def.x );
+		float4 row_1 = float4( fs * _var13.y, fc * _var13.y, 0, ( -center_def.x * fs - center_def.y * fc ) * _var13.y + center_def.y + trans_def.y );
+		_var13.x = dot( float4( In.vTexCoord_0, 0, 1 ), row_0 );
+		_var13.y = dot( float4( In.vTexCoord_0, 0, 1 ), row_1 );
+	}
+	float3 _var14 = tex2D( _Sampler_01, _var13 ).rgb;
+	_var0 = lerp( _var0, _var14, _var11 );
+	float _var15 = dot( _var0, float3( 0.450000, 0.400000, 0.500000 ) );
+	float3 _var16 = _var0 * _var12;
+	float _var17 = smoothstep( float( 0.600000 ), float( 0.750000 ), _var15 );
+	float _var18 = smoothstep( float( 0.500000 ), float( 1.000000 ), _var15 );
+	float4 _var19 = float4( _var16.x, _var16.y, _var16.z, 1.000000 );
+	float3 _var20 = _var0 / _var17;
+	float3 _var21 = lerp( _var0, float3( 0.450000, 0.400000, 0.500000 ), _var17 );
+	Out.vColor_0 = _var19;
+	_var20 = saturate( _var20 );
+	_var21 = lerp( _var21, float3( 0.450000, 0.400000, 0.500000 ), _var18 );
+	float _var22 = dot( _var20, float3( 0.450000, 0.400000, 0.500000 ) );
+	_var21 = _var22 * _var21;
+	return Out;
+}

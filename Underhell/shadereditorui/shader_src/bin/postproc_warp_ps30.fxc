@@ -1,0 +1,213 @@
+// ********************************
+// ** auto generated pixelshader **
+// ********************************
+
+
+// Includes
+#include "common_ps_fxc.h"
+#include "common_vertexlitgeneric_dx9.h"
+#include "common_lightmappedgeneric_fxc.h"
+#include "common_flashlight_fxc.h"
+#include "common_parallax.h"
+
+
+// Samplers
+sampler _Sampler_00		: register( s0 );
+sampler _Sampler_01		: register( s1 );
+sampler _Sampler_02		: register( s2 );
+sampler _Sampler_03		: register( s3 );
+
+// Constants
+const float _g_Time		: register( c16 );
+
+// Arrays
+static const float g_cArray_197[20] =
+{
+	float( 0.002881f ),
+	float( 0.006006f ),
+	float( 0.011541f ),
+	float( 0.020437f ),
+	float( 0.033352f ),
+	float( 0.050163f ),
+	float( 0.069534f ),
+	float( 0.088829f ),
+	float( 0.104583f ),
+	float( 0.113478f ),
+	float( 0.113478f ),
+	float( 0.104583f ),
+	float( 0.088829f ),
+	float( 0.069534f ),
+	float( 0.050163f ),
+	float( 0.033352f ),
+	float( 0.020437f ),
+	float( 0.011541f ),
+	float( 0.006006f ),
+	float( 0.002881f ),
+};
+
+// Semantic structures
+struct PS_INPUT
+{
+	float2 vTexCoord_0			:	TEXCOORD0;
+};
+
+struct PS_OUTPUT
+{
+	float4 vColor_0				:	COLOR0;
+};
+
+// Entry point
+PS_OUTPUT main( const PS_INPUT In )
+{
+	PS_OUTPUT Out;
+	float _var0 = float( 2.000000 ) * _g_Time;
+	float _var1 = frac( _g_Time );
+	float2 _var2 = In.vTexCoord_0 - float( 0.500000 );
+	float _var3 = float( 20.000000 ) * _g_Time;
+	float _var4 = _g_Time * float( 0.100000 );
+	float _var5 = _g_Time * float( -4.000000 );
+	float2 _var6 = float2( _g_Time, _g_Time );
+	float _var7 = _g_Time + float( 0.500000 );
+	float _var8 = frac( _g_Time );
+	float _var9 = float( 5.000000 ) * _g_Time;
+	float _var10 = _g_Time * float( 3.000000 );
+	float4 _var11 = float4( 0.000000, 0.000000, 0.000000, 0.000000 );
+	_var0 = sin( _var0 );
+	float2 _var12 = _var1.xx;
+	float _var13 = length( _var2 );
+	_var3 = cos( _var3 );
+	float2 _var14 = normalize( _var2 );
+	float2 _var15 = float2( _var4.x, 0.000000 );
+	_var6 = float( 0.010000 ) * _var6;
+	_var7 = frac( _var7 );
+	_var8 = 1.0f - _var8;
+	_var9 = sin( _var9 );
+	_var0 = float( 3.500000 ) * _var0;
+	float _var16 = smoothstep( float( 0.000000 ), float( 0.500000 ), _var13 );
+	_var3 = abs( _var3 );
+	float _var17 = smoothstep( float( 0.300000 ), float( 0.800000 ), _var13 );
+	float _var18 = dot( _var14, float2( 0.000000, 1.000000 ) );
+	float _var19 = dot( _var14, float2( 1.000000, 0.000000 ) );
+	float4 _texLookup_82 = tex2D( _Sampler_00, _var6 );
+	float _var20 = _texLookup_82.r;
+	float _var21 = _texLookup_82.g;
+	float _var22 = 1.0f - _var7;
+	float2 _var23 = _var8.xx;
+	_var9 = abs( _var9 );
+	float _var24 = _var7 - float( 0.500000 );
+	float _var25 = smoothstep( float( -0.050000 ), float( 0.200000 ), _var13 );
+	float _var26 = _var13;
+	{
+		float2 center_def = float2( 0.5f, 0.5f );
+		float fs = sin( _var0 );
+		float fc = cos( _var0 );
+		float4 row_0 = float4( fc * float2( 0.500000, 0.100000 ).x, -fs * float2( 0.500000, 0.100000 ).x, 0, ( -center_def.x * fc + center_def.y * fs ) * float2( 0.500000, 0.100000 ).x + center_def.x + _var12.x );
+		float4 row_1 = float4( fs * float2( 0.500000, 0.100000 ).y, fc * float2( 0.500000, 0.100000 ).y, 0, ( -center_def.x * fs - center_def.y * fc ) * float2( 0.500000, 0.100000 ).y + center_def.y + _var12.y );
+		_var12.x = dot( float4( In.vTexCoord_0, 0, 1 ), row_0 );
+		_var12.y = dot( float4( In.vTexCoord_0, 0, 1 ), row_1 );
+	}
+	float2 _var27 = float2( _var18, _var19 );
+	float _var28 = float( 0.500000 ) * _var18;
+	_var5 = _var5 * _var21;
+	float2 _var29 = _var22.xx;
+	_var23 = _var23 * float( 2.500000 );
+	_var10 = _var10 * _var20;
+	_var24 = abs( _var24 );
+	_var25 = _var25 * float( -0.001250 );
+	float _var30 = smoothstep( float( 0.200000 ), float( 0.850000 ), _var26 );
+	float _var31 = smoothstep( float( 0.600000 ), float( 0.000000 ), _var26 );
+	float _var32 = tex2D( _Sampler_01, _var12 ).b;
+	_var27 = float( 0.600000 ) * _var27;
+	_var28 = float( 0.500000 ) + _var28;
+	_var29 = _var29 * float( 2.000000 );
+	_var24 = _var24 * float( 2.000000 );
+	float2 _var33 = _var14 * _var25;
+	float4 _var34 = lerp( float4( 1.000000, 1.000000, 1.000000, 1.000000 ), float4( 0.500000, 0.650000, 1.000000, 1.000000 ), _var30 );
+	float4 _var35 = lerp( float4( 1.000000, 1.000000, 1.000000, 1.000000 ), float4( 1.000000, 0.975000, 0.950000, 1.000000 ), _var31 );
+	{
+		float2 center_def = float2( 0.5f, 0.5f );
+		float rot_def = float( 0.0f );
+		float2 trans_def = float2( 0.0f, 0.0f );
+		float fs = sin( rot_def );
+		float fc = cos( rot_def );
+		float4 row_0 = float4( fc * float2( 1.500000, 0.250000 ).x, -fs * float2( 1.500000, 0.250000 ).x, 0, ( -center_def.x * fc + center_def.y * fs ) * float2( 1.500000, 0.250000 ).x + center_def.x + trans_def.x );
+		float4 row_1 = float4( fs * float2( 1.500000, 0.250000 ).y, fc * float2( 1.500000, 0.250000 ).y, 0, ( -center_def.x * fs - center_def.y * fc ) * float2( 1.500000, 0.250000 ).y + center_def.y + trans_def.y );
+		_var27.x = dot( float4( _var27, 0, 1 ), row_0 );
+		_var27.y = dot( float4( _var27, 0, 1 ), row_1 );
+	}
+	float4 _var36 = float4( _var23, _var29 );
+	_var34 = _var34 * _var35;
+	float2 _var37 = _var27 + _var15;
+	float2 _var38 = _var27 - _var15;
+	float2 _var39 = _var36.wy;
+	float2 _var40 = _var36.xz;
+	float3 _var41 = tex2D( _Sampler_00, _var37 ).rgb;
+	float3 _var42 = tex2D( _Sampler_00, _var38 ).rgb;
+	_var41 = lerp( _var41, _var42, _var28 );
+	float2 _var43 = _var41.xy;
+	_var43 = _var43 - float( 0.500000 );
+	_var43 = _var17 * _var43;
+	float2 _var44 = float( -0.100000 ) * _var43;
+	float2 _var45 = float( 0.100000 ) * _var43;
+	_var44 = _var44 + In.vTexCoord_0;
+	for ( int _var46 = 0; _var46 < 20; _var46++ )
+	{
+		float2 _var47 = _var33;
+		float2 _var48 = _var45;
+		_var47 = _var47 * _var46;
+		_var48 = _var48 + In.vTexCoord_0;
+		_var47 = _var47 + _var48;
+		float4 _var49 = tex2D( _Sampler_02, _var47 ).rgba;
+		_var49 = _var49 * g_cArray_197[_var46];
+		_var11 = _var11 + _var49;
+	}
+	{
+		float2 center_def = float2( 0.5f, 0.5f );
+		float fs = sin( _var5 );
+		float fc = cos( _var5 );
+		float4 row_0 = float4( fc * _var29.x, -fs * _var29.x, 0, ( -center_def.x * fc + center_def.y * fs ) * _var29.x + center_def.x + _var39.x );
+		float4 row_1 = float4( fs * _var29.y, fc * _var29.y, 0, ( -center_def.x * fs - center_def.y * fc ) * _var29.y + center_def.y + _var39.y );
+		_var39.x = dot( float4( _var44, 0, 1 ), row_0 );
+		_var39.y = dot( float4( _var44, 0, 1 ), row_1 );
+	}
+	{
+		float2 center_def = float2( 0.5f, 0.5f );
+		float fs = sin( _var10 );
+		float fc = cos( _var10 );
+		float4 row_0 = float4( fc * _var23.x, -fs * _var23.x, 0, ( -center_def.x * fc + center_def.y * fs ) * _var23.x + center_def.x + _var40.x );
+		float4 row_1 = float4( fs * _var23.y, fc * _var23.y, 0, ( -center_def.x * fs - center_def.y * fc ) * _var23.y + center_def.y + _var40.y );
+		_var40.x = dot( float4( _var44, 0, 1 ), row_0 );
+		_var40.y = dot( float4( _var44, 0, 1 ), row_1 );
+	}
+	float4 _var50 = tex2D( _Sampler_03, _var39 ).rgba;
+	float4 _var51 = tex2D( _Sampler_03, _var40 ).rgba;
+	_var50 = _var3 * _var50;
+	_var51 = _var9 * _var51;
+	_var50 = lerp( _var50, _var51, _var24 );
+	_var50 = _var16 * _var50;
+	_var50 = smoothstep( float( 0.150000 ), float( 0.800000 ), _var50 );
+	_var50 = _var32 * _var50;
+	float4 _var52 = smoothstep( float( 0.400000 ), float( 0.500000 ), _var50 );
+	float4 _var53 = float( 0.300000 ) * _var50;
+	float2 _var54 = _var52.yz;
+	float _var55 = _var52.x;
+	_var53 = _var53 + _var11;
+	_var54 = float( 0.300000 ) * _var54;
+	_var55 = float( 0.600000 ) * _var55;
+	float _var56 = _var53.z;
+	float3 _var57 = _var53.xyz;
+	float3 _var58 = float3( _var54, _var55 );
+	_var57 = _var57 + _var56;
+	float3 _var59 = float3( 0.000000, _var56.x, 0.000000 );
+	float3 _var60 = float3( 0.000000, 0.000000, _var56.x );
+	float4 _var61 = float4( _var58.x, _var58.y, _var58.z, 1.000000 );
+	_var57 = _var56 * _var57;
+	_var59 = lerp( _var59, _var60, float( 0.700000 ) );
+	_var59 = _var59 * float( 0.200000 );
+	_var57 = _var57 + _var59;
+	float4 _var62 = float4( _var57.x, _var57.y, _var57.z, 1.000000 );
+	_var61 = _var61 + _var62;
+	_var61 = _var61 * _var34;
+	Out.vColor_0 = _var61;
+	return Out;
+}

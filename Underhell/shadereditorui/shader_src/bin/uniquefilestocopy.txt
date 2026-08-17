@@ -1,0 +1,16 @@
+bin\dx_proxy.dll
+..\..\..\..\charlysotelo3\sourcesdk\bin\source2007\bin\tier0.dll
+..\..\..\..\charlysotelo3\sourcesdk\bin\source2007\bin\vstdlib.dll
+common_fxc.h
+common_hlsl_cpp_consts.h
+common_pragmas.h
+common_ps_fxc.h
+common_vs_fxc.h
+common_vertexlitgeneric_dx9.h
+common_lightmappedgeneric_fxc.h
+common_flashlight_fxc.h
+common_parallax.h
+..\..\..\..\charlysotelo3\sourcesdk\bin\source2007\bin\shadercompile.exe
+..\..\..\..\charlysotelo3\sourcesdk\bin\source2007\bin\shadercompile_dll.dll
+uh_gasmask_vs30.fxc
+uh_gasmask_ps30.fxc
