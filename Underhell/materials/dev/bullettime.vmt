@@ -1,0 +1,13 @@
+"Refract"
+{
+	"Refract_dx90"{
+		"$refractamount"	".5"
+	 	"$normalmap"		"dev/bullettime"
+		"$forcerefract"		"1"
+		"$bluramount"		"1"
+		"$refracttint" "[0.6 0.6 1.0]"
+		"$additive" 1
+	}
+
+}
+ 

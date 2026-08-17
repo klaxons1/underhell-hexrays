@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "_rt_CustomCamera_3"
+	"%tooltexture" "dev/dev_monitor_512"
+	"$surfaceprop" "glass"
+}

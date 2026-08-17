@@ -1,0 +1,7 @@
+"Bloom"
+{
+	// Original shader: BaseTexture
+	"$fbtexture" "_rt_FullFrameFB"
+	"$blurtexture" "_rt_SmallFB1"
+	"%noToolTexture" 1
+}
