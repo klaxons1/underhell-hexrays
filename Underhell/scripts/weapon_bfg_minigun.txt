@@ -3,22 +3,22 @@
 WeaponData
 {
 	// Weapon data is loaded by both the Game and Client DLLs.
-	"printname"	"RPK-74"
+	"printname"	"#UH_BFG_MINIGUN"
 	"viewmodel"				"models/weapons/v_minigun_pg.mdl"
 	"playermodel"			"models/weapons/w_minigun_pg.mdl"
 	"anim_prefix"			"smg2"
 	"bucket"				"5"
 	"bucket_position"		"3"
 
-	"clip_size"			"45"
+	"clip_size"				"500"
 	"clip2_size"			"-1"
 
 	"default_clip"			"500"
 	"default_clip2"			"-1"
 
-	"primary_ammo"			"smg1"
+	"primary_ammo"			"AirboatGun"
 
-	"weight"				"4"
+	"weight"				"3"
 	"item_flags"			"0"
 
 	// Recoil and Viewpunch data
@@ -34,19 +34,20 @@ WeaponData
 	// Ironsight setting.
  	ExpOffset
    	{
-		"x"   "-1.6"
-		"y"   "-2.7"
-		"z"   "0.9"
+		"x"   "1.11"
+		"y"   "-4.8"
+		"z"   "0.6"
 
-		"xori"   "0" 
+		"xori"   "-0.6" 
 		"yori"   "0" 
 		"zori"   "0"
-		"accuracy" "2"
+		"accuracy" "0.4"
   	 }
 
 	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
 	SoundData
 	{
+		"reload"			"Weapon_Minigun.Boxout"
 		"reload_npc"			"Weapon_Minigun.Boxout"
 		"empty"				"Weapon_SMG1.Empty"
 		"single_shot"			"Weapon_Minigun.Single"

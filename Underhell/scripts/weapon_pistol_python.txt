@@ -3,7 +3,7 @@
 WeaponData
 {
 	// Weapon data is loaded by both the Game and Client DLLs.
-	"printname"			"PYTHON_357"
+	"printname"			"#UH_Python"
 	"viewmodel"			"models/weapons/v_pist_python_pg.mdl"
 	"playermodel"		"models/weapons/w_pist_python_pg.mdl"
 	"anim_prefix"		"python"
@@ -19,8 +19,8 @@ WeaponData
 
 	// Recoil and Viewpunch data
 
-	"PunchPitch"  "-12, -12"
-	"PunchYaw"    "-4, 4"
+	"PunchPitch"  "-8, -8"
+	"PunchYaw"    "-2, 2"
 	
 	"SnapPitch"   "-2, 1.5"
 	"SnapYaw"   "-0.4, 0.4"
@@ -32,9 +32,9 @@ WeaponData
 	// Ironsight setting.
  	ExpOffset
    	{
-		"x"   "0"
-		"y"   "-2.29"
-		"z"   "0"
+		"x"   "0.032"
+		"y"   "-4.29"
+		"z"   "1.25"
 
 		"xori"   "-0.5" 
 		"yori"   "0" 

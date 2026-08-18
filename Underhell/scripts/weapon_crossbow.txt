@@ -22,11 +22,11 @@ WeaponData
 	// Ironsight setting.
  	ExpOffset
    	{
-		"x"   "1"
-		"y"   "-2.47"
-		"z"   "1.42"
+		"x"   "-5.57"
+		"y"   "-4.075"
+		"z"   "1.2"
 
-		"xori"   "0" 
+		"xori"   "-0.2" 
 		"yori"   "0" 
 		"zori"   "0"
 		"accuracy" "0.1"

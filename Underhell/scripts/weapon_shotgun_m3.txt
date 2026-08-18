@@ -3,14 +3,14 @@
 WeaponData
 {
 	// Weapon data is loaded by both the Game and Client DLLs.
-	"printname"	"WINCHESTER"
+	"printname"	"#Uh_Shotgun_M3"
 	"viewmodel"				"models/weapons/v_shot_m3_pg.mdl"
 	"playermodel"			"models/weapons/w_shot_m3_pg.mdl"
 	"anim_prefix"			"shotgun"
 	"bucket"				"3"
 	"bucket_position"		"1"
 
-	"clip_size"				"5"
+	"clip_size"				"7"
 	"primary_ammo"			"Buckshot"
 	"secondary_ammo"		"None"
 
@@ -33,9 +33,9 @@ WeaponData
 	// Ironsight setting.
  	ExpOffset
    	{
-		"x"   "-2"
-		"y"   "-2.6"
-		"z"   "1.8"
+		"x"   "-2.46"
+		"y"   "-2.86"
+		"z"   "1.3"
 
 		"xori"   "-0.2" 
 		"yori"   "0" 

@@ -3,7 +3,7 @@
 WeaponData
 {
 	// Weapon data is loaded by both the Game and Client DLLs.
-	"printname"	"MGL"
+	"printname"	"#Uh_BFG_MGL"
 	"viewmodel"				"models/weapons/v_mgl_pg.mdl"
 	"playermodel"			"models/weapons/w_mgl_pg.mdl"
 	"anim_prefix"			"shotgun"
@@ -14,20 +14,17 @@ WeaponData
 	"primary_ammo"			"SMG1_Grenade"
 	"secondary_ammo"		"None"
 
-	"default_clip"			"450"
-	"default_clip2"			"-1"
-
 	"weight"				"4"
 	"item_flags"			"0"
 
 	// Ironsight setting.
  	ExpOffset
    	{
-		"x"   "-2"
-		"y"   "-3.86"
-		"z"   "0.2"
+		"x"   "1.98"
+		"y"   "-3.78"
+		"z"   "1.8"
 
-		"xori"   "-3" 
+		"xori"   "2.6" 
 		"yori"   "0" 
 		"zori"   "0"
 		"accuracy" "0.5"
@@ -39,10 +36,9 @@ WeaponData
 	{
 
 		"empty"				"Weapon_Shotgun.Empty"
-		"special"			"Weapon_MGL.Load"
-		"single_shot"		        "Weapon_MGL.Single"
-                "special1"                      "Weapon_MGL.Forward"
-                "special2"                      "Weapon_MGL.Back"
+		"reload"			"Weapon_MGL.Insert"
+		"special1"			"Weapon_MGL.Load"
+		"single_shot"		"Weapon_MGL.Single"
 		// NPC WEAPON SOUNDS
 		"reload_npc"		"Weapon_Shotgun.NPC_Reload"
 		"single_shot_npc"	"Weapon_MGL.NPC.Single"

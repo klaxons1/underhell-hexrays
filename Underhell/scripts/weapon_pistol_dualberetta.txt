@@ -3,15 +3,15 @@
 WeaponData
 {
 	// Weapon data is loaded by both the Game and Client DLLs.
-	"printname"	"DEAGLE"
+	"printname"	"#UH_Dual"
 	"viewmodel"			"models/weapons/v_pist_elite.mdl"
 	"playermodel"		"models/weapons/w_pist_elite.mdl"
 	"anim_prefix"		"pistol"
 	"bucket"			"1"
 	"bucket_position"	"6"
 
-	"clip_size"			"9"
-	"primary_ammo"		"357"
+	"clip_size"			"30"
+	"primary_ammo"		"Pistol"
 	"secondary_ammo"	"None"
 
 	"weight"			"2"
@@ -21,11 +21,11 @@ WeaponData
 
 	// Recoil and Viewpunch data
 
-	"PunchPitch"  "-3, -2"
-	"PunchYaw"    "-1, 1"
+	"PunchPitch"  "-1, -0.75"
+	"PunchYaw"    "-0.6, 0.6"
 	
-	"SnapPitch"   "-0.3, 0.2"
-	"SnapYaw"   "-0.2, 0.3"
+	"SnapPitch"   "-0.7, 0.1"
+	"SnapYaw"   "-0.1, 0.1"
 
 	"CrouchRecoilMult" "0.25" // lower values means less recoil
 	"CrouchAccuracyMult" "0.5" // lower values means more accurate
@@ -47,9 +47,9 @@ WeaponData
 	// Ironsight setting.
  	ExpOffset
    	{
-		"x"   "-2"
-		"y"   "-2.87"
-		"z"   "0.17"
+		"x"   "7.0"
+		"y"   "-0.26"
+		"z"   "0.8"
 
 		"xori"   "-1" 
 		"yori"   "0" 

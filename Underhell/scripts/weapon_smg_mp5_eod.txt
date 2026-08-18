@@ -3,7 +3,7 @@
 WeaponData
 {
 	// Weapon data is loaded by both the Game and Client DLLs.
-	"printname"	"AR15"
+	"printname"	"#UH_MP5_EOD"
 	"viewmodel"				"models/weapons/v_smg_mp5_eod_pg.mdl"
 	"playermodel"			"models/weapons/w_smg_mp5_eod_pg.mdl"	
 	"anim_prefix"			"smg2"
@@ -17,6 +17,7 @@ WeaponData
 	"default_clip2"			"-1"
 
 	"primary_ammo"			"SMG1"
+	"secondary_ammo"		"SMG1_Grenade"
 
 	"weight"				"3"
 	"item_flags"			"0"
@@ -35,14 +36,14 @@ WeaponData
 	// Ironsight setting.
  	ExpOffset
    	{
-		"x"   "-1.168"
-		"y"   "-2.29"
-		"z"   "0.5"
+		"x"   "-4.84"
+		"y"   "-3.38"
+		"z"   "1.0"
 
-		"xori"   "0"
+		"xori"   "0.4"
 		"yori"   "0" 
 		"zori"   "0"
-		"accuracy" "1"
+		"accuracy" "0.1"
   	 }
 
 	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
@@ -98,16 +99,7 @@ WeaponData
 				"y"			"48"
 				"width"		"24"
 				"height"	"24"
-}
-}
+		}
+	}
 	
-"WeaponSpec"
-{
-//	0 : single
-//	1 : automatic
-//	2 : shotgun
-//	3 : autoshotgun
-"WeaponType"	"1"
-"FireRate"	"0.1"
-"UnderWater"	"0"
-
+}

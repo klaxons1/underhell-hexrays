@@ -3,14 +3,14 @@
 WeaponData
 {
 	// Weapon data is loaded by both the Game and Client DLLs.
-	"printname"	"MOSSBERG 500"
+	"printname"	"#Uh_Shotgun_M5"
 	"viewmodel"				"models/weapons/v_shot_m5_pg.mdl"
 	"playermodel"			"models/weapons/w_shot_m5_pg.mdl"
 	"anim_prefix"			"shotgun"
-	"bucket"			"3"
-	"bucket_position"		"8"
+	"bucket"				"3"
+	"bucket_position"		"3"
 
-	"clip_size"				"9"
+	"clip_size"				"5"
 	"primary_ammo"			"Buckshot"
 	"secondary_ammo"		"None"
 
@@ -34,8 +34,8 @@ WeaponData
  	ExpOffset
    	{
 		"x"   "-0.6"
-		"y"   "-1.9"
-		"z"   "1.6"
+		"y"   "-3.45"
+		"z"   "1.2"
 
 		"xori"   "0" 
 		"yori"   "0" 

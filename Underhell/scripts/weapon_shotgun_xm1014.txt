@@ -10,7 +10,7 @@ WeaponData
 	"bucket"				"3"
 	"bucket_position"		"4"
 
-	"clip_size"				"5"
+	"clip_size"				"7"
 	"primary_ammo"			"Buckshot"
 	"secondary_ammo"		"None"
 
@@ -32,14 +32,14 @@ WeaponData
 	// Ironsight setting.
  	ExpOffset
    	{
-		"x"   "1"
-		"y"   "-1.55"
+		"x"   "-3.04"
+		"y"   "-3.48"
 		"z"   "1.1"
 
-		"xori"   "0" 
+		"xori"   "0.1" 
 		"yori"   "0" 
 		"zori"   "0"
-		"accuracy" "0.9"
+		"accuracy" "0.8"
   	 }
 
 

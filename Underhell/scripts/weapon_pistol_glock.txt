@@ -45,15 +45,15 @@ WeaponData
 	// Ironsight setting.
  	ExpOffset
    	{
-		"x"   "2.5"
-		"y"   "-2.14"
-		"z"   "0.6"
+		"x"   "-0.23"
+		"y"   "-4.625"
+		"z"   "1.9"
 
-		"xori"   "-0"
+		"xori"   "-0.2"
 		"yori"   "0" 
 		"zori"   "0"
 		
-		"accuracy" "0.8"
+		"accuracy" "0.5"
   	 }
 
 	// Weapon Sprite data is loaded by the Client DLL.

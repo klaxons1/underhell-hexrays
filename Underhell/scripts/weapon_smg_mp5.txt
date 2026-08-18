@@ -3,7 +3,7 @@
 WeaponData
 {
 	// Weapon data is loaded by both the Game and Client DLLs.
-	"printname"	"MP5"
+	"printname"	"#UH_Mp5"
 	"viewmodel"				"models/weapons/v_smg_mp5_pg.mdl"
 	"playermodel"			"models/weapons/w_smg_mp5_pg.mdl"
 	"anim_prefix"			"smg2"
@@ -18,7 +18,7 @@ WeaponData
 
 	"primary_ammo"			"SMG1"
 
-	"weight"				"4"
+	"weight"				"3"
 	"item_flags"			"0"
 
 	// Recoil and Viewpunch data
@@ -29,19 +29,19 @@ WeaponData
 	"CrouchRecoilMult" "0.25" // lower values means less recoil
 	"CrouchAccuracyMult" "0.5" // lower values means more accurate
 	
-	"RunAccuracyMult" "1"
+	"RunAccuracyMult" "1.5"
 
 
  	ExpOffset
    	{
-		"x"   "-3"
-		"y"   "-2.42"
-		"z"   "0.6"
+		"x"   "-4.84"
+		"y"   "-3.68"
+		"z"   "0.8"
 
-		"xori"   "0"
+		"xori"   "1.9"
 		"yori"   "0" 
 		"zori"   "0"
-		"accuracy" "1"
+		"accuracy" "0.1"
   	 }
 
 	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)

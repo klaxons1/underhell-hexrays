@@ -3,15 +3,15 @@
 WeaponData
 {
 	// Weapon data is loaded by both the Game and Client DLLs.
-	"printname"	"SCOUT"
+	"printname"	"#UH_Rifle_Sniper"
 	"viewmodel"			"models/weapons/v_scout_pg.mdl"
 	"playermodel"			"models/weapons/w_scout_pg.mdl"
 	"anim_prefix"			"ar2"
 	"bucket"			"4"
 	"bucket_position"		"2"
 
-	"clip_size"			"7"
-	"default_clip"			"5"
+	"clip_size"			"10"
+	"default_clip"			"10"
 
 	"clip2_size"			"-1"
 	"default_clip2"			"-1"
@@ -24,14 +24,14 @@ WeaponData
 	// Ironsight setting.
  	ExpOffset
    	{
-		"x"   "-1.5"
-		"y"   "-2.68"
-		"z"   "1.21"
+		"x"   "-4.04"
+		"y"   "-3.95"
+		"z"   "1"
 
-		"xori"   "-0.0"
+		"xori"   "-3.6"
 		"yori"   "0" 
 		"zori"   "0"
-		"accuracy" "1"
+		"accuracy" "0.1"
   	 }
 
 	UH_Weapon_Special
